@@ -100,6 +100,7 @@ export function BillsExplorer({ bills, parties, referenceYear, params, interacti
         />
         <FilterSelect
           label="Sort by"
+          defaultValue="activity"
           value={filters.sort}
           onChange={(v) => set({ sort: v })}
           options={[

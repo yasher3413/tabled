@@ -9,10 +9,12 @@ export function FilterSelect({
   value,
   onChange,
   options,
+  defaultValue = "",
   className,
 }: {
   label: string
   value: string
+  defaultValue?: string
   onChange: (v: string) => void
   options: Array<{ value: string; label: string } | { group: string; options: Array<{ value: string; label: string }> }>
   className?: string
@@ -30,7 +32,7 @@ export function FilterSelect({
           onChange={(e) => onChange(e.target.value)}
           className={cn(
             "h-10 w-full min-w-0 cursor-pointer appearance-none rounded-sm border border-rule bg-paper-raised pr-8 pl-3 text-[0.9375rem] text-ink transition-colors duration-150 hover:border-ink-3",
-            value && "border-ink-3",
+            value !== defaultValue && "border-ink-3",
           )}
         >
           {options.map((o) =>

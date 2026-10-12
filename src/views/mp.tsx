@@ -88,6 +88,10 @@ export function MpView({ locale, slug }: { locale: Locale } & MpParams) {
             <Link className="link" href={L("/about#methodology")}>
               {t.howCalculated}
             </Link>
+            <span aria-hidden className="mx-2">·</span>
+            <Link className="link" href={L(`/compare?a=${m.id}`)}>
+              {fr ? "Comparer avec un autre député" : "Compare with another MP"}
+            </Link>
           </p>
         </header>
 

@@ -476,3 +476,18 @@ export function activityDates(): string[] {
   const voteDates = db.select({ d: t.votes.date }).from(t.votes).all().map((r) => r.d)
   return [...new Set([...stageDates, ...voteDates])].sort()
 }
+
+/** vote id -> ballot for one MP, for the compare tool. */
+export function memberBallotMap(slug: string): Record<string, BallotValue> | null {
+  const db = getDb()
+  const exists = db.select({ id: t.members.id }).from(t.members).where(eq(t.members.id, slug)).get()
+  if (!exists) return null
+  return Object.fromEntries(
+    db
+      .select({ voteId: t.ballots.voteId, ballot: t.ballots.ballot })
+      .from(t.ballots)
+      .where(eq(t.ballots.memberId, slug))
+      .all()
+      .map((r) => [r.voteId, r.ballot]),
+  )
+}

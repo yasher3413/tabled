@@ -17,9 +17,10 @@ MVP built (Phases 0 to 7). Impeccable finish review in progress, then DESIGN.md,
 - typecheck, lint: clean. Unit: 80 tests passing. E2E + axe: 48 passing (every route, light and dark, zero serious/critical violations).
 - Lighthouse (local prod build): home 91/100/100/100, bill 96/100/100/100, MP 93/100/100/100 (perf/a11y/best practices/SEO).
 
+## Stretch backlog
+- [x] 1. French: /fr for every page, hand-translated UI and stage explainers, official French data, hreflang, bilingual sitemap, French e2e + axe.
+
 ## Next
-- Finish review verdict and fixes; DESIGN.md via documenter.
-- MORNING.md.
 - Stretch backlog in order: French, weekly digest + RSS, per-bill/MP RSS, topic tags (needs summaries), compare MPs, previous session, Hansard excerpts, embeddable vote card, polish.
 
 ## Blocked

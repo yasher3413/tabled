@@ -6,18 +6,20 @@ import { Dialog } from "radix-ui"
 import { FileText, Search, User, Vote } from "lucide-react"
 import { useRouter } from "next/navigation"
 import { useCallback, useEffect, useState } from "react"
-import type { SearchEntry } from "@/app/search-index.json/route"
+import type { SearchEntry } from "@/app/search-index/[locale]/route"
+import type { Locale } from "@/i18n/config"
+import { getMessages } from "@/i18n/messages"
 
-const GROUPS: Array<{ k: SearchEntry["k"]; heading: string; icon: typeof FileText }> = [
-  { k: "b", heading: "Bills", icon: FileText },
-  { k: "m", heading: "MPs", icon: User },
-  { k: "v", heading: "Votes", icon: Vote },
+const GROUPS: Array<{ k: SearchEntry["k"]; icon: typeof FileText }> = [
+  { k: "b", icon: FileText },
+  { k: "m", icon: User },
+  { k: "v", icon: Vote },
 ]
 const PER_GROUP = 7
 
 let indexPromise: Promise<SearchEntry[]> | null = null
-function loadIndex() {
-  indexPromise ??= fetch("/search-index.json").then((r) => {
+function loadIndex(locale: Locale) {
+  indexPromise ??= fetch(`/search-index/${locale}`).then((r) => {
     if (!r.ok) throw new Error(`Search index returned ${r.status}`)
     return r.json() as Promise<SearchEntry[]>
   })
@@ -40,7 +42,8 @@ export function openSearch() {
   window.dispatchEvent(new Event("tabled:open-search"))
 }
 
-export function CommandPalette() {
+export function CommandPalette({ locale }: { locale: Locale }) {
+  const t = getMessages(locale).palette
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState("")
   const [index, setIndex] = useState<SearchEntry[] | null>(null)
@@ -49,8 +52,8 @@ export function CommandPalette() {
 
   const show = useCallback(() => {
     setOpen(true)
-    loadIndex().then(setIndex, () => setFailed(true))
-  }, [])
+    loadIndex(locale).then(setIndex, () => setFailed(true))
+  }, [locale])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -96,32 +99,30 @@ export function CommandPalette() {
           aria-describedby={undefined}
           className="fixed top-[12vh] left-1/2 z-50 w-[calc(100vw-2rem)] max-w-[40rem] -translate-x-1/2 overflow-hidden rounded-md border border-rule bg-paper-raised shadow-[0_24px_60px_-20px_oklch(0.2_0.02_60/0.35)] data-[state=open]:animate-fade-in"
         >
-          <Dialog.Title className="sr-only">Search Tabled</Dialog.Title>
-          <Command shouldFilter={false} loop label="Search bills, MPs and votes">
+          <Dialog.Title className="sr-only">{t.title}</Dialog.Title>
+          <Command shouldFilter={false} loop label={t.label}>
             <div className="flex items-center gap-3 border-b border-rule px-4">
               <Search className="size-4 shrink-0 text-ink-3" strokeWidth={1.75} aria-hidden />
               <Command.Input
                 value={query}
                 onValueChange={setQuery}
-                placeholder="Search bills, MPs, ridings or votes"
+                placeholder={t.placeholder}
                 className="h-14 w-full bg-transparent text-base text-ink outline-none placeholder:text-ink-3"
               />
               <kbd className="hidden shrink-0 rounded-sm border border-rule px-1.5 py-0.5 text-xs text-ink-3 sm:block">Esc</kbd>
             </div>
             <Command.List className="max-h-[min(60vh,28rem)] overflow-y-auto overscroll-contain p-2">
-              {!index && !failed && <p className="px-3 py-6 text-sm text-ink-3">Loading the index…</p>}
-              {failed && <p className="px-3 py-6 text-sm text-danger-ink">Search is unavailable right now. Try the Bills or MPs pages.</p>}
+              {!index && !failed && <p className="px-3 py-6 text-sm text-ink-3">{t.loading}</p>}
+              {failed && <p className="px-3 py-6 text-sm text-danger-ink">{t.failed}</p>}
               {empty && (
-                <p className="px-3 py-6 text-sm text-ink-2">
-                  Nothing matches “{query}”. Try a bill number like C-5, an MP’s last name or a riding.
-                </p>
+                <p className="px-3 py-6 text-sm text-ink-2">{t.nothing(query)}</p>
               )}
               {results.map(
                 (g) =>
                   g.items.length > 0 && (
                     <Command.Group
                       key={g.k}
-                      heading={terms.length ? g.heading : `Recent ${g.heading.toLowerCase()}`}
+                      heading={terms.length ? t.groups[g.k] : t.recent[g.k]}
                       className="mb-1 [&_[cmdk-group-heading]]:px-3 [&_[cmdk-group-heading]]:pt-3 [&_[cmdk-group-heading]]:pb-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-semibold [&_[cmdk-group-heading]]:text-ink-3"
                     >
                       {g.items.map((e) => (
@@ -149,7 +150,7 @@ export function CommandPalette() {
   )
 }
 
-export function SearchButton({ className }: { className?: string }) {
+export function SearchButton({ locale, className }: { locale: Locale; className?: string }) {
   return (
     <button
       type="button"
@@ -160,7 +161,7 @@ export function SearchButton({ className }: { className?: string }) {
       }
     >
       <Search className="size-4" strokeWidth={1.75} aria-hidden />
-      <span>Search</span>
+      <span>{getMessages(locale).site.search}</span>
       <KbdHint className="ml-3 hidden rounded-sm border border-rule px-1.5 text-xs sm:inline" />
     </button>
   )

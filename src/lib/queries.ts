@@ -57,7 +57,10 @@ export interface BillListItem {
   numberPrefix: string
   numberInt: number
   title: string
+  titleFr: string | null
   shortTitle: string | null
+  shortTitleFr: string | null
+  statusFr: string | null
   chamber: "house" | "senate"
   type: Bill["type"]
   typeLabel: string
@@ -104,7 +107,10 @@ export function listBills(): BillListItem[] {
     numberPrefix: b.numberPrefix,
     numberInt: b.numberInt,
     title: b.titleEn,
+    titleFr: b.titleFr,
     shortTitle: b.shortTitleEn,
+    shortTitleFr: b.shortTitleFr,
+    statusFr: b.statusFr,
     chamber: b.chamber,
     type: b.type,
     typeLabel: b.typeLabel,
@@ -195,17 +201,18 @@ export function billsMovedSince(since: string) {
 export interface VoteListItem extends Vote {
   billNumber: string | null
   billShortTitle: string | null
+  billShortTitleFr: string | null
   billSession: string | null
 }
 
 export function listVotes(): VoteListItem[] {
   return getDb()
-    .select({ vote: t.votes, billNumber: t.bills.number, billShortTitle: t.bills.shortTitleEn, billSession: t.bills.sessionId })
+    .select({ vote: t.votes, billNumber: t.bills.number, billShortTitle: t.bills.shortTitleEn, billShortTitleFr: t.bills.shortTitleFr, billSession: t.bills.sessionId })
     .from(t.votes)
     .leftJoin(t.bills, eq(t.bills.id, t.votes.billId))
     .orderBy(desc(t.votes.date), desc(t.votes.number))
     .all()
-    .map((r) => ({ ...r.vote, billNumber: r.billNumber, billShortTitle: r.billShortTitle, billSession: r.billSession }))
+    .map((r) => ({ ...r.vote, billNumber: r.billNumber, billShortTitle: r.billShortTitle, billShortTitleFr: r.billShortTitleFr, billSession: r.billSession }))
 }
 
 export interface BallotRow {
@@ -321,6 +328,7 @@ export function getMember(slug: string) {
       sessionId: t.votes.sessionId,
       date: t.votes.date,
       description: t.votes.descriptionEn,
+      descriptionFr: t.votes.descriptionFr,
       result: t.votes.result,
       ballot: t.ballots.ballot,
       isDissent: t.ballots.isDissent,

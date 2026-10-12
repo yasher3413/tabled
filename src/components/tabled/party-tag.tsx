@@ -27,7 +27,7 @@ export function PartyTag({
   return (
     <span className={cn("inline-flex items-center gap-1.5 text-[0.8125rem] whitespace-nowrap text-ink-2", className)}>
       <PartySwatch partyId={partyId} />
-      {label ?? "No party"}
+      {label}
     </span>
   )
 }

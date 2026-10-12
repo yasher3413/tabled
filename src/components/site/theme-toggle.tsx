@@ -2,17 +2,19 @@
 
 import { Monitor, Moon, Sun } from "lucide-react"
 import { useEffect, useState } from "react"
+import type { Locale } from "@/i18n/config"
+import { getMessages } from "@/i18n/messages"
 
 type Theme = "light" | "dark" | "system"
 const ORDER: Theme[] = ["system", "light", "dark"]
-const LABEL: Record<Theme, string> = { system: "Theme: match system", light: "Theme: light", dark: "Theme: dark" }
 
 function apply(theme: Theme) {
   const dark = theme === "dark" || (theme === "system" && matchMedia("(prefers-color-scheme: dark)").matches)
   document.documentElement.classList.toggle("dark", dark)
 }
 
-export function ThemeToggle() {
+export function ThemeToggle({ locale }: { locale: Locale }) {
+  const LABEL = getMessages(locale).theme
   const [theme, setTheme] = useState<Theme>("system")
 
   useEffect(() => {

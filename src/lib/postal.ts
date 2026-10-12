@@ -16,10 +16,30 @@ export function formatPostal(input: string): string {
   return n.length === 6 ? `${n.slice(0, 3)} ${n.slice(3)}` : n
 }
 
-export function postalError(input: string): string | null {
+export type PostalErrorCode = "empty" | "length" | "format"
+
+export function postalErrorCode(input: string): PostalErrorCode | null {
   const n = normalizePostal(input)
-  if (!n) return "Enter a postal code."
-  if (n.length !== 6) return "A postal code has six characters, like K1A 0A6."
-  if (!POSTAL.test(n)) return "That doesn't look like a Canadian postal code. Check for a mistyped letter or number."
+  if (!n) return "empty"
+  if (n.length !== 6) return "length"
+  if (!POSTAL.test(n)) return "format"
   return null
+}
+
+const POSTAL_ERRORS: Record<"en" | "fr", Record<PostalErrorCode, string>> = {
+  en: {
+    empty: "Enter a postal code.",
+    length: "A postal code has six characters, like K1A 0A6.",
+    format: "That doesn't look like a Canadian postal code. Check for a mistyped letter or number.",
+  },
+  fr: {
+    empty: "Entrez un code postal.",
+    length: "Un code postal compte six caractères, comme K1A 0A6.",
+    format: "Ceci ne ressemble pas à un code postal canadien. Vérifiez qu’aucune lettre ou chiffre n’est mal tapé.",
+  },
+}
+
+export function postalError(input: string, locale: "en" | "fr" = "en"): string | null {
+  const code = postalErrorCode(input)
+  return code ? POSTAL_ERRORS[locale][code] : null
 }

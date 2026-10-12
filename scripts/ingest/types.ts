@@ -88,6 +88,7 @@ export interface LIBill {
   SponsorPersonName: string | null
   SponsorPersonShortHonorificEn: string | null
   SponsorAffiliationTitleEn: string | null
+  SponsorAffiliationTitleFr?: string | null
   LatestBillEventDateTime: string | null
   LatestBillEventTypeNameEn: string | null
   LatestCompletedBillStageDateTime: string | null
@@ -100,6 +101,7 @@ export interface LIBill {
   StatuteChapter: number | null
   IsFullLegislativeSummaryAvailable: boolean
   ShortLegislativeSummaryEn: string | null
+  ShortLegislativeSummaryFr?: string | null
   IsSessionOngoing: boolean
   BillStages: {
     HouseBillStages: LIStage[]

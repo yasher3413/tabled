@@ -3,6 +3,7 @@ import path from "node:path"
 import { cacheLife } from "next/cache"
 import type { NextRequest } from "next/server"
 import { listMembers, memberParlIds, normalizeRiding, partyMap } from "@/lib/queries"
+import { partyShort } from "@/i18n/parties"
 import { formatPostal, normalizePostal, postalError } from "@/lib/postal"
 import { federalRidings, type RepresentPostcode } from "@/lib/represent"
 
@@ -30,9 +31,26 @@ async function lookupPostcode(code: string): Promise<Lookup> {
   return { ok: true, data: (await res.json()) as RepresentPostcode }
 }
 
+const ERRORS = {
+  en: {
+    down: "The postal code service is not responding. Try again in a minute.",
+    notFound: (pc: string) => `We couldn't find ${pc}. Check it, or try a nearby postal code.`,
+    busy: "Too many lookups right now. Try again in a minute.",
+    failed: "The postal code service returned an error. Try again later.",
+  },
+  fr: {
+    down: "Le service des codes postaux ne répond pas. Réessayez dans une minute.",
+    notFound: (pc: string) => `Code postal ${pc} introuvable. Vérifiez-le, ou essayez un code postal voisin.`,
+    busy: "Trop de recherches en ce moment. Réessayez dans une minute.",
+    failed: "Le service des codes postaux a renvoyé une erreur. Réessayez plus tard.",
+  },
+}
+
 export async function GET(request: NextRequest) {
   const raw = request.nextUrl.searchParams.get("postal") ?? ""
-  const error = postalError(raw)
+  const lang = request.nextUrl.searchParams.get("lang") === "fr" ? "fr" : "en"
+  const E = ERRORS[lang]
+  const error = postalError(raw, lang)
   if (error) return Response.json({ error }, { status: 400 })
   const code = normalizePostal(raw)
 
@@ -40,16 +58,16 @@ export async function GET(request: NextRequest) {
   try {
     lookup = await lookupPostcode(code)
   } catch {
-    return Response.json({ error: "The postal code service is not responding. Try again in a minute." }, { status: 502 })
+    return Response.json({ error: E.down }, { status: 502 })
   }
   if (!lookup.ok) {
     if (lookup.status === 404) {
-      return Response.json({ error: `We couldn't find ${formatPostal(code)}. Check it, or try a nearby postal code.` }, { status: 404 })
+      return Response.json({ error: E.notFound(formatPostal(code)) }, { status: 404 })
     }
     if (lookup.status === 429) {
-      return Response.json({ error: "Too many lookups right now. Try again in a minute." }, { status: 503 })
+      return Response.json({ error: E.busy }, { status: 503 })
     }
-    return Response.json({ error: "The postal code service returned an error. Try again later." }, { status: 502 })
+    return Response.json({ error: E.failed }, { status: 502 })
   }
 
   const members = listMembers().filter((m) => m.active)
@@ -67,7 +85,7 @@ export async function GET(request: NextRequest) {
     return {
       riding: r.ridingName,
       mp: member
-        ? { id: member.id, name: member.name, party: member.partyId ? (parties.get(member.partyId)?.shortName ?? null) : null, partyId: member.partyId }
+        ? { id: member.id, name: member.name, party: member.partyId ? partyShort(parties.get(member.partyId), lang) : null, partyId: member.partyId }
         : null,
     }
   })

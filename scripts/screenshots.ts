@@ -37,6 +37,10 @@ function sampleRoutes(): Array<{ name: string; path: string }> {
     { name: "parties", path: "/parties" },
     { name: "about", path: "/about" },
     { name: "not-found", path: "/this-page-does-not-exist" },
+    { name: "fr-home", path: "/fr" },
+    { name: "fr-bill-detail", path: `/fr/bills/${bill.s}/${bill.n}` },
+    { name: "fr-vote-detail", path: `/fr/votes/${vote.s}/${vote.n}` },
+    { name: "fr-mp-detail", path: `/fr/mps/${mp.id}` },
   ]
 }
 

@@ -23,3 +23,13 @@ describe("stage vocabulary", () => {
     expect(stageInfo("senate:mystery-stage").label).toBe("Mystery stage")
   })
 })
+
+describe("French stage vocabulary", () => {
+  it("describes positions and events in French", () => {
+    expect(describeStage("house:committee", "compact", "fr")).toBe("En comité (Chambre)")
+    expect(describeStage("senate:second-reading", "status", "fr")).toBe("En deuxième lecture au Sénat")
+    expect(describeStageEvent("house:first-reading", "completed", "fr")).toBe("Déposé (Chambre)")
+    expect(describeStageEvent("house:committee", "in_progress", "fr")).toBe("Maintenant en comité (Chambre)")
+    expect(stageInfo("crown:royal-assent", "fr").label).toBe("Sanction royale")
+  })
+})

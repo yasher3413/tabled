@@ -150,3 +150,10 @@ describe("summary text cleanup", () => {
     expect(stripHtml("a&nbsp;&amp;&nbsp;b")).toBe("a & b")
   })
 })
+
+describe("French summary cleanup", () => {
+  it("strips the French placeholder from the real C-4 record", () => {
+    const { bill } = normalizeBill(li("C-4"), NOW)
+    expect(bill.legisinfoSummaryTextFr).toMatch(/^Le 5 juin 2025/)
+  })
+})

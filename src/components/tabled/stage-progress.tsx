@@ -1,4 +1,6 @@
 import { cn } from "@/lib/utils"
+import type { Locale } from "@/i18n/config"
+import { getMessages } from "@/i18n/messages"
 import { currentStageLabel } from "@/lib/stages"
 import { FlagMark } from "./flag-mark"
 import type { BillListItem } from "@/lib/queries"
@@ -12,11 +14,13 @@ export function StageProgress({
   currentStage,
   className,
   showLabel = true,
+  locale = "en",
 }: {
   stages: BillListItem["stages"]
   currentStage: string
   className?: string
   showLabel?: boolean
+  locale?: Locale
 }) {
   const groups: Array<{ chamber: string; items: typeof stages }> = []
   for (const s of stages) {
@@ -25,12 +29,12 @@ export function StageProgress({
     else groups.push({ chamber: s.chamber, items: [s] })
   }
   const done = stages.filter((s) => s.state === "completed").length
-  const label = currentStageLabel(currentStage)
+  const label = currentStageLabel(currentStage, locale)
   return (
     <div className={cn("flex items-center gap-3", className)}>
       <span
         role="img"
-        aria-label={`${label}. ${done} of ${stages.length} stages complete.`}
+        aria-label={getMessages(locale).stage.progress(label, done, stages.length)}
         className="flex items-end gap-2"
       >
         {groups.map((g, gi) => (

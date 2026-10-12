@@ -4,11 +4,11 @@ import { Info } from "lucide-react"
 import { Popover } from "radix-ui"
 
 /** A small "what does this stage mean" control that works with mouse, touch and keyboard. */
-export function StageExplainer({ label, chamber, explainer }: { label: string; chamber: string; explainer: string }) {
+export function StageExplainer({ label, chamber, explainer, triggerLabel }: { label: string; chamber: string; explainer: string; triggerLabel: string }) {
   return (
     <Popover.Root>
       <Popover.Trigger
-        aria-label={`What is ${label.toLowerCase()} in the ${chamber}?`}
+        aria-label={triggerLabel}
         className="inline-flex size-6 items-center justify-center rounded-full text-ink-3 transition-colors duration-150 hover:bg-paper-sunk hover:text-accent-ink data-[state=open]:text-accent-ink"
       >
         <Info className="size-3.5" strokeWidth={1.75} />

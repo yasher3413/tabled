@@ -7,7 +7,7 @@ import type { VoteListItem } from "./queries"
 
 const votes: VoteListItem[] = fixture<OPPage<OPVoteListItem>>("openparliament/votes-list.json").objects.map((o) => {
   const v = normalizeVote(o)
-  return { ...v, hasPartySplit: v.number === 177, billNumber: v.billId?.split("/")[1] ?? null, billShortTitle: null, billSession: v.billId ? "45-1" : null }
+  return { ...v, hasPartySplit: v.number === 177, billNumber: v.billId?.split("/")[1] ?? null, billShortTitle: null, billShortTitleFr: null, billSession: v.billId ? "45-1" : null }
 })
 const run = (p: Record<string, string>) => filterVotes(votes, readVoteFilters(p)).map((v) => v.number)
 

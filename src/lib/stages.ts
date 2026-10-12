@@ -1,4 +1,7 @@
 // Plain-English explainers for each legislative stage. Written by hand, not generated.
+import type { Locale } from "@/i18n/config"
+import { getMessages } from "@/i18n/messages"
+import { BILL_TYPE_EXPLAINERS_FR, HOUSE_FR, PRIVATE_VS_GOVERNMENT_FR, ROYAL_ASSENT_FR, SENATE_FR } from "@/i18n/stages-fr"
 
 export type StageChamber = "house" | "senate" | "crown"
 
@@ -85,30 +88,26 @@ export const CHAMBER_LABEL: Record<StageChamber, string> = {
   crown: "Royal assent",
 }
 
-export function stageInfo(stageKey: string): StageInfo & { chamber: StageChamber } {
+const CHAMBER_LABEL_FR: Record<StageChamber, string> = {
+  house: "Chambre des communes",
+  senate: "Sénat",
+  crown: "Sanction royale",
+}
+
+export function chamberLabel(chamber: StageChamber, locale: Locale = "en"): string {
+  return (locale === "fr" ? CHAMBER_LABEL_FR : CHAMBER_LABEL)[chamber]
+}
+
+export function stageInfo(stageKey: string, locale: Locale = "en"): StageInfo & { chamber: StageChamber } {
   const [chamber, slug] = stageKey.split(":") as [StageChamber, string]
-  if (chamber === "crown") return { ...ROYAL_ASSENT, chamber }
-  const table = chamber === "senate" ? SENATE : HOUSE
+  if (chamber === "crown") return { ...(locale === "fr" ? ROYAL_ASSENT_FR : ROYAL_ASSENT), chamber }
+  const table = locale === "fr" ? (chamber === "senate" ? SENATE_FR : HOUSE_FR) : chamber === "senate" ? SENATE : HOUSE
   const info = table[slug] ?? {
     label: slug.replace(/-/g, " ").replace(/^./, (c) => c.toUpperCase()),
     short: slug,
-    explainer: "A stage recorded by LEGISinfo.",
+    explainer: locale === "fr" ? "Une étape consignée dans LEGISinfo." : "A stage recorded by LEGISinfo.",
   }
   return { ...info, chamber }
-}
-
-/** Where a live bill sits, phrased as a state: "In committee", "At second reading". */
-const AT_STAGE: Record<string, string> = {
-  "first-reading": "Awaiting first reading",
-  "second-reading": "At second reading",
-  committee: "In committee",
-  report: "At report stage",
-  "third-reading": "At third reading",
-}
-
-function chamberWord(chamber: string, long: boolean) {
-  if (chamber === "senate") return long ? "the Senate" : "Senate"
-  return long ? "the House of Commons" : "House"
 }
 
 /**
@@ -116,31 +115,44 @@ function chamberWord(chamber: string, long: boolean) {
  *   compact  "In committee (House)"                      bill rows, search
  *   status   "In committee in the House of Commons"      bill page header
  */
-export function describeStage(currentStage: string, form: "compact" | "status" = "compact"): string {
-  if (currentStage === "crown:royal-assent") return "Became law"
-  if (currentStage === "introduced") return "Introduced"
-  if (currentStage === "defeated") return "Defeated"
+export function describeStage(currentStage: string, form: "compact" | "status" = "compact", locale: Locale = "en"): string {
+  const m = getMessages(locale).stage
+  if (currentStage === "crown:royal-assent") return m.becameLaw
+  if (currentStage === "introduced") return m.introduced
+  if (currentStage === "defeated") return m.defeated
   const [chamber, slug] = currentStage.split(":")
-  const phrase = AT_STAGE[slug] ?? stageInfo(currentStage).label
-  return form === "status" ? `${phrase} in ${chamberWord(chamber, true)}` : `${phrase} (${chamberWord(chamber, false)})`
+  const phrase = m.at[slug] ?? stageInfo(currentStage, locale).label
+  return form === "status" ? `${phrase} ${m.inChamber[chamber]}` : `${phrase} (${m.shortChamber[chamber]})`
 }
 
 /** Back-compat name for the compact form. */
-export function currentStageLabel(currentStage: string): string {
-  return describeStage(currentStage, "compact")
+export function currentStageLabel(currentStage: string, locale: Locale = "en"): string {
+  return describeStage(currentStage, "compact", locale)
 }
 
 /** A stage event for activity feeds: "Introduced (House)", "Passed second reading (Senate)", "Now in committee (House)". */
-export function describeStageEvent(stageKey: string, state: string): string {
-  if (stageKey === "crown:royal-assent") return "Became law"
+export function describeStageEvent(stageKey: string, state: string, locale: Locale = "en"): string {
+  const m = getMessages(locale).stage
+  if (stageKey === "crown:royal-assent") return m.becameLaw
   const [chamber, slug] = stageKey.split(":")
-  const where = chamberWord(chamber, false)
-  const label = stageInfo(stageKey).label.toLowerCase()
-  if (state === "defeated") return `Defeated at ${label} (${where})`
-  if (state === "in_progress") return `Now ${(AT_STAGE[slug] ?? label).replace(/^(At|In|Awaiting) /, (m) => m.toLowerCase())} (${where})`
-  if (slug === "first-reading") return `Introduced (${where})`
-  if (slug === "committee") return `Committee study done (${where})`
-  return `Passed ${label} (${where})`
+  const where = m.shortChamber[chamber]
+  const label = stageInfo(stageKey, locale).label
+  if (state === "defeated") return `${m.eventDefeated(label)} (${where})`
+  if (state === "in_progress") {
+    const now = m.now[slug] ?? label.toLowerCase()
+    return `${now.charAt(0).toUpperCase()}${now.slice(1)} (${where})`
+  }
+  if (slug === "first-reading") return `${m.eventIntroduced} (${where})`
+  if (slug === "committee") return `${m.eventCommittee} (${where})`
+  return `${m.eventPassed(label)} (${where})`
+}
+
+export function billTypeExplainer(type: string, locale: Locale = "en"): string {
+  return (locale === "fr" ? BILL_TYPE_EXPLAINERS_FR : BILL_TYPE_EXPLAINERS)[type] ?? ""
+}
+
+export function privateVsGovernment(locale: Locale = "en"): string {
+  return locale === "fr" ? PRIVATE_VS_GOVERNMENT_FR : PRIVATE_VS_GOVERNMENT
 }
 
 export const BILL_TYPE_EXPLAINERS: Record<string, string> = {

@@ -2,6 +2,9 @@
 
 import { ChevronDown, Search, X } from "lucide-react"
 import { useId } from "react"
+import type { Locale } from "@/i18n/config"
+import { getMessages } from "@/i18n/messages"
+import { formatNumber } from "@/lib/format"
 import { cn } from "@/lib/utils"
 
 export function FilterSelect({
@@ -63,12 +66,14 @@ export function SearchField({
   onChange,
   placeholder,
   className,
+  locale = "en",
 }: {
   label: string
   value: string
   onChange: (v: string) => void
   placeholder?: string
   className?: string
+  locale?: Locale
 }) {
   const id = useId()
   return (
@@ -91,7 +96,7 @@ export function SearchField({
           <button
             type="button"
             onClick={() => onChange("")}
-            aria-label="Clear search"
+            aria-label={getMessages(locale).filters.clearSearch}
             className="absolute top-1/2 right-1.5 inline-flex size-7 -translate-y-1/2 items-center justify-center rounded-sm text-ink-3 hover:bg-paper-sunk hover:text-ink"
           >
             <X className="size-4" strokeWidth={1.75} />
@@ -102,15 +107,14 @@ export function SearchField({
   )
 }
 
-export function ResultCount({ shown, total, noun, onReset }: { shown: number; total: number; noun: string; onReset?: () => void }) {
+export function ResultCount({ shown, total, noun, onReset, locale = "en" }: { shown: number; total: number; noun: string; onReset?: () => void; locale?: Locale }) {
+  const t = getMessages(locale).filters
   return (
     <p className="flex flex-wrap items-baseline gap-x-3 text-sm text-ink-3" aria-live="polite">
-      <span>
-        {shown === total ? `${total.toLocaleString("en-CA")} ${noun}` : `${shown.toLocaleString("en-CA")} of ${total.toLocaleString("en-CA")} ${noun}`}
-      </span>
+      <span>{shown === total ? `${formatNumber(total, locale)} ${noun}` : t.of(formatNumber(shown, locale), formatNumber(total, locale), noun)}</span>
       {onReset && shown !== total && (
         <button type="button" onClick={onReset} className="link">
-          Clear filters
+          {t.clear}
         </button>
       )}
     </p>

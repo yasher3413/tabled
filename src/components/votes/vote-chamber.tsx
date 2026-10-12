@@ -7,9 +7,11 @@ import { FilterSelect, SearchField } from "@/components/filters/controls"
 import { Hemicycle, type HemicycleSeat } from "@/components/tabled/hemicycle"
 import { partyColor, PartySwatch } from "@/components/tabled/party-tag"
 import type { BallotRow, BallotValue, Party } from "@/lib/queries"
+import { localePath, type Locale } from "@/i18n/config"
+import { getMessages } from "@/i18n/messages"
+import { partyShort } from "@/i18n/parties"
 import { cn } from "@/lib/utils"
 
-const BALLOT_LABEL: Record<BallotValue, string> = { yea: "Yea", nay: "Nay", paired: "Paired", absent: "Did not vote" }
 const BALLOT_ORDER: Record<BallotValue, number> = { yea: 0, nay: 1, paired: 2, absent: 3 }
 const BALLOT_FILL: Record<BallotValue, string> = {
   yea: "var(--ballot-yea)",
@@ -20,7 +22,10 @@ const BALLOT_FILL: Record<BallotValue, string> = {
 
 type SortKey = "name" | "party" | "riding" | "ballot"
 
-export function VoteChamber({ ballots, parties, aside }: { ballots: BallotRow[]; parties: Party[]; aside?: React.ReactNode }) {
+export function VoteChamber({ ballots, parties, aside, locale = "en" }: { ballots: BallotRow[]; parties: Party[]; aside?: React.ReactNode; locale?: Locale }) {
+  const m = getMessages(locale)
+  const t = m.voteDetail
+  const BALLOT_LABEL: Record<BallotValue, string> = { yea: m.vote.yea, nay: m.vote.nay, paired: m.vote.paired, absent: m.vote.didNotVote }
   const [colorBy, setColorBy] = useState<"ballot" | "party">("ballot")
   const [hovered, setHovered] = useState<string | null>(null)
   const [q, setQ] = useState("")
@@ -31,7 +36,7 @@ export function VoteChamber({ ballots, parties, aside }: { ballots: BallotRow[];
   const query = useDeferredValue(q)
 
   const partyOrder = useMemo(() => new Map(parties.map((p, i) => [p.id, i])), [parties])
-  const partyName = useMemo(() => new Map(parties.map((p) => [p.id, p.shortName])), [parties])
+  const partyName = useMemo(() => new Map(parties.map((p) => [p.id, partyShort(p, locale)])), [parties, locale])
 
   const seatsOrdered = useMemo(
     () =>
@@ -61,7 +66,7 @@ export function VoteChamber({ ballots, parties, aside }: { ballots: BallotRow[];
     id: b.memberId,
     fill: colorBy === "ballot" ? BALLOT_FILL[b.ballot] : partyColor(b.partyId),
     variant: colorBy === "ballot" ? (b.ballot === "absent" ? "hollow" : b.ballot === "paired" ? "hatched" : "solid") : b.ballot === "absent" || b.ballot === "paired" ? "hollow" : "solid",
-    title: `${b.name}, ${partyName.get(b.partyId ?? "") ?? "Independent"}: ${BALLOT_LABEL[b.ballot]}${b.isDissent ? " (broke with party)" : ""}`,
+    title: t.seatTitle(b.name, partyName.get(b.partyId ?? "") ?? t.independent, BALLOT_LABEL[b.ballot], b.isDissent),
     dim: (filtering && !matches(b)) || (hovered !== null && hovered !== b.memberId),
     active: hovered === b.memberId,
   }))
@@ -96,7 +101,7 @@ export function VoteChamber({ ballots, parties, aside }: { ballots: BallotRow[];
         <figure className="min-w-0">
           <Hemicycle
             seats={seats}
-            label={`Seat chart of ${ballots.length} sitting MPs, arranged by party and coloured by ${colorBy}: ${counts.yea} yea, ${counts.nay} nay, ${counts.paired} paired, ${counts.absent} did not vote. The full list is in the table below.`}
+            label={t.chartLabel(ballots.length, colorBy, counts.yea, counts.nay, counts.paired, counts.absent)}
             seatProps={(seat) => ({
               onPointerEnter: () => setHovered(seat.id),
               onPointerLeave: () => setHovered(null),
@@ -105,29 +110,29 @@ export function VoteChamber({ ballots, parties, aside }: { ballots: BallotRow[];
           <figcaption className="mt-5 flex flex-wrap items-center justify-between gap-4">
             {colorBy === "ballot" ? (
               <ul className="flex flex-wrap gap-x-5 gap-y-2 text-[0.8125rem] text-ink-2">
-                <LegendItem swatch={<span className="size-2.5 rounded-full bg-yea" />} label="Yea" n={counts.yea} />
-                <LegendItem swatch={<span className="size-2.5 rounded-full bg-nay" />} label="Nay" n={counts.nay} />
-                <LegendItem swatch={<span className="size-2.5 rounded-full border-2 border-paired bg-[repeating-linear-gradient(45deg,var(--ballot-paired)_0_1px,transparent_1px_3px)]" />} label="Paired" n={counts.paired} />
-                <LegendItem swatch={<span className="size-2.5 rounded-full border-2 border-absent" />} label="Did not vote" n={counts.absent} />
+                <LegendItem swatch={<span className="size-2.5 rounded-full bg-yea" />} label={m.vote.yea} n={counts.yea} />
+                <LegendItem swatch={<span className="size-2.5 rounded-full bg-nay" />} label={m.vote.nay} n={counts.nay} />
+                <LegendItem swatch={<span className="size-2.5 rounded-full border-2 border-paired bg-[repeating-linear-gradient(45deg,var(--ballot-paired)_0_1px,transparent_1px_3px)]" />} label={m.vote.paired} n={counts.paired} />
+                <LegendItem swatch={<span className="size-2.5 rounded-full border-2 border-absent" />} label={m.vote.didNotVote} n={counts.absent} />
               </ul>
             ) : (
               <ul className="flex flex-wrap gap-x-4 gap-y-2 text-[0.8125rem] text-ink-2">
                 {parties.filter((p) => ballots.some((b) => b.partyId === p.id)).map((p) => (
-                  <LegendItem key={p.id} swatch={<PartySwatch partyId={p.id} className="rounded-full" />} label={p.shortName} n={ballots.filter((b) => b.partyId === p.id).length} />
+                  <LegendItem key={p.id} swatch={<PartySwatch partyId={p.id} className="rounded-full" />} label={partyShort(p, locale)} n={ballots.filter((b) => b.partyId === p.id).length} />
                 ))}
-                <li className="text-ink-3">Hollow: did not vote or paired</li>
+                <li className="text-ink-3">{t.hollow}</li>
               </ul>
             )}
-            <div role="group" aria-label="Colour seats by" className="inline-flex rounded-sm border border-rule p-0.5 text-[0.8125rem]">
-              {(["ballot", "party"] as const).map((m) => (
+            <div role="group" aria-label={t.colourBy} className="inline-flex rounded-sm border border-rule p-0.5 text-[0.8125rem]">
+              {(["ballot", "party"] as const).map((mode) => (
                 <button
-                  key={m}
+                  key={mode}
                   type="button"
-                  aria-pressed={colorBy === m}
-                  onClick={() => setColorBy(m)}
-                  className={cn("rounded-[2px] px-2.5 py-1 transition-colors duration-150", colorBy === m ? "bg-ink text-paper" : "text-ink-2 hover:text-ink")}
+                  aria-pressed={colorBy === mode}
+                  onClick={() => setColorBy(mode)}
+                  className={cn("rounded-[2px] px-2.5 py-1 transition-colors duration-150", colorBy === mode ? "bg-ink text-paper" : "text-ink-2 hover:text-ink")}
                 >
-                  By {m}
+                  {mode === "ballot" ? t.byBallot : t.byPartyButton}
                 </button>
               ))}
             </div>
@@ -135,25 +140,25 @@ export function VoteChamber({ ballots, parties, aside }: { ballots: BallotRow[];
         </figure>
 
         <div className="min-w-0">
-          <h3 className="text-[0.8125rem] font-semibold text-ink">Broke with their party</h3>
+          <h3 className="text-[0.8125rem] font-semibold text-ink">{t.brokeWith}</h3>
           {dissenters.length ? (
             <ul className="mt-2 border-t border-rule">
               {dissenters.map((d) => (
                 <li key={d.memberId} className="flex items-baseline justify-between gap-3 border-b border-rule py-2 text-[0.9375rem]" onPointerEnter={() => setHovered(d.memberId)} onPointerLeave={() => setHovered(null)}>
                   <span className="inline-flex min-w-0 items-center gap-2">
                     <PartySwatch partyId={d.partyId} />
-                    <Link className="link name-sc truncate" href={`/mps/${d.memberId}`}>
+                    <Link className="link name-sc truncate" href={localePath(locale, `/mps/${d.memberId}`)}>
                       {d.name}
                     </Link>
                   </span>
                   <span className="shrink-0 text-[0.8125rem] text-ink-2">
-                    Voted {BALLOT_LABEL[d.ballot].toLowerCase()}, {partyName.get(d.partyId ?? "")} majority voted {d.ballot === "yea" ? "nay" : "yea"}
+                    {t.votedAgainst(BALLOT_LABEL[d.ballot].toLowerCase(), partyName.get(d.partyId ?? "") ?? "", (d.ballot === "yea" ? m.vote.nay : m.vote.yea).toLowerCase())}
                   </span>
                 </li>
               ))}
             </ul>
           ) : (
-            <p className="mt-2 border-t border-rule pt-3 text-[0.9375rem] text-ink-2">No one. Every MP who voted sided with their party’s majority.</p>
+            <p className="mt-2 border-t border-rule pt-3 text-[0.9375rem] text-ink-2">{t.nobody}</p>
           )}
           {aside}
         </div>
@@ -162,30 +167,30 @@ export function VoteChamber({ ballots, parties, aside }: { ballots: BallotRow[];
       <section aria-labelledby="ballots" className="mt-14">
         <div className="flex items-baseline justify-between gap-4 border-b border-rule pb-2">
           <h2 id="ballots" className="font-display text-[1.375rem] leading-tight font-semibold">
-            Every MP’s vote
+            {t.everyVote}
           </h2>
           <p className="text-sm text-ink-3" aria-live="polite">
-            {rows.length === ballots.length ? `${ballots.length} MPs` : `${rows.length} of ${ballots.length} MPs`}
+            {t.mpsCount(rows.length, ballots.length)}
           </p>
         </div>
         <div className="grid grid-cols-2 gap-3 py-4 md:grid-cols-[2fr_1fr_1fr_auto] md:items-end">
-          <SearchField className="col-span-2 md:col-span-1" label="Find an MP" value={q} onChange={setQ} placeholder="Name, riding or province" />
-          <FilterSelect label="Party" value={party} onChange={setParty} options={[{ value: "", label: "All parties" }, ...parties.filter((p) => ballots.some((b) => b.partyId === p.id)).map((p) => ({ value: p.id, label: p.shortName }))]} />
-          <FilterSelect label="Vote" value={ballot} onChange={setBallot} options={[{ value: "", label: "Any vote" }, ...(["yea", "nay", "paired", "absent"] as const).map((b) => ({ value: b, label: BALLOT_LABEL[b] }))]} />
+          <SearchField className="col-span-2 md:col-span-1" label={t.findMp} value={q} onChange={setQ} placeholder={t.findPlaceholder} locale={locale} />
+          <FilterSelect label={m.vote.party} value={party} onChange={setParty} options={[{ value: "", label: t.allParties }, ...parties.filter((p) => ballots.some((b) => b.partyId === p.id)).map((p) => ({ value: p.id, label: partyShort(p, locale) }))]} />
+          <FilterSelect label={t.voteFilter} value={ballot} onChange={setBallot} options={[{ value: "", label: t.anyVote }, ...(["yea", "nay", "paired", "absent"] as const).map((b) => ({ value: b, label: BALLOT_LABEL[b] }))]} />
           <label className="col-span-2 flex h-10 cursor-pointer items-center gap-2 text-[0.9375rem] text-ink-2 md:col-span-1">
             <input type="checkbox" checked={dissentOnly} onChange={(e) => setDissentOnly(e.target.checked)} className="size-4 accent-[var(--accent-ink)]" />
-            Broke ranks only
+            {t.brokeOnly}
           </label>
         </div>
         <div className="overflow-x-auto">
           <table className="w-full min-w-[34rem] text-[0.9375rem]">
-            <caption className="sr-only">Every MP’s vote. Column headers sort the table.</caption>
+            <caption className="sr-only">{t.caption}</caption>
             <thead>
               <tr className="border-b border-rule-strong text-left text-xs text-ink-3">
-                {sortButton("name", "MP")}
-                {sortButton("party", "Party")}
-                {sortButton("riding", "Riding", "hidden sm:table-cell")}
-                {sortButton("ballot", "Vote")}
+                {sortButton("name", t.mp)}
+                {sortButton("party", m.vote.party)}
+                {sortButton("riding", t.riding, "hidden sm:table-cell")}
+                {sortButton("ballot", t.voteFilter)}
               </tr>
             </thead>
             <tbody>
@@ -197,14 +202,14 @@ export function VoteChamber({ ballots, parties, aside }: { ballots: BallotRow[];
                   className={cn("border-b border-rule transition-colors duration-100", hovered === b.memberId && "bg-paper-sunk")}
                 >
                   <th scope="row" className="py-2 pr-3 text-left font-normal">
-                    <Link className="name-sc hover:underline" href={`/mps/${b.memberId}`}>
+                    <Link className="name-sc hover:underline" href={localePath(locale, `/mps/${b.memberId}`)}>
                       {b.name}
                     </Link>
                   </th>
                   <td className="py-2 pr-3 whitespace-nowrap">
                     <span className="inline-flex items-center gap-1.5 text-ink-2">
                       <PartySwatch partyId={b.partyId} />
-                      {partyName.get(b.partyId ?? "") ?? "Independent"}
+                      {partyName.get(b.partyId ?? "") ?? t.independent}
                     </span>
                   </td>
                   <td className="hidden py-2 pr-3 text-ink-2 sm:table-cell">
@@ -216,13 +221,13 @@ export function VoteChamber({ ballots, parties, aside }: { ballots: BallotRow[];
                       <BallotMark ballot={b.ballot} />
                       {BALLOT_LABEL[b.ballot]}
                     </span>
-                    {b.isDissent && <span className="ml-2 rounded-sm bg-accent-wash px-1.5 py-0.5 text-[0.75rem] font-medium text-accent-ink">Broke ranks</span>}
+                    {b.isDissent && <span className="ml-2 rounded-sm bg-accent-wash px-1.5 py-0.5 text-[0.75rem] font-medium text-accent-ink">{t.brokeTag}</span>}
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
-          {rows.length === 0 && <p className="py-8 text-center text-[0.9375rem] text-ink-2">No MPs match these filters.</p>}
+          {rows.length === 0 && <p className="py-8 text-center text-[0.9375rem] text-ink-2">{t.noMatch}</p>}
         </div>
       </section>
     </div>

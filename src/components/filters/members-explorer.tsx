@@ -6,7 +6,11 @@ import { useDeferredValue, useMemo, useState } from "react"
 import { MemberAvatar } from "@/components/tabled/member-avatar"
 import { PartySwatch } from "@/components/tabled/party-tag"
 import { EmptyState } from "@/components/tabled/states"
-import { formatPercent, PROVINCES } from "@/lib/format"
+import type { Locale } from "@/i18n/config"
+import { localePath } from "@/i18n/config"
+import { getMessages } from "@/i18n/messages"
+import { partyShort } from "@/i18n/parties"
+import { formatPercent, provinces } from "@/lib/format"
 import { DEFAULT_MEMBER_FILTERS, filterMembers, readMemberFilters } from "@/lib/member-filters"
 import type { MemberListItem, Party } from "@/lib/queries"
 import { paramsToRecord, useReplaceParams } from "@/lib/url-state"
@@ -17,6 +21,7 @@ const PAGE = 60
 interface Props {
   members: MemberListItem[]
   parties: Party[]
+  locale: Locale
 }
 
 export function MembersExplorerWithParams(props: Props) {
@@ -24,12 +29,14 @@ export function MembersExplorerWithParams(props: Props) {
   return <MembersExplorer {...props} params={paramsToRecord(sp)} interactive />
 }
 
-export function MembersExplorer({ members, parties, params, interactive = false }: Props & { params: Record<string, string>; interactive?: boolean }) {
+export function MembersExplorer({ members, parties, locale, params, interactive = false }: Props & { params: Record<string, string>; interactive?: boolean }) {
+  const m0 = getMessages(locale)
+  const t = m0.mps
   const f = readMemberFilters(params)
   const set = useReplaceParams(params, DEFAULT_MEMBER_FILTERS as unknown as Record<string, string>)
   const q = useDeferredValue(f.q)
   const shown = useMemo(() => filterMembers(members, { ...f, q }), [members, f, q])
-  const partyName = useMemo(() => new Map(parties.map((p) => [p.id, p.shortName])), [parties])
+  const partyName = useMemo(() => new Map(parties.map((p) => [p.id, partyShort(p, locale)])), [parties, locale])
   const pool = filterMembers(members, { ...DEFAULT_MEMBER_FILTERS, status: f.status })
   const reset = () => set({ q: null, party: null, province: null, status: null, sort: null })
   const filterKey = JSON.stringify({ ...f, q })
@@ -38,64 +45,64 @@ export function MembersExplorer({ members, parties, params, interactive = false 
 
   return (
     <div>
-      <div role="search" aria-label="Filter MPs" inert={!interactive ? true : undefined} className="grid grid-cols-2 gap-3 border-b border-rule py-5 md:grid-cols-[2fr_repeat(4,minmax(0,1fr))]">
-        <SearchField className="col-span-2 md:col-span-1" label="Search" value={f.q} onChange={(v) => set({ q: v })} placeholder="Name or riding" />
-        <FilterSelect label="Party" value={f.party} onChange={(v) => set({ party: v })} options={[{ value: "", label: "All parties" }, ...parties.map((p) => ({ value: p.id, label: p.shortName }))]} />
+      <div role="search" aria-label={locale === "fr" ? "Filtrer les députés" : "Filter MPs"} inert={!interactive ? true : undefined} className="grid grid-cols-2 gap-3 border-b border-rule py-5 md:grid-cols-[2fr_repeat(4,minmax(0,1fr))]">
+        <SearchField className="col-span-2 md:col-span-1" label={m0.filters.search} value={f.q} onChange={(v) => set({ q: v })} placeholder={t.placeholder} locale={locale} />
+        <FilterSelect label={t.party} value={f.party} onChange={(v) => set({ party: v })} options={[{ value: "", label: t.allParties }, ...parties.map((p) => ({ value: p.id, label: partyShort(p, locale) }))]} />
         <FilterSelect
-          label="Province or territory"
+          label={t.province}
           value={f.province}
           onChange={(v) => set({ province: v })}
-          options={[{ value: "", label: "Anywhere" }, ...Object.entries(PROVINCES).map(([code, name]) => ({ value: code, label: name }))]}
+          options={[{ value: "", label: t.anywhere }, ...Object.entries(provinces(locale)).map(([code, name]) => ({ value: code, label: name }))]}
         />
         <FilterSelect
-          label="Show"
+          label={t.show}
           defaultValue="current"
           value={f.status}
           onChange={(v) => set({ status: v })}
           options={[
-            { value: "current", label: "Current MPs" },
-            { value: "former", label: "Left this session" },
-            { value: "all", label: "Everyone" },
+            { value: "current", label: t.current },
+            { value: "former", label: t.former },
+            { value: "all", label: t.everyone },
           ]}
         />
         <FilterSelect
-          label="Sort by"
+          label={m0.filters.sortBy}
           defaultValue="name"
           value={f.sort}
           onChange={(v) => set({ sort: v })}
           options={[
-            { value: "name", label: "Last name" },
-            { value: "party-line", label: "Party-line rate" },
-            { value: "attendance", label: "Votes cast" },
-            { value: "dissent", label: "Times broke ranks" },
-            { value: "bills", label: "Bills sponsored" },
+            { value: "name", label: t.sortName },
+            { value: "party-line", label: t.sortPartyLine },
+            { value: "attendance", label: t.sortAttendance },
+            { value: "dissent", label: t.sortDissent },
+            { value: "bills", label: t.sortBills },
           ]}
         />
       </div>
       <div className="py-3">
-        <ResultCount shown={shown.length} total={pool.length} noun={f.status === "former" ? "former MPs" : "MPs"} onReset={reset} />
+        <ResultCount shown={shown.length} total={pool.length} noun={f.status === "former" ? t.formerNoun : t.noun} onReset={reset} locale={locale} />
       </div>
       {shown.length === 0 ? (
-        <EmptyState title="No MPs match" action={<button type="button" className="link text-[0.9375rem]" onClick={reset}>Clear all filters</button>}>
-          Try a different spelling, or search by riding name. Looking for your own MP?{" "}
-          <Link className="link" href="/find">
-            Use your postal code
+        <EmptyState title={t.noneMatch} action={<button type="button" className="link text-[0.9375rem]" onClick={reset}>{m0.filters.clearAll}</button>}>
+          {t.noneHint}{" "}
+          <Link className="link" href={localePath(locale, "/find")}>
+            {t.usePostal}
           </Link>
           .
         </EmptyState>
       ) : (
         <div className="overflow-x-auto">
           <table className="w-full text-[0.9375rem]">
-            <caption className="sr-only">Members of Parliament</caption>
+            <caption className="sr-only">{t.caption}</caption>
             <thead>
               <tr className="border-y border-rule-strong text-left text-xs text-ink-3">
-                <th scope="col" className="py-2 pr-3 font-medium">MP</th>
-                <th scope="col" className="hidden py-2 pr-3 font-medium md:table-cell">Riding</th>
+                <th scope="col" className="py-2 pr-3 font-medium">{t.mp}</th>
+                <th scope="col" className="hidden py-2 pr-3 font-medium md:table-cell">{t.riding}</th>
                 <th scope="col" className="py-2 pr-3 text-right font-medium">
-                  <abbr title="Share of votes where the MP voted with their party's majority" className="no-underline">Party line</abbr>
+                  <abbr title={t.partyLineTitle} className="no-underline">{t.partyLine}</abbr>
                 </th>
-                <th scope="col" className="hidden py-2 pr-3 text-right font-medium sm:table-cell">Votes cast</th>
-                <th scope="col" className="hidden py-2 text-right font-medium lg:table-cell">Bills</th>
+                <th scope="col" className="hidden py-2 pr-3 text-right font-medium sm:table-cell">{t.votesCast}</th>
+                <th scope="col" className="hidden py-2 text-right font-medium lg:table-cell">{t.bills}</th>
               </tr>
             </thead>
             <tbody>
@@ -105,14 +112,14 @@ export function MembersExplorer({ members, parties, params, interactive = false 
                     <span className="flex items-center gap-3">
                       <MemberAvatar name={m.name} size="sm" />
                       <span className="min-w-0">
-                        <Link href={`/mps/${m.id}`} className="name-sc block text-ink after:absolute after:inset-0 group-hover:underline">
+                        <Link href={localePath(locale, `/mps/${m.id}`)} className="name-sc block text-ink after:absolute after:inset-0 group-hover:underline">
                           {m.name}
                         </Link>
                         <span className="flex items-center gap-1.5 text-[0.8125rem] text-ink-3">
                           <PartySwatch partyId={m.partyId} />
-                          {partyName.get(m.partyId ?? "") ?? "No party"}
+                          {partyName.get(m.partyId ?? "") ?? t.noParty}
                           <span className="md:hidden">· {m.ridingName}</span>
-                          {!m.active && <span>· left {m.endDate?.slice(0, 4)}</span>}
+                          {!m.active && <span>· {t.left(m.endDate?.slice(0, 4) ?? "")}</span>}
                         </span>
                       </span>
                     </span>
@@ -121,9 +128,9 @@ export function MembersExplorer({ members, parties, params, interactive = false 
                     {m.ridingName}
                     {m.province && <span className="text-ink-3">, {m.province}</span>}
                   </td>
-                  <td className="py-2.5 pr-3 text-right tabular-nums">{formatPercent(m.partyLineRate)}</td>
+                  <td className="py-2.5 pr-3 text-right tabular-nums">{formatPercent(m.partyLineRate, 1, locale)}</td>
                   <td className="hidden py-2.5 pr-3 text-right text-ink-2 tabular-nums sm:table-cell">
-                    {m.votesHeld ? `${m.votesCast} of ${m.votesHeld}` : "n/a"}
+                    {m.votesHeld ? t.of(m.votesCast, m.votesHeld) : formatPercent(null, 1, locale)}
                   </td>
                   <td className="hidden py-2.5 text-right text-ink-2 tabular-nums lg:table-cell">{m.billsSponsored}</td>
                 </tr>
@@ -137,16 +144,16 @@ export function MembersExplorer({ members, parties, params, interactive = false 
                 onClick={() => setPage({ key: filterKey, limit: limit + PAGE * 2 })}
                 className="h-10 rounded-sm border border-rule-strong px-5 text-[0.9375rem] text-ink transition-colors duration-150 hover:bg-ink hover:text-paper"
               >
-                Show more ({shown.length - limit} left)
+                {m0.filters.showMore(shown.length - limit)}
               </button>
             </div>
           )}
         </div>
       )}
       <p className="mt-6 text-[0.8125rem] text-ink-3">
-        How these are calculated, and why a missed vote is not a mark against anyone:{" "}
-        <Link className="link" href="/about#methodology">
-          methodology
+        {t.methodology}{" "}
+        <Link className="link" href={localePath(locale, "/about#methodology")}>
+          {t.methodologyLink}
         </Link>
         .
       </p>

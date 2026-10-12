@@ -11,7 +11,9 @@ const items: BillListItem[] = ["C-4", "C-39", "C-218", "S-228", "S-1001"].map((n
   return {
     ...bill,
     title: bill.titleEn,
+    titleFr: bill.titleFr,
     shortTitle: bill.shortTitleEn,
+    shortTitleFr: bill.shortTitleFr,
     sponsorMemberId: null,
     sponsorPartyId: n === "C-218" ? "conservative" : n.startsWith("C") ? "liberal" : null,
     tldr: null,

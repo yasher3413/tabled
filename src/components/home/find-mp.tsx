@@ -6,6 +6,8 @@ import { useSearchParams } from "next/navigation"
 import { useCallback, useEffect, useRef, useState } from "react"
 import { PartyTag } from "@/components/tabled/party-tag"
 import { MemberAvatar } from "@/components/tabled/member-avatar"
+import { localePath, type Locale } from "@/i18n/config"
+import { getMessages } from "@/i18n/messages"
 import { formatPostal, postalError } from "@/lib/postal"
 
 interface Result {
@@ -17,19 +19,20 @@ interface Result {
 
 type State = { kind: "idle" } | { kind: "loading" } | { kind: "error"; message: string } | { kind: "done"; result: Result }
 
-export function FindMpWithParams() {
+export function FindMpWithParams({ locale }: { locale: Locale }) {
   const sp = useSearchParams()
-  return <FindMp initial={sp.get("postal") ?? ""} />
+  return <FindMp initial={sp.get("postal") ?? ""} locale={locale} />
 }
 
-export function FindMp({ initial = "" }: { initial?: string }) {
+export function FindMp({ initial = "", locale }: { initial?: string; locale: Locale }) {
+  const t = getMessages(locale).find
   const [value, setValue] = useState(initial ? formatPostal(initial) : "")
   const [state, setState] = useState<State>({ kind: "idle" })
   const [touched, setTouched] = useState(false)
   const ran = useRef(false)
 
   const lookup = useCallback(async (input: string) => {
-    const err = postalError(input)
+    const err = postalError(input, locale)
     if (err) {
       setState({ kind: "error", message: err })
       return
@@ -37,14 +40,14 @@ export function FindMp({ initial = "" }: { initial?: string }) {
     setState({ kind: "loading" })
     window.history.replaceState(null, "", `?postal=${encodeURIComponent(formatPostal(input).replace(" ", ""))}`)
     try {
-      const res = await fetch(`/api/find?postal=${encodeURIComponent(input)}`)
+      const res = await fetch(`/api/find?postal=${encodeURIComponent(input)}&lang=${locale}`)
       const body = await res.json()
-      if (!res.ok) setState({ kind: "error", message: body.error ?? "Something went wrong. Try again." })
+      if (!res.ok) setState({ kind: "error", message: body.error ?? t.generic })
       else setState({ kind: "done", result: body })
     } catch {
-      setState({ kind: "error", message: "We couldn't reach the server. Check your connection and try again." })
+      setState({ kind: "error", message: t.network })
     }
-  }, [])
+  }, [locale, t])
 
   useEffect(() => {
     if (initial && !ran.current) {
@@ -53,7 +56,7 @@ export function FindMp({ initial = "" }: { initial?: string }) {
     }
   }, [initial, lookup])
 
-  const inlineError = touched && value ? postalError(value) : null
+  const inlineError = touched && value ? postalError(value, locale) : null
 
   return (
     <div>
@@ -67,7 +70,7 @@ export function FindMp({ initial = "" }: { initial?: string }) {
         noValidate
       >
         <label htmlFor="postal" className="text-[0.9375rem] font-medium text-ink">
-          Your postal code
+          {t.label}
         </label>
         <div className="mt-2 flex h-14 items-stretch overflow-hidden rounded-sm border border-rule-strong/70 bg-paper-raised transition-colors duration-150 focus-within:border-ink">
           <span className="flex items-center pl-4 text-ink-2">
@@ -92,34 +95,35 @@ export function FindMp({ initial = "" }: { initial?: string }) {
             className="inline-flex shrink-0 items-center gap-2 bg-ink px-5 text-[1rem] font-medium text-paper transition-colors duration-150 hover:bg-accent-ink disabled:opacity-70"
           >
             {state.kind === "loading" ? <LoaderCircle aria-hidden className="size-4 animate-spin" /> : null}
-            Find
+            {t.button}
           </button>
         </div>
         <p id="postal-help" className={inlineError ? "mt-2 text-[0.875rem] text-danger-ink" : "mt-2 text-[0.875rem] text-ink-3"}>
-          {inlineError ?? "We look up your riding with Open North’s Represent service. We don’t store your postal code."}
+          {inlineError ?? t.help}
         </p>
       </form>
 
       <div aria-live="polite" className="mt-10">
-        {state.kind === "loading" && <p className="text-[0.9375rem] text-ink-3">Looking up your riding…</p>}
+        {state.kind === "loading" && <p className="text-[0.9375rem] text-ink-3">{t.looking}</p>}
         {state.kind === "error" && !inlineError && (
           <div role="alert" className="max-w-xl border-l-2 border-danger-ink pl-4 text-[0.9375rem] text-ink">
             {state.message}
           </div>
         )}
-        {state.kind === "done" && <Results result={state.result} />}
+        {state.kind === "done" && <Results result={state.result} locale={locale} />}
       </div>
     </div>
   )
 }
 
-function Results({ result }: { result: Result }) {
+function Results({ result, locale }: { result: Result; locale: Locale }) {
+  const t = getMessages(locale).find
   if (!result.ridings.length) {
     return (
       <p className="max-w-xl text-[0.9375rem] text-ink-2">
-        We found {result.postal}, but no federal riding is linked to it yet. Try a nearby postal code, or{" "}
-        <Link className="link" href="/mps">
-          browse all MPs
+        {t.noRiding(result.postal)}{" "}
+        <Link className="link" href={localePath(locale, "/mps")}>
+          {t.browse}
         </Link>
         .
       </p>
@@ -129,11 +133,11 @@ function Results({ result }: { result: Result }) {
   return (
     <section>
       <h2 className="font-display text-[1.375rem] font-semibold">
-        {multiple ? `${result.postal} is split between ${result.ridings.length} ridings` : `Your MP for ${result.postal}`}
+        {multiple ? t.split(result.postal, result.ridings.length) : t.yourMp(result.postal)}
       </h2>
       {multiple && (
         <p className="measure mt-1 text-[0.9375rem] text-ink-2">
-          Postal codes don’t follow riding boundaries exactly. Your MP depends on your street address; Elections Canada can confirm it.
+          {t.splitNote}
         </p>
       )}
       <ul className="mt-5 grid gap-4 sm:grid-cols-2">
@@ -144,7 +148,7 @@ function Results({ result }: { result: Result }) {
               <div className="mt-3 flex items-center gap-4">
                 <MemberAvatar name={r.mp.name} />
                 <div className="min-w-0 flex-1">
-                  <Link href={`/mps/${r.mp.id}`} className="font-display text-xl font-semibold after:absolute after:inset-0 group-hover:underline">
+                  <Link href={localePath(locale, `/mps/${r.mp.id}`)} className="font-display text-xl font-semibold after:absolute after:inset-0 group-hover:underline">
                     {r.mp.name}
                   </Link>
                   <PartyTag partyId={r.mp.partyId} label={r.mp.party} className="mt-0.5 flex" />
@@ -152,17 +156,17 @@ function Results({ result }: { result: Result }) {
                 <ArrowRight aria-hidden className="size-5 text-ink-3 transition-transform duration-150 group-hover:translate-x-0.5 group-hover:text-accent-ink" strokeWidth={1.75} />
               </div>
             ) : (
-              <p className="mt-3 text-[0.9375rem] text-ink-2">This seat is currently vacant, or we don’t have its MP on record.</p>
+              <p className="mt-3 text-[0.9375rem] text-ink-2">{t.vacant}</p>
             )}
           </li>
         ))}
       </ul>
       <p className="mt-4 text-[0.8125rem] text-ink-3">
-        Riding lookup by{" "}
+        {t.credit}{" "}
         <a className="link" href="https://represent.opennorth.ca">
           Represent (Open North)
         </a>
-        , using the 2023 federal electoral map.
+        {t.creditMap}
       </p>
     </section>
   )

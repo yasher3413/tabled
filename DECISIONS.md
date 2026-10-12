@@ -21,3 +21,8 @@ One line each: decision, reason.
 - Impeccable critique (27/40) acted on in one fix batch: official summary shown openly, one stage vocabulary, paginated bills index, division-list totals, neutral ballot colours (ink yea, sepia nay) so neither side reads as "positive".
 - Added a `skipped` stage state: 17 Senate bills went from second to third reading without a committee stage, which the canonical stage list had shown as "not reached".
 - The home hemicycle uses party colours: it is a data visualisation of seat counts (allowed by the brief), not a page theme.
+- Impeccable run finished: critique, audit checks, finish review (fix, then verdict: 7 of 8 resolved plus the last one fixed), DESIGN.md written by the documenter from the shipped code.
+- French lives under /fr with its own root layout (route groups (en) and (fr)); English URLs are unchanged. Switching language is a full page load, which multiple root layouts require.
+- French pages use Parliament's official French data (titles, statuses, vote descriptions, LEGISinfo summaries, sponsor titles). AI summaries are not shown in French because they are generated from English sources.
+- Unmatched /fr/... URLs fall through to the English global 404: global-not-found has no locale. Known French records all have localized pages.
+- French OG images reuse the English cards: they carry the bill number and title, and duplicating 700 image routes was not worth the build time.

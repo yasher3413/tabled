@@ -1,24 +1,26 @@
 import { formatDate, formatShortDate } from "@/lib/format"
 import type { BillStage } from "@/lib/queries"
-import { CHAMBER_LABEL, stageInfo } from "@/lib/stages"
+import type { Locale } from "@/i18n/config"
+import { getMessages } from "@/i18n/messages"
+import { chamberLabel, stageInfo } from "@/lib/stages"
 import { cn } from "@/lib/utils"
 import { FlagMark } from "./flag-mark"
 import { StageExplainer } from "./stage-explainer"
-
-const STATE_TEXT: Record<BillStage["state"], string> = {
-  completed: "Completed",
-  in_progress: "Current stage",
-  not_reached: "Not reached",
-  defeated: "Defeated here",
-  skipped: "Skipped",
-}
 
 /**
  * The readings ledger: every stage in both chambers, in order. State is drawn by form so it reads
  * without colour: filled node and solid rule completed, ringed node with a flag current, hollow node
  * and dashed rule not reached, crossed node defeated.
  */
-export function StageTimeline({ stages, referenceYear }: { stages: BillStage[]; referenceYear: number }) {
+export function StageTimeline({ stages, referenceYear, locale = "en" }: { stages: BillStage[]; referenceYear: number; locale?: Locale }) {
+  const t = getMessages(locale).timeline
+  const STATE_TEXT: Record<BillStage["state"], string> = {
+    completed: t.completed,
+    in_progress: t.current,
+    not_reached: t.notReached,
+    defeated: t.defeatedHere,
+    skipped: t.skipped,
+  }
   const groups: Array<{ chamber: BillStage["chamber"]; items: BillStage[] }> = []
   for (const s of stages) {
     const last = groups[groups.length - 1]
@@ -31,14 +33,14 @@ export function StageTimeline({ stages, referenceYear }: { stages: BillStage[]; 
       {groups.map((g) => (
         <section
           key={g.chamber}
-          aria-label={CHAMBER_LABEL[g.chamber]}
+          aria-label={chamberLabel(g.chamber, locale)}
           className="min-w-0 lg:pr-4"
           style={{ flex: `${g.items.length} 1 0%` }}
         >
-          <h3 className="text-[0.8125rem] font-semibold text-ink">{CHAMBER_LABEL[g.chamber]}</h3>
+          <h3 className="text-[0.8125rem] font-semibold text-ink">{chamberLabel(g.chamber, locale)}</h3>
           <ol className="mt-3 flex flex-col lg:flex-row">
             {g.items.map((s) => {
-              const info = stageInfo(s.stageKey)
+              const info = stageInfo(s.stageKey, locale)
               const idx = flat.indexOf(s)
               const next = flat[idx + 1]
               const solidAfter = s.state === "completed" && next && (next.state === "completed" || next.state === "in_progress")
@@ -63,23 +65,23 @@ export function StageTimeline({ stages, referenceYear }: { stages: BillStage[]; 
                         {info.label}
                       </span>
                       <span className="ml-0.5 inline-block align-middle">
-                        <StageExplainer label={info.label} chamber={CHAMBER_LABEL[info.chamber]} explainer={info.explainer} />
+                        <StageExplainer label={info.label} chamber={chamberLabel(info.chamber, locale)} explainer={info.explainer} triggerLabel={t.whatIs(info.label, chamberLabel(info.chamber, locale))} />
                       </span>
                     </p>
                     <p className={cn("text-[0.8125rem]", s.state === "in_progress" ? "font-medium text-accent-ink" : s.state === "defeated" ? "font-medium text-danger-ink" : "text-ink-3")}>
                       <span className="sr-only">{STATE_TEXT[s.state]}. </span>
                       {s.state === "in_progress" ? (
-                        <>Now here{s.date ? <span className="font-normal text-ink-3"> since {formatShortDate(s.date, referenceYear)}</span> : null}</>
+                        <>{t.nowHere}{s.date ? <span className="font-normal text-ink-3">{t.since(formatShortDate(s.date, referenceYear, locale))}</span> : null}</>
                       ) : s.state === "defeated" ? (
-                        <>Defeated{s.date ? ` ${formatShortDate(s.date, referenceYear)}` : ""}</>
+                        <>{t.defeated}{s.date ? ` ${formatShortDate(s.date, referenceYear, locale)}` : ""}</>
                       ) : s.date ? (
-                        <time dateTime={s.date} title={formatDate(s.date)}>
-                          {formatShortDate(s.date, referenceYear)}
+                        <time dateTime={s.date} title={formatDate(s.date, locale)}>
+                          {formatShortDate(s.date, referenceYear, locale)}
                         </time>
                       ) : s.state === "completed" ? (
-                        "Date not recorded"
+                        t.noDate
                       ) : s.state === "skipped" ? (
-                        "Skipped"
+                        t.skipped
                       ) : null}
                     </p>
                   </div>

@@ -83,11 +83,12 @@ export function stripHtml(html: string): string {
 }
 
 const PLACEHOLDER = /^A legislative summary is currently being prepared[^.]*\.\s*(Meanwhile, the following executive summary is available\.)?/i
+const PLACEHOLDER_FR = /^(Le|Les) Service[s]? d.information, d.éducation et de recherche parlementaires[^.]*\.\s*(Entre-temps[^.]*\.)?/i
 
 /** Executive summary text from LEGISinfo, without the "being prepared" boilerplate. */
-export function cleanLegisinfoSummary(html: string | null): string | null {
+export function cleanLegisinfoSummary(html: string | null | undefined): string | null {
   if (!html) return null
-  const text = stripHtml(html).replace(PLACEHOLDER, "").trim()
+  const text = stripHtml(html).replace(PLACEHOLDER, "").replace(PLACEHOLDER_FR, "").trim()
   return text.length >= 80 ? text : null
 }
 
@@ -223,6 +224,7 @@ export function normalizeBill(bill: LIBill, now: string) {
       typeLabel: BILL_TYPE_LABELS[type],
       sponsorName: bill.SponsorPersonName || null,
       sponsorTitle: bill.SponsorAffiliationTitleEn || null,
+      sponsorTitleFr: bill.SponsorAffiliationTitleFr || null,
       introducedDate:
         toDate(bill.IsSenateBill ? bill.PassedSenateFirstReadingDateTime : bill.PassedHouseFirstReadingDateTime) ??
         stages.find((s) => s.date)?.date ??
@@ -243,6 +245,7 @@ export function normalizeBill(bill: LIBill, now: string) {
       textPublicationId: pub?.PublicationId ?? null,
       legislativeSummaryUrl: legislativeSummaryUrl(bill),
       legisinfoSummaryText: cleanLegisinfoSummary(bill.ShortLegislativeSummaryEn),
+      legisinfoSummaryTextFr: cleanLegisinfoSummary(bill.ShortLegislativeSummaryFr),
       lastActivityDate,
       lastActivityLabel: bill.LatestBillEventTypeNameEn || null,
       lastUpdated: now,

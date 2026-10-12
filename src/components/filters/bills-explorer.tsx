@@ -7,6 +7,9 @@ import { BillRow } from "@/components/tabled/bill-row"
 import { EmptyState } from "@/components/tabled/states"
 import { DEFAULT_BILL_FILTERS, filterBills, readBillFilters } from "@/lib/bill-filters"
 import type { BillListItem, Party } from "@/lib/queries"
+import type { Locale } from "@/i18n/config"
+import { getMessages } from "@/i18n/messages"
+import { partyShort } from "@/i18n/parties"
 import { stageInfo } from "@/lib/stages"
 import { paramsToRecord, useReplaceParams } from "@/lib/url-state"
 import { FilterSelect, ResultCount, SearchField } from "./controls"
@@ -22,6 +25,7 @@ interface Props {
   bills: BillListItem[]
   parties: Party[]
   referenceYear: number
+  locale: Locale
 }
 
 export function BillsExplorerWithParams(props: Props) {
@@ -29,7 +33,9 @@ export function BillsExplorerWithParams(props: Props) {
   return <BillsExplorer {...props} params={paramsToRecord(sp)} interactive />
 }
 
-export function BillsExplorer({ bills, parties, referenceYear, params, interactive = false }: Props & { params: Record<string, string>; interactive?: boolean }) {
+export function BillsExplorer({ bills, parties, referenceYear, locale, params, interactive = false }: Props & { params: Record<string, string>; interactive?: boolean }) {
+  const m = getMessages(locale)
+  const t = m.bills
   const filters = readBillFilters(params)
   const set = useReplaceParams(params, DEFAULT_BILL_FILTERS as unknown as Record<string, string>)
   const q = useDeferredValue(filters.q)
@@ -43,29 +49,30 @@ export function BillsExplorer({ bills, parties, referenceYear, params, interacti
   const activeFilters = [filters.stage, filters.chamber, filters.type, filters.party, filters.law].filter(Boolean).length
 
   const stageOptions = [
-    { value: "", label: "Any stage" },
-    { value: "house", label: "Anywhere in the House" },
-    { value: "senate", label: "Anywhere in the Senate" },
-    { value: "law", label: "Became law" },
-    { value: "defeated", label: "Defeated" },
-    { group: "House of Commons", options: STAGE_KEYS.house.map((k) => ({ value: `house:${k}`, label: `House: ${stageInfo(`house:${k}`).label}` })) },
-    { group: "Senate", options: STAGE_KEYS.senate.map((k) => ({ value: `senate:${k}`, label: `Senate: ${stageInfo(`senate:${k}`).label}` })) },
+    { value: "", label: t.anyStage },
+    { value: "house", label: t.inHouse },
+    { value: "senate", label: t.inSenate },
+    { value: "law", label: t.becameLaw },
+    { value: "defeated", label: t.defeated },
+    { group: t.houseGroup, options: STAGE_KEYS.house.map((k) => ({ value: `house:${k}`, label: `${t.housePrefix} : ${stageInfo(`house:${k}`, locale).label}`.replace(" : ", locale === "fr" ? " : " : ": ") })) },
+    { group: t.senateGroup, options: STAGE_KEYS.senate.map((k) => ({ value: `senate:${k}`, label: `${t.senatePrefix} : ${stageInfo(`senate:${k}`, locale).label}`.replace(" : ", locale === "fr" ? " : " : ": ") })) },
   ]
 
   return (
     <div>
       <div
         role="search"
-        aria-label="Filter bills"
+        aria-label={locale === "fr" ? "Filtrer les projets de loi" : "Filter bills"}
         className="grid grid-cols-2 gap-3 border-b border-rule py-5 md:grid-cols-3 lg:grid-cols-6"
         inert={!interactive ? true : undefined}
       >
         <SearchField
           className="col-span-2 md:col-span-3 lg:col-span-6 xl:col-span-2"
-          label="Search"
+          label={m.filters.search}
           value={filters.q}
           onChange={(v) => set({ q: v })}
-          placeholder="Number, title or keyword"
+          placeholder={t.placeholder}
+          locale={locale}
         />
         <button
           type="button"
@@ -75,58 +82,58 @@ export function BillsExplorer({ bills, parties, referenceYear, params, interacti
           className="col-span-2 inline-flex h-10 items-center justify-center gap-2 rounded-sm border border-rule bg-paper-raised text-[0.9375rem] text-ink-2 md:hidden"
         >
           <SlidersHorizontal aria-hidden className="size-4" strokeWidth={1.75} />
-          {filtersOpen ? "Hide filters" : "Filters"}
+          {filtersOpen ? m.filters.hideFilters : m.filters.filters}
           {activeFilters > 0 && <span className="rounded-full bg-ink px-1.5 text-[0.75rem] text-paper">{activeFilters}</span>}
         </button>
         <div id="bill-filters" className={`col-span-2 grid-cols-2 gap-3 md:col-span-3 md:grid md:grid-cols-3 lg:col-span-6 lg:grid-cols-6 xl:col-span-4 xl:grid-cols-[repeat(6,minmax(0,1fr))] ${filtersOpen ? "grid" : "hidden"}`}>
-        <FilterSelect label="Stage" value={filters.stage} onChange={(v) => set({ stage: v })} options={stageOptions} />
+        <FilterSelect label={t.stage} value={filters.stage} onChange={(v) => set({ stage: v })} options={stageOptions} />
         <FilterSelect
-          label="Starts in"
+          label={t.startsIn}
           value={filters.chamber}
           onChange={(v) => set({ chamber: v })}
           options={[
-            { value: "", label: "Either" },
-            { value: "house", label: "House of Commons" },
-            { value: "senate", label: "Senate" },
+            { value: "", label: t.either },
+            { value: "house", label: t.house },
+            { value: "senate", label: t.senate },
           ]}
         />
         <FilterSelect
-          label="Type"
+          label={t.type}
           value={filters.type}
           onChange={(v) => set({ type: v })}
           options={[
-            { value: "", label: "All types" },
-            { value: "government", label: "Government" },
-            { value: "private_member", label: "Private member's" },
-            { value: "senate_public", label: "Senate public" },
-            { value: "senate_private", label: "Senate private" },
+            { value: "", label: t.allTypes },
+            { value: "government", label: t.types.government },
+            { value: "private_member", label: t.types.private_member },
+            { value: "senate_public", label: t.types.senate_public },
+            { value: "senate_private", label: t.types.senate_private },
           ]}
         />
         <FilterSelect
-          label="Sponsor's party"
+          label={t.sponsorParty}
           value={filters.party}
           onChange={(v) => set({ party: v })}
-          options={[{ value: "", label: "Any party" }, ...sponsorParties.map((p) => ({ value: p.id, label: p.shortName }))]}
+          options={[{ value: "", label: t.anyParty }, ...sponsorParties.map((p) => ({ value: p.id, label: partyShort(p, locale) }))]}
         />
         <FilterSelect
-          label="Became law"
+          label={t.lawFilter}
           value={filters.law}
           onChange={(v) => set({ law: v })}
           options={[
-            { value: "", label: "Either" },
-            { value: "yes", label: "Yes" },
-            { value: "no", label: "Not yet" },
+            { value: "", label: t.lawEither },
+            { value: "yes", label: t.lawYes },
+            { value: "no", label: t.lawNo },
           ]}
         />
         <FilterSelect
-          label="Sort by"
+          label={m.filters.sortBy}
           defaultValue="activity"
           value={filters.sort}
           onChange={(v) => set({ sort: v })}
           options={[
-            { value: "activity", label: "Activity" },
-            { value: "introduced", label: "Introduced" },
-            { value: "number", label: "Number" },
+            { value: "activity", label: t.sortActivity },
+            { value: "introduced", label: t.sortIntroduced },
+            { value: "number", label: t.sortNumber },
           ]}
         />
         </div>
@@ -135,27 +142,28 @@ export function BillsExplorer({ bills, parties, referenceYear, params, interacti
         <ResultCount
           shown={shown.length}
           total={bills.length}
-          noun="bills"
+          noun={t.noun}
+          locale={locale}
           onReset={() => set({ q: null, stage: null, chamber: null, type: null, party: null, law: null, sort: null })}
         />
       </div>
       {shown.length === 0 ? (
         <EmptyState
-          title="No bills match"
+          title={t.noneMatch}
           action={
             <button type="button" className="link text-[0.9375rem]" onClick={() => set({ q: null, stage: null, chamber: null, type: null, party: null, law: null })}>
-              Clear all filters
+              {m.filters.clearAll}
             </button>
           }
         >
-          Try fewer filters, or search for a bill number like C-5.
+          {t.noneHint}
         </EmptyState>
       ) : (
         <>
-          <h2 className="sr-only">Results</h2>
+          <h2 className="sr-only">{m.filters.results}</h2>
           <div className="border-t border-rule">
             {shown.slice(0, limit).map((b) => (
-              <BillRow key={b.id} bill={b} party={b.sponsorPartyId ? partyById.get(b.sponsorPartyId) : undefined} referenceYear={referenceYear} dateField={filters.sort === "introduced" ? "introduced" : "activity"} />
+              <BillRow key={b.id} bill={b} party={b.sponsorPartyId ? partyById.get(b.sponsorPartyId) : undefined} referenceYear={referenceYear} dateField={filters.sort === "introduced" ? "introduced" : "activity"} locale={locale} />
             ))}
           </div>
           {shown.length > limit && (
@@ -165,7 +173,7 @@ export function BillsExplorer({ bills, parties, referenceYear, params, interacti
                 onClick={() => setPage({ key: filterKey, limit: limit + PAGE * 2 })}
                 className="h-10 rounded-sm border border-rule-strong px-5 text-[0.9375rem] text-ink transition-colors duration-150 hover:bg-ink hover:text-paper"
               >
-                Show more ({shown.length - limit} left)
+                {m.filters.showMore(shown.length - limit)}
               </button>
             </div>
           )}

@@ -18,7 +18,8 @@ Phase 1: Data layer
 - Phase 2: design system (Impeccable setup, tokens, shell, components)
 
 ## Blocked
-(none yet)
+- **Plain-English summaries not generated.** `.env` contains a 16-character placeholder for `ANTHROPIC_API_KEY`, not a real key (the API returns `invalid x-api-key`), and no `ant` CLI login exists. The summarizer is built and tested; it skips cleanly and the site shows "Plain-English summary coming soon" plus the official LEGISinfo summary where one exists. Owner action: put a real `sk-ant-...` key in `.env` and run `pnpm summarize` (about $2-4 with Haiku 4.5 for all 190 bills), then commit `data/summaries/`.
+- Impeccable and Magic: both available. Impeccable interview and decision steps answered from the brief (no questions allowed).
 
 ## Data counts (full ingest 2026-10-12)
 - Session 45-1 (detected dynamically). 191 bills, 178 recorded votes, 60,927 ballots, 349 members (337 sitting, 12 former), 343 ridings, 6 parties.

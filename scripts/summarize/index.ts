@@ -167,8 +167,11 @@ async function summarize(b: BillRow, src: Source) {
 
 async function main() {
   if (!existsSync(DB_PATH)) throw new Error("data/tabled.db is missing; run pnpm ingest first")
-  if (!process.env.ANTHROPIC_API_KEY && !dryRun) {
-    console.log("[summarize] ANTHROPIC_API_KEY is not set; skipping. The site shows 'summary coming soon' instead.")
+  const key = process.env.ANTHROPIC_API_KEY ?? ""
+  if (!dryRun && !key.startsWith("sk-ant-")) {
+    console.log(
+      `[summarize] ${key ? "ANTHROPIC_API_KEY does not look like an Anthropic key (expected sk-ant-...)" : "ANTHROPIC_API_KEY is not set"}; skipping. The site shows "summary coming soon" instead.`,
+    )
     return
   }
   const db = new Database(DB_PATH)
@@ -241,6 +244,11 @@ async function main() {
 }
 
 main().catch((err) => {
+  if (err instanceof Anthropic.AuthenticationError) {
+    // A bad key should not fail the daily refresh; the site works without summaries.
+    console.warn("[summarize] The API key was rejected; skipping summaries. Check ANTHROPIC_API_KEY.")
+    return
+  }
   console.error(err)
   process.exit(1)
 })

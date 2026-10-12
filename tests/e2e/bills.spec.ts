@@ -30,7 +30,7 @@ test.describe("bills", () => {
     await page.goto("/bills?q=zzzz-no-such-bill")
     await expect(page.getByText("No bills match")).toBeVisible()
     await page.getByRole("button", { name: "Clear all filters" }).click()
-    expect(await page.locator("article").count()).toBeGreaterThan(100)
+    await expect.poll(() => page.locator("article").count()).toBeGreaterThan(100)
   })
 
   test("bill detail shows the stage timeline, votes and sources", async ({ page }) => {

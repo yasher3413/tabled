@@ -396,3 +396,15 @@ export function recentlyIntroduced(limit: number) {
     .sort((a, b) => (b.introducedDate ?? "").localeCompare(a.introducedDate ?? "") || b.numberInt - a.numberInt)
     .slice(0, limit)
 }
+
+/** member id -> House of Commons PersonId */
+export function memberParlIds(): Map<string, number> {
+  return new Map(
+    getDb()
+      .select({ id: t.members.id, parl: t.members.parlMpId })
+      .from(t.members)
+      .all()
+      .filter((m) => m.parl !== null)
+      .map((m) => [m.id, m.parl!]),
+  )
+}

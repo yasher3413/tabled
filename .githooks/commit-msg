@@ -1,0 +1,8 @@
+#!/bin/sh
+# Strip attribution trailers and watermarks from commit messages.
+f="$1"
+tmp="$f.tmp.$$"
+grep -viE '^co-authored-by:|^claude-session:|generated with \[?claude|noreply@anthropic\.com' "$f" > "$tmp" || true
+# Strip trailing blank lines.
+awk '{ lines[NR] = $0 } END { n = NR; while (n > 0 && lines[n] ~ /^[[:space:]]*$/) n--; for (i = 1; i <= n; i++) print lines[i] }' "$tmp" > "$f"
+rm -f "$tmp"

@@ -129,7 +129,7 @@ export function CommandPalette() {
                           key={e.href}
                           value={e.href}
                           onSelect={() => go(e.href)}
-                          className="group flex cursor-pointer items-start gap-3 rounded-sm px-3 py-2.5 transition-colors duration-100 data-[selected=true]:bg-accent-wash"
+                          className="group flex cursor-pointer items-start gap-3 rounded-sm px-3 py-2.5 transition-colors duration-150 data-[selected=true]:bg-accent-wash"
                         >
                           <g.icon className="mt-0.5 size-4 shrink-0 text-ink-3 group-data-[selected=true]:text-accent-ink" strokeWidth={1.75} aria-hidden />
                           <span className="min-w-0">

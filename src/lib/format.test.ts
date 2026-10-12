@@ -23,3 +23,13 @@ describe("format", () => {
     expect(provinceName("QC")).toBe("Quebec")
   })
 })
+
+describe("French formatting", () => {
+  it("formats dates, percents and provinces in fr-CA", () => {
+    expect(formatDate("2026-10-08", "fr")).toBe("8 octobre 2026")
+    expect(formatShortDate("2026-10-08", 2026, "fr")).toMatch(/^8 oct/)
+    expect(formatPercent(0.994, 1, "fr")).toBe("99,4 %")
+    expect(formatPercent(null, 1, "fr")).toBe("s.o.")
+    expect(provinceName("QC", "fr")).toBe("Québec")
+  })
+})

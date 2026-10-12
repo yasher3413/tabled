@@ -1,0 +1,943 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-12T07:25:34+00:00",
+  "title": "Design System: Tabled",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "oklch(0.976 0.011 84)",
+        "tonalRamp": [
+          "oklch(0.150 0.011 84)",
+          "oklch(0.264 0.011 84)",
+          "oklch(0.379 0.011 84)",
+          "oklch(0.493 0.011 84)",
+          "oklch(0.607 0.011 84)",
+          "oklch(0.721 0.011 84)",
+          "oklch(0.836 0.011 84)",
+          "oklch(0.950 0.011 84)"
+        ]
+      },
+      "paper-sunk": {
+        "role": "neutral",
+        "displayName": "Sunk Paper",
+        "canonical": "oklch(0.951 0.014 82)",
+        "tonalRamp": [
+          "oklch(0.150 0.014 82)",
+          "oklch(0.264 0.014 82)",
+          "oklch(0.379 0.014 82)",
+          "oklch(0.493 0.014 82)",
+          "oklch(0.607 0.014 82)",
+          "oklch(0.721 0.014 82)",
+          "oklch(0.836 0.014 82)",
+          "oklch(0.950 0.014 82)"
+        ]
+      },
+      "paper-raised": {
+        "role": "neutral",
+        "displayName": "Raised Paper",
+        "canonical": "oklch(0.992 0.006 84)",
+        "tonalRamp": [
+          "oklch(0.150 0.006 84)",
+          "oklch(0.264 0.006 84)",
+          "oklch(0.379 0.006 84)",
+          "oklch(0.493 0.006 84)",
+          "oklch(0.607 0.006 84)",
+          "oklch(0.721 0.006 84)",
+          "oklch(0.836 0.006 84)",
+          "oklch(0.950 0.006 84)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Deep Ink",
+        "canonical": "oklch(0.215 0.014 62)",
+        "tonalRamp": [
+          "oklch(0.150 0.014 62)",
+          "oklch(0.264 0.014 62)",
+          "oklch(0.379 0.014 62)",
+          "oklch(0.493 0.014 62)",
+          "oklch(0.607 0.014 62)",
+          "oklch(0.721 0.014 62)",
+          "oklch(0.836 0.014 62)",
+          "oklch(0.950 0.014 62)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "oklch(0.4 0.014 62)",
+        "tonalRamp": [
+          "oklch(0.150 0.014 62)",
+          "oklch(0.264 0.014 62)",
+          "oklch(0.379 0.014 62)",
+          "oklch(0.493 0.014 62)",
+          "oklch(0.607 0.014 62)",
+          "oklch(0.721 0.014 62)",
+          "oklch(0.836 0.014 62)",
+          "oklch(0.950 0.014 62)"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Ink 3",
+        "canonical": "oklch(0.49 0.014 62)",
+        "tonalRamp": [
+          "oklch(0.150 0.014 62)",
+          "oklch(0.264 0.014 62)",
+          "oklch(0.379 0.014 62)",
+          "oklch(0.493 0.014 62)",
+          "oklch(0.607 0.014 62)",
+          "oklch(0.721 0.014 62)",
+          "oklch(0.836 0.014 62)",
+          "oklch(0.950 0.014 62)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline Rule",
+        "canonical": "oklch(0.86 0.014 78)",
+        "tonalRamp": [
+          "oklch(0.150 0.014 78)",
+          "oklch(0.264 0.014 78)",
+          "oklch(0.379 0.014 78)",
+          "oklch(0.493 0.014 78)",
+          "oklch(0.607 0.014 78)",
+          "oklch(0.721 0.014 78)",
+          "oklch(0.836 0.014 78)",
+          "oklch(0.950 0.014 78)"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Strong Rule",
+        "canonical": "oklch(0.3 0.014 62)",
+        "tonalRamp": [
+          "oklch(0.150 0.014 62)",
+          "oklch(0.264 0.014 62)",
+          "oklch(0.379 0.014 62)",
+          "oklch(0.493 0.014 62)",
+          "oklch(0.607 0.014 62)",
+          "oklch(0.721 0.014 62)",
+          "oklch(0.836 0.014 62)",
+          "oklch(0.950 0.014 62)"
+        ]
+      },
+      "commons-green": {
+        "role": "primary",
+        "displayName": "Commons Green",
+        "canonical": "oklch(0.43 0.085 166)",
+        "tonalRamp": [
+          "oklch(0.150 0.085 166)",
+          "oklch(0.264 0.085 166)",
+          "oklch(0.379 0.085 166)",
+          "oklch(0.493 0.085 166)",
+          "oklch(0.607 0.085 166)",
+          "oklch(0.721 0.085 166)",
+          "oklch(0.836 0.085 166)",
+          "oklch(0.950 0.085 166)"
+        ]
+      },
+      "commons-wash": {
+        "role": "primary",
+        "displayName": "Commons Wash",
+        "canonical": "oklch(0.935 0.028 166)",
+        "tonalRamp": [
+          "oklch(0.150 0.028 166)",
+          "oklch(0.264 0.028 166)",
+          "oklch(0.379 0.028 166)",
+          "oklch(0.493 0.028 166)",
+          "oklch(0.607 0.028 166)",
+          "oklch(0.721 0.028 166)",
+          "oklch(0.836 0.028 166)",
+          "oklch(0.950 0.028 166)"
+        ]
+      },
+      "danger-ink": {
+        "role": "neutral",
+        "displayName": "Danger Ink",
+        "canonical": "oklch(0.47 0.13 32)",
+        "tonalRamp": [
+          "oklch(0.150 0.13 32)",
+          "oklch(0.264 0.13 32)",
+          "oklch(0.379 0.13 32)",
+          "oklch(0.493 0.13 32)",
+          "oklch(0.607 0.13 32)",
+          "oklch(0.721 0.13 32)",
+          "oklch(0.836 0.13 32)",
+          "oklch(0.950 0.13 32)"
+        ]
+      },
+      "ballot-yea": {
+        "role": "tertiary",
+        "displayName": "Ballot Yea",
+        "canonical": "oklch(0.3 0.014 62)",
+        "tonalRamp": [
+          "oklch(0.150 0.014 62)",
+          "oklch(0.264 0.014 62)",
+          "oklch(0.379 0.014 62)",
+          "oklch(0.493 0.014 62)",
+          "oklch(0.607 0.014 62)",
+          "oklch(0.721 0.014 62)",
+          "oklch(0.836 0.014 62)",
+          "oklch(0.950 0.014 62)"
+        ]
+      },
+      "ballot-nay": {
+        "role": "tertiary",
+        "displayName": "Ballot Nay (sepia)",
+        "canonical": "oklch(0.67 0.05 62)",
+        "tonalRamp": [
+          "oklch(0.150 0.05 62)",
+          "oklch(0.264 0.05 62)",
+          "oklch(0.379 0.05 62)",
+          "oklch(0.493 0.05 62)",
+          "oklch(0.607 0.05 62)",
+          "oklch(0.721 0.05 62)",
+          "oklch(0.836 0.05 62)",
+          "oklch(0.950 0.05 62)"
+        ]
+      },
+      "ballot-paired": {
+        "role": "tertiary",
+        "displayName": "Ballot Paired",
+        "canonical": "oklch(0.72 0.012 70)",
+        "tonalRamp": [
+          "oklch(0.150 0.012 70)",
+          "oklch(0.264 0.012 70)",
+          "oklch(0.379 0.012 70)",
+          "oklch(0.493 0.012 70)",
+          "oklch(0.607 0.012 70)",
+          "oklch(0.721 0.012 70)",
+          "oklch(0.836 0.012 70)",
+          "oklch(0.950 0.012 70)"
+        ]
+      },
+      "ballot-absent": {
+        "role": "tertiary",
+        "displayName": "Ballot Did Not Vote",
+        "canonical": "oklch(0.86 0.014 78)",
+        "tonalRamp": [
+          "oklch(0.150 0.014 78)",
+          "oklch(0.264 0.014 78)",
+          "oklch(0.379 0.014 78)",
+          "oklch(0.493 0.014 78)",
+          "oklch(0.607 0.014 78)",
+          "oklch(0.721 0.014 78)",
+          "oklch(0.836 0.014 78)",
+          "oklch(0.950 0.014 78)"
+        ]
+      },
+      "party-liberal": {
+        "role": "data",
+        "displayName": "Party Liberal",
+        "canonical": "oklch(0.56 0.18 25)",
+        "tonalRamp": [
+          "oklch(0.150 0.18 25)",
+          "oklch(0.264 0.18 25)",
+          "oklch(0.379 0.18 25)",
+          "oklch(0.493 0.18 25)",
+          "oklch(0.607 0.18 25)",
+          "oklch(0.721 0.18 25)",
+          "oklch(0.836 0.18 25)",
+          "oklch(0.950 0.18 25)"
+        ]
+      },
+      "party-conservative": {
+        "role": "data",
+        "displayName": "Party Conservative",
+        "canonical": "oklch(0.47 0.12 255)",
+        "tonalRamp": [
+          "oklch(0.150 0.12 255)",
+          "oklch(0.264 0.12 255)",
+          "oklch(0.379 0.12 255)",
+          "oklch(0.493 0.12 255)",
+          "oklch(0.607 0.12 255)",
+          "oklch(0.721 0.12 255)",
+          "oklch(0.836 0.12 255)",
+          "oklch(0.950 0.12 255)"
+        ]
+      },
+      "party-bloc": {
+        "role": "data",
+        "displayName": "Party Bloc",
+        "canonical": "oklch(0.68 0.1 228)",
+        "tonalRamp": [
+          "oklch(0.150 0.1 228)",
+          "oklch(0.264 0.1 228)",
+          "oklch(0.379 0.1 228)",
+          "oklch(0.493 0.1 228)",
+          "oklch(0.607 0.1 228)",
+          "oklch(0.721 0.1 228)",
+          "oklch(0.836 0.1 228)",
+          "oklch(0.950 0.1 228)"
+        ]
+      },
+      "party-ndp": {
+        "role": "data",
+        "displayName": "Party NDP",
+        "canonical": "oklch(0.7 0.15 58)",
+        "tonalRamp": [
+          "oklch(0.150 0.15 58)",
+          "oklch(0.264 0.15 58)",
+          "oklch(0.379 0.15 58)",
+          "oklch(0.493 0.15 58)",
+          "oklch(0.607 0.15 58)",
+          "oklch(0.721 0.15 58)",
+          "oklch(0.836 0.15 58)",
+          "oklch(0.950 0.15 58)"
+        ]
+      },
+      "party-green": {
+        "role": "data",
+        "displayName": "Party Green",
+        "canonical": "oklch(0.6 0.14 140)",
+        "tonalRamp": [
+          "oklch(0.150 0.14 140)",
+          "oklch(0.264 0.14 140)",
+          "oklch(0.379 0.14 140)",
+          "oklch(0.493 0.14 140)",
+          "oklch(0.607 0.14 140)",
+          "oklch(0.721 0.14 140)",
+          "oklch(0.836 0.14 140)",
+          "oklch(0.950 0.14 140)"
+        ]
+      },
+      "party-independent": {
+        "role": "data",
+        "displayName": "Party Independent",
+        "canonical": "oklch(0.62 0.01 75)",
+        "tonalRamp": [
+          "oklch(0.150 0.01 75)",
+          "oklch(0.264 0.01 75)",
+          "oklch(0.379 0.01 75)",
+          "oklch(0.493 0.01 75)",
+          "oklch(0.607 0.01 75)",
+          "oklch(0.721 0.01 75)",
+          "oklch(0.836 0.01 75)",
+          "oklch(0.950 0.01 75)"
+        ]
+      },
+      "party-other": {
+        "role": "data",
+        "displayName": "Party Other",
+        "canonical": "oklch(0.58 0.06 305)",
+        "tonalRamp": [
+          "oklch(0.150 0.06 305)",
+          "oklch(0.264 0.06 305)",
+          "oklch(0.379 0.06 305)",
+          "oklch(0.493 0.06 305)",
+          "oklch(0.607 0.06 305)",
+          "oklch(0.721 0.06 305)",
+          "oklch(0.836 0.06 305)",
+          "oklch(0.950 0.06 305)"
+        ]
+      },
+      "paper-dark": {
+        "role": "neutral",
+        "displayName": "Warm Paper (dark mode)",
+        "canonical": "oklch(0.19 0.009 62)",
+        "tonalRamp": [
+          "oklch(0.150 0.009 62)",
+          "oklch(0.264 0.009 62)",
+          "oklch(0.379 0.009 62)",
+          "oklch(0.493 0.009 62)",
+          "oklch(0.607 0.009 62)",
+          "oklch(0.721 0.009 62)",
+          "oklch(0.836 0.009 62)",
+          "oklch(0.950 0.009 62)"
+        ]
+      },
+      "paper-sunk-dark": {
+        "role": "neutral",
+        "displayName": "Sunk Paper (dark mode)",
+        "canonical": "oklch(0.162 0.008 62)",
+        "tonalRamp": [
+          "oklch(0.150 0.008 62)",
+          "oklch(0.264 0.008 62)",
+          "oklch(0.379 0.008 62)",
+          "oklch(0.493 0.008 62)",
+          "oklch(0.607 0.008 62)",
+          "oklch(0.721 0.008 62)",
+          "oklch(0.836 0.008 62)",
+          "oklch(0.950 0.008 62)"
+        ]
+      },
+      "paper-raised-dark": {
+        "role": "neutral",
+        "displayName": "Raised Paper (dark mode)",
+        "canonical": "oklch(0.228 0.01 62)",
+        "tonalRamp": [
+          "oklch(0.150 0.01 62)",
+          "oklch(0.264 0.01 62)",
+          "oklch(0.379 0.01 62)",
+          "oklch(0.493 0.01 62)",
+          "oklch(0.607 0.01 62)",
+          "oklch(0.721 0.01 62)",
+          "oklch(0.836 0.01 62)",
+          "oklch(0.950 0.01 62)"
+        ]
+      },
+      "ink-dark": {
+        "role": "neutral",
+        "displayName": "Deep Ink (dark mode)",
+        "canonical": "oklch(0.935 0.01 84)",
+        "tonalRamp": [
+          "oklch(0.150 0.01 84)",
+          "oklch(0.264 0.01 84)",
+          "oklch(0.379 0.01 84)",
+          "oklch(0.493 0.01 84)",
+          "oklch(0.607 0.01 84)",
+          "oklch(0.721 0.01 84)",
+          "oklch(0.836 0.01 84)",
+          "oklch(0.950 0.01 84)"
+        ]
+      },
+      "ink-2-dark": {
+        "role": "neutral",
+        "displayName": "Ink 2 (dark mode)",
+        "canonical": "oklch(0.8 0.01 84)",
+        "tonalRamp": [
+          "oklch(0.150 0.01 84)",
+          "oklch(0.264 0.01 84)",
+          "oklch(0.379 0.01 84)",
+          "oklch(0.493 0.01 84)",
+          "oklch(0.607 0.01 84)",
+          "oklch(0.721 0.01 84)",
+          "oklch(0.836 0.01 84)",
+          "oklch(0.950 0.01 84)"
+        ]
+      },
+      "ink-3-dark": {
+        "role": "neutral",
+        "displayName": "Ink 3 (dark mode)",
+        "canonical": "oklch(0.71 0.012 84)",
+        "tonalRamp": [
+          "oklch(0.150 0.012 84)",
+          "oklch(0.264 0.012 84)",
+          "oklch(0.379 0.012 84)",
+          "oklch(0.493 0.012 84)",
+          "oklch(0.607 0.012 84)",
+          "oklch(0.721 0.012 84)",
+          "oklch(0.836 0.012 84)",
+          "oklch(0.950 0.012 84)"
+        ]
+      },
+      "rule-dark": {
+        "role": "neutral",
+        "displayName": "Hairline Rule (dark mode)",
+        "canonical": "oklch(0.34 0.012 62)",
+        "tonalRamp": [
+          "oklch(0.150 0.012 62)",
+          "oklch(0.264 0.012 62)",
+          "oklch(0.379 0.012 62)",
+          "oklch(0.493 0.012 62)",
+          "oklch(0.607 0.012 62)",
+          "oklch(0.721 0.012 62)",
+          "oklch(0.836 0.012 62)",
+          "oklch(0.950 0.012 62)"
+        ]
+      },
+      "rule-strong-dark": {
+        "role": "neutral",
+        "displayName": "Strong Rule (dark mode)",
+        "canonical": "oklch(0.86 0.01 84)",
+        "tonalRamp": [
+          "oklch(0.150 0.01 84)",
+          "oklch(0.264 0.01 84)",
+          "oklch(0.379 0.01 84)",
+          "oklch(0.493 0.01 84)",
+          "oklch(0.607 0.01 84)",
+          "oklch(0.721 0.01 84)",
+          "oklch(0.836 0.01 84)",
+          "oklch(0.950 0.01 84)"
+        ]
+      },
+      "commons-green-dark": {
+        "role": "primary",
+        "displayName": "Commons Green (dark mode)",
+        "canonical": "oklch(0.78 0.095 166)",
+        "tonalRamp": [
+          "oklch(0.150 0.095 166)",
+          "oklch(0.264 0.095 166)",
+          "oklch(0.379 0.095 166)",
+          "oklch(0.493 0.095 166)",
+          "oklch(0.607 0.095 166)",
+          "oklch(0.721 0.095 166)",
+          "oklch(0.836 0.095 166)",
+          "oklch(0.950 0.095 166)"
+        ]
+      },
+      "commons-wash-dark": {
+        "role": "primary",
+        "displayName": "Commons Wash (dark mode)",
+        "canonical": "oklch(0.27 0.04 166)",
+        "tonalRamp": [
+          "oklch(0.150 0.04 166)",
+          "oklch(0.264 0.04 166)",
+          "oklch(0.379 0.04 166)",
+          "oklch(0.493 0.04 166)",
+          "oklch(0.607 0.04 166)",
+          "oklch(0.721 0.04 166)",
+          "oklch(0.836 0.04 166)",
+          "oklch(0.950 0.04 166)"
+        ]
+      },
+      "danger-ink-dark": {
+        "role": "neutral",
+        "displayName": "Danger Ink (dark mode)",
+        "canonical": "oklch(0.75 0.12 32)",
+        "tonalRamp": [
+          "oklch(0.150 0.12 32)",
+          "oklch(0.264 0.12 32)",
+          "oklch(0.379 0.12 32)",
+          "oklch(0.493 0.12 32)",
+          "oklch(0.607 0.12 32)",
+          "oklch(0.721 0.12 32)",
+          "oklch(0.836 0.12 32)",
+          "oklch(0.950 0.12 32)"
+        ]
+      },
+      "ballot-yea-dark": {
+        "role": "tertiary",
+        "displayName": "Ballot Yea (dark mode)",
+        "canonical": "oklch(0.9 0.01 84)",
+        "tonalRamp": [
+          "oklch(0.150 0.01 84)",
+          "oklch(0.264 0.01 84)",
+          "oklch(0.379 0.01 84)",
+          "oklch(0.493 0.01 84)",
+          "oklch(0.607 0.01 84)",
+          "oklch(0.721 0.01 84)",
+          "oklch(0.836 0.01 84)",
+          "oklch(0.950 0.01 84)"
+        ]
+      },
+      "ballot-nay-dark": {
+        "role": "tertiary",
+        "displayName": "Ballot Nay (sepia) (dark mode)",
+        "canonical": "oklch(0.6 0.045 66)",
+        "tonalRamp": [
+          "oklch(0.150 0.045 66)",
+          "oklch(0.264 0.045 66)",
+          "oklch(0.379 0.045 66)",
+          "oklch(0.493 0.045 66)",
+          "oklch(0.607 0.045 66)",
+          "oklch(0.721 0.045 66)",
+          "oklch(0.836 0.045 66)",
+          "oklch(0.950 0.045 66)"
+        ]
+      },
+      "ballot-paired-dark": {
+        "role": "tertiary",
+        "displayName": "Ballot Paired (dark mode)",
+        "canonical": "oklch(0.55 0.012 62)",
+        "tonalRamp": [
+          "oklch(0.150 0.012 62)",
+          "oklch(0.264 0.012 62)",
+          "oklch(0.379 0.012 62)",
+          "oklch(0.493 0.012 62)",
+          "oklch(0.607 0.012 62)",
+          "oklch(0.721 0.012 62)",
+          "oklch(0.836 0.012 62)",
+          "oklch(0.950 0.012 62)"
+        ]
+      },
+      "ballot-absent-dark": {
+        "role": "tertiary",
+        "displayName": "Ballot Did Not Vote (dark mode)",
+        "canonical": "oklch(0.38 0.012 62)",
+        "tonalRamp": [
+          "oklch(0.150 0.012 62)",
+          "oklch(0.264 0.012 62)",
+          "oklch(0.379 0.012 62)",
+          "oklch(0.493 0.012 62)",
+          "oklch(0.607 0.012 62)",
+          "oklch(0.721 0.012 62)",
+          "oklch(0.836 0.012 62)",
+          "oklch(0.950 0.012 62)"
+        ]
+      },
+      "party-liberal-dark": {
+        "role": "data",
+        "displayName": "Party Liberal (dark mode)",
+        "canonical": "oklch(0.66 0.17 25)",
+        "tonalRamp": [
+          "oklch(0.150 0.17 25)",
+          "oklch(0.264 0.17 25)",
+          "oklch(0.379 0.17 25)",
+          "oklch(0.493 0.17 25)",
+          "oklch(0.607 0.17 25)",
+          "oklch(0.721 0.17 25)",
+          "oklch(0.836 0.17 25)",
+          "oklch(0.950 0.17 25)"
+        ]
+      },
+      "party-conservative-dark": {
+        "role": "data",
+        "displayName": "Party Conservative (dark mode)",
+        "canonical": "oklch(0.64 0.12 255)",
+        "tonalRamp": [
+          "oklch(0.150 0.12 255)",
+          "oklch(0.264 0.12 255)",
+          "oklch(0.379 0.12 255)",
+          "oklch(0.493 0.12 255)",
+          "oklch(0.607 0.12 255)",
+          "oklch(0.721 0.12 255)",
+          "oklch(0.836 0.12 255)",
+          "oklch(0.950 0.12 255)"
+        ]
+      },
+      "party-bloc-dark": {
+        "role": "data",
+        "displayName": "Party Bloc (dark mode)",
+        "canonical": "oklch(0.76 0.09 228)",
+        "tonalRamp": [
+          "oklch(0.150 0.09 228)",
+          "oklch(0.264 0.09 228)",
+          "oklch(0.379 0.09 228)",
+          "oklch(0.493 0.09 228)",
+          "oklch(0.607 0.09 228)",
+          "oklch(0.721 0.09 228)",
+          "oklch(0.836 0.09 228)",
+          "oklch(0.950 0.09 228)"
+        ]
+      },
+      "party-ndp-dark": {
+        "role": "data",
+        "displayName": "Party NDP (dark mode)",
+        "canonical": "oklch(0.76 0.14 58)",
+        "tonalRamp": [
+          "oklch(0.150 0.14 58)",
+          "oklch(0.264 0.14 58)",
+          "oklch(0.379 0.14 58)",
+          "oklch(0.493 0.14 58)",
+          "oklch(0.607 0.14 58)",
+          "oklch(0.721 0.14 58)",
+          "oklch(0.836 0.14 58)",
+          "oklch(0.950 0.14 58)"
+        ]
+      },
+      "party-green-dark": {
+        "role": "data",
+        "displayName": "Party Green (dark mode)",
+        "canonical": "oklch(0.7 0.13 140)",
+        "tonalRamp": [
+          "oklch(0.150 0.13 140)",
+          "oklch(0.264 0.13 140)",
+          "oklch(0.379 0.13 140)",
+          "oklch(0.493 0.13 140)",
+          "oklch(0.607 0.13 140)",
+          "oklch(0.721 0.13 140)",
+          "oklch(0.836 0.13 140)",
+          "oklch(0.950 0.13 140)"
+        ]
+      },
+      "party-independent-dark": {
+        "role": "data",
+        "displayName": "Party Independent (dark mode)",
+        "canonical": "oklch(0.68 0.01 75)",
+        "tonalRamp": [
+          "oklch(0.150 0.01 75)",
+          "oklch(0.264 0.01 75)",
+          "oklch(0.379 0.01 75)",
+          "oklch(0.493 0.01 75)",
+          "oklch(0.607 0.01 75)",
+          "oklch(0.721 0.01 75)",
+          "oklch(0.836 0.01 75)",
+          "oklch(0.950 0.01 75)"
+        ]
+      },
+      "party-other-dark": {
+        "role": "data",
+        "displayName": "Party Other (dark mode)",
+        "canonical": "oklch(0.7 0.06 305)",
+        "tonalRamp": [
+          "oklch(0.150 0.06 305)",
+          "oklch(0.264 0.06 305)",
+          "oklch(0.379 0.06 305)",
+          "oklch(0.493 0.06 305)",
+          "oklch(0.607 0.06 305)",
+          "oklch(0.721 0.06 305)",
+          "oklch(0.836 0.06 305)",
+          "oklch(0.950 0.06 305)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home definition line; bill number and short title."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page headers, MP names, vote descriptions."
+      },
+      "section": {
+        "displayName": "Section",
+        "purpose": "Each zone's literal label over a hairline."
+      },
+      "lede-serif": {
+        "displayName": "Lede serif",
+        "purpose": "The plain-English one-line summary."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Ledger figures and table-foot totals under the double rule."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Row titles in bill lists."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Summaries and prose within 66ch."
+      },
+      "body-compact": {
+        "displayName": "Body compact",
+        "purpose": "Table cells, fields, nav links, list text."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Dates, vote numbers, sponsor lines, stage labels."
+      },
+      "zone-label": {
+        "displayName": "Zone label",
+        "purpose": "Sentence-case sub-zone labels; never uppercase."
+      },
+      "column-head": {
+        "displayName": "Column head",
+        "purpose": "Table heads and filter labels."
+      },
+      "member-name": {
+        "displayName": "Member name",
+        "purpose": "Small caps for every member name in lists, tables and sponsor lines."
+      }
+    },
+    "shadows": [
+      {
+        "name": "popover",
+        "value": "0 12px 32px -12px oklch(0.2 0.02 60 / 0.3)",
+        "purpose": "Stage explainer popovers."
+      },
+      {
+        "name": "palette",
+        "value": "0 24px 60px -20px oklch(0.2 0.02 60 / 0.35)",
+        "purpose": "Command palette over a 25% ink scrim."
+      }
+    ],
+    "rules": [
+      {
+        "name": "hairline",
+        "value": "1px solid var(--rule)",
+        "purpose": "Every row and section division."
+      },
+      {
+        "name": "strong-rule",
+        "value": "1px solid var(--rule-strong)",
+        "purpose": "Closes page headers and the home hero; footer top."
+      },
+      {
+        "name": "double-rule-total",
+        "value": "3px double var(--rule-strong)",
+        "purpose": "Above every total, and nothing else."
+      },
+      {
+        "name": "stage-connector",
+        "value": "2px solid var(--ink) / 2px dashed var(--rule)",
+        "purpose": "Completed / not-reached readings ledger connectors."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-quart",
+        "value": "cubic-bezier(0.25, 1, 0.5, 1)",
+        "purpose": "Default easing for all transitions."
+      },
+      {
+        "name": "state",
+        "value": "150ms",
+        "purpose": "Hover, border and colour changes."
+      },
+      {
+        "name": "fade-in",
+        "value": "180ms, opacity 0 and translateY(3px) to rest",
+        "purpose": "Command palette, scrim and popovers entering."
+      },
+      {
+        "name": "hemicycle-highlight",
+        "value": "160ms opacity and radius",
+        "purpose": "Seat and ballot-row pairing; dim to 0.18, active seat 1.35x with ink stroke."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "1ms",
+        "purpose": "All animations and transitions collapse under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "min-supported",
+        "value": "360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "filter-field",
+      "description": "Labelled filter search field on raised paper; border firms on hover, green outline on focus.",
+      "html": "<div class=\"ds-field\"><label class=\"ds-field-label\" for=\"ds-q\">Find an MP</label><div class=\"ds-field-wrap\"><span class=\"ds-field-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg></span><input id=\"ds-q\" class=\"ds-input\" type=\"search\" placeholder=\"Name, riding or province\"></div></div>",
+      "css": ":host{--paper:oklch(0.976 0.011 84);--paper-sunk:oklch(0.951 0.014 82);--paper-raised:oklch(0.992 0.006 84);--ink:oklch(0.215 0.014 62);--ink-2:oklch(0.4 0.014 62);--ink-3:oklch(0.49 0.014 62);--rule:oklch(0.86 0.014 78);--rule-strong:oklch(0.3 0.014 62);--accent-ink:oklch(0.43 0.085 166);--accent-wash:oklch(0.935 0.028 166);--ballot-yea:oklch(0.3 0.014 62);--ballot-nay:oklch(0.67 0.05 62);--party-liberal:oklch(0.56 0.18 25);--party-conservative:oklch(0.47 0.12 255);--party-bloc:oklch(0.68 0.1 228);--party-ndp:oklch(0.7 0.15 58);--party-green:oklch(0.6 0.14 140);} .ds-field{display:flex;flex-direction:column;gap:4px;font-family:'Libre Franklin',ui-sans-serif,system-ui,sans-serif;max-width:22rem} .ds-field-label{font-size:0.75rem;font-weight:500;color:var(--ink-3)} .ds-field-wrap{position:relative} .ds-field-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--ink-3);display:flex} .ds-input{height:40px;width:100%;padding:0 36px;border:1px solid var(--rule);border-radius:0.1125rem;background:var(--paper-raised);color:var(--ink);font:inherit;font-size:0.9375rem;transition:border-color 150ms cubic-bezier(0.25,1,0.5,1)} .ds-input::placeholder{color:var(--ink-3)} .ds-input:hover{border-color:var(--ink-3)} .ds-input:focus-visible{outline:2px solid var(--accent-ink);outline-offset:2px}"
+    },
+    {
+      "name": "Postal Code Form",
+      "kind": "button",
+      "refersTo": "submit-ink",
+      "description": "The one solid button: ink submit attached to a 48px postal field, turning Commons Green on hover.",
+      "html": "<form class=\"ds-postal\" onsubmit=\"return false\"><input class=\"ds-postal-input\" placeholder=\"Postal code, like K1A 0A6\" aria-label=\"Postal code\"><button class=\"ds-postal-btn\" type=\"submit\">Find your MP</button></form>",
+      "css": ":host{--paper:oklch(0.976 0.011 84);--paper-sunk:oklch(0.951 0.014 82);--paper-raised:oklch(0.992 0.006 84);--ink:oklch(0.215 0.014 62);--ink-2:oklch(0.4 0.014 62);--ink-3:oklch(0.49 0.014 62);--rule:oklch(0.86 0.014 78);--rule-strong:oklch(0.3 0.014 62);--accent-ink:oklch(0.43 0.085 166);--accent-wash:oklch(0.935 0.028 166);--ballot-yea:oklch(0.3 0.014 62);--ballot-nay:oklch(0.67 0.05 62);--party-liberal:oklch(0.56 0.18 25);--party-conservative:oklch(0.47 0.12 255);--party-bloc:oklch(0.68 0.1 228);--party-ndp:oklch(0.7 0.15 58);--party-green:oklch(0.6 0.14 140);} .ds-postal{display:flex;height:48px;max-width:26rem;border:1px solid color-mix(in oklch,var(--rule-strong) 70%,transparent);border-radius:0.1125rem;overflow:hidden;background:var(--paper-raised);font-family:'Libre Franklin',ui-sans-serif,system-ui,sans-serif;transition:border-color 150ms} .ds-postal:hover,.ds-postal:focus-within{border-color:var(--ink)} .ds-postal-input{flex:1;min-width:0;border:0;background:transparent;padding:0 12px;font:inherit;font-size:1rem;color:var(--ink);text-transform:uppercase;outline:none} .ds-postal-input::placeholder{text-transform:none;color:var(--ink-3)} .ds-postal-btn{border:0;background:var(--ink);color:var(--paper);padding:0 16px;font:inherit;font-size:0.9375rem;font-weight:500;cursor:pointer;transition:background 150ms cubic-bezier(0.25,1,0.5,1)} .ds-postal-btn:hover{background:var(--accent-ink)} .ds-postal-btn:focus-visible{outline:2px solid var(--accent-ink);outline-offset:2px}"
+    },
+    {
+      "name": "Main Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Serif wordmark, sans links in ink-2; the active link takes a 2px Commons Green rule on the header's hairline.",
+      "html": "<header class=\"ds-nav\"><span class=\"ds-wordmark\">Tabled</span><a class=\"ds-navlink\" href=\"#\">Bills</a><a class=\"ds-navlink\" aria-current=\"page\" href=\"#\">Votes</a><a class=\"ds-navlink\" href=\"#\">MPs</a><a class=\"ds-navlink\" href=\"#\">Parties</a></header>",
+      "css": ":host{--paper:oklch(0.976 0.011 84);--paper-sunk:oklch(0.951 0.014 82);--paper-raised:oklch(0.992 0.006 84);--ink:oklch(0.215 0.014 62);--ink-2:oklch(0.4 0.014 62);--ink-3:oklch(0.49 0.014 62);--rule:oklch(0.86 0.014 78);--rule-strong:oklch(0.3 0.014 62);--accent-ink:oklch(0.43 0.085 166);--accent-wash:oklch(0.935 0.028 166);--ballot-yea:oklch(0.3 0.014 62);--ballot-nay:oklch(0.67 0.05 62);--party-liberal:oklch(0.56 0.18 25);--party-conservative:oklch(0.47 0.12 255);--party-bloc:oklch(0.68 0.1 228);--party-ndp:oklch(0.7 0.15 58);--party-green:oklch(0.6 0.14 140);} .ds-nav{display:flex;align-items:center;gap:4px;height:60px;padding:0 24px;border-bottom:1px solid var(--rule);background:var(--paper);font-family:'Libre Franklin',ui-sans-serif,system-ui,sans-serif;} .ds-wordmark{font-family:'Brygada 1918',ui-serif,Georgia,serif;font-size:1.375rem;font-weight:600;letter-spacing:-0.01em;margin-right:16px;color:var(--ink)} .ds-navlink{position:relative;display:inline-flex;align-items:center;height:36px;padding:0 10px;font-size:0.9375rem;color:var(--ink-2);text-decoration:none;transition:color 150ms} .ds-navlink:hover{color:var(--ink)} .ds-navlink[aria-current=page]{color:var(--ink)} .ds-navlink[aria-current=page]::after{content:'';position:absolute;left:10px;right:10px;bottom:-12px;height:2px;background:var(--accent-ink)} .ds-navlink:focus-visible{outline:2px solid var(--accent-ink);outline-offset:2px}"
+    },
+    {
+      "name": "Party Tag",
+      "kind": "chip",
+      "refersTo": "party-swatch",
+      "description": "10px square party swatch beside the short name: the only party colour outside charts.",
+      "html": "<span class=\"ds-ptag\"><span class=\"ds-swatch\" style=\"background:var(--party-liberal)\"></span>Liberal</span> <span class=\"ds-ptag\"><span class=\"ds-swatch\" style=\"background:var(--party-conservative)\"></span>Conservative</span> <span class=\"ds-ptag\"><span class=\"ds-swatch\" style=\"background:var(--party-bloc)\"></span>Bloc</span> <span class=\"ds-ptag\"><span class=\"ds-swatch\" style=\"background:var(--party-ndp)\"></span>NDP</span>",
+      "css": ":host{--paper:oklch(0.976 0.011 84);--paper-sunk:oklch(0.951 0.014 82);--paper-raised:oklch(0.992 0.006 84);--ink:oklch(0.215 0.014 62);--ink-2:oklch(0.4 0.014 62);--ink-3:oklch(0.49 0.014 62);--rule:oklch(0.86 0.014 78);--rule-strong:oklch(0.3 0.014 62);--accent-ink:oklch(0.43 0.085 166);--accent-wash:oklch(0.935 0.028 166);--ballot-yea:oklch(0.3 0.014 62);--ballot-nay:oklch(0.67 0.05 62);--party-liberal:oklch(0.56 0.18 25);--party-conservative:oklch(0.47 0.12 255);--party-bloc:oklch(0.68 0.1 228);--party-ndp:oklch(0.7 0.15 58);--party-green:oklch(0.6 0.14 140);} .ds-ptag{display:inline-flex;align-items:center;gap:6px;margin-right:14px;font-family:'Libre Franklin',ui-sans-serif,system-ui,sans-serif;font-size:0.8125rem;color:var(--ink-2);white-space:nowrap} .ds-swatch{display:inline-block;width:10px;height:10px;border-radius:1px}"
+    },
+    {
+      "name": "Vote Tally",
+      "kind": "custom",
+      "refersTo": "tally-bar-yea",
+      "description": "Result and figures above a neutral ink and sepia split bar with a halfway hairline.",
+      "html": "<div class=\"ds-tally\"><div class=\"ds-tally-top\"><b>Passed</b><span><b>296</b> yea <i>to</i> <b>26</b> nay<i> · 10 paired</i></span></div><div class=\"ds-bar\"><span class=\"ds-yea\" style=\"width:91.9%\"></span><span class=\"ds-nay\"></span><span class=\"ds-mid\"></span></div></div>",
+      "css": ":host{--paper:oklch(0.976 0.011 84);--paper-sunk:oklch(0.951 0.014 82);--paper-raised:oklch(0.992 0.006 84);--ink:oklch(0.215 0.014 62);--ink-2:oklch(0.4 0.014 62);--ink-3:oklch(0.49 0.014 62);--rule:oklch(0.86 0.014 78);--rule-strong:oklch(0.3 0.014 62);--accent-ink:oklch(0.43 0.085 166);--accent-wash:oklch(0.935 0.028 166);--ballot-yea:oklch(0.3 0.014 62);--ballot-nay:oklch(0.67 0.05 62);--party-liberal:oklch(0.56 0.18 25);--party-conservative:oklch(0.47 0.12 255);--party-bloc:oklch(0.68 0.1 228);--party-ndp:oklch(0.7 0.15 58);--party-green:oklch(0.6 0.14 140);} .ds-tally{max-width:17rem;font-family:'Libre Franklin',ui-sans-serif,system-ui,sans-serif;font-size:0.8125rem;color:var(--ink-2);font-variant-numeric:tabular-nums} .ds-tally-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px} .ds-tally b{color:var(--ink);font-weight:600} .ds-tally i{font-style:normal;color:var(--ink-3)} .ds-bar{position:relative;display:flex;height:8px;margin-top:6px;border-radius:1px;overflow:hidden;background:var(--paper-sunk)} .ds-yea{background:var(--ballot-yea)} .ds-nay{flex:1;background:var(--ballot-nay)} .ds-mid{position:absolute;top:-2px;bottom:-2px;left:50%;width:1px;background:var(--paper)}"
+    },
+    {
+      "name": "Party Breakdown Table",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Ruled division table, parties by seats, totals in the serif under a 3px double rule.",
+      "html": "<table class=\"ds-tbl\"><thead><tr><th>Party</th><th>Position</th><th class=\"r\">Yea</th><th class=\"r\">Nay</th></tr></thead><tbody><tr><th><span class=\"ds-sw\" style=\"background:var(--party-liberal)\"></span>Liberal</th><td>Yea</td><td class=\"r\">167</td><td class=\"r\">0</td></tr><tr><th><span class=\"ds-sw\" style=\"background:var(--party-conservative)\"></span>Conservative</th><td>Yea</td><td class=\"r\">129</td><td class=\"r\">0</td></tr><tr><th><span class=\"ds-sw\" style=\"background:var(--party-bloc)\"></span>Bloc</th><td>Nay <i>1 broke ranks</i></td><td class=\"r\">1</td><td class=\"r\">19</td></tr></tbody><tfoot><tr><th>Total</th><td></td><td class=\"r\">297</td><td class=\"r\">19</td></tr></tfoot></table>",
+      "css": ":host{--paper:oklch(0.976 0.011 84);--paper-sunk:oklch(0.951 0.014 82);--paper-raised:oklch(0.992 0.006 84);--ink:oklch(0.215 0.014 62);--ink-2:oklch(0.4 0.014 62);--ink-3:oklch(0.49 0.014 62);--rule:oklch(0.86 0.014 78);--rule-strong:oklch(0.3 0.014 62);--accent-ink:oklch(0.43 0.085 166);--accent-wash:oklch(0.935 0.028 166);--ballot-yea:oklch(0.3 0.014 62);--ballot-nay:oklch(0.67 0.05 62);--party-liberal:oklch(0.56 0.18 25);--party-conservative:oklch(0.47 0.12 255);--party-bloc:oklch(0.68 0.1 228);--party-ndp:oklch(0.7 0.15 58);--party-green:oklch(0.6 0.14 140);} .ds-tbl{width:100%;max-width:32rem;border-collapse:collapse;font-family:'Libre Franklin',ui-sans-serif,system-ui,sans-serif;font-size:0.875rem;color:var(--ink);font-variant-numeric:tabular-nums lining-nums} .ds-tbl th,.ds-tbl td{padding:8px 12px 8px 0;text-align:left;font-weight:400} .ds-tbl thead th{font-size:0.75rem;font-weight:500;color:var(--ink-3);border-bottom:1px solid var(--rule)} .ds-tbl tbody tr{border-bottom:1px solid var(--rule)} .ds-tbl tbody tr:last-child{border-bottom:0} .ds-tbl .r{text-align:right} .ds-tbl i{font-style:normal;font-size:0.8125rem;color:var(--ink-3);margin-left:8px} .ds-sw{display:inline-block;width:10px;height:10px;border-radius:1px;margin-right:8px} .ds-tbl tfoot th,.ds-tbl tfoot td{border-top:3px double var(--rule-strong);padding-top:8px} .ds-tbl tfoot th{font-size:0.8125rem;font-weight:600} .ds-tbl tfoot td{font-family:'Brygada 1918',ui-serif,Georgia,serif;font-size:1.75rem;line-height:1;font-weight:600}"
+    },
+    {
+      "name": "Readings Ledger",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Stage timeline drawn by form: filled node and solid rule done, folded green flag current, hollow node and dashed rule ahead.",
+      "html": "<ol class=\"ds-tl\"><li class=\"done\"><span class=\"n\"></span><b>First reading</b><small>Sep 21</small></li><li class=\"done\"><span class=\"n\"></span><b>Second reading</b><small>Oct 8</small></li><li class=\"cur\"><span class=\"n\"><svg class=\"ds-flag\" viewBox=\"0 0 16 18\" aria-hidden=\"true\"><path d=\"M3 17V1.5\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\"/><path d=\"M3.9 2h9.6l-2.6 3.6 2.6 3.6H3.9z\" fill=\"currentColor\"/><path d=\"M3.9 9.2l2.4 1.9V9.2z\" fill=\"currentColor\" opacity=\"0.55\"/></svg></span><b>Committee</b><small class=\"now\">Now here</small></li><li class=\"todo\"><span class=\"n\"></span><b>Report stage</b><small></small></li><li class=\"todo last\"><span class=\"n\"></span><b>Third reading</b><small></small></li></ol>",
+      "css": ":host{--paper:oklch(0.976 0.011 84);--paper-sunk:oklch(0.951 0.014 82);--paper-raised:oklch(0.992 0.006 84);--ink:oklch(0.215 0.014 62);--ink-2:oklch(0.4 0.014 62);--ink-3:oklch(0.49 0.014 62);--rule:oklch(0.86 0.014 78);--rule-strong:oklch(0.3 0.014 62);--accent-ink:oklch(0.43 0.085 166);--accent-wash:oklch(0.935 0.028 166);--ballot-yea:oklch(0.3 0.014 62);--ballot-nay:oklch(0.67 0.05 62);--party-liberal:oklch(0.56 0.18 25);--party-conservative:oklch(0.47 0.12 255);--party-bloc:oklch(0.68 0.1 228);--party-ndp:oklch(0.7 0.15 58);--party-green:oklch(0.6 0.14 140);} .ds-tl{display:flex;list-style:none;margin:0;padding:0;font-family:'Libre Franklin',ui-sans-serif,system-ui,sans-serif;} .ds-tl li{position:relative;flex:1;display:flex;flex-direction:column;gap:6px;padding-right:8px} .ds-tl li::before{content:'';position:absolute;top:7px;left:16px;width:100%;border-top:2px dashed var(--rule)} .ds-tl li.done::before{border-top-style:solid;border-color:var(--ink)} .ds-tl li.last::before{display:none} .ds-tl .n{position:relative;z-index:1;width:16px;height:16px;display:flex;align-items:center;justify-content:center;background:var(--paper)} .ds-tl .done .n::after{content:'';width:12px;height:12px;border-radius:50%;background:var(--ink)} .ds-tl .todo .n::after{content:'';width:12px;height:12px;box-sizing:border-box;border-radius:50%;border:2px solid color-mix(in oklch,var(--ink-3) 45%,transparent)} .ds-flag{width:18px;height:18px;transform:translateY(-3px);color:var(--accent-ink)} .ds-tl b{font-size:0.9375rem;font-weight:500;color:var(--ink)} .ds-tl .todo b{font-weight:400;color:var(--ink-3)} .ds-tl small{font-size:0.8125rem;color:var(--ink-3)} .ds-tl small.now{color:var(--accent-ink);font-weight:500}"
+    },
+    {
+      "name": "Ledger Row",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "A record line: label left, serif figure right, on a hairline. Member names in small caps.",
+      "html": "<dl class=\"ds-ledger\"><div><dt>Bills sponsored<small>As the sponsoring member, <span class=\"sc\">Steven MacKinnon</span></small></dt><dd>12</dd></div><div><dt>Votes cast</dt><dd>171</dd></div></dl>",
+      "css": ":host{--paper:oklch(0.976 0.011 84);--paper-sunk:oklch(0.951 0.014 82);--paper-raised:oklch(0.992 0.006 84);--ink:oklch(0.215 0.014 62);--ink-2:oklch(0.4 0.014 62);--ink-3:oklch(0.49 0.014 62);--rule:oklch(0.86 0.014 78);--rule-strong:oklch(0.3 0.014 62);--accent-ink:oklch(0.43 0.085 166);--accent-wash:oklch(0.935 0.028 166);--ballot-yea:oklch(0.3 0.014 62);--ballot-nay:oklch(0.67 0.05 62);--party-liberal:oklch(0.56 0.18 25);--party-conservative:oklch(0.47 0.12 255);--party-bloc:oklch(0.68 0.1 228);--party-ndp:oklch(0.7 0.15 58);--party-green:oklch(0.6 0.14 140);} .ds-ledger{margin:0;max-width:26rem;font-family:'Libre Franklin',ui-sans-serif,system-ui,sans-serif;} .ds-ledger div{display:flex;justify-content:space-between;align-items:baseline;gap:24px;padding:12px 0;border-bottom:1px solid var(--rule)} .ds-ledger dt{font-size:0.9375rem;color:var(--ink)} .ds-ledger small{display:block;font-size:0.8125rem;color:var(--ink-3)} .ds-ledger .sc{font-variant-caps:small-caps;letter-spacing:0.02em} .ds-ledger dd{margin:0;font-family:'Brygada 1918',ui-serif,Georgia,serif;font-size:1.625rem;line-height:1;font-weight:600;letter-spacing:-0.01em;color:var(--ink);font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Empty State",
+      "kind": "card",
+      "refersTo": "",
+      "description": "Honest empty state between dashed rules with one link action.",
+      "html": "<div class=\"ds-empty\"><p class=\"t\">No recorded votes this week</p><p class=\"b\">The House has not held a recorded division since Monday.</p><a class=\"ds-link\" href=\"#\">See all votes</a></div>",
+      "css": ":host{--paper:oklch(0.976 0.011 84);--paper-sunk:oklch(0.951 0.014 82);--paper-raised:oklch(0.992 0.006 84);--ink:oklch(0.215 0.014 62);--ink-2:oklch(0.4 0.014 62);--ink-3:oklch(0.49 0.014 62);--rule:oklch(0.86 0.014 78);--rule-strong:oklch(0.3 0.014 62);--accent-ink:oklch(0.43 0.085 166);--accent-wash:oklch(0.935 0.028 166);--ballot-yea:oklch(0.3 0.014 62);--ballot-nay:oklch(0.67 0.05 62);--party-liberal:oklch(0.56 0.18 25);--party-conservative:oklch(0.47 0.12 255);--party-bloc:oklch(0.68 0.1 228);--party-ndp:oklch(0.7 0.15 58);--party-green:oklch(0.6 0.14 140);} .ds-empty{border-top:1px dashed var(--rule);border-bottom:1px dashed var(--rule);padding:40px 0;text-align:center;font-family:'Libre Franklin',ui-sans-serif,system-ui,sans-serif;} .ds-empty .t{margin:0;font-family:'Brygada 1918',ui-serif,Georgia,serif;font-size:1.125rem;font-weight:600;color:var(--ink)} .ds-empty .b{margin:8px auto 16px;max-width:44ch;font-size:0.9375rem;color:var(--ink-2)} .ds-link{color:var(--accent-ink);font-size:0.9375rem;text-decoration:underline;text-underline-offset:0.2em;text-decoration-thickness:1px;text-decoration-color:color-mix(in oklch,var(--accent-ink) 35%,transparent);transition:text-decoration-color 150ms cubic-bezier(0.25,1,0.5,1)} .ds-link:hover{text-decoration-color:currentColor} .ds-link:focus-visible{outline:2px solid var(--accent-ink);outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Division List",
+    "overview": "Tabled sets Parliament's own record, the printed division list from the Journals of the House, as a readable page. Every object is a record with a count: names in ruled columns, figures in tabular numerals, and totals set large at the foot of the column under a double rule. The page is warm paper with deep ink in light mode and a warm near-black ground with paper-coloured ink in dark mode. Depth comes from rules, never from cards or shadows.\n\nDensity is true density. Tables and lists run on a strict hairline system with no whitespace inflation; the generosity is spent on the reading column (66ch) and on the large serif figures that answer the reader's question first. One accent, House of Commons green, carries links, focus, the current-stage flag and the active nav rule. Colour otherwise lives only in data marks: party swatches, hemicycle seats and the neutral ink and sepia ballot marks.\n\nThe system refuses the SaaS dashboard: no cards, no KPI tiles, no gradient charts, no tinted panels per party.",
+    "keyCharacteristics": [
+      "Warm paper and ink, light and dark, both tuned around hue 62 to 84.",
+      "Hairline rules for every division; a strong rule closes page headers; a double rule sits above every total.",
+      "Brygada 1918 for titles, figures and totals; Libre Franklin for everything read or operated; tabular lining figures everywhere.",
+      "Member names set in small caps, as a division list sets them.",
+      "State drawn by form (fill, ring, dash, strike, flag), so every chart reads without colour."
+    ],
+    "rules": [
+      {
+        "name": "The Data Mark Rule",
+        "body": "Party colour appears only in marks no larger than a swatch or a seat. Text, backgrounds, borders and page themes never take a party hue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Neutral Ballot Rule",
+        "body": "Yea and nay are ink and sepia, never green and red. Neither side of a division gets a positive colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Accent Rule",
+        "body": "Commons Green is the only chromatic UI colour; if it is not a link, focus, selection or the current-stage flag, it is not green.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Body sets tabular lining figures globally; every count lines up in its column.",
+        "section": "typography"
+      },
+      {
+        "name": "The Small Caps Name Rule",
+        "body": "Every member name in running UI (lists, ballot tables, sponsors, dissent lists) uses small caps with capitals at full height (0.02em tracking). Page-title names stay in the display face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sentence Case Rule",
+        "body": "All labels, headings and buttons are sentence case. No uppercase kickers or eyebrows. The only uppercase is postal-code input, which formats the data.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ruled Page Rule",
+        "body": "If a group needs separating, draw a hairline. Cards, tiles and shadows on in-flow content are not part of this world.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Double Rule Rule",
+        "body": "A total is set under a 3px double strong rule, as on a printed division list. Nothing but a total gets a double rule.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do separate with hairlines (rule) and close page headers with the strong rule.",
+      "Do set every total in the serif under the 3px double strong rule.",
+      "Do order parties by seat count in every table, legend and hemicycle.",
+      "Do set member names in small caps (`name-sc`) wherever they appear in lists, tables and sponsor lines.",
+      "Do draw state by form (fill, ring, dash, strike, flag) so charts read in greyscale, and pair every chart with a text alternative.",
+      "Do label every zone with its literal plain-English name in sentence case.",
+      "Do keep prose to the 66ch measure and figures tabular."
+    ],
+    "donts": [
+      "Don't use party colour outside swatches, legend dots and hemicycle seats.",
+      "Don't colour yea and nay as positive and negative; use the ink and sepia ballot marks.",
+      "Don't use cards, KPI tiles, gradient charts or shadows on in-flow content.",
+      "Don't add uppercase kickers or eyebrows above headings.",
+      "Don't use em dashes in Tabled's own copy. Official riding names keep their official punctuation as data.",
+      "Don't flag anything but the current stage of a bill.",
+      "Don't use Commons Green for anything other than links, focus, selection and the current-stage flag."
+    ]
+  }
+}

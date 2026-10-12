@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
   // Server routes (e.g. /api/find) read the SQLite snapshot at request time.
-  outputFileTracingIncludes: { "/**": ["./data/tabled.db"] },
+  outputFileTracingIncludes: { "/**": ["./data/tabled.db", "./assets/fonts/*.ttf"] },
   serverExternalPackages: ["better-sqlite3"],
   turbopack: {
     rules: {

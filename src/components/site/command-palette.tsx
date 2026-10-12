@@ -5,7 +5,7 @@ import { Command } from "cmdk"
 import { Dialog } from "radix-ui"
 import { FileText, Search, User, Vote } from "lucide-react"
 import { useRouter } from "next/navigation"
-import { useCallback, useEffect, useState } from "react"
+import { useEffect, useEffectEvent, useState } from "react"
 import type { SearchEntry } from "@/app/search-index/[locale]/route"
 import type { Locale } from "@/i18n/config"
 import { getMessages } from "@/i18n/messages"
@@ -50,10 +50,10 @@ export function CommandPalette({ locale }: { locale: Locale }) {
   const [failed, setFailed] = useState(false)
   const router = useRouter()
 
-  const show = useCallback(() => {
+  const show = useEffectEvent(() => {
     setOpen(true)
     loadIndex(locale).then(setIndex, () => setFailed(true))
-  }, [locale])
+  })
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -62,13 +62,14 @@ export function CommandPalette({ locale }: { locale: Locale }) {
         show()
       }
     }
+    const onOpen = () => show()
     window.addEventListener("keydown", onKey)
-    window.addEventListener("tabled:open-search", show)
+    window.addEventListener("tabled:open-search", onOpen)
     return () => {
       window.removeEventListener("keydown", onKey)
-      window.removeEventListener("tabled:open-search", show)
+      window.removeEventListener("tabled:open-search", onOpen)
     }
-  }, [show])
+  }, [])
 
   const terms = query.toLowerCase().split(/\s+/).filter(Boolean)
   const results = GROUPS.map((g) => {

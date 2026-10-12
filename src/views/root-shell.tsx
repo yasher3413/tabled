@@ -15,6 +15,8 @@ export function RootShell({ locale, children }: { locale: Locale; children: Reac
   const t = getMessages(locale)
   return (
     <html lang={INTL_LOCALE[locale]} suppressHydrationWarning className={`${display.variable} ${sans.variable}`}>
+      {/* App Router root layouts render <head> directly; the next/head rule targets the Pages Router. */}
+      {/* eslint-disable-next-line @next/next/no-head-element */}
       <head>
         <ThemeScript />
       </head>

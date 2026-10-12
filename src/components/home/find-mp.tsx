@@ -142,7 +142,7 @@ function Results({ result }: { result: Result }) {
             <p className="text-[0.8125rem] text-ink-3">{r.riding}</p>
             {r.mp ? (
               <div className="mt-3 flex items-center gap-4">
-                <MemberAvatar name={r.mp.name} partyId={r.mp.partyId} />
+                <MemberAvatar name={r.mp.name} />
                 <div className="min-w-0 flex-1">
                   <Link href={`/mps/${r.mp.id}`} className="font-display text-xl font-semibold after:absolute after:inset-0 group-hover:underline">
                     {r.mp.name}

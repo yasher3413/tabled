@@ -142,7 +142,7 @@ export function VoteChamber({ ballots, parties, aside }: { ballots: BallotRow[];
                 <li key={d.memberId} className="flex items-baseline justify-between gap-3 border-b border-rule py-2 text-[0.9375rem]" onPointerEnter={() => setHovered(d.memberId)} onPointerLeave={() => setHovered(null)}>
                   <span className="inline-flex min-w-0 items-center gap-2">
                     <PartySwatch partyId={d.partyId} />
-                    <Link className="link truncate" href={`/mps/${d.memberId}`}>
+                    <Link className="link name-sc truncate" href={`/mps/${d.memberId}`}>
                       {d.name}
                     </Link>
                   </span>
@@ -197,7 +197,7 @@ export function VoteChamber({ ballots, parties, aside }: { ballots: BallotRow[];
                   className={cn("border-b border-rule transition-colors duration-100", hovered === b.memberId && "bg-paper-sunk")}
                 >
                   <th scope="row" className="py-2 pr-3 text-left font-normal">
-                    <Link className="hover:underline" href={`/mps/${b.memberId}`}>
+                    <Link className="name-sc hover:underline" href={`/mps/${b.memberId}`}>
                       {b.name}
                     </Link>
                   </th>

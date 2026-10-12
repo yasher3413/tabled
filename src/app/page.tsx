@@ -98,16 +98,16 @@ export default function Home() {
                 <ul className="border-t border-rule">
                   {votes.slice(0, 6).map((v) => (
                     <li key={v.id} className="group relative border-b border-rule py-3.5">
-                      <p className="flex items-baseline justify-between gap-4 text-[0.8125rem] text-ink-3">
-                        <span>
-                          Vote {v.number}
-                          {v.billNumber ? ` · ${v.billNumber}` : ""}
-                        </span>
-                        <span>{formatShortDate(v.date, year)}</span>
+                      <div className="flex items-baseline justify-between gap-4">
+                        <Link href={`/votes/${v.sessionId}/${v.number}`} className="line-clamp-2 block text-[0.9375rem] leading-snug text-ink after:absolute after:inset-0 group-hover:underline">
+                          {v.descriptionEn}
+                        </Link>
+                        <span className="shrink-0 text-[0.8125rem] text-ink-3">{formatShortDate(v.date, year)}</span>
+                      </div>
+                      <p className="mt-0.5 text-[0.8125rem] text-ink-3">
+                        Vote {v.number}
+                        {v.billNumber ? `, ${v.billNumber}` : ""}
                       </p>
-                      <Link href={`/votes/${v.sessionId}/${v.number}`} className="mt-0.5 line-clamp-2 block text-[0.9375rem] leading-snug text-ink after:absolute after:inset-0 group-hover:underline">
-                        {v.descriptionEn}
-                      </Link>
                       <VoteTally className="mt-2.5" size="sm" yeas={v.yeas} nays={v.nays} paired={v.paired} result={v.result} />
                     </li>
                   ))}

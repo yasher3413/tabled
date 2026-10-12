@@ -124,9 +124,9 @@ export function BillsExplorer({ bills, parties, referenceYear, params, interacti
           value={filters.sort}
           onChange={(v) => set({ sort: v })}
           options={[
-            { value: "activity", label: "Last activity" },
-            { value: "introduced", label: "Date introduced" },
-            { value: "number", label: "Bill number" },
+            { value: "activity", label: "Activity" },
+            { value: "introduced", label: "Introduced" },
+            { value: "number", label: "Number" },
           ]}
         />
         </div>

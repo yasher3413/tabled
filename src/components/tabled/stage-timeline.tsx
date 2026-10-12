@@ -2,6 +2,7 @@ import { formatDate, formatShortDate } from "@/lib/format"
 import type { BillStage } from "@/lib/queries"
 import { CHAMBER_LABEL, stageInfo } from "@/lib/stages"
 import { cn } from "@/lib/utils"
+import { FlagMark } from "./flag-mark"
 import { StageExplainer } from "./stage-explainer"
 
 const STATE_TEXT: Record<BillStage["state"], string> = {
@@ -98,11 +99,7 @@ function StageNode({ state }: { state: BillStage["state"] }) {
       {state === "completed" && <span className="size-3 rounded-full bg-ink" />}
       {state === "not_reached" && <span className="size-3 rounded-full border-2 border-ink-3/45 bg-paper" />}
       {state === "skipped" && <span className="h-0.5 w-3 rounded-full bg-ink-3/60" />}
-      {state === "in_progress" && (
-        <span className="size-4 rounded-full border-2 border-accent-ink bg-paper p-[2px]">
-          <span className="block size-full rounded-full bg-accent-ink" />
-        </span>
-      )}
+      {state === "in_progress" && <FlagMark className="size-[18px] -translate-y-[3px] text-accent-ink" />}
       {state === "defeated" && (
         <svg viewBox="0 0 16 16" className="size-4 text-danger-ink">
           <path d="M3 3l10 10M13 3L3 13" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />

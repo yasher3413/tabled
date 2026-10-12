@@ -41,7 +41,7 @@ export function BillRow({
           {bill.sponsorName && (
             <span className="text-[0.8125rem] text-ink-3">
               {bill.sponsorMemberId && party ? (
-                <PartyTag partyId={party.id} label={bill.sponsorName} className="text-ink-3" />
+                <PartyTag partyId={party.id} label={<span className="name-sc">{bill.sponsorName}</span>} className="text-ink-3" />
               ) : bill.chamber === "senate" ? (
                 `Senator ${bill.sponsorName}`
               ) : (

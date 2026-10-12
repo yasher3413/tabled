@@ -6,8 +6,7 @@ export default function NotFound() {
   return (
     <Container>
       <div className="max-w-2xl border-b border-rule-strong pt-16 pb-12 sm:pt-24">
-        <p className="font-display text-[1.25rem] font-semibold text-ink-3">Not on the order paper</p>
-        <h1 className="mt-3 font-display text-[2.75rem] leading-[1.05] font-semibold tracking-[-0.02em] sm:text-[3.5rem]">We can’t find that page.</h1>
+        <h1 className=" font-display text-[2.75rem] leading-[1.05] font-semibold tracking-[-0.02em] sm:text-[3.5rem]">We can’t find that page.</h1>
         <p className="measure mt-4 text-lg leading-relaxed text-ink-2">
           The link may be mistyped, or the bill, vote or MP may not be part of the current session. Try searching instead.
         </p>

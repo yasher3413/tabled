@@ -38,7 +38,7 @@ test.describe("bills", () => {
 
   test("bill detail shows the stage timeline, votes and sources", async ({ page }) => {
     await page.goto("/bills/45-1/C-39")
-    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Building Canada Strong Act")
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText(/C-39\s*Building Canada Strong Act/)
     const timeline = page.getByRole("region", { name: "House of Commons" })
     await expect(timeline.getByText("Now here")).toBeVisible()
     await page.getByRole("button", { name: /What is committee in the House of Commons/ }).click()

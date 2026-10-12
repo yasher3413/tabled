@@ -7,7 +7,7 @@ import { Container, SectionHeading } from "@/components/tabled/page-header"
 import { PartyBreakdown } from "@/components/tabled/party-breakdown"
 import { StageTimeline } from "@/components/tabled/stage-timeline"
 import { SummaryBlock } from "@/components/tabled/summary-block"
-import { DivisionTotals } from "@/components/tabled/division-totals"
+import { VoteTally } from "@/components/tabled/vote-tally"
 import { EmptyState } from "@/components/tabled/states"
 import { formatDate, formatShortDate } from "@/lib/format"
 import { allBillParams, getBill, getDataYear, listParties } from "@/lib/queries"
@@ -66,17 +66,15 @@ export default async function BillPage({ params }: { params: Promise<Params> }) 
             <span aria-hidden className="mx-2">/</span>
             <span>{bill.number}</span>
           </nav>
-          <div className="mt-6 flex flex-wrap items-baseline gap-x-4 gap-y-1">
-            <p className="font-display text-[1.75rem] leading-none font-semibold text-ink-3 tabular-nums">{bill.number}</p>
-            <p className="text-sm text-ink-3">
-              {bill.typeLabel} · Introduced in the {bill.chamber === "house" ? "House of Commons" : "Senate"}
-              {bill.introducedDate ? ` on ${formatDate(bill.introducedDate)}` : ""}
-            </p>
-          </div>
-          <h1 className="mt-3 max-w-[22ch] font-display text-[2.375rem] leading-[1.05] font-semibold tracking-[-0.02em] sm:text-[3.5rem]">
+          <h1 className="mt-6 max-w-[22ch] font-display text-[2.375rem] leading-[1.05] font-semibold tracking-[-0.02em] sm:text-[3.5rem]">
+            <span className="block text-ink-3 tabular-nums">{bill.number}</span>
             {bill.shortTitleEn ?? bill.titleEn}
           </h1>
           {bill.shortTitleEn && <p className="measure mt-4 text-lg leading-relaxed text-ink-2">{bill.titleEn}</p>}
+          <p className="mt-3 text-[0.9375rem] text-ink-3">
+            {bill.typeLabel}, introduced in the {bill.chamber === "house" ? "House of Commons" : "Senate"}
+            {bill.introducedDate ? ` on ${formatDate(bill.introducedDate)}` : ""}
+          </p>
           <dl className="mt-6 flex flex-wrap gap-x-10 gap-y-4 text-[0.9375rem]">
             <div>
               <dt className="text-[0.8125rem] text-ink-3">Status</dt>
@@ -93,7 +91,7 @@ export default async function BillPage({ params }: { params: Promise<Params> }) 
               <dt className="text-[0.8125rem] text-ink-3">Sponsor</dt>
               <dd>
                 {sponsor ? (
-                  <Link href={`/mps/${sponsor.id}`} className="link">
+                  <Link href={`/mps/${sponsor.id}`} className="link name-sc">
                     {bill.sponsorName ?? sponsor.name}
                   </Link>
                 ) : (
@@ -149,18 +147,22 @@ export default async function BillPage({ params }: { params: Promise<Params> }) 
               {votes.map((v) => (
                 <li key={v.id} className="grid gap-x-10 gap-y-4 border-b border-rule py-6 lg:grid-cols-[1fr_1.1fr]">
                   <div className="min-w-0">
-                    <p className="text-[0.8125rem] text-ink-3">
-                      <time dateTime={v.date}>{formatDate(v.date)}</time> · Vote {v.number}
-                    </p>
-                    <h3 className="mt-1 text-[1.0625rem] leading-snug font-medium">
+                    <h3 className="text-[1.0625rem] leading-snug font-medium">
                       <Link className="hover:underline" href={`/votes/${v.sessionId}/${v.number}`}>
                         {v.descriptionEn}
                       </Link>
                     </h3>
-                    <p className="mt-4 font-display text-xl font-semibold">{v.result === "passed" ? "Passed" : v.result === "failed" ? "Failed" : "Tied"}</p>
-                    <DivisionTotals className="mt-3 max-w-md" yeas={v.yeas} nays={v.nays} paired={v.paired} />
+                    <p className="mt-1 text-[0.8125rem] text-ink-3">
+                      Vote {v.number}, <time dateTime={v.date}>{formatDate(v.date)}</time>
+                    </p>
+                    <VoteTally className="mt-4 max-w-md" yeas={v.yeas} nays={v.nays} paired={v.paired} result={v.result} />
                   </div>
-                  <PartyBreakdown stats={v.partyStats} parties={parties} caption={`Party breakdown for vote ${v.number}`} />
+                  <PartyBreakdown
+                    stats={v.partyStats}
+                    parties={parties}
+                    caption={`Party breakdown for vote ${v.number}`}
+                    totals={{ yeas: v.yeas, nays: v.nays, notVoting: v.partyStats.reduce((a, s) => a + s.paired + s.absent, 0) }}
+                  />
                 </li>
               ))}
             </ol>

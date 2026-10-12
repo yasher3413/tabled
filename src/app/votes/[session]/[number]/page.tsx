@@ -3,7 +3,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Container, SectionHeading } from "@/components/tabled/page-header"
 import { PartyBreakdown } from "@/components/tabled/party-breakdown"
-import { DivisionTotals } from "@/components/tabled/division-totals"
+import { VoteTally } from "@/components/tabled/vote-tally"
 import { VoteChamber } from "@/components/votes/vote-chamber"
 import { formatDate } from "@/lib/format"
 import { allVoteParams, getVote, listParties } from "@/lib/queries"
@@ -44,24 +44,24 @@ export default async function VotePage({ params }: { params: Promise<Params> }) 
             <span aria-hidden className="mx-2">/</span>
             <span>Vote {v.number}</span>
           </nav>
-          <p className="mt-6 text-sm text-ink-3">
-            Recorded vote {v.number} · House of Commons · <time dateTime={v.date}>{formatDate(v.date)}</time>
-          </p>
-          <h1 className="mt-3 max-w-[30ch] font-display text-[2rem] leading-[1.1] font-semibold tracking-[-0.015em] sm:text-[2.75rem]">
+          <h1 className="mt-6 max-w-[30ch] font-display text-[2rem] leading-[1.1] font-semibold tracking-[-0.015em] sm:text-[2.75rem]">
             {v.descriptionEn}
           </h1>
-          {v.billNumber && (
-            <p className="mt-4 text-[1rem] text-ink-2">
-              On{" "}
-              <Link className="link" href={`/bills/${v.billSession}/${v.billNumber}`}>
-                Bill {v.billNumber}
-                {v.billShortTitle ? `, ${v.billShortTitle}` : ""}
-              </Link>
-            </p>
-          )}
-          <div className="mt-8 grid max-w-4xl items-end gap-x-12 gap-y-6 sm:grid-cols-[auto_1fr]">
+          <p className="mt-4 text-[1rem] text-ink-2">
+            Recorded vote {v.number} in the House of Commons, <time dateTime={v.date}>{formatDate(v.date)}</time>
+            {v.billNumber && (
+              <>
+                , on{" "}
+                <Link className="link" href={`/bills/${v.billSession}/${v.billNumber}`}>
+                  Bill {v.billNumber}
+                  {v.billShortTitle ? `, ${v.billShortTitle}` : ""}
+                </Link>
+              </>
+            )}
+          </p>
+          <div className="mt-8 grid max-w-3xl items-end gap-x-10 gap-y-4 sm:grid-cols-[auto_1fr]">
             <p className="font-display text-[3.5rem] leading-none font-semibold tracking-[-0.02em] text-ink">{resultWord}</p>
-            <DivisionTotals yeas={v.yeas} nays={v.nays} paired={v.paired} absent={ballots.filter((b) => b.ballot === "absent").length} size="lg" />
+            <VoteTally yeas={v.yeas} nays={v.nays} paired={v.paired} result={v.result} size="lg" showResult={false} className="pb-1.5" />
           </div>
           {v.hasPartySplit && (
             <p className="measure mt-5 text-[0.9375rem] text-ink-2">
@@ -79,7 +79,12 @@ export default async function VotePage({ params }: { params: Promise<Params> }) 
               aside={
                 <div className="mt-10">
                   <h3 className="text-[0.8125rem] font-semibold text-ink">By party</h3>
-                  <PartyBreakdown stats={partyStats} parties={parties} caption={`How each party voted on vote ${v.number}`} />
+                  <PartyBreakdown
+                    stats={partyStats}
+                    parties={parties}
+                    caption={`How each party voted on vote ${v.number}`}
+                    totals={{ yeas: v.yeas, nays: v.nays, notVoting: ballots.filter((b) => b.ballot === "absent" || b.ballot === "paired").length }}
+                  />
                 </div>
               }
             />

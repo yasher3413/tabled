@@ -21,7 +21,7 @@ export function PartyTag({
   className,
 }: {
   partyId: string | null | undefined
-  label: string | null | undefined
+  label: React.ReactNode
   className?: string
 }) {
   return (

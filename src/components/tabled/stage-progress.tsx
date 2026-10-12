@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils"
 import { currentStageLabel } from "@/lib/stages"
+import { FlagMark } from "./flag-mark"
 import type { BillListItem } from "@/lib/queries"
 
 /**
@@ -42,11 +43,13 @@ export function StageProgress({
                   s.state === "completed" && "h-3 bg-ink",
                   s.state === "not_reached" && "h-3 border border-ink-3/55 bg-transparent",
                   s.state === "skipped" && "h-px self-center bg-ink-3/60",
-                  s.state === "in_progress" && "h-[1.125rem] bg-accent-ink",
+                  s.state === "in_progress" && "h-3 w-auto",
                   s.state === "defeated" &&
                     "h-3 bg-danger-ink after:absolute after:top-1/2 after:-left-[3px] after:h-px after:w-[11px] after:-rotate-45 after:bg-danger-ink",
                 )}
-              />
+              >
+                {s.state === "in_progress" && <FlagMark className="-mt-1 h-4 w-3.5 text-accent-ink" />}
+              </span>
             ))}
           </span>
         ))}

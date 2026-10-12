@@ -3,7 +3,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { ArrowUpRight } from "lucide-react"
 import { BillRow } from "@/components/tabled/bill-row"
-import { LedgerFigure } from "@/components/tabled/ledger-figure"
+import { LedgerRow } from "@/components/tabled/ledger-figure"
 import { MemberAvatar } from "@/components/tabled/member-avatar"
 import { Container, SectionHeading } from "@/components/tabled/page-header"
 import { PartyTag } from "@/components/tabled/party-tag"
@@ -52,7 +52,7 @@ export default async function MpPage({ params }: { params: Promise<Params> }) {
             <span>{m.name}</span>
           </nav>
           <div className="mt-6 flex items-center gap-5 sm:gap-6">
-            <MemberAvatar name={m.name} partyId={m.partyId} size="lg" />
+            <MemberAvatar name={m.name} size="lg" />
             <div className="min-w-0">
               <h1 className="font-display text-[2.25rem] leading-[1.05] font-semibold tracking-[-0.02em] sm:text-[3.25rem]">{m.name}</h1>
               <p className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[1rem] text-ink-2">
@@ -70,15 +70,19 @@ export default async function MpPage({ params }: { params: Promise<Params> }) {
               )}
             </div>
           </div>
-          <dl className="mt-10 grid grid-cols-2 gap-x-8 gap-y-8 border-t border-rule pt-6 sm:grid-cols-4">
-            <LedgerFigure
+          <dl className="mt-10 grid gap-x-12 border-t border-rule-strong md:grid-cols-2">
+            <LedgerRow
               label="Voted with party"
               value={formatPercent(stats?.partyLineRate)}
-              note={stats?.partyLineEligible ? `on ${stats.partyLineEligible} votes with a clear party position` : "No party position to measure against"}
+              note={stats?.partyLineEligible ? `On ${stats.partyLineEligible} votes with a clear party position` : "No party position to measure against"}
             />
-            <LedgerFigure label="Votes cast" value={stats?.votesHeld ? `${stats.votesCast}` : "n/a"} note={stats?.votesHeld ? `of ${stats.votesHeld} held while sitting${stats.votesPaired ? `, ${stats.votesPaired} paired` : ""}` : undefined} />
-            <LedgerFigure label="Broke ranks" value={stats?.dissentCount ?? 0} note={(stats?.dissentCount ?? 0) === 1 ? "time" : "times"} />
-            <LedgerFigure label="Bills sponsored" value={stats?.billsSponsored ?? sponsored.length} note={`${sponsored.filter((b) => b.isLaw).length} became law`} />
+            <LedgerRow
+              label="Votes cast"
+              value={stats?.votesHeld ? `${stats.votesCast} of ${stats.votesHeld}` : "n/a"}
+              note={stats?.votesHeld ? `Recorded votes held while sitting${stats.votesPaired ? `; ${stats.votesPaired} paired` : ""}` : undefined}
+            />
+            <LedgerRow label="Broke ranks" value={stats?.dissentCount ?? 0} note="Votes against their party’s position" />
+            <LedgerRow label="Bills sponsored" value={stats?.billsSponsored ?? sponsored.length} note={`${sponsored.filter((b) => b.isLaw).length} became law`} />
           </dl>
           <p className="mt-6 text-[0.8125rem] text-ink-3">
             Missing a recorded vote has many legitimate causes, from committee work to illness to travel.{" "}

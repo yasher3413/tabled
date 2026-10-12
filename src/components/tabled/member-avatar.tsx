@@ -1,9 +1,8 @@
 import { initials } from "@/lib/format"
 import { cn } from "@/lib/utils"
-import { partyColor } from "./party-tag"
 
-/** Initials avatar with a party-coloured base rule. No photos (licensing unclear). */
-export function MemberAvatar({ name, partyId, size = "md" }: { name: string; partyId: string | null; size?: "sm" | "md" | "lg" }) {
+/** Initials avatar. No photos (licensing unclear); party is shown by the tag beside it. */
+export function MemberAvatar({ name, size = "md" }: { name: string; size?: "sm" | "md" | "lg" }) {
   return (
     <span
       aria-hidden
@@ -13,7 +12,6 @@ export function MemberAvatar({ name, partyId, size = "md" }: { name: string; par
         size === "md" && "size-10 text-sm",
         size === "lg" && "size-20 text-2xl",
       )}
-      style={{ boxShadow: `inset 0 -3px 0 ${partyColor(partyId)}` }}
     >
       {initials(name)}
     </span>

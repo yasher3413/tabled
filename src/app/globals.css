@@ -59,13 +59,13 @@
 }
 
 .dark {
-  --paper: oklch(0.185 0.013 252);
-  --paper-sunk: oklch(0.155 0.013 252);
-  --paper-raised: oklch(0.225 0.015 252);
+  --paper: oklch(0.19 0.009 62);
+  --paper-sunk: oklch(0.162 0.008 62);
+  --paper-raised: oklch(0.228 0.01 62);
   --ink: oklch(0.935 0.01 84);
   --ink-2: oklch(0.8 0.01 84);
   --ink-3: oklch(0.71 0.012 84);
-  --rule: oklch(0.33 0.014 252);
+  --rule: oklch(0.34 0.012 62);
   --rule-strong: oklch(0.86 0.01 84);
   --accent-ink: oklch(0.78 0.095 166);
   --accent-wash: oklch(0.27 0.04 166);
@@ -73,8 +73,8 @@
 
   --ballot-yea: oklch(0.9 0.01 84);
   --ballot-nay: oklch(0.6 0.045 66);
-  --ballot-paired: oklch(0.55 0.012 252);
-  --ballot-absent: oklch(0.36 0.014 252);
+  --ballot-paired: oklch(0.55 0.012 62);
+  --ballot-absent: oklch(0.38 0.012 62);
 
   --party-liberal: oklch(0.66 0.17 25);
   --party-conservative: oklch(0.64 0.12 255);
@@ -213,6 +213,12 @@
   .smallcaps {
     font-variant-caps: all-small-caps;
     letter-spacing: 0.04em;
+  }
+
+  /* Member names as a division list sets them: capitals full height, the rest in small caps. */
+  .name-sc {
+    font-variant-caps: small-caps;
+    letter-spacing: 0.02em;
   }
 
   /* Reading measure for prose. */

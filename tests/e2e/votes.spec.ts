@@ -30,6 +30,7 @@ test.describe("votes", () => {
 
   test("vote totals on the page match the source", async ({ page }) => {
     await page.goto("/votes/45-1/178")
-    await expect(page.getByLabel(/^296 yeas, 26 nays, 10 paired/)).toBeVisible()
+    await expect(page.getByRole("img", { name: "Passed: 296 yeas, 26 nays, 10 paired." }).first()).toBeVisible()
+    await expect(page.locator("tfoot")).toContainText("296")
   })
 })

@@ -103,9 +103,9 @@ export function MembersExplorer({ members, parties, params, interactive = false 
                 <tr key={m.id} className="group relative border-b border-rule hover:bg-paper-sunk/60">
                   <th scope="row" className="py-2.5 pr-3 text-left font-normal">
                     <span className="flex items-center gap-3">
-                      <MemberAvatar name={m.name} partyId={m.partyId} size="sm" />
+                      <MemberAvatar name={m.name} size="sm" />
                       <span className="min-w-0">
-                        <Link href={`/mps/${m.id}`} className="block text-ink after:absolute after:inset-0 group-hover:underline">
+                        <Link href={`/mps/${m.id}`} className="name-sc block text-ink after:absolute after:inset-0 group-hover:underline">
                           {m.name}
                         </Link>
                         <span className="flex items-center gap-1.5 text-[0.8125rem] text-ink-3">

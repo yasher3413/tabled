@@ -7,6 +7,7 @@ export function VoteTally({
   paired,
   result,
   size = "md",
+  showResult = true,
   className,
 }: {
   yeas: number
@@ -14,6 +15,7 @@ export function VoteTally({
   paired?: number
   result: "passed" | "failed" | "tied"
   size?: "sm" | "md" | "lg"
+  showResult?: boolean
   className?: string
 }) {
   const total = yeas + nays
@@ -22,9 +24,11 @@ export function VoteTally({
   return (
     <div className={cn("min-w-0", className)}>
       <div className="flex items-baseline justify-between gap-3">
-        <p className={cn("flex items-baseline gap-2", size === "lg" ? "text-base" : "text-[0.8125rem]")}>
-          <span className={cn("font-semibold", result === "passed" ? "text-accent-ink" : "text-ink")}>{resultLabel}</span>
-        </p>
+        {showResult && (
+          <p className={cn("flex items-baseline gap-2", size === "lg" ? "text-base" : "text-[0.8125rem]")}>
+            <span className={cn("font-semibold", result === "passed" ? "text-accent-ink" : "text-ink")}>{resultLabel}</span>
+          </p>
+        )}
         <p className={cn("tabular-nums text-ink-2", size === "lg" ? "text-base" : "text-[0.8125rem]")}>
           <span className="font-semibold text-ink">{yeas}</span> yea
           <span className="mx-1.5 text-ink-3">to</span>

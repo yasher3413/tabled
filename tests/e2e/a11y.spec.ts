@@ -1,7 +1,7 @@
 import { test } from "@playwright/test"
 import { expectAccessible, setTheme } from "./helpers"
 
-const ROUTES = ["/", "/bills", "/bills/45-1/C-39", "/bills/45-1/C-4", "/votes", "/votes/45-1/177", "/mps", "/mps/ziad-aboultaif", "/find", "/find?postal=K1A0A6", "/parties"]
+const ROUTES = ["/", "/bills", "/bills/45-1/C-39", "/bills/45-1/C-4", "/votes", "/votes/45-1/177", "/mps", "/mps/ziad-aboultaif", "/find", "/find?postal=K1A0A6", "/parties", "/about"]
 
 for (const theme of ["light", "dark"] as const) {
   test.describe(`accessibility (${theme})`, () => {

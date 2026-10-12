@@ -9,3 +9,10 @@ test("parties page lists parties by seats with cohesion", async ({ page }) => {
   expect([...nums].sort((a, b) => b - a)).toEqual(nums)
   await expect(rows.first()).toContainText("%")
 })
+
+test("about page explains methodology and credits sources", async ({ page }) => {
+  await page.goto("/about")
+  await expect(page.getByRole("heading", { name: "How numbers are calculated" })).toBeVisible()
+  await expect(page.getByRole("link", { name: "openparliament.ca" }).first()).toHaveAttribute("href", "https://openparliament.ca")
+  await expect(page.getByText(/AI-generated/).first()).toBeVisible()
+})

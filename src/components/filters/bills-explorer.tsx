@@ -1,7 +1,8 @@
 "use client"
 
 import { useSearchParams } from "next/navigation"
-import { useDeferredValue, useMemo } from "react"
+import { SlidersHorizontal } from "lucide-react"
+import { useDeferredValue, useMemo, useState } from "react"
 import { BillRow } from "@/components/tabled/bill-row"
 import { EmptyState } from "@/components/tabled/states"
 import { DEFAULT_BILL_FILTERS, filterBills, readBillFilters } from "@/lib/bill-filters"
@@ -14,6 +15,8 @@ const STAGE_KEYS = {
   house: ["first-reading", "second-reading", "committee", "report", "third-reading"],
   senate: ["first-reading", "second-reading", "committee", "third-reading"],
 }
+
+const PAGE = 25
 
 interface Props {
   bills: BillListItem[]
@@ -33,6 +36,11 @@ export function BillsExplorer({ bills, parties, referenceYear, params, interacti
   const shown = useMemo(() => filterBills(bills, { ...filters, q }), [bills, filters, q])
   const partyById = useMemo(() => new Map(parties.map((p) => [p.id, p])), [parties])
   const sponsorParties = parties.filter((p) => bills.some((b) => b.sponsorPartyId === p.id))
+  const filterKey = JSON.stringify({ ...filters, q })
+  const [page, setPage] = useState({ key: filterKey, limit: PAGE })
+  const limit = page.key === filterKey ? page.limit : PAGE
+  const [filtersOpen, setFiltersOpen] = useState(false)
+  const activeFilters = [filters.stage, filters.chamber, filters.type, filters.party, filters.law].filter(Boolean).length
 
   const stageOptions = [
     { value: "", label: "Any stage" },
@@ -49,23 +57,35 @@ export function BillsExplorer({ bills, parties, referenceYear, params, interacti
       <div
         role="search"
         aria-label="Filter bills"
-        className="grid grid-cols-2 gap-3 border-b border-rule py-5 md:grid-cols-4 lg:grid-cols-[2fr_repeat(6,minmax(0,1fr))]"
+        className="grid grid-cols-2 gap-3 border-b border-rule py-5 md:grid-cols-3 lg:grid-cols-6"
         inert={!interactive ? true : undefined}
       >
         <SearchField
-          className="col-span-2 md:col-span-4 lg:col-span-1"
+          className="col-span-2 md:col-span-3 lg:col-span-6 xl:col-span-2"
           label="Search"
           value={filters.q}
           onChange={(v) => set({ q: v })}
           placeholder="Number, title or keyword"
         />
+        <button
+          type="button"
+          onClick={() => setFiltersOpen((o) => !o)}
+          aria-expanded={filtersOpen}
+          aria-controls="bill-filters"
+          className="col-span-2 inline-flex h-10 items-center justify-center gap-2 rounded-sm border border-rule bg-paper-raised text-[0.9375rem] text-ink-2 md:hidden"
+        >
+          <SlidersHorizontal aria-hidden className="size-4" strokeWidth={1.75} />
+          {filtersOpen ? "Hide filters" : "Filters"}
+          {activeFilters > 0 && <span className="rounded-full bg-ink px-1.5 text-[0.75rem] text-paper">{activeFilters}</span>}
+        </button>
+        <div id="bill-filters" className={`col-span-2 grid-cols-2 gap-3 md:col-span-3 md:grid md:grid-cols-3 lg:col-span-6 lg:grid-cols-6 xl:col-span-4 xl:grid-cols-[repeat(6,minmax(0,1fr))] ${filtersOpen ? "grid" : "hidden"}`}>
         <FilterSelect label="Stage" value={filters.stage} onChange={(v) => set({ stage: v })} options={stageOptions} />
         <FilterSelect
           label="Starts in"
           value={filters.chamber}
           onChange={(v) => set({ chamber: v })}
           options={[
-            { value: "", label: "Either chamber" },
+            { value: "", label: "Either" },
             { value: "house", label: "House of Commons" },
             { value: "senate", label: "Senate" },
           ]}
@@ -109,6 +129,7 @@ export function BillsExplorer({ bills, parties, referenceYear, params, interacti
             { value: "number", label: "Bill number" },
           ]}
         />
+        </div>
       </div>
       <div className="flex items-center justify-between py-3">
         <ResultCount
@@ -130,11 +151,25 @@ export function BillsExplorer({ bills, parties, referenceYear, params, interacti
           Try fewer filters, or search for a bill number like C-5.
         </EmptyState>
       ) : (
-        <div className="border-t border-rule">
-          {shown.map((b) => (
-            <BillRow key={b.id} bill={b} party={b.sponsorPartyId ? partyById.get(b.sponsorPartyId) : undefined} referenceYear={referenceYear} />
-          ))}
-        </div>
+        <>
+          <h2 className="sr-only">Results</h2>
+          <div className="border-t border-rule">
+            {shown.slice(0, limit).map((b) => (
+              <BillRow key={b.id} bill={b} party={b.sponsorPartyId ? partyById.get(b.sponsorPartyId) : undefined} referenceYear={referenceYear} dateField={filters.sort === "introduced" ? "introduced" : "activity"} />
+            ))}
+          </div>
+          {shown.length > limit && (
+            <div className="mt-6 text-center">
+              <button
+                type="button"
+                onClick={() => setPage({ key: filterKey, limit: limit + PAGE * 2 })}
+                className="h-10 rounded-sm border border-rule-strong px-5 text-[0.9375rem] text-ink transition-colors duration-150 hover:bg-ink hover:text-paper"
+              >
+                Show more ({shown.length - limit} left)
+              </button>
+            </div>
+          )}
+        </>
       )}
     </div>
   )

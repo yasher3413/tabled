@@ -30,7 +30,6 @@ test.describe("votes", () => {
 
   test("vote totals on the page match the source", async ({ page }) => {
     await page.goto("/votes/45-1/178")
-    await expect(page.getByText(/296\s*yea/).first()).toBeVisible()
-    await expect(page.getByText(/26\s*nay/).first()).toBeVisible()
+    await expect(page.getByLabel(/^296 yeas, 26 nays, 10 paired/)).toBeVisible()
   })
 })

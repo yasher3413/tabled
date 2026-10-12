@@ -33,7 +33,7 @@ export function PartyBreakdown({ stats, parties, caption }: { stats: VotePartySt
                 </span>
               </th>
               <td className="py-2 pr-3">
-                <span className={stat.majority === "yea" ? "text-accent-ink" : "text-ink"}>{MAJORITY_LABEL[stat.majority]}</span>
+                <span className="text-ink">{MAJORITY_LABEL[stat.majority]}</span>
                 {stat.dissentCount > 0 && voting >= 2 && (
                   <span className="ml-2 text-[0.8125rem] text-ink-3">
                     {stat.dissentCount} broke ranks

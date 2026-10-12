@@ -5,7 +5,9 @@ test.describe("bills", () => {
     await page.goto("/bills")
     await expect(page.getByRole("heading", { level: 1, name: "Bills" })).toBeVisible()
     const rows = page.locator("article")
-    expect(await rows.count()).toBeGreaterThan(100)
+    await expect(rows).toHaveCount(25)
+    await page.getByRole("button", { name: /Show more/ }).click()
+    await expect(rows).toHaveCount(75)
     await page.getByRole("searchbox", { name: "Search" }).fill("C-39")
     await expect(rows).toHaveCount(1)
     await expect(rows.first()).toContainText("Building Canada Strong Act")
@@ -30,7 +32,8 @@ test.describe("bills", () => {
     await page.goto("/bills?q=zzzz-no-such-bill")
     await expect(page.getByText("No bills match")).toBeVisible()
     await page.getByRole("button", { name: "Clear all filters" }).click()
-    await expect.poll(() => page.locator("article").count()).toBeGreaterThan(100)
+    await expect(page.locator("article")).toHaveCount(25)
+    await expect(page.getByText(/^\d+ bills$/)).toBeVisible()
   })
 
   test("bill detail shows the stage timeline, votes and sources", async ({ page }) => {
@@ -46,6 +49,6 @@ test.describe("bills", () => {
 
   test("a bill that became law shows royal assent", async ({ page }) => {
     await page.goto("/bills/45-1/C-4")
-    await expect(page.getByText(/Became law March 12, 2026/)).toBeVisible()
+    await expect(page.getByText(/Became law on March 12, 2026/)).toBeVisible()
   })
 })

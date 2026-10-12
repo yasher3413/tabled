@@ -97,13 +97,50 @@ export function stageInfo(stageKey: string): StageInfo & { chamber: StageChamber
   return { ...info, chamber }
 }
 
-/** Human label for a bill's current_stage value, e.g. "Committee, House of Commons". */
-export function currentStageLabel(currentStage: string): string {
-  if (currentStage === "defeated") return "Defeated"
-  if (currentStage === "introduced") return "Introduced"
+/** Where a live bill sits, phrased as a state: "In committee", "At second reading". */
+const AT_STAGE: Record<string, string> = {
+  "first-reading": "Awaiting first reading",
+  "second-reading": "At second reading",
+  committee: "In committee",
+  report: "At report stage",
+  "third-reading": "At third reading",
+}
+
+function chamberWord(chamber: string, long: boolean) {
+  if (chamber === "senate") return long ? "the Senate" : "Senate"
+  return long ? "the House of Commons" : "House"
+}
+
+/**
+ * One vocabulary for a bill's position, used everywhere:
+ *   compact  "In committee (House)"                      bill rows, search
+ *   status   "In committee in the House of Commons"      bill page header
+ */
+export function describeStage(currentStage: string, form: "compact" | "status" = "compact"): string {
   if (currentStage === "crown:royal-assent") return "Became law"
-  const info = stageInfo(currentStage)
-  return `${info.label}, ${info.chamber === "senate" ? "Senate" : "House"}`
+  if (currentStage === "introduced") return "Introduced"
+  if (currentStage === "defeated") return "Defeated"
+  const [chamber, slug] = currentStage.split(":")
+  const phrase = AT_STAGE[slug] ?? stageInfo(currentStage).label
+  return form === "status" ? `${phrase} in ${chamberWord(chamber, true)}` : `${phrase} (${chamberWord(chamber, false)})`
+}
+
+/** Back-compat name for the compact form. */
+export function currentStageLabel(currentStage: string): string {
+  return describeStage(currentStage, "compact")
+}
+
+/** A stage event for activity feeds: "Introduced (House)", "Passed second reading (Senate)", "Now in committee (House)". */
+export function describeStageEvent(stageKey: string, state: string): string {
+  if (stageKey === "crown:royal-assent") return "Became law"
+  const [chamber, slug] = stageKey.split(":")
+  const where = chamberWord(chamber, false)
+  const label = stageInfo(stageKey).label.toLowerCase()
+  if (state === "defeated") return `Defeated at ${label} (${where})`
+  if (state === "in_progress") return `Now ${(AT_STAGE[slug] ?? label).replace(/^(At|In|Awaiting) /, (m) => m.toLowerCase())} (${where})`
+  if (slug === "first-reading") return `Introduced (${where})`
+  if (slug === "committee") return `Committee study done (${where})`
+  return `Passed ${label} (${where})`
 }
 
 export const BILL_TYPE_EXPLAINERS: Record<string, string> = {

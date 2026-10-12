@@ -48,7 +48,7 @@ export function SiteFooter() {
           </ul>
         </div>
         <div>
-          <h2 className="text-sm font-semibold text-ink">Tabled</h2>
+          <h2 className="text-sm font-semibold text-ink">Project</h2>
           <ul className="mt-3 space-y-2 text-sm text-ink-2">
             <li>
               <Link className="link" href="/about">

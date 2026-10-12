@@ -7,12 +7,12 @@ import { Container, SectionHeading } from "@/components/tabled/page-header"
 import { PartyBreakdown } from "@/components/tabled/party-breakdown"
 import { StageTimeline } from "@/components/tabled/stage-timeline"
 import { SummaryBlock } from "@/components/tabled/summary-block"
-import { VoteTally } from "@/components/tabled/vote-tally"
+import { DivisionTotals } from "@/components/tabled/division-totals"
 import { EmptyState } from "@/components/tabled/states"
 import { formatDate, formatShortDate } from "@/lib/format"
 import { allBillParams, getBill, getDataYear, listParties } from "@/lib/queries"
 import { SITE_URL } from "@/lib/site"
-import { BILL_TYPE_EXPLAINERS, currentStageLabel } from "@/lib/stages"
+import { BILL_TYPE_EXPLAINERS, currentStageLabel, describeStage } from "@/lib/stages"
 
 type Params = { session: string; number: string }
 
@@ -44,6 +44,11 @@ export default async function BillPage({ params }: { params: Promise<Params> }) 
   const year = getDataYear()
   const sponsorParty = parties.find((p) => p.id === (bill.sponsorPartyId ?? sponsor?.partyId))
   const pageUrl = `${SITE_URL}/bills/${bill.sessionId}/${bill.number}`
+  const current = stages.find((s) => s.state === "in_progress")
+  // A stage's date is when it began; fall back to the previous stage's completion.
+  const currentSince = current ? (current.date ?? stages.filter((s) => s.ordinal < current.ordinal && s.date).at(-1)?.date ?? null) : null
+  const defeatedStage = stages.find((s) => s.state === "defeated")
+  const defeatedAt = defeatedStage ? `${defeatedStage.stageName.toLowerCase()} in the ${defeatedStage.chamber === "senate" ? "Senate" : "House of Commons"}` : null
   const links = [
     bill.textUrl && { label: "Full text of the bill", href: bill.textUrl },
     { label: "LEGISinfo record", href: bill.legisinfoUrl },
@@ -75,8 +80,12 @@ export default async function BillPage({ params }: { params: Promise<Params> }) 
           <dl className="mt-6 flex flex-wrap gap-x-10 gap-y-4 text-[0.9375rem]">
             <div>
               <dt className="text-[0.8125rem] text-ink-3">Status</dt>
-              <dd className={bill.isLaw ? "font-medium text-accent-ink" : bill.isDefeated ? "font-medium text-danger-ink" : "text-ink"}>
-                {bill.isLaw ? `Became law ${formatDate(bill.royalAssentDate)}` : bill.statusEn}
+              <dd title={bill.statusEn} className={bill.isLaw ? "font-medium text-accent-ink" : bill.isDefeated ? "font-medium text-danger-ink" : "text-ink"}>
+                {bill.isLaw
+                  ? `Became law on ${formatDate(bill.royalAssentDate)}`
+                  : bill.isDefeated
+                    ? `Defeated${defeatedAt ? ` at ${defeatedAt}` : ""}`
+                    : `${describeStage(bill.currentStage, "status")}${currentSince ? ` since ${formatDate(currentSince)}` : ""}`}
                 {bill.statuteChapter && <span className="text-ink-3"> · {bill.statuteChapter}</span>}
               </dd>
             </div>
@@ -148,7 +157,8 @@ export default async function BillPage({ params }: { params: Promise<Params> }) 
                         {v.descriptionEn}
                       </Link>
                     </h3>
-                    <VoteTally className="mt-4 max-w-md" yeas={v.yeas} nays={v.nays} paired={v.paired} result={v.result} />
+                    <p className="mt-4 font-display text-xl font-semibold">{v.result === "passed" ? "Passed" : v.result === "failed" ? "Failed" : "Tied"}</p>
+                    <DivisionTotals className="mt-3 max-w-md" yeas={v.yeas} nays={v.nays} paired={v.paired} />
                   </div>
                   <PartyBreakdown stats={v.partyStats} parties={parties} caption={`Party breakdown for vote ${v.number}`} />
                 </li>
@@ -170,7 +180,7 @@ export default async function BillPage({ params }: { params: Promise<Params> }) 
             ))}
           </ul>
           <p className="mt-6 text-[0.8125rem] text-ink-3">
-            Bill data from LEGISinfo, votes from openparliament.ca and the House of Commons. Last updated {formatDate(bill.lastUpdated)}.
+            LEGISinfo status: {bill.statusEn}. Bill data from LEGISinfo, votes from openparliament.ca and the House of Commons. Last updated {formatDate(bill.lastUpdated)}.
           </p>
         </section>
       </Container>

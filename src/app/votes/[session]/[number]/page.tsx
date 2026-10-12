@@ -3,7 +3,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Container, SectionHeading } from "@/components/tabled/page-header"
 import { PartyBreakdown } from "@/components/tabled/party-breakdown"
-import { VoteTally } from "@/components/tabled/vote-tally"
+import { DivisionTotals } from "@/components/tabled/division-totals"
 import { VoteChamber } from "@/components/votes/vote-chamber"
 import { formatDate } from "@/lib/format"
 import { allVoteParams, getVote, listParties } from "@/lib/queries"
@@ -59,9 +59,9 @@ export default async function VotePage({ params }: { params: Promise<Params> }) 
               </Link>
             </p>
           )}
-          <div className="mt-8 grid max-w-3xl items-end gap-6 sm:grid-cols-[auto_1fr]">
-            <p className={`font-display text-[3.5rem] leading-none font-semibold tracking-[-0.02em] ${v.result === "passed" ? "text-accent-ink" : "text-ink"}`}>{resultWord}</p>
-            <VoteTally yeas={v.yeas} nays={v.nays} paired={v.paired} result={v.result} size="lg" showResult={false} className="pb-1" />
+          <div className="mt-8 grid max-w-4xl items-end gap-x-12 gap-y-6 sm:grid-cols-[auto_1fr]">
+            <p className="font-display text-[3.5rem] leading-none font-semibold tracking-[-0.02em] text-ink">{resultWord}</p>
+            <DivisionTotals yeas={v.yeas} nays={v.nays} paired={v.paired} absent={ballots.filter((b) => b.ballot === "absent").length} size="lg" />
           </div>
           {v.hasPartySplit && (
             <p className="measure mt-5 text-[0.9375rem] text-ink-2">

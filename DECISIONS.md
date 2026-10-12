@@ -18,3 +18,6 @@ One line each: decision, reason.
 - 21st.dev Magic consulted for the command palette, timeline and hemicycle: the catalog offered generic SaaS styling (and no hemicycle), so only interaction patterns were adopted (grouped results, arrow-key nav, moving highlight), built on shadcn cmdk in Tabled's own grammar.
 - Unknown bill/vote/MP URLs render the 404 page with noindex but HTTP 200: Cache Components streams the shell before notFound() and dynamicParams is unavailable. Every real record is prerendered, so only mistyped URLs are affected.
 - Summaries may have 1 or 2 'what it does' bullets when the source is under 1,500 characters (otherwise 3 to 6, per the brief): one-line bills such as a single repeal cannot yield three distinct changes without padding or invention.
+- Impeccable critique (27/40) acted on in one fix batch: official summary shown openly, one stage vocabulary, paginated bills index, division-list totals, neutral ballot colours (ink yea, sepia nay) so neither side reads as "positive".
+- Added a `skipped` stage state: 17 Senate bills went from second to third reading without a committee stage, which the canonical stage list had shown as "not reached".
+- The home hemicycle uses party colours: it is a data visualisation of seat counts (allowed by the brief), not a page theme.

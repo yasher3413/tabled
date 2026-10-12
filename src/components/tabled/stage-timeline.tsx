@@ -9,6 +9,7 @@ const STATE_TEXT: Record<BillStage["state"], string> = {
   in_progress: "Current stage",
   not_reached: "Not reached",
   defeated: "Defeated here",
+  skipped: "Skipped",
 }
 
 /**
@@ -57,7 +58,7 @@ export function StageTimeline({ stages, referenceYear }: { stages: BillStage[]; 
                   <StageNode state={s.state} />
                   <div className="min-w-0 pb-0.5">
                     <p className="-mt-0.5 leading-tight">
-                      <span className={cn("text-[0.9375rem]", s.state === "not_reached" ? "text-ink-3" : "font-medium text-ink")}>
+                      <span className={cn("text-[0.9375rem]", s.state === "not_reached" || s.state === "skipped" ? "text-ink-3" : "font-medium text-ink")}>
                         {info.label}
                       </span>
                       <span className="ml-0.5 inline-block align-middle">
@@ -76,6 +77,8 @@ export function StageTimeline({ stages, referenceYear }: { stages: BillStage[]; 
                         </time>
                       ) : s.state === "completed" ? (
                         "Date not recorded"
+                      ) : s.state === "skipped" ? (
+                        "Skipped"
                       ) : null}
                     </p>
                   </div>
@@ -93,7 +96,8 @@ function StageNode({ state }: { state: BillStage["state"] }) {
   return (
     <span aria-hidden className="relative z-10 mt-0.5 flex size-4 shrink-0 items-center justify-center bg-paper lg:mt-0">
       {state === "completed" && <span className="size-3 rounded-full bg-ink" />}
-      {state === "not_reached" && <span className="size-3 rounded-full border-2 border-rule bg-paper" />}
+      {state === "not_reached" && <span className="size-3 rounded-full border-2 border-ink-3/45 bg-paper" />}
+      {state === "skipped" && <span className="h-0.5 w-3 rounded-full bg-ink-3/60" />}
       {state === "in_progress" && (
         <span className="size-4 rounded-full border-2 border-accent-ink bg-paper p-[2px]">
           <span className="block size-full rounded-full bg-accent-ink" />

@@ -15,15 +15,27 @@ interface Props {
 /** Plain-English summary with its AI disclosure, or an honest placeholder. */
 export function SummaryBlock({ billNumber, pageUrl, summary, officialSummary, sourceLinks }: Props) {
   if (!summary) {
+    if (!officialSummary) {
+      return (
+        <div className="border-b border-rule pb-6">
+          <p className="measure text-[1rem] leading-relaxed text-ink-2">
+            A plain-English summary is not available yet, and Parliament has not published a summary for this bill. The{" "}
+            {sourceLinks[0] ? (
+              <a className="link" href={sourceLinks[0].href}>
+                official text
+              </a>
+            ) : (
+              "official text"
+            )}{" "}
+            is linked below.
+          </p>
+        </div>
+      )
+    }
     return (
       <div className="border-b border-rule pb-6">
-        <p className="font-display text-lg font-semibold">Plain-English summary coming soon</p>
-        <p className="measure mt-1.5 text-[0.9375rem] leading-relaxed text-ink-2">
-          {officialSummary
-            ? "We have not written a plain-English version of this bill yet. Here is the official summary from Parliament."
-            : "We have not written a plain-English version of this bill yet. The official text is linked below."}
-        </p>
-        {officialSummary && <OfficialSummary text={officialSummary} />}
+        <OfficialSummary text={officialSummary} />
+        <p className="mt-5 text-[0.8125rem] text-ink-3">A plain-English summary is not available yet. This is the official summary, as published on LEGISinfo.</p>
       </div>
     )
   }
@@ -91,19 +103,36 @@ export function SummaryBlock({ billNumber, pageUrl, summary, officialSummary, so
   )
 }
 
+function splitParagraphs(text: string) {
+  return text
+    .split(/\n{2,}|\n(?=\(?[a-z0-9]\)|Part \d)/i)
+    .map((p) => p.trim())
+    .filter(Boolean)
+}
+
+/** The official summary, shown openly: the first paragraphs up front, the rest behind a disclosure. */
 function OfficialSummary({ text }: { text: string }) {
-  const paragraphs = text.split(/\n{2,}|\n(?=\(?[a-z0-9]\)|Part \d)/i).map((p) => p.trim()).filter(Boolean)
+  const paragraphs = splitParagraphs(text)
+  const lead = paragraphs.slice(0, 2)
+  const rest = paragraphs.slice(2)
   return (
-    <details className="group mt-4">
-      <summary className="link cursor-pointer text-[0.9375rem] marker:text-ink-3">
-        Read the official summary
-      </summary>
-      <div className="measure mt-3 space-y-3 border-l border-rule pl-4 text-[0.9375rem] leading-relaxed text-ink-2">
-        {paragraphs.map((p, i) => (
+    <div className="measure">
+      <h3 className="text-[0.8125rem] font-semibold text-ink">Official summary from Parliament</h3>
+      <div className="mt-2 space-y-3 text-[1.0625rem] leading-relaxed text-ink">
+        {lead.map((p, i) => (
           <p key={i}>{p}</p>
         ))}
-        <p className="text-[0.8125rem] text-ink-3">Source: summary published on LEGISinfo.</p>
       </div>
-    </details>
+      {rest.length > 0 && (
+        <details className="group mt-3">
+          <summary className="link cursor-pointer text-[0.9375rem] marker:text-ink-3">Read the full official summary ({rest.length} more {rest.length === 1 ? "paragraph" : "paragraphs"})</summary>
+          <div className="mt-3 space-y-3 text-[1rem] leading-relaxed text-ink-2">
+            {rest.map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
+          </div>
+        </details>
+      )}
+    </div>
   )
 }

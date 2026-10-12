@@ -1,7 +1,7 @@
 import type { LIBill, LIStage } from "../types"
 
 export type BillType = "government" | "private_member" | "senate_public" | "senate_private"
-export type StageState = "completed" | "in_progress" | "not_reached" | "defeated"
+export type StageState = "completed" | "in_progress" | "not_reached" | "defeated" | "skipped"
 export type Chamber = "house" | "senate"
 
 export interface NormalizedStage {
@@ -157,6 +157,7 @@ export function normalizeStages(bill: LIBill): NormalizedStage[] {
     let state: StageState
     if (r.raw === "completed") state = "completed"
     else if (r.raw === "defeated") state = "defeated"
+    else if (i < lastCompleted) state = "skipped" // a later stage completed, so this one was bypassed
     else if (live && i === lastCompleted + 1) state = "in_progress"
     else state = "not_reached"
     return {
@@ -165,7 +166,7 @@ export function normalizeStages(bill: LIBill): NormalizedStage[] {
       stageKey: r.stageKey,
       stageName: r.stageName,
       state,
-      date: state === "not_reached" ? null : r.date,
+      date: state === "not_reached" || state === "skipped" ? null : r.date,
     }
   })
 }

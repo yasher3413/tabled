@@ -1,5 +1,6 @@
 "use client"
 
+import { KbdHint } from "@/components/site/kbd-hint"
 import { Search } from "lucide-react"
 import { openSearch } from "@/components/site/command-palette"
 
@@ -12,7 +13,7 @@ export function SearchLauncher() {
     >
       <Search aria-hidden className="size-[1.125rem] text-ink-2" strokeWidth={1.75} />
       <span className="flex-1 truncate">Search bills and MPs</span>
-      <kbd className="hidden rounded-sm border border-rule px-1.5 text-xs sm:inline">⌘K</kbd>
+      <KbdHint className="hidden rounded-sm border border-rule px-1.5 text-xs sm:inline" />
     </button>
   )
 }

@@ -5,7 +5,18 @@ import { PartyTag } from "./party-tag"
 import { StageProgress } from "./stage-progress"
 
 /** One bill in a ruled list: number, title, plain-English line, progress, sponsor, last activity. */
-export function BillRow({ bill, party, referenceYear }: { bill: BillListItem; party?: Party; referenceYear?: number }) {
+export function BillRow({
+  bill,
+  party,
+  referenceYear,
+  dateField = "activity",
+}: {
+  bill: BillListItem
+  party?: Party
+  referenceYear?: number
+  /** Which date the right-hand column shows; it is labelled either way. */
+  dateField?: "activity" | "introduced"
+}) {
   const title = bill.shortTitle ?? bill.title
   return (
     <article className="group relative grid gap-x-6 gap-y-2 border-b border-rule py-5 sm:grid-cols-[5.5rem_1fr_auto]">
@@ -31,6 +42,8 @@ export function BillRow({ bill, party, referenceYear }: { bill: BillListItem; pa
             <span className="text-[0.8125rem] text-ink-3">
               {bill.sponsorMemberId && party ? (
                 <PartyTag partyId={party.id} label={bill.sponsorName} className="text-ink-3" />
+              ) : bill.chamber === "senate" ? (
+                `Senator ${bill.sponsorName}`
               ) : (
                 bill.sponsorName
               )}
@@ -39,8 +52,8 @@ export function BillRow({ bill, party, referenceYear }: { bill: BillListItem; pa
         </div>
       </div>
       <p className="text-[0.8125rem] whitespace-nowrap text-ink-3 sm:text-right">
-        <span className="sr-only">Last activity </span>
-        {formatShortDate(bill.lastActivityDate, referenceYear)}
+        <span className="sm:block">{dateField === "introduced" ? "Introduced" : "Last activity"}</span>{" "}
+        <span className="text-ink-2">{formatShortDate(dateField === "introduced" ? bill.introducedDate : bill.lastActivityDate, referenceYear)}</span>
       </p>
     </article>
   )

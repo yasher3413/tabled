@@ -17,16 +17,7 @@ import {
   partyMap,
   recentlyIntroduced,
 } from "@/lib/queries"
-import { stageInfo } from "@/lib/stages"
-
-function moveLabel(stageKey: string, state: string) {
-  if (stageKey === "crown:royal-assent") return "Became law"
-  const info = stageInfo(stageKey)
-  const where = info.chamber === "senate" ? "Senate" : "House"
-  if (state === "defeated") return `Defeated at ${info.label.toLowerCase()} (${where})`
-  if (state === "in_progress") return `Now at ${info.label.toLowerCase()} (${where})`
-  return `Passed ${info.label.toLowerCase()} (${where})`
-}
+import { describeStageEvent } from "@/lib/stages"
 
 export default function Home() {
   const today = getDataDate()
@@ -52,8 +43,8 @@ export default function Home() {
               What Parliament is doing, in plain English.
             </h1>
             <p className="mt-5 max-w-[38rem] text-lg leading-relaxed text-ink-2">
-              Tabled tracks every federal bill, every recorded House vote and every MP. Each bill is explained so you can
-              understand it in under a minute, with the official source one click away.
+              Tabled tracks every federal bill, every recorded House vote and every MP in the current Parliament: where
+              each bill stands, who voted which way, and the official source one click away.
             </p>
             <div className="mt-8 grid max-w-[40rem] gap-3 sm:grid-cols-2">
               <SearchLauncher />
@@ -83,11 +74,11 @@ export default function Home() {
                     <li key={m.bill.id} className="group relative grid grid-cols-[4.5rem_1fr_auto] gap-x-4 border-b border-rule py-3.5">
                       <span className="font-display text-[1.0625rem] font-semibold tabular-nums">{m.bill.number}</span>
                       <span className="min-w-0">
-                        <Link href={`/bills/${m.bill.sessionId}/${m.bill.number}`} className="block truncate text-[0.9375rem] text-ink after:absolute after:inset-0 group-hover:underline">
+                        <Link href={`/bills/${m.bill.sessionId}/${m.bill.number}`} className="line-clamp-2 block text-[0.9375rem] leading-snug text-ink after:absolute after:inset-0 group-hover:underline">
                           {m.bill.shortTitle ?? m.bill.title}
                         </Link>
                         <span className={m.stageKey === "crown:royal-assent" ? "text-[0.8125rem] font-medium text-accent-ink" : m.state === "defeated" ? "text-[0.8125rem] text-danger-ink" : "text-[0.8125rem] text-ink-3"}>
-                          {moveLabel(m.stageKey, m.state)}
+                          {describeStageEvent(m.stageKey, m.state)}
                         </span>
                       </span>
                       <span className="text-[0.8125rem] whitespace-nowrap text-ink-3">{formatShortDate(m.date, year)}</span>
@@ -137,7 +128,7 @@ export default function Home() {
           </SectionHeading>
           <div>
             {introduced.map((b) => (
-              <BillRow key={b.id} bill={b} party={b.sponsorPartyId ? parties.get(b.sponsorPartyId) : undefined} referenceYear={year} />
+              <BillRow key={b.id} bill={b} party={b.sponsorPartyId ? parties.get(b.sponsorPartyId) : undefined} referenceYear={year} dateField="introduced" />
             ))}
           </div>
         </section>

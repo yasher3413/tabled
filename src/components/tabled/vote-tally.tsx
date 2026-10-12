@@ -26,7 +26,7 @@ export function VoteTally({
       <div className="flex items-baseline justify-between gap-3">
         {showResult && (
           <p className={cn("flex items-baseline gap-2", size === "lg" ? "text-base" : "text-[0.8125rem]")}>
-            <span className={cn("font-semibold", result === "passed" ? "text-accent-ink" : "text-ink")}>{resultLabel}</span>
+            <span className="font-semibold text-ink">{resultLabel}</span>
           </p>
         )}
         <p className={cn("tabular-nums text-ink-2", size === "lg" ? "text-base" : "text-[0.8125rem]")}>

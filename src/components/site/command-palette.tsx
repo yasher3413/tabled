@@ -1,5 +1,6 @@
 "use client"
 
+import { KbdHint } from "@/components/site/kbd-hint"
 import { Command } from "cmdk"
 import { Dialog } from "radix-ui"
 import { FileText, Search, User, Vote } from "lucide-react"
@@ -160,7 +161,7 @@ export function SearchButton({ className }: { className?: string }) {
     >
       <Search className="size-4" strokeWidth={1.75} aria-hidden />
       <span>Search</span>
-      <kbd className="ml-3 hidden rounded-sm border border-rule px-1.5 text-xs sm:inline">⌘K</kbd>
+      <KbdHint className="ml-3 hidden rounded-sm border border-rule px-1.5 text-xs sm:inline" />
     </button>
   )
 }

@@ -30,17 +30,18 @@ export function StageProgress({
       <span
         role="img"
         aria-label={`${label}. ${done} of ${stages.length} stages complete.`}
-        className="flex items-end gap-[5px]"
+        className="flex items-end gap-2"
       >
         {groups.map((g, gi) => (
-          <span key={gi} className="flex items-end gap-[2px]">
+          <span key={gi} className={cn("flex items-end gap-[2px]", gi > 0 && "border-l border-ink-3/40 pl-2")}>
             {g.items.map((s) => (
               <span
                 key={s.key}
                 className={cn(
-                  "relative block w-[5px]",
+                  "relative block w-1.5",
                   s.state === "completed" && "h-3 bg-ink",
-                  s.state === "not_reached" && "h-3 border border-rule bg-transparent",
+                  s.state === "not_reached" && "h-3 border border-ink-3/55 bg-transparent",
+                  s.state === "skipped" && "h-px self-center bg-ink-3/60",
                   s.state === "in_progress" && "h-[1.125rem] bg-accent-ink",
                   s.state === "defeated" &&
                     "h-3 bg-danger-ink after:absolute after:top-1/2 after:-left-[3px] after:h-px after:w-[11px] after:-rotate-45 after:bg-danger-ink",

@@ -80,6 +80,17 @@ describe("normalizeStages", () => {
   })
 })
 
+describe("skipped stages", () => {
+  it("marks a stage as skipped when a later stage completed (real case: Senate committee bypassed)", () => {
+    // The list export has no stage detail, so build from the S-228 detail and drop its Senate committee stage.
+    const bill = structuredClone(li("S-228"))
+    bill.BillStages!.SenateBillStages = bill.BillStages!.SenateBillStages.filter((s) => s.BillStageNameEn !== "Consideration in committee")
+    const stages = normalizeStages(bill)
+    expect(stages.find((s) => s.stageKey === "senate:committee")?.state).toBe("skipped")
+    expect(stages.filter((s) => s.state === "in_progress")).toHaveLength(0)
+  })
+})
+
 describe("normalizeBill", () => {
   it("builds the bill row for a live government bill", () => {
     const { bill, sponsorParlId } = normalizeBill(li("C-39"), NOW)

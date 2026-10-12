@@ -117,7 +117,7 @@ export const billStages = sqliteTable(
     chamber: text("chamber", { enum: ["house", "senate", "crown"] }).notNull(),
     stageKey: text("stage_key").notNull(), // "house:second-reading"
     stageName: text("stage_name").notNull(),
-    state: text("state", { enum: ["completed", "in_progress", "not_reached"] }).notNull(),
+    state: text("state", { enum: ["completed", "in_progress", "not_reached", "defeated"] }).notNull(),
     date: text("date"),
   },
   (t) => [primaryKey({ columns: [t.billId, t.ordinal] })],

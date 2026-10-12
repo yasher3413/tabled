@@ -1,7 +1,7 @@
 {
   "version": "6",
   "dialect": "sqlite",
-  "id": "986d2026-905d-4e6a-b783-1c6eff4e0143",
+  "id": "2d9eeace-bd01-41ed-ac2d-aa7eb4d863f8",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "ballots": {

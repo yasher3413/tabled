@@ -1,7 +1,7 @@
 # Progress
 
 ## Current phase
-MVP done; stretch items 1 to 8 done. Remaining: item 9 (polish), vote detail perf, screenshots, MORNING.md refresh. See docs/HANDOFF.md.
+MVP done; stretch backlog done (item 4 dormant until summaries exist). Only the owner's actions remain: see MORNING.md.
 
 ## Done
 - Phase 0: brief read, logs, commit hook (verified), env check, live recon of all four sources with recorded fixtures, docs/DATA_SOURCES.md, scaffold (Next 16.4 Cache Components, Tailwind 4, shadcn radix-nova, Vitest, Playwright).
@@ -14,10 +14,12 @@ MVP done; stretch items 1 to 8 done. Remaining: item 9 (polish), vote detail per
 - Phase 7: README, CI and daily refresh workflows, MIT licence, CONTRIBUTING.
 
 ## Quality gates (latest run)
-- typecheck, lint: clean. Unit: 80 tests passing. E2E + axe: 48 passing (every route, light and dark, zero serious/critical violations).
-- Lighthouse (local prod build): home 91/100/100/100, bill 96/100/100/100, MP 93/100/100/100 (perf/a11y/best practices/SEO).
+- typecheck, lint: clean. Unit: 106 tests passing. E2E + axe: 95 passing (every route incl. French, light and dark, zero serious/critical violations). Build passes.
+- Lighthouse (local prod build, perf/a11y/best practices/SEO): home 96/100/100/100, bill 96/100/100/100, MP 95/100/100/100, vote 95/100/100/100, French bill 96/100/100/100.
+- Screenshots: 72 images (18 routes, 1440px and 390px, light and dark) in docs/screenshots/.
 
 ## Stretch backlog
+- [x] 9. Impeccable polish (one fix batch plus confirmation) on home, bill, vote and MP, with a look at digest, compare, embed and French: green only for links and the current stage, phone ballot table keeps the vote column, full dissenter names on phones, no repeated territory name, wrapping section headings, memoised ballot rows.
 - [x] 6. Previous session (44-1: 412 bills, 928 votes, 311,735 ballots): /bills/44-1, /votes/44-1, session filter on /mps, per-session MP ledgers and record. MP stats stored per session.
 - [x] 7. Hansard excerpts on bill pages ("What MPs said"): one opening excerpt per party, anchored on the bill, linked to the full speech. 301 bills.
 - [x] 8. Embeddable vote card at /embed/votes/... with copyable iframe code on vote pages.
@@ -28,7 +30,7 @@ MVP done; stretch items 1 to 8 done. Remaining: item 9 (polish), vote detail per
 - [x] 1. French: /fr for every page, hand-translated UI and stage explainers, official French data, hreflang, bilingual sitemap, French e2e + axe.
 
 ## Next
-- 9. Further Impeccable polish on the most-visited pages, then refresh screenshots and MORNING.md.
+- Nothing left in the backlog. Owner actions: real ANTHROPIC_API_KEY then `pnpm summarize`, Vercel deploy, domain. See MORNING.md.
 
 ## Blocked
 - **Plain-English summaries not generated.** `.env` contains a 16-character placeholder for `ANTHROPIC_API_KEY`, not a real key (the API returns `invalid x-api-key`), and no `ant` CLI login exists. The summarizer is built and tested; it skips cleanly and the site shows "Plain-English summary coming soon" plus the official LEGISinfo summary where one exists. Owner action: put a real `sk-ant-...` key in `.env` and run `pnpm summarize` (about $2-4 with Haiku 4.5 for all 190 bills), then commit `data/summaries/`.

@@ -1,0 +1,62 @@
+name: Daily data refresh
+
+on:
+  schedule:
+    - cron: "30 9 * * *" # 05:30 Eastern, after Parliament's overnight publications
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - uses: actions/cache@v4
+        with:
+          path: data/cache
+          key: source-cache-${{ github.run_id }}
+          restore-keys: source-cache-
+
+      - name: Ingest recent activity
+        run: pnpm ingest:recent
+
+      - name: Generate summaries for new or changed bills
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SUMMARY_MODEL: ${{ vars.SUMMARY_MODEL || 'claude-haiku-4-5' }}
+        run: pnpm summarize
+
+      - name: Commit the summary cache
+        run: |
+          if [ -n "$(git status --porcelain data/summaries)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/summaries
+            git commit -m "chore(data): refresh plain-English summaries"
+            git push
+          else
+            echo "No summary changes."
+          fi
+
+      - name: Trigger a deploy
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
+            curl -fsS -X POST "$VERCEL_DEPLOY_HOOK" > /dev/null && echo "Deploy triggered."
+          else
+            echo "VERCEL_DEPLOY_HOOK not set; skipping deploy."
+          fi

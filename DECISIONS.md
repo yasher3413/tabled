@@ -14,3 +14,5 @@ One line each: decision, reason.
 - Pure-function edge cases (ties, independents) use small inline inputs in unit tests: those cases do not occur in the recorded votes, and inline inputs are never shown in the UI.
 - When openparliament and the House of Commons feed disagree on a vote's totals or date, use the official House record for that vote's details and ballots: openparliament vote 45-1/148 is a duplicate of 140.
 - Session start date is the earliest bill first reading or vote date in the data: no source exposes the session's opening date directly.
+- Impeccable's interview and decision steps answered from the brief instead of asking: the owner's brief forbids stopping for questions. PRODUCT.md marks inferred facts.
+- 21st.dev Magic consulted for the command palette, timeline and hemicycle: the catalog offered generic SaaS styling (and no hemicycle), so only interaction patterns were adopted (grouped results, arrow-key nav, moving highlight), built on shadcn cmdk in Tabled's own grammar.

@@ -6,16 +6,14 @@
 import "dotenv/config"
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs"
 import path from "node:path"
-import Anthropic from "@anthropic-ai/sdk"
-import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod"
 import Database from "better-sqlite3"
 import { z } from "zod"
 import { fetchText } from "../ingest/http"
+import { createLlm, pickModel, pickProvider, type Llm } from "./llm"
 import { BASIS_DESCRIPTION, billContext, PART_NOTES_PROMPT, SYSTEM_PROMPT } from "./prompt"
 import { chunkParts, extractBillText, findXmlUrl, hashSource, MIN_LEGISLATIVE_SUMMARY, type SourceBasis } from "./source"
 import { validateSummary } from "./validator"
 
-const MODEL = process.env.SUMMARY_MODEL || "claude-haiku-4-5"
 const DB_PATH = path.join(process.cwd(), "data", "tabled.db")
 const OUT_ROOT = path.join(process.cwd(), "data", "summaries")
 /** Above this many characters of source, summarize part by part and then synthesize. */
@@ -70,8 +68,6 @@ interface Source {
   parts?: { heading: string; text: string }[]
 }
 
-const usage = { input: 0, output: 0, calls: 0 }
-
 async function gatherSource(b: BillRow): Promise<Source | null> {
   if (b.legisinfo_summary_text && b.legisinfo_summary_text.length >= MIN_LEGISLATIVE_SUMMARY) {
     return { basis: "legislative_summary", text: b.legisinfo_summary_text, url: b.legisinfo_url }
@@ -96,29 +92,12 @@ async function gatherSource(b: BillRow): Promise<Source | null> {
   return null // title only: never summarize from a title
 }
 
-const client = new Anthropic()
-
-async function callStructured<T extends z.ZodType>(schema: T, system: string, user: string, maxTokens: number): Promise<z.infer<T> | null> {
-  const response = await client.messages.parse({
-    model: MODEL,
-    max_tokens: maxTokens,
-    system: [{ type: "text", text: system, cache_control: { type: "ephemeral" } }],
-    messages: [{ role: "user", content: user }],
-    output_config: { format: zodOutputFormat(schema) },
-  })
-  usage.calls++
-  usage.input += response.usage.input_tokens + (response.usage.cache_read_input_tokens ?? 0) + (response.usage.cache_creation_input_tokens ?? 0)
-  usage.output += response.usage.output_tokens
-  if (response.stop_reason === "max_tokens") throw new Error("response hit max_tokens")
-  return response.parsed_output ?? null
-}
-
-async function partNotes(b: BillRow, parts: { heading: string; text: string }[]): Promise<{ notes: string; coverage: string | null }> {
+async function partNotes(llm: Llm, b: BillRow, parts: { heading: string; text: string }[]): Promise<{ notes: string; coverage: string | null }> {
   const chunks = chunkParts(parts, CHUNK_TARGET_CHARS)
   const used = chunks.slice(0, MAX_CHUNKS)
   const notes: string[] = []
   for (const chunk of used) {
-    const out = await callStructured(PartNotes, PART_NOTES_PROMPT, `${billContext(toCtx(b))}\n\nPart: ${chunk.heading}\n\n<source>\n${chunk.text}\n</source>`, 2000)
+    const out = await llm.callStructured(PartNotes, "part_notes", PART_NOTES_PROMPT, `${billContext(toCtx(b))}\n\nPart: ${chunk.heading}\n\n<source>\n${chunk.text}\n</source>`, 2000)
     if (out?.changes.length) notes.push(`${chunk.heading}:\n${out.changes.map((c) => `- ${c}`).join("\n")}`)
   }
   const coverage =
@@ -138,12 +117,12 @@ function toCtx(b: BillRow) {
   }
 }
 
-async function summarize(b: BillRow, src: Source) {
+async function summarize(llm: Llm, b: BillRow, src: Source) {
   let sourceText = src.text
   let coverage: string | null = null
   let sourceLabel: string = BASIS_DESCRIPTION[src.basis]
   if (src.basis === "full_text" && src.text.length > SINGLE_CALL_CHARS && src.parts) {
-    const n = await partNotes(b, src.parts)
+    const n = await partNotes(llm, b, src.parts)
     const drafters = /^SUMMARY \(written by the bill's drafters\)\n([\s\S]*?)\n\n/.exec(src.text)?.[1]
     sourceText = [drafters ? `Drafters' summary:\n${drafters}` : null, `Notes on each part:\n${n.notes}`].filter(Boolean).join("\n\n")
     sourceLabel = "the drafters' summary and notes on each part of the bill's official text"
@@ -152,7 +131,7 @@ async function summarize(b: BillRow, src: Source) {
   let feedback = ""
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
     const user = `${billContext(toCtx(b))}\n\nThe source below is ${sourceLabel}. Summarize the bill using only this source.\n\n<source>\n${sourceText}\n</source>${feedback}`
-    const out = await callStructured(ModelOutput, SYSTEM_PROMPT, user, 2000)
+    const out = await llm.callStructured(ModelOutput, "bill_summary", SYSTEM_PROMPT, user, 2000)
     if (!out) {
       feedback = "\n\nYour previous answer was not valid JSON for the required fields. Try again."
       continue
@@ -166,15 +145,18 @@ async function summarize(b: BillRow, src: Source) {
   return null
 }
 
+class AuthError extends Error {}
+
 async function main() {
   if (!existsSync(DB_PATH)) throw new Error("data/tabled.db is missing; run pnpm ingest first")
-  const key = process.env.ANTHROPIC_API_KEY ?? ""
-  if (!dryRun && !key.startsWith("sk-ant-")) {
-    console.log(
-      `[summarize] ${key ? "ANTHROPIC_API_KEY does not look like an Anthropic key (expected sk-ant-...)" : "ANTHROPIC_API_KEY is not set"}; skipping. The site shows "summary coming soon" instead.`,
-    )
+  const picked = pickProvider()
+  if (!dryRun && "reason" in picked) {
+    console.log(`[summarize] ${picked.reason}; skipping. The site shows "summary coming soon" instead.`)
     return
   }
+  const provider = "provider" in picked ? picked.provider : "anthropic"
+  const llm = createLlm(provider, pickModel(provider, process.env.SUMMARY_MODEL))
+  if (!dryRun) console.log(`[summarize] using ${llm.provider} (${llm.model})`)
   const db = new Database(DB_PATH)
   const bills = (db.prepare("SELECT * FROM bills").all() as BillRow[])
     .filter((b) => !b.is_pro_forma && (!onlyBill || b.number === onlyBill))
@@ -212,7 +194,7 @@ async function main() {
         continue
       }
       try {
-        const summary = await summarize(b, src)
+        const summary = await summarize(llm, b, src)
         if (!summary) {
           counts.failed++
           console.warn(`  ${b.number}: gave up after ${MAX_ATTEMPTS} attempts`)
@@ -221,7 +203,7 @@ async function main() {
         const record = {
           billId: b.id,
           sourceHash,
-          model: MODEL,
+          model: llm.model,
           generatedAt: new Date().toISOString(),
           sourceBasis: src.basis,
           sourceUrl: src.url,
@@ -234,20 +216,21 @@ async function main() {
         console.log(`  ${b.number}: ${summary.tldr}`)
       } catch (err) {
         counts.failed++
-        if (err instanceof Anthropic.AuthenticationError) throw err
-        console.warn(`  ${b.number}: ${err instanceof Anthropic.APIError ? `API error ${err.status}: ${err.message}` : String(err)}`)
+        if (llm.isAuthError(err)) throw new AuthError()
+        console.warn(`  ${b.number}: ${llm.describeError(err)}`)
       }
     }
   }
   await Promise.all(Array.from({ length: CONCURRENCY }, worker))
   db.close()
-  console.log(`[summarize] ${JSON.stringify(counts)} using ${MODEL}; ${usage.calls} calls, ${usage.input.toLocaleString()} input and ${usage.output.toLocaleString()} output tokens`)
+  const { usage } = llm
+  console.log(`[summarize] ${JSON.stringify(counts)} using ${llm.model}; ${usage.calls} calls, ${usage.input.toLocaleString()} input and ${usage.output.toLocaleString()} output tokens`)
 }
 
 main().catch((err) => {
-  if (err instanceof Anthropic.AuthenticationError) {
+  if (err instanceof AuthError) {
     // A bad key should not fail the daily refresh; the site works without summaries.
-    console.warn("[summarize] The API key was rejected; skipping summaries. Check ANTHROPIC_API_KEY.")
+    console.warn("[summarize] The API key was rejected; skipping summaries. Check ANTHROPIC_API_KEY or OPENAI_API_KEY.")
     return
   }
   console.error(err)

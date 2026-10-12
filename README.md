@@ -51,7 +51,7 @@ pnpm dev             # http://localhost:3000
 | `pnpm dev` / `build` / `start` | Next.js development server, production build, production server |
 | `pnpm ingest` | Full ingest of the current and previous sessions into `data/tabled.db` (about 15 minutes cold) |
 | `pnpm ingest:recent` | Re-fetch lists and anything active in the last 30 days; reuse the cache for the rest |
-| `pnpm summarize` | Generate plain-English summaries for new or changed bills (needs `ANTHROPIC_API_KEY`) |
+| `pnpm summarize` | Generate plain-English summaries for new or changed bills (needs `ANTHROPIC_API_KEY` or `OPENAI_API_KEY`) |
 | `pnpm typecheck` / `lint` | TypeScript (strict) and ESLint |
 | `pnpm test` | Unit tests (Vitest) against real recorded responses in `tests/fixtures/` |
 | `pnpm test:e2e` | End-to-end and accessibility tests (Playwright + axe) against a production build |
@@ -61,9 +61,11 @@ pnpm dev             # http://localhost:3000
 
 Copy `.env.example` to `.env`. Everything is optional:
 
-- `ANTHROPIC_API_KEY`: enables `pnpm summarize`. Without it the site still works and bill pages show the official
+- `ANTHROPIC_API_KEY` or `OPENAI_API_KEY`: enables `pnpm summarize`. A valid Anthropic key is used first, then OpenAI;
+  `SUMMARY_PROVIDER=anthropic|openai` forces one. Without either the site still works and bill pages show the official
   summary from Parliament instead.
-- `SUMMARY_MODEL`: defaults to `claude-haiku-4-5`.
+- `SUMMARY_MODEL`: optional override. Defaults are `claude-haiku-4-5` (Anthropic) and `gpt-5.4-mini` (OpenAI). Each
+  summary records and shows the model that wrote it.
 - `NEXT_PUBLIC_SITE_URL`: canonical URL used in metadata, Open Graph and the sitemap.
 
 ## Data sources and credit
@@ -114,9 +116,9 @@ regenerated when the official text changes.
 
 1. Import the GitHub repo into Vercel (framework preset: Next.js). The default build command `pnpm build` ingests live
    data during the build, so no database setup is needed.
-2. Set `NEXT_PUBLIC_SITE_URL` to your production URL. Optionally set `ANTHROPIC_API_KEY`.
+2. Set `NEXT_PUBLIC_SITE_URL` to your production URL.
 3. Create a Deploy Hook in Vercel (Settings, Git, Deploy Hooks) and save it as the GitHub secret `VERCEL_DEPLOY_HOOK`.
-4. Add `ANTHROPIC_API_KEY` as a GitHub secret if you want the daily job to generate summaries.
+4. Add `ANTHROPIC_API_KEY` or `OPENAI_API_KEY` as a GitHub secret if you want the daily job to generate summaries.
 
 `.github/workflows/refresh.yml` runs daily: it refreshes recent data, generates summaries for new or changed bills,
 commits the summary cache and triggers the deploy hook. `.github/workflows/ci.yml` runs typecheck, lint, unit tests,

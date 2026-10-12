@@ -43,3 +43,6 @@ One line each: decision, reason.
 - Riding lines drop the province when it repeats the riding name (Yukon, Nunavut, Northwest Territories).
 - Vote detail performance: table rows are memoised so a hover re-renders two rows instead of 337, and the long table uses content-visibility. Lighthouse gives 95 on three runs; the 88 in the handoff did not reproduce, so it was likely machine load. LCP is about 2.7 to 2.9 s on every page (fonts and CSS), so it is not specific to this page.
 - Screenshots now also cover /this-week, /compare (two sample MPs) and the embeddable vote card.
+- Owner confirmed (2026-10-12) that the home page seat chart in party colours is fine under "party colours only in data".
+- Summaries can be written by OpenAI as well as Anthropic, at the owner's request: a valid Anthropic key is used first, then OPENAI_API_KEY; SUMMARY_PROVIDER forces one. OpenAI defaults to gpt-5.4-mini (the current small dated model in the installed SDK) through the Responses API with strict zod output. The same prompt, validator, retries and cache apply to both.
+- Each summary's disclosure now names the model that wrote it, and the About page names both providers, so the attribution stays true whichever one is used.

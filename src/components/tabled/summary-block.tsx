@@ -103,7 +103,7 @@ export function SummaryBlock({ billNumber, pageUrl, summary, officialSummary, so
           ) : (
             t.basis[s.source_basis]
           )}{" "}
-          {t.on} {formatDate(summary.generatedAt, locale)}. {s.coverage_note ? `${s.coverage_note} ` : ""}{t.canErr}{" "}
+          {t.on} {formatDate(summary.generatedAt, locale)} {t.byModel} <code className="font-sans">{summary.model}</code>. {s.coverage_note ? `${s.coverage_note} ` : ""}{t.canErr}{" "}
           {sourceLinks[0] ? (
             <a className="link" href={sourceLinks[0].href}>
               {t.officialText}

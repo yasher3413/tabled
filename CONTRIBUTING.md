@@ -25,7 +25,7 @@ pnpm ingest        # builds data/tabled.db from live sources (about 3 minutes co
 pnpm dev
 ```
 
-Optional: put `ANTHROPIC_API_KEY=sk-ant-...` in `.env` and run `pnpm summarize` to generate plain-English summaries.
+Optional: put `ANTHROPIC_API_KEY=sk-ant-...` or `OPENAI_API_KEY=sk-...` in `.env` and run `pnpm summarize` to generate plain-English summaries.
 
 ## Before you open a pull request
 

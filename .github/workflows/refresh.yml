@@ -36,7 +36,9 @@ jobs:
       - name: Generate summaries for new or changed bills
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          SUMMARY_MODEL: ${{ vars.SUMMARY_MODEL || 'claude-haiku-4-5' }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SUMMARY_PROVIDER: ${{ vars.SUMMARY_PROVIDER }}
+          SUMMARY_MODEL: ${{ vars.SUMMARY_MODEL }}
         run: pnpm summarize
 
       - name: Commit the summary cache

@@ -197,8 +197,8 @@ export function AboutView({ locale }: { locale: Locale }) {
             {fr ? (
               <>
                 <p>
-                  Les résumés des projets de loi sont rédigés par un modèle d’IA (Claude, d’Anthropic) à partir de sources officielles, et chacun est indiqué comme généré
-                  par IA. Le modèle reçoit, par ordre de préférence, le résumé publié dans LEGISinfo, le texte intégral du projet de loi ou la description de LEGISinfo. Si
+                  Les résumés des projets de loi sont rédigés par un modèle d’IA (Claude d’Anthropic ou GPT d’OpenAI) à partir de sources officielles, et chacun est indiqué comme généré
+                  par IA, avec le nom du modèle utilisé. Le modèle reçoit, par ordre de préférence, le résumé publié dans LEGISinfo, le texte intégral du projet de loi ou la description de LEGISinfo. Si
                   seul le titre est disponible, aucun résumé n’est rédigé.
                 </p>
                 <p>
@@ -211,7 +211,7 @@ export function AboutView({ locale }: { locale: Locale }) {
             ) : (
               <>
                 <p>
-                  Bill summaries are written by an AI model (Anthropic’s Claude) from official sources, and every one is labelled as AI-generated. The model is given, in order
+                  Bill summaries are written by an AI model (Anthropic’s Claude or OpenAI’s GPT) from official sources, and every one is labelled as AI-generated and names the model used. The model is given, in order
                   of preference, the bill summary published on LEGISinfo, the full text of the bill, or LEGISinfo’s description. If only a bill’s title is available, no
                   summary is written.
                 </p>

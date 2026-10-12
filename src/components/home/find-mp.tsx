@@ -49,7 +49,6 @@ export function FindMp({ initial = "" }: { initial?: string }) {
   useEffect(() => {
     if (initial && !ran.current) {
       ran.current = true
-      // eslint-disable-next-line react-hooks/set-state-in-effect -- run the lookup passed in from the home page form
       void lookup(initial)
     }
   }, [initial, lookup])

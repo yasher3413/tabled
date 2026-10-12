@@ -365,6 +365,7 @@ export function normalizeRiding(name: string): string {
 export function partySummaries() {
   const members = listMembers()
   const bills = listBills()
+  const stats = getDb().select().from(t.votePartyStats).all()
   return listParties().map((p) => {
     const mine = members.filter((m) => m.partyId === p.id && m.active)
     const rates = mine.map((m) => m.partyLineRate).filter((r): r is number => r !== null)
@@ -376,6 +377,8 @@ export function partySummaries() {
       billsSponsored: bills.filter((b) => b.sponsorPartyId === p.id).length,
       billsBecameLaw: bills.filter((b) => b.sponsorPartyId === p.id && b.isLaw).length,
       dissents: mine.reduce((a, m) => a + m.dissentCount, 0),
+      splitVotes: stats.filter((s) => s.partyId === p.id && s.isSplit).length,
+      votesWithPosition: stats.filter((s) => s.partyId === p.id && (s.majority === "yea" || s.majority === "nay")).length,
     }
   })
 }

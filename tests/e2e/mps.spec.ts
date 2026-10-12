@@ -4,7 +4,8 @@ test.describe("MPs", () => {
   test("directory lists current MPs and filters by party and province", async ({ page }) => {
     await page.goto("/mps")
     const rows = page.locator("tbody tr")
-    expect(await rows.count()).toBeGreaterThan(300)
+    await expect(rows).toHaveCount(60)
+    await expect(page.getByText("337 MPs")).toBeVisible()
     await page.getByLabel("Party", { exact: true }).selectOption("green")
     await expect(rows).toHaveCount(1)
     await expect(page).toHaveURL(/party=green/)

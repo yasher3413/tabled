@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
-import { useDeferredValue, useMemo } from "react"
+import { useDeferredValue, useMemo, useState } from "react"
 import { MemberAvatar } from "@/components/tabled/member-avatar"
 import { PartySwatch } from "@/components/tabled/party-tag"
 import { EmptyState } from "@/components/tabled/states"
@@ -11,6 +11,8 @@ import { DEFAULT_MEMBER_FILTERS, filterMembers, readMemberFilters } from "@/lib/
 import type { MemberListItem, Party } from "@/lib/queries"
 import { paramsToRecord, useReplaceParams } from "@/lib/url-state"
 import { FilterSelect, ResultCount, SearchField } from "./controls"
+
+const PAGE = 60
 
 interface Props {
   members: MemberListItem[]
@@ -30,6 +32,9 @@ export function MembersExplorer({ members, parties, params, interactive = false 
   const partyName = useMemo(() => new Map(parties.map((p) => [p.id, p.shortName])), [parties])
   const pool = filterMembers(members, { ...DEFAULT_MEMBER_FILTERS, status: f.status })
   const reset = () => set({ q: null, party: null, province: null, status: null, sort: null })
+  const filterKey = JSON.stringify({ ...f, q })
+  const [page, setPage] = useState({ key: filterKey, limit: PAGE })
+  const limit = page.key === filterKey ? page.limit : PAGE
 
   return (
     <div>
@@ -94,7 +99,7 @@ export function MembersExplorer({ members, parties, params, interactive = false 
               </tr>
             </thead>
             <tbody>
-              {shown.map((m) => (
+              {shown.slice(0, limit).map((m) => (
                 <tr key={m.id} className="group relative border-b border-rule hover:bg-paper-sunk/60">
                   <th scope="row" className="py-2.5 pr-3 text-left font-normal">
                     <span className="flex items-center gap-3">
@@ -125,6 +130,17 @@ export function MembersExplorer({ members, parties, params, interactive = false 
               ))}
             </tbody>
           </table>
+          {shown.length > limit && (
+            <div className="mt-6 text-center">
+              <button
+                type="button"
+                onClick={() => setPage({ key: filterKey, limit: limit + PAGE * 2 })}
+                className="h-10 rounded-sm border border-rule-strong px-5 text-[0.9375rem] text-ink transition-colors duration-150 hover:bg-ink hover:text-paper"
+              >
+                Show more ({shown.length - limit} left)
+              </button>
+            </div>
+          )}
         </div>
       )}
       <p className="mt-6 text-[0.8125rem] text-ink-3">

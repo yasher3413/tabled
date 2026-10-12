@@ -2,7 +2,7 @@
 //   pnpm screenshots                      (builds must exist; starts `next start` itself)
 //   BASE_URL=http://localhost:3000 pnpm screenshots   (use an already running server)
 //   ROUTES=/,/bills pnpm screenshots      (subset)
-import { spawn, type ChildProcess } from "node:child_process"
+import { spawn, spawnSync, type ChildProcess } from "node:child_process"
 import { mkdirSync } from "node:fs"
 import path from "node:path"
 import { chromium } from "@playwright/test"
@@ -10,6 +10,7 @@ import Database from "better-sqlite3"
 
 const OUT = process.env.OUT_DIR ?? path.join(process.cwd(), "docs", "screenshots")
 const PORT = 3200
+const MAX_HEIGHT = 4500
 
 function sampleRoutes(): Array<{ name: string; path: string }> {
   const db = new Database(path.join(process.cwd(), "data", "tabled.db"), { readonly: true })
@@ -37,6 +38,12 @@ function sampleRoutes(): Array<{ name: string; path: string }> {
     { name: "about", path: "/about" },
     { name: "not-found", path: "/this-page-does-not-exist" },
   ]
+}
+
+/** Flat UI quantizes to 256 colours with no visible loss and a third of the bytes. Skipped without ImageMagick. */
+function shrink(file: string) {
+  const r = spawnSync("magick", [file, "-strip", "-dither", "None", "-colors", "256", `PNG8:${file}`], { stdio: "ignore" })
+  if (r.error) return
 }
 
 async function waitFor(url: string, timeoutMs = 60_000) {
@@ -82,7 +89,10 @@ async function main() {
           await page.goto(`${base}${r.path}`, { waitUntil: "networkidle" })
           await page.evaluate(() => document.fonts.ready)
           const file = path.join(OUT, `${r.name}-${width}-${theme}.png`)
-          await page.screenshot({ path: file, fullPage: true })
+          // Full page, capped so very long tables (every MP's ballot) stay a reasonable size in git.
+          const height = await page.evaluate(() => document.documentElement.scrollHeight)
+          await page.screenshot({ path: file, fullPage: true, clip: { x: 0, y: 0, width, height: Math.min(height, MAX_HEIGHT) } })
+          shrink(file)
           console.log(`saved ${path.relative(process.cwd(), file)}`)
         }
         await context.close()

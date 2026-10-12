@@ -15,6 +15,7 @@ import { partyName, partyShort } from "@/i18n/parties"
 import { formatDate, formatPercent, provinceName } from "@/lib/format"
 import { alternates } from "@/lib/metadata"
 import { getDataYear, getMember, partyMap } from "@/lib/queries"
+import { sessionLabel } from "@/lib/sessions"
 
 export type MpParams = { slug: string }
 
@@ -41,7 +42,9 @@ export function MpView({ locale, slug }: { locale: Locale } & MpParams) {
   const t = msgs.mp
   const fr = locale === "fr"
   const L = (p: string) => localePath(locale, p)
-  const { member: m, detail, stats, sponsored, ballots } = data
+  const { member: m, detail, statsBySession, sessions, sponsored, ballots } = data
+  const sessionById = new Map(sessions.map((s) => [s.id, s]))
+  const showSessionLabels = statsBySession.length > 1 || (statsBySession[0] && !sessionById.get(statsBySession[0].sessionId)?.isCurrent)
   const parties = partyMap()
   const party = m.partyId ? parties.get(m.partyId) : undefined
   const year = getDataYear()
@@ -69,20 +72,26 @@ export function MpView({ locale, slug }: { locale: Locale } & MpParams) {
               {!m.active && <p className="mt-2 text-[0.9375rem] text-ink-3">{t.left(detail.endDate ? formatDate(detail.endDate, locale) : null)}</p>}
             </div>
           </div>
-          <dl className="mt-10 grid gap-x-12 border-t border-rule-strong md:grid-cols-2">
+          {statsBySession.length === 0 && <p className="mt-10 text-[0.9375rem] text-ink-2">{t.noRecordHint}</p>}
+          {statsBySession.map((stats) => (
+          <section key={stats.sessionId} aria-label={sessionLabel(sessionById.get(stats.sessionId)!, locale)} className="mt-10">
+          {showSessionLabels && <h2 className="mb-2 text-[0.8125rem] font-semibold text-ink">{sessionLabel(sessionById.get(stats.sessionId)!, locale)}</h2>}
+          <dl className="grid gap-x-12 border-t border-rule-strong md:grid-cols-2">
             <LedgerRow
               label={t.votedWithParty}
-              value={formatPercent(stats?.partyLineRate, 1, locale)}
-              note={stats?.partyLineEligible ? t.onVotes(stats.partyLineEligible).replace(/^./, (c) => c.toUpperCase()) : t.noPosition}
+              value={formatPercent(stats.partyLineRate, 1, locale)}
+              note={stats.partyLineEligible ? t.onVotes(stats.partyLineEligible).replace(/^./, (c) => c.toUpperCase()) : t.noPosition}
             />
             <LedgerRow
               label={t.votesCast}
-              value={stats?.votesHeld ? msgs.mps.of(stats.votesCast, stats.votesHeld) : formatPercent(null, 1, locale)}
-              note={stats?.votesHeld ? t.votesCastNote(stats.votesPaired) : undefined}
+              value={stats.votesHeld ? msgs.mps.of(stats.votesCast, stats.votesHeld) : formatPercent(null, 1, locale)}
+              note={stats.votesHeld ? t.votesCastNote(stats.votesPaired) : undefined}
             />
-            <LedgerRow label={t.brokeRanks} value={stats?.dissentCount ?? 0} note={t.brokeNote} />
-            <LedgerRow label={t.billsSponsored} value={stats?.billsSponsored ?? sponsored.length} note={t.becameLaw(sponsored.filter((b) => b.isLaw).length)} />
+            <LedgerRow label={t.brokeRanks} value={stats.dissentCount ?? 0} note={t.brokeNote} />
+            <LedgerRow label={t.billsSponsored} value={stats.billsSponsored} note={t.becameLaw(sponsored.filter((b) => b.isLaw && b.sessionId === stats.sessionId).length)} />
           </dl>
+          </section>
+          ))}
           <p className="mt-6 text-[0.8125rem] text-ink-3">
             {t.missedNote}{" "}
             <Link className="link" href={L("/about#methodology")}>
@@ -102,7 +111,7 @@ export function MpView({ locale, slug }: { locale: Locale } & MpParams) {
           {sponsored.length ? (
             <div>
               {sponsored.map((b) => (
-                <BillRow key={b.id} bill={b} party={party} referenceYear={year} locale={locale} />
+                <BillRow key={b.id} bill={b} party={party} referenceYear={year} locale={locale} sessionTag={sessionById.get(b.sessionId)?.isCurrent ? undefined : b.sessionId} />
               ))}
             </div>
           ) : (
@@ -115,7 +124,7 @@ export function MpView({ locale, slug }: { locale: Locale } & MpParams) {
         <section aria-labelledby="record" className="mt-14">
           <SectionHeading id="record">{t.howVoted}</SectionHeading>
           {ballots.length ? (
-            <VotingRecord rows={ballots} referenceYear={year} locale={locale} />
+            <VotingRecord rows={ballots} referenceYear={year} locale={locale} sessions={sessions.filter((s) => ballots.some((b) => b.sessionId === s.id)).map((s) => ({ id: s.id, label: sessionLabel(s, locale) }))} />
           ) : (
             <EmptyState title={t.noRecord} className="mt-6">
               {t.noRecordHint}

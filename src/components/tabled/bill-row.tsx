@@ -13,6 +13,7 @@ export function BillRow({
   referenceYear,
   dateField = "activity",
   locale = "en",
+  sessionTag,
 }: {
   bill: BillListItem
   party?: Party
@@ -20,6 +21,8 @@ export function BillRow({
   /** Which date the right-hand column shows; it is labelled either way. */
   dateField?: "activity" | "introduced"
   locale?: Locale
+  /** Shown under the number for bills from an earlier session. */
+  sessionTag?: string
 }) {
   const t = getMessages(locale).bills
   const fr = locale === "fr"
@@ -30,7 +33,10 @@ export function BillRow({
   const tldr = fr ? null : bill.tldr
   return (
     <article className="group relative grid gap-x-6 gap-y-2 border-b border-rule py-5 sm:grid-cols-[5.5rem_1fr_auto]">
-      <p className="font-display text-xl leading-tight font-semibold text-ink tabular-nums sm:pt-0.5">{bill.number}</p>
+      <p className="font-display text-xl leading-tight font-semibold text-ink tabular-nums sm:pt-0.5">
+        {bill.number}
+        {sessionTag && <span className="block font-sans text-[0.75rem] font-normal text-ink-3">{sessionTag}</span>}
+      </p>
       <div className="min-w-0">
         <h3 className="text-[1.0625rem] leading-snug font-medium text-ink">
           <Link

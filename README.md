@@ -26,6 +26,10 @@ More in [`docs/screenshots/`](docs/screenshots/): every route at 1440px and 390p
 - **Find your MP** by postal code, including codes that span more than one riding.
 - **Parties**: seats, cohesion, split votes and bills sponsored.
 - **Plain-English summaries** (AI-generated, clearly labelled, grounded in the official text). See "Summaries" below.
+- **The previous session** (44-1): bills, votes and MP records, with a session switcher.
+- **French**: every page under `/fr`, using Parliament's official French data.
+- **This week in Parliament**: a weekly digest, with RSS feeds for the digest, each bill and each MP.
+- **Compare two MPs**: how often any two MPs voted the same way.
 - Command palette search (Cmd/Ctrl+K), light and dark themes, Open Graph images, sitemap.
 
 ## Run it locally
@@ -34,7 +38,7 @@ Requires Node 22+ and pnpm 9.
 
 ```bash
 pnpm install
-pnpm ingest          # build data/tabled.db from live sources (about 3 minutes cold; seconds with the cache)
+pnpm ingest          # build data/tabled.db from live sources (about 15 minutes cold; seconds with the cache)
 pnpm dev             # http://localhost:3000
 ```
 
@@ -45,7 +49,7 @@ pnpm dev             # http://localhost:3000
 | Script | What it does |
 | --- | --- |
 | `pnpm dev` / `build` / `start` | Next.js development server, production build, production server |
-| `pnpm ingest` | Full ingest of the current session into `data/tabled.db` |
+| `pnpm ingest` | Full ingest of the current and previous sessions into `data/tabled.db` (about 15 minutes cold) |
 | `pnpm ingest:recent` | Re-fetch lists and anything active in the last 30 days; reuse the cache for the rest |
 | `pnpm summarize` | Generate plain-English summaries for new or changed bills (needs `ANTHROPIC_API_KEY`) |
 | `pnpm typecheck` / `lint` | TypeScript (strict) and ESLint |

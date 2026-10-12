@@ -28,3 +28,12 @@ One line each: decision, reason.
 - French OG images reuse the English cards: they carry the bill number and title, and duplicating 700 image routes was not worth the build time.
 - /this-week shows the latest week with activity when the current week has none yet, so it never opens empty; the heading names the week shown.
 - Topic tags are built but dormant: they come from the summarizer (validated against a fixed 22-topic taxonomy), and the /bills topic filter only renders once at least one bill is tagged, so nothing empty or invented shows without summaries.
+- Previous session (44-1) is ingested alongside the current one: session list pages live at /bills/44-1 and /votes/44-1 (the current session keeps /bills and /votes), the MP directory gets a session filter, and MP pages show a ledger per session.
+- MP figures (party-line rate, votes cast, dissent, bills sponsored) are computed per session and stored per (member, session); they are never blended across sessions.
+- The official House of Commons vote feed only covers the current session, so 44-1 votes are not reconciled; openparliament.ca is the only source for them.
+- A finished session's responses are cached permanently on first fetch; only the current session is refreshed.
+- The compare tool and the parties page use the current session only.
+- Debate excerpts: for each party (in seat order) the first main speech (1,500+ characters) on the bill by one of its MPs, excluding presiding officers; the quoted text is the first sentence that mentions the bill plus the next one, unedited, with a link to the full speech. One identical rule for every party, so no editorial choice of quotes.
+- 44-1 openparliament data lists 2 MPs twice on the same vote; duplicates are dropped (first ballot kept) and logged.
+- Embeddable vote cards live at /embed/votes/... under their own minimal root layout (no site chrome, noindex), with copy-ready iframe code on every vote page.
+- Two OG images log a satori "dynamic font" warning for a whitespace glyph; harmless (the glyph renders blank) and left as is.

@@ -47,7 +47,11 @@ export interface OgCard {
 }
 
 /** Shared editorial card: masthead, record label, large serif title, quiet footer line. */
-export async function ogImage(card: OgCard) {
+/** Satori only has the bundled faces; map unusual spaces (no-break, thin) to plain spaces. */
+const clean = (s: string | null | undefined) => (s ?? "").replace(/[\u00a0\u2000-\u200b\u202f\u205f]/g, " ")
+
+export async function ogImage(input: OgCard) {
+  const card = { ...input, kicker: clean(input.kicker), title: clean(input.title), subtitle: input.subtitle ? clean(input.subtitle) : input.subtitle, footer: input.footer ? clean(input.footer) : input.footer, accent: input.accent ? clean(input.accent) : input.accent }
   const titleSize = card.title.length > 90 ? 52 : card.title.length > 60 ? 62 : 74
   return new ImageResponse(
     (

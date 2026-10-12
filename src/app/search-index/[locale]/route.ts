@@ -1,7 +1,7 @@
 import { isLocale, localePath, LOCALES, type Locale } from "@/i18n/config"
 import { getMessages } from "@/i18n/messages"
 import { formatShortDate } from "@/lib/format"
-import { getDataYear, listBills, listMembers, listVotes, partyMap } from "@/lib/queries"
+import { getCurrentSession, getDataYear, listBills, listMembers, listVotes, partyMap } from "@/lib/queries"
 
 export interface SearchEntry {
   /** b = bill, m = MP, v = vote */
@@ -24,22 +24,23 @@ export async function GET(_req: Request, { params }: { params: Promise<{ locale:
   const parties = partyMap()
   const year = getDataYear()
   const fr = locale === "fr"
+  const currentId = getCurrentSession()?.id
   const entries: SearchEntry[] = [
-    ...listBills()
-      .sort((a, b) => (b.lastActivityDate ?? "").localeCompare(a.lastActivityDate ?? ""))
+    ...listBills("all")
+      .sort((a, b) => Number(b.sessionId === currentId) - Number(a.sessionId === currentId) || (b.lastActivityDate ?? "").localeCompare(a.lastActivityDate ?? ""))
       .map((b) => {
         const short = fr ? (b.shortTitleFr ?? b.shortTitle) : b.shortTitle
         const long = fr ? (b.titleFr ?? b.title) : b.title
         return {
           k: "b" as const,
           label: `${b.number} ${short ?? long}`,
-          sub: short ? long : t.bills.typeLabels[b.type],
+          sub: `${b.sessionId === currentId ? "" : `${b.sessionId} · `}${short ? long : t.bills.typeLabels[b.type]}`,
           href: localePath(locale, `/bills/${b.sessionId}/${b.number}`),
           // Match both languages so a search works whichever words people know.
           kw: [b.number.replace("-", ""), b.sponsorName ?? "", b.title, b.titleFr ?? "", b.shortTitle ?? "", b.shortTitleFr ?? ""].join(" "),
         }
       }),
-    ...listMembers()
+    ...listMembers("all")
       .sort((a, b) => Number(b.active) - Number(a.active))
       .map((m) => ({
         k: "m" as const,

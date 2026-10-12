@@ -24,7 +24,7 @@ test.describe("MPs", () => {
   test("MP detail shows metrics, sponsored bills and voting record", async ({ page }) => {
     await page.goto("/mps/ziad-aboultaif")
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Ziad Aboultaif")
-    await expect(page.getByText("Voted with party")).toBeVisible()
+    await expect(page.getByText("Voted with party").first()).toBeVisible()
     await expect(page.getByText("Edmonton Manning, Alberta")).toBeVisible()
     await expect(page.getByRole("heading", { name: "Bills sponsored" })).toBeVisible()
     await page.getByLabel(/Only votes against their party/).check()

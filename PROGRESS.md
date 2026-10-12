@@ -18,6 +18,9 @@ MVP built (Phases 0 to 7). Impeccable finish review in progress, then DESIGN.md,
 - Lighthouse (local prod build): home 91/100/100/100, bill 96/100/100/100, MP 93/100/100/100 (perf/a11y/best practices/SEO).
 
 ## Stretch backlog
+- [x] 6. Previous session (44-1: 412 bills, 928 votes, 311,735 ballots): /bills/44-1, /votes/44-1, session filter on /mps, per-session MP ledgers and record. MP stats stored per session.
+- [x] 7. Hansard excerpts on bill pages ("What MPs said"): one opening excerpt per party, anchored on the bill, linked to the full speech. 301 bills.
+- [x] 8. Embeddable vote card at /embed/votes/... with copyable iframe code on vote pages.
 - [x] 5. Compare two MPs at /compare (both languages): agreement rate, counts, every vote where they split; linked from MP pages.
 - [~] 4. Topic tags: fixed bilingual taxonomy (22 topics), summarizer emits 1 to 3 validated topic ids, topic filter on /bills and topic links on bill pages. Dormant until summaries exist (needs a real API key).
 - [x] 2. Weekly digest at /this-week (and /this-week/YYYY-Www, both languages) with an RSS feed.
@@ -25,7 +28,7 @@ MVP built (Phases 0 to 7). Impeccable finish review in progress, then DESIGN.md,
 - [x] 1. French: /fr for every page, hand-translated UI and stage explainers, official French data, hreflang, bilingual sitemap, French e2e + axe.
 
 ## Next
-- Stretch backlog in order: French, weekly digest + RSS, per-bill/MP RSS, topic tags (needs summaries), compare MPs, previous session, Hansard excerpts, embeddable vote card, polish.
+- 9. Further Impeccable polish on the most-visited pages, then refresh screenshots and MORNING.md.
 
 ## Blocked
 - **Plain-English summaries not generated.** `.env` contains a 16-character placeholder for `ANTHROPIC_API_KEY`, not a real key (the API returns `invalid x-api-key`), and no `ant` CLI login exists. The summarizer is built and tested; it skips cleanly and the site shows "Plain-English summary coming soon" plus the official LEGISinfo summary where one exists. Owner action: put a real `sk-ant-...` key in `.env` and run `pnpm summarize` (about $2-4 with Haiku 4.5 for all 190 bills), then commit `data/summaries/`.
@@ -33,6 +36,7 @@ MVP built (Phases 0 to 7). Impeccable finish review in progress, then DESIGN.md,
 
 ## Data counts (full ingest 2026-10-12)
 - Session 45-1 (detected dynamically). 191 bills, 178 recorded votes, 60,927 ballots, 349 members (337 sitting, 12 former), 343 ridings, 6 parties.
+- Previous session 44-1 also ingested: 412 bills, 928 votes, 311,735 ballots; 472 members across both sessions. Cold ingest of both sessions about 6 minutes; cached re-run about 15 seconds. Build about 5 minutes.
 - Cold full ingest: 195 s, 725 requests, 0 retries. Warm re-run: about 4 s.
 - Sanity checks: seat counts match ourcommons members XML exactly (Liberal 173, Conservative 137, Bloc 21, NDP 5, Green 1). Vote 178 totals 296/26/10 match both sources.
 - 6 votes disagreed between openparliament and the House of Commons. openparliament vote 148 duplicates vote 140 (C-33 3rd reading). Five more are off by 1 or 2. The official record is used for those votes (details in `meta.crosscheck`).

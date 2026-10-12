@@ -9,9 +9,10 @@ import { fetchJson, fetchText, HttpError, mapAll, stats as httpStats } from "./h
 import { computeMemberStats, computePartyStats, isDissent, splitVotes, type BallotInput } from "./metrics"
 import { normalizeBill } from "./normalize/bills"
 import { normalizePolitician, partyRow, type NormalizedMember } from "./normalize/members"
-import { normalizeBallot, normalizeVote, voteResult } from "./normalize/votes"
+import { dedupeBallots, normalizeBallot, normalizeVote, voteResult } from "./normalize/votes"
+import { selectExcerpts, type Excerpt } from "./normalize/excerpts"
 import { parseOCParticipants, parseOCVotes, totalsDiffer, type OCVoteSummary } from "./normalize/ourcommons"
-import type { LIBill, OPBallot, OPPage, OPPolitician, OPPoliticianListItem, OPVoteListItem } from "./types"
+import type { LIBill, OPBallot, OPPage, OPPolitician, OPPoliticianListItem, OPSpeech, OPVoteListItem } from "./types"
 
 const OP = "https://api.openparliament.ca"
 const LI = "https://www.parl.ca/legisinfo/en"
@@ -154,60 +155,88 @@ function loadSummaries(sessionId: string) {
     })
 }
 
+/** The session before `current`: the same Parliament's previous session, or the last session of the previous one. */
+async function detectPrevious(current: string): Promise<{ id: string; bills: LIBill[] } | null> {
+  const [p, s] = current.split("-").map(Number)
+  const candidates = s > 1 ? [`${p}-${s - 1}`] : [4, 3, 2, 1].map((k) => `${p - 1}-${k}`)
+  for (const id of candidates) {
+    const bills = await legisinfoList(id)
+    if (bills.length) return { id, bills }
+  }
+  return null
+}
+
+interface SessionData {
+  id: string
+  isCurrent: boolean
+  bills: ReturnType<typeof normalizeBill>[]
+  votes: ReturnType<typeof normalizeVote>[]
+  ballots: Reconciled["ballots"]
+  start: string
+  end: string | null
+  notes: string[]
+}
+
+async function fetchSession(id: string, list: LIBill[], isCurrent: boolean) {
+  // A finished session never changes, so its pages are cached for good once fetched.
+  const closed = !isCurrent
+  const details = await mapAll(list, async (b) => {
+    const activity = (b.LatestBillEventDateTime ?? "").slice(0, 10)
+    const maxAgeMs = closed ? Infinity : recent ? (activity >= recentCutoff ? 0 : Infinity) : 12 * HOUR
+    const detail = await fetchJson<LIBill[]>(`${LI}/bill/${id}/${b.NumberCode}/json`, { maxAgeMs })
+    return detail[0]
+  })
+  const bills = details.map((b) => normalizeBill(b, now))
+  const voteItems = await fetchAllPages<OPVoteListItem>(`${OP}/votes/?session=${id}&limit=500`, closed ? Infinity : HOUR)
+  const votes = voteItems.map(normalizeVote)
+  const ballotsByVote = await mapAll(voteItems, async (v) => {
+    // Recorded divisions do not change; only very recent ones are re-fetched.
+    const maxAgeMs = !closed && v.date >= new Date(Date.now() - 2 * DAY).toISOString().slice(0, 10) ? HOUR : Infinity
+    return fetchAllPages<OPBallot>(`${OP}/votes/ballots/?vote=${encodeURIComponent(v.url)}&limit=500`, maxAgeMs)
+  })
+  const deduped = dedupeBallots(ballotsByVote.flat().map(normalizeBallot))
+  if (deduped.dropped.length) {
+    log(`${id}: dropped ${deduped.dropped.length} duplicate ballots (${[...new Set(deduped.dropped.map((b) => b.voteId))].slice(0, 5).join(", ")})`)
+  }
+  const ballots = deduped.ballots
+  const dates = [...bills.map((b) => b.bill.introducedDate), ...votes.map((v) => v.date)].filter((d): d is string => !!d).sort()
+  log(`${id}: ${bills.length} bills, ${votes.length} votes, ${ballots.length} ballots`)
+  return { id, isCurrent, bills, votes, ballots, start: dates[0] ?? today, end: isCurrent ? null : (dates.at(-1) ?? null) }
+}
+
 async function main() {
   log(`mode: ${recent ? "recent (30 days)" : "full"}`)
 
-  // 1. Session and bills
-  const session = await detectSession()
-  const sessionId = session.id
-  log(`current session ${sessionId}, ${session.bills.length} bills in LEGISinfo list`)
+  // 1. Sessions: the current one and, when it exists, the one before it.
+  const current = await detectSession()
+  const previous = await detectPrevious(current.id)
+  log(`current session ${current.id}${previous ? `, previous ${previous.id}` : ""}`)
+  const fetched = [await fetchSession(current.id, current.bills, true)]
+  if (previous) fetched.push(await fetchSession(previous.id, previous.bills, false))
 
-  const billDetails = await mapAll(session.bills, async (b) => {
-    const activity = (b.LatestBillEventDateTime ?? "").slice(0, 10)
-    const maxAgeMs = recent ? (activity >= recentCutoff ? 0 : Infinity) : 12 * HOUR
-    const detail = await fetchJson<LIBill[]>(`${LI}/bill/${sessionId}/${b.NumberCode}/json`, { maxAgeMs })
-    return detail[0]
-  })
-  const normalizedBills = billDetails.map((b) => normalizeBill(b, now))
-  log(`fetched ${billDetails.length} bill details`)
+  // 2. Members: everyone currently sitting plus anyone who cast a ballot in either session.
+  const sitting = await fetchAllPages<OPPoliticianListItem>(`${OP}/politicians/?limit=500`, HOUR)
+  const memberUrls = new Set(sitting.map((p) => p.url))
+  for (const f of fetched) for (const b of f.ballots) memberUrls.add(`/politicians/${b.memberId}/`)
+  const politicians = await mapAll([...memberUrls], (url) => fetchJson<OPPolitician>(`${OP}${url}`, { maxAgeMs: recent ? 7 * DAY : DAY }))
+  const windowStart = fetched.map((f) => f.start).sort()[0]
+  const members: NormalizedMember[] = politicians.map((p) => normalizePolitician(p, windowStart, today))
+  log(`fetched ${members.length} members (${sitting.length} sitting)`)
 
-  // 2. Votes and ballots
-  const voteItems = await fetchAllPages<OPVoteListItem>(`${OP}/votes/?session=${sessionId}&limit=500`, HOUR)
-  const opVotes = voteItems.map(normalizeVote)
-  const ballotsByVote = await mapAll(voteItems, async (v) => {
-    // Recorded divisions do not change; only very recent ones are re-fetched.
-    const maxAgeMs = v.date >= new Date(Date.now() - 2 * DAY).toISOString().slice(0, 10) ? HOUR : Infinity
-    const url = `${OP}/votes/ballots/?vote=${encodeURIComponent(v.url)}&limit=500`
-    return fetchAllPages<OPBallot>(url, maxAgeMs)
-  })
-  const opBallots = ballotsByVote.flat().map(normalizeBallot)
-  log(`fetched ${opVotes.length} votes and ${opBallots.length} ballots`)
-
-  const sessionStart = [
-    ...normalizedBills.map((b) => b.bill.introducedDate),
-    ...opVotes.map((v) => v.date),
-  ]
-    .filter((d): d is string => !!d)
-    .sort()[0] ?? today
-
-  // 3. Members: everyone currently sitting plus anyone who cast a ballot this session.
-  const current = await fetchAllPages<OPPoliticianListItem>(`${OP}/politicians/?limit=500`, HOUR)
-  const memberUrls = new Set(current.map((p) => p.url))
-  for (const b of opBallots) memberUrls.add(`/politicians/${b.memberId}/`)
-  const politicians = await mapAll([...memberUrls], (url) =>
-    fetchJson<OPPolitician>(`${OP}${url}`, { maxAgeMs: recent ? 7 * DAY : DAY }),
-  )
-  const members: NormalizedMember[] = politicians.map((p) => normalizePolitician(p, sessionStart, today))
-  log(`fetched ${members.length} members (${current.length} sitting)`)
-
-  const memberIdByParlId = new Map(
-    members.filter((m) => m.member.parlMpId).map((m) => [m.member.parlMpId!, m.member.id]),
-  )
-  const reconciled = await reconcileWithOfficial(sessionId, opVotes, opBallots, memberIdByParlId)
-  const votes = reconciled.votes
-  const rawBallots = reconciled.ballots
-  const crossCheck = reconciled.notes
-  if (crossCheck.length) log(`reconciled with official record:\n  ${crossCheck.join("\n  ")}`)
+  // 3. Reconcile the current session against the official House feed (it only publishes the current session).
+  const memberIdByParlId = new Map(members.filter((m) => m.member.parlMpId).map((m) => [m.member.parlMpId!, m.member.id]))
+  const sessions: SessionData[] = []
+  for (const f of fetched) {
+    if (f.isCurrent) {
+      const r = await reconcileWithOfficial(f.id, f.votes, f.ballots, memberIdByParlId)
+      if (r.notes.length) log(`reconciled with official record:\n  ${r.notes.join("\n  ")}`)
+      sessions.push({ ...f, votes: r.votes, ballots: r.ballots, notes: r.notes })
+    } else {
+      sessions.push({ ...f, notes: [] })
+    }
+  }
+  const currentId = current.id
+  const crossCheck = sessions.find((x) => x.isCurrent)?.notes ?? []
 
   // 4. Write a fresh database, then swap it in.
   mkdirSync(path.dirname(DB_PATH), { recursive: true })
@@ -222,27 +251,12 @@ async function main() {
     for (const r of m.ridings) ridings.set(r.id, r)
   }
   const memberById = new Map(members.map((m) => [m.member.id, m]))
-  const memberByParlId = new Map(
-    members.filter((m) => m.member.parlMpId).map((m) => [m.member.parlMpId!, m.member]),
-  )
+  const memberByParlId = new Map(members.filter((m) => m.member.parlMpId).map((m) => [m.member.parlMpId!, m.member]))
   const membershipParty = new Map(members.flatMap((m) => m.memberships.map((ms) => [ms.url, ms.partyId] as const)))
-
-  const ballots: BallotInput[] = rawBallots.map((b) => ({
-    voteId: b.voteId,
-    memberId: b.memberId,
-    ballot: b.ballot,
-    partyId:
-      b.partyOverride ?? membershipParty.get(b.membershipUrl) ?? memberById.get(b.memberId)?.member.partyId ?? null,
-  }))
-  const partyStats = computePartyStats(ballots)
-  const splits = splitVotes(partyStats)
-  const memberStats = computeMemberStats(ballots, partyStats)
 
   const seatCounts = new Map<string, number>()
   for (const m of members) {
-    if (m.member.active && m.member.partyId) {
-      seatCounts.set(m.member.partyId, (seatCounts.get(m.member.partyId) ?? 0) + 1)
-    }
+    if (m.member.active && m.member.partyId) seatCounts.set(m.member.partyId, (seatCounts.get(m.member.partyId) ?? 0) + 1)
   }
   // Consistent party order everywhere: by seat count, independents last.
   const partyOrder = [...parties.values()].sort((a, b) => {
@@ -251,100 +265,128 @@ async function main() {
     return (seatCounts.get(b.id) ?? 0) - (seatCounts.get(a.id) ?? 0) || a.shortName.localeCompare(b.shortName)
   })
 
-  const billIds = new Set(normalizedBills.map((b) => b.bill.id))
-  const sponsoredCount = new Map<string, number>()
+  const counts: Record<string, unknown> = { members: members.length, sitting: sitting.length, parties: parties.size, ridings: ridings.size }
+
+  // 5. Debate excerpts: for every bill the House has debated, each party's opening words.
+  const order = partyOrder.map((p) => p.id)
+  const excerptsByBill = new Map<string, Excerpt[]>()
+  for (const sess of sessions) {
+    const debated = sess.bills.filter(({ stages }) => stages.some((st) => st.chamber === "house" && st.stageKey !== "house:first-reading" && st.state !== "not_reached" && st.state !== "skipped"))
+    await mapAll(debated, async ({ bill }) => {
+      try {
+        const speeches = await fetchAllPages<OPSpeech>(
+          `${OP}/speeches/?bill_debated=${encodeURIComponent(`/bills/${bill.sessionId}/${bill.number}/`)}&limit=500`,
+          sess.isCurrent ? (recent ? 2 * DAY : DAY) : Infinity,
+        )
+        const picked = selectExcerpts(speeches, membershipParty, order, 5, bill.number).filter((e) => memberById.has(e.memberId) && parties.has(e.partyId))
+        if (picked.length) excerptsByBill.set(bill.id, picked)
+      } catch (err) {
+        log(`excerpts unavailable for ${bill.id}: ${String(err)}`)
+      }
+    })
+  }
+  log(`debate excerpts for ${excerptsByBill.size} bills`)
 
   sqlite.transaction(() => {
-    db.insert(t.sessions)
-      .values({
-        id: sessionId,
-        parliament: Number(sessionId.split("-")[0]),
-        session: Number(sessionId.split("-")[1]),
-        startDate: sessionStart,
-        endDate: null,
-        isCurrent: true,
-      })
-      .run()
-    partyOrder.forEach((p, i) =>
-      db.insert(t.parties).values({ ...p, seatCount: seatCounts.get(p.id) ?? 0, sortOrder: i }).run(),
-    )
+    partyOrder.forEach((p, i) => db.insert(t.parties).values({ ...p, seatCount: seatCounts.get(p.id) ?? 0, sortOrder: i }).run())
     for (const r of ridings.values()) db.insert(t.ridings).values(r).run()
     for (const m of members) db.insert(t.members).values(m.member).run()
     for (const m of members) for (const ms of m.memberships) db.insert(t.memberships).values(ms).onConflictDoNothing().run()
 
-    for (const { bill, stages, sponsorParlId } of normalizedBills) {
-      const sponsor = sponsorParlId ? memberByParlId.get(sponsorParlId) : undefined
-      if (sponsor) sponsoredCount.set(sponsor.id, (sponsoredCount.get(sponsor.id) ?? 0) + 1)
-      // Party at introduction, from the sponsor's membership covering that date.
-      const sponsorMember = sponsor ? memberById.get(sponsor.id) : undefined
-      const atIntro = sponsorMember?.memberships.find(
-        (ms) =>
-          (ms.startDate ?? "") <= (bill.introducedDate ?? today) &&
-          (ms.endDate ?? "9999") >= (bill.introducedDate ?? today),
-      )
-      db.insert(t.bills)
+    for (const sess of sessions) {
+      db.insert(t.sessions)
         .values({
-          ...bill,
-          sponsorMemberId: sponsor?.id ?? null,
-          sponsorPartyId: atIntro?.partyId ?? sponsor?.partyId ?? null,
+          id: sess.id,
+          parliament: Number(sess.id.split("-")[0]),
+          session: Number(sess.id.split("-")[1]),
+          startDate: sess.start,
+          endDate: sess.end,
+          isCurrent: sess.isCurrent,
         })
         .run()
-      for (const s of stages) db.insert(t.billStages).values({ billId: bill.id, ...s }).run()
+
+      const ballots: BallotInput[] = sess.ballots.map((b) => ({
+        voteId: b.voteId,
+        memberId: b.memberId,
+        ballot: b.ballot,
+        partyId: b.partyOverride ?? membershipParty.get(b.membershipUrl) ?? memberById.get(b.memberId)?.member.partyId ?? null,
+      }))
+      const partyStats = computePartyStats(ballots)
+      const splits = splitVotes(partyStats)
+      const memberStats = computeMemberStats(ballots, partyStats)
+      const billIds = new Set(sess.bills.map((b) => b.bill.id))
+      const sponsoredCount = new Map<string, number>()
+
+      for (const { bill, stages, sponsorParlId } of sess.bills) {
+        const sponsor = sponsorParlId ? memberByParlId.get(sponsorParlId) : undefined
+        if (sponsor) sponsoredCount.set(sponsor.id, (sponsoredCount.get(sponsor.id) ?? 0) + 1)
+        // Party at introduction, from the sponsor's membership covering that date.
+        const atIntro = sponsor
+          ? memberById
+              .get(sponsor.id)
+              ?.memberships.find((ms) => (ms.startDate ?? "") <= (bill.introducedDate ?? today) && (ms.endDate ?? "9999") >= (bill.introducedDate ?? today))
+          : undefined
+        db.insert(t.bills)
+          .values({ ...bill, sponsorMemberId: sponsor?.id ?? null, sponsorPartyId: atIntro?.partyId ?? sponsor?.partyId ?? null })
+          .run()
+        for (const st of stages) db.insert(t.billStages).values({ billId: bill.id, ...st }).run()
+      }
+      for (const { bill } of sess.bills) {
+        for (const e of excerptsByBill.get(bill.id) ?? []) db.insert(t.billExcerpts).values({ billId: bill.id, ...e }).run()
+      }
+      for (const v of sess.votes) {
+        db.insert(t.votes).values({ ...v, billId: v.billId && billIds.has(v.billId) ? v.billId : null, hasPartySplit: splits.has(v.id) }).run()
+      }
+      for (const b of ballots) db.insert(t.ballots).values({ ...b, isDissent: isDissent(b, partyStats) }).run()
+      for (const st of partyStats.values()) db.insert(t.votePartyStats).values(st).run()
+
+      // Stats rows for everyone who sat in this session (and every sitting MP for the current one).
+      const statMembers = new Set([...memberStats.keys(), ...sponsoredCount.keys(), ...(sess.isCurrent ? members.filter((m) => m.member.active).map((m) => m.member.id) : [])])
+      for (const memberId of statMembers) {
+        if (!memberById.has(memberId)) continue
+        const st = memberStats.get(memberId)
+        db.insert(t.memberStats)
+          .values({
+            memberId,
+            sessionId: sess.id,
+            votesHeld: st?.votesHeld ?? 0,
+            votesCast: st?.votesCast ?? 0,
+            votesPaired: st?.votesPaired ?? 0,
+            partyLineEligible: st?.partyLineEligible ?? 0,
+            partyLineVotes: st?.partyLineVotes ?? 0,
+            dissentCount: st?.dissentCount ?? 0,
+            partyLineRate: st?.partyLineRate ?? null,
+            attendanceRate: st?.attendanceRate ?? null,
+            billsSponsored: sponsoredCount.get(memberId) ?? 0,
+          })
+          .run()
+      }
+      for (const sm of loadSummaries(sess.id)) {
+        if (!billIds.has(sm.billId)) continue
+        db.insert(t.summaries)
+          .values({
+            billId: sm.billId,
+            sourceHash: sm.sourceHash,
+            model: sm.model,
+            generatedAt: sm.generatedAt,
+            payload: JSON.stringify(sm.summary),
+            sourceBasis: sm.sourceBasis,
+            sourceUrl: sm.sourceUrl,
+          })
+          .run()
+      }
+      counts[sess.id] = { bills: sess.bills.length, votes: sess.votes.length, ballots: ballots.length, summaries: loadSummaries(sess.id).length }
     }
 
-    for (const v of votes) {
-      db.insert(t.votes)
-        .values({ ...v, billId: v.billId && billIds.has(v.billId) ? v.billId : null, hasPartySplit: splits.has(v.id) })
-        .run()
-    }
-    for (const b of ballots) {
-      db.insert(t.ballots).values({ ...b, isDissent: isDissent(b, partyStats) }).run()
-    }
-    for (const s of partyStats.values()) db.insert(t.votePartyStats).values(s).run()
-    for (const m of members) {
-      const s = memberStats.get(m.member.id)
-      db.insert(t.memberStats)
-        .values({
-          memberId: m.member.id,
-          votesHeld: s?.votesHeld ?? 0,
-          votesCast: s?.votesCast ?? 0,
-          votesPaired: s?.votesPaired ?? 0,
-          partyLineEligible: s?.partyLineEligible ?? 0,
-          partyLineVotes: s?.partyLineVotes ?? 0,
-          dissentCount: s?.dissentCount ?? 0,
-          partyLineRate: s?.partyLineRate ?? null,
-          attendanceRate: s?.attendanceRate ?? null,
-          billsSponsored: sponsoredCount.get(m.member.id) ?? 0,
-        })
-        .run()
-    }
-    for (const s of loadSummaries(sessionId)) {
-      if (!billIds.has(s.billId)) continue
-      db.insert(t.summaries)
-        .values({
-          billId: s.billId,
-          sourceHash: s.sourceHash,
-          model: s.model,
-          generatedAt: s.generatedAt,
-          payload: JSON.stringify(s.summary),
-          sourceBasis: s.sourceBasis,
-          sourceUrl: s.sourceUrl,
-        })
-        .run()
-    }
     const metaRows = {
       last_ingest: now,
       ingest_mode: recent ? "recent" : "full",
-      current_session: sessionId,
+      current_session: currentId,
+      sessions: JSON.stringify(sessions.map((x) => x.id)),
       crosscheck: JSON.stringify(crossCheck),
     }
     for (const [key, value] of Object.entries(metaRows)) db.insert(t.meta).values({ key, value }).run()
   })()
-
-  // Sponsor counts depend on bill insertion order above; patch them now that all bills are in.
-  for (const [memberId, n] of sponsoredCount) {
-    sqlite.prepare("UPDATE member_stats SET bills_sponsored = ? WHERE member_id = ?").run(n, memberId)
-  }
 
   sqlite.pragma("wal_checkpoint(TRUNCATE)")
   sqlite.pragma("journal_mode = DELETE")
@@ -352,16 +394,6 @@ async function main() {
   for (const f of [`${DB_PATH}-wal`, `${DB_PATH}-shm`]) rmSync(f, { force: true })
   renameSync(tmp, DB_PATH)
 
-  const counts = {
-    bills: normalizedBills.length,
-    votes: votes.length,
-    ballots: ballots.length,
-    members: members.length,
-    sitting: current.length,
-    parties: parties.size,
-    ridings: ridings.size,
-    summaries: loadSummaries(sessionId).length,
-  }
   log(`done: ${JSON.stringify(counts)}`)
   log(`http: ${httpStats.network} network, ${httpStats.cached} cached, ${httpStats.retries} retries`)
 }

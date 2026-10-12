@@ -15,6 +15,20 @@
       "when": 1791790658580,
       "tag": "0001_exotic_thena",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791792383192,
+      "tag": "0002_cute_tenebrous",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1791792808882,
+      "tag": "0003_cloudy_firelord",
+      "breakpoints": true
     }
   ]
 }

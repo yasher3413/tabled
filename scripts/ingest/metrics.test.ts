@@ -25,6 +25,17 @@ function realBallots(n: number): BallotInput[] {
   })
 }
 
+describe("dedupeBallots", () => {
+  it("keeps the first ballot when an MP appears twice on a vote", async () => {
+    const { dedupeBallots } = await import("./normalize/votes")
+    const real = realBallots(178)
+    const doubled = [...real, real[0]]
+    const r = dedupeBallots(doubled)
+    expect(r.ballots).toHaveLength(real.length)
+    expect(r.dropped).toEqual([real[0]])
+  })
+})
+
 describe("vote normalization", () => {
   it("normalizes a real vote", () => {
     const v = fixture<OPVoteListItem>("openparliament/vote-178.json")

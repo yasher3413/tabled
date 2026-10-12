@@ -188,8 +188,11 @@ export const votePartyStats = sqliteTable(
 
 export const memberStats = sqliteTable("member_stats", {
   memberId: text("member_id")
-    .primaryKey()
+    .notNull()
     .references(() => members.id),
+  sessionId: text("session_id")
+    .notNull()
+    .references(() => sessions.id),
   votesHeld: integer("votes_held").notNull(),
   votesCast: integer("votes_cast").notNull(),
   votesPaired: integer("votes_paired").notNull(),
@@ -199,7 +202,7 @@ export const memberStats = sqliteTable("member_stats", {
   partyLineRate: real("party_line_rate"),
   attendanceRate: real("attendance_rate"),
   billsSponsored: integer("bills_sponsored").notNull(),
-})
+}, (t) => [primaryKey({ columns: [t.memberId, t.sessionId] })])
 
 export const summaries = sqliteTable("summaries", {
   billId: text("bill_id")
@@ -219,3 +222,25 @@ export const meta = sqliteTable("meta", {
   key: text("key").primaryKey(),
   value: text("value").notNull(),
 })
+
+/** One opening excerpt per party from the House debate on a bill (Hansard via openparliament.ca). */
+export const billExcerpts = sqliteTable(
+  "bill_excerpts",
+  {
+    billId: text("bill_id")
+      .notNull()
+      .references(() => bills.id),
+    ordinal: integer("ordinal").notNull(),
+    date: text("date").notNull(),
+    memberId: text("member_id")
+      .notNull()
+      .references(() => members.id),
+    partyId: text("party_id")
+      .notNull()
+      .references(() => parties.id),
+    textEn: text("text_en").notNull(),
+    textFr: text("text_fr"),
+    url: text("url").notNull(),
+  },
+  (t) => [primaryKey({ columns: [t.billId, t.ordinal] })],
+)

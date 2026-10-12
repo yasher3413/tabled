@@ -10,6 +10,8 @@ import { getMessages } from "@/i18n/messages"
 import { formatDate } from "@/lib/format"
 import { alternates } from "@/lib/metadata"
 import { getVote, listParties } from "@/lib/queries"
+import { SITE_URL } from "@/lib/site"
+import { EmbedSnippet } from "@/components/votes/embed-snippet"
 
 export type VoteParams = { session: string; number: string }
 
@@ -105,6 +107,11 @@ export function VoteView({ locale, session, number }: { locale: Locale } & VoteP
           </a>
           {official && t.official}. {t.partyAtTime}
         </p>
+        <EmbedSnippet
+          src={`${SITE_URL}${localePath(locale, `/embed/votes/${v.sessionId}/${v.number}`)}`}
+          title={`${m.home.voteN(v.number)}: ${fr ? (v.descriptionFr ?? v.descriptionEn) : v.descriptionEn}`}
+          locale={locale}
+        />
       </Container>
     </article>
   )

@@ -25,6 +25,17 @@ export function getCurrentSession() {
   return getDb().select().from(t.sessions).where(eq(t.sessions.isCurrent, true)).get() ?? null
 }
 
+export type Session = typeof t.sessions.$inferSelect
+
+/** All ingested sessions, newest first. */
+export function listSessions(): Session[] {
+  return getDb().select().from(t.sessions).orderBy(desc(t.sessions.parliament), desc(t.sessions.session)).all()
+}
+
+function currentSessionId(): string {
+  return getCurrentSession()?.id ?? ""
+}
+
 /** Ingest timestamp as a date; used as "today" so the site describes its own snapshot honestly. */
 export function getDataDate(): string {
   return (getMeta().last_ingest ?? getCurrentSession()?.startDate ?? "1970-01-01").slice(0, 10)
@@ -81,7 +92,8 @@ export interface BillListItem {
   stages: Array<{ chamber: BillStage["chamber"]; state: BillStage["state"]; key: string }>
 }
 
-export function listBills(): BillListItem[] {
+/** Bills in one session (the current one by default), or every ingested session with "all". */
+export function listBills(sessionId: string | "all" = currentSessionId()): BillListItem[] {
   const db = getDb()
   const rows = db
     .select({
@@ -90,6 +102,7 @@ export function listBills(): BillListItem[] {
     })
     .from(t.bills)
     .leftJoin(t.summaries, eq(t.summaries.billId, t.bills.id))
+    .where(sessionId === "all" ? undefined : eq(t.bills.sessionId, sessionId))
     .all()
   const stagesByBill = new Map<string, BillListItem["stages"]>()
   for (const s of db
@@ -137,6 +150,7 @@ export interface BillDetail {
   stages: BillStage[]
   votes: Array<Vote & { partyStats: VotePartyStat[] }>
   summary: (typeof t.summaries.$inferSelect & { parsed: Summary }) | null
+  excerpts: Array<typeof t.billExcerpts.$inferSelect & { name: string }>
   sponsor: { id: string; name: string; partyId: string | null; ridingName: string | null } | null
 }
 
@@ -160,9 +174,18 @@ export function getBill(sessionId: string, number: string): BillDetail | null {
         .where(eq(t.members.id, bill.sponsorMemberId))
         .get() ?? null)
     : null
+  const excerpts = db
+    .select({ excerpt: t.billExcerpts, name: t.members.name })
+    .from(t.billExcerpts)
+    .innerJoin(t.members, eq(t.members.id, t.billExcerpts.memberId))
+    .where(eq(t.billExcerpts.billId, id))
+    .orderBy(asc(t.billExcerpts.ordinal))
+    .all()
+    .map((r) => ({ ...r.excerpt, name: r.name }))
   return {
     bill,
     stages,
+    excerpts,
     votes: votes.map((v) => ({ ...v, partyStats: stats.filter((s) => s.voteId === v.id) })),
     summary: summaryRow && parsed ? { ...summaryRow, parsed } : null,
     sponsor,
@@ -207,11 +230,13 @@ export interface VoteListItem extends Vote {
   billSession: string | null
 }
 
-export function listVotes(): VoteListItem[] {
+/** Votes in one session (the current one by default), or every ingested session with "all". */
+export function listVotes(sessionId: string | "all" = currentSessionId()): VoteListItem[] {
   return getDb()
     .select({ vote: t.votes, billNumber: t.bills.number, billShortTitle: t.bills.shortTitleEn, billShortTitleFr: t.bills.shortTitleFr, billSession: t.bills.sessionId })
     .from(t.votes)
     .leftJoin(t.bills, eq(t.bills.id, t.votes.billId))
+    .where(sessionId === "all" ? undefined : eq(t.votes.sessionId, sessionId))
     .orderBy(desc(t.votes.date), desc(t.votes.number))
     .all()
     .map((r) => ({ ...r.vote, billNumber: r.billNumber, billShortTitle: r.billShortTitle, billShortTitleFr: r.billShortTitleFr, billSession: r.billSession }))
@@ -231,7 +256,7 @@ export interface BallotRow {
 export function getVote(sessionId: string, number: number) {
   const db = getDb()
   const id = `${sessionId}/${number}`
-  const vote = listVotes().find((v) => v.id === id)
+  const vote = listVotes(sessionId).find((v) => v.id === id)
   if (!vote) return null
   const partyStats = db.select().from(t.votePartyStats).where(eq(t.votePartyStats.voteId, id)).all()
   const ballots: BallotRow[] = db
@@ -281,8 +306,13 @@ export interface MemberListItem {
   billsSponsored: number
 }
 
-export function listMembers(): MemberListItem[] {
-  return getDb()
+/**
+ * MPs with their figures for one session (the current one by default): everyone who sat in that session.
+ * With "all", every MP Tabled knows, with current-session figures where they exist.
+ */
+export function listMembers(sessionId: string | "all" = currentSessionId()): MemberListItem[] {
+  const statsSession = sessionId === "all" ? currentSessionId() : sessionId
+  const rows = getDb()
     .select({
       id: t.members.id,
       name: t.members.name,
@@ -299,28 +329,39 @@ export function listMembers(): MemberListItem[] {
       votesHeld: t.memberStats.votesHeld,
       dissentCount: t.memberStats.dissentCount,
       billsSponsored: t.memberStats.billsSponsored,
+      statsSession: t.memberStats.sessionId,
     })
     .from(t.members)
     .leftJoin(t.ridings, eq(t.ridings.id, t.members.ridingId))
-    .leftJoin(t.memberStats, eq(t.memberStats.memberId, t.members.id))
+    .leftJoin(t.memberStats, and(eq(t.memberStats.memberId, t.members.id), eq(t.memberStats.sessionId, statsSession)))
     .orderBy(asc(t.members.familyName), asc(t.members.name))
     .all()
-    .map((m) => ({
+    .filter((m) => sessionId === "all" || m.statsSession !== null)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars -- drop the join column
+  return rows.map(({ statsSession, ...m }) => ({
       ...m,
       votesCast: m.votesCast ?? 0,
       votesHeld: m.votesHeld ?? 0,
       dissentCount: m.dissentCount ?? 0,
       billsSponsored: m.billsSponsored ?? 0,
-    }))
+  }))
 }
 
 export function getMember(slug: string) {
   const db = getDb()
-  const member = listMembers().find((m) => m.id === slug)
+  const member = listMembers("all").find((m) => m.id === slug)
   if (!member) return null
   const detail = db.select().from(t.members).where(eq(t.members.id, slug)).get()!
-  const stats = db.select().from(t.memberStats).where(eq(t.memberStats.memberId, slug)).get() ?? null
-  const sponsored = listBills()
+  const sessions = listSessions()
+  // Figures for each session the MP sat in, newest session first.
+  const statsBySession = db
+    .select()
+    .from(t.memberStats)
+    .where(eq(t.memberStats.memberId, slug))
+    .all()
+    .sort((a, b) => sessions.findIndex((s) => s.id === a.sessionId) - sessions.findIndex((s) => s.id === b.sessionId))
+  const stats = statsBySession[0] ?? null
+  const sponsored = listBills("all")
     .filter((b) => b.sponsorMemberId === slug)
     .sort((a, b) => (b.lastActivityDate ?? "").localeCompare(a.lastActivityDate ?? ""))
   const ballots = db
@@ -343,7 +384,7 @@ export function getMember(slug: string) {
     .where(eq(t.ballots.memberId, slug))
     .orderBy(desc(t.votes.date), desc(t.votes.number))
     .all()
-  return { member, detail, stats, sponsored, ballots }
+  return { member, detail, stats, statsBySession, sessions, sponsored, ballots }
 }
 
 export function allMemberParams() {
@@ -397,7 +438,16 @@ export function partySummaries() {
 
 export function houseComposition() {
   const db = getDb()
-  const seatsTotal = db.select({ id: t.ridings.id }).from(t.ridings).all().length
+  // Seats on the current electoral map: ridings held by a membership that lasted into the current session.
+  const since = getCurrentSession()?.startDate ?? "0000-00-00"
+  const seatsTotal = new Set(
+    db
+      .select({ riding: t.memberships.ridingId, end: t.memberships.endDate })
+      .from(t.memberships)
+      .all()
+      .filter((m) => m.riding && (m.end === null || m.end >= since))
+      .map((m) => m.riding),
+  ).size
   const parties = listParties().filter((p) => p.seatCount > 0)
   const filled = parties.reduce((a, p) => a + p.seatCount, 0)
   return { parties, filled, seatsTotal, vacant: Math.max(0, seatsTotal - filled) }
@@ -461,7 +511,7 @@ export function stageEventsBetween(from: string, to: string): DigestEvent[] {
 }
 
 export function votesBetween(from: string, to: string): VoteListItem[] {
-  return listVotes().filter((v) => v.date >= from && v.date <= to)
+  return listVotes("all").filter((v) => v.date >= from && v.date <= to)
 }
 
 /** Every date on which a bill moved or the House held a recorded vote. */

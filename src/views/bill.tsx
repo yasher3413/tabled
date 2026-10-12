@@ -49,7 +49,7 @@ export function BillView({ locale, session, number }: { locale: Locale } & BillP
   const t = m.bill
   const fr = locale === "fr"
   const L = (p: string) => localePath(locale, p)
-  const { bill, stages, votes, summary, sponsor } = data
+  const { bill, stages, votes, summary, sponsor, excerpts } = data
   const parties = listParties()
   const year = getDataYear()
   const sponsorParty = parties.find((p) => p.id === (bill.sponsorPartyId ?? sponsor?.partyId))
@@ -187,6 +187,36 @@ export function BillView({ locale, session, number }: { locale: Locale } & BillP
             </ol>
           )}
         </section>
+
+        {excerpts.length > 0 && (
+          <section aria-labelledby="debate" className="mt-16">
+            <SectionHeading id="debate">{fr ? "Ce que les députés ont dit" : "What MPs said"}</SectionHeading>
+            <p className="measure mt-3 text-[0.875rem] leading-relaxed text-ink-3">
+              {fr
+                ? "La première intervention de chaque parti sur ce projet de loi à la Chambre, tirée du hansard. Les extraits reprennent les premières phrases de l’orateur, sans modification."
+                : "Each party’s first speech on this bill in the House, from Hansard. Excerpts are the speaker’s opening sentences, unedited."}
+            </p>
+            <ul className="mt-4 grid gap-x-12 md:grid-cols-2">
+              {excerpts.map((e) => (
+                <li key={e.ordinal} className="border-t border-rule py-5">
+                  <p className="flex flex-wrap items-center gap-x-2 text-[0.875rem]">
+                    <PartyTag partyId={e.partyId} label={partyShort(parties.find((p) => p.id === e.partyId), locale)} />
+                    <Link className="link name-sc" href={L(`/mps/${e.memberId}`)}>
+                      {e.name}
+                    </Link>
+                    <span className="text-ink-3">· {formatDate(e.date, locale)}</span>
+                  </p>
+                  <blockquote className="mt-2 font-display text-[1.125rem] leading-snug text-ink">
+                    {fr ? `« ${e.textFr ?? e.textEn} »` : `“${e.textEn}”`}
+                  </blockquote>
+                  <a className="link mt-2 inline-block text-[0.8125rem]" href={e.url}>
+                    {fr ? "Lire l’intervention complète (openparliament.ca)" : "Read the full speech on openparliament.ca"}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <section aria-labelledby="sources" className="mt-16">
           <SectionHeading id="sources">{t.readSource}</SectionHeading>

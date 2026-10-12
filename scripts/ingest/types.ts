@@ -111,3 +111,13 @@ export interface LIBill {
   Publications: { PublicationId: number; PublicationTypeNameEn: string }[] | null
   HouseVoteDetails: { DivisionNumber: number }[] | null
 }
+
+export interface OPSpeech {
+  time: string
+  attribution: Localized
+  content: Localized
+  url: string
+  politician_url: string | null
+  politician_membership_url: string | null
+  procedural: boolean
+}

@@ -6,7 +6,8 @@ import Link from "next/link"
 import { localePath, type Locale } from "@/i18n/config"
 import { getMessages } from "@/i18n/messages"
 import { alternates } from "@/lib/metadata"
-import { listMembers, listParties } from "@/lib/queries"
+import { listMembers, listParties, listSessions } from "@/lib/queries"
+import { sessionLabel } from "@/lib/sessions"
 
 export function mpsMetadata(locale: Locale): Metadata {
   const t = getMessages(locale).meta
@@ -15,7 +16,13 @@ export function mpsMetadata(locale: Locale): Metadata {
 
 export function MpsView({ locale }: { locale: Locale }) {
   const t = getMessages(locale).mps
-  const props = { members: listMembers(), parties: listParties(), locale }
+  const sessions = listSessions()
+  const props = {
+    membersBySession: Object.fromEntries(sessions.map((s) => [s.id, listMembers(s.id)])),
+    sessions: sessions.map((s) => ({ id: s.id, label: sessionLabel(s, locale), isCurrent: s.isCurrent })),
+    parties: listParties(),
+    locale,
+  }
   return (
     <Container>
       <PageHeader title={t.title} lede={t.lede}>

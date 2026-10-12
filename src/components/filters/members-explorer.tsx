@@ -19,7 +19,8 @@ import { FilterSelect, ResultCount, SearchField } from "./controls"
 const PAGE = 60
 
 interface Props {
-  members: MemberListItem[]
+  membersBySession: Record<string, MemberListItem[]>
+  sessions: Array<{ id: string; label: string; isCurrent: boolean }>
   parties: Party[]
   locale: Locale
 }
@@ -29,23 +30,27 @@ export function MembersExplorerWithParams(props: Props) {
   return <MembersExplorer {...props} params={paramsToRecord(sp)} interactive />
 }
 
-export function MembersExplorer({ members, parties, locale, params, interactive = false }: Props & { params: Record<string, string>; interactive?: boolean }) {
+export function MembersExplorer({ membersBySession, sessions, parties, locale, params, interactive = false }: Props & { params: Record<string, string>; interactive?: boolean }) {
   const m0 = getMessages(locale)
   const t = m0.mps
-  const f = readMemberFilters(params)
+  const current = sessions.find((s) => s.isCurrent) ?? sessions[0]
+  const session = sessions.find((s) => s.id === params.session) ?? current
+  const members = membersBySession[session.id] ?? []
+  // "Current MPs" only means something for the current session; earlier sessions list everyone who sat.
+  const f = { ...readMemberFilters(params), ...(session.isCurrent ? {} : { status: "all" }) }
   const set = useReplaceParams(params, DEFAULT_MEMBER_FILTERS as unknown as Record<string, string>)
   const q = useDeferredValue(f.q)
-  const shown = useMemo(() => filterMembers(members, { ...f, q }), [members, f, q])
+  const shown = filterMembers(members, { ...f, q })
   const partyName = useMemo(() => new Map(parties.map((p) => [p.id, partyShort(p, locale)])), [parties, locale])
   const pool = filterMembers(members, { ...DEFAULT_MEMBER_FILTERS, status: f.status })
-  const reset = () => set({ q: null, party: null, province: null, status: null, sort: null })
+  const reset = () => set({ q: null, party: null, province: null, status: null, sort: null, session: null })
   const filterKey = JSON.stringify({ ...f, q })
   const [page, setPage] = useState({ key: filterKey, limit: PAGE })
   const limit = page.key === filterKey ? page.limit : PAGE
 
   return (
     <div>
-      <div role="search" aria-label={locale === "fr" ? "Filtrer les députés" : "Filter MPs"} inert={!interactive ? true : undefined} className="grid grid-cols-2 gap-3 border-b border-rule py-5 md:grid-cols-[2fr_repeat(4,minmax(0,1fr))]">
+      <div role="search" aria-label={locale === "fr" ? "Filtrer les députés" : "Filter MPs"} inert={!interactive ? true : undefined} className={`grid grid-cols-2 gap-3 border-b border-rule py-5 ${sessions.length > 1 ? "md:grid-cols-3 lg:grid-cols-[2fr_repeat(5,minmax(0,1fr))]" : "md:grid-cols-[2fr_repeat(4,minmax(0,1fr))]"}`}>
         <SearchField className="col-span-2 md:col-span-1" label={m0.filters.search} value={f.q} onChange={(v) => set({ q: v })} placeholder={t.placeholder} locale={locale} />
         <FilterSelect label={t.party} value={f.party} onChange={(v) => set({ party: v })} options={[{ value: "", label: t.allParties }, ...parties.map((p) => ({ value: p.id, label: partyShort(p, locale) }))]} />
         <FilterSelect
@@ -54,9 +59,17 @@ export function MembersExplorer({ members, parties, locale, params, interactive 
           onChange={(v) => set({ province: v })}
           options={[{ value: "", label: t.anywhere }, ...Object.entries(provinces(locale)).map(([code, name]) => ({ value: code, label: name }))]}
         />
+        {sessions.length > 1 && (
+          <FilterSelect
+            label={locale === "fr" ? "Session" : "Session"}
+            value={session.isCurrent ? "" : session.id}
+            onChange={(v) => set({ session: v || null })}
+            options={sessions.map((s) => ({ value: s.isCurrent ? "" : s.id, label: s.label }))}
+          />
+        )}
         <FilterSelect
           label={t.show}
-          defaultValue="current"
+          defaultValue={session.isCurrent ? "current" : "all"}
           value={f.status}
           onChange={(v) => set({ status: v })}
           options={[

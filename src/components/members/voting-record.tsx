@@ -22,7 +22,20 @@ export interface RecordRow {
 
 const PAGE = 25
 
-export function VotingRecord({ rows, referenceYear, locale = "en" }: { rows: RecordRow[]; referenceYear: number; locale?: Locale }) {
+export function VotingRecord({
+  rows: allRows,
+  referenceYear,
+  locale = "en",
+  sessions = [],
+}: {
+  rows: RecordRow[]
+  referenceYear: number
+  locale?: Locale
+  /** Sessions this MP has votes in; a selector appears when there is more than one. */
+  sessions?: Array<{ id: string; label: string }>
+}) {
+  const [session, setSession] = useState(sessions[0]?.id ?? "")
+  const rows = session ? allRows.filter((r) => r.sessionId === session) : allRows
   const m = getMessages(locale)
   const t = m.mp
   const LABEL = { yea: m.vote.yea, nay: m.vote.nay, paired: m.vote.paired, absent: m.vote.didNotVote }
@@ -32,6 +45,24 @@ export function VotingRecord({ rows, referenceYear, locale = "en" }: { rows: Rec
   const shown = dissentOnly ? rows.filter((r) => r.isDissent) : rows
   return (
     <div>
+      {sessions.length > 1 && (
+        <div role="group" aria-label={locale === "fr" ? "Session" : "Session"} className="mt-4 inline-flex flex-wrap rounded-sm border border-rule p-0.5 text-[0.8125rem]">
+          {sessions.map((s) => (
+            <button
+              key={s.id}
+              type="button"
+              aria-pressed={session === s.id}
+              onClick={() => {
+                setSession(s.id)
+                setLimit(PAGE)
+              }}
+              className={cn("rounded-[2px] px-2.5 py-1 transition-colors duration-150", session === s.id ? "bg-ink text-paper" : "text-ink-2 hover:text-ink")}
+            >
+              {s.label}
+            </button>
+          ))}
+        </div>
+      )}
       <div className="flex flex-wrap items-center justify-between gap-3 py-3">
         <p className="text-sm text-ink-3" aria-live="polite">
           {dissentOnly ? t.brokeCount(shown.length) : t.recordCount(rows.length)}

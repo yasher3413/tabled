@@ -52,6 +52,22 @@ export function normalizeVote(v: OPVoteListItem) {
   }
 }
 
+/** openparliament occasionally lists the same MP twice on one vote; keep the first ballot. */
+export function dedupeBallots<T extends { voteId: string; memberId: string }>(ballots: T[]): { ballots: T[]; dropped: T[] } {
+  const seen = new Set<string>()
+  const kept: T[] = []
+  const dropped: T[] = []
+  for (const b of ballots) {
+    const k = `${b.voteId}\u0000${b.memberId}`
+    if (seen.has(k)) dropped.push(b)
+    else {
+      seen.add(k)
+      kept.push(b)
+    }
+  }
+  return { ballots: kept, dropped }
+}
+
 export function normalizeBallot(b: OPBallot) {
   const m = /\/votes\/([^/]+)\/(\d+)\/?$/.exec(b.vote_url)
   if (!m) throw new Error(`Bad vote url ${b.vote_url}`)

@@ -1,7 +1,7 @@
 # Progress
 
 ## Current phase
-MVP built (Phases 0 to 7). Impeccable finish review in progress, then DESIGN.md, MORNING.md, then the stretch backlog.
+MVP done; stretch items 1 to 8 done. Remaining: item 9 (polish), vote detail perf, screenshots, MORNING.md refresh. See docs/HANDOFF.md.
 
 ## Done
 - Phase 0: brief read, logs, commit hook (verified), env check, live recon of all four sources with recorded fixtures, docs/DATA_SOURCES.md, scaffold (Next 16.4 Cache Components, Tailwind 4, shadcn radix-nova, Vitest, Playwright).

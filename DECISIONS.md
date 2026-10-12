@@ -11,3 +11,4 @@ One line each: decision, reason.
 - Default `SUMMARY_MODEL` is `claude-haiku-4-5` instead of `claude-haiku-5-5`: no model with that ID exists.
 - Current bill stage is derived from stage order (first stage after the last completed one), not from LEGISinfo's `No activity` flag: that flag is inconsistent across chambers.
 - Link to the Library of Parliament legislative summary using its standard URL pattern only when LEGISinfo sets `IsFullLegislativeSummaryAvailable`: the page cannot be fetched by scripts (Cloudflare) so it is not verified per bill.
+- Pure-function edge cases (ties, independents) use small inline inputs in unit tests: those cases do not occur in the recorded votes, and inline inputs are never shown in the UI.

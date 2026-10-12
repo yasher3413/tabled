@@ -1,0 +1,10 @@
+# Never upload secrets or local build state; Vercel ingests fresh data during the build.
+.env*
+!.env.example
+data/cache/
+data/tabled.db
+data/tabled.db-*
+.next/
+node_modules/
+test-results/
+playwright-report/

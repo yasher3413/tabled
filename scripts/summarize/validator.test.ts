@@ -46,6 +46,11 @@ describe("validateSummary", () => {
     // "extremely" contains "extreme" but is a different word; "boldface" contains "bold".
     expect(validateSummary({ ...good, tldr: "Changes rules for extremely small boldface print on labels." }).ok).toBe(true)
   })
+  it("accepts topics from the taxonomy and rejects invented ones", () => {
+    expect(validateSummary({ ...good, topics: ["budget-taxes", "housing"] }).ok).toBe(true)
+    expect(validateSummary({ ...good, topics: ["vibes"] }).errors.join()).toMatch(/Unknown topic "vibes"/)
+    expect(validateSummary({ ...good, topics: ["health", "housing", "education", "budget-taxes"] }).ok).toBe(false)
+  })
   it("rejects em and en dashes", () => {
     expect(validateSummary({ ...good, tldr: "This bill cuts taxes — mostly for low earners." }).errors.join()).toMatch(/dash/)
     expect(validateSummary({ ...good, tldr: "This bill cuts taxes – mostly for low earners." }).ok).toBe(false)

@@ -76,6 +76,7 @@ export interface BillListItem {
   sponsorMemberId: string | null
   sponsorPartyId: string | null
   tldr: string | null
+  topics: string[]
   /** Ordered stage chamber and state, for compact progress indicators. */
   stages: Array<{ chamber: BillStage["chamber"]; state: BillStage["state"]; key: string }>
 }
@@ -126,6 +127,7 @@ export function listBills(): BillListItem[] {
     sponsorMemberId: b.sponsorMemberId,
     sponsorPartyId: b.sponsorPartyId,
     tldr: parseSummary(payload)?.tldr ?? null,
+    topics: parseSummary(payload)?.topics ?? [],
     stages: stagesByBill.get(b.id) ?? [],
   }))
 }

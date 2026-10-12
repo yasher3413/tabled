@@ -10,6 +10,8 @@ export const SummarySchema = z.object({
   background: z.string().optional().nullable(),
   source_basis: z.enum(SOURCE_BASIS),
   coverage_note: z.string().optional().nullable(),
+  /** 1 to 3 ids from the fixed taxonomy in src/lib/topics.ts. Optional so older summaries stay valid. */
+  topics: z.array(z.string()).max(3).optional(),
 })
 
 export type Summary = z.infer<typeof SummarySchema>

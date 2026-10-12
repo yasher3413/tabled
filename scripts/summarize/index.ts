@@ -40,6 +40,7 @@ const ModelOutput = z.object({
   what_it_does: z.array(z.string()),
   who_it_affects: z.array(z.string()),
   background: z.string().nullable(),
+  topics: z.array(z.string()),
 })
 const PartNotes = z.object({ changes: z.array(z.string()) })
 

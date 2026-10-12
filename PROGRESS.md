@@ -18,6 +18,7 @@ MVP built (Phases 0 to 7). Impeccable finish review in progress, then DESIGN.md,
 - Lighthouse (local prod build): home 91/100/100/100, bill 96/100/100/100, MP 93/100/100/100 (perf/a11y/best practices/SEO).
 
 ## Stretch backlog
+- [~] 4. Topic tags: fixed bilingual taxonomy (22 topics), summarizer emits 1 to 3 validated topic ids, topic filter on /bills and topic links on bill pages. Dormant until summaries exist (needs a real API key).
 - [x] 2. Weekly digest at /this-week (and /this-week/YYYY-Www, both languages) with an RSS feed.
 - [x] 3. Per-bill and per-MP RSS feeds (/bills/.../rss.xml, /mps/.../rss.xml), advertised in page metadata.
 - [x] 1. French: /fr for every page, hand-translated UI and stage explainers, official French data, hreflang, bilingual sitemap, French e2e + axe.

@@ -1,4 +1,5 @@
 import { SummarySchema, type Summary } from "../../src/lib/summary-schema"
+import { isTopic, TOPIC_IDS } from "../../src/lib/topics"
 
 /** Loaded or evaluative words that have no place in a neutral description. */
 export const BANNED_WORDS = [
@@ -88,6 +89,9 @@ export function validateSummary(input: unknown, opts: { sourceChars?: number } =
   s.who_it_affects.forEach((g, i) => {
     if (words(g) > LIMITS.affectedWords) errors.push(`who_it_affects[${i}] should be a short group name (at most ${LIMITS.affectedWords} words).`)
   })
+  for (const topic of s.topics ?? []) {
+    if (!isTopic(topic)) errors.push(`Unknown topic "${topic}". Use only: ${TOPIC_IDS.join(", ")}.`)
+  }
   if (s.background && sentences(s.background) > LIMITS.backgroundSentences) {
     errors.push(`background must be at most ${LIMITS.backgroundSentences} sentences.`)
   }

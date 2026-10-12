@@ -17,6 +17,7 @@ const items: BillListItem[] = ["C-4", "C-39", "C-218", "S-228", "S-1001"].map((n
     sponsorMemberId: null,
     sponsorPartyId: n === "C-218" ? "conservative" : n.startsWith("C") ? "liberal" : null,
     tldr: null,
+    topics: n === "C-4" ? ["budget-taxes", "housing"] : [],
     stages: stages.map((s) => ({ chamber: s.chamber, state: s.state, key: s.stageKey })),
   }
 })
@@ -45,6 +46,9 @@ describe("filterBills", () => {
     expect(run({ type: "private_member" })).toEqual(["C-218"])
     expect(run({ party: "liberal" }).sort()).toEqual(["C-39", "C-4"])
     expect(run({ law: "no" }).sort()).toEqual(["C-218", "C-39"])
+  })
+  it("filters by topic", () => {
+    expect(run({ topic: "housing" })).toEqual(["C-4"])
   })
   it("sorts by number with C before S and numeric order", () => {
     expect(run({ sort: "number" })).toEqual(["C-4", "C-39", "C-218", "S-228", "S-1001"])

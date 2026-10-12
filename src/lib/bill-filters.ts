@@ -7,10 +7,11 @@ export interface BillFilters {
   type: string // "" | bill type
   party: string // "" | sponsor party id
   law: string // "" | "yes" | "no"
+  topic: string // "" | topic id
   sort: string // "activity" | "introduced" | "number"
 }
 
-export const DEFAULT_BILL_FILTERS: BillFilters = { q: "", stage: "", chamber: "", type: "", party: "", law: "", sort: "activity" }
+export const DEFAULT_BILL_FILTERS: BillFilters = { q: "", stage: "", chamber: "", type: "", party: "", law: "", topic: "", sort: "activity" }
 
 export function readBillFilters(p: Record<string, string>): BillFilters {
   return {
@@ -20,6 +21,7 @@ export function readBillFilters(p: Record<string, string>): BillFilters {
     type: p.type ?? "",
     party: p.party ?? "",
     law: p.law ?? "",
+    topic: p.topic ?? "",
     sort: ["activity", "introduced", "number"].includes(p.sort ?? "") ? p.sort! : "activity",
   }
 }
@@ -59,6 +61,7 @@ export function filterBills(bills: BillListItem[], f: BillFilters): BillListItem
     if (f.party && b.sponsorPartyId !== f.party) return false
     if (f.law === "yes" && !b.isLaw) return false
     if (f.law === "no" && b.isLaw) return false
+    if (f.topic && !b.topics.includes(f.topic)) return false
     return true
   })
   const byNumber = (a: BillListItem, b: BillListItem) =>

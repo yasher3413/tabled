@@ -1,3 +1,4 @@
+import { TOPICS } from "../../src/lib/topics"
 import { BANNED_WORDS, LIMITS } from "./validator"
 
 export const SYSTEM_PROMPT = `You write plain-English summaries of Canadian federal bills for Tabled, a nonpartisan site that helps ordinary people understand what Parliament is doing.
@@ -17,7 +18,9 @@ Fields:
 - tldr: one sentence, at most ${LIMITS.tldrWords} words, saying what the bill does.
 - what_it_does: ${LIMITS.minBullets} to ${LIMITS.maxBullets} bullets (a very short bill that makes only one or two changes may have fewer; never pad or repeat). Each bullet is one concrete change, at most ${LIMITS.bulletWords} words, starting with a verb ("Creates", "Requires", "Repeals").
 - who_it_affects: 1 to ${LIMITS.maxAffected} short group names (a few words each), such as "First-time home buyers" or "Federally regulated employers".
-- background: optional, at most ${LIMITS.backgroundSentences} sentences of factual context taken from the source (for example, what existing law it builds on). Use null if the source gives none.`
+- background: optional, at most ${LIMITS.backgroundSentences} sentences of factual context taken from the source (for example, what existing law it builds on). Use null if the source gives none.
+- topics: 1 to 3 ids from this fixed list that best describe what the bill is about. Use the ids exactly:
+${Object.entries(TOPICS).map(([id, t]) => `  ${id} (${t.en})`).join("\n")}`
 
 export function billContext(b: {
   number: string

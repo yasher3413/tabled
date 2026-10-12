@@ -4,6 +4,8 @@ import type { Summary } from "@/lib/summary-schema"
 import { formatDate } from "@/lib/format"
 import type { Locale } from "@/i18n/config"
 import { getMessages } from "@/i18n/messages"
+import { localePath } from "@/i18n/config"
+import { isTopic, topicLabel } from "@/lib/topics"
 
 interface Props {
   billNumber: string
@@ -68,6 +70,20 @@ export function SummaryBlock({ billNumber, pageUrl, summary, officialSummary, so
               ))}
             </ul>
           </div>
+          {s.topics && s.topics.some(isTopic) && (
+            <div>
+              <h3 className="text-[0.8125rem] font-semibold text-ink">{locale === "fr" ? "Sujets" : "Topics"}</h3>
+              <ul className="mt-2 flex flex-wrap gap-x-4 gap-y-1.5 text-[0.875rem]">
+                {s.topics.filter(isTopic).map((id) => (
+                  <li key={id}>
+                    <a className="link" href={localePath(locale, `/bills?topic=${id}`)}>
+                      {topicLabel(id, locale)}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
           {s.background && (
             <div>
               <h3 className="text-[0.8125rem] font-semibold text-ink">{t.background}</h3>

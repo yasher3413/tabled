@@ -11,6 +11,7 @@ import type { Locale } from "@/i18n/config"
 import { getMessages } from "@/i18n/messages"
 import { partyShort } from "@/i18n/parties"
 import { stageInfo } from "@/lib/stages"
+import { topicLabel, TOPIC_IDS } from "@/lib/topics"
 import { paramsToRecord, useReplaceParams } from "@/lib/url-state"
 import { FilterSelect, ResultCount, SearchField } from "./controls"
 
@@ -46,7 +47,9 @@ export function BillsExplorer({ bills, parties, referenceYear, locale, params, i
   const [page, setPage] = useState({ key: filterKey, limit: PAGE })
   const limit = page.key === filterKey ? page.limit : PAGE
   const [filtersOpen, setFiltersOpen] = useState(false)
-  const activeFilters = [filters.stage, filters.chamber, filters.type, filters.party, filters.law].filter(Boolean).length
+  const activeFilters = [filters.stage, filters.chamber, filters.type, filters.party, filters.law, filters.topic].filter(Boolean).length
+  // The topic filter appears only once summaries have tagged at least one bill.
+  const topicsInUse = TOPIC_IDS.filter((id) => bills.some((b) => b.topics.includes(id)))
 
   const stageOptions = [
     { value: "", label: t.anyStage },
@@ -86,6 +89,14 @@ export function BillsExplorer({ bills, parties, referenceYear, locale, params, i
           {activeFilters > 0 && <span className="rounded-full bg-ink px-1.5 text-[0.75rem] text-paper">{activeFilters}</span>}
         </button>
         <div id="bill-filters" className={`col-span-2 grid-cols-2 gap-3 md:col-span-3 md:grid md:grid-cols-3 lg:col-span-6 lg:grid-cols-6 xl:col-span-4 xl:grid-cols-[repeat(6,minmax(0,1fr))] ${filtersOpen ? "grid" : "hidden"}`}>
+        {topicsInUse.length > 0 && (
+          <FilterSelect
+            label={locale === "fr" ? "Sujet" : "Topic"}
+            value={filters.topic}
+            onChange={(v) => set({ topic: v })}
+            options={[{ value: "", label: locale === "fr" ? "Tous les sujets" : "All topics" }, ...topicsInUse.map((id) => ({ value: id, label: topicLabel(id, locale) }))]}
+          />
+        )}
         <FilterSelect label={t.stage} value={filters.stage} onChange={(v) => set({ stage: v })} options={stageOptions} />
         <FilterSelect
           label={t.startsIn}
@@ -144,14 +155,14 @@ export function BillsExplorer({ bills, parties, referenceYear, locale, params, i
           total={bills.length}
           noun={t.noun}
           locale={locale}
-          onReset={() => set({ q: null, stage: null, chamber: null, type: null, party: null, law: null, sort: null })}
+          onReset={() => set({ q: null, stage: null, chamber: null, type: null, party: null, law: null, topic: null, sort: null })}
         />
       </div>
       {shown.length === 0 ? (
         <EmptyState
           title={t.noneMatch}
           action={
-            <button type="button" className="link text-[0.9375rem]" onClick={() => set({ q: null, stage: null, chamber: null, type: null, party: null, law: null })}>
+            <button type="button" className="link text-[0.9375rem]" onClick={() => set({ q: null, stage: null, chamber: null, type: null, party: null, law: null, topic: null })}>
               {m.filters.clearAll}
             </button>
           }

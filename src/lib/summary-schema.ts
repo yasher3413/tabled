@@ -5,7 +5,7 @@ export const SOURCE_BASIS = ["legislative_summary", "full_text", "legisinfo"] as
 /** Shape of a plain-English bill summary. Content rules (ban list, word counts) live in the summarizer's validator. */
 export const SummarySchema = z.object({
   tldr: z.string().min(1),
-  what_it_does: z.array(z.string().min(1)).min(3).max(6),
+  what_it_does: z.array(z.string().min(1)).min(1).max(6),
   who_it_affects: z.array(z.string().min(1)).min(1).max(8),
   background: z.string().optional().nullable(),
   source_basis: z.enum(SOURCE_BASIS),

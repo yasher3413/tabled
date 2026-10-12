@@ -17,3 +17,4 @@ One line each: decision, reason.
 - Impeccable's interview and decision steps answered from the brief instead of asking: the owner's brief forbids stopping for questions. PRODUCT.md marks inferred facts.
 - 21st.dev Magic consulted for the command palette, timeline and hemicycle: the catalog offered generic SaaS styling (and no hemicycle), so only interaction patterns were adopted (grouped results, arrow-key nav, moving highlight), built on shadcn cmdk in Tabled's own grammar.
 - Unknown bill/vote/MP URLs render the 404 page with noindex but HTTP 200: Cache Components streams the shell before notFound() and dynamicParams is unavailable. Every real record is prerendered, so only mistyped URLs are affected.
+- Summaries may have 1 or 2 'what it does' bullets when the source is under 1,500 characters (otherwise 3 to 6, per the brief): one-line bills such as a single repeal cannot yield three distinct changes without padding or invention.

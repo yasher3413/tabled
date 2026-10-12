@@ -313,7 +313,7 @@ const en = {
   },
   mp: {
     breadcrumb: "MPs",
-    mpFor: (riding: string, province: string) => `MP for ${riding}, ${province}`,
+    mpFor: (riding: string, province?: string) => (province ? `MP for ${riding}, ${province}` : `MP for ${riding}`),
     left: (date: string | null) => `Left the House ${date ? `on ${date}` : "this session"}.`,
     votedWithParty: "Voted with party",
     onVotes: (n: number) => `on ${n} votes with a clear party position`,
@@ -742,7 +742,7 @@ const fr: Messages = {
   },
   mp: {
     breadcrumb: "Députés",
-    mpFor: (riding: string, province: string) => `Député de ${riding} (${province})`,
+    mpFor: (riding: string, province?: string) => (province ? `Député de ${riding} (${province})` : `Député de ${riding}`),
     left: (date: string | null) => `A quitté la Chambre ${date ? `le ${date}` : "au cours de cette session"}.`,
     votedWithParty: "A voté avec son parti",
     onVotes: (n: number) => `sur ${n} votes où le parti avait une position claire`,

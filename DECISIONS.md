@@ -37,3 +37,9 @@ One line each: decision, reason.
 - 44-1 openparliament data lists 2 MPs twice on the same vote; duplicates are dropped (first ballot kept) and logged.
 - Embeddable vote cards live at /embed/votes/... under their own minimal root layout (no site chrome, noindex), with copy-ready iframe code on every vote page.
 - Two OG images log a satori "dynamic font" warning for a whitespace glyph; harmless (the glyph renders blank) and left as is.
+- Stretch item 9 polish ran as one fix batch plus one confirmation round, as Impeccable's unattended budget allows. The confirmation round showed the phone ballot table hid the Vote column, so one more small fix landed after it and was verified by e2e and a single capture.
+- Green text was removed from status labels ("Became law", "Against party", the "Broke ranks" chip): DESIGN.md's One Accent Rule keeps green for links, focus, selection and the current-stage flag. Status labels are ink at medium weight, matching the stage glyph's royal assent label.
+- On phones the ballot table folds the party under the MP's name instead of giving it a column, so the vote stays on screen. The party name stays as text so the swatch is never the only cue.
+- Riding lines drop the province when it repeats the riding name (Yukon, Nunavut, Northwest Territories).
+- Vote detail performance: table rows are memoised so a hover re-renders two rows instead of 337, and the long table uses content-visibility. Lighthouse gives 95 on three runs; the 88 in the handoff did not reproduce, so it was likely machine load. LCP is about 2.7 to 2.9 s on every page (fonts and CSS), so it is not specific to this page.
+- Screenshots now also cover /this-week, /compare (two sample MPs) and the embeddable vote card.

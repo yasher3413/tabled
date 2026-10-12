@@ -95,7 +95,7 @@ export function BillView({ locale, session, number }: { locale: Locale } & BillP
           <dl className="mt-6 flex flex-wrap gap-x-10 gap-y-4 text-[0.9375rem]">
             <div>
               <dt className="text-[0.8125rem] text-ink-3">{t.status}</dt>
-              <dd title={status} className={bill.isLaw ? "font-medium text-accent-ink" : bill.isDefeated ? "font-medium text-danger-ink" : "text-ink"}>
+              <dd title={status} className={bill.isLaw ? "font-medium text-ink" : bill.isDefeated ? "font-medium text-danger-ink" : "text-ink"}>
                 {bill.isLaw
                   ? t.becameLawOn(formatDate(bill.royalAssentDate, locale))
                   : bill.isDefeated

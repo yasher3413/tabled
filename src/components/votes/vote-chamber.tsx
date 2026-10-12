@@ -2,7 +2,7 @@
 
 import { ArrowDownUp } from "lucide-react"
 import Link from "next/link"
-import { useDeferredValue, useMemo, useState } from "react"
+import { memo, useDeferredValue, useMemo, useState } from "react"
 import { FilterSelect, SearchField } from "@/components/filters/controls"
 import { Hemicycle, type HemicycleSeat } from "@/components/tabled/hemicycle"
 import { partyColor, PartySwatch } from "@/components/tabled/party-tag"
@@ -71,12 +71,15 @@ export function VoteChamber({ ballots, parties, aside, locale = "en" }: { ballot
     active: hovered === b.memberId,
   }))
 
-  const rows = ballots.filter(matches).sort((a, b) => {
+  const rows = useMemo(() => {
+    const visible = ballots.filter(matches)
     const k = sort.key
     const val = (x: BallotRow) =>
       k === "name" ? (x.familyName ?? x.name) : k === "party" ? String(partyOrder.get(x.partyId ?? "") ?? 99).padStart(2, "0") : k === "riding" ? (x.ridingName ?? "") : String(BALLOT_ORDER[x.ballot])
-    return val(a).localeCompare(val(b)) * sort.dir || (a.familyName ?? a.name).localeCompare(b.familyName ?? b.name)
-  })
+    return visible.sort((a, b) => val(a).localeCompare(val(b)) * sort.dir || (a.familyName ?? a.name).localeCompare(b.familyName ?? b.name))
+    // `matches` reads exactly these filter values.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ballots, party, ballot, dissentOnly, query, sort, partyOrder])
 
   const counts = { yea: 0, nay: 0, paired: 0, absent: 0 } as Record<BallotValue, number>
   for (const b of ballots) counts[b.ballot]++
@@ -144,14 +147,14 @@ export function VoteChamber({ ballots, parties, aside, locale = "en" }: { ballot
           {dissenters.length ? (
             <ul className="mt-2 border-t border-rule">
               {dissenters.map((d) => (
-                <li key={d.memberId} className="flex items-baseline justify-between gap-3 border-b border-rule py-2 text-[0.9375rem]" onPointerEnter={() => setHovered(d.memberId)} onPointerLeave={() => setHovered(null)}>
+                <li key={d.memberId} className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-0.5 border-b border-rule py-2 text-[0.9375rem]" onPointerEnter={() => setHovered(d.memberId)} onPointerLeave={() => setHovered(null)}>
                   <span className="inline-flex min-w-0 items-center gap-2">
                     <PartySwatch partyId={d.partyId} />
-                    <Link className="link name-sc truncate" href={localePath(locale, `/mps/${d.memberId}`)}>
+                    <Link className="link name-sc" href={localePath(locale, `/mps/${d.memberId}`)}>
                       {d.name}
                     </Link>
                   </span>
-                  <span className="shrink-0 text-[0.8125rem] text-ink-2">
+                  <span className="text-[0.8125rem] text-ink-2">
                     {t.votedAgainst(BALLOT_LABEL[d.ballot].toLowerCase(), partyName.get(d.partyId ?? "") ?? "", (d.ballot === "yea" ? m.vote.nay : m.vote.yea).toLowerCase())}
                   </span>
                 </li>
@@ -182,48 +185,30 @@ export function VoteChamber({ ballots, parties, aside, locale = "en" }: { ballot
             {t.brokeOnly}
           </label>
         </div>
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[34rem] text-[0.9375rem]">
+        {/* Skip layout of the long table until it nears the viewport; rows are about 2.3rem tall. */}
+        <div className="overflow-x-auto [content-visibility:auto]" style={{ containIntrinsicSize: `auto ${(rows.length + 1) * 2.3}rem` }}>
+          <table className="w-full text-[0.9375rem] sm:min-w-[34rem]">
             <caption className="sr-only">{t.caption}</caption>
             <thead>
               <tr className="border-b border-rule-strong text-left text-xs text-ink-3">
                 {sortButton("name", t.mp)}
-                {sortButton("party", m.vote.party)}
+                {sortButton("party", m.vote.party, "hidden sm:table-cell")}
                 {sortButton("riding", t.riding, "hidden sm:table-cell")}
                 {sortButton("ballot", t.voteFilter)}
               </tr>
             </thead>
             <tbody>
               {rows.map((b) => (
-                <tr
+                <BallotTableRow
                   key={b.memberId}
-                  onPointerEnter={() => setHovered(b.memberId)}
-                  onPointerLeave={() => setHovered(null)}
-                  className={cn("border-b border-rule transition-colors duration-100", hovered === b.memberId && "bg-paper-sunk")}
-                >
-                  <th scope="row" className="py-2 pr-3 text-left font-normal">
-                    <Link className="name-sc hover:underline" href={localePath(locale, `/mps/${b.memberId}`)}>
-                      {b.name}
-                    </Link>
-                  </th>
-                  <td className="py-2 pr-3 whitespace-nowrap">
-                    <span className="inline-flex items-center gap-1.5 text-ink-2">
-                      <PartySwatch partyId={b.partyId} />
-                      {partyName.get(b.partyId ?? "") ?? t.independent}
-                    </span>
-                  </td>
-                  <td className="hidden py-2 pr-3 text-ink-2 sm:table-cell">
-                    {b.ridingName}
-                    {b.province ? <span className="text-ink-3">, {b.province}</span> : null}
-                  </td>
-                  <td className="py-2 pr-3 whitespace-nowrap">
-                    <span className={cn("inline-flex items-center gap-2", b.ballot === "yea" ? "text-ink" : b.ballot === "nay" ? "text-ink" : "text-ink-3")}>
-                      <BallotMark ballot={b.ballot} />
-                      {BALLOT_LABEL[b.ballot]}
-                    </span>
-                    {b.isDissent && <span className="ml-2 rounded-sm bg-accent-wash px-1.5 py-0.5 text-[0.75rem] font-medium text-accent-ink">{t.brokeTag}</span>}
-                  </td>
-                </tr>
+                  b={b}
+                  active={hovered === b.memberId}
+                  href={localePath(locale, `/mps/${b.memberId}`)}
+                  partyLabel={partyName.get(b.partyId ?? "") ?? t.independent}
+                  ballotLabel={BALLOT_LABEL[b.ballot]}
+                  brokeTag={t.brokeTag}
+                  onHover={setHovered}
+                />
               ))}
             </tbody>
           </table>
@@ -233,6 +218,60 @@ export function VoteChamber({ ballots, parties, aside, locale = "en" }: { ballot
     </div>
   )
 }
+
+const BallotTableRow = memo(function BallotTableRow({
+  b,
+  active,
+  href,
+  partyLabel,
+  ballotLabel,
+  brokeTag,
+  onHover,
+}: {
+  b: BallotRow
+  active: boolean
+  href: string
+  partyLabel: string
+  ballotLabel: string
+  brokeTag: string
+  onHover: (id: string | null) => void
+}) {
+  return (
+    <tr
+      onPointerEnter={() => onHover(b.memberId)}
+      onPointerLeave={() => onHover(null)}
+      className={cn("border-b border-rule transition-colors duration-100", active && "bg-paper-sunk")}
+    >
+      <th scope="row" className="py-2 pr-3 text-left font-normal">
+        <Link className="name-sc hover:underline" href={href}>
+          {b.name}
+        </Link>
+        {/* Phones fold the party under the name so the vote column stays on screen. */}
+        <span className="mt-0.5 flex items-center gap-1.5 text-[0.8125rem] text-ink-3 sm:hidden">
+          <PartySwatch partyId={b.partyId} />
+          {partyLabel}
+        </span>
+      </th>
+      <td className="hidden py-2 pr-3 whitespace-nowrap sm:table-cell">
+        <span className="inline-flex items-center gap-1.5 text-ink-2">
+          <PartySwatch partyId={b.partyId} />
+          {partyLabel}
+        </span>
+      </td>
+      <td className="hidden py-2 pr-3 text-ink-2 sm:table-cell">
+        {b.ridingName}
+        {b.province ? <span className="text-ink-3">, {b.province}</span> : null}
+      </td>
+      <td className="py-2 pr-3 whitespace-nowrap">
+        <span className={cn("inline-flex items-center gap-2", b.ballot === "yea" || b.ballot === "nay" ? "text-ink" : "text-ink-3")}>
+          <BallotMark ballot={b.ballot} />
+          {ballotLabel}
+        </span>
+        {b.isDissent && <span className="ml-2 rounded-sm border border-rule px-1.5 py-px text-[0.75rem] font-medium text-ink-2">{brokeTag}</span>}
+      </td>
+    </tr>
+  )
+})
 
 function LegendItem({ swatch, label, n }: { swatch: React.ReactNode; label: string; n: number }) {
   return (

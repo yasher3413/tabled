@@ -27,7 +27,7 @@ export function Container({ children, className }: { children: React.ReactNode; 
 /** Section heading with a hairline, used for every zone's literal label ("What it does", "Who voted"). */
 export function SectionHeading({ children, aside, id, className }: { children: React.ReactNode; aside?: React.ReactNode; id?: string; className?: string }) {
   return (
-    <div className={cn("flex items-baseline justify-between gap-4 border-b border-rule pb-2", className)}>
+    <div className={cn("flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-b border-rule pb-2", className)}>
       <h2 id={id} className="font-display text-[1.375rem] leading-tight font-semibold tracking-[-0.01em]">
         {children}
       </h2>

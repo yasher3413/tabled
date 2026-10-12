@@ -101,7 +101,7 @@ export function DigestView({ locale, week }: { locale: Locale; week?: string }) 
                         <Link href={L(`/bills/${e.sessionId}/${e.number}`)} className="line-clamp-2 block text-[0.9375rem] leading-snug text-ink after:absolute after:inset-0 group-hover:underline">
                           {fr ? (e.shortTitleFr ?? e.titleFr ?? e.shortTitle ?? e.title) : (e.shortTitle ?? e.title)}
                         </Link>
-                        <span className={e.stageKey === "crown:royal-assent" ? "text-[0.8125rem] font-medium text-accent-ink" : e.state === "defeated" ? "text-[0.8125rem] text-danger-ink" : "text-[0.8125rem] text-ink-3"}>
+                        <span className={e.stageKey === "crown:royal-assent" ? "text-[0.8125rem] font-medium text-ink" : e.state === "defeated" ? "text-[0.8125rem] text-danger-ink" : "text-[0.8125rem] text-ink-3"}>
                           {describeStageEvent(e.stageKey, e.state, locale)}
                         </span>
                       </span>

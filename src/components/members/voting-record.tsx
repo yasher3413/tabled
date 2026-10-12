@@ -88,7 +88,7 @@ export function VotingRecord({
             </div>
             <p className="row-start-1 text-right text-[0.9375rem] sm:col-start-3">
               <span className={cn(r.ballot === "absent" || r.ballot === "paired" ? "text-ink-3" : "text-ink")}>{LABEL[r.ballot]}</span>
-              {r.isDissent && <span className="block text-[0.75rem] font-medium text-accent-ink">{t.againstParty}</span>}
+              {r.isDissent && <span className="block text-[0.75rem] font-medium text-ink">{t.againstParty}</span>}
             </p>
           </li>
         ))}

@@ -48,6 +48,7 @@ export function MpView({ locale, slug }: { locale: Locale } & MpParams) {
   const parties = partyMap()
   const party = m.partyId ? parties.get(m.partyId) : undefined
   const year = getDataYear()
+  const province = provinceName(m.province, locale)
   const ourcommons = detail.ourcommonsUrl && fr ? detail.ourcommonsUrl.replace("ourcommons.ca/members/en/", "noscommunes.ca/members/fr/") : detail.ourcommonsUrl
 
   return (
@@ -67,7 +68,7 @@ export function MpView({ locale, slug }: { locale: Locale } & MpParams) {
               <h1 className="font-display text-[2.25rem] leading-[1.05] font-semibold tracking-[-0.02em] sm:text-[3.25rem]">{m.name}</h1>
               <p className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[1rem] text-ink-2">
                 <PartyTag partyId={m.partyId} label={partyName(party, locale)} className="text-[1rem]" />
-                {m.ridingName && <span>{t.mpFor(m.ridingName, provinceName(m.province, locale))}</span>}
+                {m.ridingName && <span>{t.mpFor(m.ridingName, province === m.ridingName ? undefined : province)}</span>}
               </p>
               {!m.active && <p className="mt-2 text-[0.9375rem] text-ink-3">{t.left(detail.endDate ? formatDate(detail.endDate, locale) : null)}</p>}
             </div>

@@ -85,7 +85,7 @@ export function HomeView({ locale }: { locale: Locale }) {
                         <Link href={L(`/bills/${m.bill.sessionId}/${m.bill.number}`)} className="line-clamp-2 block text-[0.9375rem] leading-snug text-ink after:absolute after:inset-0 group-hover:underline">
                           {fr ? (m.bill.shortTitleFr ?? m.bill.titleFr ?? m.bill.shortTitle ?? m.bill.title) : (m.bill.shortTitle ?? m.bill.title)}
                         </Link>
-                        <span className={m.stageKey === "crown:royal-assent" ? "text-[0.8125rem] font-medium text-accent-ink" : m.state === "defeated" ? "text-[0.8125rem] text-danger-ink" : "text-[0.8125rem] text-ink-3"}>
+                        <span className={m.stageKey === "crown:royal-assent" ? "text-[0.8125rem] font-medium text-ink" : m.state === "defeated" ? "text-[0.8125rem] text-danger-ink" : "text-[0.8125rem] text-ink-3"}>
                           {describeStageEvent(m.stageKey, m.state, locale)}
                         </span>
                       </span>

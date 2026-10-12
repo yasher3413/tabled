@@ -24,6 +24,10 @@ function sampleRoutes(): Array<{ name: string; path: string }> {
   const mp = db
     .prepare("SELECT m.id FROM members m JOIN member_stats s ON s.member_id = m.id WHERE m.active = 1 AND s.bills_sponsored > 0 ORDER BY s.dissent_count DESC, s.bills_sponsored DESC LIMIT 1")
     .get() as { id: string }
+  // A second sitting MP from another party, for the compare page.
+  const other = db
+    .prepare("SELECT m.id FROM members m WHERE m.active = 1 AND m.party_id != (SELECT party_id FROM members WHERE id = ?) ORDER BY m.id LIMIT 1")
+    .get(mp.id) as { id: string }
   db.close()
   return [
     { name: "home", path: "/" },
@@ -36,6 +40,9 @@ function sampleRoutes(): Array<{ name: string; path: string }> {
     { name: "find", path: "/find" },
     { name: "parties", path: "/parties" },
     { name: "about", path: "/about" },
+    { name: "this-week", path: "/this-week" },
+    { name: "compare", path: `/compare?a=${mp.id}&b=${other.id}` },
+    { name: "embed-vote", path: `/embed/votes/${vote.s}/${vote.n}` },
     { name: "not-found", path: "/this-page-does-not-exist" },
     { name: "fr-home", path: "/fr" },
     { name: "fr-bill-detail", path: `/fr/bills/${bill.s}/${bill.n}` },

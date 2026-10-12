@@ -46,3 +46,5 @@ One line each: decision, reason.
 - Owner confirmed (2026-10-12) that the home page seat chart in party colours is fine under "party colours only in data".
 - Summaries can be written by OpenAI as well as Anthropic, at the owner's request: a valid Anthropic key is used first, then OPENAI_API_KEY; SUMMARY_PROVIDER forces one. OpenAI defaults to gpt-5.4-mini (the current small dated model in the installed SDK) through the Responses API with strict zod output. The same prompt, validator, retries and cache apply to both.
 - Each summary's disclosure now names the model that wrote it, and the About page names both providers, so the attribution stays true whichever one is used.
+- Deployed to Vercel as project `tabled` (Hobby). Canonical URL is https://tabled-ca.vercel.app: `tabled.vercel.app` belongs to another account, and the auto-assigned `tabled-amber.vercel.app` reads worse. The site name stays Tabled; no custom domain was bought.
+- Vercel builds ingest fresh data from scratch (about 17 minutes in total, mostly prerendering 11,672 pages on one worker); the local source cache and database are never uploaded (.vercelignore).

@@ -1,6 +1,6 @@
 # Tabled
 
-**The Parliament of Canada, in plain English.** Tabled tracks every federal bill, every recorded House of Commons vote
+**The Parliament of Canada, in plain English.** Live at [tabled-ca.vercel.app](https://tabled-ca.vercel.app). Tabled tracks every federal bill, every recorded House of Commons vote
 and every MP in the current Parliament, and explains each one so a normal person can understand it in under a minute.
 Every number comes from an official or public source, and the source is always one click away.
 

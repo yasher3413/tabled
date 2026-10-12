@@ -1,6 +1,6 @@
 # Good morning
 
-Tabled is built and pushed to `main`. Every page in the brief works with live data from Parliament, every quality
+Tabled is built, pushed to `main` and live at **https://tabled-ca.vercel.app**. Every page in the brief works with live data from Parliament, every quality
 gate passes, and all nine stretch items are done (topic tags are built but wait on summaries). One thing needs you:
 the Anthropic key in `.env` is a placeholder, so no plain-English summaries were generated. Bill pages show
 Parliament's official summary instead.
@@ -70,19 +70,21 @@ Full checks: `pnpm typecheck && pnpm lint && pnpm test && pnpm build && pnpm tes
 
 ## What needs your input
 
-1. **Anthropic key**: put a real key in `.env` as `ANTHROPIC_API_KEY=sk-ant-...`, run `pnpm summarize` (Haiku 4.5;
-   roughly $2 to $4 for the current session), then commit `data/summaries/`. Add the key as a GitHub secret so the
-   daily job keeps summaries current. This also switches on topic tags.
-2. **Deploy**: import the repo in Vercel (the build ingests data), set `NEXT_PUBLIC_SITE_URL`, create a Deploy Hook and
-   save it as the GitHub secret `VERCEL_DEPLOY_HOOK`. Details in the README.
-3. **Domain** and the final site name in `src/lib/site.ts`.
-4. Decide whether the home page seat chart in party colours is acceptable under "party colours only in data". I
-   treated it as data.
+1. **A summary key**: put a real key in `.env`, either `OPENAI_API_KEY=sk-...` (defaults to `gpt-5.4-mini`) or
+   `ANTHROPIC_API_KEY=sk-ant-...` (defaults to `claude-haiku-4-5`). Run `pnpm summarize`, then commit
+   `data/summaries/`. Add the same key as a GitHub secret (and in Vercel if you like) so the daily job keeps summaries
+   current. This also switches on topic tags.
+2. **Automatic deploys**: the Vercel project `tabled` is linked to the GitHub repo, but a push did not start a build,
+   so the Vercel GitHub app probably lacks access to this repo. Grant it under GitHub, Settings, Applications, Vercel.
+   Then create a Deploy Hook in Vercel (Settings, Git, Deploy Hooks) and save it as the GitHub secret
+   `VERCEL_DEPLOY_HOOK` so the daily refresh redeploys. Until then, deploy with `vercel deploy --prod --archive=tgz`.
+3. **A custom domain** (optional): the site uses the free `tabled-ca.vercel.app`, because `tabled.vercel.app` belongs
+   to someone else. If you buy a domain, add it in Vercel and set `NEXT_PUBLIC_SITE_URL` to it.
 
 ## Suggested next steps
 
-1. Add the key and generate summaries; they are the heart of the product and the biggest missing piece.
-2. Deploy to Vercel and enable the daily refresh workflow.
+1. Add a key and generate summaries; they are the heart of the product and the biggest missing piece.
+2. Give the Vercel GitHub app access and add the deploy hook so the daily refresh goes live on its own.
 3. Have a French reader check a few bill and vote pages for phrasing that reads as translated.
 4. Report openparliament.ca's duplicate vote (45-1/148 repeats 140) and review the 17 bills where the Senate skipped
    committee.

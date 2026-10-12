@@ -65,6 +65,7 @@ export interface BillListItem {
   statusEn: string
   isLaw: boolean
   isDefeated: boolean
+  isProForma: boolean
   introducedDate: string | null
   lastActivityDate: string | null
   lastActivityLabel: string | null
@@ -111,6 +112,7 @@ export function listBills(): BillListItem[] {
     statusEn: b.statusEn,
     isLaw: b.isLaw,
     isDefeated: b.isDefeated,
+    isProForma: b.isProForma,
     introducedDate: b.introducedDate,
     lastActivityDate: b.lastActivityDate,
     lastActivityLabel: b.lastActivityLabel,
@@ -376,4 +378,21 @@ export function partySummaries() {
       dissents: mine.reduce((a, m) => a + m.dissentCount, 0),
     }
   })
+}
+
+// ---------- Home ----------
+
+export function houseComposition() {
+  const db = getDb()
+  const seatsTotal = db.select({ id: t.ridings.id }).from(t.ridings).all().length
+  const parties = listParties().filter((p) => p.seatCount > 0)
+  const filled = parties.reduce((a, p) => a + p.seatCount, 0)
+  return { parties, filled, seatsTotal, vacant: Math.max(0, seatsTotal - filled) }
+}
+
+export function recentlyIntroduced(limit: number) {
+  return listBills()
+    .filter((b) => !b.isProForma)
+    .sort((a, b) => (b.introducedDate ?? "").localeCompare(a.introducedDate ?? "") || b.numberInt - a.numberInt)
+    .slice(0, limit)
 }

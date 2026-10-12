@@ -16,3 +16,4 @@ One line each: decision, reason.
 - Session start date is the earliest bill first reading or vote date in the data: no source exposes the session's opening date directly.
 - Impeccable's interview and decision steps answered from the brief instead of asking: the owner's brief forbids stopping for questions. PRODUCT.md marks inferred facts.
 - 21st.dev Magic consulted for the command palette, timeline and hemicycle: the catalog offered generic SaaS styling (and no hemicycle), so only interaction patterns were adopted (grouped results, arrow-key nav, moving highlight), built on shadcn cmdk in Tabled's own grammar.
+- Unknown bill/vote/MP URLs render the 404 page with noindex but HTTP 200: Cache Components streams the shell before notFound() and dynamicParams is unavailable. Every real record is prerendered, so only mistyped URLs are affected.

@@ -29,7 +29,7 @@ export function mpMetadata(locale: Locale, slug: string): Metadata {
     description: fr
       ? `${m.name}${party ? `, ${party}` : ""}${m.ridingName ? `, ${m.ridingName}` : ""}. Votes, fidélité au parti et projets de loi parrainés.`
       : `${m.name}${party ? `, ${party}` : ""}${m.ridingName ? `, ${m.ridingName}` : ""}. Voting record, party-line rate and bills sponsored.`,
-    alternates: alternates(locale, `/mps/${m.id}`),
+    alternates: { ...alternates(locale, `/mps/${m.id}`), types: { "application/rss+xml": localePath(locale, `/mps/${m.id}/rss.xml`) } },
     ...(fr ? { openGraph: { images: [`/mps/${m.id}/opengraph-image`] } } : {}),
   }
 }
@@ -124,6 +124,7 @@ export function MpView({ locale, slug }: { locale: Locale } & MpParams) {
           <ul className="mt-2 divide-y divide-rule">
             {ourcommons && <ExternalLink href={ourcommons} label={t.official} />}
             <ExternalLink href={`https://openparliament.ca${detail.openparliamentUrl}`} label={t.openparliament} />
+            <ExternalLink href={L(`/mps/${m.id}/rss.xml`)} label={fr ? `Suivre ${m.name} par RSS` : `Follow ${m.name} by RSS`} />
           </ul>
         </section>
       </Container>

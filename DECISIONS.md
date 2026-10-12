@@ -26,3 +26,4 @@ One line each: decision, reason.
 - French pages use Parliament's official French data (titles, statuses, vote descriptions, LEGISinfo summaries, sponsor titles). AI summaries are not shown in French because they are generated from English sources.
 - Unmatched /fr/... URLs fall through to the English global 404: global-not-found has no locale. Known French records all have localized pages.
 - French OG images reuse the English cards: they carry the bill number and title, and duplicating 700 image routes was not worth the build time.
+- /this-week shows the latest week with activity when the current week has none yet, so it never opens empty; the heading names the week shown.

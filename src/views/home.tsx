@@ -61,7 +61,11 @@ export function HomeView({ locale }: { locale: Locale }) {
         </section>
 
         <section aria-labelledby="this-week" className="mt-14">
-          <SectionHeading id="this-week" aside={quietWeek ? t.mostRecent : `${formatShortDate(since, year, locale)} ${fr ? "au" : "to"} ${formatShortDate(today, year, locale)}`}>
+          <SectionHeading id="this-week" aside={
+              <Link className="link" href={L("/this-week")}>
+                {quietWeek ? t.mostRecent : `${formatShortDate(since, year, locale)} ${fr ? "au" : "to"} ${formatShortDate(today, year, locale)}`}
+              </Link>
+            }>
             {t.thisWeek}
           </SectionHeading>
           {quietWeek && (

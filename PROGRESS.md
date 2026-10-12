@@ -18,6 +18,8 @@ MVP built (Phases 0 to 7). Impeccable finish review in progress, then DESIGN.md,
 - Lighthouse (local prod build): home 91/100/100/100, bill 96/100/100/100, MP 93/100/100/100 (perf/a11y/best practices/SEO).
 
 ## Stretch backlog
+- [x] 2. Weekly digest at /this-week (and /this-week/YYYY-Www, both languages) with an RSS feed.
+- [x] 3. Per-bill and per-MP RSS feeds (/bills/.../rss.xml, /mps/.../rss.xml), advertised in page metadata.
 - [x] 1. French: /fr for every page, hand-translated UI and stage explainers, official French data, hreflang, bilingual sitemap, French e2e + axe.
 
 ## Next

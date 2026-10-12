@@ -14,7 +14,7 @@ const en = {
     switchLanguage: "Français",
     switchLanguageLabel: "Lire cette page en français",
   },
-  nav: { bills: "Bills", votes: "Votes", mps: "MPs", parties: "Parties", find: "Find your MP", about: "About" },
+  nav: { bills: "Bills", votes: "Votes", mps: "MPs", parties: "Parties", find: "Find your MP", about: "About", week: "This week" },
   theme: { system: "Theme: match system", light: "Theme: light", dark: "Theme: dark" },
   footer: {
     blurb:
@@ -382,6 +382,25 @@ const en = {
     orderDef: "Parties are always listed by seats held, largest first, everywhere on Tabled.",
     methodology: "Methodology",
   },
+  digest: {
+    title: "This week in Parliament",
+    weekOf: (date: string) => `Week of ${date}`,
+    range: (from: string, to: string) => `${from} to ${to}`,
+    counts: (moves: number, votes: number) =>
+      `${moves} ${moves === 1 ? "stage change" : "stage changes"} and ${votes} recorded ${votes === 1 ? "vote" : "votes"}.`,
+    quiet: "Nothing moved and no recorded votes were held this week. The House may not have been sitting.",
+    bills: "Bills that moved",
+    noBills: "No bill moved this week.",
+    votes: "Recorded votes",
+    noVotes: "No recorded votes this week.",
+    previous: "Previous week",
+    next: "Next week",
+    archive: "Earlier weeks",
+    rss: "Follow by RSS",
+    rssTitle: "Tabled: this week in Parliament",
+    rssDescription: "A weekly digest of bills that moved and recorded votes in the House of Commons.",
+    lede: "A weekly digest of every bill that moved and every recorded vote, built from the official record.",
+  },
   notFound: {
     kicker: "Not on the order paper",
     title: "We can’t find that page.",
@@ -424,7 +443,7 @@ const fr: Messages = {
     switchLanguage: "English",
     switchLanguageLabel: "Read this page in English",
   },
-  nav: { bills: "Projets de loi", votes: "Votes", mps: "Députés", parties: "Partis", find: "Trouver votre député", about: "À propos" },
+  nav: { bills: "Projets de loi", votes: "Votes", mps: "Députés", parties: "Partis", find: "Trouver votre député", about: "À propos", week: "Cette semaine" },
   theme: { system: "Thème : selon le système", light: "Thème : clair", dark: "Thème : sombre" },
   footer: {
     blurb:
@@ -791,6 +810,25 @@ const fr: Messages = {
     order: "Ordre",
     orderDef: "Les partis sont toujours présentés selon le nombre de sièges, du plus grand au plus petit, partout dans Tabled.",
     methodology: "Méthodologie",
+  },
+  digest: {
+    title: "Cette semaine au Parlement",
+    weekOf: (date: string) => `Semaine du ${date}`,
+    range: (from: string, to: string) => `Du ${from} au ${to}`,
+    counts: (moves: number, votes: number) =>
+      `${moves} ${moves === 1 ? "étape franchie" : "étapes franchies"} et ${votes} ${votes === 1 ? "vote" : "votes"} par appel nominal.`,
+    quiet: "Aucun projet de loi n’a avancé et aucun vote par appel nominal n’a eu lieu cette semaine. La Chambre ne siégeait peut-être pas.",
+    bills: "Projets de loi qui ont avancé",
+    noBills: "Aucun projet de loi n’a avancé cette semaine.",
+    votes: "Votes par appel nominal",
+    noVotes: "Aucun vote par appel nominal cette semaine.",
+    previous: "Semaine précédente",
+    next: "Semaine suivante",
+    archive: "Semaines précédentes",
+    rss: "Suivre par RSS",
+    rssTitle: "Tabled : cette semaine au Parlement",
+    rssDescription: "Un résumé hebdomadaire des projets de loi qui ont avancé et des votes par appel nominal à la Chambre des communes.",
+    lede: "Un résumé hebdomadaire de chaque projet de loi qui a avancé et de chaque vote par appel nominal, tiré du registre officiel.",
   },
   notFound: {
     kicker: "Absent du Feuilleton",

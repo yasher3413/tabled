@@ -51,6 +51,16 @@ export function SiteFooter({ locale }: { locale: Locale }) {
           <h2 className="text-sm font-semibold text-ink">{t.project}</h2>
           <ul className="mt-3 space-y-2 text-sm text-ink-2">
             <li>
+              <Link className="link" href={localePath(locale, "/this-week")}>
+                {getMessages(locale).digest.title}
+              </Link>
+            </li>
+            <li>
+              <a className="link" href={localePath(locale, "/this-week/rss.xml")}>
+                {getMessages(locale).digest.rss}
+              </a>
+            </li>
+            <li>
               <Link className="link" href={localePath(locale, "/about")}>
                 {t.about}
               </Link>

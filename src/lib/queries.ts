@@ -1,5 +1,5 @@
 // Read-only data access for pages. All reads are synchronous SQLite queries, so pages prerender.
-import { and, asc, desc, eq, gte, inArray, isNotNull } from "drizzle-orm"
+import { and, asc, desc, eq, gte, inArray, isNotNull, lte } from "drizzle-orm"
 import { getDb } from "@/db/client"
 import * as t from "@/db/schema"
 import { parseSummary, type Summary } from "./summary-schema"
@@ -418,4 +418,59 @@ export function memberParlIds(): Map<string, number> {
       .filter((m) => m.parl !== null)
       .map((m) => [m.id, m.parl!]),
   )
+}
+
+// ---------- Weekly digest ----------
+
+export interface DigestEvent {
+  date: string
+  billId: string
+  sessionId: string
+  number: string
+  shortTitle: string | null
+  shortTitleFr: string | null
+  title: string
+  titleFr: string | null
+  stageKey: string
+  state: "completed" | "defeated"
+}
+
+/** Every stage a bill completed (or failed) within [from, to], newest first. */
+export function stageEventsBetween(from: string, to: string): DigestEvent[] {
+  return getDb()
+    .select({
+      date: t.billStages.date,
+      billId: t.bills.id,
+      sessionId: t.bills.sessionId,
+      number: t.bills.number,
+      shortTitle: t.bills.shortTitleEn,
+      shortTitleFr: t.bills.shortTitleFr,
+      title: t.bills.titleEn,
+      titleFr: t.bills.titleFr,
+      stageKey: t.billStages.stageKey,
+      state: t.billStages.state,
+    })
+    .from(t.billStages)
+    .innerJoin(t.bills, eq(t.bills.id, t.billStages.billId))
+    .where(and(isNotNull(t.billStages.date), gte(t.billStages.date, from), lte(t.billStages.date, to), inArray(t.billStages.state, ["completed", "defeated"])))
+    .orderBy(desc(t.billStages.date), asc(t.bills.numberPrefix), asc(t.bills.numberInt), desc(t.billStages.ordinal))
+    .all()
+    .map((e) => ({ ...e, date: e.date!, state: e.state as DigestEvent["state"] }))
+}
+
+export function votesBetween(from: string, to: string): VoteListItem[] {
+  return listVotes().filter((v) => v.date >= from && v.date <= to)
+}
+
+/** Every date on which a bill moved or the House held a recorded vote. */
+export function activityDates(): string[] {
+  const db = getDb()
+  const stageDates = db
+    .select({ d: t.billStages.date })
+    .from(t.billStages)
+    .where(and(isNotNull(t.billStages.date), inArray(t.billStages.state, ["completed", "defeated"])))
+    .all()
+    .map((r) => r.d!)
+  const voteDates = db.select({ d: t.votes.date }).from(t.votes).all().map((r) => r.d)
+  return [...new Set([...stageDates, ...voteDates])].sort()
 }

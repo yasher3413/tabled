@@ -36,7 +36,7 @@ export function billMetadata(locale: Locale, session: string, number: string): M
   return {
     title: `${bill.number} : ${title}`.replace(" : ", fr ? " : " : ": "),
     description: (!fr && summary?.parsed.tldr) || `${long}. ${currentStageLabel(bill.currentStage, locale)}. ${t.bills.typeLabels[bill.type]}.`,
-    alternates: alternates(locale, `/bills/${bill.sessionId}/${bill.number}`),
+    alternates: { ...alternates(locale, `/bills/${bill.sessionId}/${bill.number}`), types: { "application/rss+xml": localePath(locale, `/bills/${bill.sessionId}/${bill.number}/rss.xml`) } },
     // French pages reuse the English card; it carries the bill number and title.
     ...(fr ? { openGraph: { images: [`/bills/${bill.sessionId}/${bill.number}/opengraph-image`] } } : {}),
   }
@@ -201,6 +201,11 @@ export function BillView({ locale, session, number }: { locale: Locale } & BillP
             ))}
           </ul>
           <p className="mt-6 text-[0.8125rem] text-ink-3">{t.credit(status, formatDate(bill.lastUpdated, locale))}</p>
+          <p className="mt-2 text-[0.8125rem]">
+            <a className="link" href={L(`/bills/${bill.sessionId}/${bill.number}/rss.xml`)}>
+              {fr ? `Suivre ${bill.number} par RSS` : `Follow ${bill.number} by RSS`}
+            </a>
+          </p>
         </section>
       </Container>
     </article>

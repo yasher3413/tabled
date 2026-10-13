@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-38",
+  "sourceHash": "7b6e60eab638b68c2a4fda29a69252d7",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:10.522Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-38",
+  "summary": {
+    "tldr": "Changes the Indian Act to create new registration rights in the Indian Register and add those people to Band Lists.",
+    "what_it_does": [
+      "Creates new entitlements to registration in the Indian Register under the Indian Act.",
+      "Gives people who become entitled the right to have their names entered in a Band List kept by the Department of Indigenous Services.",
+      "Responds to a Charter challenge to parts of the Indian Act in Nicholas v. Canada (Attorney General)."
+    ],
+    "who_it_affects": [
+      "People seeking Indian Act registration",
+      "People newly entitled to registration",
+      "First Nations Bands",
+      "Indigenous Services Canada"
+    ],
+    "background": "The bill was introduced after a Charter challenge to certain Indian Act provisions in Nicholas v. Canada (Attorney General).",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "rights-equality"
+    ]
+  }
+}

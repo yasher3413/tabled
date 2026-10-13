@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-222",
+  "sourceHash": "9df537fca12c1774a9aeea643c8f89e4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:53.846Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14035035",
+  "summary": {
+    "tldr": "Lets EI caregiving benefits continue if a child dies, and gives employees up to 10 weeks of bereavement leave after a child dies.",
+    "what_it_does": [
+      "Keeps Employment Insurance care benefits payable when a newborn or adopted child dies during the benefit period, and treats the claimant as still caring for the child until the period ends.",
+      "Removes the need to file a new claim or report to keep getting those EI benefits, unless the child died because of an offence and the claimant was convicted.",
+      "Applies the same EI rule to self-employed people receiving benefits to care for a newborn or adopted child.",
+      "Extends Canada Labour Code bereavement leave to up to 10 weeks when an employee’s child, or their spouse’s or common-law partner’s child, dies.",
+      "Allows that leave to be taken from the day of death until 12 weeks after the funeral, burial or memorial service, and adds a special timing rule if the death happens during leave under section 206.",
+      "Applies the new leave rule to some employees already on leave when it comes into force, and lets some employees take one extra leave period under the transition rule."
+    ],
+    "who_it_affects": [
+      "Parents receiving EI care benefits",
+      "Self-employed parents",
+      "Federally regulated employees",
+      "Employers in federally regulated workplaces",
+      "Parents of a deceased child",
+      "People on parental leave"
+    ],
+    "background": "The bill changes the Employment Insurance Act and the Canada Labour Code. It adds new rules for when a child dies during an EI caregiving benefit period and for bereavement leave after a child’s death.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "families-children",
+      "labour-employment"
+    ]
+  }
+}

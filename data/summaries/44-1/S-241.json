@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-241",
+  "sourceHash": "0a5a98c653be5acd134753776ff4ea2d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:44.345Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11643482",
+  "summary": {
+    "tldr": "Adds Criminal Code offences and permit rules for captive great apes, elephants and other listed animals, and expands court powers over their care.",
+    "what_it_does": [
+      "Expands Criminal Code offences from captive cetaceans to great apes, elephants and other listed non-domesticated animals. It bans owning, breeding, obtaining reproductive materials, and using them for entertainment, with set exceptions.",
+      "Lets courts order changes to an animal's care after a conviction, including changing housing or social conditions, moving the animal, or transferring ownership to an animal welfare authority.",
+      "Creates a process for the Governor in Council to add or remove species from the captive-animal schedules after consulting animal science, veterinary medicine, animal care and animal welfare groups.",
+      "Requires permits under the wildlife trade law to import, export or move great apes, elephants and designated animals, including for non-harmful scientific research, captivity or captive breeding in the animal's best interests.",
+      "Creates a permit system for eligible animal care organisations, such as sanctuaries and zoos, to keep, breed, import, export and transport listed animals, subject to ministerial terms, review and possible suspension.",
+      "Deems certain zoos and aquariums to have permits or eligible-organisation status for great ape programs, and says the new rules must be read as upholding Indigenous rights."
+    ],
+    "who_it_affects": [
+      "Zoos and aquariums",
+      "Animal sanctuaries",
+      "People who keep captive great apes or elephants",
+      "Importers and exporters of listed animals",
+      "Courts and prosecutors",
+      "Provincial animal welfare authorities"
+    ],
+    "background": "The bill builds on the Criminal Code rules on captive cetaceans and the federal wildlife trade permit law. It also adds schedules of species and sets transition rules for some existing animals and permits.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "trade-foreign-affairs",
+      "government-operations"
+    ]
+  }
+}

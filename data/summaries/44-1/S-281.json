@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/S-281",
+  "sourceHash": "bb1b30b1c66041a2a78b1ef3364f0368",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:03.615Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12698091",
+  "summary": {
+    "tldr": "Requires parole reviews, not new applications, for some people serving sentences for first or second degree murder after certain Parole Board decisions.",
+    "what_it_does": [
+      "Bars new day parole applications for people serving sentences for first or second degree murder if the Parole Board does not grant day parole, or cancels or ends parole after a review.",
+      "Bars new full parole applications for people serving sentences for first or second degree murder if the Parole Board does not grant full parole, or cancels or ends parole after a review."
+    ],
+    "who_it_affects": [
+      "People serving first or second degree murder sentences",
+      "Parole Board of Canada"
+    ],
+    "background": "The bill amends the Corrections and Conditional Release Act. It applies to offenders serving sentences for first degree murder or second degree murder, as defined in the Criminal Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

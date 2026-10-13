@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-364",
+  "sourceHash": "4d835ec5d2f6584f9578b1b1666303c5",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:06.679Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12703452",
+  "summary": {
+    "tldr": "Changes Criminal Code sentencing rules by adding aggravating factors and requiring courts to consider why a person was detained before sentencing.",
+    "what_it_does": [
+      "Adds an aggravating factor for certain offences when the crime involved an occupied place and the offender used violence or threats, or carried, used, or threatened to use a weapon or imitation weapon.",
+      "Adds an aggravating factor when an offence was committed against a person or property made vulnerable by long emergency response times or by being far from emergency services or an established community.",
+      "Requires courts, when giving credit for time spent in custody before sentencing, to consider the reason the person was detained."
+    ],
+    "who_it_affects": [
+      "People convicted of certain Criminal Code offences",
+      "Sentencing judges",
+      "People held in custody before sentencing",
+      "People in remote communities"
+    ],
+    "background": "The bill amends the Criminal Code’s sentencing rules. It replaces section 348.1 and adds a new factor courts must consider at sentencing.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

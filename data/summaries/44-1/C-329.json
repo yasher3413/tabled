@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-329",
+  "sourceHash": "98f7e9015a055f6c98fede68d7666a06",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:29.211Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12320916",
+  "summary": {
+    "tldr": "Requires the Health Minister to develop and report on a national ADHD framework for support, training and access to care.",
+    "what_it_does": [
+      "Requires the Minister of Health to work with provinces, Indigenous governing bodies and other stakeholders to develop a national framework on attention deficit hyperactivity disorder.",
+      "Requires the framework to include resources that help people with ADHD and their families better recognise, understand and manage the disorder.",
+      "Requires the framework to include training and resources for educators, medical and mental health practitioners, including support for evidence-based assessment and treatment.",
+      "Requires the framework to aim to improve access to trained medical and mental health practitioners for people with ADHD and their families.",
+      "Requires the Minister to table the framework in both Houses of Parliament within two years and publish it on the Department of Health website.",
+      "Requires the Minister to report later on how effective the framework is, with conclusions and recommendations, and to table and publish that report."
+    ],
+    "who_it_affects": [
+      "People with ADHD",
+      "Families of people with ADHD",
+      "Students with ADHD",
+      "Educators",
+      "Medical practitioners",
+      "Mental health practitioners",
+      "Provincial governments",
+      "Indigenous governing bodies"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "education",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/S-290",
+  "sourceHash": "8f31603790439a688d3e67f9a6f1648a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:07.708Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13398368",
+  "summary": {
+    "tldr": "Bans most promotion of alcoholic beverages and sets out exceptions, enforcement powers and penalties.",
+    "what_it_does": [
+      "Prohibits promoting alcoholic beverages in most ways, including by price ads, testimonials, images tied to lifestyles, or promotions that could appeal to young persons.",
+      "Allows some informational promotion and brand-preference promotion in limited settings, such as to named adults, in places where young persons are not allowed, or online with access controls.",
+      "Allows point of sale promotions that show only availability or price, and some brand element displays on non-alcoholic items, with limits on youth appeal.",
+      "Bans false or misleading alcohol promotions, certain terms or symbols set by regulation, sponsorship uses of brand elements or producer names, and brand names on sports or cultural facilities.",
+      "Bans sellers from offering free alcohol, prizes, contests, services, or other inducements tied to buying alcohol, unless an exception applies.",
+      "Gives inspectors powers to enter places, including by telecommunication in some cases, examine records, seize items, and order people to stop or start activities; sets offences and fines or jail terms."
+    ],
+    "who_it_affects": [
+      "Alcohol producers",
+      "Alcohol distributors",
+      "Alcohol retailers",
+      "Advertisers and broadcasters",
+      "Event sponsors",
+      "Facility operators",
+      "Inspectors and regulators",
+      "Young persons"
+    ],
+    "background": "The bill says its purpose is to protect young persons and others from inducements to consume alcoholic beverages, to protect public health and reduce social costs.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations",
+      "economy-business"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-399",
+  "sourceHash": "926528c370cac5bb9887c5e07bd4bf5e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:04.264Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13195893",
+  "summary": {
+    "tldr": "Creates an ombud office to review Citizenship and Immigration practices, take complaints, make recommendations, and report to Parliament.",
+    "what_it_does": [
+      "Creates the Office of the Ombud for the Department of Citizenship and Immigration and sets a seven-year appointment process for the ombud, with approval by the Senate and House of Commons.",
+      "Gives the ombud power to examine whether the department’s practices are fair, equitable, unbiased, non-racist and non-discriminatory, including in decisions under the Citizenship Act and the Immigration and Refugee Protection Act.",
+      "Lets any person file a complaint and allows the ombud to investigate on their own, at the minister’s request, or after a complaint, with powers to summon witnesses, require records and take evidence.",
+      "Requires the ombud to send reports to the minister and complainant, and requires the minister to reply with steps taken or reasons for not following recommendations.",
+      "Adds the ombud to the Language Skills Act and makes related changes to access to information, privacy, financial administration, superannuation and compensation laws.",
+      "Requires annual reports, allows special reports, and sets a parliamentary review of the Act every five years after it comes into force."
+    ],
+    "who_it_affects": [
+      "People dealing with Citizenship and Immigration",
+      "Immigrants and citizenship applicants",
+      "Department of Citizenship and Immigration",
+      "Parliament",
+      "The ombud’s office"
+    ],
+    "background": "The bill says the new office would review the department’s practices and investigate unfairness, bias, racism and discrimination in its decision-making. It would not review matters that happened before the office was created unless the minister asks.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

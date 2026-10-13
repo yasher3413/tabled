@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/C-374",
+  "sourceHash": "6615c957f62166213223151f188e9e33",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:41.999Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12871026",
+  "summary": {
+    "tldr": "Ends copyright in works prepared or published by the Crown or federal departments, and ends existing copyright in those works when the bill starts.",
+    "what_it_does": [
+      "Replaces section 12 of the Copyright Act so that no copyright exists in any work prepared or published by or under the direction or control of His Majesty or a government department.",
+      "Ends any existing copyright in those covered works on the day the bill comes into force."
+    ],
+    "who_it_affects": [
+      "Federal government",
+      "Government departments",
+      "People and businesses using government works"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations"
+    ]
+  }
+}

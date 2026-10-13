@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/S-263",
+  "sourceHash": "69ab5a7a9e92bd6fd5c5add3bbc53816",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:22.050Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12411776",
+  "summary": {
+    "tldr": "Requires the Public Safety minister to keep updating Canada’s human trafficking strategy, review it every five years, and report annually on progress.",
+    "what_it_does": [
+      "Requires the Minister of Public Safety and Emergency Preparedness to maintain and update the National Strategy to Combat Human Trafficking, with aims that include ending trafficking, supporting survivors, and addressing harm to people with lived experience.",
+      "Requires the strategy to include measures for prevention, survivor support, culturally and linguistically sensitive help, trauma-informed criminal justice responses, federal employee training, a public website, and stronger national and international coordination.",
+      "Requires the strategy to reflect Canada’s obligations under listed international treaties on discrimination against women, trafficking, child rights, and the sale of children, child prostitution and child pornography.",
+      "Requires the minister to review the strategy within two years of the Act coming into force and every five years after that, with public input and consultation, then table and publish a report that includes any planned changes.",
+      "Requires the minister to table an annual report on implementation and progress on combatting human trafficking, and says the Survivor Advisory Committee and the special adviser position must be filled by people with lived experience of trafficking."
+    ],
+    "who_it_affects": [
+      "People with lived experience of human trafficking",
+      "Survivors and support groups",
+      "At-risk youth",
+      "Migrants",
+      "Indigenous, Black and Asian women and girls",
+      "Federal public servants",
+      "Criminal justice agencies",
+      "Provincial and municipal governments"
+    ],
+    "background": "The bill creates a federal law on the National Strategy to Combat Human Trafficking. It defines human trafficking by referring to offences in the Criminal Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-350",
+  "sourceHash": "44ab1cdfa6430cb7e6379acf616f9313",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:27.068Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12558153",
+  "summary": {
+    "tldr": "Creates exceptions to state immunity for foreign states linked to torture or terrorism, lists the Islamic Revolutionary Guard Corps, and narrows one immigration security rule.",
+    "what_it_does": [
+      "Removes court immunity for a foreign state that the Governor in Council lists because there are reasonable grounds to believe it supported terrorism, torture or extrajudicial killing, and keeps proceedings going even if the state is later removed from the list.",
+      "Requires the Minister of Foreign Affairs to जवाब? no, to respond within 40 days, or a set deadline, when a parliamentary committee recommends listing a foreign state under the State Immunity Act.",
+      "Adds the Islamic Revolutionary Guard Corps to the Criminal Code schedule of listed entities, which makes its property subject to seizure, restraint or forfeiture under anti-terrorism rules.",
+      "Lets the Governor in Council add more entities to that Criminal Code schedule by regulation, and requires the Minister of Public Safety and Emergency Preparedness to respond to parliamentary committee recommendations to list an entity.",
+      "Sets five-year review and publication rules for entities in the Criminal Code list or schedule, and lets an entity with the same or a similar name ask for a mistaken-identity certificate.",
+      "States that a permanent resident or foreign national is not considered a security inadmissible member of an organisation if they had mandatory service, did not stay longer than that service, and did not take part in the listed harmful acts."
+    ],
+    "who_it_affects": [
+      "Foreign states",
+      "People and groups tied to listed entities",
+      "Islamic Revolutionary Guard Corps",
+      "Permanent residents",
+      "Foreign nationals",
+      "Federal ministers",
+      "Parliamentary committees"
+    ],
+    "background": "The bill amends the State Immunity Act, the Criminal Code and the Immigration and Refugee Protection Act. It adds a schedule to the Criminal Code for listed entities.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "immigration-citizenship",
+      "government-operations"
+    ]
+  }
+}

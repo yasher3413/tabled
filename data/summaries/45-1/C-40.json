@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/C-40",
+  "sourceHash": "fedfdcba458b52aca2eb2a6fe98d2797",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:15.475Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14246079",
+  "summary": {
+    "tldr": "Creates a new defence investment corporation and expands federal powers over defence and national security procurement, stockpiling and financing.",
+    "what_it_does": [
+      "Creates the Canadian Corporation for Defence Investment, also called the Defence Investment Agency, to handle defence production, procurement and investment for the Canadian Forces, the Department of National Defence and some associated governments.",
+      "Lets the minister direct the corporation’s work, including stopping activities, setting how it carries them out and requiring ministerial approval at set points.",
+      "Gives the corporation financial tools, including loans, advance payments, loan guarantees, loan insurance, credit insurance and, with approvals, investments in shares or other financial instruments.",
+      "Expands the Defence Production Act to cover national security supplies, projects and services, and lets the Minister of Public Works and Government Services acquire and stockpile items for defence, national security and economic security.",
+      "Sets procurement rules for defence and national security, adds related changes to the Access to Information Act and requires a review of the new corporation and the Defence Production Act changes."
+    ],
+    "who_it_affects": [
+      "Canadian Forces",
+      "Department of National Defence",
+      "Defence suppliers",
+      "Federal departments",
+      "Associated governments",
+      "Defence investors",
+      "Procurement officials"
+    ],
+    "background": "The bill would enact the Canadian Corporation for Defence Investment Act and amend the Defence Production Act. It also requires a review of those changes after the law takes effect.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "defence-security",
+      "government-operations",
+      "economy-business"
+    ]
+  }
+}

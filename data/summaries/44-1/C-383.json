@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-383",
+  "sourceHash": "03c13be54406ff172307f2fa27cc0a5a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:39.635Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12892767",
+  "summary": {
+    "tldr": "Bans the export of thermal coal from Canada unless the Environment and Transport ministers issue a permit.",
+    "what_it_does": [
+      "Prohibits exporting thermal coal from Canada unless the exporter has a permit from the Minister of the Environment and the Minister of Transport.",
+      "Defines thermal coal as coal used to generate electricity, and certain bituminous, sub-bituminous, lignite and agglomerated lignite, but not metallurgical bituminous coal.",
+      "Allows permits only when the ministers believe the export is needed to address an imminent threat to human health, safety or the environment, and lets them set conditions.",
+      "Requires the ministers to publish permit decisions, reasons and prescribed documents on a Government of Canada website.",
+      "Makes illegal exports, or breaking permit conditions, an offence punishable by fines up to $6 million or $12 million on indictment, and up to $4 million or $8 million on summary conviction.",
+      "Brings the law into force on a day set by the Governor in Council, after consulting trade unions whose members are likely to be affected, and no later than one year after royal assent."
+    ],
+    "who_it_affects": [
+      "Thermal coal exporters",
+      "Coal producers and shippers",
+      "Permit applicants",
+      "Permit holders",
+      "Trade unions",
+      "Environment and Transport ministers"
+    ],
+    "background": "The bill says thermal coal exports include thermal coal that is imported into Canada or transported in transit through Canada. It does not include metallurgical bituminous coal.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "energy-resources",
+      "environment-climate",
+      "trade-foreign-affairs"
+    ]
+  }
+}

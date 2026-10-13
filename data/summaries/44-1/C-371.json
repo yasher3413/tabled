@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-371",
+  "sourceHash": "29dc1a5bbf9a577d1387d73e0cd3b4a3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:42.937Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12806411",
+  "summary": {
+    "tldr": "Requires railway companies to give passenger rail service priority over freight when there is a conflict, and allows penalties for breaking the rule.",
+    "what_it_does": [
+      "Requires railway companies to give passenger rail service priority over freight when there is a conflict on a railway line.",
+      "Allows a breach of this rule to be handled as a violation under the Canada Transportation Act, with a maximum penalty of $250,000 for each violation.",
+      "Lets the Minister delegate related violation powers, duties, or functions to the Canadian Transportation Agency."
+    ],
+    "who_it_affects": [
+      "Passenger rail travellers",
+      "Railway companies",
+      "Freight rail operators",
+      "Minister of Transport",
+      "Canadian Transportation Agency"
+    ],
+    "background": "It amends the Canada Transportation Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/S-212",
+  "sourceHash": "b6809fd74e0ce2767434d3afc582ba7f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:30.630Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11474478",
+  "summary": {
+    "tldr": "Changes the Criminal Records Act to create record expiry instead of record suspension, and updates related federal laws.",
+    "what_it_does": [
+      "Replaces record suspension with record expiry under the Criminal Records Act, and updates the Board’s powers, notices, reviews and disclosure rules to match.",
+      "Sets record expiry after the sentence ends, plus a 5 year wait for most indictable and some service offences, a 2 year wait for summary offences, and no extra wait for offences committed as a child.",
+      "Requires the Board to check the RCMP records system, notify people when an expiry does not happen automatically, and let them apply if expiry would support rehabilitation and would not bring the administration of justice into disrepute.",
+      "Lets people reapply after one year if their application is refused, and lets the Board revoke or end an expiry if the person lied, hid important facts, or later turns out to have been ineligible.",
+      "Repeals Schedule 3, which listed certain cannabis offences, repeals the Pardon Services Fees Order, and updates other federal laws to use record expiry instead of record suspension."
+    ],
+    "who_it_affects": [
+      "People with criminal records",
+      "People convicted of cannabis offences",
+      "The Parole Board of Canada",
+      "Police forces",
+      "Employers and form users",
+      "Immigration decision-makers"
+    ],
+    "background": "The bill rewrites the Criminal Records Act to use “record expiry” instead of “record suspension”. It also makes changes to several other federal laws and repeals one regulation.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

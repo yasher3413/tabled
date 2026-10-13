@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/S-246",
+  "sourceHash": "d6b93e8ee5762daa825bcaf4cf77d64a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:25.509Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12554965",
+  "summary": {
+    "tldr": "Names November as Lebanese Heritage Month across Canada each year.",
+    "what_it_does": [
+      "Designates the month of November, throughout Canada and every year, as Lebanese Heritage Month.",
+      "Creates a short title for the law, the Lebanese Heritage Month Act."
+    ],
+    "who_it_affects": [
+      "Lebanese Canadians",
+      "Community organisations",
+      "Schools and public institutions"
+    ],
+    "background": "The bill says that November is to be known throughout Canada as Lebanese Heritage Month each year.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

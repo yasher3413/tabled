@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/C-39",
+  "sourceHash": "a6888fbd610c998953e2bb069ded0c5f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:30:52.919Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-39",
+  "summary": {
+    "tldr": "Delays until March 17, 2024, the repeal of the exclusion for medical assistance in dying when mental illness is the only underlying condition.",
+    "what_it_does": [
+      "Delays the repeal of the exclusion from eligibility for medical assistance in dying when the sole underlying medical condition is a mental illness.",
+      "Keeps that exclusion in place until March 17, 2024."
+    ],
+    "who_it_affects": [
+      "People seeking medical assistance in dying",
+      "People with a mental illness",
+      "Health care providers"
+    ],
+    "background": "It amends An Act to amend the Criminal Code (medical assistance in dying).",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "health"
+    ]
+  }
+}

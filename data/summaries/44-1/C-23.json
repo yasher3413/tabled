@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-23",
+  "sourceHash": "b646956ea53ac50debb1af3167e69a4e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:19.373Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-23",
+  "summary": {
+    "tldr": "Creates a federal law to designate places, persons and events of national significance, protect heritage sites and archaeological resources, and repeal the current sites and monuments law.",
+    "what_it_does": [
+      "Creates a system to designate places, persons and events of national significance or national interest.",
+      "Sets the federal minister’s duties for designations, protection of heritage value, protection of archaeological resources, and work on the World Heritage Convention.",
+      "Continues the federal board that advises on sites and monuments, and adds representatives for First Nations, Inuit and Métis.",
+      "Requires a public register of designated places, persons and events, and lets some information be kept out in some cases.",
+      "Requires federal ministers and certain Crown corporations to consider conservation standards and consult Parks Canada before physical changes or disposal of some designated places.",
+      "Creates a program to commemorate deceased prime ministers at their grave sites or other appropriate places."
+    ],
+    "who_it_affects": [
+      "Federal ministers",
+      "Crown corporations",
+      "Parks Canada Agency",
+      "First Nations, Inuit and Métis",
+      "Federal heritage board",
+      "Families of deceased prime ministers"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "indigenous-peoples",
+      "commemoration"
+    ]
+  }
+}

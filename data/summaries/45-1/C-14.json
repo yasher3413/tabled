@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/C-14",
+  "sourceHash": "73c9387262855f16f1c12bc66a03017a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:07.071Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-14",
+  "summary": {
+    "tldr": "Changes bail, sentencing, youth justice and military justice rules in the Criminal Code, the Youth Criminal Justice Act and the National Defence Act.",
+    "what_it_does": [
+      "Changes bail rules by telling justices to consider random, unprovoked violence, outstanding charges and some repeat offences, and by expanding cases where the accused must show why they should be released.",
+      "Requires release conditions that ban firearms or other weapons for extortion and criminal organization cases, and asks justices to consider extra conditions for motor vehicle theft and breaking and entering a dwelling-house.",
+      "Adds new sentencing rules, including aggravating factors and consecutive sentences for repeat violent offences, motor vehicle theft, breaking and entering, extortion, arson, and offences against first responders and retail theft.",
+      "Restricts conditional sentence orders for sexual assault and some sexual offences involving victims under 18, restores driving prohibitions for manslaughter and criminal negligence causing bodily harm or death, and raises the penalty for contempt.",
+      "Updates youth justice rules by refining the definition of a violent offence, stopping unlawful-at-large time from counting toward custody and supervision, allowing urgent publication of a young person’s identity when public safety is at risk, and changing record access rules.",
+      "Changes military justice sentencing by raising the contempt penalty, giving denunciation and deterrence primary weight for offences involving criminal organizations, and adding aggravating factors for repeat violence and some property offences."
+    ],
+    "who_it_affects": [
+      "Accused people",
+      "People charged with violent offences",
+      "People charged with theft or extortion",
+      "Youth in the justice system",
+      "Police officers",
+      "Justices and judges",
+      "Courts martial",
+      "Victims and complainants"
+    ],
+    "background": "Amends the Criminal Code, the Youth Criminal Justice Act and the National Defence Act. It deals with bail, sentencing, records and military justice.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

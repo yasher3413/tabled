@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-5",
+  "sourceHash": "d31cca5067e905a6401b8c112993f774",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:54.383Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/S-5",
+  "summary": {
+    "tldr": "Bill S-5 would add a right to a healthy environment under federal environmental law, change how toxic substances are assessed and managed, and add environmental risk rules for some drugs.",
+    "what_it_does": [
+      "Recognizes that every person in Canada has a right to a healthy environment under the Canadian Environmental Protection Act, 1999, and requires the federal government to protect that right while balancing relevant factors.",
+      "Requires an implementation framework, plus research, studies, or monitoring, to explain how that right will be considered when the Act is administered.",
+      "Changes how substances are listed and assessed, including letting the Environment Minister add some substances to the Domestic Substances List, remove them when they are no longer in commerce, and compile a list of suspected or known toxic substances.",
+      "Requires the Environment and Health ministers to set priorities for assessing substances, consider vulnerable populations and combined exposures, and give priority to banning or restricting toxic substances in Schedule 1.",
+      "Expands powers for regulation, information gathering, pollution prevention, confidentiality, and significant new activity notices, including new rules when substances are transferred to someone else.",
+      "Adds rules to assess and manage environmental risks from certain drugs, and repeals the Perfluorooctane Sulfonate Virtual Elimination Act."
+    ],
+    "who_it_affects": [
+      "People in Canada",
+      "Environment and Health ministers",
+      "Chemical and substance manufacturers",
+      "Drug manufacturers",
+      "Businesses dealing with listed substances",
+      "People or companies seeking confidentiality under CEPA"
+    ],
+    "background": "The bill amends the Canadian Environmental Protection Act, 1999 and makes related changes to the Food and Drugs Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "health",
+      "government-operations"
+    ]
+  }
+}

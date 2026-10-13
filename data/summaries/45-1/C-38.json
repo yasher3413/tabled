@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/C-38",
+  "sourceHash": "fafee6c5c0a4771a93bd2ea881bdd593",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:12.231Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-38",
+  "summary": {
+    "tldr": "Extends the temporary federal fuel excise tax suspension to January 31, 2027, then lowers fuel excise tax rates to half until March 31, 2027.",
+    "what_it_does": [
+      "Extends the temporary suspension of the federal fuel excise tax until January 31, 2027.",
+      "Sets the excise tax rates on fuels at 50% of the regular rates from February 1, 2027 to March 31, 2027."
+    ],
+    "who_it_affects": [
+      "Drivers",
+      "Fuel purchasers"
+    ],
+    "background": "The bill amends the Excise Tax Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes"
+    ]
+  }
+}

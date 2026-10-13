@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-228",
+  "sourceHash": "64ff5b4cf88ddbd8576021e1f7537eeb",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:20.659Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12375418",
+  "summary": {
+    "tldr": "Prioritizes certain pension and group insurance claims in insolvency proceedings and requires annual reporting on pension plan solvency.",
+    "what_it_does": [
+      "Gives priority in bankruptcy to amounts owed to cover pension plan unfunded liabilities or solvency deficiencies, including required special payments.",
+      "Gives priority under the Companies’ Creditors Arrangement Act to similar pension claims when restructuring proceedings begin.",
+      "Gives priority to claims tied to an employer ending participation in a group insurance plan in bankruptcy and restructuring cases.",
+      "Requires the Superintendent of Financial Institutions to report each year on pension plan funding, the Act’s operation, and corrective steps for plans that do not meet funding rules.",
+      "Requires the Minister to table that report in each House of Parliament and sends it to provincial finance ministers and securities commissions.",
+      "Delays the new bankruptcy rules for four years for employers and companies already taking part in prescribed pension plans."
+    ],
+    "who_it_affects": [
+      "Pension plan members",
+      "Retirees",
+      "Employers",
+      "Companies in bankruptcy",
+      "Companies in restructuring",
+      "Group insurance plan participants",
+      "Pension regulators"
+    ],
+    "background": "Amends the Bankruptcy and Insolvency Act, the Companies’ Creditors Arrangement Act, and the Pension Benefits Standards Act, 1985.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

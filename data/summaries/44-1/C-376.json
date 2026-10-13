@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/C-376",
+  "sourceHash": "7412b8753122d43f7d1708a5d86b3c36",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:38.917Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12882534",
+  "summary": {
+    "tldr": "Requires courts to ban weapons possession for a set period after certain violent indictable convictions, no matter the jail term.",
+    "what_it_does": [
+      "Requires a court to make a weapons prohibition order when a person is convicted of an indictable offence involving violence against a person that was used, threatened or attempted.",
+      "Removes the current link between this order and the length of the prison sentence for that offence."
+    ],
+    "who_it_affects": [
+      "People convicted of violent indictable offences",
+      "Courts",
+      "Weapons owners"
+    ],
+    "background": "The bill changes paragraph 109(1)(a) of the Criminal Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

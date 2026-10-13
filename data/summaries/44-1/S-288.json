@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/S-288",
+  "sourceHash": "4fc5e862699f54108959a15546b3966b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:27.095Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13256518",
+  "summary": {
+    "tldr": "Designates October 18 each year as Inherited Blood Disorders Awareness Day across Canada.",
+    "what_it_does": [
+      "Designates October 18 in each year as Inherited Blood Disorders Awareness Day throughout Canada.",
+      "States that Inherited Blood Disorders Awareness Day is not a legal holiday or a non-juridical day."
+    ],
+    "who_it_affects": [
+      "People with inherited blood disorders",
+      "Health groups",
+      "Canadian public"
+    ],
+    "background": "The bill’s summary says it creates a national awareness day for inherited blood disorders.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration",
+      "health"
+    ]
+  }
+}

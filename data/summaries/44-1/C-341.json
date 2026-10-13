@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-341",
+  "sourceHash": "f5823eff112cb4a038a3b8e38a6c6220",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:41.201Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12523933",
+  "summary": {
+    "tldr": "Requires public inquiry commissioners to be appointed only after consultation with recognized party leaders and approval by the House of Commons.",
+    "what_it_does": [
+      "Changes the Inquiries Act so the Governor in Council can appoint public inquiry commissioners only after consulting the leader of every recognized party in the House of Commons.",
+      "Requires the House of Commons to approve the commissioner appointment by resolution before the inquiry can proceed.",
+      "Applies to inquiries that are not covered by a special law."
+    ],
+    "who_it_affects": [
+      "Public inquiry commissioners",
+      "House of Commons",
+      "Recognized party leaders",
+      "Governor in Council"
+    ],
+    "background": "The bill replaces section 3 of the Inquiries Act. It applies to inquiries described in section 2 that are not regulated by any special law.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "democracy-elections"
+    ]
+  }
+}

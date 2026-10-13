@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/S-3",
+  "sourceHash": "97d16844521310cca45c0bc2b48aade4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:22.753Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/S-3",
+  "summary": {
+    "tldr": "Creates a new process for reviewing misconduct by federally appointed judges and changes how removal recommendations are made.",
+    "what_it_does": [
+      "Replaces the process the Canadian Judicial Council uses to review conduct complaints about federally appointed judges.",
+      "Creates a new process for allegations of misconduct that are not serious enough to lead to a judge’s removal from office.",
+      "Changes the process for making recommendations to remove a judge and send them to the Minister of Justice.",
+      "Applies the same process to certain office holders, other than judges, who are appointed by Parliament to serve during good behaviour."
+    ],
+    "who_it_affects": [
+      "Federally appointed judges",
+      "Canadian Judicial Council",
+      "Minister of Justice",
+      "Parliament-appointed office holders"
+    ],
+    "background": "The bill amends the Judges Act. It replaces the current process used to review the conduct of federally appointed judges.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "crime-justice"
+    ]
+  }
+}

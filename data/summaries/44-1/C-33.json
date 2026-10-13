@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-33",
+  "sourceHash": "80c600777e852650377edb3e1b8ca5e4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:32.338Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-33",
+  "summary": {
+    "tldr": "Changes port, rail, marine and transport rules, and gives the transport minister more powers over security, safety and port oversight.",
+    "what_it_does": [
+      "Requires people in possession or control of imported goods, on request, to make them available for examination and deliver them to a secure area that meets regulations.",
+      "Changes rail rules to treat safety as including security, ban interference with railway work or equipment that threatens safety, and ban harmful or unruly behaviour at stations and on trains.",
+      "Lets the minister order railway companies to fix security problems, grant, refuse, suspend or cancel transportation security clearances, strengthen penalties, and requires a review every five years.",
+      "Requires people who import, offer for transport, handle or transport regulated goods to register with the minister, gives the minister powers to manage safety risks, and creates a penalty regime.",
+      "Updates marine security rules to allow agreements with organizations, set rules on threats to people’s health, information sharing and vessel exclusion zones, and let the minister make interim orders and emergency directions.",
+      "Updates transport and marine laws to allow electronic decisions and remote entry, lower the notice threshold for some port transactions, assign traffic management duties to port authorities, and require advisory committees and climate change plans."
+    ],
+    "who_it_affects": [
+      "Importers of goods",
+      "Railway companies",
+      "Rail passengers and workers",
+      "People handling regulated goods",
+      "Marine operators",
+      "Port authorities",
+      "Companies in port transactions"
+    ],
+    "background": "Introduced in the House of Commons on 17 November 2022. It amends the Customs Act, the Railway Safety Act, the Transportation of Goods Act, 1992, the Marine Transportation Security Act, the Canada Transportation Act and the Canada Marine Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure",
+      "government-operations"
+    ]
+  }
+}

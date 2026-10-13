@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-237",
+  "sourceHash": "1e9e3f24ddc756792eb4cbfb53255c89",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:26.443Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11549850",
+  "summary": {
+    "tldr": "Lets provinces withdraw from some federal programs if they have a comparable provincial program, and exempts Quebec from certain Canada Health Transfer rules.",
+    "what_it_does": [
+      "Allows a province to withdraw from a federal program if it has a program with comparable goals, and still receive the same financial contribution it would have received otherwise.",
+      "Defines a federal program as one where the federal government pays money to help meet national goals in an area that provinces can legislate on.",
+      "Exempts Quebec from a rule in the Federal-Provincial Fiscal Arrangements Act that applies to paragraph 24(1)(a).",
+      "Exempts Quebec from the Canada Health Act rule on national criteria and conditions for the Canada Health Transfer, and keeps Quebec eligible for the full cash contribution."
+    ],
+    "who_it_affects": [
+      "Provinces",
+      "Quebec",
+      "Federal departments",
+      "Health systems"
+    ],
+    "background": "The bill adds a new rule on provincial withdrawal to the Federal-Provincial Fiscal Arrangements Act. It also changes the Canada Health Act rules that apply to the Canada Health Transfer.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "health"
+    ]
+  }
+}

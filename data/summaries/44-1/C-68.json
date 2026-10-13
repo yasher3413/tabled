@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-68",
+  "sourceHash": "c0eef0d639fa318b32f772da1d2a081e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:14.096Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-68",
+  "summary": {
+    "tldr": "Authorizes $74 billion for federal public service spending in 2024-25.",
+    "what_it_does": [
+      "Authorizes $74,011,525,281 from the Consolidated Revenue Fund for public service expenses not otherwise provided for in 2024-25.",
+      "Came into force when it received Royal Assent on 22 March 2024."
+    ],
+    "who_it_affects": [
+      "Federal public service",
+      "Federal departments and agencies",
+      "Canadians who receive federal services"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-351",
+  "sourceHash": "4ca89fe25efd88c7a0707d87047937ca",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:53:06.559Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12569844",
+  "summary": {
+    "tldr": "Requires dangerous offenders and people convicted of more than one first degree murder to be classified and confined as maximum security inmates.",
+    "what_it_does": [
+      "Requires the Correctional Service to assign a maximum security classification to any inmate found to be a dangerous offender or convicted of more than one first degree murder.",
+      "Requires those inmates to be confined in a maximum security penitentiary or a maximum security area in a penitentiary.",
+      "Limits transfers for these inmates by making section 29 subject to the new maximum security rule.",
+      "Makes inmates classified as maximum security ineligible for an unescorted temporary absence.",
+      "Sets the bill to come into force three months after royal assent."
+    ],
+    "who_it_affects": [
+      "Dangerous offenders",
+      "People with multiple first-degree murder convictions",
+      "Maximum security inmates",
+      "Correctional Service of Canada"
+    ],
+    "background": "The Corrections and Conditional Release Act lets the Service assign inmates maximum, medium or minimum security classifications. This bill adds a rule for certain inmates to be classified as maximum security.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

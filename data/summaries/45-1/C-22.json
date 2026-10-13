@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/C-22",
+  "sourceHash": "883821c1b7694a0a5574289bacf89847",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:07.585Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-22",
+  "summary": {
+    "tldr": "Bill C-22 updates rules for police and CSIS to get data and information during investigations, creates a provider framework, and sets a parliamentary review.",
+    "what_it_does": [
+      "Amends the Criminal Code to make it easier to get basic information, subscriber information, tracking data, transmission data and computer data during investigations.",
+      "Clarifies when peace officers and public officers can use information that is voluntarily provided, publicly available, or obtained in exigent circumstances.",
+      "Allows judges and justices to authorize requests to foreign telecom providers for transmission data or subscriber information they hold.",
+      "Amends the Mutual Legal Assistance in Criminal Matters Act so the Minister of Justice can authorize enforcement of certain foreign production decisions in Canada.",
+      "Amends the Canadian Security Intelligence Service Act to help CSIS get basic information and to clarify response times for production orders.",
+      "Enacts the Supporting Authorized Access to Information Act, which sets a framework for electronic service providers to help authorized persons exercise access powers under the Criminal Code and the CSIS Act."
+    ],
+    "who_it_affects": [
+      "Telecommunications service providers",
+      "Electronic service providers",
+      "Peace officers",
+      "Public officers",
+      "Canadian Security Intelligence Service",
+      "Judges and justices",
+      "People whose data may be requested",
+      "Foreign telecom providers"
+    ],
+    "background": "Bill C-22 was introduced in the House of Commons on 12 March 2026 and received first reading. Part 3 provides for parliamentary review of Parts 1 and 2.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "technology-privacy",
+      "government-operations"
+    ]
+  }
+}

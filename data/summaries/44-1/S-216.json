@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/S-216",
+  "sourceHash": "035f1f86c9a3d59e4eead026d2adb3f0",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:45.357Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11491870",
+  "summary": {
+    "tldr": "Lets registered charities give resources to some non-qualified donees if they take reasonable steps to ensure the resources are used for charitable purposes.",
+    "what_it_does": [
+      "Expands charitable activities to include public policy dialogue and development work done to further a charitable purpose, and lets charities provide grants, gifts or transfers to people who are not qualified donees if they meet the bill’s safeguards.",
+      "Sets out what counts as reasonable steps, including collecting information about the recipient before giving resources and using measures, restrictions or conditions to make sure the resources are used only for a charitable purpose.",
+      "Changes the spending rules for charitable organizations and charitable foundations, including how they meet disbursement quotas and how gifts to qualified donees are treated.",
+      "Lets the Minister of National Revenue, on application, specify an amount that will count as charitable spending for a year.",
+      "Updates winding-up, penalty and assessment rules, including a 110% penalty for some gifts from one non-arm’s-length registered charity to another and new rules for spending during the post-assessment period."
+    ],
+    "who_it_affects": [
+      "Registered charities",
+      "Charitable foundations",
+      "Non-qualified donees",
+      "Qualified donees",
+      "Charity administrators"
+    ],
+    "background": "The bill amends the Income Tax Act rules that govern charitable activities, disbursement quotas and gifts between registered charities and qualified donees.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations"
+    ]
+  }
+}

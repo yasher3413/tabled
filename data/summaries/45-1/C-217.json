@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-217",
+  "sourceHash": "e7a3dfc512273270dec1da3d715273bf",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:33.295Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13571035",
+  "summary": {
+    "tldr": "Creates a federal tuition payment for some students with disabilities and makes the payment tax-free.",
+    "what_it_does": [
+      "Requires the minister to pay tuition fees directly to a designated educational institution for a person who qualifies under section 118.3 of the Income Tax Act and is enrolled there, subject to set conditions.",
+      "Treats tuition paid under this new rule as a grant to the student.",
+      "Lets regulations set the conditions that must be met before the payment can be made.",
+      "Excludes amounts paid under this rule from income under the Income Tax Act."
+    ],
+    "who_it_affects": [
+      "Post-secondary students with disabilities",
+      "Students who qualify for the disability tax credit",
+      "Designated educational institutions",
+      "Federal student aid administrators"
+    ],
+    "background": "The bill amends the Canada Student Financial Assistance Act and the Income Tax Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "education",
+      "rights-equality",
+      "budget-taxes"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-11",
+  "sourceHash": "971eff9d1003cb196df5c0792dab610b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:01.621Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-11",
+  "summary": {
+    "tldr": "Bill C-11 would update the Broadcasting Act to cover online streaming services, change CRTC powers, and add new rules for Canadian content, accessibility, and enforcement.",
+    "what_it_does": [
+      "Adds online services that transmit or retransmit programs over the internet as a separate class of broadcasting undertakings.",
+      "Excludes programs uploaded by users to social media services from the Act, unless regulations say otherwise.",
+      "Updates the broadcasting policy so the system serves all Canadians, including racialized communities, Indigenous peoples, official-language minority communities, and people with disabilities.",
+      "Gives the CRTC new powers to make orders, require spending to support Canadian broadcasting, and share some information with the minister, the Chief Statistician of Canada, and the Commissioner of Competition.",
+      "Changes how the federal cabinet can set aside or send back certain CRTC licence decisions, and allows administrative monetary penalties for some violations.",
+      "Requires non-online broadcasting undertakings to operate under a licence or an exemption, and harmonises offences and defences under the Act."
+    ],
+    "who_it_affects": [
+      "Online streaming services",
+      "Social media platforms",
+      "Broadcasting undertakings",
+      "The CRTC",
+      "Canadian content makers",
+      "Indigenous creators",
+      "Official-language minority communities",
+      "People with disabilities"
+    ],
+    "background": "The bill was introduced on 4 February 2022 and makes related and consequential changes to other Acts.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "rights-equality",
+      "technology-privacy"
+    ]
+  }
+}

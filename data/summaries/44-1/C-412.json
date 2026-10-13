@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-412",
+  "sourceHash": "fc2aed7e253c8503b375b07a653c8006",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:34.386Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13244807",
+  "summary": {
+    "tldr": "Creates new online safety rules for platforms used by minors and adds Criminal Code offences for false intimate images and online harassment.",
+    "what_it_does": [
+      "Requires operators to act in the best interests of users they know or should reasonably know are minors, and to take reasonable steps to prevent or reduce harms such as bullying, sexual violence, harmful images, risky marketing, mental health harms, addiction-like use, and deceptive practices.",
+      "Requires clear safety settings and parental controls, with highest-protection defaults, privacy-preserving age checks, geolocation controls, account and data deletion options, time limits, and notices to minors and parents.",
+      "Prohibits operators from using design features or personal data to market goods or services that minors cannot lawfully buy, from using design to weaken safety settings or parental controls, and from requiring a digital identifier to access the platform.",
+      "Requires public disclosure of platform policies, data use, recommendation systems and ads, plus dedicated reporting channels, record keeping, independent reviews every two years, annual risk reports, fines for non-compliance, and a private lawsuit option for minors or parents who suffer serious harm.",
+      "Creates a new offence for publishing or sharing a false intimate image without consent, expands seizure and forfeiture rules to cover false intimate images, and lets courts order internet-use limits after conviction.",
+      "Creates a separate offence for online criminal harassment, lets courts treat anonymous or false-identity contact as an aggravating factor, and sets recognizance and production-order rules to identify suspected offenders."
+    ],
+    "who_it_affects": [
+      "Minors",
+      "Parents of minors",
+      "Online platform operators",
+      "Social media services",
+      "Online video game services",
+      "People accused of online harassment",
+      "People who publish false intimate images"
+    ],
+    "background": "Part 1 enacts the Protection of Minors in the Digital Age Act. Part 2 amends the Criminal Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "crime-justice",
+      "families-children"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/C-307",
+  "sourceHash": "63add54a848c52e5886a688c6ef72f1c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:58.317Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12080814",
+  "summary": {
+    "tldr": "Requires federally regulated employers to provide free menstrual products at workplaces.",
+    "what_it_does": [
+      "Requires federally regulated employers to make free menstrual products readily available to people who are granted access to the workplace, as set out in the regulations."
+    ],
+    "who_it_affects": [
+      "Federally regulated employers",
+      "Workers at federally regulated workplaces",
+      "People granted access to workplaces"
+    ],
+    "background": "Amends subsection 125(1) of the Canada Labour Code by adding a new workplace duty.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "health"
+    ]
+  }
+}

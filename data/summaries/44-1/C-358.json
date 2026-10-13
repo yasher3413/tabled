@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-358",
+  "sourceHash": "cc97c307a22ec11af6cf5491b0a89a6e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:19.111Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12603593",
+  "summary": {
+    "tldr": "Removes GST from carbon pollution pricing charges and adds emission allowances to a GST-free list.",
+    "what_it_does": [
+      "Excludes carbon pricing charges from the amount used to calculate GST, including charges under the Greenhouse Gas Pollution Pricing Act and provincial carbon levies.",
+      "Repeals subsection 221(2.1) and subsection 261(2.1) of the Excise Tax Act.",
+      "Updates the wording for self-assessed tax on real property when the supplier does not collect the tax.",
+      "Sets a four-year limit for reassessing certain GST on supplies covered by subsection 221(2).",
+      "Adds a new Schedule VI entry for a supply of emission allowances."
+    ],
+    "who_it_affects": [
+      "People and businesses paying carbon pricing charges",
+      "GST registrants",
+      "Real property suppliers and buyers",
+      "Suppliers of emission allowances",
+      "Provincial carbon levy systems"
+    ],
+    "background": "The bill amends the Excise Tax Act. The drafters say it would eliminate GST in respect of carbon pollution pricing.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "environment-climate"
+    ]
+  }
+}

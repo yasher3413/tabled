@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-328",
+  "sourceHash": "57c09179e96b3a9a09c6e4bab24932de",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:31.776Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12318003",
+  "summary": {
+    "tldr": "Requires the federal minister to develop and report on a national strategy to reduce student loan debt.",
+    "what_it_does": [
+      "Requires the Minister of Employment and Social Development, with provincial education officials, to develop a national strategy to reduce student loan debt.",
+      "Requires the strategy to assess cancelling government student loan debt, removing interest from government student loans, increasing non-repayable student grants, and lowering post-secondary costs.",
+      "Requires the minister to hold at least one conference with provincial education representatives while developing the strategy.",
+      "Requires a report setting out the strategy to be tabled in Parliament within one year after the act comes into force, and posted online within 30 days.",
+      "Requires a later review of the strategy, with findings and recommendations reported to Parliament, within three years after the first report has been tabled in both Houses."
+    ],
+    "who_it_affects": [
+      "Post-secondary students",
+      "Student loan borrowers",
+      "Provincial education ministries",
+      "Federal government",
+      "Parliament"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "education",
+      "government-operations"
+    ]
+  }
+}

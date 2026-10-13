@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-217",
+  "sourceHash": "1ca2b3f5c88118edbc6798bc34b4a01f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:24.359Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11474571",
+  "summary": {
+    "tldr": "Creates a process to publish, sell or redistribute certain frozen assets linked to foreign rights abuses or corruption.",
+    "what_it_does": [
+      "Requires the Minister of Foreign Affairs to keep a public online registry listing the name of each person or entity linked to a frozen asset and the asset’s value.",
+      "Allows a provincial superior court, on application by the Attorney General or another person with the Attorney General’s written consent, to pay a frozen asset into court, order it sold, or deal with it as the court sees fit.",
+      "Limits these court orders to assets linked to a foreign national responsible for or complicit in killings, torture, forced displacement, significant corruption, or other human rights violations.",
+      "Requires notice to anyone, including a foreign state, that may have a valid interest in the asset, and lets the court hear evidence from them.",
+      "Lets the court distribute money paid into court to people, entities or foreign states for victim support, humanitarian relief, refugee support, or similar just uses, and requires recipients to report on spending.",
+      "Requires Parliament to review the Act within five years of royal assent and to receive a report with any recommended changes."
+    ],
+    "who_it_affects": [
+      "People and entities with frozen assets",
+      "Victims of human rights abuses",
+      "Foreign states",
+      "Courts",
+      "Minister of Foreign Affairs",
+      "Attorney General"
+    ],
+    "background": "The bill applies to property seized, frozen or sequestrated under the Special Economic Measures Act, the Freezing Assets of Corrupt Foreign Officials Act, and the Justice for Victims of Corrupt Foreign Officials Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

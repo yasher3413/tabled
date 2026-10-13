@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-367",
+  "sourceHash": "e23243adc18d87c78565493dab9cb425",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:52.844Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12744769",
+  "summary": {
+    "tldr": "Removes two Criminal Code defences for wilfully promoting hatred or antisemitism when the argument is based on a religious subject or religious text.",
+    "what_it_does": [
+      "Repeals the defence in the Criminal Code that applies when a person, in good faith, expresses or tries to support an opinion on a religious subject while facing a charge of wilful promotion of hatred.",
+      "Repeals the defence that applies when a person, in good faith, expresses or tries to support an opinion based on a belief in a religious text while facing a charge of wilful promotion of antisemitism."
+    ],
+    "who_it_affects": [
+      "People accused of promoting hatred",
+      "People accused of promoting antisemitism",
+      "Courts"
+    ],
+    "background": "The bill amends section 319 of the Criminal Code. It removes the defences set out in paragraphs 319(3)(b) and 319(3.1)(b).",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-420",
+  "sourceHash": "98c219ce52d2604d7317c414fb1f18a9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:25.788Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13449016",
+  "summary": {
+    "tldr": "Requires restraint orders and forfeiture for certain criminal-organization offences, shifts the proof burden to offenders, and lets the government list criminal organizations.",
+    "what_it_does": [
+      "Requires a judge to make a restraint order for property tied to certain criminal-organization offences if the property could disappear, be spent, or lose value before forfeiture.",
+      "Allows restraint orders for digital assets, including virtual currency.",
+      "Requires a person convicted or discharged for certain criminal-organization offences to prove each item they own is not proceeds of crime, or have it forfeited to the Crown.",
+      "Lets the Governor in Council create a list of entities that count as criminal organizations, with rules for listing, review, mistaken identity certificates, and Federal Court review.",
+      "Updates related Criminal Code rules on notice, restoration, appeal, and search warrant conditions to match the new restraint and forfeiture rules."
+    ],
+    "who_it_affects": [
+      "People convicted of criminal-organization offences",
+      "People with property seized or restrained",
+      "Owners of digital assets",
+      "Entities that may be listed",
+      "Judges",
+      "The Minister of Public Safety and Emergency Preparedness"
+    ],
+    "background": "The bill amends Criminal Code rules on restraint orders, forfeiture, and the definition of criminal organization. It also adds a new process for listing entities as criminal organizations.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations",
+      "technology-privacy"
+    ]
+  }
+}

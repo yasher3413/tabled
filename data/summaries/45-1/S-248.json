@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/S-248",
+  "sourceHash": "30ebd4925d915f2595814a0a959f8c02",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:21.010Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14118223",
+  "summary": {
+    "tldr": "Designates July each year as Caribbean Heritage Month throughout Canada.",
+    "what_it_does": [
+      "Designates the month of July in each year, throughout Canada, as Caribbean Heritage Month."
+    ],
+    "who_it_affects": [
+      "Caribbean Canadians",
+      "Cultural organisations",
+      "Schools and community groups"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/S-207",
+  "sourceHash": "43c15c83812bef13d1de1f7dd7acc8ac",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:29.749Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13541937",
+  "summary": {
+    "tldr": "Changes the Criminal Records Act to replace record suspensions with record expiry and updates related laws.",
+    "what_it_does": [
+      "Replaces the term “record suspension” with “record expiry” in the Criminal Records Act, and says an expired record must be kept separate and can remove federal disqualifications unless later revoked or ended.",
+      "Creates automatic record expiry after 5 years for some indictable and serious service offences, after 2 years for summary and other service offences, and right after the sentence ends for offences committed as a child.",
+      "Creates a review process when police records show a later conviction, outstanding charges, or an investigation during the waiting period, with notice, a chance to make submissions, and Board decisions based on rehabilitation and the administration of justice.",
+      "Lets people with only certain Schedule 3 cannabis offences apply under special rules before the normal waiting period, removes those offences from the Act’s schedule, and waives fees for those applications.",
+      "Updates many other Acts to use record expiry instead of record suspension, including rules on human rights, immigration, DNA records, youth records, and military law.",
+      "Repeals the Pardon Services Fees Order."
+    ],
+    "who_it_affects": [
+      "People with criminal records",
+      "People convicted of cannabis offences",
+      "Applicants for record expiry",
+      "Police and the RCMP",
+      "Employers and application form users",
+      "Parole and review boards",
+      "Federally regulated bodies"
+    ],
+    "background": "The bill amends the Criminal Records Act and makes related changes to other federal laws. It also repeals a regulation.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/C-25",
+  "sourceHash": "998bea39c5cc3c56df5d3750fb43a338",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:24.582Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-25",
+  "summary": {
+    "tldr": "Bill C-25 changes election rules on foreign influence, online misinformation, donations, privacy policies, enforcement, and some electoral district names.",
+    "what_it_does": [
+      "Establishes new election offences and updates existing ones for foreign influence, bribery, unauthorised computer use, and false or misleading information about elections and candidate nominations.",
+      "Adds new rules for voting in nomination contests and leadership contests.",
+      "Prohibits political entities and third parties from accepting or using certain contributions, including anonymous ones.",
+      "Requires political parties to have policies to protect personal information.",
+      "Expands enforcement under the Canada Elections Act, including higher administrative monetary penalties and new powers for the Commissioner of Canada Elections in conspiracy, attempt, accessory after the fact, and counselling cases.",
+      "Creates a law to change the names of certain electoral districts, based on proposals from the MPs who represent them."
+    ],
+    "who_it_affects": [
+      "Political parties",
+      "Third parties",
+      "Candidates",
+      "Nomination contest participants",
+      "Leadership contestants",
+      "Commissioner of Canada Elections",
+      "Voters in affected districts"
+    ],
+    "background": "The bill was introduced in the House of Commons and given first reading on 26 March 2026. It also enacts a separate statute to rename certain electoral districts.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections",
+      "technology-privacy",
+      "government-operations"
+    ]
+  }
+}

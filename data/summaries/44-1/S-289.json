@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/S-289",
+  "sourceHash": "1ba51ebc9b1c1a7c28f70bb5c16b70ba",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:04.769Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13327840",
+  "summary": {
+    "tldr": "Amends the National Capital Act to set Gatineau Park boundaries, protect its ecological integrity, and add rules for land use, consultation, and fees.",
+    "what_it_does": [
+      "Establishes Gatineau Park as a defined area in a new schedule, and sets out rules for enlarging it but not shrinking it, except in a court title finding case.",
+      "Requires the National Capital Commission to put ecological integrity first when managing the park, and to prepare and update a Gatineau Park Master Plan.",
+      "Prohibits disposing of public lands in the park, with limited exceptions for Algonquin Anishinabeg services and public health care or infrastructure.",
+      "Requires the Commission to consult the Algonquin Anishinabeg Nation and neighbouring municipalities, and to report that it has considered their recommendations.",
+      "Allows the Commission to negotiate right of first refusal agreements with private landowners, so it can buy property before it is sold.",
+      "Authorises regulations on park activities, resource use, fees, and penalties, and lets the Commission rely more on Algonquin Anishinabeg businesses and workers for maintenance and conservation."
+    ],
+    "who_it_affects": [
+      "Gatineau Park visitors",
+      "National Capital Commission",
+      "Algonquin Anishinabeg Nation",
+      "Neighbouring municipalities",
+      "Private landowners in the park",
+      "Park businesses and workers",
+      "Federal, provincial and municipal authorities"
+    ],
+    "background": "The bill amends the National Capital Act. It adds a new schedule that describes Gatineau Park boundaries and renumbers the existing schedule as Schedule 1.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "indigenous-peoples",
+      "government-operations"
+    ]
+  }
+}

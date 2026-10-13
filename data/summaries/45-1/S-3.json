@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/S-3",
+  "sourceHash": "bedcbb801231e0d40f53d5e14e96296f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:25.683Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/S-3",
+  "summary": {
+    "tldr": "Bill S-3 changes rules for weights, measures, electricity and gas inspections, and gives the minister and inspectors new powers in some cases.",
+    "what_it_does": [
+      "Clarifies the powers, duties and functions of the Minister of Industry and inspectors under the Weights and Measures Act.",
+      "Gives the Minister of Industry new powers, including sampling when devices are examined and ordering corrective or preventive measures.",
+      "Broadens the definition of “meter” under the Electricity and Gas Inspection Act and lets the president grant certain exemptions.",
+      "Clarifies the steps needed to put a device into service and gives the Minister and inspectors new powers, including sampling when meters are examined.",
+      "Repeals certain provisions in the Weights and Measures Regulations and the Electricity and Gas Inspection Regulations, and adds transitional rules."
+    ],
+    "who_it_affects": [
+      "Minister of Industry",
+      "Inspectors",
+      "Businesses that use weighing devices",
+      "Electricity and gas meter users",
+      "Regulated equipment owners"
+    ],
+    "background": "The bill amends the Weights and Measures Act and the Electricity and Gas Inspection Act, along with related regulations.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "economy-business"
+    ]
+  }
+}

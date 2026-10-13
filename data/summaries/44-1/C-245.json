@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-245",
+  "sourceHash": "4df757a0f8ed43e02e9260128675d4d4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:39.153Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11553274",
+  "summary": {
+    "tldr": "Refocuses the Canada Infrastructure Bank on public-interest infrastructure, with priority for public, Northern, Indigenous and climate-related projects.",
+    "what_it_does": [
+      "Changes the Bank’s purpose to investing in infrastructure projects in Canada, or partly in Canada, that are in the public interest, including projects that support climate change mitigation or adaptation and infrastructure sustainability.",
+      "Lets the Bank invest in infrastructure projects, including with innovative financial tools, receive unsolicited proposals, and act as a centre of expertise on infrastructure projects.",
+      "Requires the Bank to give priority to investments from public institutions, all levels of government, and Northern and Indigenous communities, and to projects that help mitigate or adapt to climate change or are not harmful to the environment.",
+      "Requires the Board to include at least one person recommended by an Indigenous organisation representing First Nations, one for Inuit, and one for Métis interests.",
+      "Requires the Bank to give the designated Minister an annual report on the investments and projects that received priority, and requires the Minister to table it in Parliament.",
+      "Extends the Bank’s confidentiality rule to information about project proponents held by the Bank and its subsidiaries."
+    ],
+    "who_it_affects": [
+      "Canada Infrastructure Bank",
+      "Public institutions",
+      "Federal, provincial and territorial governments",
+      "Northern communities",
+      "Indigenous communities",
+      "Infrastructure project proponents",
+      "Indigenous organisations",
+      "Bank board members"
+    ],
+    "background": "It amends the Canada Infrastructure Bank Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "environment-climate",
+      "indigenous-peoples"
+    ]
+  }
+}

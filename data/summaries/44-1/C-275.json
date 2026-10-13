@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-275",
+  "sourceHash": "c77ce803746ba57364c0bb8fbfdf8efc",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:12.782Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12750521",
+  "summary": {
+    "tldr": "Creates a new offence for entering animal buildings or bringing in animals or things in ways that could expose animals to disease or toxic substances.",
+    "what_it_does": [
+      "Creates an offence under the Health of Animals Act for entering a building or other enclosed place where animals are kept, without lawful authority or excuse, if that could expose the animals to disease or a toxic substance.",
+      "Creates an offence for taking an animal or thing into such a place if that could reasonably be expected to expose the animals to disease or a toxic substance.",
+      "Sets penalties for individuals who break the new rule, up to a $25,000 fine or 3 months in jail on summary conviction, or up to a $100,000 fine or 1 year in jail on indictment.",
+      "Sets penalties for other persons who break the new rule, up to a $100,000 fine on summary conviction or up to a $500,000 fine on indictment."
+    ],
+    "who_it_affects": [
+      "Farm owners and operators",
+      "People entering animal facilities",
+      "Workers around animals",
+      "Businesses dealing with animals"
+    ],
+    "background": "The bill amends the Health of Animals Act. It adds a new section that is carved out from the Act’s general offence rule.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "agriculture-food",
+      "crime-justice"
+    ]
+  }
+}

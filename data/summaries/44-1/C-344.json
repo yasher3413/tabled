@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-344",
+  "sourceHash": "c1dfaaa643addf759084e6f843ac2d61",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:31.874Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12535252",
+  "summary": {
+    "tldr": "Requires the transport minister to create and report on a national strategy for abandoned vessels.",
+    "what_it_does": [
+      "Adds a definition of “Indigenous governing body” for the act.",
+      "Requires the Minister of Transport to develop and implement a national strategy to address abandoned vessels.",
+      "Requires the strategy to include ways to identify vessel owners, review disposal fees, create turn-in and disposal areas, support recycling standards, plan for mooring, and improve disposal processes.",
+      "Requires the strategy to assess whether enough resources are in place, including for the Canadian Coast Guard, and to allow cooperation with provincial governments and Indigenous governing bodies where appropriate.",
+      "Requires a report on the strategy and its implementation schedule within one year, then annual progress reports, with tabling in Parliament and publication on the Transport Department website."
+    ],
+    "who_it_affects": [
+      "The Minister of Transport",
+      "Canadian Coast Guard",
+      "Provincial governments",
+      "Indigenous governing bodies",
+      "Vessel owners",
+      "Local salvage businesses"
+    ],
+    "background": "The bill amends the Wrecked, Abandoned or Hazardous Vessels Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure",
+      "environment-climate",
+      "indigenous-peoples"
+    ]
+  }
+}

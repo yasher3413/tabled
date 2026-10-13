@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-256",
+  "sourceHash": "53695b9ad335e176e39ca355733e7aa8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:36.533Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11617511",
+  "summary": {
+    "tldr": "Sets a minimum women-to-men balance on parent Crown corporation boards and adds appointment notice, reporting, and review rules.",
+    "what_it_does": [
+      "Requires parent Crown corporation boards to have no fewer women than men.",
+      "Makes a director appointment void if it would leave a board with fewer women than men.",
+      "Keeps board acts valid even if the board does not meet the women-to-men rule.",
+      "Requires ministers to table notice of board appointments in Parliament within the first 15 sitting days after the appointment.",
+      "Requires a report on board gender balance within six months, and a parliamentary review every five years.",
+      "Allows only women to be appointed to a board that is out of balance when the rule takes effect, until the board has no fewer women than men."
+    ],
+    "who_it_affects": [
+      "Parent Crown corporations",
+      "Federal ministers",
+      "Parliament",
+      "Board directors and nominees"
+    ],
+    "background": "It adds new rules to the Financial Administration Act for parent Crown corporations.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "rights-equality"
+    ]
+  }
+}

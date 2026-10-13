@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-258",
+  "sourceHash": "ecd70a631d247f412c7d324c589c95d0",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:35.254Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11624234",
+  "summary": {
+    "tldr": "Requires finfish aquaculture off the Pacific Coast to use closed containment facilities and orders a transition plan for affected workers.",
+    "what_it_does": [
+      "Defines a \"closed containment facility\" as a solid wall structure, onshore or offshore, that keeps fish, parasites, waste and other pollutants from escaping into surrounding marine systems.",
+      "Allows commercial finfish aquaculture licences off the Pacific Coast only if the fish are raised in a closed containment facility.",
+      "Bans finfish aquaculture in Canadian fisheries waters off the Pacific Coast unless it is done under that type of licence.",
+      "Phases in the ban for current licence holders, their existing licences can continue until they expire or until the fourth anniversary of the new rule, whichever comes first.",
+      "Requires the Minister of Fisheries and Oceans, within 12 months, to table and implement a transition plan with support for affected corporations and workers, including training and income support through employment insurance."
+    ],
+    "who_it_affects": [
+      "Finfish aquaculture operators",
+      "Pacific Coast licence holders",
+      "Workers in finfish aquaculture",
+      "Corporations in the finfish sector",
+      "Minister of Fisheries and Oceans"
+    ],
+    "background": "The bill amends the Fisheries Act. It applies to Canadian fisheries waters off the Pacific Coast.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "agriculture-food",
+      "labour-employment"
+    ]
+  }
+}

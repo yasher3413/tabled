@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/S-205",
+  "sourceHash": "03ddd4df1c90539b086b81bb407a06e4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:54.582Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14054301",
+  "summary": {
+    "tldr": "Requires mental health checks in prisons, limits time in structured intervention units, expands community support options, and adds a court remedy for unfair sentence administration.",
+    "what_it_does": [
+      "Requires a mental health assessment for people sentenced, transferred, or committed to a penitentiary within 30 days, and for people moved into a structured intervention unit within 24 hours.",
+      "Limits confinement in a structured intervention unit to 48 hours unless a superior court authorizes a longer stay.",
+      "Lets the minister enter agreements with Indigenous organisations, Indigenous governing bodies, community groups serving disadvantaged or minority populations, and other community support providers.",
+      "Allows the Commissioner to transfer a person in a penitentiary to one of those entities with the person’s and the entity’s consent, and requires the Commissioner to try to identify and seek such transfers.",
+      "Requires Correctional Service to help people in prison connect with these groups for release and reintegration plans, and requires the Parole Board of Canada to give written reasons if it rejects a proposed plan.",
+      "Lets a person sentenced to incarceration or parole ineligibility ask the sentencing court to reduce the sentence if correctional decisions or actions were unlawful, unfair, discriminatory, mistaken, or improper."
+    ],
+    "who_it_affects": [
+      "People in federal prisons",
+      "People in structured intervention units",
+      "Indigenous organisations",
+      "Community support groups",
+      "People serving federal sentences",
+      "People with mental health needs",
+      "Disadvantaged or minority communities",
+      "Parole Board of Canada"
+    ],
+    "background": "It amends the Corrections and Conditional Release Act. The bill adds rules for structured intervention units, community-based support, and sentence reduction applications.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "indigenous-peoples"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/S-254",
+  "sourceHash": "383706b64e9a351728fe9d8255679651",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:58.684Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12038384",
+  "summary": {
+    "tldr": "Requires warning labels on alcoholic beverages and sets out what those labels must say.",
+    "what_it_does": [
+      "Requires any beverage with 1.1% alcohol by volume or more to be sold in a package with a warning label in the prescribed form and manner.",
+      "Requires the label to warn consumers about the health risks of alcohol consumption.",
+      "Requires the label to show the volume that counts as a standard drink, the number of standard drinks in the package, and the number that should not be exceeded to avoid significant health risks.",
+      "Requires the label to include a Department message about the direct causal link between alcohol consumption and fatal cancers.",
+      "Brings the changes into force one year after royal assent."
+    ],
+    "who_it_affects": [
+      "Alcoholic beverage sellers",
+      "Alcohol producers",
+      "Alcohol distributors",
+      "Alcohol consumers"
+    ],
+    "background": "It adds a new section to the Food and Drugs Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health"
+    ]
+  }
+}

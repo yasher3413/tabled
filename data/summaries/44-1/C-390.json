@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-390",
+  "sourceHash": "2f380ab332b3abf3920359ee076404f2",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:53.074Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13109783",
+  "summary": {
+    "tldr": "Changes the Criminal Code to let medical assistance in dying be given under a provincial framework that allows advance requests before a person loses capacity to consent.",
+    "what_it_does": [
+      "Allows medical practitioners and nurse practitioners to provide medical assistance in dying under section 241.2 or an applicable provincial framework without committing culpable homicide or an offence.",
+      "Extends the same protection to people who help the practitioner, pharmacists who dispense the prescribed substance, and people who help a patient self-administer it at that person’s explicit request.",
+      "Adds a rule that a person may receive medical assistance in dying if they meet the federal criteria or a provincial framework that lets someone with an illness likely to remove consent capacity make an advance request.",
+      "Updates the Criminal Code so a practitioner who knowingly fails to follow the required safeguards, including those in an applicable provincial framework, can be guilty of an offence.",
+      "Amends another offence rule so the same medical assistance in dying acts are exempt when done under section 241.2 or an applicable provincial framework."
+    ],
+    "who_it_affects": [
+      "People seeking medical assistance in dying",
+      "Patients who may lose capacity to consent",
+      "Medical practitioners",
+      "Nurse practitioners",
+      "Pharmacists",
+      "People who help with medical assistance in dying",
+      "Provincial governments"
+    ],
+    "background": "The bill changes the Criminal Code rules on medical assistance in dying. It adds an applicable provincial framework for people whose illness is expected to take away their capacity to consent to care.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "crime-justice"
+    ]
+  }
+}

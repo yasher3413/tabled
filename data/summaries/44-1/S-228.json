@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/S-228",
+  "sourceHash": "a6914814471fae327575f14549f4ffd0",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:14.254Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11475802",
+  "summary": {
+    "tldr": "Removes Senate property rules, including the $4,000 net worth test and the real property rule for senators outside Quebec.",
+    "what_it_does": [
+      "Repeals the rule that senators must have real and personal property worth at least $4,000 above debts.",
+      "Ends the real property requirement for senators representing provinces other than Quebec.",
+      "Replaces the qualification declaration so senators no longer have to swear that they own qualifying property.",
+      "Changes the vacancy rule so a senator no longer loses the seat for failing the property qualification."
+    ],
+    "who_it_affects": [
+      "Senators",
+      "People appointed to the Senate",
+      "Senators from provinces other than Quebec"
+    ],
+    "background": "The Constitution Act, 1867 sets property qualifications for senators. This bill amends those rules and updates related Senate forms and vacancy rules.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "democracy-elections"
+    ]
+  }
+}

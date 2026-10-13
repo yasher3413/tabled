@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-212",
+  "sourceHash": "1702954c2f2eeaf93da2c03f105d9958",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:48:02.429Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11499396",
+  "summary": {
+    "tldr": "Requires the health minister to develop a national school food program and report to Parliament on its design and later review.",
+    "what_it_does": [
+      "Requires the Minister of Health to work with provincial health and education officials and other stakeholders to develop a school food program for all children in Canada.",
+      "Sets out that the program must define healthy food using Canada’s Food Guide, build on existing school food programs, and use best practices from other places.",
+      "Requires the minister to assess whether Ottawa should create grants and cost-sharing with provinces so the program has little or no direct cost to children or families.",
+      "Promotes evidence-based healthy food education in schools across Canada.",
+      "Requires a report on the program within one year, then a review within five years, with both reports tabled in Parliament and posted online."
+    ],
+    "who_it_affects": [
+      "Children in Canada",
+      "Families",
+      "Provincial governments",
+      "Schools",
+      "Health and education officials"
+    ],
+    "background": "The bill says the program is meant to ensure that all children in Canada have access to healthy food.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "families-children",
+      "health",
+      "education"
+    ]
+  }
+}

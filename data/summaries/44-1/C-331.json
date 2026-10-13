@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-331",
+  "sourceHash": "74892f191f61f2b926eea6c299bbaef0",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:10.652Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12385521",
+  "summary": {
+    "tldr": "Requires CSIS to report duty of candour breaches to Parliament and adds that duty to its oath of office.",
+    "what_it_does": [
+      "Requires CSIS annual reports to include the number of times it has or may have breached its duty of candour to the courts in warrant applications, plus a description of each breach and any remedial steps taken.",
+      "Requires CSIS to send that report to the Minister within three months after each calendar year, and the Minister to table it in both Houses of Parliament within 15 sitting days.",
+      "Replaces the oath of office for the Director and employees so it includes a promise to carry out duties owed to the courts, including the duty of candour."
+    ],
+    "who_it_affects": [
+      "Canadian Security Intelligence Service",
+      "CSIS Director and employees",
+      "Courts",
+      "Parliament"
+    ],
+    "background": "The Canadian Security Intelligence Service Act already requires CSIS to give an annual report to the Minister, who must lay it before Parliament. The bill replaces the oath of office set out in the Act’s schedule.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/S-205",
+  "sourceHash": "c03a27cce005625fae9701f74a80d2b9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:07.426Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13339726",
+  "summary": {
+    "tldr": "Creates a new court order for domestic violence fears and changes bail, conditions, and evidence rules in related Criminal Code cases.",
+    "what_it_does": [
+      "Tightens bail rules for people accused of violence against an intimate partner if they were previously convicted or discharged for violence against an intimate partner.",
+      "Requires a justice who makes a release order to ask the prosecutor whether victims were told they can request a copy of the order.",
+      "Creates a new recognizance order, a court order to keep the peace, when someone has reasonable grounds to fear domestic violence against an intimate partner or child.",
+      "Lets judges add conditions to that order, including treatment programs, no contact rules, travel limits, no-go zones, electronic monitoring, substance bans, and firearm or weapon bans.",
+      "Limits how bodily-substance samples and test results can be used, shared, and destroyed, and updates the related court forms.",
+      "Makes youth courts handle these orders for young people and require judges to consider Indigenous support services in some cases."
+    ],
+    "who_it_affects": [
+      "People accused of intimate partner violence",
+      "People fearing domestic violence",
+      "Intimate partners and children",
+      "Youth in youth court",
+      "Judges and prosecutors",
+      "People subject to recognizance orders"
+    ],
+    "background": "The bill adds a new Criminal Code recognizance for fear of domestic violence. It also changes related Criminal Code rules, youth justice rules, and standard court forms.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "families-children"
+    ]
+  }
+}

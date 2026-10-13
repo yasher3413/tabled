@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/S-262",
+  "sourceHash": "049d71afd3842431665df70359d08e0a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:29.328Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12411748",
+  "summary": {
+    "tldr": "Adds a second option for the citizenship oath, letting people swear loyalty to Canada instead of only to the King.",
+    "what_it_does": [
+      "Replaces the current oath rule with a new section that lets a person use either of two oath wordings.",
+      "Keeps one version of the oath that swears allegiance to King Charles III and says the person will follow Canada’s laws and Constitution.",
+      "Adds a second version that swears allegiance to Canada instead of to the King, while keeping the same promise to follow Canada’s laws and Constitution.",
+      "Repeals the existing schedule that set out one oath wording.",
+      "Brings the change into force the day after royal assent."
+    ],
+    "who_it_affects": [
+      "People taking the citizenship oath",
+      "New Canadian citizens",
+      "Citizenship officials"
+    ],
+    "background": "Under the current Citizenship Act, the oath is set out in a schedule. This bill repeals that schedule and replaces it with two oath options.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship",
+      "rights-equality"
+    ]
+  }
+}

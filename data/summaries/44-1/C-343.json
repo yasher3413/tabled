@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-343",
+  "sourceHash": "93c19eda20359f3df98fb40ba5e639c5",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:32.537Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12535251",
+  "summary": {
+    "tldr": "Sets out a federal framework to strengthen Canada-Taiwan relations in security, trade, culture and legal matters.",
+    "what_it_does": [
+      "States that Canada should preserve close ties with Taiwan and support security and defence cooperation, Taiwan’s participation in trade deals and international bodies, and peaceful democratic development in the Indo-Pacific.",
+      "Supports communication between Canadian and Taiwanese officials on health, science, Indigenous matters, digital governance, human rights, democracy and disinformation.",
+      "Treats general Canadian law references to foreign states as including Taiwan, protects property rights linked to Taiwan, and confirms Taiwan can sue and be sued in Canadian courts.",
+      "Allows Canada and Taiwan to enter agreements even without diplomatic relations, and lets the Governor in Council limit these rights or powers by regulation if Taiwan does not give Canada similar treatment.",
+      "Requires the foreign affairs minister to table a policy report within 60 sitting days and requires parliamentary committee review of the act and Canada-Taiwan relations."
+    ],
+    "who_it_affects": [
+      "Federal government",
+      "Canadian and Taiwanese officials",
+      "Courts in Canada",
+      "People in Canada and Taiwan",
+      "Parliament"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "defence-security",
+      "government-operations"
+    ]
+  }
+}

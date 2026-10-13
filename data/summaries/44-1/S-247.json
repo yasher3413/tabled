@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/S-247",
+  "sourceHash": "6c8f77eef040546c36581f469fc7cd09",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:02.625Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11825270",
+  "summary": {
+    "tldr": "Expands Canada’s Magnitsky sanctions law to cover some family members, compel information, let Parliament review orders, and require annual reporting.",
+    "what_it_does": [
+      "Expands the sanctions powers to let the Governor in Council restrict or ban activities involving family members of foreign nationals tied to gross human rights violations.",
+      "Allows the Governor in Council to seize, freeze or sequester property in Canada that was transferred to a family member to help block enforcement of the Act.",
+      "Requires certain entities to provide information they hold when the Governor in Council needs it to find property linked to a covered foreign national or family member.",
+      "Lets either House of Parliament move to amend or revoke an order or regulation under the Act, with set debate and vote deadlines in both Houses.",
+      "Requires the Minister of Foreign Affairs to table a yearly report on orders, permits, reasons for permit decisions, enforcement resources and work with foreign governments."
+    ],
+    "who_it_affects": [
+      "Foreign nationals subject to sanctions",
+      "Family members of those foreign nationals",
+      "Banks and other entities",
+      "Members of Parliament",
+      "Minister of Foreign Affairs"
+    ],
+    "background": "The bill amends the Justice for Victims of Corrupt Foreign Officials Act, also called the Sergei Magnitsky Law. That law lets the Governor in Council make orders and regulations and seize or freeze property in Canada.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "government-operations",
+      "trade-foreign-affairs"
+    ]
+  }
+}

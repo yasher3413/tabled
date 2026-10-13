@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/S-10",
+  "sourceHash": "2791f68e0f01231f59ed7237518bae4d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:44.072Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/S-10",
+  "summary": {
+    "tldr": "Gives effect to the Anishinabek Nation Governance Agreement and updates self-government laws for the shíshálh Nation and Yukon First Nations.",
+    "what_it_does": [
+      "Enacts the Anishinabek Nation Governance Agreement Act and makes related and consequential changes to other laws.",
+      "Updates the Sechelt Indian Band Self-Government Act to set required parts of the shíshálh Nation’s constitution and to make its constitution and laws publicly accessible.",
+      "Clarifies that the shíshálh Nation council may make laws on child and family services, and sets how lands in British Columbia may become shíshálh lands.",
+      "Allows the Minister of Crown-Indigenous Relations to make an agreement for a shíshálh Lands Register, and removes the need for Governor in Council approval for certain funding agreements.",
+      "States that the Canadian Charter of Rights and Freedoms applies to the shíshálh Nation Council, the shíshálh Nation Government District Council, and related administrative bodies and agencies.",
+      "Amends the Yukon First Nations Self-Government Act so funding agreements no longer need Governor in Council approval."
+    ],
+    "who_it_affects": [
+      "Anishinabek Nation",
+      "shíshálh Nation",
+      "Yukon First Nations",
+      "Crown-Indigenous Relations Minister",
+      "Indigenous self-government bodies"
+    ],
+    "background": "The bill was introduced in the Senate on 9 June 2022.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "government-operations",
+      "rights-equality"
+    ]
+  }
+}

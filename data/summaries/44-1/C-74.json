@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-74",
+  "sourceHash": "e287eabd9dfcb3729ede7baa08caa861",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:49.362Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-74",
+  "summary": {
+    "tldr": "Appropriates $117.8 billion for the federal public service for 2024-25 and takes effect on Royal Assent.",
+    "what_it_does": [
+      "Authorizes payments to cover certain federal public service expenses that were not otherwise provided for in the 2024-25 fiscal year.",
+      "Appropriates $117,781,852,267 from the Consolidated Revenue Fund for use by the public service of Canada.",
+      "Came into force on Royal Assent, which was given on 20 June 2024."
+    ],
+    "who_it_affects": [
+      "Federal public service",
+      "Government of Canada departments",
+      "Treasury Board"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations"
+    ]
+  }
+}

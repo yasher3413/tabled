@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/C-37",
+  "sourceHash": "cd97ea90456a66b635d01289411fb970",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:08.901Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14190151",
+  "summary": {
+    "tldr": "Affirms First Nations control over water services on their lands and sets rules for drinking water, wastewater, source water protection, funding, and reporting.",
+    "what_it_does": [
+      "Affirms that First Nations have jurisdiction over water, source water, drinking water, wastewater and related infrastructure on, in and under First Nation lands, and extends that to nearby protection zones by agreement.",
+      "Sets decision-making principles, including reliable access, substantive equality, transparency, data sharing, Charter rights, and guidance from the United Nations Declaration on the Rights of Indigenous Peoples.",
+      "Sets minimum standards for drinking water quality, water quantity and wastewater effluent, using either federal or provincial or territorial standards, with First Nations able to choose the standard that applies.",
+      "Authorises federal regulations on water services, source water protection, operator training, monitoring, emergencies, permits, offences, penalties and minimum standards.",
+      "Requires the Minister and the Government of Canada to consult and co-develop funding decisions, and to make best efforts to provide adequate, predictable, stable and sustainable funding for water services.",
+      "Creates paths for agreements on source water protection, service delivery and enforcement, and requires annual reporting, a five-year review, and a First Nations-led water commission."
+    ],
+    "who_it_affects": [
+      "First Nations",
+      "First Nation governing bodies",
+      "Residents on First Nation lands",
+      "Water services operators",
+      "Federal government",
+      "Provincial and territorial governments",
+      "Municipal governments"
+    ],
+    "background": "The bill says Canada must implement the 2021 Settlement Agreement on long-term drinking water advisories for impacted First Nations. It also says section 35 of the Constitution Act, 1982 includes First Nations jurisdiction over water services on First Nation lands.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "health",
+      "government-operations"
+    ]
+  }
+}

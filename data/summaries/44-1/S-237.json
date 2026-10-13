@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/S-237",
+  "sourceHash": "e6a955d5b9bd82af54941514d9afcee4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:06.588Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11603029",
+  "summary": {
+    "tldr": "Creates a public registry for foreign influence work with public office holders and raises the penalty for intimidation done for a foreign state.",
+    "what_it_does": [
+      "Requires people acting for a foreign principal to file a return within 10 days if they contact a public office holder about laws, regulations, policies, grants, contracts, or arrange a meeting, with some diplomatic exceptions.",
+      "Requires each return to name the filer, the foreign principal, any known controlling person or organisation, and the payments tied to the work.",
+      "Creates a public online registry where filed returns are kept and gives the Minister power to make it available by other means.",
+      "Makes it an offence to miss the filing rule or knowingly give false information, with penalties of up to $200,000 or two years in prison on indictment, or $50,000 or six months on summary conviction.",
+      "Raises the Criminal Code penalty for intimidation to up to 14 years if the person acted for a foreign state, and presumes that a person who had to file a return acted for a foreign state unless they prove otherwise.",
+      "Lets the Governor in Council add, change, or remove countries from the schedule after considering reports from the National Security and Intelligence Committee of Parliamentarians or the Canadian Security Intelligence Service."
+    ],
+    "who_it_affects": [
+      "People acting for foreign principals",
+      "Public office holders",
+      "Foreign governments",
+      "Foreign political organisations",
+      "Members of Parliament and senators",
+      "Federal appointees",
+      "Federal agencies and tribunals"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "crime-justice",
+      "democracy-elections"
+    ]
+  }
+}

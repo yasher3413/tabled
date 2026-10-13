@@ -1,0 +1,27 @@
+{
+  "billId": "45-1/S-210",
+  "sourceHash": "e5a1e055bb79a8b800649fa0e7ab27a4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:31.046Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13620405",
+  "summary": {
+    "tldr": "Designates September as Ukrainian Heritage Month across Canada each year.",
+    "what_it_does": [
+      "Designates the month of September as “Ukrainian Heritage Month” throughout Canada.",
+      "Sets a yearly observance that applies in each and every year."
+    ],
+    "who_it_affects": [
+      "Ukrainian Canadians",
+      "Community groups",
+      "Schools",
+      "Cultural organisations"
+    ],
+    "background": "The bill says September would be known throughout Canada as Ukrainian Heritage Month each year.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

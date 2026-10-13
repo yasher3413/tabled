@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-240",
+  "sourceHash": "a55d3675208a4cca63846a08c5f9a863",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:56.708Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11550248",
+  "summary": {
+    "tldr": "Creates a capital gains tax exemption for certain sales of private corporation shares or Canadian real estate when the proceeds are donated to a qualified donee.",
+    "what_it_does": [
+      "Sets taxable capital gain to zero for certain sales of private corporation shares or Canadian real estate in Canada if the seller donates money from the sale to a qualified donee within 30 days.",
+      "Allows a deceased person’s estate to use the same exemption when the person was resident in Canada before death and the estate makes the donation within 30 days of the later sale.",
+      "Limits the exempt gain to the part linked to the donated amount, using a formula that also accounts for any advantage received for the gift.",
+      "Reverses the exemption if the property, or property based on it, is later acquired again within 60 months, or if a share is redeemed, acquired, or cancelled in that period.",
+      "Updates the rules for donated flow-through shares so the new exemption is included with the existing capital gains rules."
+    ],
+    "who_it_affects": [
+      "Owners of private corporation shares",
+      "Owners of Canadian real estate",
+      "Donors to qualified donees",
+      "Estates",
+      "Qualified donees"
+    ],
+    "background": "It amends the Income Tax Act’s capital gains rules. The new exemption applies to certain arm’s length sales of private corporation shares or Canadian real estate.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes"
+    ]
+  }
+}

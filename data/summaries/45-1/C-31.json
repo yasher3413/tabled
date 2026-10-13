@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/C-31",
+  "sourceHash": "dbc2e173f2eb4eb7c1df80db05b3c8df",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:56.228Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14082288",
+  "summary": {
+    "tldr": "Implements Budget 2025 tax, financial, housing, bankruptcy, and labour measures, including new minimum tax, reporting, and registry rules.",
+    "what_it_does": [
+      "Provides temporary immediate expensing for eligible manufacturing or processing buildings, and adds a recapture rule if a building later has more than 10% non-manufacturing use within 10 years.",
+      "Expands mining and clean economy tax rules, including environmental studies, community consultations, clean economy expenditures for flow-through mining shares, and new rules for clean technology, clean electricity, and clean hydrogen investment tax credits.",
+      "Changes tax rules for employer contributions to group sickness or accident plans, employee expense reimbursements, flipped property trusts, charity reporting and penalties, and adds crypto-asset reporting rules for 2027 and later.",
+      "Adds domestic minimum top-up tax rules, a Canadian under-taxed profits rule for multinational groups, new safe harbour rules, and says tax treaties do not stop the Global Minimum Tax Act from applying.",
+      "Changes GST/HST, excise, and financial institution rules, and updates qualified and prohibited investments for registered plans, including rules for Lloyd's associations, first home savings accounts, and Canadian Payments Association cheque clearing services.",
+      "Changes bank, insurance, housing, bankruptcy, contract, and federal labour rules, including banning some bearer-form conversion documents, raising Tax Court limits, setting housing-related ceilings, and restricting some non-compete clauses for federal employees."
+    ],
+    "who_it_affects": [
+      "Manufacturing and processing businesses",
+      "Mining and clean economy firms",
+      "Charities",
+      "Crypto-asset service providers",
+      "Multinational groups",
+      "Registered plan holders",
+      "Banks, insurers, and credit unions",
+      "Federal employees"
+    ],
+    "background": "This is the second bill to implement certain budget measures tabled in Parliament on November 4, 2025.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-309",
+  "sourceHash": "c856ccaec9408fbf746111db344137ed",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:54.299Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12121361",
+  "summary": {
+    "tldr": "Excludes certain public institutions from Canada’s bankruptcy and creditor-protection laws.",
+    "what_it_does": [
+      "Changes the Bankruptcy and Insolvency Act so some public institutions are not treated as corporations under that law.",
+      "Changes the Companies’ Creditors Arrangement Act so some public institutions are not treated as companies under that law.",
+      "Defines the excluded public institutions as ones that receive government operating grants and are subject to federal or provincial rules on governance, accountability, finance and administration."
+    ],
+    "who_it_affects": [
+      "Public institutions with government grants",
+      "Federal and provincial governments",
+      "Creditors of public institutions"
+    ],
+    "background": "The bill amends the Bankruptcy and Insolvency Act and the Companies’ Creditors Arrangement Act by narrowing who those laws apply to.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

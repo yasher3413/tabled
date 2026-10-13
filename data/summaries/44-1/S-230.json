@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/S-230",
+  "sourceHash": "a7457c8598449fd842c6b257c2ae4819",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:04.114Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13509500",
+  "summary": {
+    "tldr": "Changes federal prison rules for mental health care, isolation limits, community support, and sentence reductions for unfair administration.",
+    "what_it_does": [
+      "Requires prison heads to refer people sentenced, transferred, or committed to a penitentiary for a mental health assessment within 30 days, and to transfer them to a hospital if no qualified medical professional can do it.",
+      "Requires the Commissioner to transfer a person with disabling mental health issues to a hospital, including a mental health facility, after an assessment.",
+      "Limits confinement in a structured intervention unit to 48 hours unless a superior court authorises a longer stay.",
+      "Lets the Minister make agreements with Indigenous organisations, Indigenous governing bodies, community groups serving disadvantaged or minority populations, and other community-based support services, and lets the Commissioner transfer custody with consent under those agreements.",
+      "Requires the Service to let those entities help with release and reintegration plans, give them notice of parole reviews or statutory release dates, and provide written reasons if the Parole Board of Canada does not follow a proposed plan.",
+      "Lets people serving a period of incarceration or parole ineligibility ask the sentencing court to reduce that period if a correctional decision or act was unlawful, unfair, discriminatory, based on a mistake, or an improper use of power."
+    ],
+    "who_it_affects": [
+      "People in federal penitentiaries",
+      "People with mental health issues",
+      "People in structured intervention units",
+      "Federally sentenced people",
+      "People with parole ineligibility",
+      "Indigenous organisations",
+      "Community support groups",
+      "Correctional Service of Canada"
+    ],
+    "background": "It amends the Corrections and Conditional Release Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health",
+      "indigenous-peoples"
+    ]
+  }
+}

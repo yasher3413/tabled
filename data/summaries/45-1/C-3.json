@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/C-3",
+  "sourceHash": "bcf146435f8b1ddc7c84a40ef4ff769f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:56.016Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-3",
+  "summary": {
+    "tldr": "Changes the Citizenship Act to expand citizenship by descent and adoption rules, restore citizenship to some people, and add a simple renunciation process for some new citizens.",
+    "what_it_does": [
+      "Ensures citizenship by descent for people born outside Canada before the bill takes effect to a Canadian parent.",
+      "Extends citizenship by descent to people born outside Canada after the first generation, if a Canadian parent had a substantial connection to Canada before the child’s birth.",
+      "Allows citizenship to be granted to people born outside Canada who were adopted before the bill takes effect by a Canadian parent.",
+      "Allows citizenship to be granted to people born outside Canada who are adopted on or after the bill takes effect by a Canadian parent with a substantial connection to Canada before the adoption.",
+      "Restores citizenship to people who lost it under the former section 8 retention rules, and lets some people who gain citizenship under this bill use a simplified process to renounce it."
+    ],
+    "who_it_affects": [
+      "People born outside Canada",
+      "Children of Canadian citizens",
+      "Adopted children",
+      "People who lost citizenship",
+      "Some new citizens"
+    ],
+    "background": "The bill was introduced in the House of Commons on 5 June 2025. It amends the Citizenship Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship",
+      "rights-equality"
+    ]
+  }
+}

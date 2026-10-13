@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-58",
+  "sourceHash": "f2d6ade5a2a6e81997ca7b7c93963aa1",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:30.602Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13222529",
+  "summary": {
+    "tldr": "The bill limits replacement workers in federal labour disputes, adds penalties, and speeds up decisions on work that must continue during strikes or lockouts.",
+    "what_it_does": [
+      "Expands the federal ban on replacement workers during legal strikes and lockouts, and bars use of certain contractors, transferred workers, volunteers, students and members of the public.",
+      "Prohibits employers, during a strike or lockout meant to stop work by all employees in a bargaining unit, from using employees in that unit for other work, except in limited cases.",
+      "Allows replacement services only for urgent situations involving an imminent or serious threat to life, safety, property or serious environmental damage, if no other means are available.",
+      "Creates an offence for breaking these rules, with fines of up to $100,000 for each day the offence continues, and lets the government set administrative monetary penalties by regulation.",
+      "Requires employers and unions to try to agree on work that must continue within 15 days after notice to bargain, or have the Canada Industrial Relations Board decide.",
+      "Sets timelines for the Board to decide maintenance of activities cases, and requires reinstating striking or locked-out employees before other people when a stoppage ends."
+    ],
+    "who_it_affects": [
+      "Federally regulated employers",
+      "Trade unions",
+      "Employees in bargaining units",
+      "Striking workers",
+      "Locked-out workers",
+      "Canada Industrial Relations Board"
+    ],
+    "background": "The bill changes rules in the Canada Labour Code for legal strikes and lockouts in federally regulated workplaces. It also amends the Canada Industrial Relations Board Regulations, 2012.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "government-operations"
+    ]
+  }
+}

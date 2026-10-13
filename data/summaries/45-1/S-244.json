@@ -1,0 +1,26 @@
+{
+  "billId": "45-1/S-244",
+  "sourceHash": "39d8e3b6049e11b3a2bef0a018c33d9e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:45.528Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13827950",
+  "summary": {
+    "tldr": "Designates May 17 each year as National Diffuse Intrinsic Pontine Glioma Awareness Day.",
+    "what_it_does": [
+      "Designates the 17th day of May in each year throughout Canada as National Diffuse Intrinsic Pontine Glioma Awareness Day."
+    ],
+    "who_it_affects": [
+      "People affected by diffuse intrinsic pontine glioma",
+      "Health advocates",
+      "Canadians"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration",
+      "health"
+    ]
+  }
+}

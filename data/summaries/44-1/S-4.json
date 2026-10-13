@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/S-4",
+  "sourceHash": "d5c01426aa44bfbc32d4f2657288b331",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:21.520Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/S-4",
+  "summary": {
+    "tldr": "Updates criminal court and police procedures to allow more remote hearings, electronic jury selection, and new telewarrant rules.",
+    "what_it_does": [
+      "Allows electronic or other automated tools to be used in jury selection.",
+      "Expands when accused people and offenders can appear by audioconference or videoconference.",
+      "Lets prospective jurors take part in jury selection by videoconference in some cases.",
+      "Expands court case management powers so court staff can handle some administrative matters for accused people without a lawyer.",
+      "Lets courts order fingerprinting at interim release or later stages when fingerprints could not be taken earlier for exceptional reasons.",
+      "Replaces the current telewarrant rules with a process for applying for and issuing many kinds of warrants, authorisations and orders by telecommunication."
+    ],
+    "who_it_affects": [
+      "Accused people",
+      "Offenders",
+      "Prospective jurors",
+      "Courts",
+      "Court staff",
+      "Police",
+      "People seeking warrants or orders"
+    ],
+    "background": "The bill also corrects minor technical errors in the Criminal Code and the Identification of Criminals Act, and includes transitional rules for how the changes apply.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "technology-privacy",
+      "government-operations"
+    ]
+  }
+}

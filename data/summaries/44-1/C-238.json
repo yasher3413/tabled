@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-238",
+  "sourceHash": "f9c29eaf750c979731b3e69ee2be1a62",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:31.198Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11549950",
+  "summary": {
+    "tldr": "The bill would align several federal laws with Quebec’s Charter of the French Language and add a French language requirement for some citizenship applicants in Quebec.",
+    "what_it_does": [
+      "Requires federal works, undertakings and businesses operating in Quebec to follow the Charter of the French Language.",
+      "Changes the Official Languages Act so the Government of Canada, federal institutions, and the Commissioner of Official Languages do not obstruct that Charter in Quebec.",
+      "Requires measures taken in Quebec under the Official Languages Act to be carried out in a way that matches the Charter of the French Language.",
+      "Requires corporations that do business in Quebec to have names that meet the Charter of the French Language.",
+      "Requires permanent residents who live in Quebec and are aged 18 to 64 to show adequate knowledge of French to get citizenship, and to show knowledge of Canada and citizenship rights and duties in French."
+    ],
+    "who_it_affects": [
+      "Federal employers in Quebec",
+      "Federal institutions",
+      "Commissioner of Official Languages",
+      "Corporations doing business in Quebec",
+      "Permanent residents in Quebec",
+      "Citizenship applicants in Quebec"
+    ],
+    "background": "The bill amends the Canada Labour Code, the Official Languages Act, the Canada Business Corporations Act, and the Citizenship Act. Its stated purpose is to make those laws consistent with Quebec’s Charter of the French Language.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship",
+      "labour-employment",
+      "government-operations"
+    ]
+  }
+}

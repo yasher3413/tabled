@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-17",
+  "sourceHash": "32b03a927e3efdba23346369e853edca",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:13.745Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-17",
+  "summary": {
+    "tldr": "Authorizes extra federal payments to provinces and territories, and funding for transit shortfalls and housing supply and affordability.",
+    "what_it_does": [
+      "Authorizes additional payments to provinces and territories under the Federal-Provincial Fiscal Arrangements Act.",
+      "Authorizes payments from the Consolidated Revenue Fund to address transit shortfalls and needs.",
+      "Authorizes payments from the Consolidated Revenue Fund to improve housing supply and affordability."
+    ],
+    "who_it_affects": [
+      "Provincial and territorial governments",
+      "Transit agencies",
+      "Housing sector"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "housing",
+      "transport-infrastructure"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/S-230",
+  "sourceHash": "9783fda9dddc9150ff7a7638267f4af4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:11.913Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13996286",
+  "summary": {
+    "tldr": "Requires the federal agriculture minister to develop a national strategy on soil health and report on it to Parliament.",
+    "what_it_does": [
+      "Requires the Minister of Agriculture and Agri-Food to develop a national strategy to protect, conserve and enhance soil health across Canada, with help from other federal ministers.",
+      "Requires provinces, Indigenous governing bodies and municipalities to have a chance to help develop the strategy, and requires public consultation with stakeholders, agricultural groups and other interested persons.",
+      "Requires the strategy to set out policy and legislative measures to recognise soil as a national asset and to support sustainable and profitable production of food, fibre and fuel.",
+      "Requires the strategy to include measures for soil research, data collection, monitoring, education, training, knowledge sharing and a national soil information system.",
+      "Requires the strategy to include recommendations on a National Advocate for Soil Health, plus targets, timelines and the resources needed.",
+      "Requires the minister to table the strategy in Parliament within two years, then table progress reports every three years and publish them online."
+    ],
+    "who_it_affects": [
+      "Farmers",
+      "Agricultural producers",
+      "Soil health managers",
+      "Agricultural organisations",
+      "Provincial governments",
+      "Municipal governments",
+      "Indigenous governing bodies",
+      "Federal agriculture officials"
+    ],
+    "background": "The bill defines “Minister” as the Minister of Agriculture and Agri-Food. It also defines “Indigenous governing body” for the purposes of the Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "agriculture-food",
+      "environment-climate",
+      "government-operations"
+    ]
+  }
+}

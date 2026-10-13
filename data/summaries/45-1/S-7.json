@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/S-7",
+  "sourceHash": "0e2d6790f4552ee886afbda2ac5895d8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:00.107Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14250056",
+  "summary": {
+    "tldr": "Updates several federal laws to change regulatory, inspection, transport, and insolvency rules, while adding more electronic administration and enforcement.",
+    "what_it_does": [
+      "Rewrites the Agricultural Products Marketing Act so listed provincial marketing boards can use provincial powers for listed products in interprovincial or export trade, collect levies and charges, recover unpaid amounts, and post requirements online.",
+      "Lets the ministers make regulations recognizing foreign systems for feeds, fertilisers, seeds, and veterinary biologics, and lets the Health of Animals Act approve disease and vector control programs run by non-CFIA bodies and regulate imported garbage.",
+      "Adds electronic administration and enforcement to the Canadian Food Inspection Agency Act and the Department of the Environment Act, including electronic documents and payments, and adds administrative monetary penalties under the Explosives Act, with penalties up to $25,000 for individuals and $250,000 in other cases.",
+      "Lets the Transport Minister direct vessels during marine security threats, issue immediate emergency directions that expire after 72 hours unless repealed, inspect vessels and marine facilities, and raise marine security penalties; it also makes transport information confidential with limited emergency sharing.",
+      "Requires exported packaged drugs, cosmetics, and devices to be certified as not violating the destination country's law, and lets the Minister make zoning orders near federal airports and related aeronautics sites.",
+      "Changes the Canada Lands Surveyors Act, Boards of Trade Act, Bankruptcy and Insolvency Act, and Canadian Agricultural Loans Act, including new licence and discipline rules for surveyors, board of trade governance rules, small business proposals, and loan recovery."
+    ],
+    "who_it_affects": [
+      "Provincial marketing boards",
+      "Farmers and food exporters",
+      "CFIA-regulated businesses",
+      "Explosives and environmental operators",
+      "Transport and marine operators",
+      "Airport and aeronautics operators",
+      "Surveyors and boards of trade",
+      "Small business debtors and lenders"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "agriculture-food",
+      "transport-infrastructure"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/C-354",
+  "sourceHash": "035f78d6204dddfc7a2ccf2a73255793",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:10.598Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12570092",
+  "summary": {
+    "tldr": "Requires the CRTC to consult Quebec or provincial governments before regulating broadcasting matters tied to Quebec’s cultural distinctiveness or French-speaking markets.",
+    "what_it_does": [
+      "Requires the CRTC to consult the Government of Quebec about Quebec’s cultural distinctiveness, and other provincial governments about French-speaking markets, before exercising its powers on those broadcasting matters."
+    ],
+    "who_it_affects": [
+      "Government of Quebec",
+      "Provincial governments",
+      "Canadian broadcasters",
+      "French-speaking communities"
+    ],
+    "background": "It amends section 12 of the Canadian Radio-television and Telecommunications Commission Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations"
+    ]
+  }
+}

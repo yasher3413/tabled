@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/S-238",
+  "sourceHash": "703e557c5a5b39f02bba34666717fa3a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:20.102Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13702298",
+  "summary": {
+    "tldr": "Creates new climate duties for federally regulated financial and other reporting entities, including plans, public reports, oversight rules and board requirements.",
+    "what_it_does": [
+      "Creates the Climate-Aligned Finance Act, which defines climate commitments as the Paris Agreement, net-zero by 2050, emissions cuts, protection of carbon sinks and climate adaptation.",
+      "Requires reporting entities to prepare climate plans within two years, then every five years until 2050, with targets, emissions cuts, and limits on offsets and unproven future technology claims.",
+      "Requires reporting entities to publish annual public climate alignment reports within 60 days after each financial year, with targets, plans, progress, emissions data, assumptions and lobbying activity on climate matters.",
+      "Directs the Superintendent of Financial Institutions to issue capital adequacy guidelines for banks and certain federal financial institutions, including higher capital charges for fossil fuel exposure and climate risk.",
+      "Requires certain federal boards to have at least one member with climate expertise, and requires board members, directors, officers and administrators to disclose conflicts and act to align the entity with climate commitments.",
+      "Requires the responsible minister to prepare an action plan on climate-aligned financial products, possible changes to tax, bankruptcy and pension rules, criminal offences for false reports, and reviews on implementation and related reports."
+    ],
+    "who_it_affects": [
+      "Banks and federal financial institutions",
+      "Crown corporations",
+      "Federal boards",
+      "Reporting entities",
+      "Directors and officers",
+      "Bank of Canada",
+      "Pension plans under federal law",
+      "Federal ministers"
+    ],
+    "background": "The bill would enact a new Climate-Aligned Finance Act and make related changes to other Acts.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

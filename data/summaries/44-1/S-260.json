@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/S-260",
+  "sourceHash": "24b124143635b0445faac1d600b6b673",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:28.650Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12348503",
+  "summary": {
+    "tldr": "Designates May 17 each year as National Diffuse Midline Glioma Awareness Day.",
+    "what_it_does": [
+      "Designates the 17th day of May every year, across Canada, as National Diffuse Midline Glioma Awareness Day."
+    ],
+    "who_it_affects": [
+      "Canadians",
+      "People with diffuse midline glioma",
+      "Health groups"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "commemoration"
+    ]
+  }
+}

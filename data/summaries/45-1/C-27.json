@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/C-27",
+  "sourceHash": "971dfc8c5c8d5390ba8515921742e32c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:05.327Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-27",
+  "summary": {
+    "tldr": "Gives effect to the Final Self-Government Agreement for the Tlegohli Got’ine and makes related changes to other laws.",
+    "what_it_does": [
+      "Gives legal effect to the Final Self-Government Agreement for the Tlegohli Got’ine.",
+      "Makes consequential amendments to other Acts, which are related changes to other laws."
+    ],
+    "who_it_affects": [
+      "Tlegohli Got’ine",
+      "Federal government"
+    ],
+    "background": "The Minister of Crown-Indigenous Relations introduced the bill in the House of Commons on 26 March 2026, and it received first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples"
+    ]
+  }
+}

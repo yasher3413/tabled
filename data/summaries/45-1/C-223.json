@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/C-223",
+  "sourceHash": "3b53b220c55a3474629fd3df2d7e71d4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:56.610Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13593404",
+  "summary": {
+    "tldr": "Changes Divorce Act rules on family violence, child views, parenting orders and relocation in divorce cases.",
+    "what_it_does": [
+      "Requires legal advisers in divorce cases to assess the risk of family violence and, if there is a risk, take steps to create a safety plan and tell the spouse about known support services.",
+      "Changes how courts weigh family violence and coercive control when deciding a child’s best interests, and removes the rule that courts can consider an allegation of parental manipulation, with a limited exception.",
+      "Bars courts from assuming family violence ended because spouses separated, because there were no police or child welfare reports, or because there are no visible injuries or criminal charges.",
+      "Allows courts, in some cases, to get a child’s views and preferences directly in writing or through an interview, and limits when that information can be shared with spouses.",
+      "Stops courts from ordering parenting-time cuts to improve a child’s relationship with the other spouse, and stops them from requiring reunification therapy in a parenting order.",
+      "Changes relocation rules so courts must consider the reasons for moving, including family violence, and sets out who must prove that a move is or is not in the child’s best interests."
+    ],
+    "who_it_affects": [
+      "Divorcing spouses",
+      "Children in divorce cases",
+      "Legal advisers",
+      "Family court judges",
+      "Parents seeking relocation",
+      "Families affected by family violence"
+    ],
+    "background": "The bill amends the Divorce Act. It adds new rules for legal advisers, parenting orders, and relocation decisions in divorce proceedings.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "families-children",
+      "rights-equality",
+      "crime-justice"
+    ]
+  }
+}

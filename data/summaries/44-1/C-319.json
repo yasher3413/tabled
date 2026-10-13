@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-319",
+  "sourceHash": "2a6f6a2201ec9e214ecc905a2fbc3c05",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:19.819Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12274183",
+  "summary": {
+    "tldr": "Raises the Old Age Security full pension for seniors 65 and older and changes the income exemption used to calculate the Guaranteed Income Supplement.",
+    "what_it_does": [
+      "Increases the full monthly Old Age Security pension for people 65 and older, and sets the full amount at $756.32 for the payment quarter starting January 1, 2023.",
+      "Raises the employment and self-employment earnings exemption used to calculate the Guaranteed Income Supplement from $5,000 to $6,500 for months after June 2023.",
+      "Increases some deferred partial monthly pensions by 0.6% for each month between when a person becomes eligible and when their application is approved.",
+      "Changes how certain pension-related amounts are rounded and updates the rule for calculating the “pension equivalent” amount."
+    ],
+    "who_it_affects": [
+      "People 65 and older",
+      "Old Age Security pensioners",
+      "Guaranteed Income Supplement recipients",
+      "Seniors with employment income",
+      "Self-employed seniors",
+      "People who delay pension applications"
+    ],
+    "background": "It amends the Old Age Security Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "seniors-veterans",
+      "budget-taxes"
+    ]
+  }
+}

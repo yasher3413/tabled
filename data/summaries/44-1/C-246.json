@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-246",
+  "sourceHash": "44236104ccc19f87b1c66fb8eb34bc20",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:53.468Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11553341",
+  "summary": {
+    "tldr": "Amends the Constitution Act, 1867 so Quebec would have at least 25% of seats in the House of Commons after seat readjustment.",
+    "what_it_does": [
+      "Adds a rule to section 51 of the Constitution Act, 1867 that requires extra Quebec seats if needed so Quebec has at least 25% of all House of Commons members after readjustment.",
+      "Keeps the total number of Quebec members from falling below one quarter of the House of Commons when seats are redistributed.",
+      "Gives the bill the short title Constitution Act, 2022 (representation of Quebec)."
+    ],
+    "who_it_affects": [
+      "Quebec MPs",
+      "Voters in Quebec",
+      "House of Commons",
+      "Federal electoral redistribution"
+    ],
+    "background": "The bill amends section 51 of the Constitution Act, 1867, which sets the rules for how House of Commons seats are readjusted.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections"
+    ]
+  }
+}

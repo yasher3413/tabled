@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-231",
+  "sourceHash": "c61249182d9c9649ae55c7b748cc7070",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:52.765Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11545080",
+  "summary": {
+    "tldr": "Lets the Competition Tribunal order vehicle manufacturers to give independent repair providers access to repair information and parts on the same terms as authorized providers.",
+    "what_it_does": [
+      "Creates a new Competition Act rule that lets the Tribunal order a vehicle manufacturer to give an independent repair provider access to diagnostic and repair information, including technical updates, software, tools, related documents, and service parts, on the same terms as authorized repair providers.",
+      "Requires the Tribunal to find that the provider is substantially affected or blocked from business, that the manufacturer withheld access to keep the provider out of the repair market, that the information or parts are essential, and that competition is harmed.",
+      "Keeps trade secrets protected by saying the new section does not require disclosure of any trade secret.",
+      "Expands the Competition Act leave process for applications under sections 75, 75.1, 76 and 77, and updates notice, timing, commissioner intervention, interim orders, consent agreements, and agreed legal questions."
+    ],
+    "who_it_affects": [
+      "Independent vehicle repair providers",
+      "Vehicle manufacturers",
+      "Authorized repair providers",
+      "Competition Tribunal",
+      "Competition Commissioner"
+    ],
+    "background": "The bill amends the Competition Act. It adds a new section about access to vehicle diagnostic and repair information and service parts.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "transport-infrastructure"
+    ]
+  }
+}

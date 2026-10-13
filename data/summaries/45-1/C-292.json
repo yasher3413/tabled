@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/C-292",
+  "sourceHash": "6336783f047af7f336956fa53842f85f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:36.906Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14252958",
+  "summary": {
+    "tldr": "Changes the Criminal Code rules on trafficking, witness testimony, video evidence, and preliminary inquiries in some sexual offence and trafficking cases.",
+    "what_it_does": [
+      "Adds a fine of up to $100,000 to trafficking in persons offences, including trafficking of a person under 18.",
+      "Raises penalties for receiving a material benefit from child trafficking and for hiding or destroying documents to help child trafficking, with higher jail terms and minimum jail terms.",
+      "Removes the need for a trafficking victim to prove a reasonable fear, and says exploitation means using coercion to make someone provide or offer labour or a service.",
+      "Requires sentences for trafficking offences to be served one after another, not at the same time, when they arise from the same event or series of events.",
+      "Allows a witness order to specify testimony in a location outside the court building, not just outside the courtroom.",
+      "Removes preliminary inquiries for listed offences, including sexual interference, sexual assault, trafficking, and procuring, and lets courts admit timely video recordings of victims in sexual offence cases if the victim adopts the recording in testimony."
+    ],
+    "who_it_affects": [
+      "Victims of trafficking",
+      "Victims of sexual offences",
+      "People charged with trafficking",
+      "People charged with listed sexual offences",
+      "Witnesses",
+      "Judges and justices",
+      "Criminal courts"
+    ],
+    "background": "The bill amends the Criminal Code. It focuses on trafficking in persons and court rules for some sexual offence cases.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

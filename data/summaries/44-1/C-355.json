@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-355",
+  "sourceHash": "6f6f941d2a391b40e4692b0f26c50f5b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:08.052Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13088574",
+  "summary": {
+    "tldr": "Prohibits exporting live horses by air from Canada for slaughter or fattening for slaughter, and sets penalties for false declarations and violations.",
+    "what_it_does": [
+      "Requires anyone exporting a horse by air to give the Minister of Agriculture and Agri-Food a written declaration, or other approved document, saying the horse is not being shipped for slaughter or fattening for slaughter.",
+      "Prohibits giving false or misleading information in that declaration or about anything related to it.",
+      "Creates offences for breaking the Act, with fines up to $250,000 or jail up to two years on indictment, or fines up to $50,000 or jail up to six months on summary conviction.",
+      "Provides a due diligence defence for a person who can show they took all reasonable steps to prevent the offence.",
+      "Adds the new Act to the enforcement duties of the Canadian Food Inspection Agency and the Canada Border Services Agency.",
+      "Delays the Act's start until 18 months after royal assent."
+    ],
+    "who_it_affects": [
+      "Horse exporters",
+      "Live horse shippers",
+      "Horse owners",
+      "Canadian Food Inspection Agency",
+      "Canada Border Services Agency",
+      "Minister of Agriculture and Agri-Food"
+    ],
+    "background": "The bill adds the new Act to the enforcement lists in the Canadian Food Inspection Agency Act and the Canada Border Services Agency Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "agriculture-food",
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

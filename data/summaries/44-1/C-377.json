@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-377",
+  "sourceHash": "18f640da77d5c4c1e6b55372e60cb618",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:01.927Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12882566",
+  "summary": {
+    "tldr": "Treats senators and MPs who apply for a secret security clearance as needing access to the information tied to that application.",
+    "what_it_does": [
+      "Deems a senator or member of the House of Commons who applies for a secret security clearance to need access to the information covered by that application, for the application decision.",
+      "Clarifies that this rule does not limit the powers, privileges, rights, or immunities of the Senate, the House of Commons, or their members."
+    ],
+    "who_it_affects": [
+      "Senators",
+      "Members of Parliament",
+      "Parliament of Canada",
+      "Security clearance applicants"
+    ],
+    "background": "The bill adds a new section, 13.1, to the Parliament of Canada Act under the heading Access to Information.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "defence-security"
+    ]
+  }
+}

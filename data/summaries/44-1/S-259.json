@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/S-259",
+  "sourceHash": "7f76b3f4298ff55a39e04c0e45d90870",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:26.002Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12317533",
+  "summary": {
+    "tldr": "Designates March as Hellenic Heritage Month across Canada.",
+    "what_it_does": [
+      "Designates the month of March as Hellenic Heritage Month throughout Canada each year."
+    ],
+    "who_it_affects": [
+      "Hellenic communities in Canada",
+      "Heritage groups",
+      "Canadians"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "billId": "45-1/C-270",
+  "sourceHash": "957f6ff6bafc8f7e50c44ccdeeb9abc7",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:38.943Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13966432",
+  "summary": {
+    "tldr": "Adds presumptions in the Criminal Code for using force, including lethal force, to defend a person in a dwelling-house.",
+    "what_it_does": [
+      "Clarifies that a person may use force, including lethal force, that they deem reasonably necessary to defend or protect themselves or another person against an unlawful entrant in a dwelling-house.",
+      "Creates a presumption that a person who knowingly enters a dwelling-house without legal right did so with intent to use force against a lawful occupant, unless there is evidence otherwise.",
+      "Presumes the conditions for the defence of person are met when a lawful occupant uses force, including lethal force, against an unlawful entrant in the dwelling-house."
+    ],
+    "who_it_affects": [
+      "People lawfully present in a dwelling-house",
+      "People using self-defence claims",
+      "Criminal Code defendants"
+    ],
+    "background": "The bill amends section 34 of the Criminal Code, which deals with the defence of person.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

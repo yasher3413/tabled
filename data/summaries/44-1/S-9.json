@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/S-9",
+  "sourceHash": "b2df16c8ae51fd23a37470fbe4865ae0",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:26.170Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/S-9",
+  "summary": {
+    "tldr": "Removes a schedule from the Chemical Weapons Convention Implementation Act and updates references to it to match the treaty text.",
+    "what_it_does": [
+      "Deletes the schedule from the Chemical Weapons Convention Implementation Act.",
+      "Removes references to that schedule in the Act, so the law stays aligned with the Chemical Weapons Convention as it may be amended over time."
+    ],
+    "who_it_affects": [
+      "Federal government",
+      "People and organisations subject to the Act"
+    ],
+    "background": "The bill is meant to avoid possible differences between the treaty text and the version reproduced in the Act’s schedule.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "government-operations"
+    ]
+  }
+}

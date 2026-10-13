@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/C-20",
+  "sourceHash": "3cb03d76392e1f69185d36d7a62410d7",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:23.850Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-20",
+  "summary": {
+    "tldr": "Creates Build Canada Homes, a Crown corporation to support affordable housing and new building methods in Canada.",
+    "what_it_does": [
+      "Creates Build Canada Homes as a Crown corporation to promote, support and develop the supply of affordable housing in Canada, and to promote innovative and efficient building techniques in housing construction.",
+      "Sets out Build Canada Homes' powers and governance framework.",
+      "Authorizes the Minister of Finance to make payments from the Consolidated Revenue Fund to fund Build Canada Homes' operations and activities.",
+      "Allows the Governor in Council to transfer property, rights, interests and obligations from other Crown corporations to Build Canada Homes, and to issue directives about reorganizing Canada Lands Company Limited or its subsidiaries.",
+      "Adds transitional provisions, makes a consequential amendment to the Financial Administration Act, and includes coordinating amendments."
+    ],
+    "who_it_affects": [
+      "People looking for affordable housing",
+      "Housing builders",
+      "Crown corporations",
+      "Canada Lands Company Limited and its subsidiaries",
+      "Federal government"
+    ],
+    "background": "The bill was introduced in the House of Commons on 5 February 2026 and received first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "housing",
+      "government-operations"
+    ]
+  }
+}

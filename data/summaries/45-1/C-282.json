@@ -1,0 +1,30 @@
+{
+  "billId": "45-1/C-282",
+  "sourceHash": "00bb47b23c3df1b7d23a2e674b2d4bdf",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:46.477Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14148700",
+  "summary": {
+    "tldr": "Amends the Veterans Well-being Act to let rehabilitation services for veterans include service dogs.",
+    "what_it_does": [
+      "Adds service dogs as a possible rehabilitation service under the Veterans Well-being Act.",
+      "Requires the Minister, when making a rehabilitation plan, to assess whether a veteran's medical or psycho-social needs require a service dog.",
+      "Allows the Minister to make regulations, after consulting the provinces, on service dog health, breeding, training, testing, certification, financing, and related matters.",
+      "Defines a service dog as a dog trained by an organisation that specialises in service dog training to help with physical, psychological, or social adjustment needs."
+    ],
+    "who_it_affects": [
+      "Veterans",
+      "Veterans seeking rehabilitation",
+      "Service dog training organisations",
+      "Service dog examiners",
+      "Provinces"
+    ],
+    "background": "The bill amends the Veterans Well-being Act. It adds a new section saying rehabilitation services under that Act may include service dogs.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "seniors-veterans"
+    ]
+  }
+}

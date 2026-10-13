@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-4",
+  "sourceHash": "f39306b0d1aa24e40bdb5d74e0a748dd",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:47.222Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-4",
+  "summary": {
+    "tldr": "Reduces the lowest personal income tax rate, adds a temporary GST new housing rebate for first-time buyers, removes the federal fuel charge, and changes some election privacy rules.",
+    "what_it_does": [
+      "Lowers the marginal personal income tax rate on the lowest tax bracket to 14.5% for the 2025 tax year and 14% for 2026 and later tax years.",
+      "Creates a temporary GST new housing rebate for first-time home buyers under the Excise Tax Act and related regulations.",
+      "Repeals Part 1 of the Greenhouse Gas Pollution Pricing Act and the Fuel Charge Regulations.",
+      "Changes the Canada Elections Act rules for political parties’ policies on protecting personal information."
+    ],
+    "who_it_affects": [
+      "Personal income taxpayers",
+      "First-time home buyers",
+      "Political parties",
+      "Canadians subject to the fuel charge"
+    ],
+    "background": "Bill C-4 was introduced in the House of Commons on 5 June 2025. It has four parts that change tax, housing, fuel charge, and election rules.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "housing",
+      "democracy-elections"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/S-285",
+  "sourceHash": "b4beaa9bf7ba943590a349f4640e705c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:44.088Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13112908",
+  "summary": {
+    "tldr": "Changes the Canada Business Corporations Act to say corporations must pursue their best interests while also limiting harm to society and the environment.",
+    "what_it_does": [
+      "Sets a corporation’s purpose as pursuing its best interests while also benefiting wider society and the environment, in ways that fit its size and operations.",
+      "Requires directors and officers to act honestly and in good faith to advance that purpose, and to consider shareholders, employees, retirees, creditors, consumers, governments, the environment, and long-term corporate interests.",
+      "Requires annual reports to shareholders, the public, and the Director on the corporation’s impacts on society and the environment, including steps taken to reduce harm.",
+      "Allows regulations to require use of a third-party standard to assess those impacts, and to set different reporting rules based on corporation size.",
+      "Changes court and indemnity rules so actions and protections can turn on whether conduct advances the corporation’s purpose, and gives standing to some people acting for society or the environment."
+    ],
+    "who_it_affects": [
+      "Federal corporations",
+      "Directors and officers",
+      "Shareholders",
+      "Employees",
+      "Creditors",
+      "Consumers",
+      "Governments",
+      "People bringing corporate complaints"
+    ],
+    "background": "The bill amends the Canada Business Corporations Act. It adds a new part on the purpose of a corporation and makes related changes to directors’ duties, reporting, and court rules.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "technology-privacy",
+      "government-operations"
+    ]
+  }
+}

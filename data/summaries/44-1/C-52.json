@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-52",
+  "sourceHash": "c45873a1b42c03feb431c07b6401a98c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:30.136Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-52",
+  "summary": {
+    "tldr": "Creates new air transport rules on information, noise, climate plans and complaints, and changes accessibility and port fee rules.",
+    "what_it_does": [
+      "Creates the Air Transportation Accountability Act, which requires airport operators, air carriers and flight-related service providers to give information to the Transport Minister.",
+      "Requires airport operators to help Canada meet international aeronautics obligations, according to directions from the Minister of Transport.",
+      "Lets regulations set service standards for flights and flight-related services, including dispute resolution and public information on compliance.",
+      "Sets requirements for noise management committees, and for notice, consultation and complaints about aircraft noise.",
+      "Requires airport authorities to make climate change and preparedness plans, and to publish information on diversity among directors and senior management.",
+      "Amends the Canada Transportation Act and the Canada Marine Act to add accessibility information and complaint rules, and new port fee and lease dispute rules."
+    ],
+    "who_it_affects": [
+      "Airport operators",
+      "Air carriers",
+      "Flight-related service providers",
+      "Airport authorities",
+      "People with disabilities",
+      "Port authorities",
+      "Port terminal operators"
+    ],
+    "background": "The bill was introduced in the House of Commons on 20 June 2023 and had first reading. It would enact the Air Transportation Accountability Act and amend the Canada Transportation Act and the Canada Marine Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure",
+      "rights-equality",
+      "environment-climate"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-63",
+  "sourceHash": "4b826ab3a53342d3ee3edcca3311311c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:23.550Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-63",
+  "summary": {
+    "tldr": "Creates new online safety rules for social media, adds hate crime measures, updates human rights law on online hate speech, and changes child pornography reporting rules.",
+    "what_it_does": [
+      "Creates the Digital Safety Commission, Digital Safety Ombudsperson, and Digital Safety Office, and gives social media operators duties to reduce harmful content, protect children, keep records, and make certain content inaccessible in Canada.",
+      "Allows people in Canada to complain about child sexual exploitation content, revived abuse content, and non-consensual intimate content, and lets the Commission order that content blocked.",
+      "Creates a new hate crime offence, adds a peace bond for hate propaganda and hate crime offences, defines “hatred,” and raises maximum penalties for hate propaganda offences.",
+      "Makes communicating hate speech by internet or other telecommunication a discriminatory practice under the Canadian Human Rights Act, and lets the Commission and Tribunal handle complaints and remedies.",
+      "Updates the mandatory reporting law for Internet child pornography by clarifying covered services, changing how notices are sent, requiring transmission data in some cases, and extending data retention and prosecution periods."
+    ],
+    "who_it_affects": [
+      "Social media companies",
+      "People in Canada",
+      "Children online",
+      "Survivors of intimate image abuse",
+      "Victims of hate crimes",
+      "Internet service providers",
+      "Law enforcement bodies"
+    ],
+    "background": "The bill was introduced in the House of Commons on 26 February 2024. It would enact the Online Harms Act and amend several existing laws.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

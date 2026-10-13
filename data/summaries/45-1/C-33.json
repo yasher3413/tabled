@@ -1,0 +1,30 @@
+{
+  "billId": "45-1/C-33",
+  "sourceHash": "7a9844375c97fbbaea505a511653f9e9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:48.983Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14203823",
+  "summary": {
+    "tldr": "Authorizes up to $11.1 billion in federal spending for 2026 to 2027 and sets rules for some of that money.",
+    "what_it_does": [
+      "Authorizes up to $11,127,236,516 from the Consolidated Revenue Fund for federal public administration spending in 2026 to 2027.",
+      "Treats the transfers of appropriations in the estimates as authorized on April 1, 2026.",
+      "Limits each payment to the purpose and conditions set out in the relevant item.",
+      "Allows some year-end accounting adjustments to be charged after the fiscal year ends, before the Public Accounts are tabled.",
+      "Allows some Schedule 2 amounts to be paid up to March 31, 2028, and says any uncharged balance then lapses, subject to the Financial Administration Act."
+    ],
+    "who_it_affects": [
+      "Federal public administration",
+      "Government departments and agencies",
+      "Treasury Board"
+    ],
+    "background": "The bill’s total matches the items set out in Supplementary Estimates (A) for 2026 to 2027.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "budget-taxes"
+    ]
+  }
+}

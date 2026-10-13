@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/C-18",
+  "sourceHash": "1caa3fa1fa38463b2e8fbfde448726df",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:22.152Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-18",
+  "summary": {
+    "tldr": "Implements the Canada-Indonesia trade agreement, gives the government order-making powers, and updates related laws.",
+    "what_it_does": [
+      "Approves the Comprehensive Economic Partnership Agreement between Canada and Indonesia, signed in Ottawa on September 24, 2025.",
+      "Blocks legal action based on certain parts of the law or the agreement unless the Attorney General of Canada consents.",
+      "Requires Canada to pay its share of the costs tied to the agreement’s institutional and administrative work.",
+      "Gives the Governor in Council power to make orders under the agreement.",
+      "Amends related Acts so they match Canada’s obligations under the agreement."
+    ],
+    "who_it_affects": [
+      "Canadian businesses",
+      "Importers and exporters",
+      "Federal government",
+      "Attorney General of Canada",
+      "Governor in Council"
+    ],
+    "background": "The bill implements the Comprehensive Economic Partnership Agreement between Canada and Indonesia, done at Ottawa on September 24, 2025.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

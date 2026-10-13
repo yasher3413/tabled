@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-44",
+  "sourceHash": "d821eda00338f1dba02e2851201bb06c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:05.750Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-44",
+  "summary": {
+    "tldr": "Authorizes $89.7 billion in spending for the federal public service for 2023-24.",
+    "what_it_does": [
+      "Authorizes payments to cover certain public service expenses for the fiscal year ending 31 March 2024.",
+      "Appropriates $89,678,492,027 from the Consolidated Revenue Fund for the public service of Canada.",
+      "Takes effect when it receives Royal Assent."
+    ],
+    "who_it_affects": [
+      "Public service of Canada",
+      "Federal public administration",
+      "Government of Canada"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "billId": "45-1/C-250",
+  "sourceHash": "d5ed02b2b3130a3d04a04bf0ce872c90",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:23.591Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13677826",
+  "summary": {
+    "tldr": "Requires flight attendants to be paid for pre- and post-flight duties, mandatory training, and certain time on call, at no less than their regular wage.",
+    "what_it_does": [
+      "Counts pre-flight and post-flight duties as paid work for flight attendants, including aircraft security, passenger service, boarding, leaving the aircraft, and safety checks.",
+      "Counts time spent completing mandatory training programs as paid work.",
+      "Counts time when a flight attendant is at the workplace, at the employer’s call and disposal, including during a flight delay, as paid work.",
+      "Requires employers to pay flight attendants at least their regular wage for the work covered by these rules."
+    ],
+    "who_it_affects": [
+      "Flight attendants",
+      "Employers of flight attendants"
+    ],
+    "background": "It adds a new Division I.01 to the Canada Labour Code for flight attendants.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "transport-infrastructure"
+    ]
+  }
+}

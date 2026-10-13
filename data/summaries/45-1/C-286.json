@@ -1,0 +1,30 @@
+{
+  "billId": "45-1/C-286",
+  "sourceHash": "9192b60f80c2fb8376cb4bb0f325c179",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:07.778Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14192138",
+  "summary": {
+    "tldr": "Allows psilocin and psilocybin to be used for medical treatment and makes some priority review requests for new drugs automatically approved.",
+    "what_it_does": [
+      "Allows psilocin and psilocybin to be treated as narcotics for the Narcotic Control Regulations, so they can be used for medical treatment under those rules.",
+      "Excludes psilocin and psilocybin from the definition of “restricted drug” for Part J of the Food and Drug Regulations.",
+      "Adds the same restricted drug definition to the Food and Drugs Act, again leaving out psilocin and psilocybin.",
+      "Deems a request for priority review of a new drug submission to be granted when it is for psilocin, psilocybin, or a substance with a similar chemical structure."
+    ],
+    "who_it_affects": [
+      "People seeking psilocin or psilocybin treatment",
+      "Health care practitioners",
+      "Drug makers",
+      "People filing new drug submissions",
+      "Health Canada"
+    ],
+    "background": "The bill says its purpose is to improve access to hallucinogenic drug medical treatment and not to bypass existing approval processes for new drugs.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health"
+    ]
+  }
+}

@@ -70,7 +70,7 @@ export function BillsExplorer({ bills, parties, referenceYear, locale, params, i
         inert={!interactive ? true : undefined}
       >
         <SearchField
-          className="col-span-2 md:col-span-3 lg:col-span-6 xl:col-span-2"
+          className={`col-span-2 md:col-span-3 lg:col-span-6 ${topicsInUse.length > 0 ? "" : "xl:col-span-2"}`}
           label={m.filters.search}
           value={filters.q}
           onChange={(v) => set({ q: v })}
@@ -88,7 +88,7 @@ export function BillsExplorer({ bills, parties, referenceYear, locale, params, i
           {filtersOpen ? m.filters.hideFilters : m.filters.filters}
           {activeFilters > 0 && <span className="rounded-full bg-ink px-1.5 text-[0.75rem] text-paper">{activeFilters}</span>}
         </button>
-        <div id="bill-filters" className={`col-span-2 grid-cols-2 gap-3 md:col-span-3 md:grid md:grid-cols-3 lg:col-span-6 lg:grid-cols-6 xl:col-span-4 xl:grid-cols-[repeat(6,minmax(0,1fr))] ${filtersOpen ? "grid" : "hidden"}`}>
+        <div id="bill-filters" className={`col-span-2 grid-cols-2 gap-3 md:col-span-3 md:grid md:grid-cols-3 lg:col-span-6 lg:grid-cols-6 ${topicsInUse.length > 0 ? "xl:grid-cols-7" : "xl:col-span-4 xl:grid-cols-[repeat(6,minmax(0,1fr))]"} ${filtersOpen ? "grid" : "hidden"}`}>
         {topicsInUse.length > 0 && (
           <FilterSelect
             label={locale === "fr" ? "Sujet" : "Topic"}

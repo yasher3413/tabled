@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/C-26",
+  "sourceHash": "fab0550c502d2d3f004dad0628308f2f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:26.883Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-26",
+  "summary": {
+    "tldr": "Authorizes federal payments to provinces and territories to help improve housing supply.",
+    "what_it_does": [
+      "Authorizes payments from the Consolidated Revenue Fund to provinces and territories for the purpose of improving housing supply."
+    ],
+    "who_it_affects": [
+      "Provincial and territorial governments",
+      "Federal government"
+    ],
+    "background": "The bill was introduced in the House of Commons on 26 March 2026 and received first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "housing",
+      "budget-taxes"
+    ]
+  }
+}

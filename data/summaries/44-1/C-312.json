@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-312",
+  "sourceHash": "3200df2b4a895f97ba88ebfae9af52dc",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:46.811Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12193137",
+  "summary": {
+    "tldr": "Requires a national plan to make all electricity generated in Canada come from renewable sources by December 31, 2030.",
+    "what_it_does": [
+      "Requires the Minister of Natural Resources to work with provincial energy officials and Indigenous governing bodies to develop and carry out a national renewable energy strategy.",
+      "Sets goals for the strategy, including starting twice as many renewable energy projects as non-renewable ones each year, increasing research spending, and creating more renewable energy jobs.",
+      "Calls for cooperation between the federal and provincial governments to create new large-scale public electric utilities.",
+      "Requires the Minister and the Minister of Finance to design and put in place incentives within one year for solar, wind, tidal, and biomass projects, and for home and business retrofits that use more renewable energy.",
+      "Limits those incentives to start-up costs for new projects, not ongoing costs.",
+      "Requires a report on the strategy within two years, and further reports every three years after that, to be tabled in Parliament and posted online."
+    ],
+    "who_it_affects": [
+      "Natural Resources minister",
+      "Provincial energy officials",
+      "Indigenous governing bodies",
+      "Renewable energy developers",
+      "Homeowners",
+      "Businesses",
+      "Federal and provincial governments",
+      "Electric utilities"
+    ],
+    "background": "The bill defines renewable energy as energy from a source that can be naturally replenished or renewed within a human lifespan. It also defines Indigenous governing body for the purposes of the Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "energy-resources",
+      "government-operations",
+      "indigenous-peoples"
+    ]
+  }
+}

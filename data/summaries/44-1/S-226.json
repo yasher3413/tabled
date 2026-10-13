@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/S-226",
+  "sourceHash": "0540008f163ed278b7f152247815b922",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:26.358Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11474631",
+  "summary": {
+    "tldr": "Elects the Senate Speaker and Deputy Speaker by secret ballot, changes when they can vote, and updates Senate rules and pay.",
+    "what_it_does": [
+      "Requires the Senate to elect a Speaker and a Deputy Speaker by secret ballot after a general election, and to fill any vacancy the same way.",
+      "Changes Senate voting rules so the senator presiding votes only when voices are tied.",
+      "Lets the Deputy Speaker take the chair when the Speaker leaves during a sitting, and lets another senator take over if the Deputy Speaker must leave.",
+      "Keeps Senate decisions valid when they are made by the Deputy Speaker or by another senator acting in the Speaker’s place.",
+      "Sets the annual salary for the Deputy Speaker of the Senate at $20,600."
+    ],
+    "who_it_affects": [
+      "Senators",
+      "Senate Speaker",
+      "Deputy Speaker of the Senate",
+      "Senate officers"
+    ],
+    "background": "Under current law, the Governor General appoints the Speaker of the Senate. The bill would replace that with elected Senate officers and add a Deputy Speaker role.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections",
+      "government-operations"
+    ]
+  }
+}

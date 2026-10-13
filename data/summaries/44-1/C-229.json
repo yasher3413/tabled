@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-229",
+  "sourceHash": "56a82fe1911a66f78b224519d712aa97",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:52.670Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11539276",
+  "summary": {
+    "tldr": "Adds a Criminal Code offence for publicly displaying, selling, or offering symbols that promote or incite hatred or violence against an identifiable group.",
+    "what_it_does": [
+      "Creates a new offence for wilfully or recklessly promoting hatred or violence by publicly displaying, selling, or offering symbols, emblems, flags, or uniforms linked to people or groups that promote hatred or violence.",
+      "Sets the penalty for that offence as either an indictable offence with up to two years in prison, or a summary conviction offence.",
+      "Keeps a defence for good faith displays tied to a matter of public interest, including education or accurate film depiction, if the person reasonably believes the display is proper and for the public benefit.",
+      "Keeps a defence for good faith display of such symbols for the purpose of removing them from public places because they produce or tend to produce hatred or violence.",
+      "Allows forfeiture of items used in the offence and requires the Attorney General's consent before proceedings for the new offence can begin."
+    ],
+    "who_it_affects": [
+      "People who display hate symbols",
+      "People who sell hate symbols",
+      "Educators",
+      "Filmmakers",
+      "People removing symbols from public places",
+      "Prosecutors and Attorneys General",
+      "Identifiable groups targeted by hate"
+    ],
+    "background": "Section 319 of the Criminal Code already deals with hate propaganda. This bill adds a new offence aimed at certain visual symbols linked to hatred or violence.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

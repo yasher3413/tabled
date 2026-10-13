@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-277",
+  "sourceHash": "17a96590225620cedc65045df1585989",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:47.338Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13366757",
+  "summary": {
+    "tldr": "Requires the Health Minister to develop a national brain injury strategy and report to Parliament on it.",
+    "what_it_does": [
+      "Requires the Minister of Health to develop a national strategy, in consultation with provincial health governments, Indigenous groups and other stakeholders, on brain injury awareness, prevention, treatment, rehabilitation and recovery.",
+      "Requires the strategy to cover prevention, training needs, research, data collection, information sharing, national guidelines and public awareness about brain injuries.",
+      "Requires the strategy to support brain injury associations and service providers, including financial support for mental health resources for people with brain injuries and their families.",
+      "Requires the strategy to encourage consultation with mental health professionals in schools, sports organisations and workplaces, and to address related issues such as addiction, housing, homelessness and criminality.",
+      "Creates online resources and a task force with policymakers, community agencies, brain injury associations, Indigenous groups, people with brain injuries and their families.",
+      "Requires the minister to table the strategy report within 18 months, publish it on the Health Department website within 10 days after tabling, and later report on the strategy’s effectiveness within five years."
+    ],
+    "who_it_affects": [
+      "People with brain injuries",
+      "Families of people with brain injuries",
+      "Health care professionals",
+      "Brain injury associations",
+      "Provincial health governments",
+      "Indigenous groups",
+      "Schools, sports organisations and workplaces",
+      "Community agencies"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "indigenous-peoples"
+    ]
+  }
+}

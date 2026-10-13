@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/C-12",
+  "sourceHash": "dfa1326eac70d841ab4454bd25ded66d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:42.605Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13998454",
+  "summary": {
+    "tldr": "Changes border, immigration, drug, financial crime and sex offender laws, and gives the government new powers over some immigration applications and documents.",
+    "what_it_does": [
+      "Changes border and marine security rules by giving CBSA free facilities at certain crossings and cargo sites, letting officers inspect export goods, and moving coast guard services to National Defence with security and intelligence powers.",
+      "Creates a temporary fast-track for the Minister of Health to add precursor chemicals to Schedule V under the Controlled Drugs and Substances Act, and updates related regulations.",
+      "Lets regulations exempt police and military police, and people acting under their direction, from certain Criminal Code conspiracy, attempt, accessory and counselling offences when they are carrying out lawful drug investigations.",
+      "Changes immigration rules by expanding information sharing, adding representative rules, new ineligibility grounds, abandonment and withdrawal rules, and public-interest powers to stop, suspend, cancel or vary some applications and documents.",
+      "Raises money laundering penalties, requires compliance agreements and compliance orders after prescribed violations, makes more reporting entities enrol with FINTRAC, and lets FINTRAC share some information with the Commissioner of Canada Elections.",
+      "Updates sex offender reporting and disclosure rules, including more reporting details, recorded physical traits, and Canada Border Services Agency disclosure to law enforcement."
+    ],
+    "who_it_affects": [
+      "Canada Border Services Agency",
+      "Importers and exporters",
+      "Police and military police",
+      "Immigration and refugee claimants",
+      "Visa and permit applicants",
+      "Financial institutions and other reporting entities",
+      "Sex offenders",
+      "Canadian Coast Guard"
+    ],
+    "background": "The bill changes several federal laws, including the Customs Act, Immigration and Refugee Protection Act, Oceans Act, Controlled Drugs and Substances Act, and the money laundering law. It also requires a parliamentary review after five years.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship",
+      "crime-justice",
+      "economy-business"
+    ]
+  }
+}

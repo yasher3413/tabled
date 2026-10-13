@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-208",
+  "sourceHash": "9862318468a052f5ae25f96ec9b5e2b0",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:48:07.554Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11490415",
+  "summary": {
+    "tldr": "Sets rules provinces must meet to receive federal child care transfer payments and creates an advisory council on early learning and child care.",
+    "what_it_does": [
+      "Requires provinces to meet accountability, quality, universality and accessibility rules before they can receive federal early learning and child care transfer payments.",
+      "Requires provincial programs to be run on a non-profit basis by a public authority, with accounts and financial records subject to audit by the province’s audit authority.",
+      "Requires provinces to set standards for staff qualifications, training, support, pay, child-to-caregiver ratios, group size, health and safety, and child development.",
+      "Requires standards and action plans for early learning and child care services in First Nations, Inuit and Métis communities that reflect those communities’ values and traditions.",
+      "Requires each province to give every child resident access to appropriate early learning and child care services, including children with special needs.",
+      "Requires the Minister to table an annual report and establish an 18-member advisory council with representatives from provinces, Indigenous organisations, and child care providers, professionals, parents and children."
+    ],
+    "who_it_affects": [
+      "Provincial governments",
+      "Quebec government",
+      "Child care providers",
+      "Parents",
+      "Children",
+      "Children with special needs",
+      "First Nations, Inuit and Métis communities",
+      "Federal government"
+    ],
+    "background": "The bill applies to early learning and child care transfer payments made by Canada to provinces. It allows Quebec to opt out of the program criteria and still receive its transfer payment.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "education",
+      "families-children",
+      "government-operations"
+    ]
+  }
+}

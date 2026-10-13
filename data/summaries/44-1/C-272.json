@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-272",
+  "sourceHash": "56c0dc19164c700f61573740318bca94",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:08.528Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11752882",
+  "summary": {
+    "tldr": "Requires the federal minister to develop and report on a national strategy to increase employment for persons with disabilities.",
+    "what_it_does": [
+      "Requires the Minister of Employment and Social Development to develop a national strategy, with provincial employment ministers, to increase the economic participation of persons with disabilities.",
+      "Requires the strategy to include steps to educate business owners and private sector employers, correct workplace misconceptions, encourage inclusive hiring, and promote the Opportunities Fund for Persons with Disabilities.",
+      "Requires the minister to hold at least one conference with provincial government representatives when developing the strategy.",
+      "Requires the minister to table a report on the strategy in both Houses of Parliament within two years of royal assent, then publish it on the department website within 10 days.",
+      "Requires the minister to report on the strategy’s effectiveness every five years after the first report is tabled, including conclusions and recommendations."
+    ],
+    "who_it_affects": [
+      "Persons with disabilities",
+      "Private sector employers",
+      "Business owners",
+      "Provincial governments",
+      "Minister of Employment and Social Development",
+      "Parliament"
+    ],
+    "background": "The bill says it would create a national employment strategy to increase the economic participation of persons with disabilities.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

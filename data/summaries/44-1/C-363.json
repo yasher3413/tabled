@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-363",
+  "sourceHash": "414d742dff4cff5b934e97376d177298",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:56.528Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12702510",
+  "summary": {
+    "tldr": "Removes certain sexual offences committed in Canada from the military justice system and sends them to the regular criminal courts.",
+    "what_it_does": [
+      "Excludes certain Criminal Code sexual offences from section 130 of the National Defence Act, so they are no longer dealt with under military justice when committed in Canada.",
+      "Also excludes attempts and conspiracies to commit those sexual offences from military jurisdiction.",
+      "Lets any case already started under the old rule continue under the old law until it is finished.",
+      "Brings the changes into force on the first anniversary of royal assent."
+    ],
+    "who_it_affects": [
+      "Canadian Armed Forces members",
+      "Military justice system",
+      "People charged with sexual offences",
+      "Survivors of sexual offences"
+    ],
+    "background": "Section 130 of the National Defence Act normally lets the military justice system deal with some Criminal Code offences. This bill carves out certain sexual offences from that rule when they are committed in Canada.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "defence-security",
+      "rights-equality"
+    ]
+  }
+}

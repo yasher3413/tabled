@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-8",
+  "sourceHash": "3febc5baeb30fcef3fb90dd274d2ba97",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:06.012Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-8",
+  "summary": {
+    "tldr": "Implements tax, housing, health and employment measures from the 2021 economic and fiscal update.",
+    "what_it_does": [
+      "Creates a refundable tax credit for eligible businesses that pay for ventilation upgrades to improve air quality.",
+      "Expands the northern residents deduction so all northern residents can claim up to $1,200 in eligible travel expenses, even without employer travel assistance.",
+      "Raises the School Supplies Tax Credit from 15% to 25% and lets eligible educators claim electronic devices.",
+      "Creates a refundable tax credit for farming businesses in backstop jurisdictions to return fuel charge proceeds.",
+      "Enacts a 1% annual tax on vacant or underused residential property owned by non-resident non-Canadians, with reporting and enforcement rules.",
+      "Sets a six-year limit to recover Canada Emergency Business Account loans, authorizes payments for school ventilation, COVID-19 vaccination proof and COVID-19 tests, and sets maximum Employment Insurance weeks for certain seasonal workers."
+    ],
+    "who_it_affects": [
+      "Eligible businesses",
+      "Northern residents",
+      "Eligible educators",
+      "Farming businesses",
+      "Non-resident non-Canadian property owners",
+      "CEBA borrowers",
+      "Schools",
+      "Certain seasonal workers"
+    ],
+    "background": "The bill implements certain provisions of the economic and fiscal update tabled on December 14, 2021, and includes other measures.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "housing",
+      "labour-employment"
+    ]
+  }
+}

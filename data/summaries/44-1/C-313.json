@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-313",
+  "sourceHash": "991c3b0c1a8044f630fb7598fd013e24",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:47.050Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12219780",
+  "summary": {
+    "tldr": "Creates a stricter bail test for people charged with certain firearms offences committed while under a firearms prohibition order.",
+    "what_it_does": [
+      "Creates a rule that, in certain listed firearms and robbery cases, detention in custody is justified unless the accused shows it is not needed.",
+      "Requires the accused in those cases to show detention is not needed to make them attend court, protect the public, or maintain confidence in the justice system.",
+      "Removes the Criminal Code's usual principle of restraint in those exceptional cases, so release is not the primary option there.",
+      "Updates rules for cancelled release documents and for release orders to use the new detention test, and changes court forms to match."
+    ],
+    "who_it_affects": [
+      "Accused people charged with listed offences",
+      "People under firearms prohibition orders",
+      "Judges and justices",
+      "Peace officers"
+    ],
+    "background": "The Criminal Code now says decision-makers should give primary consideration to release at the earliest reasonable opportunity on the least onerous conditions. The bill creates an exception for certain cases involving listed offences and firearms orders.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

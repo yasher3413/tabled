@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-250",
+  "sourceHash": "764e948609cc9515940c920c97ef87cc",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:37.092Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11559815",
+  "summary": {
+    "tldr": "Adds a Criminal Code offence for publicly promoting antisemitism by condoning, denying, or downplaying the Holocaust.",
+    "what_it_does": [
+      "Adds a Criminal Code offence for communicating statements, other than in private conversation, that wilfully promote antisemitism by condoning, denying, or downplaying the Holocaust.",
+      "Sets the penalty for that offence at up to two years in prison on indictment, or a summary conviction offence.",
+      "Applies the section 319 defences and the Attorney General consent rule to the new offence.",
+      "Allows forfeiture of anything used to commit the offence and applies the same communication-facility seizure rules used for other section 319 offences.",
+      "Defines \"Holocaust\" as the planned and deliberate state-sponsored persecution and annihilation of European Jewry by the Nazis and their collaborators from 1933 to 1945."
+    ],
+    "who_it_affects": [
+      "People who make public statements",
+      "People accused of hate propaganda offences",
+      "Courts",
+      "Provincial attorneys general"
+    ],
+    "background": "The bill amends section 319 of the Criminal Code. It adds a new definition of Holocaust to that section.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

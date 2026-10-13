@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/S-236",
+  "sourceHash": "b852e73fe95fa94b912aa43446772c82",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:36.061Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11596250",
+  "summary": {
+    "tldr": "Makes Prince Edward Island one Employment Insurance region for Parts I and VIII of the Act and the related regulations.",
+    "what_it_does": [
+      "Declares Prince Edward Island to be one region when applying Part I and Part VIII of the Employment Insurance Act.",
+      "Replaces the current rule that splits Prince Edward Island into the Charlottetown area and the rest of the province for Employment Insurance purposes.",
+      "Makes the same change in the Employment Insurance Regulations so the province is treated as one region there too."
+    ],
+    "who_it_affects": [
+      "Employment Insurance claimants in Prince Edward Island",
+      "Workers in Prince Edward Island",
+      "Employers in Prince Edward Island"
+    ],
+    "background": "The current rules treat the Charlottetown Census Agglomeration and the rest of Prince Edward Island as separate regions for Employment Insurance purposes.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment"
+    ]
+  }
+}

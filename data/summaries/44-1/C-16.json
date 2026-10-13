@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-16",
+  "sourceHash": "28881ee20532dc07e4ff7824c121335e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:11.021Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-16",
+  "summary": {
+    "tldr": "Appropriates $75.48 billion for the federal public service for 2022-23.",
+    "what_it_does": [
+      "Authorizes $75,483,404,546 from the Consolidated Revenue Fund for the public service of Canada for the fiscal year ending March 31, 2023.",
+      "Covers public service expenses that were not otherwise provided for in that fiscal year.",
+      "Became law on Royal Assent, which was March 31, 2022."
+    ],
+    "who_it_affects": [
+      "Public service of Canada",
+      "Federal departments and agencies",
+      "Federal government"
+    ],
+    "background": "The bill was introduced in the House of Commons on March 24, 2022. It is an appropriation act for the fiscal year ending March 31, 2023.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "budget-taxes"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/S-220",
+  "sourceHash": "95b5ed66e526a500a02318bd559e5e12",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:01.492Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11474629",
+  "summary": {
+    "tldr": "Adds the Governor General to the list of offices whose appointees must speak and understand both official languages.",
+    "what_it_does": [
+      "Adds the Governor General, and any other chief executive officer or administrator acting for the Government of Canada on behalf of the Sovereign, to the offices covered by the Language Skills Act.",
+      "Requires people appointed to that office to be able to speak and understand both official languages at the time of appointment.",
+      "Renumbers the current paragraph 2(a) of the Act as paragraph 2(a.1)."
+    ],
+    "who_it_affects": [
+      "Governor General appointees",
+      "Other federal office appointees"
+    ],
+    "background": "The Language Skills Act already says that people appointed to certain offices must be able to speak and understand both official languages at the time of appointment.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "rights-equality"
+    ]
+  }
+}

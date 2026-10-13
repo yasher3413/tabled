@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-411",
+  "sourceHash": "904c1c1d59b01bc0914b8463f4a50a5d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:44.504Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13220340",
+  "summary": {
+    "tldr": "Creates new Criminal Code offences for causing wildfires and damaging places of worship, and adds sentencing factors for arson by negligence.",
+    "what_it_does": [
+      "Creates a new offence for intentionally causing a wildfire, with up to 14 years in prison for a first indictable offence, or a fine of up to $100,000 on summary conviction.",
+      "Creates a new offence for intentionally causing damage by fire or explosion to a place of worship, with up to 14 years in prison and a minimum of 5 years for a first indictable offence.",
+      "Requires courts to treat it as an aggravating factor when arson by negligence leads to a wildfire or the destruction of a place of worship, and to record how that fact affected the sentence.",
+      "Adds the new wildfire and place of worship arson offences to the Criminal Code’s lists of offences for related legal purposes."
+    ],
+    "who_it_affects": [
+      "People accused of arson",
+      "Courts and judges",
+      "Religious communities",
+      "Places of worship"
+    ],
+    "background": "The bill amends the Criminal Code. It adds new sections for arson involving wildfires and places of worship, and changes sentencing rules for arson by negligence.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

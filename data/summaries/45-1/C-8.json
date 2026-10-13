@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/C-8",
+  "sourceHash": "1fdfd9b71003c9834026769859a70812",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:02.937Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14196001",
+  "summary": {
+    "tldr": "Gives the government new powers to secure telecom networks and protect critical cyber systems, with reporting, inspection, and penalty rules.",
+    "what_it_does": [
+      "Adds security of the Canadian telecommunications system as a policy goal and lets the Governor in Council or the Minister of Industry order providers to stop using, remove, or change specified products, services, or providers.",
+      "Creates the Critical Cyber Systems Protection Act, which lets the Governor in Council designate services or systems and classes of operators in federally regulated sectors.",
+      "Requires designated operators to set up, carry out, and review cyber security programs, manage supply-chain and third-party risks, and report cyber security incidents within up to 72 hours.",
+      "Allows certain federal bodies to share confidential information for these purposes, sets limits on disclosure, and requires disposal of personal information when it is no longer needed.",
+      "Creates compliance orders, inspections, administrative monetary penalties, offences, judicial review rules, annual reporting, and a five-year review of the Act."
+    ],
+    "who_it_affects": [
+      "Telecommunications service providers",
+      "Federally regulated operators",
+      "Federal regulators",
+      "National security agencies",
+      "Parliament"
+    ],
+    "background": "Part 1 amends the Telecommunications Act. Part 2 creates a new law for cyber systems linked to services or systems the Governor in Council designates for national security or public safety.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "defence-security",
+      "government-operations"
+    ]
+  }
+}

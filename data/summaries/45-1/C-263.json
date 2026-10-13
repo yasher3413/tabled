@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-263",
+  "sourceHash": "357d99f3237cde8b3ed9373c30bd048d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:31.687Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13956294",
+  "summary": {
+    "tldr": "Requires the Public Safety Minister to create a national framework for silver alerts for missing vulnerable older persons.",
+    "what_it_does": [
+      "Requires the Minister of Public Safety and Emergency Preparedness to develop a national framework for a coordinated silver alert system across Canada.",
+      "Requires the minister to consult provinces, territories, police forces, alert issuers, and care providers when developing the framework.",
+      "Calls for the framework to make silver alerts more consistent across Canada, including use of existing public alert systems such as wireless alerts.",
+      "Calls for common rules on when a silver alert can be issued, to limit inappropriate alerts and allow targeted or inter-provincial alerts.",
+      "Requires privacy rules for personal information in alerts, plus public education, a report to Parliament within one year, and a review within two years."
+    ],
+    "who_it_affects": [
+      "Missing vulnerable older persons",
+      "Older adults with dementia",
+      "Provincial and territorial governments",
+      "Police forces",
+      "Alerting agencies",
+      "Care providers"
+    ],
+    "background": "A silver alert is an emergency notification used to alert the public about a missing vulnerable older person, including a person with dementia.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "seniors-veterans",
+      "government-operations",
+      "crime-justice"
+    ]
+  }
+}

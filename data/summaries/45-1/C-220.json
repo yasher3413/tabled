@@ -1,0 +1,27 @@
+{
+  "billId": "45-1/C-220",
+  "sourceHash": "9fd0e6544b853d3f7b70830bd0036c89",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:28.822Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13591508",
+  "summary": {
+    "tldr": "Stops courts from considering a non-citizen offender's immigration status, or family members' status, when deciding a sentence.",
+    "what_it_does": [
+      "Adds a Criminal Code rule that a court must not consider how a sentence could affect a non Canadian citizen offender's immigration status in Canada.",
+      "Extends that rule to the immigration status of a member of the offender's family."
+    ],
+    "who_it_affects": [
+      "Non-citizen offenders",
+      "Their family members",
+      "Sentencing courts"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "immigration-citizenship"
+    ]
+  }
+}

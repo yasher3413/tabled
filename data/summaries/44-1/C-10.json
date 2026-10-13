@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-10",
+  "sourceHash": "2e80cd21ee4bc07e53a65d62cbf5f9f4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:14.662Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-10",
+  "summary": {
+    "tldr": "Authorizes federal spending and transfers for COVID-19 tests and testing equipment.",
+    "what_it_does": [
+      "Authorizes the Minister of Health to make payments of up to $2.5 billion from the Consolidated Revenue Fund for COVID-19 tests.",
+      "Authorizes the Minister of Health to transfer COVID-19 tests and related instruments to provinces, territories, and bodies and persons in Canada."
+    ],
+    "who_it_affects": [
+      "Minister of Health",
+      "Provincial governments",
+      "Territorial governments",
+      "Bodies and persons in Canada"
+    ],
+    "background": "The bill was introduced in the House of Commons on 31 January and received first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

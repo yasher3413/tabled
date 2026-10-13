@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/C-233",
+  "sourceHash": "81027e207765bb3173d263d43d368f7c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:46.346Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13596825",
+  "summary": {
+    "tldr": "Changes Canada’s export permit rules for military goods, removes country exemptions, and adds reporting and treaty compliance requirements.",
+    "what_it_does": [
+      "Expands the definition of “arms, ammunition, implements or munitions of war” to include parts, components and technology needed to assemble or use them.",
+      "Removes country-based exemptions from the Export Control List for military goods.",
+      "Bars the Minister from issuing general export permits and general brokering permits for military goods.",
+      "Requires the Minister to consider added factors when deciding export or brokering permits, and to require an end-use certificate when that would help reduce a substantial risk of war crimes or human rights violations.",
+      "Requires the Minister to table an annual report in Parliament on military goods exports, permit decisions and steps taken to comply with the Arms Trade Treaty.",
+      "Makes permits issued before royal assent expire after 180 days, and gives pending applications and General Export Permit No. 47 temporary transitional treatment."
+    ],
+    "who_it_affects": [
+      "Canadian arms exporters",
+      "Brokers of military goods",
+      "The federal government",
+      "Members of Parliament"
+    ],
+    "background": "The bill amends the Export and Import Permits Act. Its summary says it is meant to align the law more fully with the Arms Trade Treaty.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "government-operations",
+      "defence-security"
+    ]
+  }
+}

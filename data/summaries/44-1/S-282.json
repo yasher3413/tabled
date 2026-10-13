@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/S-282",
+  "sourceHash": "1482e45c4e99a359640a17254574a476",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:24.170Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12723804",
+  "summary": {
+    "tldr": "Requires a federal strategy for children and youth in Canada, with goals, consultations, reporting, and regular parliamentary review.",
+    "what_it_does": [
+      "Requires a federal minister to develop a national strategy for children and youth in Canada, and lets the Governor in Council choose which minister leads it.",
+      "Requires the strategy to set government goals, including ending child poverty, ensuring a high and consistent standard of living, and meeting the Convention on the Rights of the Child, related protocols, and UNDRIP as it relates to children and youth.",
+      "Requires the strategy to include measurable outcomes, indicators, an evidence-based assessment, a plan for unmet goals, the resources needed, and ways to monitor, update, and oversee the strategy, including complaint handling and parliamentary oversight.",
+      "Requires the minister to consult children and youths, relevant federal ministers, provincial and municipal governments, Indigenous governing bodies, and organisations that serve or represent children and youth, while making sure the children and youths consulted reflect Canada’s diversity.",
+      "Requires the minister to consider Canada’s human rights obligations, Jordan’s Principle, the Inuit Child First Initiative, and relevant Truth and Reconciliation Commission and Missing and Murdered Indigenous Women and Girls recommendations.",
+      "Requires progress reports every six months until the strategy is tabled in Parliament, then requires the strategy within 24 months of royal assent, public publication within 10 days, and five-year review reports after that."
+    ],
+    "who_it_affects": [
+      "Children and youths in Canada",
+      "Federal ministers",
+      "Indigenous governing bodies",
+      "Provincial governments",
+      "Municipal governments",
+      "Children’s advocacy groups",
+      "Parliament"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "families-children",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

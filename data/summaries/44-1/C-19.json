@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-19",
+  "sourceHash": "054de048c819d9539f64094aad926b84",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:12.867Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11908459",
+  "summary": {
+    "tldr": "Implements budget tax changes, creates a vaping product tax, and adds a new tax on certain luxury vehicles, aircraft and boats.",
+    "what_it_does": [
+      "Creates a labour mobility deduction of up to $4,000 for eligible tradespeople who temporarily relocate for work, starting in the 2022 tax year.",
+      "Changes tax rules for passenger vehicles, social assistance amounts, the disability tax credit for type 1 diabetes, the climate action incentive, and zero-emission technology manufacturing, including a new corporate deduction with phased rates.",
+      "Treats some social assistance from Canada, a province, or an Indigenous governing body as not blocking parent or dependant status, and adds Indigenous governing bodies to the Children’s Special Allowances Act, all effective January 1, 2020.",
+      "Changes charity rules by defining qualifying disbursements, allowing gifts to grantee organizations, limiting gifts to qualified donees to 50% of a charitable organization’s income, and changing disbursement quota and penalty rules.",
+      "Treats certain home purchase agreement assignments as taxable real property sales, updates GST/HST rebate rules for nurse practitioners, and creates a federal vaping product tax and licence regime with stamps, duties, warehousing rules, and offences.",
+      "Enacts the Select Luxury Items Tax Act for certain vehicles, aircraft and vessels over $100,000 or $250,000, and adds rules for bankruptcy, amalgamations, partnerships, electronic filing and payment, audits, penalties, and offences."
+    ],
+    "who_it_affects": [
+      "Tradespeople",
+      "People with type 1 diabetes",
+      "Charities",
+      "Families receiving social assistance",
+      "Home buyers with assigned contracts",
+      "Vaping product businesses",
+      "Buyers of luxury vehicles, aircraft and vessels",
+      "Corporations and partnerships"
+    ],
+    "background": "The bill implements certain provisions of the federal budget tabled on April 7, 2022. It also adds other tax and excise measures, including a new luxury items tax and vaping rules.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations",
+      "health"
+    ]
+  }
+}

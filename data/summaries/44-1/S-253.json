@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-253",
+  "sourceHash": "174b2c0db773c1ca3f1c6f4b6e428d78",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:57.560Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11990739",
+  "summary": {
+    "tldr": "Requires the federal health minister to create a national framework on fetal alcohol spectrum disorder, with measures on training, awareness, research, standards and reporting.",
+    "what_it_does": [
+      "Requires the Minister of Health to develop a national framework on fetal alcohol spectrum disorder.",
+      "Includes measures for training, education and guidance for health care and other professionals on prevention, diagnosis and support.",
+      "Promotes research and information sharing between governments on prevention, diagnosis and support.",
+      "Sets national standards for prevention, diagnosis and support, and a strategy to raise awareness about alcohol use during pregnancy and fetal alcohol spectrum disorder risks, including possible changes to alcohol-related laws and policies.",
+      "Requires the minister to consult federal ministers, provinces and territories, stakeholders, Indigenous communities and others while developing the framework.",
+      "Requires a report on the framework to be tabled within one year, published online within 10 days, and followed by a five-year report on what was implemented and why any measures were not."
+    ],
+    "who_it_affects": [
+      "People with fetal alcohol spectrum disorder",
+      "Families and caregivers",
+      "Health care professionals",
+      "Service providers",
+      "Provincial and territorial governments",
+      "Indigenous communities",
+      "Researchers"
+    ],
+    "background": "The bill says the framework is meant to support Canadians with fetal alcohol spectrum disorder, their families and their caregivers.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

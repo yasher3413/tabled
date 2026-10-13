@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-342",
+  "sourceHash": "5d1fc2a4f35412c54ec719f84909e1d8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:52:31.210Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12534465",
+  "summary": {
+    "tldr": "Requires certain dangerous offenders and repeat first degree murder offenders to be classified and held as maximum security inmates.",
+    "what_it_does": [
+      "Assigns a maximum security classification to any inmate found to be a dangerous offender or convicted of more than one first degree murder.",
+      "Requires those inmates to be confined in a maximum security penitentiary or in a maximum security area of a penitentiary.",
+      "Makes transfer decisions subject to the new maximum security rule.",
+      "Makes maximum security offenders ineligible for unescorted temporary absence."
+    ],
+    "who_it_affects": [
+      "Dangerous offenders",
+      "People convicted of multiple first-degree murders",
+      "Federal inmates",
+      "Correctional Service of Canada"
+    ],
+    "background": "The bill amends the Corrections and Conditional Release Act. It adds a new rule for maximum security classification and updates the rules on confinement, transfers, and temporary absence.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/C-338",
+  "sourceHash": "085b18b08f2625fdfb5120cd93cfeb41",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:52.843Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12498804",
+  "summary": {
+    "tldr": "Designates February 22 each year as National Indigenous Teachers Day in Canada.",
+    "what_it_does": [
+      "Designates the 22nd day of February in each year as “National Indigenous Teachers Day”.",
+      "Names that date throughout Canada as “National Indigenous Teachers Day”."
+    ],
+    "who_it_affects": [
+      "Indigenous teachers",
+      "Schools",
+      "Governments"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

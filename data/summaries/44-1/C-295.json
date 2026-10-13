@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-295",
+  "sourceHash": "55ff27187adb2def5ca2dbedeb3fc053",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:47.851Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12775869",
+  "summary": {
+    "tldr": "Adds Criminal Code rules for long-term care facility owners and officers who fail to provide residents with the necessaries of life.",
+    "what_it_does": [
+      "Creates a Criminal Code offence for owners and officers of long-term care facilities who fail to ensure residents get the necessaries of life.",
+      "Defines long-term care facilities and officers for this rule, covering facilities for three or more adults who need care because of age, illness, mental disorder, disability or frailty.",
+      "Lets courts ban convicted owners or officers from jobs or volunteer roles that put them in charge of, or in a position of trust over, vulnerable adults.",
+      "Requires courts to consider any provincial penalty or protective measure when deciding on that ban.",
+      "Adds an organisation’s failure to meet a legal duty owed to vulnerable adults as an aggravating factor at sentencing.",
+      "Sets the bill to come into force 30 days after royal assent."
+    ],
+    "who_it_affects": [
+      "Long-term care facilities",
+      "Facility owners",
+      "Facility officers",
+      "Residents",
+      "Vulnerable adults",
+      "Courts and judges"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health"
+    ]
+  }
+}

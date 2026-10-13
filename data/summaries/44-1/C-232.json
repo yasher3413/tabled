@@ -1,0 +1,24 @@
+{
+  "billId": "44-1/C-232",
+  "sourceHash": "16fe3852571fa9af634300c317ad4899",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:21.913Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12271366",
+  "summary": {
+    "tldr": "Designates April as Arab Heritage Month across Canada each year.",
+    "what_it_does": [
+      "Designates the month of April, throughout Canada, as “Arab Heritage Month” each year."
+    ],
+    "who_it_affects": [
+      "Arab Canadians",
+      "People and organisations in Canada"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

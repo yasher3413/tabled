@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/C-243",
+  "sourceHash": "6c99f186d80006f40f9b7f8180f5d0df",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:32.286Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13599607",
+  "summary": {
+    "tldr": "Stops new day or full parole applications for some people serving sentences for first- or second-degree murder after certain parole decisions.",
+    "what_it_does": [
+      "Prohibits new day parole applications for offenders serving sentences for first- or second-degree murder if the Parole Board refuses day parole, or cancels or ends parole after a review.",
+      "Prohibits new full parole applications for offenders serving sentences for first- or second-degree murder if the Parole Board refuses full parole, or cancels or ends parole after a review."
+    ],
+    "who_it_affects": [
+      "People serving sentences for first- or second-degree murder",
+      "The Parole Board of Canada"
+    ],
+    "background": "The bill amends the Corrections and Conditional Release Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

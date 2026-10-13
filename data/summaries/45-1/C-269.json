@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/C-269",
+  "sourceHash": "3a7cec590df6e042c6c1246aa67fc547",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:12.221Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13966238",
+  "summary": {
+    "tldr": "Creates a 30% non-refundable tax credit for certain corporations that buy qualifying heat recovery equipment.",
+    "what_it_does": [
+      "Creates a non-refundable tax credit equal to 30% of the capital cost of qualifying heat recovery equipment bought by a taxable Canadian corporation after December 31, 2025, if required forms are filed on time.",
+      "Defines qualifying equipment as unused equipment for use only in Canada that recovers heat from industrial processes and converts it into energy, and is not mainly used to generate energy.",
+      "Reduces the credit for non-government assistance, and adds rules for later repayment of assistance, partnership allocations, and limited partners.",
+      "Adds a recapture rule, if the equipment is converted to another use, exported, or disposed of within the next five calendar years, the credit is added back to tax.",
+      "Excludes equipment that is a tax shelter investment, and makes related changes to the Income Tax Act to fit the new credit."
+    ],
+    "who_it_affects": [
+      "Taxable Canadian corporations",
+      "Businesses buying industrial equipment",
+      "Partnerships",
+      "Limited partners"
+    ],
+    "background": "It amends the Income Tax Act to add a new heat recovery tax credit.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "energy-resources",
+      "economy-business"
+    ]
+  }
+}

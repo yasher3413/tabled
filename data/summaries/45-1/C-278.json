@@ -1,0 +1,30 @@
+{
+  "billId": "45-1/C-278",
+  "sourceHash": "c20649af8ef8c183d9c16bbcd1db1c76",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:50.606Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14140930",
+  "summary": {
+    "tldr": "Requires a House of Commons seat to be vacated and a by-election called when an MP changes party affiliation.",
+    "what_it_does": [
+      "Adds a rule that a person in the House of Commons is deemed to have vacated their seat if they join a registered party after being elected for a different party or as an independent.",
+      "Requires the leader of the party that the person joins to notify the Speaker of the House of Commons in writing without delay.",
+      "Requires the Speaker, or the party leader in some cases, to send a warrant to the Chief Electoral Officer for a writ to fill the vacancy by election."
+    ],
+    "who_it_affects": [
+      "Members of the House of Commons",
+      "Independent MPs",
+      "Registered political parties",
+      "House of Commons Speaker",
+      "Chief Electoral Officer",
+      "Voters in affected ridings"
+    ],
+    "background": "The bill amends the Parliament of Canada Act by adding a new rule on change of political affiliation in the House of Commons.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections"
+    ]
+  }
+}

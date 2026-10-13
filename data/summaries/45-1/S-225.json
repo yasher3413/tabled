@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/S-225",
+  "sourceHash": "b0fa9a8831c7954832b9bc7383047dd8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:14.123Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14031576",
+  "summary": {
+    "tldr": "Designates February 5 each year as National Thanadelthur Day across Canada.",
+    "what_it_does": [
+      "Designates February 5 each year as National Thanadelthur Day throughout Canada.",
+      "States that National Thanadelthur Day is not a legal holiday or a non-juridical day."
+    ],
+    "who_it_affects": [
+      "Canadians",
+      "Government offices"
+    ],
+    "background": "The bill sets out a new annual day named for Thanadelthur.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "billId": "45-1/C-204",
+  "sourceHash": "4b964c0ed4975c9caf74000e074ee338",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:47.356Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13547449",
+  "summary": {
+    "tldr": "Raises the federal tax credits for volunteer firefighters and search and rescue volunteers from $6,000 to $10,000, and updates the firefighter service definition.",
+    "what_it_does": [
+      "Raises the amount used to calculate the volunteer firefighter tax credit from $6,000 to $10,000.",
+      "Raises the amount used to calculate the search and rescue volunteer tax credit from $6,000 to $10,000.",
+      "Expands the definition of eligible volunteer firefighting services to include being available or on call for firefighting, emergency services, and non-emergency duties.",
+      "Allows volunteer firefighters to receive nominal pay, as long as it is not a liveable wage.",
+      "Applies these changes to the 2026 tax year and later."
+    ],
+    "who_it_affects": [
+      "Volunteer firefighters",
+      "Search and rescue volunteers",
+      "Fire departments"
+    ],
+    "background": "The bill amends sections 118.06 and 118.07 of the Income Tax Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes"
+    ]
+  }
+}

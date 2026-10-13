@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-7",
+  "sourceHash": "910e3ab4a1f2e4974933a217abc3d86f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:23.506Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-7",
+  "summary": {
+    "tldr": "Changes Senate allowance rules, requires consultation on some Parliament officer appointments, and lets Senate leaders change a key Senate committee’s membership.",
+    "what_it_does": [
+      "Changes the extra annual allowances for senators in certain posts. The government and Opposition in the Senate can each have five eligible positions, and the three other largest recognised parties or groups can each have four.",
+      "Requires the Leader of the Government in the Senate or Government Representative, the Leader of the Opposition, and the leader or facilitator of each other recognised Senate group to be consulted on appointments of certain officers and agents of Parliament.",
+      "Lets those same Senate leaders or facilitators change the membership of the Standing Senate Committee on Internal Economy, Budgets and Administration."
+    ],
+    "who_it_affects": [
+      "Senators in leadership roles",
+      "Recognised Senate parties and groups",
+      "Senate government and opposition leaders",
+      "Officers and agents of Parliament",
+      "Standing Senate Internal Economy Committee"
+    ],
+    "background": "The bill amends the Parliament of Canada Act and makes related changes to other Acts.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "democracy-elections"
+    ]
+  }
+}

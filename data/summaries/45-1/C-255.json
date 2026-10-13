@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-255",
+  "sourceHash": "a86df4c450fc3cb56a5dbb5cc6352303",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:43.821Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13730744",
+  "summary": {
+    "tldr": "Raises Criminal Code penalties for mischief involving buildings, objects or cemeteries used for religious worship.",
+    "what_it_does": [
+      "Adds a new Criminal Code rule for mischief done to buildings or parts of buildings mainly used for religious worship, related worship objects, and cemeteries.",
+      "Requires at least $1,000 paid to the property owner for a first offence.",
+      "Requires at least $1,000 and 14 days in jail for a second offence, and at least $1,000 and 30 days in jail for later offences.",
+      "Allows up to 10 years in prison if the offence is prosecuted by indictment, or up to two years less a day if it is dealt with by summary conviction."
+    ],
+    "who_it_affects": [
+      "Religious institutions",
+      "Congregations",
+      "Cemetery operators",
+      "Property owners",
+      "People charged with mischief"
+    ],
+    "background": "The bill amends section 430 of the Criminal Code. Its drafters say it would increase the punishment for mischief relating to religious property.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

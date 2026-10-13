@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-401",
+  "sourceHash": "4bfaca4490f6685f44648394bc3b8198",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:08.174Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13195900",
+  "summary": {
+    "tldr": "Raises the northern residents deduction, adds inflation indexing, and merges the intermediate and northern zones into one northern zone.",
+    "what_it_does": [
+      "Raises the daily amount used to calculate the northern residents deduction to $13 for each qualifying day in a northern zone.",
+      "Adds the deduction’s dollar amounts to the list of amounts that are adjusted for inflation.",
+      "Merges the intermediate zone and the northern zone into one northern zone in Schedule 1.",
+      "Updates the rules for claiming trip costs under the deduction and lets the Governor in Council change area names or coordinates in Schedule 1 by order.",
+      "Applies the changes to the 2025 and later taxation years."
+    ],
+    "who_it_affects": [
+      "Northern residents",
+      "Individual taxpayers",
+      "People claiming the northern residents deduction",
+      "People who claim trip costs"
+    ],
+    "background": "The bill changes the Income Tax Act rules for the northern residents deduction. It replaces the current zone setup with a single northern zone in Schedule 1.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-297",
+  "sourceHash": "27894bd2ca86f1e7c366b7eadf53ba9f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:41.476Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11903351",
+  "summary": {
+    "tldr": "Lets ballots be printed in Indigenous languages in some ridings on Indigenous land, and for special ballots on request.",
+    "what_it_does": [
+      "Allows the Chief Electoral Officer to require all ballots in an electoral district on Indigenous land to be printed in both official languages and in the Indigenous language or languages of the electors.",
+      "Requires the Chief Electoral Officer to have a special ballot printed in an Indigenous language when an elector asks for one with their registration and special ballot application.",
+      "Uses the right writing system for each Indigenous language, including syllabics where needed.",
+      "Defines Indigenous land as reserves and other land set apart for a band under the Indian Act, plus land covered by certain claim or self-government agreements."
+    ],
+    "who_it_affects": [
+      "Electors on Indigenous land",
+      "Indigenous language speakers",
+      "People requesting special ballots",
+      "Chief Electoral Officer",
+      "Election workers"
+    ],
+    "background": "The bill adds new rules to the Canada Elections Act. It sets out what counts as Indigenous land for these rules.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections",
+      "indigenous-peoples"
+    ]
+  }
+}

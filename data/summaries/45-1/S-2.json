@@ -1,0 +1,28 @@
+{
+  "billId": "45-1/S-2",
+  "sourceHash": "e717e655b7b9b79049a117893e2d9b2b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:46.935Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/S-2",
+  "summary": {
+    "tldr": "Amends the Indian Act to create new registration rights in the Indian Register and related Band List rights for some people.",
+    "what_it_does": [
+      "Creates new entitlements to registration in the Indian Register under the Indian Act.",
+      "Gives people who become entitled the right to have their names entered in a Band List kept by the Department of Indigenous Services."
+    ],
+    "who_it_affects": [
+      "People seeking Indian Act registration",
+      "People newly entitled to registration",
+      "Bands with Band Lists",
+      "Indigenous communities"
+    ],
+    "background": "The bill responds to a Charter challenge to certain provisions of the Indian Act in Nicholas v. Canada (Attorney General).",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "rights-equality"
+    ]
+  }
+}

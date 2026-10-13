@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/S-235",
+  "sourceHash": "fd8107f73923bee2eef1217b6bac5d4f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:01.538Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13611975",
+  "summary": {
+    "tldr": "Requires the Public Safety minister to keep and update Canada’s human trafficking strategy, review it every five years, and report to Parliament each year.",
+    "what_it_does": [
+      "Requires the Minister of Public Safety and Emergency Preparedness to maintain and update the National Strategy to Combat Human Trafficking.",
+      "Requires the strategy to aim to end human trafficking, support people with lived experience, and include measures on prevention, survivor support, training, research, and coordination.",
+      "Requires the strategy to try to meet Canada’s obligations under several international agreements on women’s rights and children’s rights.",
+      "Requires a review of the strategy within two years, and every five years after that, with public consultations and a report tabled in Parliament and posted online.",
+      "Requires the Minister to prepare an annual report on how the strategy is being carried out and table it in both Houses of Parliament."
+    ],
+    "who_it_affects": [
+      "People with lived experience of human trafficking",
+      "People at risk of trafficking",
+      "Indigenous, Black and Asian women and girls",
+      "At-risk youth and migrants",
+      "Federal public safety officials",
+      "Provincial and municipal governments",
+      "Survivor Advisory Committee members",
+      "Community organisations"
+    ],
+    "background": "The bill defines human trafficking by referring to specific Criminal Code offences. It assigns these duties to the Minister of Public Safety and Emergency Preparedness.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-277",
+  "sourceHash": "832a2277cd0fcb1e2ebb4991362e79eb",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:50.609Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12585182",
+  "summary": {
+    "tldr": "Sets a federal framework for Canada-Taiwan relations, covering security, trade, legal ties, official language, and reporting to Parliament.",
+    "what_it_does": [
+      "Declares it federal policy to preserve close relations with Taiwan, support security and defence cooperation, back Taiwan’s participation in trade agreements and international bodies, and promote peace and stability in the Indo-Pacific.",
+      "Directs Canada, when referring to Taiwan, to use language that reflects the right of Taiwan’s people to self-determination, and says Canada should support peaceful democratic development in the Indo-Pacific.",
+      "States that general references in Canadian laws to foreign states or their governments include Taiwan.",
+      "Protects property and other rights held by Taiwan or a citizen of Taiwan on or after October 13, 1970, even if Canada recognises the People’s Republic of China.",
+      "Confirms that Taiwan can sue and be sued in Canadian courts, and that Canada and Taiwan may make agreements even without formal diplomatic relations.",
+      "Requires the Foreign Affairs Minister to table a report within 60 sitting days and requires parliamentary committees to review the Act and the Canada-Taiwan relationship."
+    ],
+    "who_it_affects": [
+      "Federal government",
+      "Parliament",
+      "Canadian and Taiwanese officials",
+      "Taiwanese government and entities",
+      "Canadian courts",
+      "Businesses trading with Taiwan"
+    ],
+    "background": "The bill says it creates a framework to strengthen relations between the people of Canada and the people of Taiwan, including in security, economic, cultural and legal affairs.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "defence-security",
+      "government-operations"
+    ]
+  }
+}

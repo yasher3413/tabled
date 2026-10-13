@@ -1,0 +1,27 @@
+{
+  "billId": "45-1/C-284",
+  "sourceHash": "5bd8f4ea7858698d1e0ffd27860a916f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:31.827Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14163433",
+  "summary": {
+    "tldr": "Limits which managers or confidential labour-relations staff can be used as replacement workers during strikes or lockouts under the Canada Labour Code.",
+    "what_it_does": [
+      "Replaces paragraph 94(4)(c) of the Canada Labour Code.",
+      "Bars an employer, during a strike or lockout, from using certain managers or confidential industrial-relations staff from another workplace to do the work of employees in the bargaining unit."
+    ],
+    "who_it_affects": [
+      "Federally regulated employers",
+      "Striking workers",
+      "Locked-out workers",
+      "Managers and confidential labour-relations staff"
+    ],
+    "background": "The bill amends the Canada Labour Code rules on replacement workers during strikes and lockouts.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment"
+    ]
+  }
+}

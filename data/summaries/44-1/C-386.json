@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-386",
+  "sourceHash": "3e666203c4c6cca103e9ba6d278a497e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:27.577Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12977470",
+  "summary": {
+    "tldr": "Creates a medal for eligible Canadian Forces, RCMP, firefighter and first responder service in designated domestic emergency relief operations.",
+    "what_it_does": [
+      "Establishes the Special Service Medal for Domestic Emergency Relief Operations and lets the Governor in Council set its design and ribbon.",
+      "Allows the medal for at least seven days of service in domestic emergency relief operations designated by the Governor in Council.",
+      "Limits the medal to one award per person, but allows extra bars for service in more than one operation.",
+      "Allows the medal to be awarded after death, and says it may be presented to the person chosen by the nominating minister.",
+      "Lets federal and provincial ministers nominate or recommend eligible Canadian Forces, RCMP, firefighter and first responder recipients.",
+      "Lets the Governor in Council make regulations about excluded classes of people and who may be nominated."
+    ],
+    "who_it_affects": [
+      "Canadian Forces members",
+      "Former Canadian Forces members",
+      "RCMP members",
+      "Former RCMP members",
+      "Firefighters",
+      "Former firefighters",
+      "First responders",
+      "Former first responders"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "defence-security",
+      "government-operations",
+      "commemoration"
+    ]
+  }
+}

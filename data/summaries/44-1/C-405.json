@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-405",
+  "sourceHash": "c02df4f45c2c75313bd0c03a1456b714",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:01.463Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13203260",
+  "summary": {
+    "tldr": "Sets a six-month minimum jail term for perjury before Parliament and lets a House of Parliament fine people for contempt.",
+    "what_it_does": [
+      "Sets a minimum punishment of six months in prison for perjury before a House of Parliament or one of its committees, while keeping the maximum at 14 years.",
+      "Allows the Senate or the House of Commons to order a fine of up to $50,000 for conduct that the House finds to be contempt of Parliament.",
+      "Makes a contempt fine enforceable in Federal Court once a certified copy of the order is filed there.",
+      "Provides that recovery of the fine is not affected by prorogation or dissolution of Parliament.",
+      "States that evidence under section 12 of the Parliament of Canada Act is admissible against the witness in proceedings under that section."
+    ],
+    "who_it_affects": [
+      "People who lie to Parliament",
+      "Witnesses before House committees",
+      "People found in contempt of Parliament",
+      "The Senate and House of Commons",
+      "Federal Court"
+    ],
+    "background": "Section 132 of the Criminal Code already makes perjury an indictable offence. The bill also adds a new fine process to the Parliament of Canada Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

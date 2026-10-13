@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-311",
+  "sourceHash": "5be9a648f16154d2ff98ee96d9c88b53",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:34.107Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12188184",
+  "summary": {
+    "tldr": "Adds pregnancy-related harm as an aggravating factor when courts sentence under the Criminal Code.",
+    "what_it_does": [
+      "Adds a sentencing factor when an offender knowingly assaults a person they know is pregnant.",
+      "Adds a sentencing factor when an offence causes physical or emotional harm to a pregnant victim.",
+      "Amends section 718.2(a) of the Criminal Code to list these circumstances as aggravating factors."
+    ],
+    "who_it_affects": [
+      "Pregnant women",
+      "People convicted of assault",
+      "Criminal courts",
+      "Judges"
+    ],
+    "background": "It changes the sentencing rules in the Criminal Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

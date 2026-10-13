@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-9",
+  "sourceHash": "55ac707dcfb9c98490fe272e27c1f22b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:33.135Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-9",
+  "summary": {
+    "tldr": "Replaces the process for reviewing federally appointed judges’ conduct and changes how removal recommendations are made.",
+    "what_it_does": [
+      "Replaces the Canadian Judicial Council process for reviewing the conduct of federally appointed judges.",
+      "Creates a new process for allegations of misconduct that are not serious enough to justify removing a judge from office.",
+      "Changes how recommendations to remove a judge from office can be made to the Minister of Justice.",
+      "Applies the same new process to other people appointed under an Act of Parliament to hold office during good behaviour."
+    ],
+    "who_it_affects": [
+      "Federally appointed judges",
+      "Canadian Judicial Council",
+      "Minister of Justice",
+      "Other federal office holders"
+    ],
+    "background": "The bill amends the Judges Act and replaces the process used by the Canadian Judicial Council to review the conduct of federally appointed judges.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/S-216",
+  "sourceHash": "4776d9d74f996f75477d7bc532a3786d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:52.483Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13541904",
+  "summary": {
+    "tldr": "Declares the Chignecto Isthmus Dykeland System and related works to be works for the general advantage of Canada, and sets out related federal powers.",
+    "what_it_does": [
+      "Declares the Chignecto Isthmus Dykeland System and related works to be works for the general advantage of Canada.",
+      "Makes the Minister of Infrastructure and Communities responsible for the Act and for all matters relating to the system and related works.",
+      "Lets the Minister of Public Works and Government Services enter agreements for the design, construction, or operation of the system or related works, and take steps to protect federal rights under those agreements.",
+      "Allows the Minister to make agreements with Nova Scotia, New Brunswick, municipalities, agencies, or other persons to carry out related agreements.",
+      "Lets the Governor in Council, in an emergency, exempt a person from federal permit, licence, approval, or other authorization requirements for construction if needed to prevent environmental damage or protect public health or safety.",
+      "Deems any authorization that would have been required but for an emergency exemption to have been issued after construction is complete."
+    ],
+    "who_it_affects": [
+      "Federal ministers",
+      "Nova Scotia government",
+      "New Brunswick government",
+      "Municipalities",
+      "Agencies of the two provinces",
+      "People or companies building the dykeland system",
+      "Indigenous governing bodies"
+    ],
+    "background": "The bill defines the Chignecto Isthmus Dykeland System as dyke systems wholly situated in the Nova Scotia and New Brunswick parts of the Chignecto Isthmus trade corridor. It also defines related work to include water level control structures and other work needed to maintain or operate a dyke.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/S-271",
+  "sourceHash": "5549b5a0c9edb0c15f0dd711d77f27ac",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:09.951Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12559042",
+  "summary": {
+    "tldr": "Adds First Nation laws to the RCMP’s peace officer duties, including preventing offences and carrying out warrants.",
+    "what_it_does": [
+      "Defines “First Nation law” in the RCMP Act as a bylaw under the Indian Act, a law under the Framework Agreement on First Nation Land Management Act, or a law made under a self-government agreement.",
+      "Requires RCMP peace officers to help prevent offences against First Nation laws, in the same way they do for federal and provincial laws.",
+      "Requires RCMP peace officers to execute warrants and perform related duties that may be carried out under First Nation laws."
+    ],
+    "who_it_affects": [
+      "RCMP officers",
+      "First Nations",
+      "First Nation governments",
+      "People subject to First Nation laws"
+    ],
+    "background": "The bill amends the Royal Canadian Mounted Police Act. It adds a new definition of “First Nation law” and updates section 18, which lists the duties of peace officers.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/S-206",
+  "sourceHash": "1f36846d3ff1f5cac7e590af239d64e8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:21.398Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11990095",
+  "summary": {
+    "tldr": "Allows jurors and some people who support them to share jury information with health care professionals for treatment, therapy, or counselling after a trial.",
+    "what_it_does": [
+      "Keeps it an offence for jurors and people who support a juror with a disability to disclose jury information that was not said in open court.",
+      "Adds an exception that allows that information to be shared with a health care professional for medical or psychiatric treatment, therapy, or counselling after the trial.",
+      "Limits that health care exception to professionals who are allowed to practise under provincial law.",
+      "Keeps other exceptions for investigations and criminal proceedings about an alleged offence under section 139(2)."
+    ],
+    "who_it_affects": [
+      "Jurors",
+      "People who support jurors with disabilities",
+      "Health care professionals",
+      "People seeking post-trial treatment"
+    ],
+    "background": "Section 649 of the Criminal Code currently bans disclosure of jury proceedings outside the courtroom. This bill replaces that section and adds a new exception for certain health-related disclosure.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health"
+    ]
+  }
+}

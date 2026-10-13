@@ -1,0 +1,26 @@
+{
+  "billId": "45-1/S-219",
+  "sourceHash": "9d02c3d80e6f2846df50847f19f74077",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:10.789Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14179365",
+  "summary": {
+    "tldr": "Designates January 11 each year as Judicial Independence Day across Canada.",
+    "what_it_does": [
+      "Designates January 11, in each and every year, as “Judicial Independence Day” throughout Canada.",
+      "Adds a short title for the Act, the Judicial Independence Day Act."
+    ],
+    "who_it_affects": [
+      "Courts",
+      "Judges",
+      "Legal system"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

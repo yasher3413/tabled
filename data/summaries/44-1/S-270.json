@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/S-270",
+  "sourceHash": "8e62b93fea477c4fb524fc08f44469fe",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:23.188Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12555473",
+  "summary": {
+    "tldr": "Bans exporting live horses and other equines from Canada for slaughter, and adds a penalty for breaking the ban.",
+    "what_it_does": [
+      "Prohibits exporting a horse or other equine from Canada for slaughter.",
+      "Treats a person as breaking the ban if they know, or should reasonably know, the animal is being exported to be slaughtered or fattened for slaughter.",
+      "Adds this offence to the Agriculture and Agri-Food Administrative Monetary Penalties Regulations as a very serious violation."
+    ],
+    "who_it_affects": [
+      "Horse exporters",
+      "People exporting equines",
+      "Owners of horses and other equines",
+      "Businesses involved in animal exports"
+    ],
+    "background": "The bill amends the Health of Animals Act. It also changes the Agriculture and Agri-Food Administrative Monetary Penalties Regulations.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "agriculture-food"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-40",
+  "sourceHash": "7aa77ae5be0910b6ab96a4bcaf1ca996",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:53:11.953Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13531594",
+  "summary": {
+    "tldr": "Creates an independent commission to review miscarriage of justice applications instead of the Minister of Justice.",
+    "what_it_does": [
+      "Creates the Miscarriage of Justice Review Commission as an independent body with a chief commissioner and other commissioners appointed by the Governor in Council.",
+      "Replaces the current ministerial review process, so people apply to the Commission for review of wrongful conviction and related cases instead of to the Minister of Justice.",
+      "Gives the Commission power to investigate applications and, if it finds reasonable grounds to think a miscarriage of justice may have happened, direct a new trial or hearing or refer the matter to a court of appeal.",
+      "Allows the Commission to provide support to applicants in need, share public information about its mandate, and adopt and publish policies for its work.",
+      "Requires annual reports with application, decision and demographic data, and repeals the current regulation on ministerial review applications."
+    ],
+    "who_it_affects": [
+      "People seeking miscarriage of justice review",
+      "Wrongfully convicted people",
+      "Dangerous offenders and long-term offenders",
+      "People found not criminally responsible",
+      "Attorney General offices",
+      "Provincial courts of appeal"
+    ],
+    "background": "The bill replaces Part XXI.1 of the Criminal Code and repeals the Regulations Respecting Applications for Ministerial Review - Miscarriages of Justice. It also makes related changes to several other Acts.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations",
+      "rights-equality"
+    ]
+  }
+}

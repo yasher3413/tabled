@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/S-218",
+  "sourceHash": "df5f40da42fb58269a062af6269c7eea",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:15.506Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11474531",
+  "summary": {
+    "tldr": "Requires the Minister for Women and Gender Equality to report on how bills and amendments may affect women, especially Indigenous women.",
+    "what_it_does": [
+      "Requires the minister to examine every government bill introduced in Parliament and table a statement on its possible effects on women, especially Indigenous women, within two sitting days.",
+      "Requires the minister to examine other bills that reach committee stage in their house of origin and table a statement within 10 sitting days after referral.",
+      "Requires the minister to table a statement on amendments made in the house where a bill starts, within seven sitting days after the other house receives the bill.",
+      "Requires each statement to be posted on the department’s website no later than the day after it is tabled.",
+      "Applies these new duties only to bills introduced six months or more after royal assent."
+    ],
+    "who_it_affects": [
+      "Minister for Women and Gender Equality",
+      "Members of Parliament",
+      "Women",
+      "Indigenous women",
+      "Parliamentary committees"
+    ],
+    "background": "The bill amends the Department for Women and Gender Equality Act by adding new duties to examine bills and amendments for their effects on women.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

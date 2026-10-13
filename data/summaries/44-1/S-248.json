@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/S-248",
+  "sourceHash": "fe24943ecfc69fd71d1170949bae6ab5",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:50.698Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11833663",
+  "summary": {
+    "tldr": "Changes Criminal Code rules so some people can pre-authorize medical assistance in dying if they later lose the capacity to consent.",
+    "what_it_does": [
+      "Allows a person whose natural death is not reasonably foreseeable to sign a written arrangement for medical assistance in dying on a set day, if they may lose the capacity to consent before that day.",
+      "Allows a person diagnosed with a serious and incurable illness, disease or disability to make a written declaration that waives final consent if they later lose capacity and meet the symptoms named in the declaration.",
+      "Requires that declaration to be made after diagnosis, within five years, and to be witnessed by two independent witnesses and certified by a medical practitioner.",
+      "Keeps medical assistance in dying off the table if the person shows refusal or resistance by words, sounds or gestures, even after an arrangement or declaration."
+    ],
+    "who_it_affects": [
+      "People seeking MAID",
+      "People whose death is not reasonably foreseeable",
+      "People with serious and incurable illness",
+      "Medical practitioners",
+      "Nurse practitioners"
+    ],
+    "background": "The Criminal Code currently requires final consent before medical assistance in dying is provided. This bill adds two ways to waive that final consent in some cases.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "crime-justice"
+    ]
+  }
+}

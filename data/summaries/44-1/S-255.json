@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/S-255",
+  "sourceHash": "aed6e48d8ff4fa1f2efae69a5b8db3be",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:39.106Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12038408",
+  "summary": {
+    "tldr": "Classifies the murder of an intimate partner, the person’s own child, or an intimate partner’s child as first degree murder.",
+    "what_it_does": [
+      "Classifies the murder of an intimate partner, the person’s own child, or an intimate partner’s child as first degree murder.",
+      "Makes that rule apply even if the murder was not planned and deliberate."
+    ],
+    "who_it_affects": [
+      "People charged with murder",
+      "Intimate partners",
+      "Children",
+      "Victims' families",
+      "Criminal courts"
+    ],
+    "background": "Section 231 of the Criminal Code sets out when murder is first degree murder. This bill adds a new rule to that section.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "families-children"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-223",
+  "sourceHash": "525bf9eb9cee71d76d356935dcba0745",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:54.626Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12169846",
+  "summary": {
+    "tldr": "Creates new Criminal Code offences for trafficking in human organs and makes related conduct a ground of inadmissibility under immigration law.",
+    "what_it_does": [
+      "Creates offences for obtaining, removing, helping remove, or acting in connection with removing an organ when informed consent was not given, if the person knew or was without regard to whether consent was given.",
+      "Creates an offence for obtaining, participating in, or facilitating the obtaining of an organ for transplant when the person knew it was obtained for consideration, or was without regard to whether it was obtained for consideration.",
+      "Sets the punishment for either offence as an indictable offence with up to 14 years in prison.",
+      "Treats certain acts done outside Canada as if they were done in Canada when committed by a Canadian citizen or permanent resident, if the conduct would be an offence under the new organ trafficking section.",
+      "Requires the Attorney General’s consent before proceedings are started for certain acts deemed to have been committed in Canada.",
+      "Makes a permanent resident or foreign national inadmissible to Canada if the minister believes they engaged in conduct that would be an offence under the new organ trafficking section."
+    ],
+    "who_it_affects": [
+      "Canadian citizens",
+      "Permanent residents",
+      "Foreign nationals",
+      "People involved in organ transplants",
+      "Immigration applicants",
+      "Prosecutors"
+    ],
+    "background": "The bill amends the Criminal Code and the Immigration and Refugee Protection Act. It adds a new Criminal Code section on trafficking in human organs.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "immigration-citizenship",
+      "health"
+    ]
+  }
+}

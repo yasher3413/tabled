@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-54",
+  "sourceHash": "d9a3fb3bc4b2a0464e09026e6e34345d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:51:27.071Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12560441",
+  "summary": {
+    "tldr": "Authorizes up to $108.7 billion for federal public administration spending for 2023-24.",
+    "what_it_does": [
+      "Authorizes up to $108,700,157,669 from the Consolidated Revenue Fund for federal public administration expenses in the 2023-24 fiscal year that are not otherwise provided for.",
+      "Splits the money into $103,446,347,749 for Schedule 1 items and $5,253,809,920 for Schedule 2 items, after subtracting interim amounts already granted under Appropriation Act No. 1, 2023-24.",
+      "Limits each item to its stated purpose and any terms and conditions in the item.",
+      "Makes the item provisions effective as of April 1, 2023.",
+      "Allows some amounts in Schedules 1 and 2 to be charged after year-end for account adjustments, and lets Schedule 2 amounts be paid and applied on or before March 31, 2025."
+    ],
+    "who_it_affects": [
+      "Federal public administration",
+      "Federal departments and agencies",
+      "Treasury Board",
+      "Parliament"
+    ],
+    "background": "The bill is for the fiscal year ending March 31, 2024. It builds on the Main Estimates and the interim appropriations already granted by Appropriation Act No. 1, 2023-24.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations"
+    ]
+  }
+}

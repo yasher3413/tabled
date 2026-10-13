@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-225",
+  "sourceHash": "2e8a11d49543c315fe3f015dcb433872",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:56.351Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11537138",
+  "summary": {
+    "tldr": "Changes bankruptcy and pension law to protect unpaid pension deficits and group insurance benefits, and gives regulators more power over pension funding.",
+    "what_it_does": [
+      "Gives priority in bankruptcy and CCAA cases to unpaid pension plan amounts tied to unfunded liabilities, solvency deficits, and certain terminated plans.",
+      "Bars insolvent employers from changing, cancelling, or stopping contributions to group sickness or accident insurance, group term life insurance, or private health services plans for employees or former employees.",
+      "Lets the Superintendent of Financial Institutions decide that a pension plan’s funding is impaired, or that the administrator is at risk, and requires notice to the employer and plan members.",
+      "Requires employers to tell the Superintendent, within five business days, about certain decisions, transactions, or events that could worsen a pension plan’s solvency deficiency.",
+      "Requires an employer to make extra payments to a plan within 30 days after an impaired-funding finding, unless the Superintendent extends the deadline or sets a payment schedule."
+    ],
+    "who_it_affects": [
+      "Pension plan members",
+      "Former employees",
+      "Insolvent employers",
+      "Bankruptcy trustees",
+      "CCAA companies",
+      "Pension plan administrators",
+      "Federally regulated pension plans"
+    ],
+    "background": "The bill amends the Bankruptcy and Insolvency Act, the Companies’ Creditors Arrangement Act and the Pension Benefits Standards Act, 1985. It deals with pension deficits and group insurance in insolvency cases.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "economy-business",
+      "health"
+    ]
+  }
+}

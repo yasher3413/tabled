@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-41",
+  "sourceHash": "af5ca2ebeda876a50f0826570a21a38a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:57.662Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12554266",
+  "summary": {
+    "tldr": "Creates a ministerial authorization system for certain activities in terrorist-controlled areas and updates related Criminal Code rules.",
+    "what_it_does": [
+      "Replaces section 83.03 of the Criminal Code so it is an offence to provide property or services for terrorist purposes or for use by a terrorist group, unless an exception applies.",
+      "Creates a process that lets the Public Safety Minister authorize eligible people in Canada or Canadians abroad to carry out listed activities in a terrorist-controlled area for health, education, livelihood, human rights, immigration, or some federal operations.",
+      "Sets application rules that require referral by the Minister of Foreign Affairs, the Minister of Citizenship and Immigration, or both, and lets the Public Safety Minister ask for more information, assess security risks, and impose terms and conditions.",
+      "Lets the Public Safety Minister renew, amend, suspend, revoke, or limit an authorization, and sets a maximum validity of five years.",
+      "Requires notice of refusals, sets a 30-day waiting period before a new application for the same activity, and creates special Federal Court rules for judicial review and appeals.",
+      "Allows named federal bodies to share information for administering and enforcing the new regime, requires annual and periodic reports, and makes related amendments to other Acts."
+    ],
+    "who_it_affects": [
+      "People seeking authorizations",
+      "Humanitarian organisations",
+      "Aid and service providers",
+      "Canadian citizens abroad",
+      "Federal ministers",
+      "Federal departments and agencies",
+      "Security and intelligence bodies",
+      "Federal courts"
+    ],
+    "background": "The bill replaces section 83.03 of the Criminal Code and creates sections 83.031 to 83.0392. It also keeps an exception for humanitarian assistance by impartial humanitarian organisations acting under international law and using reasonable efforts to minimise benefits to terrorist groups.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "immigration-citizenship",
+      "government-operations"
+    ]
+  }
+}

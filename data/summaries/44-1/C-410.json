@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/C-410",
+  "sourceHash": "4339cb80d2ed18f170ac98252a44d57b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:43.058Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13220322",
+  "summary": {
+    "tldr": "Excludes campground businesses from the Income Tax Act rule that defines certain businesses as specified investment businesses.",
+    "what_it_does": [
+      "Changes the definition of “specified investment business” in subsection 125(7) of the Income Tax Act so it no longer includes a campground business.",
+      "Keeps campground businesses outside the part of the definition that covers businesses mainly earning income from property."
+    ],
+    "who_it_affects": [
+      "Corporations that run campgrounds",
+      "Campground owners"
+    ],
+    "background": "The bill amends the definition of “specified investment business” in subsection 125(7) of the Income Tax Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes"
+    ]
+  }
+}

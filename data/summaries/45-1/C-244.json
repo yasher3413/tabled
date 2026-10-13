@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-244",
+  "sourceHash": "a40c3e1b52d557442b3b10486c67e8ba",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:47.300Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14231425",
+  "summary": {
+    "tldr": "Expands liability for marine damage and adds rules for selling vessels so they are less likely to become wrecks or hazards.",
+    "what_it_does": [
+      "Clarifies under the Canadian Environmental Protection Act, 1999 that a disposal counts even if the act or omission that caused it was not intentional.",
+      "Prohibits a vessel owner from transferring ownership unless they give written information about the vessel's condition and get written confirmation that the buyer has the resources and intent to maintain, operate and dispose of it properly.",
+      "Exempts vessels that are 24 metres or more in length, except pleasure craft, from the new transfer rule.",
+      "Adds the new transfer rule to the offences section of the Wrecked, Abandoned or Hazardous Vessels Act.",
+      "Allows regulations to set conditions for the sale, purchase or other transfer of vessel ownership, including steps that must be taken before a transfer."
+    ],
+    "who_it_affects": [
+      "Vessel owners",
+      "People buying or selling vessels",
+      "Pleasure craft owners",
+      "Marine operators"
+    ],
+    "background": "The bill amends the Canadian Environmental Protection Act, 1999 and the Wrecked, Abandoned or Hazardous Vessels Act. The drafters say it would enhance protection of marine areas by increasing liability for damage to them.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "transport-infrastructure"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/S-283",
+  "sourceHash": "8ba5c71827a55cbdb19a38ab736d0113",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:16.621Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12806342",
+  "summary": {
+    "tldr": "Requires certain parties to publish diversity information and directs the Chief Electoral Officer to collect and report demographic data on candidates and contestants.",
+    "what_it_does": [
+      "Requires certain registered parties, those whose candidates won at least 2% of valid votes nationwide or 5% in the districts where they ran, to post candidate selection rules, diversity programs, progress reports, and annual updates on their websites.",
+      "Requires those parties to post plans and rules about nominating women candidates, including target numbers or percentages, rules for some by-elections or when a sitting MP does not run again, and progress toward those targets.",
+      "Requires parties with no diversity program, plan, or rule to post a statement explaining why and, if any, when they plan to adopt one, plus contact information for questions.",
+      "Gives the Chief Electoral Officer power to collect voluntary self-identification questionnaires from candidates, nomination contestants, and leadership contestants, then publish anonymized reports on demographic information after general elections, by-elections, and leadership contests.",
+      "Extends the non-voluntary deregistration process so the Chief Electoral Officer can act if a party or officer fails to meet the new public disclosure duties."
+    ],
+    "who_it_affects": [
+      "Registered political parties",
+      "Candidates",
+      "Nomination contestants",
+      "Leadership contestants",
+      "Chief Electoral Officer"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

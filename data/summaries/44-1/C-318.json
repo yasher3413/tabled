@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-318",
+  "sourceHash": "adea6dd8d6476de67fd1bf6ef82dc9be",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:10.993Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12273580",
+  "summary": {
+    "tldr": "Creates a 15-week EI benefit for adoptive and surrogacy parents, and extends adoption leave under the Canada Labour Code.",
+    "what_it_does": [
+      "Creates a new 15-week Employment Insurance attachment benefit for people caring for a child placed with them for adoption, including a child surrendered by a surrogate mother under provincial surrogacy law.",
+      "Extends the benefit period when the child is in hospital, lets the weeks be shared between eligible claimants for the same child, and caps each claimant at 15 weeks.",
+      "Changes waiting-period rules so a parent who shares claims for the same child can sometimes skip or defer the waiting period.",
+      "Applies the same 15-week adoption benefit rules to self-employed people, and adds surrogacy to the adoption definition for that part of the Employment Insurance Act.",
+      "Extends Canada Labour Code adoption leave to up to 80 weeks, and counts children surrendered by a surrogate mother as children in the employee’s care for adoption."
+    ],
+    "who_it_affects": [
+      "Adoptive parents",
+      "Parents using surrogacy",
+      "Self-employed parents",
+      "Federally regulated employees",
+      "Employers covered by the Canada Labour Code"
+    ],
+    "background": "This bill amends the Employment Insurance Act and the Canada Labour Code. The bill’s summary says it adds a new special benefit called an attachment benefit.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "families-children",
+      "labour-employment"
+    ]
+  }
+}

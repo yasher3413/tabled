@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/C-16",
+  "sourceHash": "003692fd71b002c4ba60b4c50d2930d7",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:21.172Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-16",
+  "summary": {
+    "tldr": "Amends criminal, correctional, victims, firearms and youth justice laws to add new offences, change court rules and expand victim rights.",
+    "what_it_does": [
+      "Creates a new offence for coercive or controlling conduct toward an intimate partner, and makes certain murders first-degree murder when they happen in contexts such as intimate partner violence, sexual violence, human trafficking or hate.",
+      "Changes child and sexual exploitation laws, including new rules on intimate images, inviting a child to expose sexual organs, recruiting a child to help commit an offence and distributing images of bestiality.",
+      "Updates court rules on harassment, delay and sexual offence trials, removes the need to prove a victim’s subjective fear in criminal harassment cases, and allows some affidavit evidence in identity theft and identity fraud cases.",
+      "Expands victims’ rights in the Canadian Victims Bill of Rights, the Youth Criminal Justice Act and the National Defence Act, including more information, testimonial aids and clearer rights to victim statements.",
+      "Changes Internet child sexual abuse reporting rules, firearms rules for revoked licences and suspected domestic violence or stalking, corrections rules on victim information, and rules for legal help between Canada and supranational criminal bodies."
+    ],
+    "who_it_affects": [
+      "Victims of crime",
+      "Intimate partners",
+      "Children and youth",
+      "People accused of sexual offences",
+      "Firearms licence holders",
+      "Internet service providers",
+      "Offenders in federal corrections",
+      "Military justice participants"
+    ],
+    "background": "Introduced in the House of Commons on 9 December 2025 and given first reading. It amends several federal laws on criminal and correctional matters.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "families-children"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-236",
+  "sourceHash": "d0b08daa06e76fe2a18275e2a451b45f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:49.185Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11553288",
+  "summary": {
+    "tldr": "Continues VIA Rail Canada Inc. as VIA Rail Canada, sets its mandate, and updates related federal laws.",
+    "what_it_does": [
+      "Continues VIA Rail Canada Inc. under the name VIA Rail Canada, cancels its shares without repayment, and transfers its assets, debts, court cases and by-laws to the new corporation.",
+      "Sets VIA Rail Canada’s mandate to provide safe, efficient and reliable public passenger rail service, develop a modern service, and work with other passenger service providers.",
+      "Requires VIA Rail Canada to operate service on all routes listed in the bill’s schedule, and lets the Governor in Council add or remove routes by regulation.",
+      "Creates a board of up to 15 directors, with the chairperson and chief executive officer appointed by the Governor in Council and the other directors appointed by the Minister with that approval.",
+      "Sets the head office in Montréal unless the Governor in Council orders another Canadian city, and requires a review of the Act every five years with a report to Parliament.",
+      "Replaces references to VIA Rail Canada Inc. with VIA Rail Canada in several federal laws, including the Access to Information Act, the Financial Administration Act, the Payments in Lieu of Taxes Act and the Canada Transportation Act."
+    ],
+    "who_it_affects": [
+      "VIA Rail Canada",
+      "Train passengers",
+      "Other passenger rail providers",
+      "Railway companies",
+      "Minister of Transport",
+      "Federal departments and agencies"
+    ],
+    "background": "VIA Rail Canada Inc. was incorporated on January 12, 1977, under the Canada Corporations Act. The bill would continue it under the name VIA Rail Canada and make this Act its charter.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure",
+      "government-operations"
+    ]
+  }
+}

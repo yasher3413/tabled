@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-22",
+  "sourceHash": "cb07a4bbeba176049fc29b6f47a382b1",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:36.136Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-22",
+  "summary": {
+    "tldr": "Creates a federal disability benefit to reduce poverty and support the financial security of working-age people with disabilities.",
+    "what_it_does": [
+      "Creates the Canada disability benefit for working-age persons with disabilities.",
+      "Sets out the basic rules for how the benefit will be administered.",
+      "Lets the Governor in Council fill in most design details through regulations.",
+      "Makes a related amendment to the Income Tax Act."
+    ],
+    "who_it_affects": [
+      "Working-age persons with disabilities",
+      "People who apply for the benefit",
+      "Federal administrators"
+    ],
+    "background": "The bill was introduced in the House of Commons on June 2, 2022, and given first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "government-operations",
+      "budget-taxes"
+    ]
+  }
+}

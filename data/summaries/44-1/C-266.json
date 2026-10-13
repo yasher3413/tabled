@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-266",
+  "sourceHash": "5cfee1d879abe1c9df5049f66943705e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:20.225Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11674399",
+  "summary": {
+    "tldr": "Repeals annual duty updates on beer, spirits and wine and sets fixed excise rates and penalties under the Excise Act and Excise Act, 2001.",
+    "what_it_does": [
+      "Repeals the annual adjustment rule for duties on beer, malt liquor, spirits and wine.",
+      "Sets new duty rates for beer and malt liquor, including separate rates for Canadian beer brewed in Canada.",
+      "Sets new duty rates for spirits and wine, using the listed per litre and per hectolitre amounts.",
+      "Updates several penalty formulas for offences and contraventions involving spirits and wine.",
+      "Applies the new rates and penalties to the 2022 and later taxation years."
+    ],
+    "who_it_affects": [
+      "Breweries",
+      "Canadian small breweries",
+      "Wine makers",
+      "Spirits makers",
+      "Alcohol importers"
+    ],
+    "background": "The bill amends the Excise Act and the Excise Act, 2001. It removes sections that provide for annual adjustments to duties on beer, malt liquor, spirits and wine.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes"
+    ]
+  }
+}

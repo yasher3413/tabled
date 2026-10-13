@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/C-231",
+  "sourceHash": "c230e743076456c08788a020f00e052f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:40.381Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14137890",
+  "summary": {
+    "tldr": "Bill C-231 would let youth justice officials use treatment program conditions and, in some cases, delay sentencing so a young person can attend treatment.",
+    "what_it_does": [
+      "Requires police, in some drug or cannabis cases, to consider referring a young person to a problematic substance use treatment program, with the young person’s consent.",
+      "Allows an extrajudicial sanction, a response kept outside court, to require a young person to attend a problematic substance use treatment program or another treatment program.",
+      "Allows a youth justice court, with the consent of the Attorney General and the young person, to delay sentencing so the young person can attend treatment.",
+      "Lets a youth sentence order a young person to attend an approved non-residential program, including a treatment program, for up to 240 hours over no more than six months.",
+      "Adds treatment program attendance as a possible condition in certain orders and in conditional supervision orders."
+    ],
+    "who_it_affects": [
+      "Young people in the youth justice system",
+      "Young people charged with drug or cannabis offences",
+      "Police officers",
+      "Youth justice courts",
+      "Prosecutors",
+      "Provincial directors"
+    ],
+    "background": "The bill amends the Youth Criminal Justice Act. It also includes a coordinating amendment that would apply if Bill C-16 becomes law.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health"
+    ]
+  }
+}

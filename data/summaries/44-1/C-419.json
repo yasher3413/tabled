@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-419",
+  "sourceHash": "8242f1ce8ed7b551464cae3985bc9bf4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:30.718Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13425374",
+  "summary": {
+    "tldr": "Requires the health minister to develop and report on a national strategy for universal access to eye care, vision correction and vision aids.",
+    "what_it_does": [
+      "Requires the Minister of Health to work with provinces, Indigenous governing bodies, eye care professionals, patient groups and others to develop a national eye care strategy.",
+      "Requires the strategy to identify barriers to eye care and ways to improve access to eye exams, eyeglasses, contact lenses, low-vision aids, surgery and treatment for eye conditions linked to other diseases.",
+      "Requires the minister to table the strategy report in both Houses of Parliament within 18 months after the Act comes into force.",
+      "Requires the minister to publish the strategy report on the Department of Health website within 10 days after it is tabled.",
+      "Requires a second report within five years on the strategy’s effectiveness and the state of access to eye care in Canada, then table and publish it."
+    ],
+    "who_it_affects": [
+      "People who need eye care",
+      "People who need glasses or contact lenses",
+      "People with low vision",
+      "Patients with eye conditions",
+      "Indigenous communities",
+      "Eye care professionals",
+      "Provincial health governments",
+      "Health Canada"
+    ],
+    "background": "The bill defines an Indigenous governing body as a council, government or other entity authorized to act for an Indigenous group, community or people with rights recognized by section 35 of the Constitution Act, 1982.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

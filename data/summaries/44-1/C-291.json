@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-291",
+  "sourceHash": "5074abe913f925291f1488bf0fad7724",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:06.952Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13331363",
+  "summary": {
+    "tldr": "Replaces the term “child pornography” with “child sexual abuse and exploitation material” in federal law and updates related Criminal Code rules.",
+    "what_it_does": [
+      "Replaces “child pornography” with “child sexual abuse and exploitation material” in section 163.1 of the Criminal Code and in four other federal Acts.",
+      "Keeps the same offences and penalties for making, distributing, possessing, and accessing this material under section 163.1, including the stated minimum and maximum jail terms.",
+      "Expands the computer seizure rules so judges can order the deletion of electronic copies of this material, or data that makes it available, from a computer system.",
+      "Updates publication bans, offence lists, and related court rules so section 163.1 is treated as a listed sexual offence in several Criminal Code provisions.",
+      "Keeps ongoing proceedings valid after the law takes effect, and says old references to “child pornography” in those proceedings read as the new term.",
+      "Starts on the first anniversary of royal assent."
+    ],
+    "who_it_affects": [
+      "Children and youth",
+      "People charged under section 163.1",
+      "Courts and judges",
+      "Police and prosecutors",
+      "Internet service providers",
+      "Corrections officials",
+      "Sex offender registry authorities"
+    ],
+    "background": "The bill says the Criminal Code term “child pornography” is replaced with “child sexual abuse and exploitation material.” It also makes related changes in other Acts.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "families-children",
+      "technology-privacy"
+    ]
+  }
+}

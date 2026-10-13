@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/C-2",
+  "sourceHash": "897475d4497d6bd6d6cb2d081e251728",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:58.269Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-2",
+  "summary": {
+    "tldr": "Expands border, immigration, policing, mail, and anti-money laundering powers, and changes rules for sharing and collecting information.",
+    "what_it_does": [
+      "Gives the Canada Border Services Agency free facilities for work under the Customs Act and access, at certain locations, to goods headed for export.",
+      "Creates a temporary faster path for the Health Minister to add precursor chemicals to Schedule V under the Controlled Drugs and Substances Act.",
+      "Changes Canada Post rules so items in the mail can be seized, detained, or kept only under an Act of Parliament, and lets Canada Post open letters in certain cases.",
+      "Changes coast guard, immigration, and refugee rules, including more information sharing, ending the designated countries of origin regime, and adding new grounds that can make a refugee claim ineligible.",
+      "Raises penalties and changes compliance rules under anti-money laundering law, requires more entities to enrol with FINTRAC, bars some large cash dealings, and adds more information-sharing powers.",
+      "Updates investigation and data access rules for police and CSIS, creates a framework for authorised access to information, and changes sex offender reporting and information-sharing rules."
+    ],
+    "who_it_affects": [
+      "Canada Border Services Agency",
+      "Refugee claimants",
+      "Immigration applicants",
+      "Canada Post users",
+      "Banks and other reporting entities",
+      "Law enforcement agencies",
+      "Sex offenders",
+      "Telecom and internet providers"
+    ],
+    "background": "It was introduced in the House of Commons on 3 June 2025.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "immigration-citizenship",
+      "government-operations"
+    ]
+  }
+}

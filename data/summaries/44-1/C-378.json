@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-378",
+  "sourceHash": "fce269f5d36f98f95a31ad65c214e680",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:54.275Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12882620",
+  "summary": {
+    "tldr": "Lets former employees file workplace harassment and violence complaints for longer after they leave a federally regulated job.",
+    "what_it_does": [
+      "Extends an employer’s duties for workplace harassment and violence if the employer learns of the occurrence within two years after the former employee leaves.",
+      "Lets a former employee make a complaint about workplace harassment and violence under the Canada Labour Code.",
+      "Treats the former employee as an employee for the parts of the complaint process needed to finish the case.",
+      "Sets the complaint deadline at the later of two years after leaving the job, or two years after the resolution process ends if notice was given under the regulations."
+    ],
+    "who_it_affects": [
+      "Former employees",
+      "Federally regulated employers",
+      "Workers in federally regulated workplaces"
+    ],
+    "background": "The bill amends the Canada Labour Code rules on workplace harassment and violence complaints by former employees.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "rights-equality"
+    ]
+  }
+}

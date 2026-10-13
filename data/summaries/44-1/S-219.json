@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/S-219",
+  "sourceHash": "be7b1b7edcf32e8051c448661adb9067",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:45.505Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12169845",
+  "summary": {
+    "tldr": "Designates January 4 as National Ribbon Skirt Day across Canada.",
+    "what_it_does": [
+      "Makes the 4th day of January each year National Ribbon Skirt Day throughout Canada."
+    ],
+    "who_it_affects": [
+      "All Canadians",
+      "Ribbon skirt wearers",
+      "Indigenous communities"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-287",
+  "sourceHash": "195d17064a5ab67494b2e6e9d69f3a19",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:45.254Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11882390",
+  "summary": {
+    "tldr": "Bans glyphosate as a pest control product and cancels registrations for products that contain it.",
+    "what_it_does": [
+      "Adds glyphosate to the Pest Control Products Act ban list, so no person may manufacture, possess, handle, store, transport, import, distribute or use it as a pest control product.",
+      "Cancels the registration of products containing glyphosate under the Pest Control Products Act.",
+      "Brings the ban into force on the first anniversary of royal assent."
+    ],
+    "who_it_affects": [
+      "People who use glyphosate",
+      "Pesticide manufacturers",
+      "Importers and distributors",
+      "Businesses that store or transport glyphosate",
+      "Pest control product registrants"
+    ],
+    "background": "It amends the Pest Control Products Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "agriculture-food",
+      "health",
+      "environment-climate"
+    ]
+  }
+}

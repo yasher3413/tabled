@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/S-204",
+  "sourceHash": "1eaaf698a2a62690ccd54ce732e214b1",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:58.668Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13541871",
+  "summary": {
+    "tldr": "Directs the Health Minister to develop a national heart failure framework, with consultation, reporting and follow-up on its results.",
+    "what_it_does": [
+      "Requires the Minister of Health to develop a national framework to improve heart failure prevention, diagnosis, management and evaluation.",
+      "Requires the framework to include early detection, patient and caregiver education, guideline-directed therapy, multidisciplinary care, and remote monitoring or virtual visits.",
+      "Requires the framework to address care gaps, especially in rural, remote and underserved communities.",
+      "Requires the framework to include patient outcome research, performance reporting, a national heart failure registry, and use of the Canadian Community Health Survey.",
+      "Requires the Minister to consult provincial governments, Indigenous governing bodies, health professionals, researchers, patients and caregivers, and to hold at least one conference within 12 months.",
+      "Requires the Minister to table the framework within 18 months, publish it online, and report within five years on its effectiveness and the current state of diagnosis and treatment."
+    ],
+    "who_it_affects": [
+      "People with heart failure",
+      "Caregivers",
+      "Health care professionals",
+      "Provincial governments",
+      "Indigenous governing bodies",
+      "Researchers",
+      "Patient advocacy groups",
+      "Health system planners"
+    ],
+    "background": "The bill says the framework is meant to improve access to heart failure prevention, diagnosis and treatment, and to reduce financial and operational burdens on the health system.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations",
+      "indigenous-peoples"
+    ]
+  }
+}

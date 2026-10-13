@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-394",
+  "sourceHash": "62be20e075aabf8ffd8195c041ee5b4c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:53.390Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13192914",
+  "summary": {
+    "tldr": "Reinstates mandatory minimum jail terms for some drug importing, exporting and production offences under the Controlled Drugs and Substances Act.",
+    "what_it_does": [
+      "Reinstates minimum jail terms for importing or exporting Schedule I substances, including 1 year in some cases and 18 months when the amount is more than 1 kilogram.",
+      "Sets importing or exporting Schedule II substances as an indictable offence punishable by life in prison, and keeps penalties for Schedule III, IV, V and VI substances.",
+      "Raises the penalty for producing a Schedule I substance to life in prison, with a minimum of 3 years when certain aggravating factors apply and 2 years in other cases.",
+      "Adds aggravating factors for drug production, including using another person’s property, risking people under 18, creating a safety hazard in a residential area, or using traps or devices that could cause death or bodily harm."
+    ],
+    "who_it_affects": [
+      "People charged with drug importing or exporting",
+      "People charged with drug production",
+      "Courts",
+      "Law enforcement"
+    ],
+    "background": "The bill amends the Controlled Drugs and Substances Act. It applies to offences involving substances listed in Schedules I to VI.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-356",
+  "sourceHash": "7ce05b68fb8c086ca2bb2e1fdb1fdfd5",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:04.139Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12573960",
+  "summary": {
+    "tldr": "Sets housing targets for high-cost cities, ties some federal funding to construction and permits, and changes CMHC, GST, and federal property rules.",
+    "what_it_does": [
+      "Sets a national target for new homes completed after March 31, 2024 at 15% above the 2023-24 level each year.",
+      "Ties Canada Community-Building Fund amounts and municipal GST rebates for high-cost cities to the number of homes they complete, with exceptions for emergencies, disasters, recession, war or terrorism, and allows up to $100 million for municipalities that exceed their share of the target.",
+      "Holds transit funding for high-cost cities in trust until prescribed high-density housing near funded transit stations is built and substantially occupied, and makes infrastructure and transit funding conditional on giving required information and not unduly delaying or rejecting housing permits.",
+      "Requires CMHC to approve or reject housing funding applications on average within 60 days, bars executive bonuses unless the national target is met, creates a GST rebate for certain new residential rental property, and requires a report on federal buildings and land."
+    ],
+    "who_it_affects": [
+      "High-cost cities",
+      "Municipal governments",
+      "CMHC executives",
+      "New rental housing builders",
+      "Federal property managers",
+      "Cities with transit funding"
+    ],
+    "background": "The bill defines a high-cost city as a municipality listed in a schedule, and lets cabinet add or remove cities by price and income tests. It also amends the Canada Mortgage and Housing Corporation Act, the National Housing Act and the Excise Tax Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "budget-taxes",
+      "transport-infrastructure"
+    ]
+  }
+}

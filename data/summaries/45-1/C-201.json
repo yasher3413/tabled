@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/C-201",
+  "sourceHash": "ed5e60fc47e20df940359b0f74179a3c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:46.630Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13542332",
+  "summary": {
+    "tldr": "Adds mental, addiction and substance use health services to the Canada Health Act’s definition of insured health services.",
+    "what_it_does": [
+      "Adds mental, addictions and substance use health services to the Canada Health Act definition of insured health services.",
+      "Defines those services to include services provided in community settings.",
+      "Requires provincial health insurance plans to cover all insured health services provided by hospitals, medical practitioners or dentists, and similar or additional services where provincial law allows."
+    ],
+    "who_it_affects": [
+      "Provincial health plans",
+      "People seeking mental health care",
+      "People seeking addiction care",
+      "People seeking substance use care",
+      "Hospitals",
+      "Doctors",
+      "Dentists",
+      "Other health care practitioners"
+    ],
+    "background": "The bill amends the Canada Health Act. The current definition of insured health services is replaced.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-279",
+  "sourceHash": "8427aa11b32b39df745834bfada087df",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:01.950Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11832207",
+  "summary": {
+    "tldr": "Creates a federal list of entities tied to criminal organization activity and sets rules to list, review, and challenge those listings.",
+    "what_it_does": [
+      "Creates a federal list of entities that the Governor in Council may add, on the Minister of Public Safety and Emergency Preparedness’ recommendation, if there are reasonable grounds to believe they are linked to criminal organization activity.",
+      "Changes the Criminal Code definition of “criminal organization” so an entity on that list counts as a criminal organization.",
+      "Lets a listed entity ask the Minister to review its listing, then apply to the Federal Court for judicial review if needed.",
+      "Requires the judge to review sensitive security or criminal intelligence information in private when necessary, give the applicant a summary that protects national security, and remove the entity from the list if the decision is not reasonable.",
+      "Requires the Minister to review the list every 5 years, finish each review within 120 days, and publish notices of reviews and delisting orders in the Canada Gazette.",
+      "Lets an entity that says it was wrongly listed apply for a certificate of non-listing, which the Minister must issue within 15 days if satisfied the entity is not listed."
+    ],
+    "who_it_affects": [
+      "Listed entities",
+      "Criminal organizations",
+      "Minister of Public Safety and Emergency Preparedness",
+      "Federal Court judges",
+      "People charged with criminal organization offences"
+    ],
+    "background": "The bill amends the Criminal Code. It adds a new process for listing entities linked to criminal organization activity.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

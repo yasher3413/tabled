@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-218",
+  "sourceHash": "b459a88b2c80cb497e0b42a84786cb9f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:56.347Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11506992",
+  "summary": {
+    "tldr": "Exempts psychotherapy services from the goods and services tax and updates the Excise Tax Act for those services.",
+    "what_it_does": [
+      "Adds psychotherapy services to the list of services that are exempt from goods and services tax under the Excise Tax Act.",
+      "Expands the Act's definition of practitioner to include people who practise psychotherapy, along with other listed health professions."
+    ],
+    "who_it_affects": [
+      "Psychotherapists",
+      "People getting psychotherapy",
+      "GST-registered service providers",
+      "Health service providers"
+    ],
+    "background": "The bill amends Part II of Schedule V of the Excise Tax Act, where GST-exempt services are listed.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "health"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/S-246",
+  "sourceHash": "c84515ceaa2de1048473d1b02c37d839",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:25.090Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14154480",
+  "summary": {
+    "tldr": "Creates a national process for recognizing some military service as wartime service and for listing and reviewing Canadian Armed Forces operations.",
+    "what_it_does": [
+      "Requires the Minister of National Defence to develop a national framework with objective criteria for wartime service and with symbolic and commemorative ways to recognise it.",
+      "Requires consultations with veterans, veterans’ groups, non-Canadian Armed Forces personnel who served alongside Canadian forces, military history experts, and others the minister chooses.",
+      "Requires the minister to table the framework in Parliament within one year and publish it on the Department of National Defence website.",
+      "Requires the Governor in Council, on the minister’s recommendation, to designate military service as wartime service when it meets the framework’s criteria, including a first review of Canadian Armed Forces operations from July 27, 1953 to the framework’s tabling.",
+      "Requires the minister to keep a public searchable list of Canadian Armed Forces operations, update it when operations start or change, and publish the minister’s recommendations and reasons.",
+      "States that a wartime service designation does not create any new financial benefit a member or veteran does not already have under another Act of Parliament."
+    ],
+    "who_it_affects": [
+      "Canadian Armed Forces members",
+      "Veterans",
+      "Non-Canadian Armed Forces personnel",
+      "Veterans’ groups",
+      "Department of National Defence",
+      "Governor in Council"
+    ],
+    "background": "The bill says it would create a national framework for recognising military service as wartime service. It also sets out a process for reviewing past and new Canadian Armed Forces operations.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "seniors-veterans",
+      "government-operations",
+      "commemoration"
+    ]
+  }
+}

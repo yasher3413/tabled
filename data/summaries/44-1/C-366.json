@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/C-366",
+  "sourceHash": "54c8cfa11ddccd3040957a00789123bb",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:55.412Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12723641",
+  "summary": {
+    "tldr": "Requires menstrual tampon labels to list the substances they contain, and brings the change into force 18 months after royal assent.",
+    "what_it_does": [
+      "Requires labels on menstrual tampons to include a list of the substances they contain, under the Food and Drugs Act.",
+      "Sets the bill to come into force 18 months after royal assent."
+    ],
+    "who_it_affects": [
+      "Menstrual tampon manufacturers",
+      "Retailers of menstrual tampons",
+      "People who use menstrual tampons"
+    ],
+    "background": "The bill amends the Food and Drugs Act, which already sets labelling rules for devices.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health"
+    ]
+  }
+}

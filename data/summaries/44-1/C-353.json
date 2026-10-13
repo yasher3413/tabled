@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-353",
+  "sourceHash": "da7fa3e5262b58bebccc4ae815c2b60b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:21.542Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12570145",
+  "summary": {
+    "tldr": "Lets Canada sanction foreign hostage takers, support families, and change immigration and anti-money-laundering rules.",
+    "what_it_does": [
+      "Authorizes the government to restrict dealings with foreign nationals, foreign states, or foreign entities linked to hostage taking or arbitrary detention of Canadians or eligible protected persons outside Canada.",
+      "Allows the government to seize, restrain, and later forfeit property in Canada owned or controlled by those targets, and to use forfeited funds to compensate hostages or detained people, or their estates.",
+      "Requires the foreign affairs minister to give timely information and assistance to families, including advice, support services, and help with communication when appropriate.",
+      "Lets the government create programs, including monetary rewards, to encourage people to provide information that helps secure the release and return of hostages or detained people.",
+      "Adds related rules to money-laundering law and immigration law, including reporting requirements for listed targets and possible immigration relief for people who provide critical information leading to a release."
+    ],
+    "who_it_affects": [
+      "Canadian nationals abroad",
+      "Eligible protected persons",
+      "Families of hostages",
+      "Foreign states and entities",
+      "People dealing with blocked property",
+      "People who provide information"
+    ],
+    "background": "It defines arbitrary detention in state-to-state relations as arrest or detention used to force action from, or gain leverage over, a foreign government.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "immigration-citizenship",
+      "trade-foreign-affairs"
+    ]
+  }
+}

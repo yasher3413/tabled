@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-53",
+  "sourceHash": "fb6ca1f8854591f2336e6c7c620fecb3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:18.197Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-53",
+  "summary": {
+    "tldr": "Recognizes certain Métis governments in Alberta, Ontario and Saskatchewan, and sets rules for treaties with them.",
+    "what_it_does": [
+      "Recognizes certain Métis governments in Alberta, Ontario and Saskatchewan.",
+      "Creates a framework for putting treaties between those Métis governments and the Government of Canada into effect.",
+      "Makes consequential amendments to other Acts."
+    ],
+    "who_it_affects": [
+      "Certain Métis governments",
+      "Métis communities in Alberta, Ontario and Saskatchewan",
+      "Government of Canada"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "billId": "45-1/C-247",
+  "sourceHash": "9728d46e33e1d3bc51d1d5edc56140fe",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:57.606Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13632083",
+  "summary": {
+    "tldr": "Repeals a Canada Labour Code section that lets the Minister of Labour act to help settle industrial disputes.",
+    "what_it_does": [
+      "Repeals section 107 of the Canada Labour Code.",
+      "Removes the Minister of Labour's power to take measures to promote settlement of an industrial dispute or difference.",
+      "Removes the Minister's power to refer a question to the Canada Industrial Relations Board or direct the Board to take any measure the Minister considers necessary."
+    ],
+    "who_it_affects": [
+      "Federal workers and employers",
+      "The Minister of Labour",
+      "Canada Industrial Relations Board"
+    ],
+    "background": "Section 107 of the Canada Labour Code is the part being repealed. It is the section that gives the Minister of Labour the powers described in the bill summary.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "government-operations"
+    ]
+  }
+}

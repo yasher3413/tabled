@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-274",
+  "sourceHash": "3038f1fbb6a5f89178f13bcd533fca8d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:04.808Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11799590",
+  "summary": {
+    "tldr": "Tightens detention rules for accused people charged more than twice with certain serious indictable offences while on release or a summons.",
+    "what_it_does": [
+      "Replaces Criminal Code subsection 524(4), which applies when a judge or justice cancels a summons, appearance notice, undertaking or release order.",
+      "Requires the accused to be detained in custody unless they show cause why detention is not justified under subsection 515(10).",
+      "Adds a special rule for accused people charged more than twice with an indictable offence punishable by five years or more while on release, detention is required unless exceptional circumstances justify release."
+    ],
+    "who_it_affects": [
+      "Accused people on release",
+      "People charged with indictable offences",
+      "Judges and justices"
+    ],
+    "background": "The bill amends the Criminal Code rule on judicial interim release. It changes the detention rule in subsection 524(4).",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

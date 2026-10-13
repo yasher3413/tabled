@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-3",
+  "sourceHash": "c8095d41f6b9c6d2aff696591db24e3d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:19.682Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-3",
+  "summary": {
+    "tldr": "Creates new offences around blocking access to health services and changes paid medical leave rules in the Canada Labour Code.",
+    "what_it_does": [
+      "Creates offences for intimidating someone to stop them from getting health services, intimidating a health professional, or intimidating someone who helps a health professional.",
+      "Creates an offence for blocking or interfering with a person’s lawful access to a place where health services are provided, with a defence for people who are there only to get or share information.",
+      "Adds offences against health service providers, and offences that stop another person from getting health services, as aggravating factors in sentencing.",
+      "Repeals the Canada Labour Code’s personal leave for an employee to treat their illness or injury.",
+      "Provides that an employee may earn and take up to 10 days of paid medical leave in a calendar year.",
+      "Authorizes the Governor in Council to make regulations that change paid medical leave rules in certain situations."
+    ],
+    "who_it_affects": [
+      "People seeking health services",
+      "Health professionals",
+      "People who assist health professionals",
+      "Federally regulated employees",
+      "Federally regulated employers"
+    ],
+    "background": "Introduced on 26 November 2021, the bill amends the Criminal Code and the Canada Labour Code.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health",
+      "labour-employment"
+    ]
+  }
+}

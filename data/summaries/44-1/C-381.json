@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-381",
+  "sourceHash": "796ae2c54d83219f5b288eb64ee3d13d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:52.387Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12882645",
+  "summary": {
+    "tldr": "Changes Criminal Code penalties for extortion and makes arson an aggravating factor at sentencing.",
+    "what_it_does": [
+      "Changes the penalty for extortion to life in prison when a restricted or prohibited firearm is used, or when the offence is linked to a criminal organization.",
+      "Sets the minimum penalty for extortion at 4 years in prison when a different firearm is used, and 3 years in any other case.",
+      "Requires courts to treat arson as an aggravating factor when sentencing someone convicted of extortion."
+    ],
+    "who_it_affects": [
+      "People charged with extortion",
+      "People linked to criminal organizations",
+      "People who use firearms in extortion",
+      "Courts"
+    ],
+    "background": "The bill amends section 346 of the Criminal Code, which sets penalties for extortion.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

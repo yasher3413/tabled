@@ -1,0 +1,24 @@
+{
+  "billId": "45-1/S-249",
+  "sourceHash": "10fe617b0935722db5a75d7e3660b463",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:23.236Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14167475",
+  "summary": {
+    "tldr": "Designates December as Christian Heritage Month throughout Canada.",
+    "what_it_does": [
+      "Designates the month of December, throughout Canada and every year, as \"Christian Heritage Month\"."
+    ],
+    "who_it_affects": [
+      "Canadians",
+      "Christian communities"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

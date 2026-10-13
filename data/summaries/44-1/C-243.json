@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-243",
+  "sourceHash": "81055e7303621566e9ab186290e6aa25",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:11.770Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11553284",
+  "summary": {
+    "tldr": "Requires certain entities to report on forced labour and child labour risks in their supply chains, and adds related procurement and customs changes.",
+    "what_it_does": [
+      "Requires certain entities, including some large businesses and listed companies, to report each year on steps taken to prevent and reduce forced labour and child labour in goods they produce or import.",
+      "Requires those reports to include information about supply chains, risk areas, remediation, employee training, and how the entity checks its efforts, and to be approved by the governing body.",
+      "Requires entities to make their reports public, gives the Minister of Public Safety and Emergency Preparedness an electronic registry, and requires revised reports when information changes.",
+      "Gives designated officials inspection powers, allows the minister to require information and corrective measures, and creates fines for failing to report, obstructing inspections, or giving false information.",
+      "Requires the Minister of Public Works and Government Services to reduce the risk of forced labour and child labour in goods and services bought for federal departments, and to table an annual report in Parliament.",
+      "Updates the Customs Tariff reference for prohibited goods to include goods made with forced labour or child labour."
+    ],
+    "who_it_affects": [
+      "Large companies and trusts",
+      "Listed corporations",
+      "Importers",
+      "Federal suppliers",
+      "Federal departments",
+      "Shareholders",
+      "Public Safety officials",
+      "Public Works and Government Services"
+    ],
+    "background": "The bill says it is meant to help Canada meet an international commitment to fight forced labour and child labour in supply chains. It also amends the Department of Public Works and Government Services Act and the Customs Tariff.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "government-operations",
+      "economy-business"
+    ]
+  }
+}

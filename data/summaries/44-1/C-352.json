@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-352",
+  "sourceHash": "9c675e3f033342d5e3773e3cf0e3650f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:42.386Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12570093",
+  "summary": {
+    "tldr": "Raises competition penalties, changes merger review rules, and requires the Tribunal to block or unwind some mergers with large combined market shares.",
+    "what_it_does": [
+      "Allows market studies and reports on market conditions to be used when looking into factors that affect competition.",
+      "Raises penalties for conspiracy offences to up to 14 years in prison, $25 million, or three times the benefit gained, or 10% of worldwide revenue if the benefit cannot be determined.",
+      "Expands anti-competitive conduct to include directly or indirectly imposing excessive and unfair selling prices, and keeps the same penalties for certain conduct by federal financial institution directors, officers, or employees.",
+      "Lets the Tribunal order divestiture or other steps to fix anti-competitive practices, and raises the penalty for later orders under that rule.",
+      "Changes how efficiency gains are treated in agreement and merger reviews, and says income transfers by themselves do not count as efficiency gains.",
+      "Requires the Tribunal to dissolve or block mergers that reach 60% combined market share, or 30% to 60% unless the parties show substantial procompetitive outcomes, extends the merger challenge deadline to three years, and removes the Tribunal’s power to award costs against the Crown."
+    ],
+    "who_it_affects": [
+      "Businesses",
+      "Companies planning mergers",
+      "Federally regulated financial institutions",
+      "Competition Bureau",
+      "Competition Tribunal"
+    ],
+    "background": "The bill amends the Competition Act and the Competition Tribunal Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

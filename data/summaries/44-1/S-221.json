@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/S-221",
+  "sourceHash": "278f1b1893e654bdfd7576bd2d7df994",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:13.387Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11474632",
+  "summary": {
+    "tldr": "Raises the service rule for Governor General annuity and benefits to five consecutive years, with a medical exception.",
+    "what_it_does": [
+      "Requires a Governor General to serve at least five consecutive years to qualify for a retiring annuity under the Governor General’s Act.",
+      "Deems a Governor General who cannot serve five years for medical reasons, in the opinion of the Governor in Council, to have met the five-year rule.",
+      "Bars money from the Consolidated Revenue Fund for administrative support or expense reimbursements for former Governor Generals who served less than five consecutive years.",
+      "Ends annuity payments under the old rules to former Governor Generals with less than five consecutive years of service when the bill comes into force, but keeps survivor payments going."
+    ],
+    "who_it_affects": [
+      "Governor Generals",
+      "Former Governor Generals",
+      "Survivors receiving annuities",
+      "Federal public funds"
+    ],
+    "background": "The bill amends Part II of the Governor General’s Act, which deals with the retiring annuity and related benefits for a Governor General.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations"
+    ]
+  }
+}

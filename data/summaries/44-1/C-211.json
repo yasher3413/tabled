@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-211",
+  "sourceHash": "f897302c0896af7549fb3bb63cbc41dd",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:48:06.026Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11497420",
+  "summary": {
+    "tldr": "Changes Canada Labour Code bereavement leave, giving longer time to take leave after a child’s death and adding leave for stillbirths and miscarriages.",
+    "what_it_does": [
+      "Extends bereavement leave for the death of a child under 18, or a child eligible for the Canada caregiver credit, to up to 8 weeks after the funeral, burial, or memorial service.",
+      "Creates a right to up to 8 weeks of leave after a stillbirth experienced by an employee or their spouse or common-law partner.",
+      "Creates a right to 3 days of leave after a miscarriage experienced by an employee or their spouse or common-law partner.",
+      "Keeps general bereavement leave at up to 10 days for the death of an immediate family member, with leave taken up to 6 weeks after the funeral, burial, or memorial service."
+    ],
+    "who_it_affects": [
+      "Federally regulated employees",
+      "Federally regulated employers",
+      "Parents",
+      "Spouses and common-law partners"
+    ],
+    "background": "The bill amends the Canada Labour Code. It adds new rules for leave after the death of a child and for the loss of an unborn child.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "families-children"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-305",
+  "sourceHash": "cd67f83838c25adffd3e3e69237a40f4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:06.881Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12041093",
+  "summary": {
+    "tldr": "Bans anchoring vessels in listed waters under the Canada Shipping Act, 2001, with an exception for pleasure craft and a fine for violations.",
+    "what_it_does": [
+      "Adds a new rule that no one may anchor a vessel in waters listed as prohibited waters in Schedule 1.1.",
+      "Exempts pleasure craft from the anchoring ban.",
+      "Lets the Governor in Council, on the Minister of Transport's recommendation, add more prohibited waters to Schedule 1.1 by order.",
+      "Makes breaking the anchoring ban an offence punishable on summary conviction by a fine of up to $100,000."
+    ],
+    "who_it_affects": [
+      "Vessel operators",
+      "Pleasure craft owners",
+      "People anchoring in listed waters",
+      "Shipping companies"
+    ],
+    "background": "The bill amends the Canada Shipping Act, 2001. It adds Schedule 1.1, which lists the waters where anchoring is banned.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure"
+    ]
+  }
+}

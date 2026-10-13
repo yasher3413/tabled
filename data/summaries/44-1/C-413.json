@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-413",
+  "sourceHash": "73d9fd8fdcbdb09c72b97a66a41cc636",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:15.635Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13278241",
+  "summary": {
+    "tldr": "Creates a Criminal Code offence for wilfully promoting hatred against Indigenous peoples by denying or justifying the Indian residential school system.",
+    "what_it_does": [
+      "Creates a new Criminal Code offence for wilfully promoting hatred against Indigenous peoples by condoning, denying, downplaying, justifying, or misrepresenting facts about the Indian residential school system in statements made outside private conversation.",
+      "Makes the offence punishable either by indictment, with up to two years in prison, or by summary conviction.",
+      "Adds defences if the statements were true, made in good faith about a religious subject, about a matter of public interest believed true on reasonable grounds, or meant to remove hateful material.",
+      "Requires the Attorney General's consent before anyone can be prosecuted for this offence.",
+      "Extends existing forfeiture rules and communication-facility seizure rules to the new offence.",
+      "Defines Indigenous peoples by using the definition of Aboriginal peoples of Canada in section 35(2) of the Constitution Act, 1982."
+    ],
+    "who_it_affects": [
+      "Indigenous peoples",
+      "People making public statements",
+      "Media outlets and publishers",
+      "Courts and prosecutors"
+    ],
+    "background": "The bill amends section 319 of the Criminal Code. It also updates the definition of Indigenous peoples in the Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "indigenous-peoples"
+    ]
+  }
+}

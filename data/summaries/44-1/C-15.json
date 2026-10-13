@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-15",
+  "sourceHash": "4d69be641d49712cf913ed3f7bb0bb0c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:08.080Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-15",
+  "summary": {
+    "tldr": "Authorizes $13.2 billion in federal spending for public service expenses in 2021-22.",
+    "what_it_does": [
+      "Authorizes $13,209,519,773 from the Consolidated Revenue Fund to pay for federal public service expenses not otherwise provided for in 2021-22.",
+      "Gives this spending authority through Appropriation Act No. 5, 2021-22.",
+      "Comes into force on Royal Assent, which it received on 31 March 2022."
+    ],
+    "who_it_affects": [
+      "Federal public service",
+      "Government of Canada departments",
+      "Federal spending programs"
+    ],
+    "background": "The President of the Treasury Board introduced the bill in the House of Commons on 24 March 2022. It is an appropriation bill for the financial year ending 31 March 2022.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "budget-taxes"
+    ]
+  }
+}

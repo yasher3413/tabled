@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-281",
+  "sourceHash": "5eea6563f078ec8780b8c889184395d5",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:36.224Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12506577",
+  "summary": {
+    "tldr": "Requires annual human rights reporting, forces responses to parliamentary sanctions recommendations, limits some broadcasting licences, and tightens rules on cluster munitions investments.",
+    "what_it_does": [
+      "Requires the foreign affairs minister to publish a yearly report on Canada’s work to advance human rights abroad, including details on prisoners of conscience, contact with their families, and consultations with civil society.",
+      "Requires the minister to respond when a Senate or House committee recommends sanctions under the Sergei Magnitsky Law, saying whether the order or regulation was made and giving reasons, then tabling and posting the response.",
+      "Bars new or renewed broadcasting licences for undertakings that could be significantly influenced by a foreign national or entity Parliament has recognised as having committed genocide, or that is sanctioned under the Magnitsky law or the Special Economic Measures Act.",
+      "Adds a ban on investing in an entity that has broken certain cluster munitions rules, and expands related offence rules, with a one-year transition for existing interests and loans."
+    ],
+    "who_it_affects": [
+      "Foreign Affairs Minister",
+      "Prisoners of conscience",
+      "Parliamentary committees",
+      "Broadcasters",
+      "Broadcasting undertakings",
+      "Investors and lenders"
+    ],
+    "background": "It amends the Department of Foreign Affairs, Trade and Development Act, the Sergei Magnitsky Law, the Broadcasting Act and the Prohibiting Cluster Munitions Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "government-operations",
+      "defence-security"
+    ]
+  }
+}

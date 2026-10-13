@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/C-268",
+  "sourceHash": "5477fc8c8f5dc04f378dfac2274c394c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:36.567Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13966427",
+  "summary": {
+    "tldr": "Requires a process to verify mobile coverage data and orders a review, update, and ongoing five-year reporting on Canada’s Spectrum Policy Framework.",
+    "what_it_does": [
+      "Requires the Canadian Radio-television and Telecommunications Commission to set up, within six months, a process to check the accuracy of mobile network coverage data from Canadian carriers, including areas served and deployment requirements.",
+      "Requires the Minister of Industry to carry out a full review of the Spectrum Policy Framework for Canada within 18 months and table a report in both Houses of Parliament.",
+      "Requires the minister to consult telecom providers, spectrum licence holders, rural and remote municipalities, Indigenous communities, public safety agencies, researchers, the CRTC, and other chosen stakeholders.",
+      "Requires the review report to address consultation results, rural and remote connectivity, numbered roads, public safety, coverage data, and any changes the minister thinks are needed.",
+      "Requires the minister, every five years after the first report is tabled, to report on the Framework’s implementation and effectiveness and to publish each report online within 30 days."
+    ],
+    "who_it_affects": [
+      "Canadian carriers",
+      "Telecommunications service providers",
+      "Spectrum licence holders",
+      "CRTC",
+      "Minister of Industry",
+      "Rural and remote communities",
+      "Indigenous communities",
+      "Public safety agencies"
+    ],
+    "background": "The bill deals with the Spectrum Policy Framework for Canada and creates new review and reporting duties linked to mobile network coverage data.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "government-operations",
+      "transport-infrastructure"
+    ]
+  }
+}

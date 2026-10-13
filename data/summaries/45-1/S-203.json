@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/S-203",
+  "sourceHash": "92514e0eb5bd1f4c0d092c18f3558724",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:54.401Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13541850",
+  "summary": {
+    "tldr": "Prohibits most promotion of alcoholic beverages, with limited exceptions, and sets enforcement powers and penalties.",
+    "what_it_does": [
+      "Prohibits promoting alcoholic beverages, including by price, distribution, testimonials, depictions, or lifestyle images, unless the Act allows it.",
+      "Allows some promotions only in limited cases, such as direct messages to named adults, places where young persons are not allowed, certain telecommunication uses, point-of-sale notices, and some brand-element displays.",
+      "Prohibits false, misleading, or deceptive alcohol promotion, and bans terms, logos, symbols, or illustrations set out in regulations.",
+      "Prohibits using alcohol brand elements or producer names in sponsorship promotions, and on the names of facilities used for sports or cultural events or activities.",
+      "Prohibits alcohol sellers from giving free alcohol, prizes, games, contests, services, or other inducements to buy alcohol, with some exceptions for dealings between alcohol businesses.",
+      "Authorises inspectors to enter places, examine records, copy data, seize items, and, with a warrant or consent, enter dwelling-houses; it also creates offences, fines, and prison terms."
+    ],
+    "who_it_affects": [
+      "Alcohol producers",
+      "Alcohol distributors",
+      "Alcohol retailers",
+      "Advertisers and marketers",
+      "Broadcasters and online platforms",
+      "Sports and cultural venues",
+      "Inspectors and enforcement officials"
+    ],
+    "background": "The bill defines alcoholic beverage as a beverage containing 1.1% or more ethyl alcohol by volume. It says its purpose is to protect young persons and others from inducements to consume alcoholic beverages and to reduce public health and social costs.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health"
+    ]
+  }
+}

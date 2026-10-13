@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-301",
+  "sourceHash": "cf8370acb22ce3fc97d1f60aa44c3a69",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:16.707Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12017451",
+  "summary": {
+    "tldr": "Eliminates interest on federal student and apprentice loans, and changes when borrowers have to start repaying them.",
+    "what_it_does": [
+      "Eliminates interest on student loans during periods of study for both full-time and part-time students, and bars any fee on a student loan for that time.",
+      "Delays repayment of student loans until the last day of the seventh month after a borrower stops being a student, or stops being a full-time student for full-time loans.",
+      "Eliminates interest on guaranteed student loans made on or after August 1, 1993, and removes older sections that set the previous interest rules.",
+      "Eliminates interest on apprentice loans and says repayment starts after the prescribed deferral period.",
+      "Keeps the current rules for principal and interest that were already payable before the bill comes into force, until those amounts are repaid."
+    ],
+    "who_it_affects": [
+      "Student loan borrowers",
+      "Part-time students",
+      "Apprentice loan borrowers",
+      "Full-time students",
+      "Lenders",
+      "Federal loan administrators"
+    ],
+    "background": "The bill amends the Canada Student Financial Assistance Act, the Canada Student Loans Act and the Apprentice Loans Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "education",
+      "budget-taxes",
+      "labour-employment"
+    ]
+  }
+}

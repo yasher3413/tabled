@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-296",
+  "sourceHash": "f93067b51ed46bb2dedb817da04297bd",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:42.634Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11893888",
+  "summary": {
+    "tldr": "Changes sentencing rules so a person convicted of abduction, sexual assault and murder of the same victim can face parole ineligibility for 25 to 40 years.",
+    "what_it_does": [
+      "Requires a life sentence without parole eligibility for at least 25 years, and up to 40 years, for a person convicted of abduction, sexual assault and murder of the same victim in the same event or series of events.",
+      "Lets the trial judge ask the jury whether it wants to recommend a parole ineligibility period, and if so, how many years the person should serve before release can be considered.",
+      "Allows the judge to replace the 25-year parole ineligibility period with a longer period, from more than 25 years to no more than 40 years, after considering the offender, the offences and the circumstances.",
+      "Sets out that the judge may consider any jury recommendation when deciding the parole ineligibility period."
+    ],
+    "who_it_affects": [
+      "People convicted of abduction, sexual assault and murder",
+      "Victims’ families",
+      "Juries",
+      "Sentencing judges",
+      "Criminal courts"
+    ],
+    "background": "It amends section 745 of the Criminal Code and adds new sections about jury recommendations and parole ineligibility.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

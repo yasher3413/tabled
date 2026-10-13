@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/C-205",
+  "sourceHash": "3191ec826574798ffc63a094e9d42646",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:48:12.771Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11480287",
+  "summary": {
+    "tldr": "Stops regulations under the Impact Assessment Act from setting a minimum coal production capacity for a new coal mine.",
+    "what_it_does": [
+      "Adds a rule to the Impact Assessment Act that regulations cannot set a minimum coal production capacity for a new coal mine designated under section 109."
+    ],
+    "who_it_affects": [
+      "New coal mine developers",
+      "Coal mining companies",
+      "Federal regulators"
+    ],
+    "background": "Section 109 of the Impact Assessment Act lets regulations be made about designated physical activities. This bill adds a limit for new coal mines under that section.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "energy-resources"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-257",
+  "sourceHash": "094f08c8cdb905cd109dc05889f3a9d3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:46.428Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11617520",
+  "summary": {
+    "tldr": "Adds political belief and political activity to the Canadian Human Rights Act’s protected grounds.",
+    "what_it_does": [
+      "Replaces the Act’s purpose clause to say people should have equal opportunity without being blocked by discrimination based on political belief or political activity.",
+      "Replaces the prohibited grounds list to add political belief and political activity as grounds protected by the Canadian Human Rights Act.",
+      "Keeps the other listed grounds in the Act, including race, religion, age, sex, disability, and convictions for offences that have been pardoned or record suspended."
+    ],
+    "who_it_affects": [
+      "People with political beliefs",
+      "People who take part in political activity",
+      "People covered by the Canadian Human Rights Act"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality"
+    ]
+  }
+}

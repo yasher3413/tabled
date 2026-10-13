@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-347",
+  "sourceHash": "3e0b2c265b270a2d135014746106add1",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:15.854Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12558557",
+  "summary": {
+    "tldr": "Lets senators and MPs choose the oath of allegiance, the oath of office, or both before taking their seat.",
+    "what_it_does": [
+      "Renumbers section 128 of the Constitution Act, 1867 and lets every senator or MP take the oath of office instead of the oath of allegiance, or take both.",
+      "Adds a new oath of office to the Fifth Schedule, saying the person will carry out their duties in the best interest of Canada while upholding its Constitution.",
+      "Keeps the Constitution Acts, 1867 to 1982 reference in step with this change by treating it as including this bill."
+    ],
+    "who_it_affects": [
+      "Senators",
+      "Members of the House of Commons"
+    ],
+    "background": "The bill amends section 128 of the Constitution Act, 1867 and adds an oath of office to the Fifth Schedule.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "democracy-elections"
+    ]
+  }
+}

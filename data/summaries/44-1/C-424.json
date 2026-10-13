@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-424",
+  "sourceHash": "698f641a1fdb63856ed4fdff5384f404",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:51.577Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13520758",
+  "summary": {
+    "tldr": "Adds refusal to share the location of a body or remains as a sentencing factor and can delay parole or temporary absences for some offenders.",
+    "what_it_does": [
+      "Requires courts to treat a convicted person's refusal to tell authorities where a body or remains are as an aggravating factor when sentencing offences linked to a death.",
+      "Requires courts to give reasons if they decide not to use that refusal as a sentencing factor.",
+      "Lets courts delay full parole for some offenders, including those serving life sentences, to one half of the sentence or 10 years, whichever is less, unless another parole ineligibility period is enough.",
+      "Requires courts to revoke that parole delay order if the reason for it no longer exists.",
+      "Requires the Parole Board of Canada and provincial parole boards to consider that refusal when deciding parole and unescorted temporary absence.",
+      "Lets parole boards and prison authorities refuse parole or temporary absence for some offenders and prisoners who refuse to provide the location of the body or remains."
+    ],
+    "who_it_affects": [
+      "Families of homicide victims",
+      "People convicted of death-related offences",
+      "Parole Board of Canada",
+      "Provincial parole boards",
+      "Federal prisoners",
+      "Provincial prisoners",
+      "Sentencing courts"
+    ],
+    "background": "The bill amends the Criminal Code, the Corrections and Conditional Release Act and the Prisons and Reformatories Act. It applies to offences in relation to the death of a person where the offender or prisoner refuses to give authorities the location of the body or remains.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/S-284",
+  "sourceHash": "b63fdc79e4259b7fec4d95e41f177a28",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:41.040Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13112837",
+  "summary": {
+    "tldr": "Requires the Health Minister to develop a national heart failure framework and report it to Parliament.",
+    "what_it_does": [
+      "Creates a national framework to improve access to heart failure prevention, diagnosis, management and evaluation, and to reduce burdens on the health system.",
+      "Requires the framework to cover early detection, accurate diagnosis, patient and caregiver education, mental health supports, guideline-directed treatment, multidisciplinary care, remote monitoring and virtual visits.",
+      "Requires the framework to address care gaps in rural, remote and underserved communities, and to improve health data, including a national heart failure registry and better use of the Canadian Community Health Survey.",
+      "Requires the Minister to consult provincial governments, Indigenous governing bodies, health professionals, researchers, patients, caregivers and associations, and to hold at least one conference within 12 months.",
+      "Requires a framework report to be tabled in Parliament within 18 months and posted online within 10 days, then a follow-up report within five years on effectiveness, current diagnosis and treatment, and recommendations."
+    ],
+    "who_it_affects": [
+      "People with heart failure",
+      "Heart failure caregivers",
+      "Provincial governments",
+      "Indigenous governing bodies",
+      "Health care professionals",
+      "Researchers",
+      "Patient groups"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

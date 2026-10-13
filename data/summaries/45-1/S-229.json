@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/S-229",
+  "sourceHash": "c0dc29c95cc61373732c7e894c58d57c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:22.461Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13554338",
+  "summary": {
+    "tldr": "Sets rules for Gatineau Park, including fixed boundaries, ecological protection, limits on public land sales, and new consultation and regulation powers.",
+    "what_it_does": [
+      "Sets Gatineau Park’s boundaries in a new schedule, and lets the Governor in Council enlarge the park if the federal government has title to the land.",
+      "Makes ecological integrity the National Capital Commission’s first priority when managing the park, and requires a long-term master plan within 10 years and every 10 years after that.",
+      "Prohibits selling or giving away public lands in the park, except for certain transfers to Algonquin Anishinabeg bodies or public authorities for health care, social services, culture, or public infrastructure.",
+      "Requires the Commission to provide public participation and to consult nearby municipalities and Algonquin Anishinabeg governing bodies, with the consultations reported on its website.",
+      "Allows regulations on park activities, permits, fees, and ecological integrity, and says fees cannot be higher than the Commission’s cost.",
+      "Allows the Minister to designate enforcement officers and to set summary conviction penalties for breaking park regulations."
+    ],
+    "who_it_affects": [
+      "Gatineau Park visitors",
+      "Algonquin Anishinabeg Nation",
+      "National Capital Commission",
+      "Nearby municipalities",
+      "Federal, provincial and municipal authorities",
+      "Businesses and workers in the region",
+      "Public land users in the park"
+    ],
+    "background": "The bill amends the National Capital Act and adds a new schedule that describes Gatineau Park’s boundaries.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "indigenous-peoples",
+      "government-operations"
+    ]
+  }
+}

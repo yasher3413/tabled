@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/S-241",
+  "sourceHash": "baec5a220d73028b80d64f2838de3de9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:42.838Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13760395",
+  "summary": {
+    "tldr": "Gives First Nations governing bodies control over many lottery schemes on reserves and lets band councils make related bylaws.",
+    "what_it_does": [
+      "Creates authority for a First Nation governing body to run and licence lottery schemes from or on its reserve, after it gives written notice to Canada and the province.",
+      "Lets First Nation licences include terms and conditions for how a lottery scheme is run, managed and operated.",
+      "Allows charitable and religious groups, fair boards, concession operators and other people to run certain lottery schemes on a reserve under First Nation licences.",
+      "Adds a bylaw power in the Indian Act so band councils can regulate lottery schemes allowed under section 207 of the Criminal Code.",
+      "Allows computers to be used for ticket sales, winner selection and prize distribution in authorised charitable or religious raffles, including 50/50 draws.",
+      "Lets provinces and First Nations agree to sell lottery tickets across provincial and reserve borders for lottery schemes that are already authorised."
+    ],
+    "who_it_affects": [
+      "First Nations governing bodies",
+      "Band councils",
+      "Charitable organisations",
+      "Religious organisations",
+      "Fair and exhibition boards",
+      "Concession operators",
+      "Lottery licence holders",
+      "Provincial governments"
+    ],
+    "background": "Section 207 of the Criminal Code already sets out which lottery schemes are lawful. This bill adds First Nation reserve authority to that section and adds a related bylaw power to the Indian Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "crime-justice"
+    ]
+  }
+}

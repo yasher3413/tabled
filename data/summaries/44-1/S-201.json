@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/S-201",
+  "sourceHash": "e29cb51d021f446681739741bca49479",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:17.203Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11474361",
+  "summary": {
+    "tldr": "Lowers the voting age in federal elections and referendums from 18 to 16, and updates related rules to match.",
+    "what_it_does": [
+      "Lowers the voting age for Canadian citizens in federal elections from 18 to 16.",
+      "Changes the definition of “future elector” to mean a Canadian citizen who is 14 or 15 years old.",
+      "Removes the rule that election officers appointed under section 32 may be under 18 but must be at least 16.",
+      "Updates election offence and declaration rules so they refer to people who are under 16, not under 18.",
+      "Applies the same 16-year-old voting age to referendums under the related regulation.",
+      "Sets the law to start six months after royal assent, unless the Chief Electoral Officer says sooner that preparations are ready."
+    ],
+    "who_it_affects": [
+      "Canadian citizens aged 16 and 17",
+      "Canadian citizens aged 14 and 15",
+      "Election officers",
+      "Registered political parties",
+      "Chief Electoral Officer"
+    ],
+    "background": "The bill amends the Canada Elections Act and a related referendum regulation.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections"
+    ]
+  }
+}

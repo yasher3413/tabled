@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/C-28",
+  "sourceHash": "98aad2e3292185be2fe6076d73feba03",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:25.942Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-28",
+  "summary": {
+    "tldr": "Creates a federal framework for space launches and re-entries, with new rules for liability, emergency stoppages, and launch-site zoning.",
+    "what_it_does": [
+      "Establishes a legal framework for space launch and re-entry activities in Canada under the Aeronautics Act.",
+      "Updates definitions to include launch vehicles and re-entry vehicles, and lets those terms be set by regulation.",
+      "Removes certain launch and re-entry decisions from review by the Transportation Appeal Tribunal of Canada.",
+      "Expands regulation-making powers for launches, re-entries, launch and re-entry sites, and the use of international agreements and standards.",
+      "Creates new liability and indemnification rules for launch and re-entry activities, including ministerial indemnity in some cases and a financial responsibility regime with possible exemptions or adjustments.",
+      "Gives the Minister of Transport emergency powers to stop launch or re-entry activities for safety or security reasons, and sets up a process for zoning regulations at certified launch and re-entry sites."
+    ],
+    "who_it_affects": [
+      "Launch vehicle owners and operators",
+      "Re-entry vehicle owners and operators",
+      "Launch and re-entry site operators",
+      "Third parties affected by launch activities",
+      "Government of Canada",
+      "Transportation Appeal Tribunal of Canada"
+    ],
+    "background": "The bill amends the Aeronautics Act and other Acts. It also amends the Carriage by Air Act, the Canada Transportation Act and the Secure Air Travel Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure",
+      "government-operations",
+      "economy-business"
+    ]
+  }
+}

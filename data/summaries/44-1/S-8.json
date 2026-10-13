@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/S-8",
+  "sourceHash": "8831e851f079e9c9d458877244097d6d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:32.916Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12560553",
+  "summary": {
+    "tldr": "Creates a new immigration inadmissibility ground for sanctions and updates related rules in the IRPA, Citizenship Act, Emergencies Act and immigration regulations.",
+    "what_it_does": [
+      "Creates a separate inadmissibility ground for sanctions, covering people blocked by international sanctions Canada follows and people subject to orders or regulations under the Special Economic Measures Act or Magnitsky law.",
+      "Updates related Immigration and Refugee Protection Act rules so sanctions are treated separately from other inadmissibility grounds, including rules on family members, detention, removal, appeals and refugee claims.",
+      "Limits humanitarian and compassionate requests, and ministerial exemptions, for people inadmissible under security, human or international rights, sanctions or organized crime grounds.",
+      "Transfers authority to issue a removal order for sanctions-based inadmissibility from the Immigration Division to the Minister of Public Safety and Emergency Preparedness under the regulations.",
+      "Applies the new sanctions ground to some sanctions decisions and orders already in force when the bill receives royal assent."
+    ],
+    "who_it_affects": [
+      "Foreign nationals subject to sanctions",
+      "Permanent residents",
+      "Refugee claimants",
+      "Immigration officials",
+      "The Minister of Public Safety and Emergency Preparedness",
+      "People applying for citizenship"
+    ],
+    "background": "The bill amends the Immigration and Refugee Protection Act. It also makes related changes to the Citizenship Act, the Emergencies Act and the Immigration and Refugee Protection Regulations.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship",
+      "government-operations"
+    ]
+  }
+}

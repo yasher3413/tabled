@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-69",
+  "sourceHash": "2d48d219f611976a15bdb0938158cc8c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:44.300Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-69",
+  "summary": {
+    "tldr": "Implements budget measures, creates a global minimum tax, and makes changes to taxes, housing, labour, benefits, finance, immigration and criminal law.",
+    "what_it_does": [
+      "Changes income tax rules, including limits on deductions for non-compliant short-term rentals, higher credits for volunteer firefighters and search and rescue volunteers, a larger home buyers’ plan withdrawal limit, and new tax credits for journalism, clean hydrogen and clean manufacturing.",
+      "Creates the Global Minimum Tax Act, which applies a 15% minimum effective tax rate to large multinational corporations and sets reporting, filing, administration and enforcement rules.",
+      "Changes housing rules by delaying the repeal of the ban on non-Canadians buying residential property, raising CMHC guarantee limits, and adding some underused housing tax exemptions and filing relief.",
+      "Adds or expands benefits and supports, including school food payments to provinces, student loan forgiveness for more health and care workers, changes to the Canada Child Benefit, and new or updated Canada Pension Plan benefits.",
+      "Changes labour and employment rules, including a presumption that paid workers are employees, new rules for workplace communication and terminations, and an extension of extra EI weeks for some seasonal workers until October 24, 2026.",
+      "Makes many other changes, including new consumer-driven banking rules, updates to immigration and refugee procedures, changes to tobacco, vaping and alcohol excise duties, and new or expanded powers in criminal, health and money-laundering law."
+    ],
+    "who_it_affects": [
+      "Taxpayers",
+      "Large multinationals",
+      "Home buyers",
+      "Workers and employers",
+      "Students and schools",
+      "Financial institutions",
+      "Immigrants and refugee claimants",
+      "Tobacco, vaping and alcohol businesses"
+    ],
+    "background": "The bill implements certain measures from the federal budget tabled on April 16, 2024. It also enacts the Global Minimum Tax Act and amends many other federal laws.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations",
+      "economy-business"
+    ]
+  }
+}

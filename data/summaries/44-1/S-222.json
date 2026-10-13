@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/S-222",
+  "sourceHash": "2d1f91a8b17687a42cca77c2ccbeb373",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:06.444Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12656838",
+  "summary": {
+    "tldr": "Lets the minister consider emissions cuts and other environmental benefits when setting rules for public works, and allows wood or other beneficial materials.",
+    "what_it_does": [
+      "Requires the minister to consider possible reductions in greenhouse gas emissions and other environmental benefits when setting requirements for the construction, maintenance and repair of public works, federal real property and federal immovables.",
+      "Allows the minister to permit the use of wood or any other material, product or sustainable resource that achieves those environmental benefits."
+    ],
+    "who_it_affects": [
+      "Federal public works projects",
+      "Federal property managers",
+      "Construction contractors",
+      "Wood and materials suppliers"
+    ],
+    "background": "The bill amends section 7 of the Department of Public Works and Government Services Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "government-operations",
+      "economy-business"
+    ]
+  }
+}

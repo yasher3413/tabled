@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-216",
+  "sourceHash": "4306c706ae6a251c1ce68fb8e29fc1d4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:57.823Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11504366",
+  "summary": {
+    "tldr": "Repeals the federal offence of possessing certain substances, creates a process to erase some related convictions, and requires a national substance use strategy.",
+    "what_it_does": [
+      "Repeals sections 4 and 4.1 of the Controlled Drugs and Substances Act, which include the offence of possessing certain substances.",
+      "Creates the Expungement of Certain Drug-related Convictions Act, letting the Parole Board of Canada order expungement for some past convictions if the conduct would not be an offence now.",
+      "Requires the Royal Canadian Mounted Police and federal departments or agencies to destroy or remove judicial records covered by an expungement order, and to notify other police forces and courts that hold records.",
+      "Requires the Minister of Health to develop a national strategy on substance use to address harm caused by problematic substance use."
+    ],
+    "who_it_affects": [
+      "People with drug-related convictions",
+      "People charged with simple possession",
+      "Parole Board of Canada",
+      "RCMP",
+      "Federal departments and agencies",
+      "Provincial and municipal police",
+      "Courts",
+      "Minister of Health"
+    ],
+    "background": "The bill amends the Controlled Drugs and Substances Act and also enacts two new laws, one on expungement and one on a national strategy on substance use.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

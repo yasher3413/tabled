@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-360",
+  "sourceHash": "125d0a45871a9264a0c69f57d079f341",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:08.402Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12651159",
+  "summary": {
+    "tldr": "Requires the Agriculture Minister to develop a national strategy to reduce wasted food in Canada and report back to Parliament.",
+    "what_it_does": [
+      "Requires the Minister of Agriculture and Agri-Food to work with provinces, Indigenous governing bodies and other stakeholders to develop a national strategy on wasted food.",
+      "Calls for public awareness campaigns, school materials, and tools to help manufacturers, retailers and consumers reduce wasted food.",
+      "Seeks to make it easier to donate food that is safe to eat to community groups and food banks, and to support food recovery programs, especially in rural and Indigenous communities.",
+      "Asks the strategy to set national targets, add reporting rules for food waste impacts, and examine better food label options and composting plans.",
+      "Requires the Minister to table the strategy within two years, then report on its effectiveness every five years, and publish both reports online."
+    ],
+    "who_it_affects": [
+      "Food manufacturers",
+      "Retailers",
+      "Consumers",
+      "Schools",
+      "Food banks and charities",
+      "Producers and distributors",
+      "Indigenous communities",
+      "Provincial and municipal governments"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "agriculture-food",
+      "environment-climate",
+      "government-operations"
+    ]
+  }
+}

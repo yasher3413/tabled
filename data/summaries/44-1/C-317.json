@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-317",
+  "sourceHash": "3b23506c17e37bcd13f8b25c26f54287",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:50.604Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13162618",
+  "summary": {
+    "tldr": "Requires the federal government to develop a national strategy for flood and drought forecasting and report it to Parliament.",
+    "what_it_does": [
+      "Requires the Minister of the Environment, with several other federal ministers, to develop a national strategy on flood and drought forecasting.",
+      "Requires consultations with provincial and municipal governments, Indigenous governing bodies, universities, civil society groups, and industry, including the insurance industry.",
+      "Requires the strategy to assess national coordination, new investment, and new technology for flood and drought forecasting.",
+      "Requires the strategy to look at flood risk modelling and at ways to build a national forecasting service and system across Canada.",
+      "Requires the Minister to table the strategy in Parliament within two years, publish it online, and later report on how well the strategy worked."
+    ],
+    "who_it_affects": [
+      "Federal ministers",
+      "Provincial governments",
+      "Municipal governments",
+      "Indigenous governing bodies",
+      "Universities",
+      "Civil society groups",
+      "Insurance industry"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-36",
+  "sourceHash": "c903af58733a9e29404a66524072cbd6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:26.946Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-36",
+  "summary": {
+    "tldr": "Authorizes $20.8 billion from the Consolidated Revenue Fund for federal public spending in 2022-23.",
+    "what_it_does": [
+      "Authorizes payments to cover certain federal public service expenses that were not otherwise provided for in the 2022-23 fiscal year.",
+      "Appropriates $20,796,964,176 from the Consolidated Revenue Fund for the public service of Canada.",
+      "Comes into force on Royal Assent."
+    ],
+    "who_it_affects": [
+      "Federal public service",
+      "Federal government departments"
+    ],
+    "background": "The bill was introduced in the House of Commons on 8 December 2022 and received Royal Assent on 15 December 2023.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "budget-taxes"
+    ]
+  }
+}

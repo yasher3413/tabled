@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-323",
+  "sourceHash": "2503a2f7586b99371ce01ef8759d718a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:31.672Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12273931",
+  "summary": {
+    "tldr": "Exempts psychotherapy and mental health counselling services from the GST.",
+    "what_it_does": [
+      "Exempts psychotherapy services from goods and services tax under the Excise Tax Act.",
+      "Exempts mental health counselling services from goods and services tax.",
+      "Expands the GST exemption rules so the definition of “practitioner” covers these services and other listed health services."
+    ],
+    "who_it_affects": [
+      "Psychotherapists",
+      "Mental health counsellors",
+      "People who use these services",
+      "GST registrants offering these services"
+    ],
+    "background": "The bill amends the Excise Tax Act. It comes into force six months after royal assent.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "budget-taxes"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/S-239",
+  "sourceHash": "4872c0135b537ac785a7347f843f36b3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:19.960Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11609938",
+  "summary": {
+    "tldr": "Lowers the Criminal Code criminal interest rate from 60% to the Bank of Canada’s overnight rate plus 20%.",
+    "what_it_does": [
+      "Replaces the Criminal Code definition of “criminal rate” so it applies when the effective annual interest rate is above the Bank of Canada’s overnight rate plus 20%.",
+      "Adds a definition of “Bank of Canada’s overnight rate” as the rate on the day the credit agreement is made or renewed.",
+      "Sets the bill to come into force 60 days after royal assent."
+    ],
+    "who_it_affects": [
+      "Lenders",
+      "Borrowers",
+      "Credit providers",
+      "People using high-interest loans"
+    ],
+    "background": "The bill amends section 347(2) of the Criminal Code, which defines the criminal rate of interest.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "economy-business"
+    ]
+  }
+}

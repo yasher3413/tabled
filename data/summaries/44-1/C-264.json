@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-264",
+  "sourceHash": "d81fd7103e93b03434f875c9d2af9eeb",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:27.472Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11665125",
+  "summary": {
+    "tldr": "Changes insolvency rules so some unpaid pension, group insurance and severance claims get priority in bankruptcy and creditor proceedings.",
+    "what_it_does": [
+      "Adds unpaid special pension payments and other unfunded pension liabilities or solvency deficiencies to the priority list in bankruptcy.",
+      "Adds the same pension-related claims to creditor proceedings under the Companies’ Creditors Arrangement Act.",
+      "Gives priority in bankruptcy to amounts needed to protect beneficiaries if an employer stops taking part in a group insurance plan, including life, disability, health or dental coverage.",
+      "Adds unpaid severance pay or pay in lieu of notice, after any amount already paid by the trustee, to the bankruptcy priority list.",
+      "Requires creditor-protection proceedings to give amounts at least equal to the bankruptcy priority amounts for group insurance and severance claims.",
+      "Delays some new rules for existing employers and companies in prescribed pension plans until the third anniversary of royal assent."
+    ],
+    "who_it_affects": [
+      "Employers with pension plans",
+      "Companies seeking creditor protection",
+      "Employees",
+      "Retirees",
+      "People covered by group insurance plans",
+      "Workers owed severance pay"
+    ],
+    "background": "It amends the Bankruptcy and Insolvency Act and the Companies’ Creditors Arrangement Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "economy-business"
+    ]
+  }
+}

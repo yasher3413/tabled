@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-219",
+  "sourceHash": "e65b6ad2ef47a3f4d37b75c3a88bfa59",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:53.523Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11507111",
+  "summary": {
+    "tldr": "Creates federal environmental rights, lets residents seek investigations and court action over environmental harm, and adds anti-reprisal protections.",
+    "what_it_does": [
+      "Creates rights for people living in Canada to a healthy and ecologically balanced environment, access to environmental information, public participation, access to courts or tribunals, and requests for reviews of environmental laws and policies.",
+      "Lets residents ask a responsible minister to investigate alleged offences under environmental Acts, other than the Canadian Environmental Protection Act, 1999, and requires acknowledgement, investigation, and progress reports.",
+      "Allows residents to bring environmental protection actions for significant harm, or likely significant harm, to the environment, and gives courts powers to order restraint, corrective plans, environmental payments, and other relief, but not damages.",
+      "Amends the Auditor General Act so residents can petition for reviews of environmental laws, instruments, or policies, and amends the Federal Courts Act to let non directly affected people seek judicial review in environmental cases if conditions are met.",
+      "Adds an offence for employers who punish employees for using the bill’s rights or giving information or evidence, with a maximum fine of $25,000.",
+      "Amends the Canadian Bill of Rights to say the right to life, liberty and security of the person includes the right to a healthy and ecologically balanced environment."
+    ],
+    "who_it_affects": [
+      "People living in Canada",
+      "Federal ministers",
+      "Courts and tribunals",
+      "Auditor General",
+      "Attorney General of Canada",
+      "Public service employers",
+      "Employees who raise environmental concerns"
+    ],
+    "background": "The bill says nothing in it affects the rights of Indigenous peoples protected by section 35 of the Constitution Act, 1982.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

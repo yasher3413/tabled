@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-292",
+  "sourceHash": "4ff7c27922d590ff5918dd160db29f10",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:49.479Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11890411",
+  "summary": {
+    "tldr": "Requires online communication service providers to disclose how they use algorithms and personal information, and bans discriminatory uses that affect services and opportunities.",
+    "what_it_does": [
+      "Requires online communication service providers to make public what personal information they collect, use or disclose, how they use it in algorithms, how those algorithms rank or prioritise data, and whether they transfer or disclose personal information across borders.",
+      "Requires providers to take steps so content moderation systems, including algorithms, do not cause adverse differential treatment of individuals or groups based on prohibited grounds of discrimination.",
+      "Prohibits providers from using platform design features or personal information to deny access to goods, services, housing, employment, credit, insurance, health care or education opportunities in a discriminatory way.",
+      "Allows providers to use personal information for internal testing against discrimination and for fair, non-deceptive advertising to under-represented groups, if the opportunities offered are not lower quality or less desirable.",
+      "Requires providers that de-identify personal information to use proportionate safeguards, forbids re-identifying de-identified information except for security testing, and requires records needed to show compliance.",
+      "Creates a seven-member advisory committee to study algorithmic discrimination and report yearly to the Minister, and gives the CRTC inspection powers and offence fines for non-compliance."
+    ],
+    "who_it_affects": [
+      "Online communication service providers",
+      "Online platform operators",
+      "People using social platforms in Canada",
+      "People seeking housing, jobs or credit online",
+      "People seeking insurance, health care or education opportunities",
+      "The CRTC",
+      "The Minister of Industry"
+    ],
+    "background": "The bill defines an online communication service as a commercial service accessible to people in Canada whose main purpose is to let users communicate over the Internet. It excludes services used only for private communications.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "rights-equality"
+    ]
+  }
+}

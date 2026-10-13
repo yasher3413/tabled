@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/C-235",
+  "sourceHash": "0699a442cb047491a2d6267031f0212c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:30.657Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14162807",
+  "summary": {
+    "tldr": "Changes the Criminal Code so some people convicted of abduction, sexual assault and murder of the same victim can be kept from parole for 25 to 40 years.",
+    "what_it_does": [
+      "Creates a new sentence for a person convicted of abduction, sexual assault and murder of the same victim in the same event or series of events. The person gets life imprisonment and cannot be considered for parole for 25 to 40 years.",
+      "Requires the judge to ask the jury, before it is discharged, whether it wants to recommend how many years the person must serve before parole eligibility.",
+      "Lets the judge set that period above 25 years and up to 40 years, after considering the offender, the offences, the circumstances and any jury recommendation.",
+      "Allows the person to appeal a parole ineligibility order to the court of appeal.",
+      "Allows the Attorney General to appeal a parole ineligibility period of less than 40 years, or a decision not to make the order.",
+      "Changes a parole-related rule in the Criminal Code so it refers to the new section on parole ineligibility orders."
+    ],
+    "who_it_affects": [
+      "People convicted of certain violent offences",
+      "Trial judges",
+      "Juries",
+      "Attorneys General",
+      "Courts of appeal"
+    ],
+    "background": "The bill adds a new section 745.31 to the Criminal Code and makes related appeal changes in sections 675, 676 and 746. It also includes coordinating changes if Bill C-16 receives royal assent.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

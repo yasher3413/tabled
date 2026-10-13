@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/C-280",
+  "sourceHash": "54fae24c179725975e69677f76c0d725",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:41.844Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14148659",
+  "summary": {
+    "tldr": "Sets rules provinces must meet to receive federal cash transfers for mental health, addictions and substance use services.",
+    "what_it_does": [
+      "Creates criteria a province must meet for a full federal cash contribution for mental health, addictions and substance use services under the Canada Health Transfer.",
+      "Requires provincial plans to cover all insured mental health, addictions and substance use services and to meet rules on public administration, universality, portability and accessibility.",
+      "Prohibits full cash contributions if a province allows extra-billing or user charges for these services, with a limited exception for certain hospital accommodation or meals.",
+      "Allows the Minister and Governor in Council to reduce or withhold cash contributions when a province fails the criteria or conditions, after notice, consultation and reporting steps.",
+      "Amends the Federal-Provincial Fiscal Arrangements Act to add the new act to the federal transfer rules and related deduction and reimbursement provisions."
+    ],
+    "who_it_affects": [
+      "Provincial governments",
+      "Provincial health plans",
+      "People using mental health services",
+      "Medical practitioners",
+      "Hospitals",
+      "Federal Health Minister"
+    ],
+    "background": "It builds on the Canada Health Transfer and the Federal-Provincial Fiscal Arrangements Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

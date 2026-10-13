@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/S-211",
+  "sourceHash": "495fd873b58d9e3ea8426b2fe45c7048",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:13.637Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13678650",
+  "summary": {
+    "tldr": "Requires a national framework for sports betting advertising and a CRTC review of rules and policies linked to gambling harm.",
+    "what_it_does": [
+      "Requires the Minister of Canadian Heritage to develop a national framework to regulate sports betting advertising in Canada, including ways to restrict ads, limit their number, scope or location, or ban celebrity and athlete promotion.",
+      "Requires the framework to include measures for research and information-sharing on harmful gambling involving minors, plus national standards for prevention, diagnosis and support for affected people.",
+      "Requires the Minister to consult federal ministers, provincial and territorial governments, Indigenous communities, regulators, stakeholders, and sports and ethics groups while developing the framework.",
+      "Requires the Minister to table a report within one year on the framework and its implementation strategy, then publish it on the Canadian Heritage website.",
+      "Requires the Minister to table another report within five years on what measures were implemented, how effective they were, and why any measures were not implemented.",
+      "Requires the CRTC to review its regulations and policies on sports betting advertising and report its conclusions and recommendations within one year after royal assent."
+    ],
+    "who_it_affects": [
+      "Sports betting advertisers",
+      "Celebrities and athletes",
+      "Canadian Radio-television and Telecommunications Commission",
+      "Federal ministers",
+      "Provincial and territorial governments",
+      "Indigenous communities",
+      "People harmed by gambling",
+      "Minors"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

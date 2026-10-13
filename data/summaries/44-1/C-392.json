@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-392",
+  "sourceHash": "446c88db2dcca2ed7c3080fd9f33677d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:51:31.742Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13136681",
+  "summary": {
+    "tldr": "Sets trial time limits in the Criminal Code and requires courts to stop cases that run too long, with some exceptions.",
+    "what_it_does": [
+      "Sets a 30 month ceiling for trials in superior court and an 18 month ceiling for trials in provincial court, measured from when a charge is laid to the expected or actual end of trial.",
+      "Requires judges to stay proceedings if those limits are exceeded, unless the prosecutor shows exceptional circumstances that make the delay reasonable.",
+      "Excludes delay caused solely by the defence, or delay the defence waives, from the time limit calculation.",
+      "Exempts primary designated offences, as defined in the Criminal Code, from the new time limit rules.",
+      "Declares that the exemption for primary designated offences applies despite the Charter right to be tried within a reasonable time."
+    ],
+    "who_it_affects": [
+      "People charged with criminal offences",
+      "Accused people in superior court",
+      "Accused people in provincial court",
+      "Prosecutors",
+      "Judges",
+      "Defence lawyers"
+    ],
+    "background": "The bill says it codifies the Supreme Court of Canada’s framework in R. v. Jordan on the right of an accused to be tried within a reasonable time. It adds a new Part XVI.1 to the Criminal Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

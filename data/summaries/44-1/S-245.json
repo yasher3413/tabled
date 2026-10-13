@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/S-245",
+  "sourceHash": "f34c696e6ed3f5c4cd6bb0dcaebf8a79",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:44.709Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11794115",
+  "summary": {
+    "tldr": "Amends the Citizenship Act so some people who lost Canadian citizenship can regain it.",
+    "what_it_does": [
+      "Lets back former citizens who applied to keep their citizenship under the old section 8 rules, but whose application was not approved, regain citizenship.",
+      "Adds a new path to citizenship for people born outside Canada after February 14, 1977, if they would be citizens had they applied to keep citizenship under the old section 8 rules.",
+      "Keeps this change from applying to anyone who was already a citizen on June 11, 2015.",
+      "Updates a related Citizenship Act rule so it refers to people who are citizens under the new and existing citizenship paragraphs."
+    ],
+    "who_it_affects": [
+      "Former Canadian citizens",
+      "People born outside Canada after February 14, 1977",
+      "People whose citizenship retention application was denied",
+      "Citizenship applicants"
+    ],
+    "background": "The bill changes the Citizenship Act rules for people who lost citizenship because of the old section 8 retention process. That section is referred to as it read before April 17, 2009.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship",
+      "rights-equality"
+    ]
+  }
+}

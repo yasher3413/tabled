@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-72",
+  "sourceHash": "b4fac232e8cab45c98bee8e3de762bd5",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:05.639Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-72",
+  "summary": {
+    "tldr": "Requires health information technology vendors to make their systems interoperable and stops data blocking.",
+    "what_it_does": [
+      "Requires health information technology that is licensed, sold, or supplied as a service to be interoperable, meaning it can work with other systems.",
+      "Prohibits data blocking by health information technology vendors.",
+      "Aims to support a connected, secure, and person-centred health system."
+    ],
+    "who_it_affects": [
+      "Health information technology vendors",
+      "Health care organisations",
+      "Patients",
+      "People using health services"
+    ],
+    "background": "Bill C-72 was introduced in the House of Commons on 6 June 2024 and received first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "technology-privacy"
+    ]
+  }
+}

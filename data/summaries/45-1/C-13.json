@@ -1,0 +1,27 @@
+{
+  "billId": "45-1/C-13",
+  "sourceHash": "79c6c460a81ca25da86de2de0ca3f9cf",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:18.539Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-13",
+  "summary": {
+    "tldr": "Implements the United Kingdom’s accession to the CPTPP by updating how the agreement is named in Canadian law and changing related Acts.",
+    "what_it_does": [
+      "Updates how the Comprehensive and Progressive Agreement for Trans-Pacific Partnership is defined or referred to in certain Acts.",
+      "Amends other Acts so they match Canada’s obligations under the agreement and the UK accession protocol."
+    ],
+    "who_it_affects": [
+      "Federal lawmakers",
+      "Canadian businesses that trade under the agreement",
+      "Organisations covered by the amended Acts"
+    ],
+    "background": "The bill implements the Protocol on the Accession of the United Kingdom of Great Britain and Northern Ireland to the Comprehensive and Progressive Agreement for Trans-Pacific Partnership, done at Auckland and Bandar Seri Begawan on July 16, 2023.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "economy-business"
+    ]
+  }
+}

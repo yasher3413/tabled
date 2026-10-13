@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-265",
+  "sourceHash": "1bb1d5ccb4440248572af1d4cd19ad1f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:16.710Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11674385",
+  "summary": {
+    "tldr": "Requires the Health Minister to develop and report on a national strategy for perinatal mental health.",
+    "what_it_does": [
+      "Requires the Minister of Health to develop a national strategy to support perinatal mental health in Canada.",
+      "Requires the minister to consult provincial representatives, Indigenous governing bodies, and other stakeholders, including care providers, specialists, researchers, advocacy groups, and people with lived experience.",
+      "Requires the strategy to include measures for screening, timely specialist care, community care, training, culturally relevant care, gender-affirming and inclusive care, trauma-informed care, reducing barriers, fighting stigma, and research.",
+      "Requires the minister to table the strategy report in Parliament within one year, publish it on the Department of Health website within 10 days after tabling, and report every five years on the strategy’s effectiveness."
+    ],
+    "who_it_affects": [
+      "Pregnant people",
+      "Postpartum people",
+      "Health care providers",
+      "Perinatal mental health specialists",
+      "Provincial governments",
+      "Indigenous governing bodies",
+      "Advocacy groups",
+      "Researchers"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health"
+    ]
+  }
+}

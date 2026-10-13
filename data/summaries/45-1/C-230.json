@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-230",
+  "sourceHash": "4c329637a97b4b2ee943b01a9efa1108",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:06.385Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14089832",
+  "summary": {
+    "tldr": "Requires a public online registry of large debts and claims owed to His Majesty that are forgiven, remitted, written off or waived.",
+    "what_it_does": [
+      "Creates an online, searchable public registry for debts or claims owed by corporations, trust companies or partnerships to His Majesty when $2 million or more is forgiven, remitted, written off or waived.",
+      "Requires the registry to show the name, amount, status, fiscal year, and the law or agreement behind each debt or claim, plus any other information the Treasury Board President chooses.",
+      "Allows the Treasury Board President to leave out confidential, personal, or sensitive information, and requires the registry to say why information was excluded.",
+      "Requires the registry to be set up within 18 months and updated within 90 days after the Public Accounts are tabled in the House of Commons each year.",
+      "Changes several tax and excise laws so confidential information may be shared only for sections 23 to 25.1 of the Financial Administration Act."
+    ],
+    "who_it_affects": [
+      "Treasury Board President",
+      "Federal government",
+      "Corporations",
+      "Trust companies",
+      "Partnerships",
+      "Crown corporations",
+      "Tax authorities"
+    ],
+    "background": "The bill adds a new public registry rule to the Financial Administration Act. It also amends several laws that protect taxpayer and other confidential information so they can be used for the registry.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "budget-taxes"
+    ]
+  }
+}

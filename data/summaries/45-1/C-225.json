@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-225",
+  "sourceHash": "d0fd65f4a186ca0a6105717b78608199",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:55.829Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14203664",
+  "summary": {
+    "tldr": "Creates new Criminal Code offences and sentencing rules for intimate partner murder, manslaughter, and other violence, and extends detention for seized items.",
+    "what_it_does": [
+      "Creates first degree murder when someone kills an intimate partner while engaging in, or after a pattern of, coercive or controlling conduct meant to make the partner fear for physical or psychological safety.",
+      "Requires courts to consider life imprisonment for manslaughter against an intimate partner in that same conduct pattern, and sets adult parole ineligibility at 10 to 25 years if that sentence is imposed.",
+      "Creates a new offence for other included offences where violence is used, threatened or attempted against an intimate partner, with penalties tied to the maximum sentence for the underlying offence.",
+      "Extends the detention period for things seized under section 490 from 3 months to 180 days, unless a related application is decided later.",
+      "Changes appeal, sentencing, and endorsement rules for the new intimate partner violence offences, including rules for youth offenders and appeals by the Attorney General."
+    ],
+    "who_it_affects": [
+      "Intimate partners",
+      "People accused of intimate partner violence",
+      "People convicted of manslaughter",
+      "Youth offenders",
+      "Courts",
+      "Prosecutors",
+      "People whose property is seized"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

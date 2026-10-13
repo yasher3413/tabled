@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-290",
+  "sourceHash": "1b4b9425eba883d43c4c0d0f8ac304ac",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:49.500Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12843538",
+  "summary": {
+    "tldr": "Expands whistleblower protections for federal public servants, adds support duties, and gives complainants more ways and more time to pursue reprisal complaints.",
+    "what_it_does": [
+      "Expands the list of wrongdoings that can be reported to include abuse of authority, mismanagement, political or foreign interference, danger to life, health, safety or the environment, code of conduct breaches, and directing someone to commit a wrongdoing.",
+      "Allows a public servant to make a protected disclosure to a supervisor, a higher-level manager, the senior officer, or another person the chief executive designates.",
+      "Requires chief executives to designate one or more people to receive disclosures and lets the Treasury Board set policies for receiving disclosures and for support and identity protection.",
+      "Requires public bodies to provide, on request, non-financial support, including information on resources and complaint options, and to protect the identities of people involved in the disclosure process.",
+      "Extends the reprisal complaint deadline to one year, lets a designated person file the complaint, and sends complaints about the Public Sector Integrity Commissioner’s office to the Auditor General of Canada.",
+      "Lets a complainant apply to the Tribunal for a ruling on whether a reprisal happened and, if so, for a remedy and disciplinary action, and sets a 60-day filing deadline."
+    ],
+    "who_it_affects": [
+      "Federal public servants",
+      "Former public servants",
+      "Federal public sector employers",
+      "Chief executives",
+      "Designated disclosure officers",
+      "Public Sector Integrity Commissioner",
+      "Auditor General of Canada",
+      "Contractors with government"
+    ],
+    "background": "It amends the Public Servants Disclosure Protection Act and makes a related change to the Conflict of Interest Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "labour-employment",
+      "rights-equality"
+    ]
+  }
+}

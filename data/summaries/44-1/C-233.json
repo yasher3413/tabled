@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-233",
+  "sourceHash": "a8519c22fa42692f386f3056b2b8c6cb",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:16.981Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12375722",
+  "summary": {
+    "tldr": "Requires courts to consider electronic monitoring for some accused charged with intimate partner offences and adds judge training on intimate partner violence and coercive control.",
+    "what_it_does": [
+      "Requires a justice, before making a release order for an accused charged with an offence against an intimate partner, to consider whether electronic monitoring should be a condition for safety and security.",
+      "Adds electronic monitoring as a possible release condition when the Attorney General asks for it.",
+      "Updates the list of offences for release conditions to cover violence used, threatened or attempted against the accused’s intimate partner.",
+      "Requires the Canadian Judicial Council to hold continuing education seminars for judges on intimate partner violence, coercive control, sexual assault law, and social context, including systemic racism and discrimination.",
+      "Requires the Council to report each year to the Minister on those seminars within 60 days after the end of the calendar year."
+    ],
+    "who_it_affects": [
+      "Accused persons charged with intimate partner offences",
+      "Intimate partner violence survivors",
+      "Judges",
+      "Canadian Judicial Council",
+      "Attorney General"
+    ],
+    "background": "The bill changes release order rules in the Criminal Code and judicial education rules in the Judges Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "billId": "44-1/C-78",
+  "sourceHash": "cb8ba1dbd0a241ddefb6e1b60547ebb0",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:05.881Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-78",
+  "summary": {
+    "tldr": "Creates a temporary GST/HST holiday on certain taxable supplies from December 14, 2024 to February 15, 2025.",
+    "what_it_does": [
+      "Amends the Excise Tax Act to remove GST/HST for a temporary period on certain taxable supplies, from December 14, 2024 to February 15, 2025."
+    ],
+    "who_it_affects": [
+      "Consumers",
+      "Businesses that charge GST/HST"
+    ],
+    "background": "The bill was introduced in the House of Commons on November 27, 2024 and received first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes"
+    ]
+  }
+}

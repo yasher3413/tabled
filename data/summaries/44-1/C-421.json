@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-421",
+  "sourceHash": "1aed1b99c975ffbf13252732f835c40b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:18.169Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13458782",
+  "summary": {
+    "tldr": "Requires the Industry Minister to develop a national strategy to help establish food cooperatives in Canada and report it to Parliament.",
+    "what_it_does": [
+      "Requires the Minister of Industry to develop a national strategy with measures to help establish food cooperatives in Canada.",
+      "Requires the minister to consult provincial governments, relevant stakeholders, and Indigenous community representatives when developing the strategy.",
+      "Sets out that the strategy is meant to help more small and medium-sized businesses compete in Canada’s grocery industry.",
+      "Requires the minister to prepare a report on the strategy within 18 months, table it in both Houses of Parliament, and publish it online."
+    ],
+    "who_it_affects": [
+      "Food cooperatives",
+      "Small and medium-sized businesses",
+      "Grocery industry businesses",
+      "Provincial governments",
+      "Indigenous communities",
+      "Department of Industry",
+      "Parliament"
+    ],
+    "background": "The bill says the strategy must be developed to facilitate the establishment of food cooperatives in Canada.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "agriculture-food",
+      "government-operations"
+    ]
+  }
+}

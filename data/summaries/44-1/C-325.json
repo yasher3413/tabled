@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-325",
+  "sourceHash": "2beb96ac79ce3f4a4bdfd00b8477f51b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:13.484Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12281539",
+  "summary": {
+    "tldr": "Creates a new offence for breaching release conditions in some serious cases and bars more offenders from serving sentences in the community.",
+    "what_it_does": [
+      "Creates a new offence for people on conditional release for offences in Schedules I or II of the Corrections and Conditional Release Act who, without reasonable excuse, break a condition of parole, statutory release or temporary absence.",
+      "Allows that breach to be prosecuted as an indictable offence with up to 2 years in prison, or as a summary conviction offence.",
+      "Expands the offences that cannot get a conditional sentence, including some indictable offences with maximum penalties of 14 years or life.",
+      "Also bars conditional sentences for some 10-year indictable offences involving bodily harm, drugs or weapons, and for listed offences such as sexual assault, kidnapping and arson for fraudulent purpose.",
+      "Requires parole supervisors to report certain breaches by offenders on conditional release or long-term supervision to the Parole Board of Canada, the Service, the Attorney General and the local police force."
+    ],
+    "who_it_affects": [
+      "People on conditional release",
+      "People on long-term supervision",
+      "People convicted of certain offences",
+      "Parole supervisors",
+      "Parole Board of Canada",
+      "Police forces"
+    ],
+    "background": "The bill changes the Criminal Code rules on conditional sentences and the Corrections and Conditional Release Act rules on parole, statutory release and long-term supervision.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

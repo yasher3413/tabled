@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/S-242",
+  "sourceHash": "54d242914d312302fa01e1ef6d0e7f64",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:58.163Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13933640",
+  "summary": {
+    "tldr": "Requires the federal women and gender equality minister to lead ongoing national action on intimate partner violence and report to Parliament every two years.",
+    "what_it_does": [
+      "Requires the Minister for Women and Gender Equality to continue leading national action to prevent and address intimate partner violence.",
+      "Requires annual talks with other federal ministers and provincial ministers responsible for the status of women, and regular talks with Indigenous partners, victims and survivors, and other stakeholders.",
+      "Requires those talks to cover current programs, partnerships, costs, and any constitutional, legal or jurisdictional issues.",
+      "Requires the talks to begin within one year after royal assent.",
+      "Requires the minister to table a progress report in both Houses of Parliament within two years after royal assent, then every two years, and to post it online within 30 days after tabling."
+    ],
+    "who_it_affects": [
+      "People facing intimate partner violence",
+      "Current and former spouses",
+      "Common-law partners",
+      "Dating partners",
+      "Victims and survivors",
+      "Indigenous partners",
+      "Federal and provincial ministers",
+      "Women and gender equality officials"
+    ],
+    "background": "The bill defines intimate partner to include a current or former spouse, common-law partner, or dating partner. It names the Minister for Women and Gender Equality as the lead minister.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

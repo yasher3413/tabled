@@ -1,0 +1,26 @@
+{
+  "billId": "45-1/S-221",
+  "sourceHash": "c4cc9ad725144a495cd9c36782383b53",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:13.309Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14179399",
+  "summary": {
+    "tldr": "Recognizes the Canada jay as Canada’s national bird.",
+    "what_it_does": [
+      "Gives the Act the short title National Bird of Canada Act.",
+      "Recognizes and declares the Canada jay, Perisoreus canadensis, as the national bird of Canada."
+    ],
+    "who_it_affects": [
+      "Canadians",
+      "Parliament of Canada",
+      "Federal institutions"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

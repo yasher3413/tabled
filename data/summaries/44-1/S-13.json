@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/S-13",
+  "sourceHash": "8e25e2da8d38cd7ce00c4ffb48ef6f35",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:16.134Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13460704",
+  "summary": {
+    "tldr": "Requires federal laws and regulations to be read as protecting Indigenous and treaty rights, and removes similar clauses from several other Acts.",
+    "what_it_does": [
+      "Adds a rule to the Interpretation Act that every federal law and regulation must be read as upholding Aboriginal and treaty rights under section 35 of the Constitution Act, 1982, not taking away from them.",
+      "Defines “Indigenous peoples” for that rule by using the Constitution Act definition of “aboriginal peoples of Canada”.",
+      "Repeals similar non-derogation clauses, or related headings, from many federal Acts, including laws on fisheries, wildlife, parks, firearms, oceans, energy, environmental protection, species at risk, and Indigenous languages.",
+      "Changes the Mackenzie Valley Resource Management Act so its rights clause uses the same wording as the new Interpretation Act rule.",
+      "Makes coordinating changes linked to Bill C-21, Bill C-35, and Bill C-49 if those bills receive royal assent."
+    ],
+    "who_it_affects": [
+      "Indigenous peoples",
+      "Federal departments and regulators",
+      "People and companies covered by federal laws",
+      "Natural resource sectors",
+      "Fisheries and wildlife sectors"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

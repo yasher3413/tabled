@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-65",
+  "sourceHash": "a2fef71bd4b7f6f23ebdb5681ab712c6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:51:26.555Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-65",
+  "summary": {
+    "tldr": "Changes election rules by adding advance polling days, updating special ballots, creating new voting options, and tightening rules on party data, foreign influence, and enforcement.",
+    "what_it_does": [
+      "Adds two extra days of advance polling.",
+      "Lets returning officers set up polling divisions made up of a single institution, or part of one, where seniors or people with a disability live, and sets voting rules for those stations.",
+      "Updates the special ballot process and creates special ballot offices at post-secondary schools.",
+      "Sets new requirements for political parties’ personal information policies.",
+      "Creates new bans and changes existing ones on foreign influence, false or misleading election information, and some contributions, and gives the Commissioner of Canada Elections more powers to deal with breaches.",
+      "Requires the Chief Electoral Officer to report on a three-day polling period, voting at any place in a polling station, voting at any polling station in an electoral district, and a test for whether a party promotes hatred against an identifiable group."
+    ],
+    "who_it_affects": [
+      "Voters",
+      "Seniors",
+      "People with disabilities",
+      "Post-secondary students",
+      "Political parties",
+      "Election officials",
+      "Commissioner of Canada Elections"
+    ],
+    "background": "It amends the Canada Elections Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections",
+      "rights-equality",
+      "technology-privacy"
+    ]
+  }
+}

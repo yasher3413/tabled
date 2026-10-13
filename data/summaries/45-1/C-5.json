@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-5",
+  "sourceHash": "b14480e63ecacf0b2f95c7e843d138d8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:00.009Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-5",
+  "summary": {
+    "tldr": "Creates rules to reduce federal barriers to interprovincial trade and labour mobility, and sets a special process for certain projects named in the national interest.",
+    "what_it_does": [
+      "Creates a federal framework that treats goods and services meeting provincial or territorial requirements as meeting comparable federal requirements for interprovincial movement.",
+      "Recognizes provincial and territorial occupational authorizations, and can issue comparable federal authorizations to people who hold them.",
+      "Lets the Governor in Council make regulations about federal barriers to moving goods, services, and labour within Canada.",
+      "Lets the Governor in Council add a project and a short description to a schedule if it is considered to be in the national interest.",
+      "Deems certain findings and opinions under other federal laws to have been made in favour of projects named in Schedule 1, for the authorizations needed to carry them out.",
+      "Requires a designated minister to issue a document setting out project conditions, and that document is treated as the required authorizations named in it. It also requires an annual independent review of each national interest project."
+    ],
+    "who_it_affects": [
+      "Businesses trading across provinces",
+      "Workers with provincial licences",
+      "Project proponents",
+      "Federal regulators",
+      "Provincial and territorial governments"
+    ],
+    "background": "The bill was introduced in the House of Commons on 6 June 2025 and had first reading that day. It would enact the Free Trade and Labour Mobility in Canada Act and the Building Canada Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "labour-employment",
+      "government-operations"
+    ]
+  }
+}

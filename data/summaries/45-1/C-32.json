@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-32",
+  "sourceHash": "3911bf4a99458ece95869ece8995a212",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:51:26.627Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14203748",
+  "summary": {
+    "tldr": "Grants $144.0 billion for federal public administration spending in 2026-27 that is not otherwise provided for.",
+    "what_it_does": [
+      "Authorizes up to $144,032,017,964 from the Consolidated Revenue Fund for federal public administration costs in the fiscal year ending March 31, 2027.",
+      "Sets aside $140,396,109,102 for the items in Schedule 1, after subtracting interim funding already approved under Appropriation Act No. 1, 2026-27.",
+      "Sets aside $3,635,908,862 for the items in Schedule 2, after subtracting interim funding already approved under Appropriation Act No. 1, 2026-27.",
+      "Limits each payment to the purpose and conditions listed for that item, and treats the Schedule 1 and 2 items as effective from April 1, 2026.",
+      "Allows certain accounting adjustments for Schedule 1 and Schedule 2 amounts after the fiscal year ends, and lets Schedule 2 amounts be paid and applied until March 31, 2028."
+    ],
+    "who_it_affects": [
+      "Federal departments and agencies",
+      "Federal public administration",
+      "Treasury Board",
+      "Finance and accounting officials"
+    ],
+    "background": "The bill is an appropriation act for the fiscal year ending March 31, 2027. It builds on the Main Estimates and on interim appropriations already granted by Appropriation Act No. 1, 2026-27.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations"
+    ]
+  }
+}

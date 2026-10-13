@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-2",
+  "sourceHash": "b20bc1ac1609042dac8e8f23d7882109",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:18.156Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-2",
+  "summary": {
+    "tldr": "Extends several COVID-19 supports, creates a lockdown benefit, and adds a federal COVID-19 leave for workers.",
+    "what_it_does": [
+      "Extends the Canada Emergency Wage Subsidy, Canada Emergency Rent Subsidy, and Canada Recovery Hiring Program to May 7, 2022, and lets the government extend them by regulation to July 2, 2022.",
+      "Creates the Canada worker lockdown benefit for people in regions where a COVID-19 lockdown is imposed.",
+      "Extends eligibility for the Canada recovery sickness benefit and Canada recovery caregiving benefit, raises the sickness benefit cap from four weeks to six, and raises the caregiving benefit cap from 42 weeks to 44.",
+      "Creates a new COVID-19 leave in the Canada Labour Code, giving employees up to six weeks off if they cannot work because they have COVID-19, are isolating, or have certain related health risks.",
+      "Creates a longer leave, up to 44 weeks, for employees who cannot work because they must care for a child under 12 or a family member who needs supervised care for COVID-19 related reasons."
+    ],
+    "who_it_affects": [
+      "Employers",
+      "Employees",
+      "Federally regulated workers",
+      "Tourism and hospitality businesses",
+      "Hard-hit organizations",
+      "People in lockdown regions",
+      "People claiming recovery benefits",
+      "Caregivers"
+    ],
+    "background": "Bill C-2 was introduced in the House of Commons on 2 November 2021. It amends the Income Tax Act, the Canada Recovery Benefits Act, the Canada Labour Code, and related regulations.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "labour-employment",
+      "families-children"
+    ]
+  }
+}

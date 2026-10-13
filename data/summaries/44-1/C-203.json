@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-203",
+  "sourceHash": "4336939c3ced9c5be67a42fa19925380",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:48:16.342Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11478514",
+  "summary": {
+    "tldr": "Requires a national soil conservation strategy and creates World Soil Day and National Soil Conservation Week in Canada.",
+    "what_it_does": [
+      "Requires the Minister of Agriculture and Agri-Food to develop a national strategy to conserve soil and improve soil health across Canada.",
+      "Requires the strategy to include soil assessments, ongoing data collection, support for best management practices, knowledge sharing, and recommendations on a national advocate for soil health.",
+      "Requires the minister to consult provincial agriculture officials, Indigenous governments and organisations, and agriculture industry stakeholders when developing the strategy.",
+      "Requires the minister to table the strategy report in Parliament within two years, then report every three years on how the strategy is working.",
+      "Names December 5 as World Soil Day and the third week of April as National Soil Conservation Week across Canada."
+    ],
+    "who_it_affects": [
+      "Farmers and other land users",
+      "Agricultural producers",
+      "Agribusiness organisations",
+      "Indigenous governments and organisations",
+      "Provincial agriculture officials",
+      "Parliament",
+      "Canadians"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "agriculture-food",
+      "environment-climate",
+      "commemoration"
+    ]
+  }
+}

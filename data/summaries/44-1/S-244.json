@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/S-244",
+  "sourceHash": "758214177db4f2c7170434b7be52f427",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:19.969Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13215901",
+  "summary": {
+    "tldr": "Creates the Employment Insurance Council and sets out how it advises the Employment Insurance Commission on employment insurance matters.",
+    "what_it_does": [
+      "Establishes the Employment Insurance Council as an advisory council that can give advice and recommendations to the Commission on its own initiative or when asked.",
+      "Requires the Council to have at least 12 members, split equally between worker and employer organisations, with the workers' and employers' commissioners as co-chairs.",
+      "Lets the Council invite outside people to meetings or working groups, issue public opinions, and prepare reports that can be tabled in Parliament.",
+      "Allows the Council to include observers from provincial and territorial governments and Indigenous representatives, and requires it to meet at least three times a year.",
+      "Adds the Council to the Employment Insurance Act and lets the Commission seek its advice on any matter related to its powers and functions."
+    ],
+    "who_it_affects": [
+      "Employment Insurance Commission",
+      "Worker organisations",
+      "Employer organisations",
+      "Provincial and territorial governments",
+      "Indigenous representatives",
+      "Employment Insurance stakeholders"
+    ],
+    "background": "The bill amends the Department of Employment and Social Development Act and the Employment Insurance Act. It adds a new part on the Employment Insurance Council and a new role for the Council in the Employment Insurance Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "government-operations"
+    ]
+  }
+}

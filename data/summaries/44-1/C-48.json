@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-48",
+  "sourceHash": "a8f8f862342c67726f7f9670150a4005",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:25.843Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-48",
+  "summary": {
+    "tldr": "Changes Criminal Code bail rules for some serious violent and firearms offences, and adds a review of the new and amended provisions.",
+    "what_it_does": [
+      "Creates a reverse onus rule for people charged with a serious violent offence involving a weapon if they were convicted in the last five years of a similar offence.",
+      "Adds certain firearms offences to the existing reverse onus rules.",
+      "Expands the intimate partner violence reverse onus rule so it also applies when the accused was previously discharged for that offence.",
+      "Requires courts to consider any previous convictions involving violence and to record that community safety and security were considered.",
+      "Provides for a parliamentary review of the new and amended provisions to begin on the fifth anniversary of royal assent, or as soon as possible after that."
+    ],
+    "who_it_affects": [
+      "People charged with serious violent offences",
+      "People charged with firearms offences",
+      "People accused of intimate partner violence",
+      "Courts",
+      "Parliament"
+    ],
+    "background": "The bill was introduced in the House of Commons on 16 May 2023 and had first reading. It amends the Criminal Code and makes consequential amendments to other Acts.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

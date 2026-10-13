@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/S-225",
+  "sourceHash": "f8c2a56d322ea313138f4cf69e959e46",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:17.160Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11474678",
+  "summary": {
+    "tldr": "Bans investing in people or entities linked to banned cluster munitions activity, and adds related divestment rules.",
+    "what_it_does": [
+      "Adds a new ban on buying or holding a direct or indirect financial interest in, or lending or guaranteeing funds to, a person known to have committed or helped commit a prohibited cluster munitions act.",
+      "Expands the Act's purpose to say it also covers other measures on cluster munitions, explosive submunitions and explosive bomblets.",
+      "Updates the rules on trying, aiding, conspiring, or helping someone escape so they also cover the new investment-related offence.",
+      "Expands the military cooperation exception to include the new investment-related offence during combined operations with a state that is not party to the Convention.",
+      "Allows existing investments, loans or guarantees to stay in place for one year after the law starts, if they are then divested within that year."
+    ],
+    "who_it_affects": [
+      "Canadian investors and lenders",
+      "People with existing interests in covered entities",
+      "Military personnel in joint operations",
+      "Organisations linked to cluster munitions"
+    ],
+    "background": "The bill amends the Prohibiting Cluster Munitions Act. That Act implements Canada’s commitments under the Convention.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "defence-security",
+      "trade-foreign-affairs"
+    ]
+  }
+}

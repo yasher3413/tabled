@@ -1,0 +1,28 @@
+{
+  "billId": "45-1/C-252",
+  "sourceHash": "fd000c563645e09409ef6e91d362ce61",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:21.156Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13682989",
+  "summary": {
+    "tldr": "Creates a national day on October 22 to remember Canadian Armed Forces members who died in peacetime in Canada.",
+    "what_it_does": [
+      "Designates October 22 each year as Peacetime Service and Sacrifice Memorial Day across Canada.",
+      "Requires the national flag of Canada on the Peace Tower to be lowered to half-mast on that day."
+    ],
+    "who_it_affects": [
+      "Canadian Armed Forces members",
+      "Families of fallen service members",
+      "Canadians",
+      "The federal government"
+    ],
+    "background": "The bill says its purpose is to encourage Canadians to remember and honour Canadian Armed Forces members who lost their lives on Canadian soil during peacetime.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/S-269",
+  "sourceHash": "38a5da748269cd0d8719957217e7272f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:40.420Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13399164",
+  "summary": {
+    "tldr": "Requires a national framework on sports betting advertising, plus reports to Parliament and a CRTC review of related rules.",
+    "what_it_does": [
+      "Requires the Minister of Canadian Heritage to develop a national framework for sports betting ads, including ways to limit ad use, number, scope, location, and the use of celebrities and athletes.",
+      "Requires the framework to include measures for research, information-sharing, and national standards for preventing and diagnosing harmful gambling and addiction, and for supporting affected people.",
+      "Requires the minister to consult federal ministers, provinces and territories, Indigenous communities, regulators, and other stakeholders while developing the framework.",
+      "Requires the minister to table a report with the framework and an implementation plan within one year, then a second report within five years on what was carried out and what was not.",
+      "Requires the CRTC to review its regulations and policies on sports betting advertising and report its conclusions and recommendations to the minister within one year of royal assent."
+    ],
+    "who_it_affects": [
+      "Sports betting advertisers",
+      "Broadcasters and media platforms",
+      "Celebrities and athletes",
+      "People harmed by gambling",
+      "Provincial and territorial governments",
+      "CRTC"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

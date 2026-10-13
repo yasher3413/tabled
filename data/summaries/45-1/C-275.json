@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-275",
+  "sourceHash": "30bbdcd178d4b904c52d966a9a7d550f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:09.039Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14051411",
+  "summary": {
+    "tldr": "Creates Criminal Code offences for making, sharing, possessing or accessing sexual assault material, and sets penalties and defences.",
+    "what_it_does": [
+      "Adds a new definition of \"sexual assault material\" for visual recordings that explicitly and realistically depict non-consensual sexual intercourse or other sexual activity that violates a person's sexual integrity.",
+      "Makes it an offence to knowingly make, print, publish or possess for publication this material, with penalties of up to 14 years in prison or a $100,000 fine.",
+      "Makes it an offence to knowingly transmit, make available, distribute, sell, advertise, import, export or possess for those purposes this material, with the same penalties.",
+      "Makes knowingly possessing this material an offence, punishable by up to five years in prison on indictment or up to two years less a day on summary conviction, with fines also available.",
+      "Makes accessing this material an offence, including knowingly causing it to be viewed by or transmitted to yourself, with penalties of up to 10 years in prison on indictment or up to two years less a day on summary conviction.",
+      "Requires courts to treat intent to make a profit as an aggravating factor, and keeps a defence for legitimate purposes in justice, science, medicine, education or art."
+    ],
+    "who_it_affects": [
+      "People who create or share recordings",
+      "People who possess or access recordings",
+      "Courts and judges",
+      "Researchers and educators",
+      "Medical professionals",
+      "Artists"
+    ],
+    "background": "The bill amends the Criminal Code by adding a new section after section 163.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

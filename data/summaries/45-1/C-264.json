@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/C-264",
+  "sourceHash": "aeab42ba5a3cb60aeebcd7159ccf006e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:00.640Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13962352",
+  "summary": {
+    "tldr": "Repeals the Oil Tanker Moratorium Act, removing that federal restriction on shipping.",
+    "what_it_does": [
+      "Repeals the Oil Tanker Moratorium Act, a federal law passed in 2019."
+    ],
+    "who_it_affects": [
+      "Oil tanker operators",
+      "Shipping companies"
+    ],
+    "background": "The bill would repeal the Oil Tanker Moratorium Act, chapter 26 of the Statutes of Canada, 2019.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure",
+      "energy-resources"
+    ]
+  }
+}

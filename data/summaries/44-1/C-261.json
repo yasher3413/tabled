@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-261",
+  "sourceHash": "bdcd2076a0726dacec8c7dab571638f6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:33.848Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11661703",
+  "summary": {
+    "tldr": "Creates a new peace bond for feared hate crimes, defines hatred for some Criminal Code offences, and adds a Human Rights Act hate speech rule.",
+    "what_it_does": [
+      "Defines “hatred” for two Criminal Code hate propaganda offences as detestation or vilification stronger than dislike or disdain, and says a statement is not hatred only because it discredits, humiliates, hurts or offends.",
+      "Creates a recognizance to keep the peace for people feared on reasonable grounds to commit hate propaganda offences or hate crimes, with a court hearing and possible jail if they refuse to enter the recognizance.",
+      "Lets the court add conditions such as electronic monitoring, curfews, drug or alcohol abstinence, bodily substance testing, no contact orders, and firearm bans, and applies the new recognizance rules to young people in youth court.",
+      "Updates rules for bodily substance samples and analyst certificates, limits how samples and test results may be used or disclosed, and sets when samples must be destroyed.",
+      "Creates a Canadian Human Rights Act complaint process for hate speech communicated online or by telecommunication in a way likely to foment detestation or vilification, and lets the Tribunal order a stop, compensation, or a penalty."
+    ],
+    "who_it_affects": [
+      "People feared of hate propaganda offences",
+      "People accused of hate crimes",
+      "Young people in youth court",
+      "People who post online speech",
+      "Telecom and online services",
+      "Complainants under the Human Rights Act",
+      "Canadian Human Rights Commission",
+      "Canadian Human Rights Tribunal"
+    ],
+    "background": "It adds a new recognizance under the Criminal Code and new hate speech rules under the Canadian Human Rights Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "technology-privacy"
+    ]
+  }
+}

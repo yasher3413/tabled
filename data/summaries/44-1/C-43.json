@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-43",
+  "sourceHash": "51865696a55f4bbbd0144cf3c4a7eed3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:03.498Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-43",
+  "summary": {
+    "tldr": "Authorizes $4.68 billion in federal spending for the 2022-23 fiscal year.",
+    "what_it_does": [
+      "Authorizes payment of certain public service expenses that were not otherwise provided for in the 2022-23 fiscal year.",
+      "Appropriates $4,680,112,624 from the Consolidated Revenue Fund for the public service of Canada.",
+      "Came into force on royal assent, which was given on 30 March 2023."
+    ],
+    "who_it_affects": [
+      "Federal public service",
+      "Treasury Board",
+      "Government departments",
+      "Taxpayers"
+    ],
+    "background": "Bill C-43 was introduced in the House of Commons on 22 March 2023 and received royal assent on 30 March 2023.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "budget-taxes"
+    ]
+  }
+}

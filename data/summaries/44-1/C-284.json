@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-284",
+  "sourceHash": "c8542c7f7b989695ad7ed85285683317",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:35.314Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13411422",
+  "summary": {
+    "tldr": "Creates a federal strategy for eye care and designates February as Age-Related Macular Degeneration Awareness Month.",
+    "what_it_does": [
+      "Requires the Health Minister to develop a national strategy for preventing and treating eye disease, and for vision rehabilitation, after consulting provinces, Indigenous groups and other stakeholders.",
+      "Says the strategy must describe different forms of eye disease and may cover training needs, research, data collection, and sharing information between governments.",
+      "Allows the strategy to include a way to rapidly examine certain drug and device applications under the Food and Drugs Act for eye diseases.",
+      "Requires the minister to hold at least one conference while developing the strategy.",
+      "Requires a report on the strategy within 18 months, and a follow-up report on its effectiveness and the state of eye disease prevention and treatment within five years after the first report is tabled.",
+      "Declares February to be Age-Related Macular Degeneration Awareness Month across Canada."
+    ],
+    "who_it_affects": [
+      "People with eye disease",
+      "People who need vision rehabilitation",
+      "Eye care professionals",
+      "Provincial governments",
+      "Indigenous groups",
+      "Drug and device applicants"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations",
+      "commemoration"
+    ]
+  }
+}

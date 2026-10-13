@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/S-1001",
+  "sourceHash": "9a674f9b7a4e88980892fae675ee9ed9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:37.163Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13534168",
+  "summary": {
+    "tldr": "Amalgamates the Ottawa and Alexandria-Cornwall Roman Catholic corporations into one new Ottawa-Cornwall corporation.",
+    "what_it_does": [
+      "Creates The Roman Catholic Episcopal Corporation of Ottawa-Cornwall by merging the Ottawa corporation and the Alexandria-Cornwall corporation.",
+      "Transfers the property, debts, claims, rights, privileges, and legal proceedings of both corporations to the new corporation.",
+      "Sets the new corporation up as a not-for-profit body, with the Roman Catholic Archbishop of Ottawa-Cornwall as its sole member.",
+      "Requires the Archbishop to get written consent from one diocesan clergy member and one lay person before dealing with the corporation’s real property.",
+      "Deems the Alexandria-Cornwall corporation to have applied for, and received, continuance under the Canada Not-for-profit Corporations Act on royal assent, and repeals the 1884 federal Act for the Ottawa diocese."
+    ],
+    "who_it_affects": [
+      "Roman Catholic Episcopal Corporation of Ottawa",
+      "Alexandria-Cornwall corporation",
+      "Ottawa-Cornwall archbishop",
+      "Diocesan clergy",
+      "Lay appointees",
+      "Roman Catholic faithful"
+    ],
+    "background": "The bill deals with two existing corporations, one incorporated by a federal Act in 1884 and the other by Ontario legislation in 1891, later amended in 1977. It also treats the Alexandria-Cornwall corporation as having applied for continuance under the Canada Not-for-profit Corporations Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations"
+    ]
+  }
+}

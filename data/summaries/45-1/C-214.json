@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/C-214",
+  "sourceHash": "3200df2b4a895f97ba88ebfae9af52dc",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:38.132Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13569740",
+  "summary": {
+    "tldr": "Requires Natural Resources to develop a national plan so all electricity in Canada comes from renewable sources by December 31, 2030.",
+    "what_it_does": [
+      "Requires the Minister of Natural Resources, with provincial energy officials and Indigenous governing bodies, to develop and implement a national strategy for 100% renewable electricity by December 31, 2030.",
+      "Sets goals for the strategy, including twice as many renewable energy projects as non-renewable ones each year, more research and development, new large-scale public electric utilities, and more renewable energy jobs.",
+      "Requires the Minister and the Minister of Finance to design and implement incentives for solar, wind, tidal and biomass projects, and for home and business retrofits that use more renewable power.",
+      "Limits those incentives to start-up costs, not ongoing costs.",
+      "Requires a report on the strategy within two years, and updated effectiveness reports every three years after that, to be tabled in Parliament and posted online."
+    ],
+    "who_it_affects": [
+      "Natural Resources Canada",
+      "Provincial governments",
+      "Indigenous governing bodies",
+      "Renewable energy developers",
+      "Homeowners and businesses",
+      "Public electric utilities",
+      "Parliament"
+    ],
+    "background": "The bill defines renewable energy as energy that can be naturally replenished or renewed within a human lifespan.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "energy-resources",
+      "environment-climate",
+      "government-operations"
+    ]
+  }
+}

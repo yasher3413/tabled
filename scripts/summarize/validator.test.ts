@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest"
-import { validateSummary } from "./validator"
+import { sentences, validateSummary } from "./validator"
 
 // A well-formed summary written for the test from C-4's official executive summary (tests/fixtures/legisinfo/bill-C-4.json).
 const good = {
@@ -48,6 +48,9 @@ describe("validateSummary", () => {
     // "broad" is evaluative; "broadband" and "broader" are different words.
     expect(validateSummary({ ...good, tldr: "Makes broad changes to project reviews." }).errors.join()).toMatch(/broad/)
     expect(validateSummary({ ...good, tldr: "Funds broadband and broader access to rural internet." }).ok).toBe(true)
+    // Statutory designations are allowed; the bare judgement is not.
+    expect(validateSummary({ ...good, tldr: "Keeps dangerous offenders in maximum security prisons." }).ok).toBe(true)
+    expect(validateSummary({ ...good, tldr: "Targets dangerous people in prisons." }).ok).toBe(false)
   })
   it("accepts topics from the taxonomy and rejects invented ones", () => {
     expect(validateSummary({ ...good, topics: ["budget-taxes", "housing"] }).ok).toBe(true)
@@ -58,5 +61,10 @@ describe("validateSummary", () => {
     expect(validateSummary({ ...good, tldr: "This bill cuts taxes — mostly for low earners." }).errors.join()).toMatch(/dash/)
     expect(validateSummary({ ...good, tldr: "This bill cuts taxes – mostly for low earners." }).ok).toBe(false)
     expect(validateSummary({ ...good, tldr: "This bill sets a first-time buyer rebate." }).ok).toBe(true)
+  })
+  it("does not split sentences at legal citations, initials or abbreviations", () => {
+    expect(sentences("It amends the Indian Act, R.S.C. 1985, c. I-5. It also changes the St. Lawrence Seaway rules.")).toBe(2)
+    expect(sentences("Sets Bill No. 2 aside and repeals S.C. 2019, c. 12, s. 4.")).toBe(1)
+    expect(sentences("Raises a credit. Starts in 2027. Ends in 2030.")).toBe(3)
   })
 })

@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-5",
+  "sourceHash": "4e211ed76403f80afb95d5f08569be1d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:34.186Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-5",
+  "summary": {
+    "tldr": "Bill C-5 would repeal some mandatory minimum penalties, allow more conditional sentences, and create diversion measures for simple drug possession.",
+    "what_it_does": [
+      "Repeals certain mandatory minimum penalties in the Criminal Code and the Controlled Drugs and Substances Act.",
+      "Allows greater use of conditional sentences, which are sentences served in the community under court conditions.",
+      "Establishes diversion measures for simple drug possession offences."
+    ],
+    "who_it_affects": [
+      "People charged with certain offences",
+      "People convicted of drug offences",
+      "People accused of simple drug possession",
+      "Judges and courts"
+    ],
+    "background": "The Minister of Justice introduced the bill in the House of Commons on 7 December 2021, and it received first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health"
+    ]
+  }
+}

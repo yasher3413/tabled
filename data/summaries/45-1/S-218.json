@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/S-218",
+  "sourceHash": "9c5532de09654d9fe5b80eb3f761a9b6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:37.927Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13541963",
+  "summary": {
+    "tldr": "Sets conditions for federal laws that use the notwithstanding clause, including a court finding, a minister’s introduction, and a two-thirds Commons vote.",
+    "what_it_does": [
+      "Requires any bill with a section 33 declaration to start in the House of Commons and be introduced by a minister.",
+      "Allows such a bill only after the Supreme Court has found, on a reference, that the bill or the law it amends would infringe Charter rights in section 2 or sections 7 to 15.",
+      "Requires the bill to include a preamble stating the reasons for the declaration.",
+      "Requires the minister to table a Charter statement explaining the bill’s effects on those rights and why any infringement cannot be justified under section 1.",
+      "Prohibits motions to limit debate on the bill and stops either House from sending it to a Committee of the Whole.",
+      "Requires third reading in the House of Commons to pass with support from two thirds of MPs and members of at least two groups made up only of MPs from the same recognized party."
+    ],
+    "who_it_affects": [
+      "Federal ministers",
+      "Members of Parliament",
+      "Government of Canada",
+      "Supreme Court of Canada",
+      "People affected by section 33 laws"
+    ],
+    "background": "The amendment would apply only to Parliament and the Government of Canada for matters within Parliament’s authority, including matters relating to Yukon and the Northwest Territories.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/S-252",
+  "sourceHash": "e972202ae4c6731c8deedd19ce0f57ed",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:17.465Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13155978",
+  "summary": {
+    "tldr": "Designates the second week of May each year as Jury Duty Appreciation Week across Canada.",
+    "what_it_does": [
+      "Designates the second week of May, every year, as “Jury Duty Appreciation Week” throughout Canada.",
+      "Gives the Act the short title Jury Duty Appreciation Week Act."
+    ],
+    "who_it_affects": [
+      "Jurors",
+      "Courts",
+      "Canadians"
+    ],
+    "background": "The bill says its purpose is to designate a national appreciation week for jury duty.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

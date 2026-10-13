@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/S-232",
+  "sourceHash": "d0b39bdf3149985677746b179a5210df",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:21.761Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13559595",
+  "summary": {
+    "tldr": "Requires reporting on federal non-disclosure agreements, limits when public money can fund them, and sets rules for Parliament and federal bodies that use them.",
+    "what_it_does": [
+      "Requires the President of the Treasury Board to table an annual report on non-disclosure agreements in the federal public sector, including how many were used and their total dollar value.",
+      "Bans federal officials who award grants and contributions from using public money to fund settlements for harassment, violence or discrimination if the settlement includes a non-disclosure agreement, or to fight complainants over non-disclosure agreements.",
+      "Requires organisations that receive federal grants or contributions to report each year to the President of the Treasury Board on their use of non-disclosure agreements.",
+      "Allows federal departments, Crown corporations, and some parliamentary bodies to use a non-disclosure agreement only if the complainant asks for it in writing, voluntarily, after having the chance to get independent legal advice.",
+      "Prohibits public money from being used to litigate non-disclosure agreements against complainants, and keeps certain disclosures allowed, including required disclosures, artistic expression, and communication with lawyers, health workers, and support people.",
+      "Requires Parliament to review the Act two years after it starts and every two years after that."
+    ],
+    "who_it_affects": [
+      "Federal departments",
+      "Crown corporations",
+      "Grant recipients",
+      "Complainants",
+      "Parliament",
+      "Treasury Board"
+    ],
+    "background": "The bill amends the Financial Administration Act and the Parliament of Canada Act. It also sets reporting rules for some entities whose financial information is included in the Public Accounts.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "rights-equality"
+    ]
+  }
+}

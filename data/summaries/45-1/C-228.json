@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/C-228",
+  "sourceHash": "1c0b007df23797fd079e05a4fd2e698b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:04.457Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13593312",
+  "summary": {
+    "tldr": "Requires treaties to be tabled in the House of Commons before ratification or modification, with extra review and publication rules for major treaties.",
+    "what_it_does": [
+      "Requires the Minister of Foreign Affairs to table most treaties in the House of Commons at least 21 sitting days before ratification, along with a memorandum explaining the treaty's content and effects.",
+      "Requires the treaty being amended to be tabled too when a new treaty changes an existing one.",
+      "Requires treaty modifications to be tabled at least 21 sitting days before they are agreed to, with the treaty being modified, a memorandum, and a letter explaining the modification.",
+      "Requires the explanatory memorandum and letter to include specific details, such as the treaty's title, obligations, spending, consultations, and any laws that must be enacted or amended.",
+      "Defines a \"major treaty\" as one that needs new laws, taxes, federal powers, financial obligations, territorial changes, sanctions, jurisdiction changes, trade or investment rules, or participation in international institutions, and requires House of Commons review before ratification.",
+      "Allows the Governor in Council to exempt the Minister in exceptional circumstances, but requires later tabling of the documents and reasons, and publication of the treaty in the Canada Gazette, on the department website, and in the Canada Treaty Series."
+    ],
+    "who_it_affects": [
+      "Minister of Foreign Affairs",
+      "House of Commons",
+      "Parliamentary committees",
+      "Governor in Council",
+      "Department of Foreign Affairs, Trade and Development"
+    ],
+    "background": "The bill amends the Department of Foreign Affairs, Trade and Development Act to add new rules for tabling treaty documents in Parliament.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "government-operations"
+    ]
+  }
+}

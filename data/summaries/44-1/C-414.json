@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-414",
+  "sourceHash": "e76ad5aa754f6c5c3d5d4ee4bd4d748e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:06.972Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13324982",
+  "summary": {
+    "tldr": "Adds mental, addictions and substance use health services to the Canada Health Act’s definition of insured health services.",
+    "what_it_does": [
+      "Adds mental, addictions and substance use health services to the list of insured health services under the Canada Health Act.",
+      "Defines those services to include services provided in community settings.",
+      "Updates the Act’s comprehensiveness rule so provincial health plans must insure these services when they are provided by hospitals, medical practitioners, dentists, or, where provincial law allows, other health care practitioners."
+    ],
+    "who_it_affects": [
+      "Provincial health plans",
+      "People seeking mental health services",
+      "People seeking addiction services",
+      "People seeking substance use services",
+      "Hospitals",
+      "Medical practitioners",
+      "Dentists",
+      "Other health care practitioners"
+    ],
+    "background": "The bill changes the Canada Health Act. It replaces the Act’s current definition of insured health services and rewrites the rule on comprehensiveness.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health"
+    ]
+  }
+}

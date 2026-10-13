@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-226",
+  "sourceHash": "a3a0e7c841f3ba0e34e908fe4868f7eb",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:12.522Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13592715",
+  "summary": {
+    "tldr": "Requires the Industry Minister to develop and report on a national framework for grocery pricing and unit price display practices.",
+    "what_it_does": [
+      "Requires the Minister of Industry, with provincial consumer affairs officials, to develop a national framework on grocery pricing and unit price display practices.",
+      "Sets out national standards for the grocery retail sector on unit pricing, including the accuracy, usability and accessibility of unit price displays.",
+      "Requires the framework to include measures on transparency about price increases, adjustments and fluctuations.",
+      "Promotes consumer education across Canada on what unit prices are and how they are used.",
+      "Requires a report within 18 months, then a review and second report within five years, with both reports tabled in Parliament and posted online."
+    ],
+    "who_it_affects": [
+      "Consumers",
+      "Grocery retailers",
+      "Provincial consumer affairs officials",
+      "Minister of Industry"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

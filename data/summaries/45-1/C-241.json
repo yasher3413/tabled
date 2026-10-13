@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/C-241",
+  "sourceHash": "87d6ba4a51998b8bfa2c6db576b549ce",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:30:25.832Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14199766",
+  "summary": {
+    "tldr": "Creates a federal strategy for flood and drought forecasting, with consultations, a report to Parliament, and a later review.",
+    "what_it_does": [
+      "Requires the Minister of the Environment, with four other federal ministers, to develop a national strategy on flood and drought forecasting.",
+      "Requires consultations with provincial and municipal governments, Indigenous governing bodies, universities, civil society organisations and industry, including the insurance industry.",
+      "Requires the strategy to assess national coordination, new investment, modelling, new technology and the possible creation of a national forecasting service and system.",
+      "Requires a report on the strategy within two years, and a second report on its effectiveness within five years, with both reports tabled in Parliament and published online."
+    ],
+    "who_it_affects": [
+      "Federal ministers",
+      "Provincial governments",
+      "Municipal governments",
+      "Indigenous governing bodies",
+      "Universities",
+      "Civil society organisations",
+      "Insurance industry"
+    ],
+    "background": "The bill defines the Minister as the Minister of the Environment. It also says the strategy may include a proposal for a cooperative national hydrological and water resources forecasting service and system.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "government-operations"
+    ]
+  }
+}

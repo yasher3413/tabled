@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/S-202",
+  "sourceHash": "4415b03da830419f1f76891342549d13",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:25.466Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13222549",
+  "summary": {
+    "tldr": "Creates a Parliamentary Visual Artist Laureate to promote the arts through Parliament and fixes an English-language reference in the Parliament of Canada Act.",
+    "what_it_does": [
+      "Creates the office of Parliamentary Visual Artist Laureate as an officer of the Library of Parliament.",
+      "Sets the selection process, the two Speakers choose the laureate from a confidential list of three names, with the holder’s primary official language alternating.",
+      "Limits the term to up to two years and lets the Speakers remove the holder at will.",
+      "Gives the laureate a mandate to promote the arts through Parliament, including awareness, enjoyment and development of the arts, and to create art, sponsor events and advise on the Library’s collection.",
+      "Corrects the English version of the Parliament of Canada Act so the selection rule for the Parliamentary Poet Laureate refers properly to the Canada Council for the Arts."
+    ],
+    "who_it_affects": [
+      "Library of Parliament",
+      "Members of Parliament",
+      "Speakers of the Senate and House of Commons",
+      "Artists and arts groups",
+      "Parliamentary Poet Laureate",
+      "Arts and cultural institutions"
+    ],
+    "background": "The bill adds a new section to the Parliament of Canada Act. It also amends the English version of the Act’s rule for choosing the Parliamentary Poet Laureate.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "commemoration"
+    ]
+  }
+}

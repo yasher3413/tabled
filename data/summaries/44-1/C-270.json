@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-270",
+  "sourceHash": "f239197d017242a72b47bc8de36802bc",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:34.464Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11729373",
+  "summary": {
+    "tldr": "Creates Criminal Code offences for making, selling or advertising commercial pornographic material without checking age and written consent of everyone shown.",
+    "what_it_does": [
+      "Creates an offence for making pornographic material for commercial purposes without first confirming that everyone shown was 18 or older and gave written consent.",
+      "Creates an offence for distributing or advertising pornographic material for commercial purposes without written confirmation from the maker about each person’s age, consent and any later written withdrawal of consent.",
+      "Sets penalties of up to two years in prison or a $500,000 fine on indictment, or a $100,000 fine on summary conviction.",
+      "Presumes a corporation acted for commercial purposes unless it proves otherwise, and limits the age-belief defence unless age was checked with a federal, provincial or foreign ID, or other prescribed document, and it was reasonably believed to be real.",
+      "Requires courts to treat a minor’s image, lack of consent to the sexual activity, obscenity, or hate promotion as aggravating factors when sentencing.",
+      "Allows courts to ban Internet use, require removal of the material from the Internet or the offender’s computer system, and lets the Governor in Council set ID and record-keeping rules."
+    ],
+    "who_it_affects": [
+      "People who make pornographic material",
+      "Pornography distributors and advertisers",
+      "Pornography companies",
+      "People depicted in pornographic material"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "technology-privacy"
+    ]
+  }
+}

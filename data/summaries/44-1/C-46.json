@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/C-46",
+  "sourceHash": "881424bbd0a662c6739aabf8e9672b09",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:57.366Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-46",
+  "summary": {
+    "tldr": "The bill gives extra federal payments to provinces and territories and adds a one-time extra GST/HST credit payment.",
+    "what_it_does": [
+      "Authorizes additional payments to provinces and territories under the Federal-Provincial Fiscal Arrangements Act.",
+      "Provides an extra GST/HST credit payment equal to double the regular January 2023 payment under the Income Tax Act."
+    ],
+    "who_it_affects": [
+      "Provincial governments",
+      "Territorial governments",
+      "GST/HST credit recipients"
+    ],
+    "background": "Bill C-46 was introduced in the House of Commons on 29 March 2023 and received first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes"
+    ]
+  }
+}

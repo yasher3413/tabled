@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/S-213",
+  "sourceHash": "8bc901ec977fa9404f4cdf7638ae9959",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:10.032Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11474512",
+  "summary": {
+    "tldr": "Gives judges more discretion over some Criminal Code sentences, mandatory orders, treatment programs and parole ineligibility, and lets juries recommend parole periods in murder cases.",
+    "what_it_does": [
+      "Gives courts discretion to choose the punishment when a law sets different degrees or kinds of punishment, even if the law says there is a minimum punishment.",
+      "Lets courts refuse a mandatory prohibition order, or change its conditions or length, if the court finds that just and reasonable, and requires reasons on the record.",
+      "Requires courts to look at all other options before imposing a minimum jail term or parole ineligibility period, and to give written reasons for doing so.",
+      "Lets courts delay sentencing so a person found guilty can attend a treatment or counselling program the court considers appropriate, with the person's consent and after considering justice and any victim's interests.",
+      "Requires judges in first and second degree murder cases to ask the jury whether it wants to make a parole recommendation, and says the judge must consider that recommendation."
+    ],
+    "who_it_affects": [
+      "Judges",
+      "People convicted under the Criminal Code",
+      "People facing mandatory orders",
+      "People facing minimum sentences",
+      "People in treatment or counselling programs",
+      "Jurors in murder trials",
+      "Victims of crime"
+    ],
+    "background": "The bill amends the Criminal Code rules on punishment, prohibition orders, sentencing delays and parole ineligibility. It also changes the rule on jury recommendations in first and second degree murder cases.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

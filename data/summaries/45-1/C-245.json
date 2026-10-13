@@ -1,0 +1,26 @@
+{
+  "billId": "45-1/C-245",
+  "sourceHash": "b956d69f29dadbe9023f1eaae330beb8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:55.226Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13600927",
+  "summary": {
+    "tldr": "Exempts Quebec from the Canadian Multiculturalism Act.",
+    "what_it_does": [
+      "Adds a new section to the Canadian Multiculturalism Act saying the Act does not apply in Quebec."
+    ],
+    "who_it_affects": [
+      "People in Quebec",
+      "Quebec public bodies",
+      "Federal institutions in Quebec"
+    ],
+    "background": "The bill amends the Canadian Multiculturalism Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "rights-equality"
+    ]
+  }
+}

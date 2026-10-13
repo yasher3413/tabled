@@ -1,0 +1,28 @@
+{
+  "billId": "45-1/C-281",
+  "sourceHash": "0481a8b7b51e267b0d37bb9183a69ae9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:49.055Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14148669",
+  "summary": {
+    "tldr": "Requires certain Canadian flags to carry country-of-origin labels when sold, imported, advertised or prepackaged.",
+    "what_it_does": [
+      "Requires dealers to label Canadian flags that are consumer textile articles, at least 20 centimetres wide and 30 centimetres long, with their country of origin when sold, imported into Canada or advertised.",
+      "Requires dealers to label prepackaged Canadian flags that are at least 20 centimetres wide and 30 centimetres long with the product’s country of origin when sold, imported into Canada or advertised.",
+      "Uses the country-of-origin meaning set out in the Textile Labelling and Advertising Regulations for the textile labelling rule."
+    ],
+    "who_it_affects": [
+      "Dealers in Canadian flags",
+      "Importers of Canadian flags",
+      "Advertisers of Canadian flags",
+      "Sellers of prepackaged flags"
+    ],
+    "background": "The bill amends the Textile Labelling Act and the Consumer Packaging and Labelling Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business"
+    ]
+  }
+}

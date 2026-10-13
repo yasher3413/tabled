@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/C-259",
+  "sourceHash": "c79c3442f5278ee4e1f2e621d97961ed",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:30.653Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11650490",
+  "summary": {
+    "tldr": "Requires certain enclosed-cockpit gliders and the aircraft that tow them to have a GPS-based collision avoidance system.",
+    "what_it_does": [
+      "Adds a rule to the Aeronautics Act that requires gliders with an enclosed cockpit and a weight over 200 kg to be equipped with a GPS-based collision avoidance system.",
+      "Also requires any aircraft used to tow those gliders to have the same GPS-based collision avoidance system.",
+      "States that this requirement applies in addition to any existing security requirements for equipment, systems and processes."
+    ],
+    "who_it_affects": [
+      "Owners and operators of enclosed-cockpit gliders",
+      "Aircraft towing operators"
+    ],
+    "background": "It amends section 4.71 of the Aeronautics Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure"
+    ]
+  }
+}

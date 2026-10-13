@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-357",
+  "sourceHash": "3ab30520808ff75ae171256ab7b2337e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:20.853Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12573812",
+  "summary": {
+    "tldr": "Expands compensation for federal employees, including some mental health disorders for public safety workers, and changes related claim rules under the Government Employees Compensation Act.",
+    "what_it_does": [
+      "Expands the kinds of injuries and diseases covered, and says the Act applies to accidents, diseases, and jobs inside or outside Canada.",
+      "Creates a new class of public safety employee, covering work in public safety and security, national security, or criminal justice, including first response, law enforcement, search and rescue, fire protection, and victim services.",
+      "Presumes a public safety employee’s mental health disorder was caused by work if a prescribed medical professional diagnoses it as related to the job, unless the opposite is proved.",
+      "Lets public safety employees or their dependants receive compensation for mental health disorders from the circumstances of employment, and sets notice rules, third party claim rules, and payment rules for those cases.",
+      "Repeals a bar on claims against the Crown other than compensation under the Act, and replaces the word “workmen” with “workers” in several sections."
+    ],
+    "who_it_affects": [
+      "Federal employees",
+      "Public safety employees",
+      "Dependants of deceased employees",
+      "Federal departments and agencies",
+      "Government of Canada workers with work injuries"
+    ],
+    "background": "The bill amends the Government Employees Compensation Act, which sets compensation rules for certain federal workers. The drafters say it broadens entitlement to compensation for work-related injuries and disabilities.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "health",
+      "government-operations"
+    ]
+  }
+}

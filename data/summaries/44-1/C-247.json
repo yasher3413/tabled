@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-247",
+  "sourceHash": "6469b07afa69bb849575933849e2e780",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:45.033Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11553398",
+  "summary": {
+    "tldr": "Prohibits fur farming and related activities, and creates offences, penalties and forfeiture rules for breaking the ban.",
+    "what_it_does": [
+      "Prohibits owning or operating a fur farm, breeding or inseminating fur-bearing animals for fur farms, slaughtering them for their pelts, or giving, renting, selling or transporting them to a fur farm.",
+      "Creates offences for breaking those rules, with fines of up to $250,000 or prison for up to two years on indictment, or fines of up to $50,000 or prison for up to six months on summary conviction.",
+      "Allows courts to bar an offender from owning, having custody or control of, or living in the same place as an animal for a period the court sets.",
+      "Allows courts to order an offender to pay reasonable care costs to a person or organisation that took care of a fur-bearing animal because of the offence.",
+      "Allows the Governor in Council to make regulations for a compensation regime for losses from complying with the Act, and makes the Act start one year after royal assent."
+    ],
+    "who_it_affects": [
+      "Fur farm operators",
+      "People who breed fur-bearing animals",
+      "People who slaughter fur-bearing animals",
+      "People who transport fur-bearing animals",
+      "Animal sanctuaries and shelters",
+      "Courts and prosecutors"
+    ],
+    "background": "A fur farm is defined as a place where fur-bearing animals are kept in captivity so their pelts can be used for commercial purposes.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "agriculture-food",
+      "crime-justice"
+    ]
+  }
+}

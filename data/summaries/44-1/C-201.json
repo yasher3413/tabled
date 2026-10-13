@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-201",
+  "sourceHash": "e0d64dae316504223cf8e7fd4926c50d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:48:17.399Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11475430",
+  "summary": {
+    "tldr": "Raises the federal tax credits for volunteer firefighters and search and rescue volunteers from $3,000 to $10,000, starting with the 2022 tax year.",
+    "what_it_does": [
+      "Raises the volunteer firefighter tax credit under the Income Tax Act from $3,000 to $10,000.",
+      "Raises the search and rescue volunteer tax credit under the Income Tax Act from $3,000 to $10,000.",
+      "Makes the new credit amounts apply to the 2022 tax year and later."
+    ],
+    "who_it_affects": [
+      "Volunteer firefighters",
+      "Search and rescue volunteers",
+      "Individuals claiming these tax credits"
+    ],
+    "background": "The bill changes two tax credit rules in the Income Tax Act. It increases the amount used to calculate each credit.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "billId": "45-1/C-6",
+  "sourceHash": "67a9af09feb698a2b95d6ef08d84cdf1",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:58.058Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-6",
+  "summary": {
+    "tldr": "Authorizes $149.8 billion in federal spending for the public service for 2025 to 2026.",
+    "what_it_does": [
+      "Authorizes $149,771,149,015 to be paid out of the Consolidated Revenue Fund for the public service of Canada.",
+      "Covers expenses of the public service of Canada that are not otherwise provided for for the fiscal year ending 31 March 2026.",
+      "Takes effect when it receives Royal Assent."
+    ],
+    "who_it_affects": [
+      "Federal public service",
+      "Federal departments and agencies",
+      "Government finance officials"
+    ],
+    "background": "The bill was introduced in the House of Commons on 17 June 2025 and received Royal Assent on 26 June 2025.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "budget-taxes"
+    ]
+  }
+}

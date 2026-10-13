@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/S-247",
+  "sourceHash": "3fd306dd840a4c70ddadaeb24d9689c6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:04.295Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14075212",
+  "summary": {
+    "tldr": "Requires the Minister of Health to develop a national framework on food allergy, with advice from provinces, territories, Indigenous groups and other stakeholders.",
+    "what_it_does": [
+      "Requires the Minister of Health to develop a national framework on food allergy with provincial and territorial representatives, Indigenous governing bodies, health professionals, patient groups and other stakeholders.",
+      "Says the framework must include steps to improve diagnosis and care, use evidence-based prevention practices such as early allergen introduction, and make essential medicines and treatments, including epinephrine devices, easier to get.",
+      "Says the framework must also improve access to ingredient information, raise public awareness of food allergy and anaphylaxis, and support research and innovation.",
+      "Creates an advisory board of up to 15 members to advise the minister on food allergy. Members serve for up to three years, are unpaid and meet at least twice a year.",
+      "Requires the minister to table the framework in Parliament within 18 months of the Act coming into force, then report later on how well the framework is reducing food allergy incidence and risk."
+    ],
+    "who_it_affects": [
+      "People with food allergies",
+      "Caregivers",
+      "Health care professionals",
+      "Provincial and territorial governments",
+      "Indigenous governing bodies",
+      "Food allergy advocacy groups"
+    ],
+    "background": "The bill defines \"Indigenous governing body\" for the required consultations and advisory board. It is a Senate public bill introduced by Senator Andrew Cardozo.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

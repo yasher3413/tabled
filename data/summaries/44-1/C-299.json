@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-299",
+  "sourceHash": "e9a73946f79a7ee7b0920588a5d7b6a6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:34.338Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11959544",
+  "summary": {
+    "tldr": "Raises the maximum penalty to life imprisonment for several Criminal Code offences, including child sexual offences, trafficking, and some firearm-related sexual assaults.",
+    "what_it_does": [
+      "Raises the maximum penalty to life imprisonment for several child sexual offences, including sexual interference, invitation to sexual touching, incest when the other person is under 16, child pornography offences, and sexual assault of a person under 16.",
+      "Raises the maximum penalty to life imprisonment for offences where a parent, guardian, or person in control of premises procures or allows a person under 18 to take part in sexual activity.",
+      "Raises the maximum penalty to life imprisonment for trafficking in persons, trafficking of a person under 18, and receiving a financial or material benefit from trafficking.",
+      "Raises the maximum penalty to life imprisonment for obtaining sexual services from a person under 18, receiving a benefit from those services, and procuring a person for sexual services.",
+      "Raises the maximum penalty to life imprisonment for certain firearm-related sexual assault offences, and sets a four-year minimum in some firearm cases."
+    ],
+    "who_it_affects": [
+      "People charged with listed sexual offences",
+      "People involved in child exploitation",
+      "Human traffickers",
+      "People who buy sexual services from minors",
+      "People receiving benefits from exploitation",
+      "People charged with firearm-related sexual assault"
+    ],
+    "background": "The bill amends the Criminal Code to change penalties for listed indictable offences.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

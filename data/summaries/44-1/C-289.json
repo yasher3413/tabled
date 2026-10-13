@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-289",
+  "sourceHash": "45da0aaecbbd76bca1c94004af8eb781",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:35.317Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11883013",
+  "summary": {
+    "tldr": "Creates a Criminal Code offence for knowingly giving false identity-verification information to certain anti-money-laundering reporting entities.",
+    "what_it_does": [
+      "Creates an offence for knowingly making a false or misleading statement, or giving false or misleading information by omission, to a person or entity that must verify identity under the anti-money laundering law.",
+      "Covers false or misleading information about a person or entity’s identity, including its ownership, control, or structure.",
+      "Sets penalties of up to $1,000,000 or 10 years in prison on indictment, or up to $10,000 or two years less a day on summary conviction."
+    ],
+    "who_it_affects": [
+      "Banks and other reporting entities",
+      "People and companies being identified",
+      "Businesses covered by anti-money laundering rules"
+    ],
+    "background": "The bill adds a new identity verification offence to the Criminal Code. It applies to false or misleading information given to certain people or entities listed under the Proceeds of Crime (Money Laundering and Terrorist Financing) Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "economy-business"
+    ]
+  }
+}

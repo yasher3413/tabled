@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/S-11",
+  "sourceHash": "546ac56fd5a70646991b792c964cf149",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:38.271Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12168441",
+  "summary": {
+    "tldr": "Harmonizes federal laws with Quebec civil law and updates related rules for banks, property, information, evidence, and several other statutes.",
+    "what_it_does": [
+      "Rewrites the main federal financial institution laws to add Quebec civil law terms, update definitions, change proxy rules, and revise rules for transfers, lending, leasing, and holding certain roles.",
+      "Updates many federal laws to use civil law and common law terms in both language versions, including rules on immovables, hypothecs, fiduciaries, mandataries, and related-party contracts.",
+      "Changes access to information, privacy, official languages, and disclosure laws to expand good-faith protection for certain commissioners and to cover more property transactions.",
+      "Updates other laws on evidence, Crown property, food and product enforcement, dry docks subsidies, escheats, human rights, conflict of interest, and cultural property redeterminations."
+    ],
+    "who_it_affects": [
+      "Banks and trust companies",
+      "Credit unions and insurers",
+      "Federal departments and agencies",
+      "Commissioners and investigators",
+      "Employers and regulated businesses",
+      "Museums and property managers"
+    ],
+    "background": "This is the fourth bill in a series linked to the Civil Code of Québec, which came into force in 1994. It amends 52 statutes.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "economy-business",
+      "rights-equality"
+    ]
+  }
+}

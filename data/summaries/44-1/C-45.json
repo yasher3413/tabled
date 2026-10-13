@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-45",
+  "sourceHash": "0b19e0227a6504d62c23206b8aa4a1d1",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:50.546Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-45",
+  "summary": {
+    "tldr": "Expands First Nations fiscal tools, creates an infrastructure institute, and makes related changes to access to information and privacy laws.",
+    "what_it_does": [
+      "Expands and updates the mandates of the First Nations Tax Commission and the First Nations Financial Management Board.",
+      "Creates a First Nations Infrastructure Institute to give First Nations and other interested Indigenous groups and organisations tools and support for planning and managing infrastructure.",
+      "Gives First Nations named in the Act the power to make laws that regulate services provided by or on behalf of the First Nation.",
+      "Changes the Act by adding the Financing Secured by Other Revenues Regulations, combining two debt reserve funds into one, and simplifying pooled borrowing for some Indigenous groups.",
+      "Makes related changes to the Access to Information Act and the Privacy Act.",
+      "Clarifies a transitional administrative issue linked to the 2019 creation of the Department of Crown-Indigenous Relations and Northern Affairs and the Department of Indigenous Services."
+    ],
+    "who_it_affects": [
+      "First Nations",
+      "Indigenous groups and organisations",
+      "First Nations Tax Commission",
+      "First Nations Financial Management Board",
+      "First Nations infrastructure managers",
+      "Groups using pooled borrowing",
+      "Federal departments"
+    ],
+    "background": "The bill amends the First Nations Fiscal Management Act. It was introduced in the House of Commons on 23 March 2023.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "government-operations",
+      "economy-business"
+    ]
+  }
+}

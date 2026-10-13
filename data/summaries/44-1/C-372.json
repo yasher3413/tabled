@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-372",
+  "sourceHash": "d6aefb57953b60083481b6d533a21ccc",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:46.698Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12857377",
+  "summary": {
+    "tldr": "Bans most promotion of fossil fuels and sets rules, exceptions, reporting duties and penalties for producers and retailers.",
+    "what_it_does": [
+      "Prohibits promoting fossil fuels, fossil fuel brand elements, or fossil fuel production unless the Act or regulations allow it.",
+      "Bans promotions that are false, misleading or deceptive, including claims that fossil fuels are less harmful or bring positive effects for health, the environment, reconciliation or the economy.",
+      "Forbids sales promotions such as gifts, rebates, contests or free fossil fuel offers from producers and retailers.",
+      "Allows only limited exceptions, including point-of-sale signs showing availability and price, some works and commentary, and the use of an entity's own name.",
+      "Requires fossil fuel producers to report promotion information to the Minister of Health and lets the federal cabinet make further rules.",
+      "Creates offences and fines, and allows provinces to seek equivalency agreements if they have equivalent rules."
+    ],
+    "who_it_affects": [
+      "Fossil fuel producers",
+      "Fossil fuel retailers",
+      "Advertisers and media outlets",
+      "Publishers and broadcasters",
+      "Consumers",
+      "Provincial governments"
+    ],
+    "background": "The bill says it responds to a public health and environmental problem and aims to stop people from being misled about the health and environmental hazards of fossil fuels.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "environment-climate",
+      "economy-business"
+    ]
+  }
+}

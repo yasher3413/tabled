@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/S-257",
+  "sourceHash": "e7a79824d9c591bcf78eb733d5cdbf60",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:28.934Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12112371",
+  "summary": {
+    "tldr": "Adds political belief and political activity to the Canadian Human Rights Act’s protected grounds against discrimination.",
+    "what_it_does": [
+      "Replaces section 2 of the Canadian Human Rights Act so its purpose statement includes political belief or activity among the discriminatory practices the Act addresses.",
+      "Replaces subsection 3(1) so political belief or activity becomes a prohibited ground of discrimination under the Act.",
+      "Keeps the other protected grounds in place, including race, religion, age, sex, disability and conviction for an offence with a pardon or record suspension."
+    ],
+    "who_it_affects": [
+      "People with political beliefs",
+      "People involved in political activity",
+      "People covered by the Canadian Human Rights Act",
+      "Federally regulated employers and service providers"
+    ],
+    "background": "The bill amends the Canadian Human Rights Act. That Act lists the grounds of discrimination that are prohibited under federal law.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality"
+    ]
+  }
+}

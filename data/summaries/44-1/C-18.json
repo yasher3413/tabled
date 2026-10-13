@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-18",
+  "sourceHash": "860152c111ed621c80c1384c3f0826ac",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:34.400Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-18",
+  "summary": {
+    "tldr": "Creates a bargaining system for digital news platforms and news businesses, with CRTC oversight, exemptions, penalties, and annual reporting.",
+    "what_it_does": [
+      "Applies to digital news intermediaries when there is a major bargaining power gap between the platform operator and news businesses, and lets Cabinet set rules for how that test is applied.",
+      "Creates a bargaining process so digital news intermediary operators and news businesses can make agreements about news content made available in Canada.",
+      "Requires the CRTC to keep a list of covered digital news intermediaries, set a code of conduct for bargaining, and manage a process for news businesses to join the system.",
+      "Lets the CRTC exempt a platform if it has agreements with news businesses that meet set criteria, and lets Cabinet add rules for those exemptions.",
+      "Bars operators from unfairly discriminating against certain news content or giving unjust preference or disadvantage, and lets news businesses complain to the CRTC.",
+      "Allows the CRTC to order information, impose administrative monetary penalties, recover some administration costs, and require an annual audit report on the law’s impact."
+    ],
+    "who_it_affects": [
+      "Digital news platforms",
+      "News businesses",
+      "Canadian news publishers",
+      "CRTC",
+      "Federally regulated telecom providers",
+      "Broadcasting undertakings"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

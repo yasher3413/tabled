@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-258",
+  "sourceHash": "4ce718b57bea02b89117af16e0afae9d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:31.965Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13168238",
+  "summary": {
+    "tldr": "Requires the Canada Revenue Agency to report tax evasion convictions and tax gap statistics, and to share tax gap data with the Parliamentary Budget Officer.",
+    "what_it_does": [
+      "Requires the Canada Revenue Agency annual report to list all tax evasion convictions, with a separate list for international tax evasion.",
+      "Requires the annual report, once every three years, to include tax gap statistics for the relevant fiscal year.",
+      "Defines the tax gap as taxes that should have been assessed on undeclared income, plus the difference between taxes assessed and taxes collected.",
+      "Requires the Minister of National Revenue to collect, compile, analyse and summarise tax gap data for individuals, corporations by size, and trusts resident in Canada.",
+      "Requires the Minister to provide the Parliamentary Budget Officer with the tax gap data and any other data the officer asks for."
+    ],
+    "who_it_affects": [
+      "Canada Revenue Agency",
+      "Minister of National Revenue",
+      "Parliamentary Budget Officer",
+      "Individuals",
+      "Corporations",
+      "Trusts",
+      "People convicted of tax evasion"
+    ],
+    "background": "The bill amends the Canada Revenue Agency Act. It adds new reporting rules for tax evasion convictions and for the tax gap.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

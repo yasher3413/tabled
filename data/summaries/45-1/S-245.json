@@ -1,0 +1,24 @@
+{
+  "billId": "45-1/S-245",
+  "sourceHash": "299670ca453f30583bcb9f865de8da87",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:35.918Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13985268",
+  "summary": {
+    "tldr": "Designates June 30 each year as National Blanket Ceremony Day across Canada.",
+    "what_it_does": [
+      "Designates the 30th day of June in each year as National Blanket Ceremony Day throughout Canada."
+    ],
+    "who_it_affects": [
+      "Canadians",
+      "Public institutions"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

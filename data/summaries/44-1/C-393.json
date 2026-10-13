@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-393",
+  "sourceHash": "1ce04c1cce2eb09a477bff483f00ca8f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:16.084Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13172765",
+  "summary": {
+    "tldr": "Requires recycling programs for certain electronic products that contain toxic substances before they can be made or imported for sale in Canada.",
+    "what_it_does": [
+      "Adds a new list of electronic products in Schedule 7 that the Governor in Council can update if a product contains a toxic substance listed in Schedule 1.",
+      "Prohibits manufacturing or commercial import of listed electronic products unless the company has its own recycling program or joins one run by a designated organisation.",
+      "Requires recycling programs to collect waste electronics, set disposal rules, track and audit the program, and include public education or awareness efforts.",
+      "Requires manufacturers and importers to give the Minister proof within 90 days that they have set up or joined a program that meets the rules.",
+      "Lets the Governor in Council make rules on approved organisations and on how listed electronic products must be disposed of.",
+      "Allows the federal rules to not apply in a province if the province has similar laws and agrees to share information on administration and enforcement."
+    ],
+    "who_it_affects": [
+      "Electronics manufacturers",
+      "Electronics importers",
+      "Electronic recycling program operators",
+      "Provincial governments",
+      "The federal government"
+    ],
+    "background": "The bill amends the Canadian Environmental Protection Act, 1999. It adds a new Division on control of waste electronic products and a new schedule for listed electronic products.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate"
+    ]
+  }
+}

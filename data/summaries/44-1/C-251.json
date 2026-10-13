@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-251",
+  "sourceHash": "c0d090967042f8edaac4b887334a79e4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:50.929Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11559867",
+  "summary": {
+    "tldr": "Requires the Fisheries and Oceans Minister to develop and report on a federal framework for conserving fish stocks and managing pinnipeds.",
+    "what_it_does": [
+      "Requires the Minister of Fisheries and Oceans, with provinces, Indigenous governing bodies and other stakeholders, to develop a federal framework on fish stock conservation and pinniped management.",
+      "Requires the framework to include yearly pinniped censuses, measures to conserve marine ecosystems, and rules to manage pinniped populations at acceptable levels.",
+      "Encourages anti-predator measures around fishing facilities, fishing infrastructure and spawning areas, and year-round control of pinnipeds when population levels are exceeded.",
+      "Addresses trade barriers on seal products to support the sale and trade of seal products by local businesses.",
+      "Creates programs and projects, mainly in rural, coastal and Indigenous communities, to promote making and selling pinniped products.",
+      "Requires the Minister to table the framework report within one year of coming into force, and to table and publish annual reports on the framework's effectiveness."
+    ],
+    "who_it_affects": [
+      "Minister of Fisheries and Oceans",
+      "Provincial fisheries officials",
+      "Indigenous governing bodies",
+      "Fishers and fishing facilities",
+      "Rural and coastal communities",
+      "Indigenous communities",
+      "Local seal product businesses"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "indigenous-peoples",
+      "government-operations"
+    ]
+  }
+}

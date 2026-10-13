@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/S-237",
+  "sourceHash": "3c43c97c869f2119ce27049b58747437",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:47.728Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13623907",
+  "summary": {
+    "tldr": "Designates October 31 as Cities and Municipalities Day across Canada and says it is not a legal holiday.",
+    "what_it_does": [
+      "Designates October 31 каждого year as “Cities and Municipalities Day” across Canada.",
+      "States that Cities and Municipalities Day is not a legal holiday or a non-juridical day."
+    ],
+    "who_it_affects": [
+      "Cities and municipalities",
+      "Canadians"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

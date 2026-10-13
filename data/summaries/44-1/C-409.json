@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-409",
+  "sourceHash": "10f83699047ef96acdbcdca27b780cab",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:40.192Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13220321",
+  "summary": {
+    "tldr": "Requires airlines to count more flight attendant time as paid hours under the Canada Labour Code.",
+    "what_it_does": [
+      "Requires employers to count time spent on pre-flight and post-flight duties, including aircraft security, passenger service, boarding, disembarking, and cabin safety checks, when calculating paid hours for flight attendants.",
+      "Requires employers to count time spent in mandatory training programs when calculating paid hours for flight attendants.",
+      "Requires employers to count time spent at the workplace at the employer’s call and at the employer’s disposal, including during flight delays, whether or not the delay is within the employer’s control.",
+      "Prevents any order or regulation under this part of the Canada Labour Code from limiting the new flight attendant hours rule."
+    ],
+    "who_it_affects": [
+      "Flight attendants",
+      "Airlines and other federally regulated employers"
+    ],
+    "background": "The bill amends section 169 of the Canada Labour Code and adds a new section on flight attendants’ hours of work.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment"
+    ]
+  }
+}

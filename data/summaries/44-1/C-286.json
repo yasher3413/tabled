@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-286",
+  "sourceHash": "9e7c3f286f6f921c42779b2037f5d0fa",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:51.988Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11881666",
+  "summary": {
+    "tldr": "Lets the government make rules that recognise certain foreign diplomas and other credentials for some permanent resident applicants, after consulting the provinces.",
+    "what_it_does": [
+      "Authorises the Governor in Council, on the minister's recommendation, to make regulations about which foreign diplomas, certificates, or other credentials count as equal to Canadian ones.",
+      "Applies those rules to foreign nationals applying for permanent resident visas as federal skilled workers, or in another class named in an instruction under the Act.",
+      "Requires the Minister of Employment and Social Development to consult the provinces and the Minister of Labour before making the recommendation.",
+      "Defines a Canadian educational credential as a Canadian secondary school diploma or a post-secondary credential from a recognised institution regulated by provincial authorities."
+    ],
+    "who_it_affects": [
+      "Foreign nationals applying for permanent residence",
+      "Federal skilled workers",
+      "Provinces",
+      "Canadian colleges, schools and training institutions"
+    ],
+    "background": "The bill adds section 87.41 to the Immigration and Refugee Protection Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship",
+      "education"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-254",
+  "sourceHash": "732d852346cb9d44fe1c74bcf73dde64",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:17.551Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13713612",
+  "summary": {
+    "tldr": "Creates a Criminal Code offence for publicly promoting hatred against Indigenous peoples by denying, downplaying, justifying, or misrepresenting the residential school system.",
+    "what_it_does": [
+      "Creates a new offence for statements, other than in private conversation, that wilfully promote hatred against Indigenous peoples by condoning, denying, downplaying, justifying, or misrepresenting the Indian residential school system.",
+      "Sets the penalty for that offence at up to 2 years in prison if prosecuted by indictment, or a lesser penalty on summary conviction.",
+      "Provides defences if the statements are true, are made in good faith on a religious subject, are part of public-interest discussion believed true on reasonable grounds, or are made in good faith to remove hateful material.",
+      "Applies the existing rules on forfeiture, seizure of communication facilities, and Attorney General consent to this offence, and defines Indigenous peoples by reference to the Constitution Act, 1982."
+    ],
+    "who_it_affects": [
+      "Indigenous peoples",
+      "People accused of hate speech",
+      "Public speakers and publishers",
+      "Prosecutors and courts"
+    ],
+    "background": "The bill amends section 319 of the Criminal Code. It also contains a coordinating change that would apply if Bill C-9 receives royal assent.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "indigenous-peoples",
+      "rights-equality"
+    ]
+  }
+}

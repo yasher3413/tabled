@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-326",
+  "sourceHash": "0b7952775589c6390f12a91e17f3d57d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:38.397Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12281118",
+  "summary": {
+    "tldr": "Requires mining-rights regulations on territorial lands to include free, prior and informed consent from affected Inuit and other Indigenous peoples, plus protection for surface-right holders.",
+    "what_it_does": [
+      "Authorizes the Governor in Council to make regulations for acquiring mining rights in, under or on territorial lands, and for royalties tied to that acquisition.",
+      "Requires those regulations to include free, prior and informed consent from Inuit and any other Indigenous peoples directly affected.",
+      "Requires those regulations to protect and compensate holders of surface rights."
+    ],
+    "who_it_affects": [
+      "Inuit communities",
+      "Other Indigenous peoples",
+      "Surface rights holders",
+      "Mining rights applicants"
+    ],
+    "background": "It changes section 12 of the Territorial Lands Act, which already lets the Governor in Council make regulations about mining rights and royalties on territorial lands.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "energy-resources"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/S-226",
+  "sourceHash": "e972202ae4c6731c8deedd19ce0f57ed",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:48.161Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13902662",
+  "summary": {
+    "tldr": "Designates the second week of May each year as Jury Duty Appreciation Week across Canada.",
+    "what_it_does": [
+      "Designates the second week of May each year as “Jury Duty Appreciation Week” throughout Canada."
+    ],
+    "who_it_affects": [
+      "Jurors",
+      "Courts",
+      "Canadians"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

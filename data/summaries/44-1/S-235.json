@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/S-235",
+  "sourceHash": "73a56e8c2b9d64c048923682c46fa047",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:56.677Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13302520",
+  "summary": {
+    "tldr": "Creates a citizenship path for certain former children in care and pauses removal orders for applicants until their citizenship decision is final.",
+    "what_it_does": [
+      "Creates a path to citizenship for some people who were in child welfare or foster care in Canada when that care ended, if they were not citizens then.",
+      "Requires applicants to have been physically present in Canada for at least 1,095 days before applying, and to have spent at least 365 days in the listed care situations.",
+      "Requires that they were not returned to a parent’s care unless it happened within 365 days after they turned 18, and that they have not lived outside Canada for more than 10 years since then.",
+      "Lets the minister waive some of those conditions on compassionate grounds.",
+      "Requires the minister to accept an applicant’s written statement about the care circumstances as proof unless the minister proves the statement is wrong.",
+      "Stops removal orders from being enforced against foreign nationals who apply under this citizenship rule until a final decision is made."
+    ],
+    "who_it_affects": [
+      "Former children in care",
+      "People leaving foster care",
+      "Citizenship applicants",
+      "Foreign nationals with removal orders"
+    ],
+    "background": "It adds a new section 5.3 to the Citizenship Act and a related rule in the Immigration and Refugee Protection Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship",
+      "rights-equality"
+    ]
+  }
+}

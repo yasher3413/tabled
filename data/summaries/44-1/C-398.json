@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-398",
+  "sourceHash": "018b8d2e07dc443b42fd62645a065e82",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:45.929Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13195894",
+  "summary": {
+    "tldr": "Amends the National Housing Strategy Act to address homeless encampments on federal land, Indigenous participation, and reporting on the strategy’s results.",
+    "what_it_does": [
+      "Adds definitions for federal land, homeless encampment, and Indigenous peoples in the National Housing Strategy Act.",
+      "Requires the National Housing Strategy to include measures to prevent removing homeless encampments on federal land and to identify alternatives after meaningful engagement with residents.",
+      "Requires the Strategy to include processes for the active involvement and support of Indigenous peoples in housing programs that affect them, and for responses to respect their rights.",
+      "Requires the minister, when setting these measures and processes, to consult provincial housing ministers and work with organisations that represent Indigenous peoples.",
+      "Expands the triennial report to include success metrics, plus longitudinal data broken down by groups, including Indigenous peoples and other groups named in the Act.",
+      "Requires the minister to monitor how housing policy affects vulnerable groups, Indigenous peoples, people with housing need, and people who have experienced homelessness."
+    ],
+    "who_it_affects": [
+      "People experiencing homelessness",
+      "Residents of homeless encampments",
+      "Indigenous peoples",
+      "Provincial housing ministers",
+      "Housing and Indigenous organisations",
+      "Vulnerable groups"
+    ],
+    "background": "The bill amends the National Housing Strategy Act. It adds new requirements for the National Housing Strategy and for the report on its effectiveness.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "housing",
+      "indigenous-peoples",
+      "government-operations"
+    ]
+  }
+}

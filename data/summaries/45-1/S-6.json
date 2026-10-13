@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/S-6",
+  "sourceHash": "1ddb4da2f311108d35157f50459c3eae",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:30.678Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/S-6",
+  "summary": {
+    "tldr": "Amends 51 federal laws to fit Quebec civil law and to make both language versions reflect common law and civil law.",
+    "what_it_does": [
+      "Amends 51 federal statutes to harmonize federal law with the civil law of Quebec.",
+      "Updates financial laws, including the Bank Act, Cooperative Credit Associations Act, Insurance Companies Act and Trust and Loan Companies Act.",
+      "Updates other laws, including the Access to Information Act, Financial Administration Act, Interpretation Act and Official Languages Act.",
+      "Ensures each language version of the amended laws takes into account both common law and civil law."
+    ],
+    "who_it_affects": [
+      "Federal departments and agencies",
+      "Banks and credit unions",
+      "Insurance companies",
+      "Trust and loan companies",
+      "People and businesses using federal laws in Quebec",
+      "Users of federal laws in English and French"
+    ],
+    "background": "This is the fourth in a series of bills linked to the harmonisation of federal statutes after the Civil Code of Québec came into force in 1994.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "economy-business"
+    ]
+  }
+}

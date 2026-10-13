@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-403",
+  "sourceHash": "f53d50642822e81a25a532d77438dd69",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:09.729Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13195952",
+  "summary": {
+    "tldr": "Adds provincial disability findings as a way to qualify for the disability tax credit and CPP disability benefits, unless the minister decides otherwise.",
+    "what_it_does": [
+      "Deems a person to meet the mental or physical impairment rules for the Income Tax Act disability credit if they are entitled to a provincial deduction for that impairment, unless the Minister decides otherwise.",
+      "Applies the tax credit change to the 2025 tax year and later years.",
+      "Changes the Canada Pension Plan disability rule so a person is considered disabled, unless the Minister decides otherwise, if they meet the existing severe and prolonged disability test or receive a provincial disability pension or benefit."
+    ],
+    "who_it_affects": [
+      "People with disabilities",
+      "People claiming the disability tax credit",
+      "People receiving provincial disability benefits",
+      "CPP disability applicants"
+    ],
+    "background": "The bill changes section 118.3 of the Income Tax Act, which covers the credit for mental or physical impairment. It also changes the Canada Pension Plan rule for disability pensions and benefits.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "health"
+    ]
+  }
+}

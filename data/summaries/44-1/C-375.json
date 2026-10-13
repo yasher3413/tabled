@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-375",
+  "sourceHash": "65c64a770eb6b929fd033d1681f2de15",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:56.560Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12882876",
+  "summary": {
+    "tldr": "Lets the federal government exempt some designated projects from the Impact Assessment Act when a province has its own approved assessment process.",
+    "what_it_does": [
+      "Lets the Governor in Council declare that the Impact Assessment Act does not apply to a designated project in a province when that project is covered by a provincial assessment process and a written federal-provincial agreement.",
+      "Requires the provincial process to assess likely project effects, including effects within federal jurisdiction, and to identify measures to reduce adverse effects.",
+      "Requires the Minister to publish proposed agreements, allow 60 days for public comments or objections, and publish a report on how those were handled.",
+      "Requires final agreements to be published, limits them to five years unless renewed, allows either side to end them with three months' notice, and lets the Governor in Council revoke the order if the agreement ends."
+    ],
+    "who_it_affects": [
+      "Federal government",
+      "Provincial governments",
+      "Project proponents",
+      "Members of the public",
+      "People who comment on assessments"
+    ],
+    "background": "The bill adds a new rule to the Impact Assessment Act for designated projects. It creates a process for federal-provincial agreements that can replace the federal process with a provincial one.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "government-operations"
+    ]
+  }
+}

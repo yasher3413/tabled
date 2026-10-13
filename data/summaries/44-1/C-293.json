@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-293",
+  "sourceHash": "d1385f561387e3b86798e534c3619537",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:00.913Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13162666",
+  "summary": {
+    "tldr": "Requires the federal government to create and update a pandemic prevention plan and appoint a coordinator to oversee it.",
+    "what_it_does": [
+      "Requires the Minister of Health to create a pandemic prevention and preparedness plan that covers risk factors, response measures, research, surveillance systems, public health capacity, border risks, and roles for other federal ministers.",
+      "Requires the plan to include information from other ministers on issues such as manufacturing capacity, communications systems, land use, wildlife trade, biodiversity, foreign health equity and border measures.",
+      "Requires the Minister of Health to work with provinces, Indigenous communities, other governments and relevant agencies, and to use a One Health approach that looks at human, animal, plant and ecosystem health.",
+      "Requires the Minister of Health to table the first plan in both Houses of Parliament within two years and publish it on the Department of Health website within 10 days.",
+      "Requires the Minister of Health to update the plan at least every three years, table the updated report in Parliament and publish it online.",
+      "Requires the Minister of Health to appoint a national pandemic prevention and preparedness coordinator from the Public Health Agency of Canada and give that person the powers and duties the minister chooses."
+    ],
+    "who_it_affects": [
+      "Minister of Health",
+      "Other federal ministers",
+      "Public Health Agency of Canada",
+      "Provincial governments",
+      "Indigenous communities",
+      "Health care workers",
+      "Public health agencies"
+    ],
+    "background": "The bill says its purpose is to prevent future pandemics and to promote transparency and accountability in the federal government’s efforts. It also amends the Department of Health Act to add a national coordinator role.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations",
+      "environment-climate"
+    ]
+  }
+}

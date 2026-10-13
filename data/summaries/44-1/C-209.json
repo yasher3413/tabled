@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-209",
+  "sourceHash": "89b62434a3245464788f3bf97c3bbab7",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:48:12.284Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11490448",
+  "summary": {
+    "tldr": "Removes minimum penalties for many Criminal Code and drug offences, and changes related sentencing and criminal record rules.",
+    "what_it_does": [
+      "Repeals mandatory minimum penalties for many Criminal Code offences, including some firearms, child sexual exploitation, sexual assault, robbery, extortion and criminal negligence offences.",
+      "Replaces several offence sections with only a maximum prison term, often 10 years, 14 years or life, depending on the offence.",
+      "Changes some offences involving people under 18, including child pornography, child trafficking and obtaining sexual services, and adjusts related penalties and summary conviction options.",
+      "Removes minimum fine rules and other sentencing rules for some impaired driving offences, while keeping or changing treatment program and prohibition order rules.",
+      "Removes mandatory minimum penalties for certain drug offences under the Controlled Drugs and Substances Act, and changes related sentencing factors.",
+      "Makes related amendments to the Criminal Records Act and other Criminal Code sentencing provisions."
+    ],
+    "who_it_affects": [
+      "People charged with listed Criminal Code offences",
+      "People charged with drug offences",
+      "Judges and courts",
+      "People with criminal records",
+      "Victims in sexual and violent offence cases"
+    ],
+    "background": "The bill amends the Criminal Code and the Controlled Drugs and Substances Act to eliminate minimum penalties for certain offences. It also makes consequential amendments to the Criminal Records Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health"
+    ]
+  }
+}

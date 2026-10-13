@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-388",
+  "sourceHash": "97eedbcd276fc1a3e88d7452be889b9e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:02.818Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13059051",
+  "summary": {
+    "tldr": "Requires a plan to fast track energy and mining projects and changes federal rules to help send munitions to Ukraine.",
+    "what_it_does": [
+      "Requires the Natural Resources Minister, with provincial natural resources ministers, to prepare within 60 days a detailed plan to fast track energy and mining projects, including LNG and civilian nuclear energy.",
+      "Says the plan must include measures to replace energy exports from hostile countries and support energy cooperation with allies and partners.",
+      "Requires the Defence Minister to review Canada’s defence supplies and offer Ukraine any surplus or no longer useful items while any part of Ukraine is occupied by Russian forces.",
+      "Allows certain munitions that can be exported to the United States to also be exported to Ukraine under the same terms, if they are otherwise excluded from the Export Control List.",
+      "Extends a general brokering permit so it can cover brokering certain munitions for import into Ukraine and end use in Ukraine.",
+      "Directs Export Development Canada and the Business Development Bank of Canada to give preference to projects that develop munitions manufacturing capacity in Ukraine."
+    ],
+    "who_it_affects": [
+      "Canadian energy companies",
+      "Mining companies",
+      "Provincial natural resources ministries",
+      "National Defence officials",
+      "Munitions exporters and brokers",
+      "Export Development Canada",
+      "Business Development Bank of Canada",
+      "Ukraine's defence industry"
+    ],
+    "background": "The bill has two parts, one on a fast-track plan for energy and mining projects and one that amends several federal laws to support munitions supply to Ukraine.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "energy-resources",
+      "defence-security",
+      "trade-foreign-affairs"
+    ]
+  }
+}

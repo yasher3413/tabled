@@ -1,0 +1,27 @@
+{
+  "billId": "45-1/C-246",
+  "sourceHash": "fd9785b2d0fc95453581aa0b8b1a479a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:35.377Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13602792",
+  "summary": {
+    "tldr": "Requires prison sentences for sexual offences to be served one after another, not at the same time, in certain cases.",
+    "what_it_does": [
+      "Replaces subsection 718.3(7) of the Criminal Code with a rule on how sexual offence sentences are served.",
+      "Requires a prison sentence for a sexual offence to be served after any other sexual offence sentence imposed at the same time.",
+      "Requires a prison sentence for a sexual offence to be served after any other sexual offence sentence the person is already serving when sentenced."
+    ],
+    "who_it_affects": [
+      "People convicted of sexual offences",
+      "Criminal courts",
+      "Correctional system"
+    ],
+    "background": "It replaces subsection 718.3(7) of the Criminal Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

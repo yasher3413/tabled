@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-4",
+  "sourceHash": "e15e59814e2f63626e08348787b1a0bc",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:26.338Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11490252",
+  "summary": {
+    "tldr": "Creates Criminal Code offences for conversion therapy, including providing it, advertising it, taking a child abroad for it, and profiting from it.",
+    "what_it_does": [
+      "Defines conversion therapy as a practice, treatment or service meant to change or suppress a person’s sexual orientation, gender identity or gender expression. It excludes some identity exploration or gender transition practices that do not assume one orientation or identity is better than another.",
+      "Creates an offence for knowingly causing another person to undergo conversion therapy, including by providing it. A person convicted on indictment can face up to five years in prison, or a summary conviction.",
+      "Creates offences for knowingly promoting or advertising conversion therapy, and for receiving a financial or other material benefit from it. These offences can lead to up to two years in prison on indictment, or a summary conviction.",
+      "Makes it an offence to do anything to remove a child from Canada with the intention that the child undergo conversion therapy outside Canada.",
+      "Allows courts to seize, forfeit, delete or dispose of advertisements for conversion therapy, including material stored on computer systems. If the court is not satisfied the material is such an advertisement, it must be returned."
+    ],
+    "who_it_affects": [
+      "People who provide conversion therapy",
+      "People who advertise conversion therapy",
+      "People who profit from conversion therapy",
+      "Children under 18",
+      "Parents and guardians",
+      "Courts and police",
+      "Computer system custodians"
+    ],
+    "background": "The bill adds new offences and definitions to the Criminal Code. It also changes court powers over seized material to include advertisements for conversion therapy.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "families-children"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/S-212",
+  "sourceHash": "e0c9808316f6cf42460f3fcf29a33a56",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:42.372Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13960005",
+  "summary": {
+    "tldr": "Requires the federal government to develop and report on a national strategy for children and youth in Canada, with goals on poverty, mental health, living standards and rights.",
+    "what_it_does": [
+      "Requires the minister to develop a national strategy for children and youth in Canada.",
+      "Requires the strategy to set goals, including ending child poverty, improving access to mental health services, raising living standards, and meeting listed children's, Indigenous and disability rights commitments.",
+      "Requires the strategy to include measurable outcomes, evidence-based assessments, a plan for unmet goals, resource needs, public monitoring, complaint handling, updates for new needs, and parliamentary oversight.",
+      "Requires the minister to consult children and youth, relevant federal, provincial and municipal officials, Indigenous governing bodies, and other stakeholders, using culturally safe and language-accessible consultations.",
+      "Requires progress reports to Parliament every six months until the strategy is tabled within 24 months, then review reports every five years after that."
+    ],
+    "who_it_affects": [
+      "Children and youth in Canada",
+      "First Nations, Inuit and Métis children and youth",
+      "Families",
+      "Federal ministers and departments",
+      "Provincial and municipal governments",
+      "Indigenous governing bodies",
+      "Children and youth organizations"
+    ],
+    "background": "The bill creates a federal requirement to develop a national strategy for children and youth and sets rules for consultation, reporting and later review.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "families-children",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

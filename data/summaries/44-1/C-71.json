@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-71",
+  "sourceHash": "7dc0d893178fdcc7aaad0baaf3c268a7",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:07.887Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-71",
+  "summary": {
+    "tldr": "Changes the Citizenship Act to expand citizenship by descent, update rules for adopted children, restore some lost citizenship, and add a simpler renunciation process.",
+    "what_it_does": [
+      "Ensures people born outside Canada before this bill takes effect to a Canadian parent can get citizenship by descent.",
+      "Grants citizenship by descent to some people born outside Canada after the first generation if their Canadian parent had a substantial connection to Canada before the birth.",
+      "Allows citizenship to be granted to people born outside Canada who were adopted by a Canadian parent before this bill takes effect.",
+      "Allows citizenship to be granted to people born outside Canada who are adopted after this bill takes effect, if their Canadian parent had a substantial connection to Canada before the adoption.",
+      "Restores citizenship to some people who lost it because they did not apply to keep it, or because their retention application was not approved, and gives some new citizens a simpler way to renounce citizenship."
+    ],
+    "who_it_affects": [
+      "People born outside Canada",
+      "Canadian parents",
+      "Adopted children born abroad",
+      "People who lost citizenship",
+      "New citizens"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship"
+    ]
+  }
+}

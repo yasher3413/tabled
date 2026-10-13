@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-332",
+  "sourceHash": "08f677583d77f66fec4ee8febdc9cd24",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:10.394Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13192594",
+  "summary": {
+    "tldr": "Creates a Criminal Code offence for coercive control of an intimate partner and makes related changes in court, bail, firearms, and tax laws.",
+    "what_it_does": [
+      "Creates a Criminal Code offence for a pattern of coercive control against an intimate partner, including violence, sexual coercion, and controlling behaviour that makes the partner fear for safety.",
+      "Sets the offence at up to 10 years in prison on indictment, or by summary conviction.",
+      "Says safety includes psychological safety.",
+      "Requires that, in criminal and military cases for this offence, the accused usually cannot personally cross-examine the victim, and the judge or military judge must appoint counsel to do it.",
+      "Adds the new offence to several Criminal Code lists used for bail, warrants, and other court orders, and makes matching changes in tax, excise, and firearms laws."
+    ],
+    "who_it_affects": [
+      "People in intimate partner relationships",
+      "Victims and witnesses",
+      "Accused people",
+      "Judges and courts",
+      "Military justice system",
+      "Firearms licence applicants",
+      "Federal tax and excise authorities"
+    ],
+    "background": "The bill adds new section 264.01 to the Criminal Code after the offence of criminal harassment. It says a person's safety includes psychological safety.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

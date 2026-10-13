@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-24",
+  "sourceHash": "0e053460e201569b7e48dbf4de1e70ce",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:47.684Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-24",
+  "summary": {
+    "tldr": "Authorizes $115.1 billion in federal spending for the 2022-23 fiscal year.",
+    "what_it_does": [
+      "Authorizes $115,056,882,851 from the Consolidated Revenue Fund for public service expenses not otherwise provided for.",
+      "Sets the spending authority for the financial year ending March 31, 2023.",
+      "Came into force on Royal Assent, which was given on June 23, 2022."
+    ],
+    "who_it_affects": [
+      "Public service of Canada",
+      "Federal departments and agencies",
+      "Treasury Board"
+    ],
+    "background": "The bill was introduced in the House of Commons on June 7, 2022, and received Royal Assent on June 23, 2022.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "budget-taxes"
+    ]
+  }
+}

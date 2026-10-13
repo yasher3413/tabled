@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-321",
+  "sourceHash": "7601f013caeca9ec781b9bda6cf71dd3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:59.037Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12929921",
+  "summary": {
+    "tldr": "Requires courts to treat assaults on health service providers and first responders as aggravating factors at sentencing.",
+    "what_it_does": [
+      "Requires courts, when sentencing for certain assault offences, to consider it an aggravating circumstance if the victim was a person who provides health services, including personal care services, or a first responder doing their duty."
+    ],
+    "who_it_affects": [
+      "Health service providers",
+      "Personal care workers",
+      "First responders",
+      "People convicted of assault offences"
+    ],
+    "background": "The bill adds a new section to the Criminal Code sentencing rules for certain assault offences.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-223",
+  "sourceHash": "9821a06070a5fc44dbf838e487f715d2",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:14.488Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11507431",
+  "summary": {
+    "tldr": "Requires the finance minister to develop a national framework for a guaranteed livable basic income for people over 17 in Canada and report to Parliament.",
+    "what_it_does": [
+      "Requires the Minister of Finance to develop a national framework for a guaranteed livable basic income program for people over 17 in Canada, including temporary workers, permanent residents and refugee claimants.",
+      "Requires consultation with health, employment, social development and disability ministers, provincial officials, Indigenous elders, Indigenous governing bodies, and other stakeholders and experts.",
+      "Sets rules for the framework, including how to define a livable income by region, national standards for health and social supports, and no education, training or work requirement for eligibility.",
+      "Requires the framework to protect health and disability services and benefits from being reduced because of the program.",
+      "Requires a report within one year, publication on the Finance Department website, and yearly review reports after that."
+    ],
+    "who_it_affects": [
+      "People over 17 in Canada",
+      "Temporary workers",
+      "Permanent residents",
+      "Refugee claimants",
+      "Provincial governments",
+      "Indigenous communities",
+      "People with disabilities"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "labour-employment",
+      "rights-equality"
+    ]
+  }
+}

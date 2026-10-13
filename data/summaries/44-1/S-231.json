@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/S-231",
+  "sourceHash": "743aac13f6c1eff1cad44a79b617ac06",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:20.679Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11481558",
+  "summary": {
+    "tldr": "Expands when courts can order DNA samples and changes how DNA records, matches and destruction rules work.",
+    "what_it_does": [
+      "Expands the list of primary and secondary designated offences, including many sexual, violent, drug, terrorism, property and military offences.",
+      "Requires courts and court martials to order DNA samples for people found guilty, discharged, or found not criminally responsible for many designated offences, unless a privacy test is met for some secondary offences.",
+      "Lets police skip taking a new sample if the person’s DNA profile is already in the convicted offenders index of the national DNA data bank.",
+      "Adds a new rule that allows DNA profile comparisons to look for a possible biological relative when no direct match is found and strict conditions are met.",
+      "Lets police disclose the identity of a person with a suspended record or discharge if there is a DNA match, and requires the Commissioner to destroy bodily substances if the offence is not a designated offence.",
+      "Requires the Minister of Public Safety and Emergency Preparedness to report on whether DNA samples should be taken on the same basis as fingerprints."
+    ],
+    "who_it_affects": [
+      "People convicted of designated offences",
+      "Young people in criminal court",
+      "People in military justice cases",
+      "Police and the RCMP",
+      "Courts and court martials",
+      "People with suspended records or discharges",
+      "DNA databank officials"
+    ],
+    "background": "The bill says it would amend the Criminal Code, the Criminal Records Act, the National Defence Act and the DNA Identification Act to promote DNA collection and increase the number of DNA profiles stored in the national DNA data bank.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "technology-privacy",
+      "government-operations"
+    ]
+  }
+}

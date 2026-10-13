@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/C-206",
+  "sourceHash": "17a96590225620cedc65045df1585989",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:44.571Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13553894",
+  "summary": {
+    "tldr": "Requires the Minister of Health to develop a national strategy on brain injuries and report to Parliament on it.",
+    "what_it_does": [
+      "Requires the Minister of Health to develop a national strategy with provincial governments, Indigenous groups and other stakeholders.",
+      "Includes measures to promote prevention, training, research, data collection, information sharing, and national guidelines on brain injury prevention, diagnosis and management.",
+      "Promotes awareness and education, with a focus on public understanding and the rights of people living with a brain injury.",
+      "Supports national, provincial and local brain injury groups and service providers to build mental health resources for people with brain injuries and their families.",
+      "Encourages consultation with mental health professionals in schools, sports organisations and workplaces to support people dealing with brain injury, mental health and addiction problems.",
+      "Requires the Minister to table a strategy report in Parliament within 18 months, then evaluate the strategy and table a follow-up report within five years."
+    ],
+    "who_it_affects": [
+      "People living with brain injuries",
+      "Families and caregivers",
+      "Health care professionals",
+      "Brain injury organisations",
+      "Brain injury service providers",
+      "Provincial governments",
+      "Schools, sports organisations and workplaces",
+      "Indigenous groups"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "indigenous-peoples",
+      "rights-equality"
+    ]
+  }
+}

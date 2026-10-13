@@ -1,0 +1,27 @@
+{
+  "billId": "45-1/C-285",
+  "sourceHash": "1d0799e2bda609ae6de711a35a830a38",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:12.716Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14182752",
+  "summary": {
+    "tldr": "Adds used motor vehicles to the Excise Tax Act list of zero-rated supplies.",
+    "what_it_does": [
+      "Adds used motor vehicles, including motor homes, that were registered to a different owner under provincial law, to the list of zero-rated supplies under the Excise Tax Act.",
+      "Excludes new vehicles that were first registered to a dealer for the purpose of the first sale from this used-vehicle rule."
+    ],
+    "who_it_affects": [
+      "Used car buyers",
+      "Used vehicle dealers",
+      "Motor home buyers"
+    ],
+    "background": "It changes Schedule VI to the Excise Tax Act. Zero-rated supplies are taxed at 0%.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "economy-business"
+    ]
+  }
+}

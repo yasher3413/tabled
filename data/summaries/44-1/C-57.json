@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-57",
+  "sourceHash": "cff00223e6917785aa5f1b63019428c4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:15.055Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-57",
+  "summary": {
+    "tldr": "Implements the 2023 Canada-Ukraine Free Trade Agreement and repeals the 2017 implementation law.",
+    "what_it_does": [
+      "Approves the 2023 Canada-Ukraine Free Trade Agreement.",
+      "Sets out rules for how the law and the agreement are to be read and applied.",
+      "Bars legal action under sections 9 to 15, related orders, or the agreement itself without the Attorney General of Canada’s consent.",
+      "Gives the Governor in Council power to make orders under the agreement.",
+      "Requires Canada to pay its share of the agreement’s institutional and administrative costs.",
+      "Amends certain Acts to carry out Canada’s obligations under the agreement."
+    ],
+    "who_it_affects": [
+      "Canadian exporters and importers",
+      "Ukrainian exporters and importers",
+      "Businesses trading between Canada and Ukraine",
+      "Federal departments and officials"
+    ],
+    "background": "The bill implements the Canada-Ukraine Free Trade Agreement, done at Ottawa on September 22, 2023. It also repeals the Canada-Ukraine Free Trade Agreement Implementation Act enacted in 2017.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

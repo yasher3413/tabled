@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-274",
+  "sourceHash": "ded53c1caa4d6f40f4bc90a3387d448e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:18.143Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14027159",
+  "summary": {
+    "tldr": "Creates a citizenship path for some people who aged out of child welfare care, and pauses their removal orders while their application is decided.",
+    "what_it_does": [
+      "Creates a new route to citizenship for some people who were ordinarily resident in Canada when they left child welfare care, foster care, or similar care arrangements.",
+      "Requires applicants to have been in qualifying care for at least 365 days, been physically present in Canada for 1,095 days, and met limits on time outside Canada and on returning to parental custody.",
+      "Lets the minister waive the listed eligibility rules on compassionate grounds after reviewing the person's circumstances.",
+      "Treats a written statement from the applicant as proof of the care history unless the minister decides the circumstances did not exist.",
+      "Stops a removal order from being enforced against a foreign national who has applied under this new citizenship route until a final decision is made.",
+      "Makes an unenforced removal order void if the person later gets citizenship under section 5.3."
+    ],
+    "who_it_affects": [
+      "People who aged out of care",
+      "Former foster youth",
+      "Foreign nationals applying for citizenship",
+      "Child welfare agencies",
+      "Immigration officials"
+    ],
+    "background": "The bill amends the Citizenship Act and the Immigration and Refugee Protection Act. It adds a new section 5.3 to the Citizenship Act for minors in care and changes the rules on removal orders.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship",
+      "families-children",
+      "rights-equality"
+    ]
+  }
+}

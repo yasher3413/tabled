@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/C-260",
+  "sourceHash": "8ef70ac9751bc1da0da21925df048ed9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:07.957Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13884500",
+  "summary": {
+    "tldr": "Creates a Criminal Code offence for some government officers or employees who bring up medical assistance in dying without being asked.",
+    "what_it_does": [
+      "Makes it an offence, punishable on summary conviction, for a federal or provincial officer or employee to start a discussion about medical assistance in dying with a person.",
+      "Applies only when the person is in a position of trust or authority over that person because of their job.",
+      "Applies only when they know the person did not specifically ask to have that discussion.",
+      "Does not apply to medical practitioners or registered nurses, including nurse practitioners."
+    ],
+    "who_it_affects": [
+      "Federal government officers and employees",
+      "Provincial government officers and employees",
+      "Medical practitioners",
+      "Registered nurses",
+      "Nurse practitioners",
+      "People receiving government services"
+    ],
+    "background": "The bill adds a new offence to the Criminal Code after section 241.3.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health",
+      "government-operations"
+    ]
+  }
+}

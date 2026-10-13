@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-259",
+  "sourceHash": "a270088a2aa003ee855d9e58da03a1f6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:43.662Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13860841",
+  "summary": {
+    "tldr": "Clarifies when an employer may be seen as dominating a trade union, lets the labour board revoke certification, and adds penalties under the Canada Labour Code.",
+    "what_it_does": [
+      "Prohibits the Board from certifying a trade union, or treating its agreement as a collective agreement, if the union is dominated or influenced by an employer or someone acting for an employer.",
+      "Requires the Board to be satisfied that a union is not dominated or influenced, and is governed by members elected by the employees it wants to represent, before certifying it.",
+      "Lets employees ask to revoke a union’s certification if they claim employer domination or influence. The Board must hold an inquiry if 25% of employees in the unit apply in writing, and must revoke certification if it finds domination or influence.",
+      "Bars those revocation applications during an allowed strike or lockout involving the employees, unless the Board consents, and applies similar revocation rules to councils of trade unions.",
+      "Makes employer domination or influence an offence punishable on summary conviction by a fine of up to $100,000.",
+      "Allows regulations to create administrative monetary penalties for breaches of section 94, and requires the Minister of Labour to review the new provisions within five years and table a report in Parliament."
+    ],
+    "who_it_affects": [
+      "Federally regulated employers",
+      "Trade unions",
+      "Employees in bargaining units",
+      "Councils of trade unions",
+      "Labour board",
+      "Minister of Labour"
+    ],
+    "background": "The bill amends the Canada Labour Code. It adds a definition of when an employer or someone acting for an employer dominates or influences a trade union.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "government-operations"
+    ]
+  }
+}

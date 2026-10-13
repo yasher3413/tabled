@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-238",
+  "sourceHash": "0c40b6e82978cc174beef893f4ddec25",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:42.515Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14242543",
+  "summary": {
+    "tldr": "Creates a new kind of restitution order for some offences, letting courts order payment to organizations that provide front-line services to victims.",
+    "what_it_does": [
+      "Adds a new restitution option under the Criminal Code for some offences, letting a court order payment to an organization that gave front-line services to the victim.",
+      "Limits that payment to the organization’s reasonable expenses, and only when the amount can be easily shown.",
+      "Applies this option to offences of a sexual nature, offences linked to criminal harassment or trafficking in persons, offences involving violence, threatened violence or attempted violence against an intimate partner, and offences linked to controlled substances.",
+      "Requires courts to pay restitution owed to a victim first, before any amount ordered to an organization under this new rule."
+    ],
+    "who_it_affects": [
+      "Victims of sexual offences",
+      "Victims of harassment or trafficking offences",
+      "Victims of intimate partner violence",
+      "Front-line service organizations",
+      "People convicted of covered offences",
+      "Courts"
+    ],
+    "background": "The bill amends section 738 of the Criminal Code, which deals with restitution orders. It adds a new paragraph that allows payment to certain organizations that provide front-line services to victims.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-49",
+  "sourceHash": "77d8ae453e8f367fb2b6292503e81194",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:21.514Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-49",
+  "summary": {
+    "tldr": "Expands offshore energy and petroleum rules in Newfoundland and Labrador and Nova Scotia to cover renewable energy, new regulators, licensing, safety, and consultation.",
+    "what_it_does": [
+      "Renames the two offshore petroleum laws and the two boards, and turns the boards into offshore energy regulators.",
+      "Gives the regulators power over offshore renewable energy projects, including submerged land licences and the revenue rules tied to those licences.",
+      "Sets a ministerial approval process for some licence decisions and for some regulator powers and duties.",
+      "Extends safety, environmental protection, and occupational health and safety rules to offshore renewable energy projects.",
+      "Lets the Governor in Council make rules to stop or limit petroleum or renewable energy activity, or new interests, in offshore areas set aside for environmental or wildlife protection.",
+      "Creates rules for abandoned facilities, offshore infrastructure access, transboundary hydrocarbon fields, impact assessments, and Indigenous consultation."
+    ],
+    "who_it_affects": [
+      "Offshore energy developers",
+      "Offshore petroleum companies",
+      "Federal and provincial governments",
+      "Offshore regulators",
+      "Indigenous peoples",
+      "Offshore workers"
+    ],
+    "background": "It amends the Canada-Newfoundland and Labrador Atlantic Accord Implementation Act and the Canada-Nova Scotia Offshore Petroleum Resources Accord Implementation Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "energy-resources",
+      "environment-climate",
+      "indigenous-peoples"
+    ]
+  }
+}

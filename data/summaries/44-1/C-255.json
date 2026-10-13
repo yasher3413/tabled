@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-255",
+  "sourceHash": "1ff4e6e1b2496b95f392e473dbf0a837",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:39.301Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11585077",
+  "summary": {
+    "tldr": "Creates a tuition payment program for some students with disabilities and excludes those payments from taxable income.",
+    "what_it_does": [
+      "Requires the Minister to pay tuition fees directly to a designated educational institution for an enrolled person who qualifies for the disability tax credit, subject to set conditions.",
+      "Deems tuition paid under this program to be a grant to the student.",
+      "Adds those tuition payments to the list of amounts that are not included in income under the Income Tax Act.",
+      "Allows regulations to set the conditions that must be met before a payment can be made."
+    ],
+    "who_it_affects": [
+      "Students with disabilities",
+      "People who qualify for the disability tax credit",
+      "Designated educational institutions",
+      "Post-secondary students"
+    ],
+    "background": "The bill amends the Income Tax Act and the Canada Student Financial Assistance Act to provide financial assistance for Canadians with disabilities who want to attend post-secondary education.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "education",
+      "rights-equality",
+      "budget-taxes"
+    ]
+  }
+}

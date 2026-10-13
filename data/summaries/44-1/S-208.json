@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-208",
+  "sourceHash": "840a72e5592c10dbf45c980162d0bf3b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:18.290Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11968229",
+  "summary": {
+    "tldr": "Sets up a federal action plan and reporting process to implement the Declaration on the Essential Role of Artists and Creative Expression in Canada.",
+    "what_it_does": [
+      "Requires the Minister of Canadian Heritage to develop an action plan to give effect to the Declaration.",
+      "Requires the minister to consult federal ministers, the Canada Council for the Arts, provincial arts representatives, artists, arts organisations, French-speaking artists, diverse artists, and First Nations, Inuit and Métis artists.",
+      "Requires the action plan to consider access to arts and heritage, arts learning for children and youth, artists’ intellectual property, barriers for artists with disabilities, and more investment in the arts.",
+      "Requires the minister to hold a conference within 180 days, complete the action plan within two years, table it in Parliament, and publish it online.",
+      "Requires annual reports on how the action plan is being carried out and what the department is doing to meet the Declaration’s goals."
+    ],
+    "who_it_affects": [
+      "Artists",
+      "Arts organisations",
+      "French-speaking artists",
+      "First Nations, Inuit and Métis artists",
+      "Artists with disabilities",
+      "Children and youth",
+      "Canadian Heritage",
+      "Provincial arts representatives"
+    ],
+    "background": "The bill affirms the Declaration on the Essential Role of Artists and Creative Expression in Canada and creates a framework for the federal government to implement it.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "rights-equality"
+    ]
+  }
+}

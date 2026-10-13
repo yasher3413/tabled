@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-226",
+  "sourceHash": "64eecad1cd6dcd879aac254f45e5424d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:26.053Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13222427",
+  "summary": {
+    "tldr": "Requires the Minister of the Environment to develop a national strategy on environmental racism and environmental justice, and to report to Parliament on it.",
+    "what_it_does": [
+      "Requires the Minister of the Environment to develop a national strategy to advance environmental justice and to assess, prevent and address environmental racism.",
+      "Requires the Minister to consult with interested persons, bodies, organisations, communities, other ministers, governments in Canada and Indigenous communities, and to align the strategy with the federal Indigenous rights framework.",
+      "Requires the strategy to include a study on links between race, socio-economic status and environmental risk, plus information on where environmental hazards are located.",
+      "Allows the strategy to include changes to federal laws, policies and programmes, community involvement in environmental policy-making, compensation, and health data from communities near environmental hazards.",
+      "Requires the Minister to table the strategy in Parliament within two years, publish it on the Department of the Environment website, and report every five years on the strategy’s effectiveness."
+    ],
+    "who_it_affects": [
+      "The Minister of the Environment",
+      "Indigenous communities",
+      "Communities near environmental hazards",
+      "Community groups",
+      "Other federal ministers",
+      "Governments in Canada",
+      "Parliament"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

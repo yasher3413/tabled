@@ -1,0 +1,28 @@
+{
+  "billId": "45-1/S-240",
+  "sourceHash": "5efb983bf8ab09ad66067ad2e4e9cb8d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:10.168Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13726742",
+  "summary": {
+    "tldr": "Declares that mandatory minimum sentences for possessing or accessing child sexual abuse material apply despite section 12 of the Charter.",
+    "what_it_does": [
+      "Declares that the mandatory minimum sentence for possession of child sexual abuse and exploitation material operates despite section 12 of the Canadian Charter of Rights and Freedoms.",
+      "Declares that the mandatory minimum sentence for accessing child sexual abuse and exploitation material operates despite section 12 of the Canadian Charter of Rights and Freedoms.",
+      "Adds this declaration to section 163.1 of the Criminal Code under the Charter’s section 33(1) exception."
+    ],
+    "who_it_affects": [
+      "People charged with child sexual abuse material offences",
+      "Courts",
+      "Criminal justice system"
+    ],
+    "background": "The bill amends section 163.1 of the Criminal Code. It adds a declaration about two mandatory minimum sentence provisions in that section.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

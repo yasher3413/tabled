@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-249",
+  "sourceHash": "7e9826b25ce6ae925db1f3a3de6e800a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:58.383Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11559642",
+  "summary": {
+    "tldr": "Requires the Minister of Finance to develop a national framework to encourage growth in the cryptoasset sector and report it to Parliament.",
+    "what_it_does": [
+      "Requires the Minister of Finance to develop a national framework for the cryptoasset sector with help from people named by provinces and territories.",
+      "Says the framework must lower barriers to entry, protect people working in the sector, and reduce administrative burden.",
+      "Requires the Minister to invite submissions from province and territory nominees, and to give the public a chance to make written submissions.",
+      "Requires the Minister to publish the sector submissions, then publish a draft framework and invite public comments on it.",
+      "Requires the Minister to table a final report with the framework in both Houses of Parliament within three years, and to post it online.",
+      "Clarifies that the bill does not require provinces to take any action on matters within provincial law-making power."
+    ],
+    "who_it_affects": [
+      "Cryptoasset businesses",
+      "People working in cryptoassets",
+      "Provincial and territorial governments",
+      "Department of Finance",
+      "Parliament",
+      "Members of the public"
+    ],
+    "background": "The bill defines cryptoassets as digital assets secured by cryptographic systems, including blockchain, that do not rely on a central authority.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/S-272",
+  "sourceHash": "922a211b0d82952827a750eba3b946ef",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:02.841Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12559064",
+  "summary": {
+    "tldr": "Requires the Director of Public Prosecutions to handle summary conviction prosecutions under First Nation laws, unless the First Nation makes other arrangements.",
+    "what_it_does": [
+      "Defines “First Nation” and “First Nation law” for the Act, including bands under the Indian Act, First Nations under the Framework Agreement on First Nation Land Management Act, and some self-government agreement First Nations.",
+      "Updates the definition of “prosecution” to fit the new First Nation law rules.",
+      "Requires the Director of Public Prosecutions to start and conduct prosecutions of summary conviction offences under First Nation laws, and related appeals or other proceedings, for the First Nation that made the law.",
+      "Creates an exception where the Director does not act if the First Nation has appointed or retained its own prosecutor or has an agreement with a provincial or territorial government for those prosecutions."
+    ],
+    "who_it_affects": [
+      "First Nations",
+      "First Nation governments",
+      "Director of Public Prosecutions",
+      "Provincial governments",
+      "Territorial governments",
+      "Prosecutors",
+      "People charged under First Nation laws"
+    ],
+    "background": "The bill amends the Director of Public Prosecutions Act. It adds definitions for “First Nation” and “First Nation law” to that Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

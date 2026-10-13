@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-59",
+  "sourceHash": "63b701fa88c27fcb15e6592762ca26aa",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:10.453Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13222541",
+  "summary": {
+    "tldr": "Implements tax and other measures from the 2023 fall economic statement and the 2023 budget, including new business, digital services, and credit rules.",
+    "what_it_does": [
+      "Limits how much interest and financing costs certain corporations and trusts can deduct, and adds rules for hybrid mismatch payments and some partnership and foreign income items.",
+      "Creates new tax credit rules for carbon capture, utilisation and storage and clean technology, and adds wage and apprenticeship rules for some claims at regular tax credit rates.",
+      "Changes rules for employee ownership trusts, intergenerational business transfers, and certain loans and debts used in qualifying business transfers.",
+      "Changes First Home Savings Account rules, including excess amount, swap transaction, and reporting rules.",
+      "Adds a 2% tax on certain share buybacks by covered entities and creates a 3% digital services tax on taxable Canadian digital services revenue.",
+      "Sets special filing, payment, bankruptcy, receivership, penalty, audit, assessment, and collection rules for the new digital services tax and related parts."
+    ],
+    "who_it_affects": [
+      "Corporations and trusts",
+      "Digital services businesses",
+      "Public companies buying back shares",
+      "Businesses using carbon capture or clean technology credits",
+      "Business owners transferring a company",
+      "First Home Savings Account holders",
+      "Trustees and receivers"
+    ],
+    "background": "The bill implements certain measures from the fall economic statement tabled on November 21, 2023, and certain measures from the budget tabled on March 28, 2023.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "economy-business",
+      "labour-employment"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-249",
+  "sourceHash": "07776e88d0d26bc4ec70c237d1819bcb",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:19.327Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13454660",
+  "summary": {
+    "tldr": "Requires the federal minister to keep leading national action on intimate partner violence and report to Parliament every two years.",
+    "what_it_does": [
+      "Defines “intimate partner” to include a person’s current or former spouse, common-law partner, and dating partner.",
+      "Requires the Minister for Women and Gender Equality and Youth to continue leading national action to prevent and address intimate partner violence.",
+      "Requires the minister to meet each year with other federal ministers and provincial ministers responsible for the status of women, and regularly with Indigenous partners, victims and survivors, and other stakeholders.",
+      "Requires those meetings to cover current programs, partnerships, costs, and any constitutional, legal, or jurisdictional issues.",
+      "Requires a progress report within two years after royal assent and every two years after that, to be tabled in both Houses of Parliament and posted online within 30 days."
+    ],
+    "who_it_affects": [
+      "People experiencing intimate partner violence",
+      "Victims and survivors",
+      "Indigenous partners",
+      "Federal ministers",
+      "Provincial ministers responsible for the status of women",
+      "Women and Gender Equality and Youth department",
+      "Parliament"
+    ],
+    "background": "The bill says it provides for the continuation of national action for the prevention of intimate partner violence.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "families-children",
+      "government-operations"
+    ]
+  }
+}

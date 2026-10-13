@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-387",
+  "sourceHash": "d634d3a68b6962ef6d546e3f08a64654",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:07.567Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13047367",
+  "summary": {
+    "tldr": "Requires consent from two thirds of the non-CPP provinces, representing two thirds of their population, before a province can adopt a comprehensive pension plan.",
+    "what_it_does": [
+      "Requires provincial consent before regulations can be made for a province to adopt a comprehensive pension plan under the Canada Pension Plan.",
+      "Sets the consent threshold at at least two thirds of the provinces without a comprehensive pension plan, and those provinces must have at least two thirds of the total population of that group.",
+      "Brings the bill into force on the 180th day after royal assent."
+    ],
+    "who_it_affects": [
+      "Provincial governments",
+      "Provinces without comprehensive pension plans",
+      "Canada Pension Plan administrators"
+    ],
+    "background": "The bill amends section 3 of the Canada Pension Plan by adding a new consent rule for provincial pension plans.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "labour-employment"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/C-215",
+  "sourceHash": "500a24e6d33244f9572bfbe7eacb7b25",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:39.733Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13569706",
+  "summary": {
+    "tldr": "Creates a national strategy to address pollution from shipping container spills, with studies, reporting, and Indigenous collaboration.",
+    "what_it_does": [
+      "Requires the Minister of Transport to develop and implement a national strategy on pollution caused by shipping container spills.",
+      "Requires Indigenous organisations to have a meaningful chance to help develop the strategy.",
+      "Requires an independent study of gaps in the current rules, salvage capacity, ship manifests, tracking lost containers, and a possible cleanup fund.",
+      "Requires the strategy to include measures to prevent spills, improve communication, create a joint spill response task force, and monitor and remove debris from lost containers.",
+      "Requires the strategy to fund research on polystyrene, microplastics, other plastics, and removal methods.",
+      "Requires a report on the strategy within one year, then yearly progress reports starting in the second year, and publication on the Department of Transport website."
+    ],
+    "who_it_affects": [
+      "Marine shipping industry",
+      "Coastal communities",
+      "Indigenous organisations",
+      "Federal and provincial governments",
+      "Local authorities",
+      "Commercial fishing organisations",
+      "Non-governmental organisations"
+    ],
+    "background": "The bill adds a new part to the Marine Liability Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "transport-infrastructure",
+      "indigenous-peoples"
+    ]
+  }
+}

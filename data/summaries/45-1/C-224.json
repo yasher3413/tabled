@@ -1,0 +1,30 @@
+{
+  "billId": "45-1/C-224",
+  "sourceHash": "5cf88b03f2ec8daa577a41d962a39020",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:46.148Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13592700",
+  "summary": {
+    "tldr": "This bill removes most natural health products from the Food and Drugs Act definition of therapeutic product and blocks some related prosecutions.",
+    "what_it_does": [
+      "Excludes natural health products from the Food and Drugs Act definition of “therapeutic product”, except products with nicotine or its salts used in nicotine replacement therapy.",
+      "Repeals section 21.321 of the Food and Drugs Act.",
+      "Repeals subsection 21.8(2) of the Food and Drugs Act.",
+      "Bars new or ongoing proceedings for certain offences under sections 31.2 and 31.4 for natural health products, for conduct between the coming into force of section 500 of the Budget Implementation Act, 2023, No. 1 and the day this bill comes into force."
+    ],
+    "who_it_affects": [
+      "Natural health product companies",
+      "Natural health product users",
+      "People using nicotine replacement therapy",
+      "Health Canada",
+      "Drug and product regulators"
+    ],
+    "background": "Natural health products are defined in the Natural Health Products Regulations. The bill changes how they are treated under the Food and Drugs Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health"
+    ]
+  }
+}

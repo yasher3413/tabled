@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/S-224",
+  "sourceHash": "519442f0f46cfa12bebb360bbce3b8a3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:29.338Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11968268",
+  "summary": {
+    "tldr": "Clarifies when someone is exploiting another person for Criminal Code trafficking in persons offences and repeals one related subsection.",
+    "what_it_does": [
+      "Replaces the Criminal Code definition of exploitation for trafficking offences, saying it applies when someone causes another person to provide or offer labour or a service through force, coercion, fraud, deception, abuse of trust, power or authority, or a similar act.",
+      "Repeals subsection 279.04(2) of the Criminal Code."
+    ],
+    "who_it_affects": [
+      "People accused of trafficking in persons",
+      "People who are exploited for labour or services",
+      "Victims of trafficking",
+      "Law enforcement",
+      "Courts"
+    ],
+    "background": "The bill changes the definition of exploitation used for trafficking in persons offences in sections 279.01 to 279.03 of the Criminal Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

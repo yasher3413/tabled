@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/S-203",
+  "sourceHash": "d656b6dd188af3590286b2e6742e1ddd",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:25.679Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12330218",
+  "summary": {
+    "tldr": "Requires the health minister to develop and table a federal framework on autism spectrum disorder, covering access, support, research, education and accountability.",
+    "what_it_does": [
+      "Requires the Minister of Health to develop a federal framework on autism spectrum disorder.",
+      "Identifies measures for timely and equitable screening and diagnosis, financial support, caregiver support, and a national research network.",
+      "Includes public awareness campaigns and accessible, culturally relevant information on evidence-based support, including effective and harmful treatments.",
+      "Requires the minister to consult federal and provincial ministers, stakeholders and people with lived experience, and to hold at least one conference within 12 months.",
+      "Requires the framework to be tabled in both Houses within 18 months, published online, and followed by a report within five years on what was implemented and why any measures were not."
+    ],
+    "who_it_affects": [
+      "Autistic Canadians",
+      "Families of autistic people",
+      "Caregivers",
+      "Health ministers and departments",
+      "Provincial governments",
+      "Service providers",
+      "Researchers",
+      "Autism organisations in Indigenous communities"
+    ],
+    "background": "The bill says the framework is meant to support autistic Canadians, their families and their caregivers. It also requires the Minister of Health to consult federal and provincial ministers, stakeholders and people with lived experience.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "families-children",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-288",
+  "sourceHash": "b035837c4f1db0658df0cf6368990b9c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:28.552Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13222409",
+  "summary": {
+    "tldr": "Requires telecom carriers to publish clear information about fixed broadband quality and speeds, and tells the CRTC to hold hearings on the disclosure rules.",
+    "what_it_does": [
+      "Defines fixed broadband service as high-speed data service to a fixed location using cable, fibre optics, wireless access, satellite, or a similar system.",
+      "Requires Canadian carriers that offer fixed broadband service to make public their service quality metrics during peak periods, typical download and upload speeds during peak periods, and any other information the CRTC requires.",
+      "Requires the CRTC to hold public hearings to decide what metrics to measure, how to measure them, what counts as peak periods, which carriers or systems may be excluded, and how the information must be made easy to find and understand."
+    ],
+    "who_it_affects": [
+      "Canadian carriers",
+      "Broadband customers",
+      "CRTC"
+    ],
+    "background": "The bill amends the Telecommunications Act by adding a new section on fixed broadband service information. It also gives the CRTC a role in setting the rules for how that information is reported.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy"
+    ]
+  }
+}

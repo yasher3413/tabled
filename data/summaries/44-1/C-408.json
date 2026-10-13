@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-408",
+  "sourceHash": "2df90d8922a9e5cbb2dfd167fec6fc11",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:40.132Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13220352",
+  "summary": {
+    "tldr": "Lets the government call a referendum on electoral reform and hold it at the same time as a general election.",
+    "what_it_does": [
+      "Allows the Governor in Council to call a referendum on a question about reform of Canada’s electoral system.",
+      "Allows a referendum to be held at the same time as a general election.",
+      "Changes the Act’s long title to say it covers referendums on the Constitution of Canada and electoral reform.",
+      "Keeps the rule that referendum writs must be dated no later than the 36th day before polling day."
+    ],
+    "who_it_affects": [
+      "Canadian voters",
+      "Federal Cabinet",
+      "Election officials",
+      "Provincial electors"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/C-11",
+  "sourceHash": "d0bc00f1899e3ace904d72f1273ecf3c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:20.583Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14209082",
+  "summary": {
+    "tldr": "Changes the military justice system, including who investigates sexual offences, how key military justice roles are appointed, and how sex offender orders are handled.",
+    "what_it_does": [
+      "Changes how the Provost Marshal General, Director of Military Prosecutions, and Director of Defence Counsel Services are appointed and reviewed, with rules aimed at strengthening their independence.",
+      "Removes court martial jurisdiction over Criminal Code offences of a sexual nature committed in Canada, and removes the Canadian Armed Forces’ authority to investigate those offences; ongoing cases are transferred to civilian authorities.",
+      "Expands who can be appointed as a military judge and removes military judges from the summary hearing system.",
+      "Requires a commanding officer to appoint a victim’s liaison officer, on request, to help a victim or someone acting for them in a service offence case.",
+      "Expands who can make an interference complaint, and requires military police or other policing staff under the Provost Marshal General’s supervision to make a complaint in certain cases.",
+      "Changes military sex offender information rules, including who gets orders, how long they last, how they can be varied or ended, and when court decisions can require the RCMP to remove database records."
+    ],
+    "who_it_affects": [
+      "Canadian Armed Forces members",
+      "Military police",
+      "Military judges",
+      "Military prosecutors",
+      "Defence counsel services",
+      "Victims of service offences",
+      "People accused of sexual offences in Canada",
+      "People subject to sex offender orders"
+    ],
+    "background": "The bill says it responds to the Report of the Third Independent Review Authority to the Minister of National Defence and the Report of the Independent External Comprehensive Review of the Department of National Defence and the Canadian Armed Forces.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

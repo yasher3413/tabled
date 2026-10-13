@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/S-1001",
+  "sourceHash": "fc58f9b80a0091b0a84dd09519b90229",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:04.134Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13842120",
+  "summary": {
+    "tldr": "Lets Gore Mutual Insurance Company apply to continue under Quebec law and, if it does, removes it from the federal Insurance Companies Act.",
+    "what_it_does": [
+      "Authorizes Gore Mutual Insurance Company to apply to be continued as a body corporate under the laws of Quebec, as if it had been incorporated there.",
+      "Ends the company’s coverage under the Insurance Companies Act on the day it is continued under Quebec law.",
+      "Repeals three federal Acts about Gore District Mutual Fire Insurance Company when the continuation takes effect."
+    ],
+    "who_it_affects": [
+      "Gore Mutual Insurance Company"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business"
+    ]
+  }
+}

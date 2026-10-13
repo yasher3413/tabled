@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-260",
+  "sourceHash": "a1bc0d979d2df445bf0e1103cebcafce",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:31.737Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11650571",
+  "summary": {
+    "tldr": "Sets federal rules for post-secondary funding to provinces and requires a plan to split the Canada Social Transfer into social services and post-secondary parts.",
+    "what_it_does": [
+      "Sets criteria that provincial post-secondary institutions must meet, including non-profit public administration, academic independence, quality, and accessibility, before a cash contribution may be made.",
+      "Lets Quebec choose not to follow the criteria in section 5 and still receive the cash contribution.",
+      "Requires provinces to give the minister prescribed information to qualify for funding.",
+      "Sets a default process where the minister can notify a province, seek more information, discuss the issue, and refer it to the Governor in Council, which may reduce or withhold funding.",
+      "Requires the minister to report to Parliament each year on the act, including funding amounts and indicators such as tuition, student debt, class sizes, faculty ratios, and financial aid.",
+      "Requires the minister, within six months, to work with provincial ministers to create a framework dividing the Canada Social Transfer into two parts, one for social assistance and social services and one for post-secondary education."
+    ],
+    "who_it_affects": [
+      "Provincial governments",
+      "Post-secondary institutions",
+      "Students",
+      "Quebec government",
+      "Federal ministers"
+    ],
+    "background": "The bill says cash contributions may be made to provinces under other Acts of Parliament. It also calls for a framework to divide the Canada Social Transfer into two distinct components.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "education",
+      "budget-taxes",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/S-206",
+  "sourceHash": "857e1abaae230c6af3b584729ddc9674",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:09.729Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13541903",
+  "summary": {
+    "tldr": "Requires the Minister of Finance to develop and report on a national framework for a guaranteed livable basic income for people over 17 in Canada.",
+    "what_it_does": [
+      "Requires the Minister of Finance to develop a national framework for a guaranteed livable basic income program across Canada for anyone over 17.",
+      "Requires the minister to consult federal and provincial ministers, Indigenous Elders and governing bodies, and other stakeholders and experts when developing the framework.",
+      "Requires the framework to set regional measures for what counts as a livable basic income, based on needed goods and services and local costs.",
+      "Requires national standards for health and social supports that work with the program in each province.",
+      "Requires the framework to make education, training or work participation optional, and to protect existing health or disability supports from being reduced.",
+      "Requires a report on the framework within one year, publication on the Department of Finance website, and yearly review reports after that."
+    ],
+    "who_it_affects": [
+      "People over 17 in Canada",
+      "Provincial governments",
+      "Indigenous Elders and governing bodies",
+      "People with health or disability needs",
+      "Federal Department of Finance",
+      "Ministers responsible for health, housing and employment"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "health",
+      "labour-employment"
+    ]
+  }
+}

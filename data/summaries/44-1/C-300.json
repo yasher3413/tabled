@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-300",
+  "sourceHash": "9bac0113a566805eb8e554c1d98d1b9e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:19.055Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12006945",
+  "summary": {
+    "tldr": "Requires federal procurement to prefer Canadian products and services, and creates a provincial transfer for the same purpose.",
+    "what_it_does": [
+      "Defines a Canadian product as one with more than 50% of its total value made, produced or assembled in Canada, or, for natural resources, more than 50% of its total value originating in Canada.",
+      "Defines a Canadian service as a service offered by a Canadian citizen, a permanent resident, a government body, a qualifying partnership, trust or joint venture, a Canadian corporation, or a qualifying non-profit group.",
+      "Requires the Minister, when using powers or duties under the Department of Public Works and Government Services Act or any other federal law, to prefer Canadian products and services unless an international agreement blocks it.",
+      "Requires the Minister, when using procurement powers under the Defence Production Act, to prefer Canadian products and services unless an international agreement blocks it.",
+      "Creates a federal transfer for provinces to support preference for Canadian products and services, set at $100,000 for each province for each fiscal year beginning after March 31, 2023."
+    ],
+    "who_it_affects": [
+      "Federal procurement officials",
+      "Defence procurement officials",
+      "Provincial governments",
+      "Canadian product suppliers",
+      "Canadian service providers"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "economy-business",
+      "trade-foreign-affairs"
+    ]
+  }
+}

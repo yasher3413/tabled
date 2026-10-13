@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-34",
+  "sourceHash": "756246ff736006fb7b7dea71867027b9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:09.225Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-34",
+  "summary": {
+    "tldr": "Amends the Investment Canada Act to add new notice, review, information-sharing, and penalty rules for some investments with national security implications.",
+    "what_it_does": [
+      "Requires notice of certain investments before they are carried out.",
+      "Lets the Minister of Industry, after consulting the Minister of Public Safety and Emergency Preparedness, impose interim conditions during a review to prevent possible harm to national security.",
+      "Lets the Minister of Industry order further review of investments under Part IV.1 and accept written undertakings to address national security risks.",
+      "Adds rules to protect information in judicial review cases about decisions and orders under Part IV.1.",
+      "Lets the Minister of Industry share otherwise privileged information with foreign states for foreign investment reviews.",
+      "Sets a new penalty of up to the greater of $500,000 and any prescribed amount for failing to give notice or file required applications, and raises daily penalties for other breaches to the greater of $25,000 and any prescribed amount."
+    ],
+    "who_it_affects": [
+      "Foreign investors",
+      "Businesses making investments in Canada",
+      "Minister of Industry",
+      "Minister of Public Safety and Emergency Preparedness",
+      "Courts handling judicial reviews",
+      "Foreign governments reviewing investments"
+    ],
+    "background": "The bill amends the Investment Canada Act. It was introduced in the House of Commons on 7 December 2022.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "defence-security",
+      "government-operations"
+    ]
+  }
+}

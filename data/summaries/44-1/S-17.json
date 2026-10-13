@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/S-17",
+  "sourceHash": "760e7c16ea3b77fc5d12480189bd3dee",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:53.479Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/S-17",
+  "summary": {
+    "tldr": "Bill S-17 makes small wording, reference, and naming fixes across federal laws and regulations, and repeals a few provisions that no longer apply.",
+    "what_it_does": [
+      "Corrects grammar, spelling, terminology, punctuation, cross-references, archaic wording, and English-French wording differences in 58 Acts and three related regulations.",
+      "Updates the names or designations of some professionals and a tribunal, including changing the Review Tribunal name to the Canada Agricultural Review Tribunal.",
+      "Corrects the names of some provincial courts to match court reorganisations in those provinces.",
+      "Repeals three provisions from Acts that no longer have any application, including section 12 of the Department of Transport Act."
+    ],
+    "who_it_affects": [
+      "Federal departments",
+      "Courts in some provinces",
+      "Tribunals",
+      "Professionals named in federal law"
+    ],
+    "background": "Bill S-17 is the 13th bill in the Miscellaneous Statute Law Amendment Program. It was based on reports from the House of Commons and Senate justice committees.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-66",
+  "sourceHash": "8f7339cbf5c0dab112dd360f0bc9b952",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:26.531Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-66",
+  "summary": {
+    "tldr": "Changes military justice rules, limits military handling of sexual offences committed in Canada, and updates appointments, judges and victim supports.",
+    "what_it_does": [
+      "Modifies how the Canadian Forces Provost Marshal, Director of Military Prosecutions and Director of Defence Counsel Services are appointed, to help strengthen their independence.",
+      "Confirms the Judge Advocate General must respect the independence of military justice authorities when overseeing military justice administration.",
+      "Removes courts martial jurisdiction over Criminal Code offences alleged to have been committed in Canada that are sexual in nature or committed for a sexual purpose.",
+      "Removes the Canadian Armed Forces’ authority to investigate Criminal Code offences alleged to have been committed in Canada that are sexual in nature or committed for a sexual purpose.",
+      "Expands who can be appointed as a military judge, and removes military judges from the summary hearing system.",
+      "Expands who may make an interference complaint, changes the title of Canadian Forces Provost Marshal to Provost Marshal General, and lets a victim’s representative ask for a victim’s liaison officer in service offence cases."
+    ],
+    "who_it_affects": [
+      "Canadian Armed Forces members",
+      "Victims of service offences",
+      "Military judges",
+      "Military police",
+      "Military justice authorities",
+      "People accused of sexual offences in Canada",
+      "Superior courts"
+    ],
+    "background": "The bill responds to the Report of the Third Independent Review Authority to the Minister of National Defence and the Report of the Independent External Comprehensive Review of the Department of National Defence and the Canadian Armed Forces. It also harmonizes some rules with recent Criminal Code changes on sex offender information and publication bans.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/C-212",
+  "sourceHash": "632539789ac1454decd11db21e47ab65",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:36.866Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13569827",
+  "summary": {
+    "tldr": "Creates an Ombud for Citizenship and Immigration to review complaints, investigate unfair treatment, and report findings and recommendations.",
+    "what_it_does": [
+      "Establishes the Office of the Ombud for the Department of Citizenship and Immigration, and sets seven-year terms, eligibility rules, pay, staff, and office location.",
+      "Gives the Ombud power to review department policies, programmes, training, and processing standards for fairness, bias, racism, and discrimination.",
+      "Allows any person to complain, and lets the Ombud investigate on their own, at the minister's request, or after a complaint.",
+      "Lets the Ombud summon witnesses, require documents and information, and make reports to the minister and complainants with findings and recommendations.",
+      "Requires the minister to respond to the Ombud's recommendations, publish annual and special reports, and comply with a parliamentary review every five years.",
+      "Amends the Language Skills Act and several other Acts to add the new office to federal lists and schedules."
+    ],
+    "who_it_affects": [
+      "Immigration and citizenship applicants",
+      "People who file complaints",
+      "Department of Citizenship and Immigration",
+      "Minister of Citizenship and Immigration",
+      "Ombud office",
+      "Federal public servants"
+    ],
+    "background": "The bill says the Ombud would examine department practices to ensure they are fair, equitable, unbiased, non-racist and non-discriminatory, including systemic racism and systemic discrimination.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

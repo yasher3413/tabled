@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-61",
+  "sourceHash": "35cb8285807388287da86cd7ec28b396",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:10.966Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-61",
+  "summary": {
+    "tldr": "Bill C-61 affirms First Nations jurisdiction over water and wastewater on their lands and sets out standards and principles for safe water services.",
+    "what_it_does": [
+      "Affirms that the inherent right to self-government includes First Nations jurisdiction over water, source water, drinking water, wastewater and related infrastructure on, in and under First Nation lands.",
+      "Sets out principles, including substantive equality, to guide clean and safe drinking water and the effective treatment and disposal of wastewater on First Nation lands.",
+      "Provides minimum standards for water quality and quantity, and for wastewater effluent.",
+      "Provides pathways to help protect source water."
+    ],
+    "who_it_affects": [
+      "First Nations",
+      "First Nation governments",
+      "People living on First Nation lands",
+      "Water and wastewater service providers"
+    ],
+    "background": "Bill C-61 was introduced in the House of Commons on 11 December 2023 and was given first reading. It is titled the First Nations Clean Water Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "health",
+      "environment-climate"
+    ]
+  }
+}

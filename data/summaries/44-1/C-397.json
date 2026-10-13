@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-397",
+  "sourceHash": "352935d59d9a233327aec18cb49d1e3e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:58.619Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13192975",
+  "summary": {
+    "tldr": "Adds funeral services to the zero-rated tax list and creates a one-stop service for reporting a death.",
+    "what_it_does": [
+      "Adds funeral services, including a coffin, headstone, or other related property, to the Excise Tax Act list of zero-rated supplies.",
+      "Repeals section 344 and section 360 of the Excise Tax Act.",
+      "Requires the Minister of Employment and Social Development to establish a one-stop service for reporting a death and sharing relevant information with partner entities.",
+      "Aims to reduce the administrative burden that follows a death."
+    ],
+    "who_it_affects": [
+      "Bereaved families",
+      "People arranging funerals",
+      "Funeral service providers",
+      "People reporting a death",
+      "Employment and Social Development Canada",
+      "Partner entities"
+    ],
+    "background": "The bill amends the Excise Tax Act and the Department of Employment and Social Development Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations"
+    ]
+  }
+}

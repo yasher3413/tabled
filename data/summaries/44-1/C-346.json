@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-346",
+  "sourceHash": "09012f516b08a53d46dfab6456f78091",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:28.214Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12551975",
+  "summary": {
+    "tldr": "Lets certain foreign nationals with a Canadian maritime diploma and a pending permanent residence application qualify for a certificate of competency.",
+    "what_it_does": [
+      "Adds certain foreign nationals to the people who may hold a certificate of competency under the Canada Shipping Act, 2001.",
+      "Requires the foreign national to hold a diploma from a prescribed Canadian maritime institution and to have a permanent residence application being processed.",
+      "Allows Canadian maritime institutions to be designated for this rule."
+    ],
+    "who_it_affects": [
+      "Foreign nationals trained in Canada",
+      "Permanent residence applicants",
+      "Canadian maritime institutions",
+      "Canadian citizens",
+      "Permanent residents"
+    ],
+    "background": "Under the Canada Shipping Act, 2001, only certain people may hold a certificate of competency.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure",
+      "immigration-citizenship"
+    ]
+  }
+}

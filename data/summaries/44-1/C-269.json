@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-269",
+  "sourceHash": "3863d878c96ca50231210974c702d2b6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:10.777Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11716584",
+  "summary": {
+    "tldr": "Requires the CRTC to assign a three-digit phone number for suicide-prevention services within one year.",
+    "what_it_does": [
+      "Requires the Canadian Radio-television and Telecommunications Commission to designate a three-digit number for suicide-prevention services.",
+      "Sets a one-year deadline after the section comes into force for the number to be assigned."
+    ],
+    "who_it_affects": [
+      "People seeking suicide-prevention help",
+      "Canadian Radio-television and Telecommunications Commission",
+      "Telecommunications providers"
+    ],
+    "background": "The bill amends the Telecommunications Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "technology-privacy"
+    ]
+  }
+}

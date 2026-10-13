@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-224",
+  "sourceHash": "fec6f753762b10fd2ac18cc35fa9e2c8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:22.654Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12560347",
+  "summary": {
+    "tldr": "Creates a national framework on cancers linked to firefighting and names January Firefighter Cancer Awareness Month.",
+    "what_it_does": [
+      "Requires the Minister of Health to develop a national framework to raise awareness of cancers linked to firefighting and improve firefighters' access to prevention and treatment.",
+      "Requires the minister to consult provincial and territorial health officials, municipal governments, Indigenous governing bodies, health care professionals, scientists, and firefighting stakeholders.",
+      "Allows the framework to include research, training, screening, data collection, information sharing, and a summary of standards that treat these cancers as occupational diseases.",
+      "Requires the minister to table the framework in Parliament within one year after the Act comes into force and publish it on the Health Canada website.",
+      "Requires the minister to report within five years on the framework's effectiveness and on the state of prevention and treatment.",
+      "Designates January each year as Firefighter Cancer Awareness Month throughout Canada."
+    ],
+    "who_it_affects": [
+      "Firefighters",
+      "Health care professionals",
+      "Provincial and territorial governments",
+      "Municipal governments",
+      "Indigenous governing bodies",
+      "Firefighting community"
+    ],
+    "background": "The bill gives the Minister of Health the job of developing the framework and sets deadlines for a report to Parliament and a follow-up review. It also creates a yearly awareness month.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-76",
+  "sourceHash": "ca01593ef6bb5dddd307078b821174c8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:22.942Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-76",
+  "summary": {
+    "tldr": "Changes the Canada National Parks Act so Jasper can use local land use planning and development powers under an agreement.",
+    "what_it_does": [
+      "Allows a local government body to exercise land use planning and development powers in the town of Jasper, as set out in an agreement for that town.",
+      "Says certain regulations no longer apply to Jasper once a municipal by-law on land use planning and development comes into force."
+    ],
+    "who_it_affects": [
+      "Town of Jasper",
+      "Residents of Jasper",
+      "Local government bodies",
+      "Land developers in Jasper"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "environment-climate"
+    ]
+  }
+}

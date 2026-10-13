@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-278",
+  "sourceHash": "50ea5ad44d4bf925ce54b9d4a772cff5",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:11.273Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11832194",
+  "summary": {
+    "tldr": "Prevents federal rules from requiring COVID-19 vaccination for some jobs and from stopping travel by plane, train, or ship solely because a person is not vaccinated.",
+    "what_it_does": [
+      "Bars the Treasury Board from making COVID-19 vaccination a condition of employment in the federal public administration, or from suspending, reducing pay, or ending employment solely for not being vaccinated.",
+      "Bars new regulations under the Canada Labour Code from requiring COVID-19 vaccination as a job condition for work in or connected to a federal work, undertaking, or business.",
+      "Bars COVID-19 rules under the Aeronautics Act from preventing a person from boarding an aircraft solely because they have not received a COVID-19 vaccine.",
+      "Bars COVID-19 rules under the Railway Safety Act from preventing a person from boarding railway equipment solely because they have not received a COVID-19 vaccine.",
+      "Bars COVID-19 regulations under the Canada Shipping Act, 2001 from preventing a person from boarding a vessel solely because they have not received a COVID-19 vaccine."
+    ],
+    "who_it_affects": [
+      "Federal public service employees",
+      "Federally regulated workers",
+      "Air travellers",
+      "Rail passengers",
+      "Vessel passengers"
+    ],
+    "background": "The bill amends the Financial Administration Act, the Canada Labour Code, the Aeronautics Act, the Railway Safety Act, and the Canada Shipping Act, 2001.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "transport-infrastructure",
+      "government-operations"
+    ]
+  }
+}

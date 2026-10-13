@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-242",
+  "sourceHash": "d29d060a26a090b8b01ffa5b345727f1",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:23.908Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12560445",
+  "summary": {
+    "tldr": "Lets some parents and grandparents visiting Canada use approved foreign health insurance, stay up to five years, and adds reporting on income rules.",
+    "what_it_does": [
+      "Allows a parent or grandparent applying for a visitor visa for an extended stay to use a health insurance policy bought from an approved insurer outside Canada.",
+      "Sets the allowed stay for a temporary resident visiting a Canadian citizen or permanent resident child or grandchild at five years.",
+      "Requires the Minister of Citizenship and Immigration to report on lowering the minimum income requirement a child or grandchild must meet for an extended visit.",
+      "Requires the report to cover special circumstances in visa processing and a review process for those decisions, and to be tabled in Parliament and published online.",
+      "Requires the minister to table a statement of reasons if no income change or related process is provided within two years after royal assent."
+    ],
+    "who_it_affects": [
+      "Parents and grandparents of Canadians",
+      "Canadian citizen and permanent resident families",
+      "Foreign nationals applying for extended visits",
+      "Citizenship and Immigration minister",
+      "Foreign insurers approved by the minister"
+    ],
+    "background": "The bill amends the Immigration and Refugee Protection Act. It deals with temporary resident visas for parents and grandparents visiting Canadian citizen or permanent resident children or grandchildren.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship",
+      "health",
+      "government-operations"
+    ]
+  }
+}

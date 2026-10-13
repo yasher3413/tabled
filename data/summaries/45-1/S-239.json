@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/S-239",
+  "sourceHash": "f172c4128ccf459fcd10c265ddffcb40",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:19.261Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13707676",
+  "summary": {
+    "tldr": "Lets the Competition Commissioner recommend changes to trade barriers in inquiry reports and requires public responses from federal and provincial institutions.",
+    "what_it_does": [
+      "Lets the Commissioner of Competition recommend changes to barriers to trade within Canada in market or industry inquiry reports, if the barrier unduly affects competition in that market or a related market.",
+      "Requires the Commissioner to send the report to the head of any federal or provincial institution named in a recommendation.",
+      "Requires federal institution heads to respond within 120 days, and requires the Commissioner to post the response on a publicly available website.",
+      "Lets provincial institution heads respond within 120 days, and requires the Commissioner to post the response or a notice that no response was received on a publicly available website."
+    ],
+    "who_it_affects": [
+      "Competition Commissioner",
+      "Federal institutions",
+      "Provincial institutions",
+      "Municipalities",
+      "Crown corporations",
+      "Businesses in affected markets"
+    ],
+    "background": "The bill adds new rules to section 10.1 of the Competition Act, which deals with market or industry inquiries.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

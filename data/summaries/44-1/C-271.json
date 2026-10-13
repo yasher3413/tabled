@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-271",
+  "sourceHash": "64c23fbcbb3e3178349b79b4674c4ee0",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:51:35.533Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11753076",
+  "summary": {
+    "tldr": "Gives the St. Lawrence River legal personhood and creates a committee to act for it.",
+    "what_it_does": [
+      "Gives the St. Lawrence River the rights, powers and privileges of a natural person, including the ability to bring court cases.",
+      "Creates the St. Lawrence River Protection Committee to represent the river and exercise its rights in its best interests.",
+      "Sets the committee at 11 members, with members recommended by Ontario, Quebec, Indigenous governing bodies and non-governmental organisations, and requires water and ecosystem expertise.",
+      "Directs the committee to advise on projects, speak to public authorities, act in court, make protection recommendations, and help carry out plans for the river’s habitat and ecosystems.",
+      "Allows the committee to seek damages for harmful acts or omissions, and requires any money awarded to be used for protection and restoration of the river.",
+      "Requires the committee to report yearly to the Minister of the Environment, who must table the report in Parliament."
+    ],
+    "who_it_affects": [
+      "St. Lawrence River",
+      "Ontario government",
+      "Quebec government",
+      "Indigenous governing bodies",
+      "Non-governmental organisations",
+      "Water and ecosystem experts",
+      "Courts",
+      "Federal environment minister"
+    ],
+    "background": "The bill says it does not take away the rights of Indigenous peoples protected by section 35 of the Constitution Act, 1982. It also says responsible recreational and subsistence uses, such as fishing, are not meant to be prohibited.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/C-407",
+  "sourceHash": "4fef8a7db2502790eb2d85285cce28e4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:37.991Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13220351",
+  "summary": {
+    "tldr": "Declares the livestock brand shown in the schedule to be Canada’s national livestock brand.",
+    "what_it_does": [
+      "Recognizes and declares the livestock brand illustrated in the schedule as the national livestock brand of Canada."
+    ],
+    "who_it_affects": [
+      "Canadians",
+      "Livestock producers"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration",
+      "government-operations"
+    ]
+  }
+}

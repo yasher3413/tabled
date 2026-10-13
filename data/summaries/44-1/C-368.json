@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-368",
+  "sourceHash": "bccb965de1626820f29f546356fe98f3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:20.174Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13472400",
+  "summary": {
+    "tldr": "Excludes most natural health products from the Food and Drugs Act's therapeutic product definition, except nicotine replacement therapy products, and keeps some recall and penalty rules in place.",
+    "what_it_does": [
+      "Redefines “therapeutic product” to mean a drug, a device, a mix of drugs and devices, or a natural health product that contains nicotine or its salts and is used in nicotine replacement therapy.",
+      "Adds a rule saying certain Food and Drugs Act monitoring and enforcement sections still apply to natural health products, despite the new definition.",
+      "Adds regulation-making power for natural health product recalls and for penalties when certain natural health product rules are broken.",
+      "Repeals section 21.321 and subsection 21.8(2) of the Food and Drugs Act.",
+      "Bars new or continuing prosecutions for offences under sections 31.2 or 31.4 involving natural health products, if they happened after section 500 of the Budget Implementation Act, 2023, No. 1 came into force and before this Act takes effect."
+    ],
+    "who_it_affects": [
+      "Natural health product companies",
+      "Importers of natural health products",
+      "Retailers of natural health products",
+      "People using nicotine replacement products",
+      "Federal drug regulators"
+    ],
+    "background": "The bill changes the Food and Drugs Act's definition of therapeutic product. It keeps nicotine replacement therapy products in that definition, but removes most other natural health products.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

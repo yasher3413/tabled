@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-330",
+  "sourceHash": "42274d71fa7684348360719e0aec0405",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:20.654Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12347061",
+  "summary": {
+    "tldr": "Amends the Canada Labour Code so airport authorities and airport service providers must keep the previous union status and job terms when they replace a contractor.",
+    "what_it_does": [
+      "Clarifies that section 44 of the Canada Labour Code applies to employers that are airport authorities or service providers to an airport authority.",
+      "Requires a new contractor that takes over from a previous contractor at an airport authority to respect the previous trade union certification.",
+      "Requires the new contractor to keep the former employees’ terms and conditions of employment, rights, and privileges.",
+      "Applies these rules when the replacement happens under a contract or other arrangement with an airport authority or its service provider."
+    ],
+    "who_it_affects": [
+      "Airport authorities",
+      "Airport service providers",
+      "Airport contractors",
+      "Airport workers",
+      "Trade unions"
+    ],
+    "background": "The bill changes the Canada Labour Code. It adds rules for employers linked to airports when they replace a previous contractor.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-382",
+  "sourceHash": "5015f517aac3e445d5e09a249943e45d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:33.223Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12892748",
+  "summary": {
+    "tldr": "Exempts extra-energy-efficient products from GST and adds a 10% income tax credit for individuals who buy them, up to $1,000 a year.",
+    "what_it_does": [
+      "Creates a GST exemption for supplies of extra-energy-efficient products, including listed appliances, air conditioners, heat pumps, furnaces, water heaters, lighting, electronics and electric motors.",
+      "Creates an income tax credit for individuals who buy extra-energy-efficient products, equal to 10% of the amount paid, up to $1,000 a year.",
+      "Lets the Governor in Council designate products or product classes as extra-energy-efficient by regulation if they beat the current energy-efficiency standard by at least 10% and have less than 50% of the domestic market.",
+      "Requires those regulations to be reviewed at least every five years.",
+      "Lets the Minister fix how the tax credit is split if more than one person can claim it for the same product."
+    ],
+    "who_it_affects": [
+      "Individuals buying eligible products",
+      "Households",
+      "Manufacturers of eligible products",
+      "Retailers of eligible products",
+      "Taxpayers"
+    ],
+    "background": "The bill adds a new \"extra-energy-efficient\" category to the Excise Tax Act and the Income Tax Act. That category would be set by regulation.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "energy-resources"
+    ]
+  }
+}

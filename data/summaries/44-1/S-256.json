@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/S-256",
+  "sourceHash": "5283fbf54bffc3e0fe0c842c4036427a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:43.876Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12085113",
+  "summary": {
+    "tldr": "Expands when mail can be seized or detained under postal law and updates related criminal, drug and cannabis rules.",
+    "what_it_does": [
+      "Creates a new term, \"enforcement statute\", for a federal, provincial or authorised Indigenous law or by-law.",
+      "Allows mail in the postal system to be seized, detained or retained under the Canada Post Corporation Act, its regulations, or an enforcement statute.",
+      "Removes liability from the minister and Canada Post for claims about items affected by a seizure, detention or retention under an enforcement statute.",
+      "Requires written notice to Canada Post within 60 days when mail is seized, retained or detained under the Act or an enforcement statute, unless it has been delivered to the addressee or returned.",
+      "Makes it an offence to open, keep, hide, delay or detain mail bags, mail, or posting receptacles unless the Act, its regulations, or an enforcement statute allows it.",
+      "Presumes, for Criminal Code seizure rules, that the lawful owner of an item seized in the mail is the addressee if they may lawfully possess it, and limits return applications for seized drugs or cannabis mail items to the addressee or Canada Post."
+    ],
+    "who_it_affects": [
+      "Canada Post Corporation",
+      "Mail addressees",
+      "People sending mail",
+      "Police and inspectors",
+      "Provincial governments",
+      "Indigenous governing bodies"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

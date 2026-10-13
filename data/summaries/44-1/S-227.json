@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/S-227",
+  "sourceHash": "2c4540744860cbb8cc7374ba97e9bab3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:06.281Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12424235",
+  "summary": {
+    "tldr": "Sets the Saturday before the first Monday in August as Food Day in Canada each year.",
+    "what_it_does": [
+      "Designates the Saturday before the first Monday in August as “Food Day in Canada” across Canada every year."
+    ],
+    "who_it_affects": [
+      "Canadians",
+      "Food producers",
+      "Food retailers",
+      "Restaurants",
+      "Community groups"
+    ],
+    "background": "The bill adds a new national observance and does not change any other law.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

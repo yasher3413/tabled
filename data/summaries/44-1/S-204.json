@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/S-204",
+  "sourceHash": "3560beb9b8e1e6c4b51973a748120a82",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:06.003Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11474402",
+  "summary": {
+    "tldr": "Prohibits importing goods made wholly or partly in Xinjiang, China, under the Customs Tariff.",
+    "what_it_does": [
+      "Prohibits the importation of goods manufactured or produced wholly or in part in the Xinjiang Uyghur Autonomous Region of China.",
+      "Amends the Customs Tariff to add a new rule on prohibited imports.",
+      "Brings the Act into force on the first anniversary of royal assent."
+    ],
+    "who_it_affects": [
+      "Importers",
+      "Customs brokers",
+      "Canadian businesses that import goods",
+      "Retailers"
+    ],
+    "background": "It amends the Customs Tariff by adding a new section on prohibited imports.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "economy-business"
+    ]
+  }
+}

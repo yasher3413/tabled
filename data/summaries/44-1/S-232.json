@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/S-232",
+  "sourceHash": "d0d38e90592903c15bf97e9dfd5d8d71",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:19.842Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11485813",
+  "summary": {
+    "tldr": "Develops a national strategy to decriminalize illegal substances and repeals federal possession offences under the Controlled Drugs and Substances Act.",
+    "what_it_does": [
+      "Requires the Minister of Health to develop a national strategy for decriminalizing illegal substances.",
+      "Requires the strategy to be built with consultations on health, justice and public safety, including with First Nations, Inuit and Métis people and organizations.",
+      "Says the strategy must consider a possession threshold, a decision maker for that threshold, and an administrative sanctions system that could include warnings, fines or treatment referrals.",
+      "Requires a conference within 180 days after the Act comes into force, then a report to Parliament within two years and an online posting within 10 days.",
+      "Repeals sections 4 and 4.1 of the Controlled Drugs and Substances Act, ending the federal offence of possessing scheduled substances and removing the related emergency-help exemption.",
+      "Updates related definitions and cross-references in the Controlled Drugs and Substances Act, Criminal Code and Proceeds of Crime (Money Laundering) and Terrorist Financing Act."
+    ],
+    "who_it_affects": [
+      "People who use illegal substances",
+      "People with substance use disorder",
+      "First Nations, Inuit and Métis communities",
+      "Health and addictions services",
+      "Police services",
+      "Courts",
+      "Provincial and territorial governments",
+      "Money laundering registrants"
+    ],
+    "background": "The bill amends the Controlled Drugs and Substances Act, including the parts that now make possession of certain scheduled substances an offence.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "crime-justice"
+    ]
+  }
+}

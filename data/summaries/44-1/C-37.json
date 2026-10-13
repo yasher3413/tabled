@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-37",
+  "sourceHash": "43bcf00ca5e88ad69ca465c925be174a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:30.019Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-37",
+  "summary": {
+    "tldr": "Creates a new Employment Insurance Board of Appeal and removes the need to ask leave before appealing some Employment Insurance decisions.",
+    "what_it_does": [
+      "Creates the Employment Insurance Board of Appeal to hear appeals of decisions under the Employment Insurance Act, instead of the Employment Insurance Section of the Social Security Tribunal.",
+      "Eliminates the requirement to get leave to appeal Employment Insurance Act decisions to the Appeal Division of the Tribunal.",
+      "Makes related changes to other Acts."
+    ],
+    "who_it_affects": [
+      "Employment Insurance claimants",
+      "People appealing EI decisions",
+      "Social Security Tribunal",
+      "Employment and Social Development Canada"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-415",
+  "sourceHash": "d5ed02b2b3130a3d04a04bf0ce872c90",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:01.013Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13344584",
+  "summary": {
+    "tldr": "Requires airlines to count flight attendants’ pre- and post-flight duties, mandatory training, and some delay time as paid work at regular wages.",
+    "what_it_does": [
+      "Requires employers to count time flight attendants spend on pre-flight and post-flight duties, including security checks, passenger service, and helping people board and leave the aircraft, when calculating paid hours.",
+      "Requires employers to count time flight attendants spend completing mandatory training programs when calculating paid hours.",
+      "Requires employers to count time flight attendants are at work, at the employer’s call and disposal, including during flight delays, whether or not the delay is within the employer’s control.",
+      "Requires employers to pay flight attendants at least their regular wage rate for this work."
+    ],
+    "who_it_affects": [
+      "Flight attendants",
+      "Airlines",
+      "Federally regulated employers"
+    ],
+    "background": "It adds a new Division I.01 for flight attendants to the Canada Labour Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "transport-infrastructure"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/C-276",
+  "sourceHash": "fb6e04a90f51a33d97a43ec90ccad7a6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:05.667Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14071741",
+  "summary": {
+    "tldr": "Requires the finance minister to create a cash access framework, report on it, and bars the Bank of Canada from issuing a digital dollar.",
+    "what_it_does": [
+      "Requires the Minister of Finance to review laws, rules, and policies on cash access within 90 days of the bill coming into force.",
+      "Requires the minister to develop and implement a framework to keep cash available across Canada.",
+      "Requires the framework to support cash withdrawals and deposits, continued use of cash by people and businesses, cash donations to non-profit and community groups, and long-term cash infrastructure.",
+      "Requires the minister to table a report on the framework within 18 months, then publish it online within 10 days after it has been tabled in both Houses of Parliament.",
+      "Requires a later review of the framework’s implementation, effectiveness, and social and economic impacts within three years after the first report is tabled.",
+      "Repeals the Governor in Council’s power to call in coins and notes, and prohibits the Bank of Canada from issuing a digital form of the dollar."
+    ],
+    "who_it_affects": [
+      "People who use cash",
+      "Businesses",
+      "Financial institutions",
+      "Non-profit organisations",
+      "Community organisations",
+      "Bank of Canada",
+      "Minister of Finance"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-261",
+  "sourceHash": "8ce5de8dcf2827e45ed9df1a55a90ba4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:16.388Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12411729",
+  "summary": {
+    "tldr": "Sets reporting rules and spending limits for non-disclosure agreements in the federal public sector.",
+    "what_it_does": [
+      "Requires the Treasury Board President to table annual reports on how many non-disclosure agreements are used, and the total dollar value of agreements that include them, for federal public sector entities and funded non-government groups.",
+      "Requires those reports to use anonymous data, include information from funded groups, and include a certification that the reported information is accurate.",
+      "Requires Parliament to review the Act two years after it starts, and every two years after that.",
+      "Requires federal grant and contribution powers to be used so public money is not used to pay settlements for harassment, violence or discrimination if the settlement includes a non-disclosure agreement, or to litigate those agreements against complainants.",
+      "Requires departments, Crown corporations and certain parliamentary bodies to use a non-disclosure agreement only if the complainant first gets a chance for independent legal advice and makes a specific, voluntary written request in writing.",
+      "Allows covered non-disclosure agreements to leave room for disclosures required by law, artistic expression that does not identify the people involved, and communications with law enforcement, lawyers, health workers, victim services, and personal supporters."
+    ],
+    "who_it_affects": [
+      "Federal departments",
+      "Crown corporations",
+      "Parliamentary bodies",
+      "Grant and contribution recipients",
+      "Complainants in harassment or discrimination cases",
+      "Treasury Board President",
+      "Members of Parliament and senators"
+    ],
+    "background": "The bill amends the Financial Administration Act and the Parliament of Canada Act. It defines non-disclosure agreements for complaints about harassment, violence or discrimination.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-423",
+  "sourceHash": "a3f0c7ee2dd5b6381f177fecc2503e8c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:55.028Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13510909",
+  "summary": {
+    "tldr": "Amends the National Housing Strategy Act to require federal housing policy to address affordable housing supply, tenant protection, and investor impacts.",
+    "what_it_does": [
+      "Adds language to the National Housing Strategy Act saying adequate housing must be affordable and not treated mainly as a commodity or investment.",
+      "Requires the housing minister to consult provincial and municipal housing leaders, Indigenous organisations, and communities on affordable rentals, rent regulation, and tenants’ rights.",
+      "Requires the strategy to include measures that put tenants, especially vulnerable groups, ahead of residential rental investors and reduce incentives for those investors.",
+      "Creates guidelines to strengthen tenant protections, including rent control, responses to evictions made in bad faith, limits on unfair data-sharing practices, and protections against discrimination in rental housing.",
+      "Requires the minister to report recommendations for changes to federal laws, policies, and programs that would further the housing policy."
+    ],
+    "who_it_affects": [
+      "Tenants",
+      "Low-income households",
+      "Renters in vulnerable groups",
+      "Provincial governments",
+      "Municipal governments",
+      "Indigenous organisations and communities",
+      "Residential property owners",
+      "Civil society organisations"
+    ],
+    "background": "The National Housing Strategy Act already says the national housing strategy should support the progressive realisation of the right to adequate housing. This bill changes its preamble and adds new duties for the minister and the strategy.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "housing",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

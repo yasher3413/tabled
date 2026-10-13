@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/S-229",
+  "sourceHash": "a4ab3d5795e781e2c06d3bca2606c499",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:42.420Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11479882",
+  "summary": {
+    "tldr": "Adds the Lieutenant Governor of New Brunswick to the offices that must be filled by someone who can speak and understand both official languages.",
+    "what_it_does": [
+      "Adds the Lieutenant Governor of New Brunswick, and any other person appointed by the Governor in Council to carry on the province’s government, to the Language Skills Act.",
+      "Requires people appointed to that office to be able to speak and understand both English and French when they are appointed.",
+      "Makes coordinating changes if Bill S-220 also becomes law, so the two bills do not conflict."
+    ],
+    "who_it_affects": [
+      "Lieutenant Governor of New Brunswick",
+      "People appointed to carry on New Brunswick’s government",
+      "Governor in Council appointees"
+    ],
+    "background": "The Language Skills Act already requires people appointed to certain offices to be able to speak and understand both official languages at the time of appointment.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

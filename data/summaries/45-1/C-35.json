@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-35",
+  "sourceHash": "fbeabfbf1847aab3b7374a50fa2e18e6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:07.117Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14183132",
+  "summary": {
+    "tldr": "Bans goods made with forced labour from being imported into Canada and lets the minister target suspect goods for extra checks.",
+    "what_it_does": [
+      "Prohibits importing goods that are made wholly or partly by forced labour.",
+      "Lets the Minister of Foreign Affairs make a list of goods that are suspected of being made by forced labour, and name the producer, country, region, or both.",
+      "Requires importers of listed goods to give the Canada Border Services Agency the required information when a customs officer asks for it.",
+      "Lets customs officers detain goods for up to 90 days, or longer if regulations allow, to decide whether they were made by forced labour.",
+      "Makes the importer and the goods owner responsible for costs tied to detention, storage, transport, or disposal if the goods are imported in violation of the ban.",
+      "Makes related changes to the Customs Tariff and sets different coming-into-force dates for sections 8 and 9."
+    ],
+    "who_it_affects": [
+      "Importers",
+      "Customs officers",
+      "Canada Border Services Agency",
+      "Foreign suppliers",
+      "Goods owners",
+      "Federal ministers"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "government-operations"
+    ]
+  }
+}

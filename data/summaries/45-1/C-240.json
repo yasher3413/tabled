@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/C-240",
+  "sourceHash": "ddcc09cd068394d348bbd643c0be5c00",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:52.598Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13599569",
+  "summary": {
+    "tldr": "Lets courts order offenders to do rehabilitation measures in custody, and requires parole decisions to consider progress on those measures; also adds a sentencing factor for large-scale fentanyl trafficking.",
+    "what_it_does": [
+      "Allows courts to order offenders, along with jail time, to take steps during custody such as job training, approved treatment, writing to victims, or other measures the court sets.",
+      "Requires offenders to make reasonable efforts to complete any court-ordered measures within the time set by the court.",
+      "Requires courts to send the Correctional Service of Canada information about any court-ordered measures.",
+      "Requires correctional plans and program planning to take court-ordered measures into account, and requires parole boards to consider reports on progress with those measures.",
+      "Requires sentencing courts to treat trafficking in fentanyl in quantities that show large-scale trafficking as an aggravating factor."
+    ],
+    "who_it_affects": [
+      "People serving jail sentences",
+      "Sentencing courts",
+      "Correctional Service of Canada",
+      "Parole boards",
+      "People convicted of fentanyl trafficking"
+    ],
+    "background": "The bill adds section 729.2 to the Criminal Code and makes related changes to the Corrections and Conditional Release Act and the Controlled Drugs and Substances Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health"
+    ]
+  }
+}

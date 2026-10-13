@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/C-9",
+  "sourceHash": "fbe40d82830f12ecaa7f43979caa553f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:16.829Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14207886",
+  "summary": {
+    "tldr": "Creates new Criminal Code offences for hate symbols, hate-motivated crimes, and intimidation or obstruction at places of worship or other protected sites.",
+    "what_it_does": [
+      "Creates an offence of wilfully promoting hatred against an identifiable group by displaying certain hate symbols in a public place, including symbols linked to listed terrorist entities, Nazi symbols, and a noose.",
+      "Removes the defence based on opinions about religious subjects or texts for wilful promotion of hatred and antisemitism offences, and clarifies that public-interest statements are not banned unless they wilfully promote hatred or antisemitism.",
+      "Creates a hate crime offence for any federal offence that is motivated by hatred based on race, national or ethnic origin, language, colour, religion, sex, age, disability, sexual orientation, or gender identity or expression.",
+      "Creates offences for intimidating someone to stop access to places used for religious worship or by an identifiable group, and for intentionally blocking or interfering with lawful access to those places or to cemeteries.",
+      "Makes the new intimidation offence a designated offence for bail and wiretap rules, and lets courts treat a lesser included offence as proven when the hate crime charge is not fully proved."
+    ],
+    "who_it_affects": [
+      "People accused of hate propaganda offences",
+      "People accused of hate crimes",
+      "Religious communities",
+      "Identifiable groups",
+      "People using places of worship",
+      "People using cemeteries",
+      "Prosecutors",
+      "Courts"
+    ],
+    "background": "The bill amends the Criminal Code. It changes existing rules on hate propaganda and adds new offences linked to hate and access to certain places.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-222",
+  "sourceHash": "c39a5b2bdefc9dd1ff793d3a601432c2",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:48:01.103Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11507400",
+  "summary": {
+    "tldr": "Lets some tradespersons and indentured apprentices deduct travel costs for certain construction jobs far from home.",
+    "what_it_does": [
+      "Creates a new Income Tax Act deduction for travel costs to and from a construction job site that is at least 80 km from the worker’s ordinary home.",
+      "Limits the deduction to duly qualified tradespersons and indentured apprentices who were required by their employment contract to pay those costs.",
+      "Blocks the deduction if the worker received a non-taxable travel allowance or already claims the same costs under another tax deduction or credit.",
+      "Applies the change to the 2022 tax year and later."
+    ],
+    "who_it_affects": [
+      "Tradespersons",
+      "Indentured apprentices",
+      "Construction workers at remote job sites",
+      "Employers with travel cost terms in contracts"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "labour-employment"
+    ]
+  }
+}

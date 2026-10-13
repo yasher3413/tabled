@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-20",
+  "sourceHash": "eafa99a8df8a015e8befcb9d15039a0d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:17.207Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-20",
+  "summary": {
+    "tldr": "Creates a new complaints and review body for the RCMP and CBSA, and updates related federal laws and references.",
+    "what_it_does": [
+      "Replaces the Civilian Review and Complaints Commission for the RCMP with a new independent body called the Public Complaints and Review Commission.",
+      "Lets the commission review and investigate complaints about the conduct and level of service of RCMP and Canada Border Services Agency personnel.",
+      "Lets the commission review specified activities of the RCMP and the Canada Border Services Agency.",
+      "Allows the commission chairperson to recommend disciplinary steps for people who were the subject of complaints.",
+      "Amends the Canada Border Services Agency Act to cover investigations of serious incidents involving CBSA officers and employees.",
+      "Replaces the word “Force” with “RCMP” in the English versions of federal statutes, orders, regulations and other instruments, and makes related changes to other Acts."
+    ],
+    "who_it_affects": [
+      "Royal Canadian Mounted Police personnel",
+      "Canada Border Services Agency personnel",
+      "People who file complaints",
+      "The Public Complaints and Review Commission",
+      "Federal departments and agencies"
+    ],
+    "background": "The bill would replace the Civilian Review and Complaints Commission for the RCMP with a new independent body. It also makes related amendments to the Canada Border Services Agency Act and other federal laws.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

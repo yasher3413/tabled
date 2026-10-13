@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/S-213",
+  "sourceHash": "8ba5c71827a55cbdb19a38ab736d0113",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:34.624Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13541813",
+  "summary": {
+    "tldr": "Requires some registered parties to publish diversity information and directs the Chief Electoral Officer to collect and report demographic data on election contestants.",
+    "what_it_does": [
+      "Requires certain registered parties, those that met a vote threshold in the most recent general election, to post on their websites their candidate selection rules, diversity policies, women candidate targets, and yearly progress.",
+      "Requires parties with no diversity policy, plan, or related rules to post a statement saying why, and any timeline for adopting them.",
+      "Requires registered parties to post the name and contact information of a person who can receive concerns about these website duties.",
+      "Directs the Chief Electoral Officer to collect voluntary self-identification information from candidates, nomination contestants, and leadership contestants, keep it confidential, and use it only for reporting.",
+      "Requires the Chief Electoral Officer to publish anonymized demographic reports after general elections, by-elections, and leadership contests."
+    ],
+    "who_it_affects": [
+      "Registered political parties",
+      "Election candidates",
+      "Nomination contestants",
+      "Leadership contestants",
+      "Chief Electoral Officer",
+      "Voters"
+    ],
+    "background": "The bill amends the Canada Elections Act. It also adds the Employment Equity Act meaning of “designated groups” to the Canada Elections Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections",
+      "rights-equality"
+    ]
+  }
+}

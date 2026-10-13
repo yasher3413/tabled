@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-254",
+  "sourceHash": "d1f50fd68becdb23347b3d4f0dad7f8e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:40.715Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11566396",
+  "summary": {
+    "tldr": "Vacates a House of Commons seat and triggers a by-election when an MP changes party status in the way set out in the bill.",
+    "what_it_does": [
+      "Deems a House of Commons seat vacant if a member joins a registered party after being elected for another party or as an independent.",
+      "Requires the leader of the new registered party to tell the Speaker in writing, without delay, that the person has joined the party.",
+      "Requires the Speaker to send a warrant to the Chief Electoral Officer so a writ can be issued for a by-election to fill the vacancy.",
+      "Gives the party leader, or the leader of the House if there is no Speaker or the Speaker is absent from Canada, the power to send the warrant directly in those cases."
+    ],
+    "who_it_affects": [
+      "Members of Parliament",
+      "Political party leaders",
+      "House of Commons Speaker",
+      "Chief Electoral Officer",
+      "Voters in the riding"
+    ],
+    "background": "The bill adds a new section, 27.1, to the Parliament of Canada Act about change of political affiliation.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections",
+      "government-operations"
+    ]
+  }
+}

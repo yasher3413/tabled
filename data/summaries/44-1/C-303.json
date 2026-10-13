@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-303",
+  "sourceHash": "5ca2cad1d48262db537f825cc90acef6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:11.108Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12033523",
+  "summary": {
+    "tldr": "Clarifies when the Public Safety Minister can direct the RCMP Commissioner and requires those directions to be written, tabled in Parliament, and published.",
+    "what_it_does": [
+      "Limits ministerial directions to setting RCMP priorities, objectives and policies.",
+      "Bans directions on day to day operations, specific investigations, arrests, prosecutions, and other matters that would interfere with the Commissioner’s control and management powers.",
+      "Requires the Minister to issue every direction in writing.",
+      "Requires the Minister to table each direction in both Houses of Parliament within the first 15 sitting days after it is issued.",
+      "Requires each direction to be published in the Canada Gazette, and says it is not a statutory instrument under the Statutory Instruments Act."
+    ],
+    "who_it_affects": [
+      "RCMP Commissioner",
+      "Royal Canadian Mounted Police",
+      "Minister of Public Safety and Emergency Preparedness",
+      "Members of Parliament"
+    ],
+    "background": "The bill adds a new section to the Royal Canadian Mounted Police Act. It deals with directions the Minister of Public Safety and Emergency Preparedness can issue to the RCMP Commissioner.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

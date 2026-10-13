@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/S-287",
+  "sourceHash": "fccc98554107329ab83e97422b921e30",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:57.620Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13220479",
+  "summary": {
+    "tldr": "Removes the Canada Transportation Act rules that extended railway interswitching in certain areas, along with related rate-setting and reporting provisions.",
+    "what_it_does": [
+      "Repeals the rule that lets the Canadian Transportation Agency order railways to interswitch traffic within 30 km of an interchange.",
+      "Repeals the rule for traffic in Manitoba, Saskatchewan or Alberta within 160 km of an interchange but outside 30 km, including the limits on transfers at that interchange.",
+      "Repeals the Agency’s duties to set, publish and explain the interswitching rate for that 160 km zone.",
+      "Repeals reporting duties for Canadian National Railway Company and Canadian Pacific Railway Company that were tied to the extended interswitching rules.",
+      "Repeals the section that would have automatically ended these interswitching provisions after 18 months."
+    ],
+    "who_it_affects": [
+      "Railway companies",
+      "Canadian National Railway Company",
+      "Canadian Pacific Railway Company",
+      "Rail shippers",
+      "Canadian Transportation Agency",
+      "Transport Minister"
+    ],
+    "background": "The Canada Transportation Act includes special interswitching rules for traffic within 30 km of an interchange. It also had extra rules for certain traffic in Manitoba, Saskatchewan and Alberta within 160 km of an interchange.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure",
+      "economy-business"
+    ]
+  }
+}

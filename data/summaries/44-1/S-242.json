@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/S-242",
+  "sourceHash": "08313b40370bd3c9ed6ca96f97b21697",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:00.215Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12350769",
+  "summary": {
+    "tldr": "Requires certain spectrum licence holders to provide service to at least 50% of the population in their licence area within three years.",
+    "what_it_does": [
+      "Requires holders of licences issued under subparagraph 5(1)(a)(i.1) to deploy the spectrum to provide service to at least 50% of the population in the licence area within three years.",
+      "Requires holders using radio frequencies in a Tier 1 to 4 service area to provide service to at least 50% of the population in any Tier 5 service areas inside the licence area within three years.",
+      "Requires anyone selling one of these licences within three years to make the service condition part of the sale.",
+      "Allows the Minister to revoke a licence for not meeting the service condition, after written notice and a chance to respond.",
+      "Requires the Minister to reissue a revoked or surrendered licence through competitive bidding or another reallocation process within 60 days, and bars the revoked holder and its affiliates from that process."
+    ],
+    "who_it_affects": [
+      "Spectrum licence holders",
+      "Wireless service providers",
+      "Licence buyers",
+      "People in licence areas",
+      "Affiliates of licence holders"
+    ],
+    "background": "The bill adds a new condition for licences issued under subparagraph 5(1)(a)(i.1) of the Radiocommunication Act. It also applies to licences already in force when the bill comes into force.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "economy-business"
+    ]
+  }
+}

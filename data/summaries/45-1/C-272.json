@@ -1,0 +1,30 @@
+{
+  "billId": "45-1/C-272",
+  "sourceHash": "075c9fa951c47a2c3f70b0a561e8c2a8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:38.129Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13992976",
+  "summary": {
+    "tldr": "Stops regulations and exemptions from allowing supervised drug consumption sites within 500 metres of schools, daycares, or playgrounds.",
+    "what_it_does": [
+      "Adds a rule under the Controlled Drugs and Substances Act that regulations and exemptions cannot allow a site for consuming controlled substances or precursors obtained without authorisation under the Act within 500 metres of an elementary or secondary school, daycare centre, or playground.",
+      "Revokes existing exemptions or authorisations, to the extent they apply to a covered site inside that 500 metre zone, when the bill comes into force.",
+      "Treats existing exemptions or authorisations for mobile sites as if they include a condition that services must not be provided within 500 metres of an elementary or secondary school, daycare centre, or playground.",
+      "Starts 180 days after royal assent."
+    ],
+    "who_it_affects": [
+      "Supervised consumption site operators",
+      "Mobile site operators",
+      "People who use those sites",
+      "School and daycare communities"
+    ],
+    "background": "It adds section 54.2 to the Controlled Drugs and Substances Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "crime-justice"
+    ]
+  }
+}

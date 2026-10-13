@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-207",
+  "sourceHash": "77bd4c8c20e7d354ad9046e77271b066",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:48:10.077Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11485411",
+  "summary": {
+    "tldr": "Adds a right to proper housing at a reasonable cost and free of unreasonable barriers to the Canadian Bill of Rights.",
+    "what_it_does": [
+      "Adds to the Canadian Bill of Rights a right to proper housing at a reasonable cost and free of unreasonable barriers.",
+      "Brings the change into force on the first anniversary of royal assent."
+    ],
+    "who_it_affects": [
+      "Individuals in Canada",
+      "People seeking housing",
+      "Federal decision-makers"
+    ],
+    "background": "The bill amends section 1 of the Canadian Bill of Rights by adding a new paragraph on housing rights.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "housing",
+      "rights-equality"
+    ]
+  }
+}

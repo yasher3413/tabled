@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/C-268",
+  "sourceHash": "f1e71e8b79c026841ae47caa3bb8c5c4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:12.763Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11689511",
+  "summary": {
+    "tldr": "Designates November each year as Lebanese Heritage Month across Canada.",
+    "what_it_does": [
+      "Designates the month of November as Lebanese Heritage Month throughout Canada each year.",
+      "Gives the bill a short title, the Lebanese Heritage Month Act."
+    ],
+    "who_it_affects": [
+      "Lebanese Canadians",
+      "Community groups",
+      "Federal institutions"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

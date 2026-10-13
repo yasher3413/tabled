@@ -1,0 +1,29 @@
+{
+  "billId": "45-1/C-232",
+  "sourceHash": "5d1fc2a4f35412c54ec719f84909e1d8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:52:59.387Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13596832",
+  "summary": {
+    "tldr": "Requires certain inmates to be classified and housed as maximum security, and makes them ineligible for unescorted temporary absence.",
+    "what_it_does": [
+      "Requires the Correctional Service to assign a maximum security classification to inmates found to be dangerous offenders or convicted of more than one first degree murder.",
+      "Requires inmates with a maximum security classification to be confined in a penitentiary or area of a penitentiary that is classified as maximum security.",
+      "Makes transfers subject to the new rule that certain inmates must be classified as maximum security.",
+      "Makes maximum security offenders ineligible for an unescorted temporary absence."
+    ],
+    "who_it_affects": [
+      "Dangerous offenders",
+      "People convicted twice of first degree murder",
+      "Maximum security inmates",
+      "Correctional Service"
+    ],
+    "background": "The bill amends the Corrections and Conditional Release Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

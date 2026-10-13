@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-36",
+  "sourceHash": "10a0e0fc5ff0623518c4314a8b7ade6a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:07.772Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14188050",
+  "summary": {
+    "tldr": "Creates a new federal privacy law for commercial data use, replaces Part 1 of PIPEDA, and updates related laws.",
+    "what_it_does": [
+      "Creates rules for personal information collected, used or disclosed in commercial activities, and for employee or applicant information in federally regulated works, undertakings or businesses.",
+      "Requires organizations to appoint a responsible person, keep a privacy management program, limit collection to stated purposes, and usually get valid consent in plain language.",
+      "Allows some uses and disclosures without consent, including transfers to service providers, de-identifying information, certain business transactions, emergencies, law enforcement, legal duties, and publicly available information.",
+      "Requires organizations to protect data, keep it only as long as needed, report serious breaches, notify affected individuals, and respond to access, correction, disposal and data mobility requests.",
+      "Creates the Commission, Commissioner and Division powers to investigate complaints, resolve disputes, audit organizations, issue orders, and approve codes of practice and certification programs.",
+      "Repeals Part 1 of the Personal Information Protection and Electronic Documents Act, renames that Act the Electronic Documents Act, and makes related amendments to other Acts."
+    ],
+    "who_it_affects": [
+      "Businesses that collect personal information",
+      "Service providers",
+      "Consumers and other individuals",
+      "Federally regulated employers",
+      "Privacy regulators",
+      "Organizations with automated decision systems",
+      "Organizations that transfer data outside Canada"
+    ],
+    "background": "The bill says it is meant to protect personal information while taking into account the needs of organizations to collect, use or disclose data in commercial activities. It replaces Part 1 of the existing privacy law for the private sector.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy"
+    ]
+  }
+}

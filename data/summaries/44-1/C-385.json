@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-385",
+  "sourceHash": "4104747a99003b605ef4d4ce3f393b0d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:28.290Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12957538",
+  "summary": {
+    "tldr": "Sets hours-of-service rules for extra-provincial motor carriers and exempts certain livestock and insect trips from those counts near trip endpoints.",
+    "what_it_does": [
+      "Creates daily driving and on-duty limits for drivers of extra-provincial motor carrier undertakings, based on hours set by regulation.",
+      "Requires drivers to take prescribed off-duty hours before driving again after reaching the daily driving or on-duty limit.",
+      "Defines a driver’s day as a 24-hour period that starts at a carrier-designated hour, if that start time is used for at least seven straight days.",
+      "Exempts hours spent within 240 kilometres of the origin or final destination of a trip from service-hour counts when the driver is transporting livestock or insects.",
+      "Gives regulations power to define terms such as driver, on-duty time and off-duty time, and to prescribe other matters under the Act."
+    ],
+    "who_it_affects": [
+      "Extra-provincial motor carriers",
+      "Commercial truck drivers",
+      "Livestock transport drivers",
+      "Insect transport drivers"
+    ],
+    "background": "The bill amends the Motor Vehicle Transport Act and adds new rules under its hours-of-service provisions.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure",
+      "agriculture-food"
+    ]
+  }
+}

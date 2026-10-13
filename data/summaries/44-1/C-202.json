@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-202",
+  "sourceHash": "71dbb47a6dce3b5d81fed3716b23e91d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:48:17.164Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11475449",
+  "summary": {
+    "tldr": "Creates a Criminal Code offence for repeated or continuous controlling or coercive conduct that seriously affects a connected person.",
+    "what_it_does": [
+      "Creates an offence for repeatedly or continuously using controlling or coercive conduct toward a connected person when the conduct has a significant impact on them.",
+      "Defines a significant impact as causing a fear of violence, a decline in physical or mental health, or alarm or distress that seriously affects day-to-day life.",
+      "Defines connected people as current or former spouses, common-law partners or dating partners, people who agreed to marry, household members, relatives, and people who share parental responsibilities for the same child under 18.",
+      "Provides a defence, for conduct said to affect health or daily life, if the accused was acting in the person's best interests and the conduct was reasonable in all the circumstances.",
+      "Sets the penalty at either an indictable offence with up to five years in prison or a summary conviction offence."
+    ],
+    "who_it_affects": [
+      "Spouses and partners",
+      "Household members",
+      "Relatives",
+      "Parents sharing care of a child",
+      "People accused under the Criminal Code"
+    ],
+    "background": "The bill adds new sections after section 264 of the Criminal Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "families-children"
+    ]
+  }
+}

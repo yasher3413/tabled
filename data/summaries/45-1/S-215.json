@@ -1,0 +1,26 @@
+{
+  "billId": "45-1/S-215",
+  "sourceHash": "9794bee7e5ef22acfb39f78ccef8db7d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:49.684Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14167986",
+  "summary": {
+    "tldr": "Designates November as National Immigration Month across Canada each year.",
+    "what_it_does": [
+      "Designates the month of November, throughout Canada, as National Immigration Month.",
+      "Gives the Act the short title National Immigration Month Act."
+    ],
+    "who_it_affects": [
+      "Immigrant communities",
+      "Canadians",
+      "Federal institutions"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

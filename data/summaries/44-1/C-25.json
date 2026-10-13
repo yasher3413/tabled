@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/C-25",
+  "sourceHash": "92516f63af8df204d6ee8a6459fb09ec",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:50.962Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-25",
+  "summary": {
+    "tldr": "Authorizes $8.8 billion for federal public service expenses in 2022-23.",
+    "what_it_does": [
+      "Authorizes $8,795,403,218 to be paid from the Consolidated Revenue Fund for public service expenses not otherwise provided for in the 2022-23 fiscal year."
+    ],
+    "who_it_affects": [
+      "Federal public service",
+      "Government of Canada departments"
+    ],
+    "background": "The bill was introduced in the House of Commons on 7 June 2022 and received Royal Assent on 23 June 2022.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "budget-taxes"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-320",
+  "sourceHash": "98056e27b2ad69583503712748e8bb26",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:49.087Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12929862",
+  "summary": {
+    "tldr": "Requires victim notices about offender release and parole dates to include an explanation of how those dates were determined.",
+    "what_it_does": [
+      "Requires information given to victims about eligibility and review dates for temporary absences and parole to explain how those dates were determined.",
+      "Requires information given to victims about release dates for temporary absence, work release, parole or statutory release to explain how the date was determined.",
+      "Requires the same date explanations for offenders under Part II of the Corrections and Conditional Release Act, including unescorted temporary absences and parole.",
+      "Requires release notices under Part II to explain how dates for unescorted or escorted temporary absence, parole or statutory release were determined.",
+      "Adds coordination rules so these changes work with another law on victims of violent offenders."
+    ],
+    "who_it_affects": [
+      "Victims of offences",
+      "Federally sentenced offenders",
+      "Correctional Service of Canada",
+      "Parole Board of Canada"
+    ],
+    "background": "Existing law already requires certain eligibility, review and release dates to be disclosed to victims. This bill adds an explanation of how those dates are determined.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/S-209",
+  "sourceHash": "f054941179a0cafc24b78a9c1cf90973",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:46.714Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14015416",
+  "summary": {
+    "tldr": "Creates an offence for organizations that make pornographic material available online to people under 18, and lets the government seek court orders to block access.",
+    "what_it_does": [
+      "Creates an offence for any organization that, for commercial purposes, makes pornographic material available on the Internet to a young person. The fine is up to $250,000 for a first offence and up to $500,000 for later offences.",
+      "Allows a designated federal enforcement authority to issue a notice when it has reasonable grounds to believe an organization broke the law. The notice sets out the steps needed to comply and gives the organization 20 days to act.",
+      "Lets the enforcement authority ask the Federal Court for an order requiring Internet service providers to prevent young persons in Canada from accessing the material if the organization does not fix the problem after notice.",
+      "Sets defences for organizations that used a prescribed age-verification or age-estimation method, had a legitimate purpose related to science, medicine, education or the arts, or complied with a notice.",
+      "Allows regulations to set age-verification rules, define when free material is not commercial, and create administrative monetary penalties for failing to follow a notice."
+    ],
+    "who_it_affects": [
+      "Online platforms",
+      "Internet service providers",
+      "Organizations that share pornographic material online",
+      "Young persons under 18",
+      "Federal enforcement authorities"
+    ],
+    "background": "The bill defines pornographic material, young person, and Internet service provider for its purposes. It also lets the Governor in Council designate the minister responsible for the Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "billId": "44-1/C-206",
+  "sourceHash": "a80ccabb7a4bc3f14aa7743347bc0175",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:48:09.195Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11485342",
+  "summary": {
+    "tldr": "Removes the National Defence Act offence of maiming or injuring oneself or another person to become unfit for service.",
+    "what_it_does": [
+      "Repeals the National Defence Act offence of maiming or injuring oneself or another person to render oneself or that other person unfit for service."
+    ],
+    "who_it_affects": [
+      "People subject to the National Defence Act"
+    ],
+    "background": "The bill changes section 98 of the National Defence Act. It removes paragraph (c) from that section.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "defence-security",
+      "crime-justice"
+    ]
+  }
+}

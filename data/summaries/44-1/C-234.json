@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-234",
+  "sourceHash": "a3861513da78a5dbe1d705ed16ca2912",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:15.349Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12318195",
+  "summary": {
+    "tldr": "Changes the Greenhouse Gas Pollution Pricing Act to expand farm equipment exemptions and add marketable natural gas and propane to qualifying farm fuel.",
+    "what_it_does": [
+      "Expands eligible farming machinery to include property used to heat or cool buildings or similar structures used to raise livestock or grow crops.",
+      "Adds marketable natural gas and propane to the definition of qualifying farming fuel.",
+      "Delays some of those changes until the 8th anniversary of the Act coming into force, unless both Houses of Parliament approve a postponement.",
+      "Allows that postponement to be extended again through the same parliamentary process."
+    ],
+    "who_it_affects": [
+      "Farm operators",
+      "Livestock producers",
+      "Crop growers",
+      "Farms using propane",
+      "Farms using natural gas"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "agriculture-food",
+      "environment-climate",
+      "budget-taxes"
+    ]
+  }
+}

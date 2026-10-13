@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/C-262",
+  "sourceHash": "f031f8b3e9a219cb0a5675c1f82936c4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:48.342Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13954238",
+  "summary": {
+    "tldr": "Requires Canada Post to carry beer, wine and spirits across provinces to consumers, with trusted carrier exceptions and new rules for those carriers.",
+    "what_it_does": [
+      "Requires Canada Post to provide postal service for interprovincial delivery of beer, wine and spirits direct to consumers.",
+      "Gives Canada Post the sole right to collect, transmit and deliver those products across provincial lines, except for trusted carriers.",
+      "Allows trusted carriers to handle interprovincial delivery of beer, wine and spirits, and lets the federal cabinet set rules for how they are chosen and monitored.",
+      "Requires the minister to publish and update a public list of trusted carriers, and lets the minister name trusted carriers before regulations are made.",
+      "Sets some changes to start three months after royal assent, and the rest to start one year after royal assent."
+    ],
+    "who_it_affects": [
+      "Canada Post",
+      "Alcohol producers and sellers",
+      "Direct-to-consumer alcohol buyers",
+      "Trusted carriers",
+      "Common carriers",
+      "Federal ministers and cabinet"
+    ],
+    "background": "Canada Post already has the exclusive privilege to collect, transmit and deliver letters, subject to exceptions. This bill adds a separate privilege and service rule for interprovincial direct-to-consumer beer, wine and spirits.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

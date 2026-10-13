@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/S-275",
+  "sourceHash": "4cc80b9fea5fb54022a96776b4bad20d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:38.098Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12573267",
+  "summary": {
+    "tldr": "Updates the Bank of Canada Act to set new monetary policy rules, create a permanent policy committee, and add reporting and review duties.",
+    "what_it_does": [
+      "Replaces the Bank's mandate with a duty to ensure Canada's financial stability and that of Canadian financial institutions, and to promote sustainable and equitable prosperity and the well-being of all Canadians.",
+      "Creates a permanent monetary policy committee with nine members, including the Governor, a deputy governor, one deputy governor for economic analysis, and six external members. The Governor chairs it, and the deputy minister of finance may attend as a non-voting observer.",
+      "Gives the committee power to set the policy rate, adopt the cost-benefit framework, and make sure non-traditional tools fit the mandate. It also changes the securities trading rule so trades must follow committee policy, and the committee must meet at least eight times a year.",
+      "Replaces the objectives of monetary policy with price stability over the medium term and full employment, defined as the maximum sustainable level of employment. It requires the Bank to publish the policy rate, yearly cost-benefit analyses, meeting minutes, vote results, and reasons for rate decisions.",
+      "Requires the committee to assess monetary policy every three years, table a summary in both Houses within 30 days, and trigger a parliamentary review of the Act every five years.",
+      "Requires the deputy minister of finance and the committee to meet four times a year, with a summary published within 10 days. It also requires a five-year agreement with the government on the framework and targets, and keeps a ministerial directive power for unresolved disagreements."
+    ],
+    "who_it_affects": [
+      "Bank of Canada",
+      "Federal government",
+      "Parliament",
+      "Canadian financial institutions",
+      "Households and businesses"
+    ],
+    "background": "The bill amends the Bank of Canada Act. It repeals the Act's preamble and replaces the current government directive section with new rules on monetary policy and review.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "government-operations",
+      "labour-employment"
+    ]
+  }
+}

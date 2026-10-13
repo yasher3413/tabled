@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-395",
+  "sourceHash": "d1c26da38994e3e577a464d03e03365d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:57.491Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13192941",
+  "summary": {
+    "tldr": "Adds public transit workers to the Criminal Code rule that treats assault against them as an aggravating factor at sentencing.",
+    "what_it_does": [
+      "Replaces Criminal Code section 269.01 to require courts to treat assault against a public transit worker as an aggravating factor when sentencing the listed offences.",
+      "Defines public transit to mean passenger transportation service provided to the public, including paratransit and school bus services."
+    ],
+    "who_it_affects": [
+      "Public transit workers",
+      "People charged with assault",
+      "Courts"
+    ],
+    "background": "The bill replaces section 269.01 of the Criminal Code. It expands the aggravating circumstance from public transit operators to all public transit workers.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "transport-infrastructure"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-373",
+  "sourceHash": "3684acc4af54dfd610f4f7ca71abd6cc",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:46.243Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12857577",
+  "summary": {
+    "tldr": "Removes a Criminal Code defence for wilful promotion of hatred or antisemitism when the person says they were arguing a religious opinion in good faith.",
+    "what_it_does": [
+      "Repeals the Criminal Code defence that lets a person avoid liability for wilful promotion of hatred if they said they were giving a good faith opinion on a religious subject.",
+      "Repeals the Criminal Code defence that lets a person avoid liability for wilful promotion of antisemitism if they said they were giving a good faith opinion based on a religious text.",
+      "Sets the bill to come into force 30 days after royal assent."
+    ],
+    "who_it_affects": [
+      "People charged with hate promotion offences",
+      "People accused of antisemitism offences",
+      "Courts"
+    ],
+    "background": "The bill changes section 319 of the Criminal Code. It removes two specific defences from that section.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

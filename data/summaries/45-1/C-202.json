@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-202",
+  "sourceHash": "a69a834b55dbb0485d0b4da90c501352",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:33.217Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13577949",
+  "summary": {
+    "tldr": "Bars the foreign affairs minister from making trade commitments that raise import quotas or lower tariffs on dairy, poultry, and eggs.",
+    "what_it_does": [
+      "Adds a rule to the Department of Foreign Affairs, Trade and Development Act that limits what the Minister can promise in international trade deals.",
+      "Stops the Minister from agreeing to raise the tariff rate quota, an import limit, for dairy products, poultry, or eggs.",
+      "Stops the Minister from agreeing to lower the tariff on those goods when imports go over the quota."
+    ],
+    "who_it_affects": [
+      "Dairy producers",
+      "Poultry producers",
+      "Egg producers",
+      "Supply-managed farmers",
+      "Federal trade negotiators",
+      "Importers of dairy, poultry and eggs"
+    ],
+    "background": "The bill changes section 10 of the Department of Foreign Affairs, Trade and Development Act. It adds limits on trade commitments for certain supply-managed goods.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "agriculture-food"
+    ]
+  }
+}

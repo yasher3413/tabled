@@ -1,0 +1,24 @@
+{
+  "billId": "44-1/C-28",
+  "sourceHash": "bcf30bd4c173beb2833608ea8163d8d6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:56.490Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-28",
+  "summary": {
+    "tldr": "Amends the Criminal Code to create criminal liability for some violent crimes committed during negligent self-induced intoxication.",
+    "what_it_does": [
+      "Amends the Criminal Code to provide for criminal liability for violent crimes of general intent committed by a person while in a state of negligent self-induced intoxication."
+    ],
+    "who_it_affects": [
+      "People accused of violent crimes",
+      "Courts and prosecutors"
+    ],
+    "background": "The Minister of Justice introduced Bill C-28 in the House of Commons on 17 June 2022, and it received first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

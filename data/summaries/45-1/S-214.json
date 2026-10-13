@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/S-214",
+  "sourceHash": "740bf4f4997dea8bfe7e0f3d14cba1d8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:01.508Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14119054",
+  "summary": {
+    "tldr": "Lets the federal cabinet forfeit certain foreign state assets seized under sanctions rules, even when no court order was used.",
+    "what_it_does": [
+      "Adds a new power for the Governor in Council to order that property owned, held, or controlled by a foreign state be forfeited to Canada if it was seized under an order made under paragraph 4(1)(b).",
+      "Blocks the existing forfeiture rule in section 5.4 from being used for property owned, held, or controlled by a foreign state.",
+      "Allows the Minister to pay money from the Proceeds Account, after consulting the finance and foreign affairs ministers, from the net proceeds of property forfeited under section 5.4 or new section 5.41.",
+      "Lets the RCMP help the Minister with orders, seizures, forfeiture applications, and the new foreign state forfeiture order, and share information for that purpose.",
+      "Makes the owner of property liable for costs tied to seizure, restraint, or disposal of forfeited property."
+    ],
+    "who_it_affects": [
+      "Foreign states",
+      "Owners of seized property",
+      "Federal ministers",
+      "Royal Canadian Mounted Police",
+      "People involved in sanctions enforcement"
+    ],
+    "background": "The bill amends the Special Economic Measures Act. That Act already deals with orders for seizure or restraint of property and with forfeiture and disposal of forfeited property.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "government-operations"
+    ]
+  }
+}

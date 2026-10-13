@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/C-208",
+  "sourceHash": "4fef8a7db2502790eb2d85285cce28e4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:41.022Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13557121",
+  "summary": {
+    "tldr": "Recognizes the livestock brand shown in the bill as Canada’s national livestock brand.",
+    "what_it_does": [
+      "Recognizes and declares the livestock brand in the schedule as the national livestock brand of Canada."
+    ],
+    "who_it_affects": [
+      "Livestock producers",
+      "Western and frontier heritage groups",
+      "Canadians interested in national symbols"
+    ],
+    "background": "The bill says the brand is a symbol of Canada and of western and frontier heritage.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

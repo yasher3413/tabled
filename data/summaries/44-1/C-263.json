@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-263",
+  "sourceHash": "41b4538aad4b9c2ea5715756e6325de3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:27.090Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11665165",
+  "summary": {
+    "tldr": "Creates a new commissioner to monitor and investigate Canadian business conduct abroad and report on compliance with international human rights law.",
+    "what_it_does": [
+      "Creates the Office of the Commissioner for Responsible Business Conduct Abroad and gives the commissioner a five-year term, staff, and deputy head powers.",
+      "Applies to Canadian entities that operate abroad, import goods made abroad, provide services abroad, or control those entities.",
+      "Lets any person complain about the international human rights impact of an entity’s business activities abroad, and lets complainants ask for their identity to stay secret.",
+      "Authorizes the commissioner to investigate on a complaint or on their own initiative, if there are reasonable grounds to think an entity may not respect international human rights law.",
+      "Requires the commissioner to publish reports with findings and may recommend compensation, apologies, policy changes, and federal steps such as withdrawing trade advocacy support or Export Development Canada support.",
+      "Creates offences for obstructing an investigation or giving false or misleading information, with fines of up to $250,000; also requires annual reports, special reports, and a five-year parliamentary review."
+    ],
+    "who_it_affects": [
+      "Canadian entities operating abroad",
+      "Importers of foreign-made goods",
+      "Canadian businesses with overseas services",
+      "People filing complaints",
+      "Foreign Affairs and trade agencies",
+      "Export Development Canada"
+    ],
+    "background": "The bill would replace the current Canadian Ombudsperson for Responsible Enterprise role with a new commissioner. The person holding that office when the change starts would stay in office until the end of their term.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "trade-foreign-affairs",
+      "government-operations"
+    ]
+  }
+}

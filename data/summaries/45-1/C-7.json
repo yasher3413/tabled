@@ -1,0 +1,27 @@
+{
+  "billId": "45-1/C-7",
+  "sourceHash": "3f5ccb1f41016116d037210465b8f275",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:01.174Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-7",
+  "summary": {
+    "tldr": "Authorizes $8.58 billion for federal public service spending in 2025-26.",
+    "what_it_does": [
+      "Authorizes $8,580,271,678 to be paid from the Consolidated Revenue Fund for federal public service expenses in 2025-26 that are not otherwise provided for.",
+      "Makes the appropriation effective on Royal Assent."
+    ],
+    "who_it_affects": [
+      "Public service of Canada",
+      "Federal government departments",
+      "Treasury Board"
+    ],
+    "background": "This is an appropriation bill for the financial year ending March 31, 2026.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "budget-taxes"
+    ]
+  }
+}

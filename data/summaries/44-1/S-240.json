@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/S-240",
+  "sourceHash": "cbf188956dd6659f679aac6f596e29a2",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:37.895Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11643385",
+  "summary": {
+    "tldr": "Updates the Old Age Security Act so one program payment is deducted from income.",
+    "what_it_does": [
+      "Replaces the reference in the Old Age Security Act’s income definition with the payment under the program in section 276 of the Budget Implementation Act, 2021, No. 1.",
+      "Keeps that payment out of a person’s income for Old Age Security calculations, if it was included in income for the year."
+    ],
+    "who_it_affects": [
+      "Old Age Security recipients",
+      "Seniors",
+      "People receiving program payments"
+    ],
+    "background": "The Old Age Security Act defines income by starting with income under the Income Tax Act, then subtracting certain amounts.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "seniors-veterans",
+      "budget-taxes"
+    ]
+  }
+}

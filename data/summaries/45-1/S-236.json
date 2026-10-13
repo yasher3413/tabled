@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/S-236",
+  "sourceHash": "5c474b1a730c9ca848a82710baf95c91",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:29.734Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13619778",
+  "summary": {
+    "tldr": "Expands some victim rights under the Canadian Victims Bill of Rights and sets out a federal plan for training, complaints and implementation.",
+    "what_it_does": [
+      "Changes several information rights so victims would get certain information without having to ask for it, instead of only on request.",
+      "Adds a right to access legal, social, medical and psychological services that fit a victim’s needs and circumstances.",
+      "Adds a right to reparations, including access to restorative justice programs and to have the court consider a restitution order.",
+      "Adds a right for victims who get restitution orders to get help entering and enforcing those orders.",
+      "States that the Act cannot be applied to take away victims’ rights to access to justice and procedural fairness in the criminal justice system.",
+      "Requires the Minister of Justice to develop victim-rights training, create an implementation framework, table a report in Parliament, and publish it online."
+    ],
+    "who_it_affects": [
+      "Victims of crime",
+      "Federal justice employees",
+      "Provincial justice employees",
+      "Courts",
+      "Parole authorities",
+      "Federal Ombudsperson for Victims of Crime",
+      "Provincial justice departments"
+    ],
+    "background": "The bill amends the Canadian Victims Bill of Rights and adds a framework for putting those rights into practice.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations",
+      "rights-equality"
+    ]
+  }
+}

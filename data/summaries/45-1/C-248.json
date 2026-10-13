@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/C-248",
+  "sourceHash": "e49ddc16acb7139dcd61acb7facf275f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:27.982Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13632138",
+  "summary": {
+    "tldr": "Requires the federal minister to hold a pan-Canadian conference on time change and publish a report on it.",
+    "what_it_does": [
+      "Requires the Minister to hold a pan-Canadian conference on time change within one year after the Act comes into force.",
+      "Requires the conference to cover economic issues, scientific studies on the effects of time change on health, safety and productivity, and whether Canada could use a more uniform approach.",
+      "Requires the Minister to invite provincial governments, Indigenous governing bodies, and other stakeholders, including health scientists and representatives from municipal government and public safety, agriculture, education, early childhood care and eldercare sectors.",
+      "Requires the Minister to prepare and publish an online report within six months after the conference, with the information and recommendations from the discussions.",
+      "Allows the Governor in Council to designate a member of the King’s Privy Council for Canada as the Minister for this Act."
+    ],
+    "who_it_affects": [
+      "Provincial governments",
+      "Indigenous governing bodies",
+      "Health scientists",
+      "Municipal governments",
+      "Public safety groups",
+      "Agriculture sector",
+      "Education sector",
+      "Child care and eldercare providers"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "health",
+      "economy-business"
+    ]
+  }
+}

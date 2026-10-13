@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-50",
+  "sourceHash": "aeaa8ee608772a749db253221c6cff80",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:29.339Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-50",
+  "summary": {
+    "tldr": "Creates a federal framework for sustainable jobs, with a council, action plans and regular reviews to support the shift to a net-zero economy.",
+    "what_it_does": [
+      "Lets the Governor in Council name a minister, and other specified ministers, to carry out the Act.",
+      "Creates a Sustainable Jobs Partnership Council to give independent advice through social dialogue on measures for job creation and support for workers, communities and regions.",
+      "Requires a Sustainable Jobs Action Plan to be tabled in both Houses of Parliament every five years.",
+      "Creates a Sustainable Jobs Secretariat to help carry out the Act.",
+      "Requires a review of the Act within 10 years after it comes into force, and every 10 years after that."
+    ],
+    "who_it_affects": [
+      "Workers",
+      "Communities and regions",
+      "Federal ministers",
+      "Parliament",
+      "Sustainable Jobs Partnership Council",
+      "Sustainable Jobs Secretariat"
+    ],
+    "background": "The bill was introduced in the House of Commons on 15 June 2023 and received first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

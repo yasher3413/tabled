@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/C-39",
+  "sourceHash": "4ed0bc3c5d497a391ed7e4cd1caee53c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:30:54.701Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-39",
+  "summary": {
+    "tldr": "Changes project reviews, transport and port rules, digital trade, and federal labour laws to speed several approval and enforcement processes.",
+    "what_it_does": [
+      "Changes the Impact Assessment Act so some designated projects are assessed by the Nuclear Safety Commission, federal authorizations can be granted with the decision statement, and some decisions must be issued within one year.",
+      "Expands the Building Canada Act to cover certain projects in regions of national interest, and lets the Governor in Council add a region to a new schedule if it is in the national interest.",
+      "Changes the Canadian Energy Regulator Act so decisions on pipelines, designated power lines and offshore renewable energy projects are due within one year, with coordinated Indigenous consultations and federal authorizations.",
+      "Updates environmental and resource laws, including the Canadian Navigable Waters Act, Canadian Environmental Protection Act, Species at Risk Act and Fisheries Act, to add new compliance powers, feasibility tests, habitat credit rules and fee options.",
+      "Creates new supply chain and trade measures, including a transportation project office, trade corridor oversight, port and marine rule changes, emergency shipping exceptions, and rules for electronic trade documents.",
+      "Changes federal labour and wage rules, including collective bargaining timelines, first agreement rules, special mediators, stronger settlement enforcement, a medical leave carve-out, and Wage Earner Protection Program decisions."
+    ],
+    "who_it_affects": [
+      "Project proponents",
+      "Indigenous groups",
+      "Transportation companies",
+      "Port authorities",
+      "Railways",
+      "Employers under federal labour law",
+      "Workers covered by the Canada Labour Code",
+      "Importers and exporters"
+    ],
+    "background": "The bill amends several existing federal laws, including the Impact Assessment Act, Canada Transportation Act, Canada Labour Code and others.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "transport-infrastructure",
+      "labour-employment"
+    ]
+  }
+}

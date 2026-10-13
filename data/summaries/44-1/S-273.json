@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-273",
+  "sourceHash": "4afcce0ad05830c95c95eb91e2028c1f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:13.226Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13189576",
+  "summary": {
+    "tldr": "Declares the Chignecto Isthmus Dykeland System and related works to be works for the general advantage of Canada.",
+    "what_it_does": [
+      "Declares the Chignecto Isthmus Dykeland System and related works to be works for the general advantage of Canada.",
+      "Gives the Minister responsibility for administering the Act and for matters tied to the dykeland system and related works.",
+      "Lets the Minister of Public Works and Government Services make agreements with any person about the design, construction, or operation of the system or related works.",
+      "Lets the Minister make related agreements with Nova Scotia, New Brunswick, municipalities, and provincial agencies to carry out the Act.",
+      "Allows the Governor in Council, in an emergency, to exempt a person from federal permit, licence, approval, or other authorisation rules for construction, if needed to prevent environmental damage or protect public health or safety.",
+      "Says the Act must be read as upholding Aboriginal and treaty rights under section 35 of the Constitution Act, 1982."
+    ],
+    "who_it_affects": [
+      "Federal ministers",
+      "Nova Scotia government",
+      "New Brunswick government",
+      "Municipalities and agencies",
+      "Construction and engineering firms",
+      "Indigenous peoples"
+    ],
+    "background": "The bill covers dyke systems for water management in the Nova Scotia and New Brunswick parts of the Chignecto Isthmus trade corridor. It defines related works to include water level control structures, steel sheet pile walls, and other work needed to build, maintain, or operate them.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure",
+      "government-operations",
+      "indigenous-peoples"
+    ]
+  }
+}

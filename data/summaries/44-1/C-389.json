@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-389",
+  "sourceHash": "1d11b6f24b1a05d768c5c9ba75fb7ef8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:56.039Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13072874",
+  "summary": {
+    "tldr": "This bill adds automated external defibrillators and related parts to the list of supplies taxed at 0% under the Excise Tax Act.",
+    "what_it_does": [
+      "Adds automated external defibrillators to the list of zero-rated supplies under the Excise Tax Act.",
+      "Adds kits that contain an automated external defibrillator to that zero-rated list.",
+      "Adds pads and accessories designed for use with an automated external defibrillator to that zero-rated list."
+    ],
+    "who_it_affects": [
+      "Sellers of automated external defibrillators",
+      "Buyers of defibrillators and related kits",
+      "Health and safety organizations"
+    ],
+    "background": "The bill amends Schedule VI of the Excise Tax Act, which lists supplies that are zero-rated.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "health"
+    ]
+  }
+}

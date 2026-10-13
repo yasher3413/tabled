@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-261",
+  "sourceHash": "d82f2988c8b65b6037aa0cbb254cf3e2",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:39.977Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13896618",
+  "summary": {
+    "tldr": "Raises the full Old Age Security pension, increases the income exemption for the guaranteed income supplement, and changes related pension calculation rules.",
+    "what_it_does": [
+      "Raises the full monthly Old Age Security pension to $808.45 for the payment quarter starting July 1, 2025.",
+      "Raises the amount of employment income and self-employed earnings that is ignored when calculating the guaranteed income supplement from $5,000 to $6,500, for benefits payable after June 2025.",
+      "Sets the increase for people who apply for a partial monthly pension after becoming eligible at 0.6% for each month until their application is approved.",
+      "Updates Old Age Security formulas that use the full monthly pension amount, including a rule that rounds one calculated amount up to the next multiple of four dollars."
+    ],
+    "who_it_affects": [
+      "Seniors age 65 or older",
+      "Old Age Security pensioners",
+      "Guaranteed income supplement recipients",
+      "People with employment or self-employment income",
+      "People delaying an OAS pension"
+    ],
+    "background": "The bill amends the Old Age Security Act. It changes the rules for the full pension, the guaranteed income supplement, and some related calculation formulas.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "seniors-veterans",
+      "budget-taxes"
+    ]
+  }
+}

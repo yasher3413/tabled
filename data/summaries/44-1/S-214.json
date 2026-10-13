@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/S-214",
+  "sourceHash": "f2c078075461a4c623b3f299b26e5f1c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:10.528Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12375519",
+  "summary": {
+    "tldr": "Designates February 21 as International Mother Language Day across Canada and says it is not a legal holiday.",
+    "what_it_does": [
+      "Designates the 21st day of February each year as International Mother Language Day throughout Canada.",
+      "States that International Mother Language Day is not a legal holiday or a non-juridical day.",
+      "Adds a short title for the Act, the International Mother Language Day Act."
+    ],
+    "who_it_affects": [
+      "Canadians who observe the day",
+      "Schools and public institutions",
+      "Governments"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-215",
+  "sourceHash": "778f68e8767ebc642b6f23d78361f7c6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:29.431Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11504278",
+  "summary": {
+    "tldr": "Raises the maximum EI benefit period for illness, injury or quarantine from 15 weeks to 52 weeks.",
+    "what_it_does": [
+      "Replaces the Employment Insurance Act limit so benefits for a prescribed illness, injury or quarantine can be paid for up to 52 weeks.",
+      "Updates a related provision of the Act to match the new 52-week limit.",
+      "Adjusts timing rules with the Budget Implementation Act, 2021, No. 1 if both laws come into force around the same time."
+    ],
+    "who_it_affects": [
+      "Employment Insurance claimants",
+      "Workers who are ill or injured",
+      "People who are quarantined"
+    ],
+    "background": "The Employment Insurance Act now allows benefits because of illness, injury or quarantine for up to 15 weeks. This bill would change that limit to 52 weeks.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "health"
+    ]
+  }
+}

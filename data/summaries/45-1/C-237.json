@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/C-237",
+  "sourceHash": "a760d3b98e2c784625248db515ee143b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:49.766Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13599431",
+  "summary": {
+    "tldr": "Changes the Fisheries Act for Atlantic groundfish, including harmonised recreational close times, more reporting, and a new catch monitoring system.",
+    "what_it_does": [
+      "Requires regulations to harmonise close times across Atlantic provinces for recreational groundfish fishing, and says those close times can be set only for a species’ spawning period.",
+      "Requires close times and fishing quotas fixed or changed by certain orders or regulations to be posted on the Department of Fisheries and Oceans website at least two months before they take effect.",
+      "Requires the Minister of Fisheries and Oceans to table an annual report on the administration and enforcement of the Fisheries Act.",
+      "Adds a reporting rule that can require each person to record the number of fish caught each day and the total caught during an open season.",
+      "Requires the minister to develop, within one year, a monitoring system that records, by species, how many fish are caught, when they are caught, and where they are caught.",
+      "Requires the minister, when building the monitoring system, to look at existing models, consider using fees and penalties to cover costs, and identify ways to encourage timely reporting, including lower fees."
+    ],
+    "who_it_affects": [
+      "Recreational groundfish fishers",
+      "Atlantic fishers",
+      "Fisheries and Oceans Canada",
+      "Minister of Fisheries and Oceans",
+      "People required to keep catch records"
+    ],
+    "background": "The bill amends the Fisheries Act. It focuses on management of Atlantic groundfish fisheries and recreational fishing close times across Atlantic provinces.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "environment-climate"
+    ]
+  }
+}

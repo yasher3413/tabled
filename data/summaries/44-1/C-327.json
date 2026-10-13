@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-327",
+  "sourceHash": "4b8a715640840bd84ed07e0138565ed3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:39.281Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12289433",
+  "summary": {
+    "tldr": "Sets new air passenger compensation rules, defines extraordinary circumstances, and raises fines and penalties under the Canada Transportation Act.",
+    "what_it_does": [
+      "Requires the Canadian Transportation Agency to make rules that force airlines to pay minimum compensation for delays, cancellations, or denied boarding not caused by extraordinary circumstances.",
+      "Defines \"extraordinary circumstances\" and excludes airline or third-party acts, crew shortages, known problems at the time of sale, and most maintenance or safety issues.",
+      "Requires airlines to prove the cause of a delay, cancellation, or denied boarding on a balance of probabilities.",
+      "Requires airlines to refund unused services, using the original payment method, if a passenger chooses not to travel.",
+      "Raises maximum summary conviction fines to $50,000 for individuals and $250,000 for corporations, and sets the same maximums for administrative monetary penalties.",
+      "Extends the time limit to start proceedings for offences and violations to three years after the issue arose."
+    ],
+    "who_it_affects": [
+      "Air passengers",
+      "Airlines",
+      "The Canadian Transportation Agency",
+      "Passengers with cancelled or delayed flights",
+      "Passengers denied boarding"
+    ],
+    "background": "The bill amends the Canada Transportation Act and the air passenger protection rules in that Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure",
+      "government-operations",
+      "rights-equality"
+    ]
+  }
+}

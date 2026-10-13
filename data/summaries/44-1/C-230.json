@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-230",
+  "sourceHash": "b568fc415609bab865a583e75bf65203",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:26.982Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11545055",
+  "summary": {
+    "tldr": "Adds Criminal Code offences for intimidating health care professionals to take part in medical assistance in dying, or for hiring or firing them only for refusing.",
+    "what_it_does": [
+      "Creates a Criminal Code offence for using coercion or other intimidation to compel a medical practitioner, nurse practitioner, pharmacist, or other health care professional to take part, directly or indirectly, in medical assistance in dying.",
+      "Makes it an offence to refuse to employ a medical practitioner, nurse practitioner, pharmacist, or other health care professional for the reason only that they refuse to take part, directly or indirectly, in medical assistance in dying.",
+      "Makes it an offence to dismiss a medical practitioner, nurse practitioner, pharmacist, or other health care professional for the reason only that they refuse to take part, directly or indirectly, in medical assistance in dying."
+    ],
+    "who_it_affects": [
+      "Medical practitioners",
+      "Nurse practitioners",
+      "Pharmacists",
+      "Other health care professionals",
+      "Employers"
+    ],
+    "background": "The bill would add section 241.21 to the Criminal Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/S-231",
+  "sourceHash": "fe24943ecfc69fd71d1170949bae6ab5",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:18.163Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13559572",
+  "summary": {
+    "tldr": "Changes Criminal Code rules for medical assistance in dying, adding ways to waive final consent in some cases if capacity is later lost.",
+    "what_it_does": [
+      "Lets a person whose natural death is not reasonably foreseeable make a written arrangement for MAID on a specified day, if they are told they may lose capacity before then and consent to MAID if that happens.",
+      "Lets a person with a serious and incurable illness, disease or disability make a written declaration waiving final consent if they later lose capacity, have the symptoms named in the declaration, and meet the other Criminal Code safeguards.",
+      "Requires the declaration to be made after diagnosis, within five years of being made, witnessed by two independent witnesses, and certified by a medical practitioner.",
+      "Stops MAID under these waiver rules if the person shows, by words, sounds or gestures, that they refuse the substance or resist its administration."
+    ],
+    "who_it_affects": [
+      "People seeking MAID",
+      "People without foreseeable natural death",
+      "People with serious incurable illness",
+      "Medical practitioners",
+      "Nurse practitioners"
+    ],
+    "background": "The bill amends Criminal Code rules on medical assistance in dying, including safeguards and final consent.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "crime-justice"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/C-271",
+  "sourceHash": "2e98bdbeff8de9c6b50a6375af2ccf63",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:44.675Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13970628",
+  "summary": {
+    "tldr": "Creates Criminal Code offences for trafficking crime-linked scrap metal and for mischief involving essential infrastructure components.",
+    "what_it_does": [
+      "Replaces the Criminal Code definition of \"traffic\" for these offences, so it covers selling, giving, transferring, transporting, exporting, importing, sending, delivering, dealing with in another way, or offering to do those acts.",
+      "Creates an offence for trafficking in, or possessing for trafficking, scrap metal knowing it was obtained by or from a federal or Criminal Code offence.",
+      "Sets penalties for that scrap metal offence, with higher fines for a second or later offence, and allows either indictable or summary conviction proceedings.",
+      "Requires courts to treat scrap metal taken from public or private infrastructure, especially systems tied to public safety or critical services, as an aggravating circumstance at sentencing.",
+      "Creates an offence for mischief involving a physical part of essential infrastructure when a person knows, or is aware of a risk, that the infrastructure cannot function without the part, and sets penalties for that offence.",
+      "Requires courts to treat service interruptions, danger to public life, health or safety, and mischief done to help another offence as aggravating circumstances for that infrastructure offence."
+    ],
+    "who_it_affects": [
+      "Scrap metal dealers",
+      "People who traffic stolen metal",
+      "People charged with mischief",
+      "Owners and operators of essential infrastructure",
+      "Public safety and utility systems"
+    ],
+    "background": "The bill amends the Criminal Code to create offences related to scrap metal trafficking and mischief in relation to essential infrastructure.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "transport-infrastructure"
+    ]
+  }
+}

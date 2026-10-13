@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-47",
+  "sourceHash": "e0dc7f2872ccabcb29f4415b3b27cf88",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:24.492Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12560452",
+  "summary": {
+    "tldr": "Implements budget measures by changing tax, reporting, banking, customs, crime and payment rules across several federal laws.",
+    "what_it_does": [
+      "Changes many income tax rules for employer cars, tool deductions, interest income, principal residences, retirement and savings plans, veterans and military benefits, charity return access, and CRA electronic notices and filing.",
+      "Creates new reporting and penalty rules for reportable transactions, notifiable transactions, and uncertain tax treatments, and requires electronic payment for some federal amounts over $10,000.",
+      "Adds reporting rules for digital platform operators, including seller identification, annual reports, record keeping, and anti-avoidance rules.",
+      "Changes GST/HST and excise rules, including cryptoasset mining, financial services, pension entities, alcohol adjustment factors, and air travellers security charge rates.",
+      "Updates financial and enforcement laws, creating one bank complaints body, expanding the Financial Consumer Agency's role, adding variable life benefits and payments, and giving police new powers to seize digital assets.",
+      "Changes customs tariff rules, removes preferential treatment for Belarus and Russia, adjusts how Bank of Canada surpluses are handled, and funds the Canada Innovation Corporation."
+    ],
+    "who_it_affects": [
+      "Taxpayers",
+      "Digital platform sellers",
+      "Banks and bank customers",
+      "Cryptoasset businesses",
+      "Importers and exporters",
+      "Air travellers",
+      "Pension plan members",
+      "Charities"
+    ],
+    "background": "The bill implements certain measures from the federal budget tabled on March 28, 2023. It amends many federal laws, including tax, banking, customs and criminal law.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations",
+      "economy-business"
+    ]
+  }
+}

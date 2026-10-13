@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/S-251",
+  "sourceHash": "bf6393fbfc4f0df5a13ffd88e4227c63",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:37.588Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11884137",
+  "summary": {
+    "tldr": "Repeals the Criminal Code rule that allows parents, teachers and caregivers to use reasonable force to correct a child.",
+    "what_it_does": [
+      "Repeals section 43 of the Criminal Code, which now says schoolteachers, parents and people standing in the place of a parent may use reasonable force by way of correction toward a child or pupil.",
+      "Casts off the legal defence that section 43 gives for that kind of force.",
+      "Comes into force on the 30th day after royal assent."
+    ],
+    "who_it_affects": [
+      "Parents",
+      "Schoolteachers",
+      "Caregivers",
+      "Children and pupils",
+      "Courts and police"
+    ],
+    "background": "The bill says it responds to the Truth and Reconciliation Commission of Canada’s call to action number 6. Section 43 of the Criminal Code now sets out a defence for reasonable force used by way of correction.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "families-children",
+      "indigenous-peoples"
+    ]
+  }
+}

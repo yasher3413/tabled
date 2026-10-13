@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/C-251",
+  "sourceHash": "fe1a3c7118b46b5260d79d4d16fbe536",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:24.321Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13678906",
+  "summary": {
+    "tldr": "Requires customs officers to detain some imports and creates a presumption that goods from certain countries or entities were made with forced or child labour.",
+    "what_it_does": [
+      "Requires customs officers to detain certain goods until they are satisfied the goods are not prohibited imports under the Customs Tariff.",
+      "Creates a presumption that goods mined, manufactured, or produced in whole or in part in a designated country, area, or by a listed entity were made with forced labour or child labour.",
+      "Allows an importer to rebut that presumption by showing supply chain monitoring, supply management measures, prescribed certification or information, and due diligence.",
+      "Lets the Governor in Council designate countries or areas of concern, and establish a list of entities linked to forced labour or child labour.",
+      "Lets the Minister of Public Safety and Emergency Preparedness update or remove names on the entity list and requires a review of each listing every five years."
+    ],
+    "who_it_affects": [
+      "Importers",
+      "Customs officers",
+      "Canadian businesses that import goods",
+      "Entities placed on the list",
+      "Suppliers in designated countries or areas"
+    ],
+    "background": "The bill amends the Customs Act and the Customs Tariff.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "economy-business"
+    ]
+  }
+}

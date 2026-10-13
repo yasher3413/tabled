@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/C-30",
+  "sourceHash": "d3e414e95333527396422b0962ab8450",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:01.816Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-30",
+  "summary": {
+    "tldr": "Implements spring economic update measures on taxes, fuel excise, employment insurance, pensions, and several regulatory rules.",
+    "what_it_does": [
+      "Modifies the Labour Mobility Deduction for eligible tradespeople by raising the annual deductible expense limit and lowering the distance test.",
+      "Makes the employee ownership trust capital gains tax exemption permanent, extends the Home Buyers’ Plan repayment grace period, and adds temporary immediate expensing for eligible greenhouse buildings.",
+      "Sets excise tax on gasoline, aviation gasoline, diesel fuel, and aviation fuel at $0.00 from April 20, 2026 to September 7, 2026.",
+      "Extends the 2% cap on alcohol excise duty inflation increases and the 50% excise duty reduction for the first 15,000 hectolitres of Canadian beer for two more years.",
+      "Extends extra employment insurance weeks for certain seasonal workers until October 7, 2028, moves regional eligibility rules into regulations, and repeals one EI paragraph on November 7, 2027.",
+      "Reduces Canada Pension Plan contribution rates for employees, employers, and self-employed people for 2027 and later years, and changes rules for foreign banks, the Bank of Canada, Canadian Payments Association liability, transport information sharing, CFIA powers, and pest control product registrations."
+    ],
+    "who_it_affects": [
+      "Tradespeople",
+      "Home buyers",
+      "Employee ownership trusts and worker co-operatives",
+      "Greenhouse operators",
+      "Fuel suppliers and airlines",
+      "Seasonal workers",
+      "Employees, employers and self-employed people",
+      "Foreign banks"
+    ],
+    "background": "Implements certain measures from the spring economic update tabled on April 28, 2026.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "labour-employment",
+      "economy-business"
+    ]
+  }
+}

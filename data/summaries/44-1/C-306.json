@@ -1,0 +1,24 @@
+{
+  "billId": "44-1/C-306",
+  "sourceHash": "77f8c073b48dc64e529437766d3e94a0",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:01.488Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12068385",
+  "summary": {
+    "tldr": "Designates November 19 each year as National Women’s Entrepreneurship Day across Canada.",
+    "what_it_does": [
+      "Creates National Women’s Entrepreneurship Day by naming November 19 each year as that day throughout Canada."
+    ],
+    "who_it_affects": [
+      "Women entrepreneurs",
+      "Canadians"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

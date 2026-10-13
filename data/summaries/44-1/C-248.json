@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-248",
+  "sourceHash": "316941b9314f167d2d19bda696f2d2b6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:12.676Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12368371",
+  "summary": {
+    "tldr": "Adds Ojibway National Urban Park of Canada to the Canada National Parks Act and sets out its Ontario land boundaries.",
+    "what_it_does": [
+      "Creates Ojibway National Urban Park of Canada by adding it to Part 5 of Schedule 1 of the Canada National Parks Act.",
+      "Defines the park as seven parcels of land in Ontario, in and around Windsor.",
+      "Sets out the exact boundary lines for each parcel using coordinates based on NAD83.",
+      "States the parcels cover about 323.4 hectares in total."
+    ],
+    "who_it_affects": [
+      "Government of Canada",
+      "City of Windsor",
+      "People in Windsor",
+      "Local land users"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "government-operations"
+    ]
+  }
+}

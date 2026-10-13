@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/C-236",
+  "sourceHash": "698f641a1fdb63856ed4fdff5384f404",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:28.601Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13599388",
+  "summary": {
+    "tldr": "Adds refusal to tell authorities where a victim’s body or remains are as a sentencing and parole factor in death-related offences.",
+    "what_it_does": [
+      "Requires courts to treat an offender’s refusal to give authorities the location of a body or remains as an aggravating factor when sentencing for an offence related to a death.",
+      "Requires courts to give reasons if they find that aggravating factor but do not use it in sentencing.",
+      "Allows courts to delay full parole eligibility to half the sentence or 10 years, whichever is less, for some offenders who refuse to provide that information, unless usual parole rules would set a different period.",
+      "Adds any such court order, and other relevant information, to the factors the Parole Board of Canada and parole boards must consider.",
+      "Allows the Parole Board of Canada, provincial parole boards, and designated authorities under the Prisons and Reformatories Act to refuse parole or temporary absences in these cases."
+    ],
+    "who_it_affects": [
+      "People convicted of death-related offences",
+      "Homicide victims’ families",
+      "Courts",
+      "Parole Board of Canada",
+      "Provincial parole boards",
+      "Correctional authorities",
+      "Prisoners seeking temporary absence"
+    ],
+    "background": "The bill applies when a person is convicted of an offence in relation to the death of a person and has information about the location of the body or remains, but refuses to tell persons in authority.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

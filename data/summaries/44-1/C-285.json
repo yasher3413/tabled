@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-285",
+  "sourceHash": "3f83fd3eb577facd7816186d667125e9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:52.118Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11881664",
+  "summary": {
+    "tldr": "Adds medical history and conscientious belief to human rights protections, limits reprisals at work for certain health decisions, and protects EI benefits in those cases.",
+    "what_it_does": [
+      "Adds conscientious belief and medical history to the Canadian Human Rights Act’s list of prohibited grounds of discrimination.",
+      "Sets a rule for transportation services, saying denial or other adverse treatment based on medical history is only reasonable if accommodating the person would cause undue hardship, considering health, safety and cost.",
+      "Bars federally regulated employers from taking reprisals against employees for certain health decisions, including vaccine choices, and requires accommodation when set conditions are met.",
+      "Requires employers, when considering accommodation for an unvaccinated worker, to consider medical evidence of protection from prior COVID-19 infection if the prescribed conditions are met.",
+      "Lets Employment Insurance claimants keep benefits if they lost their job solely because of certain health decisions."
+    ],
+    "who_it_affects": [
+      "People with medical histories",
+      "People with conscientious beliefs",
+      "Federally regulated employees",
+      "Federally regulated employers",
+      "Transportation service providers",
+      "Employment Insurance claimants"
+    ],
+    "background": "It amends the Canadian Human Rights Act, the Canada Labour Code and the Employment Insurance Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "labour-employment",
+      "health"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-64",
+  "sourceHash": "343c6ce631c64dbe93013d6e1736798b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:18.031Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-64",
+  "summary": {
+    "tldr": "Sets rules and powers for the Health Minister to help implement national pharmacare, including payments for some prescription drugs and planning for bulk buying.",
+    "what_it_does": [
+      "Sets out principles the Health Minister must consider when working toward national universal pharmacare.",
+      "Gives the minister power to make payments, in some cases, for coverage of certain prescription drugs and related products.",
+      "Requires the minister to prepare a list to help develop a national formulary, which is a national list of covered drugs.",
+      "Requires the minister to develop a national bulk purchasing strategy for prescription drugs and related products.",
+      "Requires the minister to publish a pan-Canadian strategy on the appropriate use of prescription drugs and related products.",
+      "Creates a committee of experts to make recommendations."
+    ],
+    "who_it_affects": [
+      "People who use prescription drugs",
+      "People who need related products",
+      "The federal Health Minister",
+      "Experts on the committee"
+    ],
+    "background": "The bill is about working toward the implementation of national universal pharmacare. It was introduced on 29 February 2024 and given first reading in the House of Commons.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

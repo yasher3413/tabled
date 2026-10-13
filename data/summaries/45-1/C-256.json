@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/C-256",
+  "sourceHash": "933712ec8f4fe4978c273d6e80b26e6b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:20.563Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13735886",
+  "summary": {
+    "tldr": "Lets survivors receive federal pension benefits even if the relationship started after age 60 or after retirement.",
+    "what_it_does": [
+      "Lets survivors receive pension benefits under several federal plans even when the marriage or conjugal relationship began after age 60 or after retirement.",
+      "Changes survivor rules for MPs, former MPs, prime ministers and former prime ministers so the survivor must have been married immediately before death or lived in a conjugal relationship for at least one year before death.",
+      "Repeals options in several federal pension laws that let some contributors, judges and MPs reduce their own pensions or allowances, and treats past reduction choices as revoked.",
+      "Raises child allowances in the Canadian Forces, Public Service and RCMP plans when there is no eligible survivor, the survivor is dead, or the survivor cannot receive an allowance.",
+      "Requires survivors to receive variable benefits or payments from defined contribution accounts, and keeps joint and survivor pension benefits when a member has a spouse or common-law partner at the time payments start or later."
+    ],
+    "who_it_affects": [
+      "Surviving spouses and common-law partners",
+      "Members of Parliament",
+      "Prime ministers and former prime ministers",
+      "Canadian Forces members",
+      "Public servants",
+      "RCMP members",
+      "Judges",
+      "Pension plan members"
+    ],
+    "background": "The bill amends seven federal pension and retirement laws, plus rules for some private pension plans. The drafters say it removes a limit tied to marriage or cohabitation after age 60 or after retirement.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "labour-employment",
+      "seniors-veterans"
+    ]
+  }
+}

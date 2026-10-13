@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/S-14",
+  "sourceHash": "1213b1b383dbdf31d99411146fadf6e2",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:23.048Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/S-14",
+  "summary": {
+    "tldr": "Amends federal parks laws to expand protected areas, create new park sites, rename one park reserve, and update rules on discharges and fishing.",
+    "what_it_does": [
+      "Broadens and clarifies offences for discharging or depositing substances in national parks, national park reserves, and Rouge National Urban Park.",
+      "Expands the boundaries of seven national parks and one national park reserve.",
+      "Creates the Akami-Uapishk? KakKasuak Mealy Mountains National Park Reserve of Canada and sets out rules for its operation and administration.",
+      "Renames Gwaii Haanas National Park Reserve of Canada to Gwaii Haanas National Park Reserve and Haida Heritage Site.",
+      "Establishes the Tallurutiup Imanga National Marine Conservation Area.",
+      "Makes related changes to the National Parks of Canada Fishing Regulations."
+    ],
+    "who_it_affects": [
+      "National park visitors",
+      "National park reserve users",
+      "Visitors to Rouge National Urban Park",
+      "Fishers in national parks",
+      "Parks Canada",
+      "People in affected park areas"
+    ],
+    "background": "The bill amends the Canada National Parks Act, the Canada National Marine Conservation Areas Act, the Rouge National Urban Park Act, and the National Parks of Canada Fishing Regulations.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "indigenous-peoples"
+    ]
+  }
+}

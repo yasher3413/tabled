@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-257",
+  "sourceHash": "3025ecf305599f769801c1eb15d21d27",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:06.714Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13744985",
+  "summary": {
+    "tldr": "Creates a Criminal Code offence for wilfully promoting a terrorist activity or terrorist group, with a maximum penalty of five years.",
+    "what_it_does": [
+      "Creates an indictable offence for anyone who, by communicating statements, wilfully promotes a terrorist activity, a terrorist group, or any activity of a terrorist group.",
+      "Sets the maximum penalty for this offence at five years in prison.",
+      "Says the offence can apply even if the statements do not specifically mention a terrorist activity or do not actually encourage anyone to take part.",
+      "Gives defences if the statements were true, were made in good faith on a religious subject, were on a matter of public interest believed to be true, or were made in good faith to point out material for removal.",
+      "Requires any sentence for this offence, other than life imprisonment, to be served after the sentences for the listed terrorism offences.",
+      "Adds the new offence to Criminal Code definitions used for terrorism offences and for section 183."
+    ],
+    "who_it_affects": [
+      "People who communicate statements",
+      "People charged with terrorism offences",
+      "Courts",
+      "Prosecutors"
+    ],
+    "background": "The bill amends the Criminal Code. It adds a new section 83.171 and changes related definitions and sentencing rules.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

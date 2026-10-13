@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-221",
+  "sourceHash": "487a099767c32335f51d5fd4636bd330",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:48:03.272Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11507346",
+  "summary": {
+    "tldr": "Allows some survivors to receive federal pension benefits even if the marriage or common-law relationship started after age 60 or after retirement.",
+    "what_it_does": [
+      "Allows survivors under several federal pension laws to receive benefits after the member dies, even if the marriage or conjugal relationship began after the person turned 60 or retired.",
+      "Repeals provisions in the Canadian Forces, judges, MPs, public service, and RCMP pension laws that reduced or blocked survivor benefit options in some cases.",
+      "Updates the definition of “survivor” for MPs’ pensions so it means a spouse immediately before death or a common-law partner who lived with the member for at least one year before death.",
+      "Changes child allowance rules in the Canadian Forces, Public Service, and RCMP pension laws, including higher amounts when there is no eligible survivor.",
+      "Updates federal pension plan rules so survivors can receive benefits from defined contribution accounts and joint-and-survivor pensions, and it revokes earlier elections to reduce some pensions."
+    ],
+    "who_it_affects": [
+      "Surviving spouses and partners",
+      "Canadian Forces pensioners",
+      "Federal public servants",
+      "Judges",
+      "Members of Parliament",
+      "RCMP members",
+      "Members of pension plans",
+      "Employers with pension plans"
+    ],
+    "background": "The bill amends several federal pension laws and pension plan rules about survivor benefits.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "government-operations"
+    ]
+  }
+}

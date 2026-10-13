@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-267",
+  "sourceHash": "ae4575469ea6c18da845d5184cc4d1a4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:20.689Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11674312",
+  "summary": {
+    "tldr": "Removes excise duty from beer and malt liquor with 0.5% alcohol or less.",
+    "what_it_does": [
+      "Sets the excise duty on beer or malt liquor with 0.5% absolute ethyl alcohol by volume or less at $0 per hectolitre.",
+      "Keeps a separate Excise Act schedule item for beer or malt liquor with more than 0.5% and up to 1.2% absolute ethyl alcohol by volume."
+    ],
+    "who_it_affects": [
+      "Producers of non-alcoholic beer",
+      "Breweries",
+      "Malt liquor producers",
+      "Beer consumers"
+    ],
+    "background": "The bill changes the excise duty schedule in the Excise Act for beer and malt liquor.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "economy-business"
+    ]
+  }
+}

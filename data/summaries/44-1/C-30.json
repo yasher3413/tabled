@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/C-30",
+  "sourceHash": "6fbb893863d685f21e110335bd0aebb2",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:40.894Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-30",
+  "summary": {
+    "tldr": "Temporarily doubles the GST/HST credit for six months, raising the maximum annual credit amounts for the 2022-2023 benefit year.",
+    "what_it_does": [
+      "Amends the Income Tax Act to temporarily double the Goods and Services Tax/Harmonized Sales Tax (GST/HST) credit for six months.",
+      "Raises the maximum annual GST/HST credit amounts by 50% for the 2022-2023 benefit year."
+    ],
+    "who_it_affects": [
+      "GST/HST credit recipients",
+      "Tax filers eligible for the GST/HST credit"
+    ],
+    "background": "The bill was introduced in the House of Commons on 20 September 2022 and was given first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes"
+    ]
+  }
+}

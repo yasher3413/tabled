@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-239",
+  "sourceHash": "a7d6e9dc681541c232d626eec5217e63",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:14.488Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13599527",
+  "summary": {
+    "tldr": "Requires provinces to set and publish health care accountability frameworks to qualify for full Canada Health Transfer cash contributions.",
+    "what_it_does": [
+      "Requires provinces to develop and implement an accountability framework for health services to qualify for a full cash contribution under the Canada Health Transfer.",
+      "Requires the framework to set benchmarks for timely access to primary care, elective procedures and emergency care.",
+      "Requires the framework to include public reporting on whether the benchmarks are met and on the efficiency of health care spending.",
+      "Requires provinces to publish the framework and an annual report on a publicly available website, and to review and update the benchmarks over time.",
+      "Allows the federal government to reduce or withhold cash contributions if a province does not meet the new accountability requirements, and to restore them if the problem continues."
+    ],
+    "who_it_affects": [
+      "Provincial governments",
+      "Provincial health ministries",
+      "People using insured health services",
+      "Federal health officials"
+    ],
+    "background": "The bill amends the Canada Health Act. It ties a province’s full cash contribution to new accountability rules for health service delivery.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

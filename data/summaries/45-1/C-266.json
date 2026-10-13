@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/C-266",
+  "sourceHash": "5f023da26314a7072c3c471b437fc1ad",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:47.919Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13962596",
+  "summary": {
+    "tldr": "Requires the federal minister to develop a national framework to align skilled trades certification and make it easier to move across provinces.",
+    "what_it_does": [
+      "Requires the Minister of Employment and Social Development to develop a national framework that reduces barriers for skilled trades workers by modernising, streamlining and harmonising certification and credentials across Canada.",
+      "Requires at least nine months of consultations with provinces, trades regulators, employers, unions, apprenticeship groups, Indigenous bodies, and training and education institutions.",
+      "Requires the framework to list skilled trades across Canada and compare provincial standards and credentials to map where they match.",
+      "Requires measures to harmonise standards, cut duplicate steps, streamline recognition from one province to another, support updated certification for new technologies and trades, and promote public awareness of skilled trades.",
+      "Requires the Minister to table a report within one year, then annual progress reports, and publish each report online.",
+      "Requires a parliamentary review within five years, with a report that may recommend changes to the framework."
+    ],
+    "who_it_affects": [
+      "Skilled trades workers",
+      "Provincial governments",
+      "Trades regulators",
+      "Employers",
+      "Labour unions",
+      "Apprenticeship organisations",
+      "Training institutions",
+      "Indigenous governing bodies"
+    ],
+    "background": "The bill defines a skilled trade as a trade that is certified or regulated by a province, including trades with Red Seal or Blue Seal credentials. It gives the Minister of Employment and Social Development responsibility for the framework.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "government-operations"
+    ]
+  }
+}

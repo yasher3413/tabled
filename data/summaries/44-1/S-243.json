@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/S-243",
+  "sourceHash": "0249f3934ddf1f6fe79ccb854b762b12",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:51.210Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11652198",
+  "summary": {
+    "tldr": "Requires many federally regulated entities to align their plans, reports and governance with climate commitments, and adds climate risk rules for financial institutions.",
+    "what_it_does": [
+      "Enacts the Climate-Aligned Finance Act, which defines climate commitments to include the UN climate treaty, the Paris Agreement, Canada’s net-zero law and 1.5°C-aligned emissions cuts.",
+      "Requires reporting entities to publish annual public climate alignment reports with targets, plans, emissions data, progress, and information on climate-related lobbying and involved directors and officers.",
+      "Requires entities to set climate targets for 2025, 2030, 2035, 2040, 2045 and 2050, and limits the use of offsets and future carbon-removal technologies in plans.",
+      "Adds extra reporting duties for federal financial institutions, including counting financed emissions, setting portfolio and sector targets, and describing how they engage with clients to reduce emissions-intensive activity.",
+      "Directs the Superintendent of Financial Institutions to publish capital and funding guidelines that account for climate risk, including higher risk weights for fossil fuel exposures.",
+      "Requires climate expertise on several federal boards, bars some appointments and gifts tied to organisations not aligned with climate commitments, and creates a duty for directors and officers to act to align their entity with those commitments."
+    ],
+    "who_it_affects": [
+      "Reporting entities",
+      "Federal financial institutions",
+      "Banks and insurers",
+      "Pension plans",
+      "Crown corporations",
+      "Federal board members",
+      "Directors and officers",
+      "Federal regulators"
+    ],
+    "background": "Part 1 enacts the Climate-Aligned Finance Act. Later parts add reporting, capital, appointment and action-plan rules for federally regulated entities.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

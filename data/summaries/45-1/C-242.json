@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/C-242",
+  "sourceHash": "91fa509dde50f0bf3b735d8d61ca80c3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:33.116Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13599597",
+  "summary": {
+    "tldr": "Changes bail and release rules for some violent offences, adds stricter detention rules in repeat cases, and requires an annual report on judicial interim release.",
+    "what_it_does": [
+      "Replaces the main release principle with public protection, and tells police, justices and judges to give public safety primary weight when deciding release.",
+      "Adds more violent offences to reverse-onus bail rules, creates a new category of “major offence”, and blocks police from releasing someone arrested for a major offence.",
+      "Requires a superior court judge to decide release in some repeat major-offence cases, and orders detention if the person was already on release for another major offence and had a major offence conviction in the past 10 years.",
+      "Ends interim release when a person is convicted of an indictable offence while awaiting sentence, and bars people convicted of an indictable offence in the past 10 years from acting as a surety.",
+      "Requires release decisions to consider whether the accused is a Canadian citizen or permanent resident and, if not, whether they may leave Canada, and makes passport surrender mandatory for some non-resident accused.",
+      "Requires the Minister of Justice to table a yearly report on judicial interim release, including release outcomes, compliance, recidivism, public-attention incidents, effectiveness of conditions, and disparities between groups."
+    ],
+    "who_it_affects": [
+      "People charged with violent offences",
+      "People on bail or release",
+      "Repeat offenders",
+      "Sureties",
+      "Non-citizens and non-permanent residents",
+      "Police, justices and judges",
+      "Victims and witnesses",
+      "Minister of Justice"
+    ],
+    "background": "The bill amends the Criminal Code rules on judicial interim release and the Department of Justice Act. It adds a yearly reporting duty on the state of judicial interim release in Canada.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations",
+      "immigration-citizenship"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "billId": "44-1/C-304",
+  "sourceHash": "6fe437bfea2544028a9695eddc24521e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:03.538Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12041027",
+  "summary": {
+    "tldr": "Designates October 20 each year as National Food Waste Awareness Day across Canada.",
+    "what_it_does": [
+      "Designates the 20th day of October in each year as \"National Food Waste Awareness Day\" throughout Canada."
+    ],
+    "who_it_affects": [
+      "People in Canada"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

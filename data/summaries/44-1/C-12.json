@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-12",
+  "sourceHash": "672ac9ac69d370c6543659a9499712e1",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:16.918Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-12",
+  "summary": {
+    "tldr": "Excludes certain pandemic benefit payments from income when calculating the guaranteed income supplement and allowances after June 2022.",
+    "what_it_does": [
+      "Excludes certain payments from a person’s income when calculating the guaranteed income supplement and allowances payable for any month after June 2022.",
+      "Applies this rule to payments under the Canada Emergency Response Benefit Act, Part VIII.4 of the Employment Insurance Act, the Canada Recovery Benefits Act, and the Canada Worker Lockdown Benefit Act."
+    ],
+    "who_it_affects": [
+      "Low-income seniors",
+      "Guaranteed income supplement recipients",
+      "Allowance recipients",
+      "People who received pandemic benefits"
+    ],
+    "background": "The bill amends the Old Age Security Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "seniors-veterans"
+    ]
+  }
+}

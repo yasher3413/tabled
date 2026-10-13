@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-56",
+  "sourceHash": "71ffc815159394d3260aa79433b39c5b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:22.317Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12817490",
+  "summary": {
+    "tldr": "Changes the GST rebate for new rental housing and updates Competition Act rules on market inquiries and anti-competitive conduct.",
+    "what_it_does": [
+      "Expands the GST New Residential Rental Property Rebate for qualifying purpose-built rental housing started after September 13, 2023, and completed before 2036.",
+      "Changes how the rebate is calculated for qualifying purpose-built rental housing, including rules for condominium units and other units.",
+      "Adjusts rebate rules for public service bodies so tax used in this rental-housing rebate is not counted again under section 259.",
+      "Creates a process for the Competition Commissioner or the minister to start an inquiry into competition in a market or industry, with public comment on draft terms of reference and a report deadline.",
+      "Adds excessive and unfair selling prices to the abuse-of-dominance rules, allows stronger Tribunal orders, and raises possible administrative monetary penalties.",
+      "Removes the efficiency-gains exceptions in sections 90.1 and 96, and lets the Tribunal act on some agreements even when the parties are not competitors."
+    ],
+    "who_it_affects": [
+      "Purpose-built rental housing builders",
+      "Public service bodies",
+      "Businesses in affected markets",
+      "Dominant firms",
+      "Companies in anti-competitive agreements",
+      "Competition Bureau",
+      "Competition Tribunal"
+    ],
+    "background": "The bill amends the Excise Tax Act and the Competition Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "housing",
+      "budget-taxes",
+      "economy-business"
+    ]
+  }
+}

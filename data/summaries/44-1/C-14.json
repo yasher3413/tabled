@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-14",
+  "sourceHash": "e3267f820d850faa8f6560e537954101",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:43.314Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-14",
+  "summary": {
+    "tldr": "Changes the Constitution Act, 1867 so no province can have fewer House of Commons seats than it had in the 43rd Parliament.",
+    "what_it_does": [
+      "Amends section 51 of the Constitution Act, 1867 so, when House of Commons seats are readjusted after each decennial census, no province gets fewer members than it had in the 43rd Parliament.",
+      "Applies that rule to the readjustment of electoral boundaries after the 2021 decennial census through transitional measures under the Electoral Boundaries Readjustment Act."
+    ],
+    "who_it_affects": [
+      "Provincial representation in the House of Commons",
+      "Electoral boundary readjustments",
+      "Members of Parliament",
+      "Provincial voters"
+    ],
+    "background": "The bill was introduced on 24 March 2022 and received first reading in the House of Commons. It amends section 51 of the Constitution Act, 1867 and includes transitional measures for the 2021 census readjustment.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/S-209",
+  "sourceHash": "31359e7af9f8d7e578499bad5168b8bf",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:04.349Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13052171",
+  "summary": {
+    "tldr": "Designates March 11 each year as Pandemic Observance Day across Canada.",
+    "what_it_does": [
+      "Designates March 11 in each year as “Pandemic Observance Day” throughout Canada.",
+      "Sets the short title as the Pandemic Day Act."
+    ],
+    "who_it_affects": [
+      "All Canadians",
+      "Federal institutions"
+    ],
+    "background": "The bill says March 11 is to be known each year as Pandemic Observance Day throughout Canada.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

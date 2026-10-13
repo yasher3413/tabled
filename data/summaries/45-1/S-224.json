@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/S-224",
+  "sourceHash": "92691366c1a0efbc8eed2306b404f0a9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:14.998Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13545943",
+  "summary": {
+    "tldr": "Gives the Director of Public Prosecutions responsibility to prosecute some offences under First Nation laws, unless the First Nation has its own prosecutor or an agreement in place.",
+    "what_it_does": [
+      "Adds definitions of “First Nation” and “First Nation law” to the Director of Public Prosecutions Act, including certain bands, land management First Nations, and self-government First Nations.",
+      "Requires the Director of Public Prosecutions to start and conduct prosecutions for summary conviction offences under First Nation laws, plus related appeals and other proceedings, on behalf of the First Nation.",
+      "Creates an exception where the Director does not act if the First Nation has appointed or kept a prosecutor, or has an agreement with a provincial or territorial government for those prosecutions.",
+      "Updates the Act’s definition of “prosecution” to account for these First Nation law cases."
+    ],
+    "who_it_affects": [
+      "First Nations",
+      "First Nation governments",
+      "Director of Public Prosecutions",
+      "Provincial and territorial governments",
+      "Prosecutors"
+    ],
+    "background": "The bill amends the Director of Public Prosecutions Act. It adds new rules for prosecutions under First Nation laws.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

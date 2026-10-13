@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-268",
+  "sourceHash": "000dcbb2a7f1ea27abefe5fb285d0c80",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:35.450Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12551633",
+  "summary": {
+    "tldr": "Lets First Nation governments run and licence lottery schemes on their reserves, and lets band councils make related by-laws.",
+    "what_it_does": [
+      "Gives First Nation governing bodies authority to conduct and manage lottery schemes on their reserves, and to licence other people or organisations to do so, after they give written notice to Canada and the province or provinces involved.",
+      "Lets First Nation governing bodies set the terms and conditions of lottery licences issued on reserve, either directly or through a person or authority they name.",
+      "Adds rules for lotteries on reserves run by charitable or religious groups, fair or exhibition boards, and operators of concession stands, including a $500 prize limit and a $2 limit for some amusement lotteries.",
+      "Allows provinces and First Nations to agree to sell lottery tickets across provincial borders or onto reserves, and allows licence holders to run lottery schemes already authorised in another province or on another reserve.",
+      "States that, for section 207, a First Nation reserve is deemed not to be part of the province from the notice date set out in the bill.",
+      "Lets band councils make by-laws to regulate lottery schemes permitted on the reserve under section 207 of the Criminal Code."
+    ],
+    "who_it_affects": [
+      "First Nation governments",
+      "Band councils",
+      "Indigenous self-government bodies",
+      "Charitable and religious organizations",
+      "Fair and exhibition boards",
+      "Lottery licence holders",
+      "Provincial governments"
+    ],
+    "background": "Section 207 of the Criminal Code already allows some lottery schemes. The bill adds First Nation authority to that section and gives band councils a matching by-law power in the Indian Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "crime-justice"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/S-234",
+  "sourceHash": "e35d05264170eda22917b75e1edd378e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:45.422Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11507702",
+  "summary": {
+    "tldr": "Bans exporting certain plastic waste to foreign countries for final disposal and makes breaking the ban an offence.",
+    "what_it_does": [
+      "Defines “plastic waste” as any plastic type listed in new Schedule 7 of the Canadian Environmental Protection Act, 1999.",
+      "Prohibits exporting plastic waste to foreign countries for final disposal.",
+      "Allows the Governor in Council, on the Minister’s recommendation, to add or remove plastic types from Schedule 7 by order.",
+      "Makes contravening the new export ban an offence under the Act.",
+      "Brings the changes into force 12 months after royal assent."
+    ],
+    "who_it_affects": [
+      "Plastic waste exporters",
+      "Waste management companies",
+      "Plastic recyclers",
+      "Businesses that ship waste abroad"
+    ],
+    "background": "The bill amends the Canadian Environmental Protection Act, 1999.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "trade-foreign-affairs"
+    ]
+  }
+}

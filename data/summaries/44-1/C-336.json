@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-336",
+  "sourceHash": "bec8e256d9aaab61dbd1ce33e7463639",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:58.876Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12498319",
+  "summary": {
+    "tldr": "Lets courts order some sex offenders to report for 30 years, adds move reporting rules, and creates an offence for missing required reports.",
+    "what_it_does": [
+      "Allows a court, on the prosecutor’s request, to order a person likely to reoffend to keep following sex offender reporting rules for 30 years.",
+      "Requires a person under that 30-year order to finish a province-approved sex offender treatment program before asking to end the order after 20 years.",
+      "Lets the prosecutor or the person appeal a court decision on one of these orders on a question of law or mixed law and fact.",
+      "Requires sex offenders to report to a registration centre every 6 to 7 months after their last report.",
+      "Requires a sex offender who plans to change their main residence to report to the proper registration centre within 7 days before the move and give the new address or location and date.",
+      "Creates an offence, punishable on summary conviction, for failing without reasonable excuse to report as required."
+    ],
+    "who_it_affects": [
+      "Sex offenders on the registry",
+      "People likely to reoffend",
+      "Courts",
+      "Prosecutors",
+      "Police services",
+      "Provincial treatment programs"
+    ],
+    "background": "It amends the Criminal Code and the Sex Offender Information Registration Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

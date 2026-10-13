@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-227",
+  "sourceHash": "c9c22dc1f6e2b3df3b1a1ed87a9997be",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:40.774Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13592752",
+  "summary": {
+    "tldr": "Requires the government to develop and report on a national housing strategy for Canadians aged 17 to 34.",
+    "what_it_does": [
+      "Requires the Minister to develop a national strategy on housing for young Canadians after consulting provinces, territories, housing groups, municipalities, young Canadians and other stakeholders.",
+      "Requires the strategy to assess housing affordability and availability for young Canadians, including rental housing, student housing and entry-level home ownership.",
+      "Requires the strategy to include measures to improve access to affordable and secure rental housing, support first-time home buyers, and encourage more rental, student, co-operative and affordable housing.",
+      "Requires the strategy to consider existing federal, provincial, territorial and municipal housing plans and to identify ways to reduce barriers for young Canadians.",
+      "Requires the Minister to hold at least one conference during the strategy’s development, table the strategy report within 18 months, and table a follow-up report on its effectiveness within four years."
+    ],
+    "who_it_affects": [
+      "Young Canadians aged 17 to 34",
+      "Renters",
+      "First-time home buyers",
+      "Students looking for housing",
+      "Housing organisations",
+      "Municipal governments",
+      "Provincial and territorial governments"
+    ],
+    "background": "The bill defines a young Canadian as a person in Canada who is at least 17 years old but less than 35 years old. It also requires the Minister to be designated by the Governor in Council.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "housing",
+      "government-operations"
+    ]
+  }
+}

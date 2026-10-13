@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/S-243",
+  "sourceHash": "1b99231284e742ffea5954e2fb8605c2",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:25.452Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13822773",
+  "summary": {
+    "tldr": "Requires the Health Minister to develop a national framework to improve women’s health, with consultations, conferences and reports to Parliament.",
+    "what_it_does": [
+      "Requires the Minister of Health to develop a national framework on women’s health, after consulting other ministers, provincial and territorial health officials, Indigenous peoples, and other stakeholders.",
+      "Says the framework must address health research, innovation, commercial use of research, private sector collaboration, training for health workers, primary care, prevention and better access to care.",
+      "Requires the framework to include ways to improve access for women in rural and remote communities, equity-deserving groups, 2SLGBTQI+ and Indigenous women, visible minority women, and women without steady care.",
+      "Requires the Minister to hold at least one conference to help develop the framework, then another conference at least every three years to get input on its progress and results.",
+      "Requires the Minister to try to keep women’s health on the agenda at federal, provincial and territorial health ministers’ meetings.",
+      "Requires a report on the framework’s priorities and plan within one year, and a follow-up report on its effectiveness within five years, with both reports tabled in Parliament and posted online."
+    ],
+    "who_it_affects": [
+      "Women",
+      "2SLGBTQI+ women",
+      "Indigenous women",
+      "Women in rural and remote communities",
+      "Health care workers",
+      "Researchers and innovators",
+      "Provincial and territorial health ministries",
+      "The Minister of Health"
+    ],
+    "background": "The bill says it would create a national framework to promote, enhance and protect women’s health as a matter of national concern.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations",
+      "rights-equality"
+    ]
+  }
+}

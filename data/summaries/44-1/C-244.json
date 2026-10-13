@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-244",
+  "sourceHash": "6431a1cba37192c0c6faaf0041a0746a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:35.443Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13409560",
+  "summary": {
+    "tldr": "Lets people bypass certain copyright locks on products when needed to diagnose, maintain or repair them.",
+    "what_it_does": [
+      "Adds a Copyright Act exception that lets a person circumvent a technological protection measure when the only purpose is to maintain or repair a product, including diagnosing it, if the protected work is part of the product.",
+      "Extends that exception to a person who does the diagnosis, maintenance or repair for someone else.",
+      "Keeps the exception from applying if the person does an act that infringes copyright.",
+      "Updates the Copyright Act definitions of \"circumvent\" and \"technological protection measure\"."
+    ],
+    "who_it_affects": [
+      "People repairing products",
+      "Product owners",
+      "Repair shops",
+      "Service technicians",
+      "Copyright owners"
+    ],
+    "background": "The Copyright Act now limits the circumvention of technological protection measures, which are controls on access to a work, performer’s performance or sound recording. This bill adds a repair exception to that rule.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "economy-business"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/C-290",
+  "sourceHash": "46ea044744e21ba1f3392644de4247f3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:59.837Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14202103",
+  "summary": {
+    "tldr": "Creates Criminal Code offences for stealing or possessing property of cultural or religious significance.",
+    "what_it_does": [
+      "Creates a separate Criminal Code offence for theft of property that has cultural or religious significance.",
+      "Makes theft of such property punishable as an indictable offence with up to 10 years in prison, or as a summary conviction offence.",
+      "Creates a separate offence for possessing cultural or religious property when it was stolen in the theft offence.",
+      "Makes possession of such property punishable as an indictable offence with up to 5 years in prison, or as a summary conviction offence.",
+      "Adds the new theft offence to the Criminal Code definition of “offence” in section 183."
+    ],
+    "who_it_affects": [
+      "People who steal property",
+      "People who possess stolen property",
+      "Cultural communities",
+      "Religious communities",
+      "Police and courts"
+    ],
+    "background": "The bill adds a new section 333.3 to the Criminal Code for theft and possession of property of cultural or religious significance.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

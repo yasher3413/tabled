@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/S-222",
+  "sourceHash": "113bc0de224b50e4124bd930a58d937b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:16.464Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13542655",
+  "summary": {
+    "tldr": "Lowers the voting age to 16 for federal elections and referendums, and updates related election rules.",
+    "what_it_does": [
+      "Sets the voting age for federal elections at 16 or older on polling day for Canadian citizens.",
+      "Applies the same 16-plus voting rule to referendums under the adapted Canada Elections Act.",
+      "Changes the definition of “future elector” to mean a Canadian citizen who is 14 or 15 years old.",
+      "Removes the rule that election officers appointed under section 32 may be under 18 but must be at least 16.",
+      "Updates voting offences, solemn declaration forms, and fundraising disclosure rules to match the new 16-year-old voting age."
+    ],
+    "who_it_affects": [
+      "Canadian citizens aged 16 and 17",
+      "Canadian citizens aged 14 and 15",
+      "Federal voters",
+      "Election officers",
+      "Registered political parties",
+      "Referendum voters"
+    ],
+    "background": "Under the current Canada Elections Act, a person must be a Canadian citizen and at least 18 years old on polling day to vote. The bill also changes the related referendum regulation to match the new voting age.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections",
+      "rights-equality"
+    ]
+  }
+}

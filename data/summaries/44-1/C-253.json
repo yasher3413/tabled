@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-253",
+  "sourceHash": "af882b6800aa887029b5ba6c82141421",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:21.887Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11559956",
+  "summary": {
+    "tldr": "Makes the Auditor General of Canada one of the Bank of Canada’s auditors and updates related federal laws.",
+    "what_it_does": [
+      "Makes the Auditor General of Canada and an accounting firm the Bank of Canada’s auditors.",
+      "Lets the Governor in Council appoint, on the minister’s recommendation, a qualified accounting firm to audit the bank.",
+      "Keeps the rule that appointed accounting firms serve five fiscal years and cannot be appointed for two straight terms.",
+      "Updates the Auditor General Act so its definition of \"registrar\" includes the Bank of Canada.",
+      "Replaces the Bank of Canada exemption in the Financial Administration Act with a version that keeps listed sections from applying to the bank."
+    ],
+    "who_it_affects": [
+      "Bank of Canada",
+      "Auditor General of Canada",
+      "Accounting firms that audit banks",
+      "Governor in Council",
+      "Minister responsible for the appointment"
+    ],
+    "background": "The Bank of Canada Act already provides for audits by a firm of accountants. This bill adds the Auditor General of Canada as another auditor and makes matching changes in two other Acts.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "economy-business"
+    ]
+  }
+}

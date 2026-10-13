@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-67",
+  "sourceHash": "b3d43de8ae32adf67c2fd030256c3759",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:11.094Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-67",
+  "summary": {
+    "tldr": "Authorizes $8.9 billion in federal spending for the 2023-24 fiscal year.",
+    "what_it_does": [
+      "Authorizes $8,911,403,788 from the Consolidated Revenue Fund for the public service of Canada.",
+      "Covers expenses of the federal public administration that were not otherwise provided for in the 2023-24 fiscal year.",
+      "Takes effect on Royal Assent."
+    ],
+    "who_it_affects": [
+      "Federal public service",
+      "Federal departments and agencies",
+      "Treasury Board"
+    ],
+    "background": "The President of the Treasury Board introduced the bill in the House of Commons on 21 March 2024. It received Royal Assent on 22 March 2024.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "budget-taxes"
+    ]
+  }
+}

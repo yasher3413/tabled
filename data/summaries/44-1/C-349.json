@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-349",
+  "sourceHash": "b2beabfed8404e177f98a51b7ac99e4b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:26.510Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12558684",
+  "summary": {
+    "tldr": "Creates National Rabies Awareness Day on September 28 and requires a federal strategy on rabies prevention, testing, vaccination and treatment.",
+    "what_it_does": [
+      "Designates September 28 each year as National Rabies Awareness Day across Canada.",
+      "Requires the Minister of Agriculture and Agri-Food to develop a national rabies strategy with provinces, Indigenous governing bodies, northern, remote and rural communities, and other stakeholders.",
+      "Directs the strategy to improve access to rabies testing, vaccination, prevention and treatment, with a focus on domesticated dogs and other animals.",
+      "Calls for measures on vaccine delivery in northern communities, lay vaccination programs, better surveillance and direct rapid immunohistochemical testing, community-led education, humane animal overpopulation measures, and non-surgical contraception.",
+      "Requires a report on the strategy within two years, then a review within two more years, with both reports tabled in Parliament and posted online."
+    ],
+    "who_it_affects": [
+      "Indigenous governing bodies",
+      "Northern, remote and rural communities",
+      "Provincial rabies officials",
+      "Animal control authorities",
+      "Communities affected by rabies",
+      "Dog and other animal populations"
+    ],
+    "background": "The bill names the Minister of Agriculture and Agri-Food as the federal minister responsible for the strategy. It also sets deadlines for a strategy report and a later review report.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "indigenous-peoples",
+      "government-operations"
+    ]
+  }
+}

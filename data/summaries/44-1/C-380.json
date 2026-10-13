@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/C-380",
+  "sourceHash": "048ab2a1f3687eda125146c7e95e769d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:11.474Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12882638",
+  "summary": {
+    "tldr": "Removes plastic manufactured items from the toxic substances list under the Canadian Environmental Protection Act, 1999.",
+    "what_it_does": [
+      "Repeals item 132 of Part 2 of Schedule 1 to the Canadian Environmental Protection Act, 1999, which removes plastic manufactured items from the act's list of toxic substances."
+    ],
+    "who_it_affects": [
+      "Plastic manufacturers",
+      "Businesses that make plastic items",
+      "Federal environmental regulators"
+    ],
+    "background": "Item 132 of Part 2 of Schedule 1 to the Canadian Environmental Protection Act, 1999 lists plastic manufactured items as a toxic substance. The bill would delete that item from the schedule.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate"
+    ]
+  }
+}

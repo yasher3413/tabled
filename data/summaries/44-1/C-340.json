@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-340",
+  "sourceHash": "56a1f064302b6d4622e8cdcebff0de2f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:42.424Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12523908",
+  "summary": {
+    "tldr": "Sets rules provinces must meet for federal cash contributions to public drug insurance plans.",
+    "what_it_does": [
+      "Sets five conditions for provincial drug plans to qualify for federal cash contributions: public administration, comprehensiveness, universality, portability and accessibility.",
+      "Requires public drug plans to cover all insured prescription drugs and related dispensing fees for insured persons on uniform terms.",
+      "Limits residence or waiting periods to no more than three months and sets rules for drug coverage when insured persons travel or move between provinces.",
+      "Allows the Minister of Health to ask provinces for information, then refer non-compliance to the Governor in Council, which may reduce or withhold payments.",
+      "Lets the federal government and provinces create an independent drug agency to assess drugs, advise on coverage, negotiate prices and monitor safety.",
+      "Requires the Minister of Health to table an annual report in Parliament on how provinces met the bill's criteria and conditions."
+    ],
+    "who_it_affects": [
+      "Provincial drug insurance plans",
+      "Provincial governments",
+      "People covered by drug plans",
+      "Health care practitioners",
+      "The Minister of Health",
+      "Drug manufacturers"
+    ],
+    "background": "The bill applies to cash contributions that may be provided to a province under other Acts of Parliament. It defines a drug insurance plan as a provincial plan or plans that cover the cost of insured drugs and related dispensing fees.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

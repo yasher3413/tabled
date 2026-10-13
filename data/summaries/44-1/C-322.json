@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-322",
+  "sourceHash": "858c59f39df0a45dc1306e88c864ec63",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:21.763Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12274138",
+  "summary": {
+    "tldr": "Requires the Minister of Employment and Social Development to develop a national framework for a school food program and report it to Parliament.",
+    "what_it_does": [
+      "Requires the Minister, with the Health Minister and provinces, Indigenous governing bodies and other stakeholders, to develop a national framework for a school food program.",
+      "Sets out what the framework must cover, including healthy food standards, the meals and snacks schools must offer, and respect for cultural diversity and First Nations, Inuit and Métis rights and priorities.",
+      "Requires measures to avoid stigmatizing pupils who use the program and to support local and sustainable food systems.",
+      "Requires the Minister to build on existing school food programs, consider local initiatives and infrastructure, and promote evidence-based healthy food education in schools.",
+      "Requires the Minister to table the framework in Parliament within one year after the Act comes into force and to post it online within 10 days after tabling in both Houses.",
+      "Requires a review of the framework within five years after the report is tabled, with a second report to Parliament and online publication."
+    ],
+    "who_it_affects": [
+      "School children",
+      "Schools",
+      "Provincial health and education ministries",
+      "Indigenous governing bodies",
+      "Department of Employment and Social Development",
+      "Federal government"
+    ],
+    "background": "The bill says its purpose is to develop a national framework to establish a school food program so all children in Canada have access to healthy food. It comes into force six months after royal assent.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "education",
+      "families-children",
+      "health"
+    ]
+  }
+}

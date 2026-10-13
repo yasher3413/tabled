@@ -1,0 +1,24 @@
+{
+  "billId": "44-1/S-16",
+  "sourceHash": "758b6c520629e5f594bd3fb99fa5d700",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:14.310Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/S-16",
+  "summary": {
+    "tldr": "Implements parts of the Nang K_’uula • Nang K_’úulaas Recognition Agreement for the Haida Nation and the Council of the Haida Nation.",
+    "what_it_does": [
+      "Implements certain sections of the agreement called the Nang K_’uula • Nang K_’úulaas Recognition Agreement."
+    ],
+    "who_it_affects": [
+      "Haida Nation",
+      "Council of the Haida Nation"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples"
+    ]
+  }
+}

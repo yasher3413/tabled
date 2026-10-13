@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-42",
+  "sourceHash": "79a12d24b975dca1a26a071bbf34f97a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:26.811Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-42",
+  "summary": {
+    "tldr": "Requires more public disclosure about corporate controllers, while protecting some personal information and expanding enforcement under the Canada Business Corporations Act.",
+    "what_it_does": [
+      "Requires the Director under the Canada Business Corporations Act to make certain information about individuals with significant control over a corporation public.",
+      "Protects the information and identity of certain individuals.",
+      "Adds or broadens offences, and gives the Director more enforcement and compliance powers.",
+      "Gives power to make regulations setting further requirements for some provisions.",
+      "Makes consequential and related amendments to other Acts."
+    ],
+    "who_it_affects": [
+      "Federal business corporations",
+      "Individuals with significant control",
+      "The Director under the Act",
+      "Corporate regulators"
+    ],
+    "background": "The bill amends the Canada Business Corporations Act and makes related changes to other Acts.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

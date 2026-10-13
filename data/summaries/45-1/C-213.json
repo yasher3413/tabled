@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/C-213",
+  "sourceHash": "2c1966ea08def96d129e4be2406d0d92",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:35.961Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13569758",
+  "summary": {
+    "tldr": "Repeals two rules that can cause permanent residents to lose status or become inadmissible when refugee protection ends.",
+    "what_it_does": [
+      "Repeals section 40.1 of the Immigration and Refugee Protection Act, which deals with inadmissibility linked to cessation of refugee protection.",
+      "Repeals paragraph 46(1)(c.1) of that Act, which deals with loss of status linked to cessation of refugee protection."
+    ],
+    "who_it_affects": [
+      "Permanent residents with refugee protection",
+      "Immigration decision-makers"
+    ],
+    "background": "The bill amends the Immigration and Refugee Protection Act. Its drafters say it would repeal rules tied to inadmissibility and loss of status when refugee protection ends for permanent residents.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "immigration-citizenship"
+    ]
+  }
+}

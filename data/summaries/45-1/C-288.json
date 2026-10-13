@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/C-288",
+  "sourceHash": "67cf77b288e333b3dd8cda357a2f93f0",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:58.255Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14201298",
+  "summary": {
+    "tldr": "Requires online platforms to prevent and remove fraudulent content, notify users who saw it, and adds a sentencing factor for identity theft or fraud against vulnerable victims.",
+    "what_it_does": [
+      "Requires owners and operators of online services and apps to take reasonable steps in how they are designed and run to prevent fraudulent content from being spread.",
+      "Requires operators to remove content that has been identified as fraudulent and to notify users they know or should reasonably know engaged with it.",
+      "Requires operators to keep records of removed content and notices sent, and to publish reports with prescribed information.",
+      "Makes breaking these rules an offence punishable on summary conviction by a fine of up to $1 million, unless the operator can show due diligence.",
+      "Adds a Criminal Code sentencing factor for identity theft or identity fraud committed against a victim made vulnerable by their age, health or financial situation."
+    ],
+    "who_it_affects": [
+      "Online platform operators",
+      "Social media services",
+      "Online video game services",
+      "People who use online services",
+      "Victims of identity theft or fraud"
+    ],
+    "background": "The bill defines “operator” to include owners or operators of online services or applications that connect to the Internet. It also amends the Criminal Code to add a sentencing factor for identity theft or identity fraud against vulnerable victims.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "crime-justice"
+    ]
+  }
+}

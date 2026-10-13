@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/C-416",
+  "sourceHash": "02f2869e5d9708df55e6812aeea74150",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:51.288Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13353470",
+  "summary": {
+    "tldr": "Designates October each year as Hungarian Heritage Month across Canada.",
+    "what_it_does": [
+      "Designates the month of October, each year, throughout Canada, as “Hungarian Heritage Month”."
+    ],
+    "who_it_affects": [
+      "Hungarian Canadians",
+      "Cultural and heritage groups",
+      "All Canadians"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

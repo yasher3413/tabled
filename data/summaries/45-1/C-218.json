@@ -1,0 +1,29 @@
+{
+  "billId": "45-1/C-218",
+  "sourceHash": "54feb0c7577b36fb6e75317f639a9332",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:34.175Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13575177",
+  "summary": {
+    "tldr": "Amends the Criminal Code so a mental disorder is not a grievous and irremediable medical condition for medical assistance in dying.",
+    "what_it_does": [
+      "Replaces the Criminal Code rule on medical assistance in dying to state that a mental disorder is not a grievous and irremediable medical condition.",
+      "Keeps that exclusion tied to the existing MAID test in subsection 241.2(2).",
+      "Adds coordinating changes so the new rule and the 2021 MAID amendment act line up, no matter which comes into force first."
+    ],
+    "who_it_affects": [
+      "People seeking medical assistance in dying",
+      "People with mental disorders",
+      "Doctors and nurse practitioners",
+      "Health care assessors"
+    ],
+    "background": "The bill amends the Criminal Code. It also includes coordinating changes with the 2021 Act to amend the Criminal Code (medical assistance in dying).",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "crime-justice"
+    ]
+  }
+}

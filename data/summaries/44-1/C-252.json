@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-252",
+  "sourceHash": "6d40ec63c0c168d7a30101fa111fe47e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:52.013Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12648195",
+  "summary": {
+    "tldr": "Bans ads for certain high sugar, high salt or high fat foods that are mainly aimed at children under 13.",
+    "what_it_does": [
+      "Prohibits advertising prescribed foods, set by regulation, that exceed prescribed levels of sugars, saturated fat or sodium, when the ads are primarily directed at children under 13.",
+      "Protects trademark registrations by saying compliance with this ban does not make a trademark invalid or count as non-use under the Trademarks Act.",
+      "Requires a parliamentary committee review before the fifth anniversary of the new rules, including whether advertising shifts toward people aged 13 to 17.",
+      "Lets regulations set the factors for deciding when advertising is mainly directed at children, limit the kinds of advertising covered, and define “sugars” and “saturated fat”.",
+      "Brings the act into force on a day fixed by the Governor in Council."
+    ],
+    "who_it_affects": [
+      "Children under 13",
+      "Food and beverage companies",
+      "Advertisers",
+      "Trademark owners",
+      "Parliamentary committees"
+    ],
+    "background": "The bill amends the Food and Drugs Act by adding new rules on advertising directed at children. It also gives regulation-making powers for how the ban will work.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "families-children"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-262",
+  "sourceHash": "1df1021ada862228daefd3efb62b4a7e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:24.022Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11665124",
+  "summary": {
+    "tldr": "Requires businesses tied to Canada to prevent, report on, and face lawsuits over human rights harms linked to activities abroad.",
+    "what_it_does": [
+      "Requires entities formed in Canada, or with a place of business, business, or assets in Canada, to prevent adverse human rights impacts from their activities and business relationships outside Canada.",
+      "Requires entities to set up due diligence procedures to find, assess, stop, reduce, and monitor human rights risks, including an internal alert process and public yearly reports.",
+      "Requires entities to consult affected people, workers, trade unions, communities, experts, and others, and to consider sex and gender, race, Indigenous identity, age, disability, and the link between human rights and a healthy environment.",
+      "Allows people to sue in a provincial superior court for losses caused by a failure to meet the Act’s duties, and allows claims for damages, injunctions, specific performance, land remediation, and other relief.",
+      "Gives entities a due diligence defence if they can show they took all due diligence, sets time limits for lawsuits, and gives Canadian courts jurisdiction in listed situations.",
+      "Requires the Minister to recommend withdrawal of government support if there are reasonable grounds to believe an entity failed to meet the Act, and to table a proposal for a commissioner within one year."
+    ],
+    "who_it_affects": [
+      "Businesses formed in Canada",
+      "Businesses with assets in Canada",
+      "Company affiliates",
+      "Suppliers and contractors",
+      "People harmed abroad",
+      "Trade unions",
+      "Affected communities"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

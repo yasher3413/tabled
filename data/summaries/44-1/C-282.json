@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-282",
+  "sourceHash": "a69a834b55dbb0485d0b4da90c501352",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:58.622Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12558504",
+  "summary": {
+    "tldr": "Limits the foreign affairs minister from making trade commitments that would weaken tariff protections for dairy, poultry or eggs.",
+    "what_it_does": [
+      "Prohibits the Minister of Foreign Affairs from agreeing, in an international trade treaty or agreement, to raise tariff rate quotas for dairy products, poultry or eggs.",
+      "Prohibits the Minister of Foreign Affairs from agreeing to lower the tariff on dairy products, poultry or eggs imported above their tariff rate quotas."
+    ],
+    "who_it_affects": [
+      "Dairy producers",
+      "Poultry producers",
+      "Egg producers",
+      "Importers of dairy, poultry and eggs",
+      "Federal trade negotiators"
+    ],
+    "background": "The bill adds a new rule to section 10 of the Department of Foreign Affairs, Trade and Development Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "agriculture-food"
+    ]
+  }
+}

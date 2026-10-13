@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/C-277",
+  "sourceHash": "43fc5ece620a993585aa375d23666df5",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:06.210Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14081108",
+  "summary": {
+    "tldr": "Creates rules for online platforms to label, remove and keep records about deepfakes, and adds administrative monetary penalties for violations.",
+    "what_it_does": [
+      "Requires online operators to set up a process, including user reporting, to identify deepfakes shared through their services.",
+      "Requires operators to take reasonable steps so deepfakes shared through their services are clearly identified as deepfakes.",
+      "Requires operators to take reasonable steps to stop deepfakes that may cause significant harm from being shared, and to remove them as soon as feasible after identification.",
+      "Requires operators to keep records and data needed to show compliance with the act, and lets the Governor in Council make rules about those records.",
+      "Creates an administrative monetary penalties scheme for violations, with penalty amounts set by regulation and possible liability for directors or officers who took part."
+    ],
+    "who_it_affects": [
+      "Online platform operators",
+      "Social media services",
+      "Directors and officers of operators",
+      "People depicted in deepfakes"
+    ],
+    "background": "The bill defines deepfakes as photo, video or audio recordings altered or made with AI to use a person's appearance or voice, when meant to seem authentic. It applies to owners or operators of online undertakings and social media services accessible in Canada.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

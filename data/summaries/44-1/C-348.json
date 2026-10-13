@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/C-348",
+  "sourceHash": "18b5b8080feae6d667678a611816eee7",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:22.460Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12558768",
+  "summary": {
+    "tldr": "Designates July each year as Somali Heritage Month across Canada.",
+    "what_it_does": [
+      "Creates Somali Heritage Month by naming the month of July as Somali Heritage Month throughout Canada each year."
+    ],
+    "who_it_affects": [
+      "Somali communities",
+      "Canadian cultural groups",
+      "Federal institutions"
+    ],
+    "background": "The bill is a private member's bill introduced in the House of Commons. Its summary says it designates the month of July as Somali Heritage Month.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

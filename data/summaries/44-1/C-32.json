@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-32",
+  "sourceHash": "3aa971704b2c3d278c84e950dcc65eab",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:51:57.215Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12169847",
+  "summary": {
+    "tldr": "Implements tax, housing, charity, cannabis and mining measures from the 2022 fall economic statement and budget.",
+    "what_it_does": [
+      "Treats gains from selling a Canadian housing unit within 365 days of buying it as business income, with exceptions for death, illness, relocation, job loss, insolvency, destruction or expropriation.",
+      "Creates First Home Savings Accounts, with tax-deductible contributions, tax-free growth rules, transfer rules and anti-avoidance rules, and sets a $40,000 lifetime cap and an $8,000 annual limit starting April 1, 2023.",
+      "Raises the first-time home buyers' tax credit to $10,000, expands medical expense claims to fertility clinic and donor bank fees in Canada and surrogacy costs, and creates a tax credit for adding a secondary unit for an eligible senior or person with a disability.",
+      "Imposes a 1.5% additional tax on banks, life insurers and related institutions on taxable income above $100 million, and creates a Canada Recovery Dividend for those groups based on 2020 and 2021 income.",
+      "Changes trust, charity and anti-avoidance rules, including new bare trust filing rules and penalties, changes to registered charity disclosure, a monthly tax on excess FHSA amounts, and broader information-gathering powers.",
+      "Changes cannabis excise rules so licensees package and stamp products before duty-paid market entry, adds flow-through rules for critical mineral mining expenses, and amends underused housing tax rules for partnerships, exemptions, penalties, occupancy conditions and Social Insurance Numbers."
+    ],
+    "who_it_affects": [
+      "First-time home buyers",
+      "People using FHSAs",
+      "Seniors and adults with disabilities",
+      "Banks and life insurers",
+      "Trusts and charities",
+      "Cannabis licence holders",
+      "Owners of underused housing",
+      "Critical mineral miners"
+    ],
+    "background": "The bill implements certain measures from the fall economic statement tabled in Parliament on November 3, 2022, and certain measures from the budget tabled on April 7, 2022.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "housing",
+      "economy-business"
+    ]
+  }
+}

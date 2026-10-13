@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-315",
+  "sourceHash": "07366e701711c53a7855ffc58034804d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:43.108Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12234747",
+  "summary": {
+    "tldr": "Requires Canada Pension Plan Investment Board policies to bar investments in entities linked to human, labour or environmental rights violations, prohibited arms, or corruption.",
+    "what_it_does": [
+      "Requires the board’s investment policies, standards and procedures to say no investment may be made in, or held in, an entity if there are reasons to believe it committed human, labour or environmental rights violations.",
+      "Requires the policies to exclude entities that produced arms, ammunition, implements or munitions of war that are prohibited under international law.",
+      "Requires the policies to exclude entities that ordered, controlled, or otherwise directed corruption offences under the Criminal Code or the Corruption of Foreign Public Officials Act.",
+      "Renumbers section 35 of the Canada Pension Plan Investment Board Act as subsection 35(1) and adds these rules as subsection 35(2)."
+    ],
+    "who_it_affects": [
+      "Canada Pension Plan Investment Board",
+      "Entities in the board’s portfolio",
+      "Pension plan members"
+    ],
+    "background": "The bill changes section 35 of the Canada Pension Plan Investment Board Act. It says the board’s investment policies, standards and procedures must take environmental, social and governance factors into account.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

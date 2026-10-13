@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-359",
+  "sourceHash": "e858ae85f6dbc104fe2341b6c22e01b9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:19.880Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12627913",
+  "summary": {
+    "tldr": "Creates provisional approval or registration paths for feeds, seeds and pest control products already approved in at least two trusted jurisdictions.",
+    "what_it_does": [
+      "Requires the Minister to approve or register a feed on a provisional basis within 90 days if it is approved in at least two trusted jurisdictions and meets the Act and regulations.",
+      "Requires the Registrar to register a seed variety on a provisional basis within 90 days if it is approved for sale in at least two trusted jurisdictions and meets the prescribed requirements.",
+      "Allows an applicant to seek provisional registration of a pest control product if it is approved for use in at least two trusted jurisdictions, using review information from those jurisdictions.",
+      "Requires the Minister to register a pest control product on a provisional basis within 90 days if the product's health and environmental risks and value are not found to be unacceptable.",
+      "Lets the Minister and Registrar designate trusted jurisdictions by regulation and rely on evidence and information from those jurisdictions when evaluating applications."
+    ],
+    "who_it_affects": [
+      "Feed businesses",
+      "Seed companies",
+      "Pest control product companies",
+      "Importers",
+      "Canadian Food Inspection Agency",
+      "Workplaces using pest control products"
+    ],
+    "background": "The bill adds “trusted jurisdiction” to each Act. It means a foreign state or part of a foreign state that is designated by regulation.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "agriculture-food",
+      "health"
+    ]
+  }
+}

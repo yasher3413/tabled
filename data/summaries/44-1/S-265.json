@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/S-265",
+  "sourceHash": "69f2dac15d26db0f21a74107cf717eb4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:47.964Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12444893",
+  "summary": {
+    "tldr": "Creates the Federal Ombudsperson for Victims of Crime, expands some victims' rights, and sets out how those rights are to be put into practice.",
+    "what_it_does": [
+      "Creates the Office of the Federal Ombudsperson for Victims of Crime and makes the position a statutory office.",
+      "Sets the ombudsperson’s appointment, term, removal, pay, full-time service, and acting replacement rules.",
+      "Gives the office a mandate to help victims and families by giving information and referrals, reviewing complaints, and directing people to other services.",
+      "Limits complaint reviews about parole board decisions and certain Correctional Service of Canada decisions on transfers and release.",
+      "Requires annual reporting to the Minister, tabling in Parliament, and online publication, and allows the office to summon witnesses and require documents during reviews.",
+      "Amends the Canadian Victims Bill of Rights to enhance some victims’ rights and set up a framework for putting those rights into practice."
+    ],
+    "who_it_affects": [
+      "Victims of crime",
+      "Families of victims",
+      "Federal departments and agencies",
+      "Correctional Service of Canada",
+      "Parole boards",
+      "Minister of Justice",
+      "Parliament"
+    ],
+    "background": "The bill says the Federal Ombudsperson for Victims of Crime has existed since 2007 as a special adviser to the Minister of Justice. It also says the Canadian Victims Bill of Rights, adopted in 2015, gave the ombudsperson a mandate to review complaints about federal victim services and programs.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

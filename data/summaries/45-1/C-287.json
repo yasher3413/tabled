@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/C-287",
+  "sourceHash": "df8097ed611a819005b35dd5df7eb9f1",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:56.171Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14199882",
+  "summary": {
+    "tldr": "Requires the National Research Council to publish housing cost summaries, governance details and a public registry for material housing-related model code proposals.",
+    "what_it_does": [
+      "Defines a material housing-related model code proposal as a proposed model code change that could materially affect residential construction costs, housing delivery timelines, approval timelines, compliance complexity or administrative burden.",
+      "Requires the National Research Council to publish a housing cost and impact summary, in both official languages and an accessible format, when such a proposal is first made public for review.",
+      "Requires each summary to explain the proposal, its practical effect, estimated costs and benefits, expected impacts, uncertainties, assumptions, and the names, roles and affiliations of the people who advanced it.",
+      "Requires the Council to publish the relevant governance bodies and committees for each proposal, including member names, positions, roles and affiliations, plus a contact for technical and process questions.",
+      "Requires the Council to keep an accessible public registry with proposal status, key milestones, edition-level impact estimates, and annual summaries of code work and recurring cost-estimation or transparency issues.",
+      "States that a failure to publish, maintain or update these materials does not invalidate any national model code or any related action by provinces, territories or local governments."
+    ],
+    "who_it_affects": [
+      "National Research Council",
+      "Model code committees",
+      "Residential builders",
+      "Housing developers",
+      "Provincial governments",
+      "Territorial governments",
+      "Municipal governments"
+    ],
+    "background": "The bill amends the National Research Council Act. It applies to the Council's role supporting Canada's national model code development system.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "housing",
+      "government-operations"
+    ]
+  }
+}

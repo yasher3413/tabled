@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-234",
+  "sourceHash": "15caf30bd59707e4aa5f478966f97c05",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:48.996Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14036634",
+  "summary": {
+    "tldr": "Creates a federal medal for people who donate an organ during their lifetime without profiting from it.",
+    "what_it_does": [
+      "Establishes the Living Donor Recognition Medal for eligible people who donate an organ, including tissue, blood, or bone marrow, during their lifetime without profiting.",
+      "Lets the Governor in Council set the medal’s design and ribbon.",
+      "Allows the Governor General to award the medal, and says no person can receive it more than once.",
+      "Calls for the medal to be given, when possible, in a public ceremony by specified officials or other prescribed representatives.",
+      "Lets the Governor in Council make rules on who is eligible and which entities can assess eligibility or help with it."
+    ],
+    "who_it_affects": [
+      "Living organ donors",
+      "Living tissue donors",
+      "Blood donors",
+      "Bone marrow donors",
+      "People who receive federal medals",
+      "Officials who present medals"
+    ],
+    "background": "The bill defines “organ” to include human tissue, blood and bone marrow. It also lets the Governor in Council make regulations about eligibility and related assessment.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration",
+      "health",
+      "government-operations"
+    ]
+  }
+}

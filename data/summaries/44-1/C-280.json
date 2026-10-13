@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-280",
+  "sourceHash": "e752f3fb53d9db1400b0588e30442563",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:51.973Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13520092",
+  "summary": {
+    "tldr": "Creates a trust for unpaid perishable fruit and vegetable sales when a buyer goes bankrupt or enters insolvency proceedings.",
+    "what_it_does": [
+      "Deems perishable fruits and vegetables, and the money from their sale, to be held in trust for the supplier when a buyer has not fully paid and later becomes bankrupt or is put into receivership.",
+      "Adds the same trust rule under the Companies’ Creditors Arrangement Act when a debtor company asks the court to approve a compromise or arrangement.",
+      "Requires the supplier to give notice on the invoice, or within 30 days after delivery, to claim this protection.",
+      "Sets out when the rule applies, including when payment is due within 30 days or less, and says provincial trust laws also apply unless they conflict with this Act."
+    ],
+    "who_it_affects": [
+      "Fresh fruit and vegetable suppliers",
+      "Farmers",
+      "Food wholesalers",
+      "Bankrupt businesses",
+      "Debtor companies",
+      "Receivers and trustees"
+    ],
+    "background": "The bill amends the Bankruptcy and Insolvency Act and the Companies’ Creditors Arrangement Act. It adds a deemed trust rule for certain unpaid sales of perishable fruits and vegetables.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "agriculture-food",
+      "economy-business"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-418",
+  "sourceHash": "206752b9d338f940d0d4fd89ec77c58d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:49.647Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13396394",
+  "summary": {
+    "tldr": "Changes EI benefit rules, raises benefit amounts and weeks, and creates a new Employment Insurance Fund.",
+    "what_it_does": [
+      "Sets the 2023 maximum yearly insurable earnings at $86,100 and adjusts the ceiling in later years.",
+      "Creates a new EI entry test based on either 420 hours of insurable employment or 14 hours a week for 12 weeks, and repeals the major attachment claimant, minor attachment claimant and waiting period concepts.",
+      "Extends the qualifying period for people who are unavailable for work because of parental leave, and raises the hours or weeks required after certain EI violations.",
+      "Raises weekly benefits to 60% of weekly insurable earnings, sets weekly insurable earnings by the claimant’s highest 12 weeks, and removes the combined weeks rule.",
+      "Raises sickness, injury or quarantine benefits to 50 weeks, allows benefits for domestic violence, assuming parental responsibilities or returning to education, and creates the Employment Insurance Fund."
+    ],
+    "who_it_affects": [
+      "EI claimants",
+      "Workers with short work histories",
+      "Parents on leave",
+      "People with illness, injury or quarantine",
+      "People affected by domestic violence",
+      "People returning to school",
+      "Employers and employees who pay EI premiums"
+    ],
+    "background": "The bill amends the Employment Insurance Act and makes a related change to the Department of Employment and Social Development Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "families-children",
+      "government-operations"
+    ]
+  }
+}

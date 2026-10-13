@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/C-34",
+  "sourceHash": "c445f051141869c932a4daf8a272b5b9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:11.989Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14173163",
+  "summary": {
+    "tldr": "Creates a new federal digital safety law and commission to regulate some online services, especially to reduce harmful content and protect children.",
+    "what_it_does": [
+      "Requires regulated social media and chatbot services to take steps to reduce harmful content, including blocking tools, flagging tools, content labels and crisis intervention for chatbots.",
+      "Requires operators of regulated services to protect children, including age checks for pornographic content and, for some social media services, steps to stop under 16s from opening accounts.",
+      "Requires regulated social media services to remove, in some cases, child sexual abuse material and intimate images shared without consent, with a complaint process to the new commission.",
+      "Creates the Digital Safety Commission of Canada to oversee the law, handle complaints, issue guidelines, inspect operators and order compliance.",
+      "Requires operators to file public digital safety plans that explain their measures, resources and moderation practices, with limits on personal information and some confidential details."
+    ],
+    "who_it_affects": [
+      "Social media companies",
+      "Chatbot service operators",
+      "Online service operators",
+      "Children and teens",
+      "Users in Canada",
+      "Researchers and educators",
+      "Law enforcement agencies"
+    ],
+    "background": "The bill enacts the Digital Safety Act and the Digital Safety Commission of Canada Act. It also makes related changes to other Acts.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

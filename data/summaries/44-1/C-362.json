@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-362",
+  "sourceHash": "6108d58f62c22e14974d04d82ff85d30",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:57.831Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12703982",
+  "summary": {
+    "tldr": "Creates an independent Ombud for National Defence and the Canadian Forces to handle complaints, investigate issues, and report to Parliament.",
+    "what_it_does": [
+      "Establishes the Office of the Ombud for the Department of National Defence and the Canadian Forces, and sets out how the Ombud is appointed, paid, staffed, and limited to one seven-year term.",
+      "Gives the Ombud a mandate to support people affected by defence and military matters, review complaints and systemic issues, and provide information, referrals, education, and help with other channels.",
+      "Lets members, former members, cadets, Defence employees, applicants, Non-Public Funds staff, and their immediate family complain, and allows informal resolution, mediation, or investigations on the Ombud’s own initiative or at the Minister’s request.",
+      "Sets investigation powers and limits, including summons, document access, temporary access restrictions for security or ongoing investigations, reporting possible offences to the Canadian Forces Provost Marshal, and written reasons when complaints are refused.",
+      "Requires annual and special reports to Parliament, protects confidentiality and good-faith actions, creates offences for obstruction or false statements, and amends the Contraventions Act and other laws to add the new Office."
+    ],
+    "who_it_affects": [
+      "Canadian Forces members",
+      "Former Canadian Forces members",
+      "Cadets",
+      "Department of National Defence employees",
+      "People applying to join the Canadian Forces",
+      "Non-Public Funds staff",
+      "Immediate family members of affected people",
+      "Parliament and defence officials"
+    ],
+    "background": "The bill says there is already an Ombudsman for the Department of National Defence and the Canadian Forces, and this bill would replace that office with a new statutory Ombud. It also makes related changes to the Contraventions Act and several other Acts.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "defence-security",
+      "government-operations"
+    ]
+  }
+}

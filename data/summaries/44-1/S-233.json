@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/S-233",
+  "sourceHash": "42a8ef1f3475f5827c351d0b105b12bc",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:25.452Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11507715",
+  "summary": {
+    "tldr": "Requires the finance minister to develop a national framework for a guaranteed livable basic income for people over 17 and report to Parliament on it.",
+    "what_it_does": [
+      "Requires the Minister of Finance to develop a Canada-wide framework for a guaranteed livable basic income program for people over 17, including temporary workers, permanent residents and refugee claimants.",
+      "Requires the minister to consult federal and provincial ministers, Indigenous elders, Indigenous governing bodies and other relevant stakeholders while developing the framework.",
+      "Requires the framework to define what counts as a livable basic income in each region and to set national standards for health and social supports that go with the program.",
+      "Requires the framework to say that people do not have to join education, training or the labour market to qualify.",
+      "Requires the framework to protect health or disability services and benefits from being reduced because of the program.",
+      "Requires the minister to table a report within one year, publish it online, and then review and report on the framework every year after that."
+    ],
+    "who_it_affects": [
+      "People over 17 in Canada",
+      "Temporary workers",
+      "Permanent residents",
+      "Refugee claimants",
+      "Provincial governments",
+      "Indigenous governing bodies",
+      "Federal ministers"
+    ],
+    "background": "The bill sets out a process for the Minister of Finance to develop and review a national framework for a guaranteed livable basic income.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "health",
+      "labour-employment"
+    ]
+  }
+}

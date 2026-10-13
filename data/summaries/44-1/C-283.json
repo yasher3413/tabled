@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-283",
+  "sourceHash": "91c1f2b563247ed125fc6b549213c879",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:40.131Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11873783",
+  "summary": {
+    "tldr": "Lets some people ask to serve a prison sentence in a designated addiction treatment facility, and changes correctional rules for those facilities.",
+    "what_it_does": [
+      "Allows a sentencing court, on request, to recommend serving all or part of a sentence in a designated facility for addiction treatment, if the person has a pattern of substance use linked to the offence, agrees to treatment, and the offence meets set limits.",
+      "Requires courts that make a recommendation to send their reasons, related reports, and other relevant information to the Correctional Service of Canada.",
+      "Requires the Correctional Service of Canada to place the person in a designated facility as soon as reasonably possible after a recommendation.",
+      "Lets the Commissioner designate a penitentiary, or part of one, as an addiction treatment facility, and lets the minister make agreements with provinces to provide addiction treatment programs there.",
+      "Requires correctional plans and placement decisions to consider substance use, treatment programs, willingness to participate, and mental health assessments within 30 days of arrival.",
+      "Adds addiction treatment care in a designated facility to the Act’s definition of health care, and adds rules for moving inmates within a penitentiary to a designated facility."
+    ],
+    "who_it_affects": [
+      "People sentenced to federal prison",
+      "Inmates with substance use issues",
+      "Correctional Service of Canada",
+      "Federal courts",
+      "Provincial governments",
+      "Addiction treatment providers"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health"
+    ]
+  }
+}

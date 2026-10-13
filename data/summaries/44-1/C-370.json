@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-370",
+  "sourceHash": "6ef31a64480e5aef1cfa8496bbd3bd96",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:53.849Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12778633",
+  "summary": {
+    "tldr": "Creates a Criminal Code order that can compel someone to unlock an electronic device for certain criminal investigations.",
+    "what_it_does": [
+      "Creates a Criminal Code order that can compel a person to unlock an electronic device, including giving access to specified data, after a peace officer with lawful authority applies ex parte.",
+      "Limits the order to listed offences, and only if a judge finds reasonable grounds that the device may hold evidence, the person uses it, other methods have failed or are unlikely to work, and the order serves the administration of justice.",
+      "Lets a judge add terms and conditions to make the order reasonable, and allows it to be executed anywhere in Canada by a peace officer with authority there.",
+      "Allows the order to be made by telephone or other telecommunications if appearing in person would be impractical.",
+      "Makes it an offence to fail without reasonable excuse to comply, punishable on indictment by up to 10 years in prison or by summary conviction, and says unlocking cannot be used to prove ownership or knowledge."
+    ],
+    "who_it_affects": [
+      "People with electronic devices",
+      "People investigated for listed offences",
+      "Peace officers",
+      "Judges",
+      "People accused of serious offences"
+    ],
+    "background": "The bill adds a new section to the Criminal Code after section 487.092.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "technology-privacy"
+    ]
+  }
+}

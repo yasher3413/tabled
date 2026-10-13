@@ -61,7 +61,23 @@ export const LIMITS = {
 } as const
 
 const words = (s: string) => s.trim().split(/\s+/).filter(Boolean).length
-const sentences = (s: string) => s.split(/(?<=[.!?])\s+(?=[A-Z0-9"“(])/).filter((x) => x.trim()).length
+/** Statutory terms that happen to contain a banned word ("dangerous offender" is a Criminal Code designation). */
+const LEGAL_TERMS = /dangerous (?:offenders?|driving|goods|operation)/g
+
+/** A period that ends an abbreviation or initial (R.S.C., c., No., St., e.g.), not a sentence. */
+const ABBREVIATION_END = /(?:^|[\s(.])(?:[A-Za-z]|No|Nos|St|Ste|Mr|Mrs|Ms|Dr|Jr|Sr|Hon|vs|etc|e\.g|i\.e|ss|cc|art|para|subs|Sch)\.$/
+export const sentences = (s: string) => {
+  let count = 0
+  let current = ""
+  for (const piece of s.split(/(?<=[.!?])\s+(?=[A-Z0-9"“(])/)) {
+    current = current ? `${current} ${piece}` : piece
+    if (!ABBREVIATION_END.test(current.trim())) {
+      if (current.trim()) count++
+      current = ""
+    }
+  }
+  return count + (current.trim() ? 1 : 0)
+}
 
 function allText(s: Summary): string[] {
   return [s.tldr, ...s.what_it_does, ...s.who_it_affects, s.background ?? ""].filter(Boolean)
@@ -101,7 +117,8 @@ export function validateSummary(input: unknown, opts: { sourceChars?: number } =
   }
   for (const text of allText(s)) {
     if (/[—–]/.test(text) || / -- /.test(text)) errors.push(`Remove dashes used as punctuation (em or en dash): "${text.slice(0, 60)}"`)
-    const lower = text.toLowerCase()
+    // Legal designations that contain a banned word are terms of art, not judgements.
+    const lower = text.toLowerCase().replace(LEGAL_TERMS, "")
     for (const banned of BANNED_WORDS) {
       const re = new RegExp(`(^|[^a-z])${banned.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&")}([^a-z]|$)`)
       if (re.test(lower)) errors.push(`Avoid the loaded word "${banned}".`)

@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/S-6",
+  "sourceHash": "74ad2286c1c67b8bb31813e1ce5a6e7c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:00.588Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11895538",
+  "summary": {
+    "tldr": "Updates many federal rules by changing notices, approvals, permits and reporting across business, agriculture, wildlife, immigration and transport laws.",
+    "what_it_does": [
+      "Replaces some newspaper and Gazette publication rules with other notice methods, and lets some bankrupt people get a discharge certificate when certain oppositions are withdrawn.",
+      "Lets ministers or regulators approve temporary use of some unapproved devices, set extra conditions on approvals and permits, and use interim orders in several food, animal health and transport laws.",
+      "Renames corporate annual returns as annual update statements for federal corporations, co-operatives and not-for-profit corporations.",
+      "Updates agricultural marketing, feed, fertiliser, seed and animal health rules, including rules for releasing novel supplements, seeds and veterinary biologics, and lets the CFIA use electronic administration and enforcement.",
+      "Changes wildlife trade and species-at-risk rules, including the removal of some Schedule 3 species after COSEWIC assessment and new timelines for recovery and management plans.",
+      "Modernizes Canada Lands Surveyors complaints and discipline processes, creates an offence for breaking fisheries licence conditions, and allows new information-sharing rules for immigration and customs."
+    ],
+    "who_it_affects": [
+      "Bankrupt individuals",
+      "Federal corporations and co-operatives",
+      "Agricultural producers and boards",
+      "Feed, fertiliser and seed businesses",
+      "Fishers and fisheries licence holders",
+      "Canada Lands Surveyors",
+      "Immigrants and immigration applicants",
+      "Importers, exporters and transport companies"
+    ],
+    "background": "The bill amends many Acts as part of the Regulatory Modernization Initiative. The drafters say it is meant to remove barriers to innovation and economic growth.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "economy-business",
+      "agriculture-food"
+    ]
+  }
+}

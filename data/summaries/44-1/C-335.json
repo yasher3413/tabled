@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/C-335",
+  "sourceHash": "3a178cd31736df536eeca04feaa694cd",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:54.178Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12498296",
+  "summary": {
+    "tldr": "Creates a Defence of Canada Medal for people who served in Canada’s defence between June 1, 1946, and November 30, 1989.",
+    "what_it_does": [
+      "Creates the Defence of Canada Medal and lets the Governor in Council decide its design and ribbon.",
+      "Allows the medal to be awarded to Canadian citizens or permanent residents with at least three years of qualifying service during the covered period.",
+      "Lists qualifying service as service in the Canadian Forces, certain police services, some provincial and municipal emergency groups, recognised civilian national survival groups, and the Canadian Coast Guard.",
+      "Lets the medal be awarded only once to the same person and allows regulations to exclude some classes of people.",
+      "Allows the medal to be awarded after death and says it should go to the next of kin, or to another suitable person if needed.",
+      "Requires a ceremony, when possible, with family members and the media, and sets a two-year reporting duty to Parliament if no regulations are made."
+    ],
+    "who_it_affects": [
+      "Canadian Forces members",
+      "Former Canadian Forces members",
+      "Police officers",
+      "Civil defence workers",
+      "Canadian Coast Guard members",
+      "Canadian citizens and permanent residents",
+      "Families of deceased recipients",
+      "Ministers who nominate recipients"
+    ],
+    "background": "The bill says it covers service in the defence of Canada from June 1, 1946, to November 30, 1989. It also sets out who may be nominated for the medal and gives the Governor in Council power to make regulations.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration",
+      "defence-security",
+      "government-operations"
+    ]
+  }
+}

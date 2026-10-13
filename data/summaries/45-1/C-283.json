@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/C-283",
+  "sourceHash": "18b5b8080feae6d667678a611816eee7",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:28.155Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14163403",
+  "summary": {
+    "tldr": "Designates July as Somali Heritage Month across Canada.",
+    "what_it_does": [
+      "Designates the month of July as Somali Heritage Month throughout Canada."
+    ],
+    "who_it_affects": [
+      "Somali Canadians",
+      "Somali community groups",
+      "Canadian cultural organisations"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

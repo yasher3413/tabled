@@ -1,0 +1,37 @@
+{
+  "billId": "44-1/S-12",
+  "sourceHash": "028aabe26dbffe4bc85dbbcde528a319",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:30.918Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12656904",
+  "summary": {
+    "tldr": "Expands sex offender registration rules, changes publication ban procedures, and adds new victim notification duties in criminal cases.",
+    "what_it_does": [
+      "Requires more people to register under the Sex Offender Information Registration Act, including people convicted of sexual offences against a child and people convicted on separate occasions of two or more sexual offences.",
+      "Sets new rules for how long registration orders last, including life orders for some repeat offenders, and lets some people ask a court to shorten or end an order in limited cases.",
+      "Allows a peace officer to get a warrant to arrest someone who breaks registration rules and bring them to a registration centre to fix the problem.",
+      "Clarifies the notice sex offenders must give before leaving their residence, including advance notice for some absences and a reasonable excuse exception.",
+      "Creates a process to vary or revoke publication bans, and requires courts to ask whether victims want information about the offender’s sentence and send victim contact information to the Correctional Service of Canada.",
+      "Extends and updates registration rules for some people convicted outside Canada or transferred to Canada from abroad, and adds related exemption and appeal processes."
+    ],
+    "who_it_affects": [
+      "People convicted of sexual offences",
+      "People found not criminally responsible",
+      "Victims and witnesses",
+      "Justice system participants",
+      "Prosecutors",
+      "Courts",
+      "Police services",
+      "People transferred from abroad"
+    ],
+    "background": "The bill amends the Criminal Code, the Sex Offender Information Registration Act and the International Transfer of Offenders Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

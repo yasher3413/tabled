@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/S-250",
+  "sourceHash": "9a1c73b2aa0a804c5fa3e2c54256960b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:51.735Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14203315",
+  "summary": {
+    "tldr": "Requires the Justice Minister to table statements on how government bills may affect Indigenous rights, Charter rights, and UNDRIP.",
+    "what_it_does": [
+      "Requires the Justice Minister to table, for every government bill, a statement on possible effects on Charter rights and on rights of Indigenous peoples under section 35 of the Constitution Act, 1982.",
+      "Requires the statement to say whether the bill is consistent with the United Nations Declaration on the Rights of Indigenous Peoples.",
+      "Requires the statement to include a detailed summary of consultations with Indigenous peoples, or say that no consultations were held, when Indigenous rights may be affected.",
+      "Delays the bill’s coming into force until the first anniversary of royal assent."
+    ],
+    "who_it_affects": [
+      "Ministers",
+      "Government bills",
+      "Indigenous peoples",
+      "Parliament"
+    ],
+    "background": "The Department of Justice Act already requires a statement on a bill’s potential effects on the rights and freedoms guaranteed by the Canadian Charter of Rights and Freedoms. This bill adds Indigenous rights and UNDRIP to that statement.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

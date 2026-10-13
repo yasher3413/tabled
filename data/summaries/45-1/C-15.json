@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/C-15",
+  "sourceHash": "11f5be052455895818f761d185738efb",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:38.878Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-15",
+  "summary": {
+    "tldr": "Implements parts of the 2025 budget by changing taxes, banking, housing and rail rules, and creating new laws for school food and stablecoins.",
+    "what_it_does": [
+      "Changes income tax rules by expanding the small business share rollover, the disability supports deduction, the capital gains exemption, and several clean tech, research and investment credits.",
+      "Ends or changes several federal tax measures, including the Digital Services Tax, the underused housing tax after 2025, and the luxury tax on subject aircraft and vessels.",
+      "Creates an opt-in framework for Indigenous governments to levy their own sales tax on fuel, alcohol, cannabis, tobacco and vaping products on reserve or settlement lands.",
+      "Creates a legal framework for a high-speed passenger rail network between Quebec and Ontario, including rules on approvals, land, expropriation, impact assessment and confidential Indigenous knowledge.",
+      "Replaces the Consumer-Driven Banking Act with a new law and changes banking rules on data sharing, electronic documents, fraud controls, prudential limits and credit union growth."
+    ],
+    "who_it_affects": [
+      "Taxpayers",
+      "Businesses and corporations",
+      "Federally regulated financial institutions",
+      "Indigenous governments",
+      "Housing providers",
+      "Bank customers",
+      "Rail project developers",
+      "Students and schools"
+    ],
+    "background": "The bill implements certain provisions of the budget tabled on November 4, 2025. It also repeals the Digital Services Tax Act and ends the underused housing tax and the luxury tax on subject aircraft and vessels.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations",
+      "economy-business"
+    ]
+  }
+}

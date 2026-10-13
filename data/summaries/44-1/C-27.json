@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-27",
+  "sourceHash": "a93a8cbc9f3c598f20a67351db8a68dc",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:01.346Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-27",
+  "summary": {
+    "tldr": "Creates new privacy and artificial intelligence laws, and sets up a tribunal for some privacy appeals and penalties.",
+    "what_it_does": [
+      "Creates the Consumer Privacy Protection Act to govern how organizations collect, use or disclose personal information in commercial activities.",
+      "Repeals Part 1 of the Personal Information Protection and Electronic Documents Act and renames that law the Electronic Documents Act.",
+      "Creates the Personal Information and Data Protection Tribunal to hear some Privacy Commissioner appeals and impose penalties for certain breaches.",
+      "Creates the Artificial Intelligence and Data Act to regulate certain AI systems in international and interprovincial trade and commerce, and requires risk mitigation measures for high-impact systems.",
+      "Requires public reporting and lets the minister order records about artificial intelligence systems.",
+      "Bans using illegally obtained personal information to design, develop, use or make available an AI system, and bans making an AI system available if its use causes serious harm."
+    ],
+    "who_it_affects": [
+      "Individuals",
+      "Organizations that collect personal information",
+      "Businesses that use AI systems",
+      "Privacy Commissioner",
+      "AI developers"
+    ],
+    "background": "The bill was introduced in the House of Commons on 16 June 2022. It also makes consequential and related amendments to other Acts.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "economy-business"
+    ]
+  }
+}

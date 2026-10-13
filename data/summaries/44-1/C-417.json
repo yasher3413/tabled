@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-417",
+  "sourceHash": "6d3b3dae8e9a276f4413924e0ae8b649",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:41.273Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13396293",
+  "summary": {
+    "tldr": "Requires Veterans Affairs to create and publish a framework for animal-assisted services for veterans, then review it later.",
+    "what_it_does": [
+      "Requires the Minister of Veterans Affairs to work with service providers and departmental advisory groups to develop and carry out a framework for animal-assisted services to veterans.",
+      "Requires the framework to set processes and standards, including what documents Veterans Affairs may ask for when a veteran requests these services.",
+      "Requires the framework to include third-party accreditation requirements, ways to check provider compliance, and clear goals, timelines, and monitoring measures.",
+      "Requires the Minister to table a report on the framework in Parliament within 12 months of the law coming into force and to publish it on the department’s website.",
+      "Requires an independent review of the framework five years after the report is tabled, with the review report also tabled and published."
+    ],
+    "who_it_affects": [
+      "Veterans",
+      "Department of Veterans Affairs",
+      "Animal-assisted service providers",
+      "Veterans Affairs advisory groups"
+    ],
+    "background": "The bill defines animal-assisted service to include trained assistance animals and animal-assisted interventions, including activities and therapy. It says the Minister must consider a 2022 House of Commons veterans committee report on service dogs.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "seniors-veterans",
+      "health",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-26",
+  "sourceHash": "449fe6f28adfca32d6507219dda54cd6",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:13.454Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-26",
+  "summary": {
+    "tldr": "Adds telecom security powers and creates rules to protect cyber systems used by federally regulated services tied to national security or public safety.",
+    "what_it_does": [
+      "Adds security of the Canadian telecommunications system as a policy objective and lets the Governor in Council and the Minister of Industry order telecom providers to do, or stop doing, things needed to secure it.",
+      "Creates an administrative monetary penalty scheme for not following telecom security orders and regulations, and sets rules for judicial review of those decisions.",
+      "Enacts the Critical Cyber Systems Protection Act for services and systems important to national security or public safety and within federal authority.",
+      "Lets the Governor in Council designate a service or system and set classes of operators for it.",
+      "Requires designated operators to create cyber security programs, reduce supply-chain and third-party risks, report cyber security incidents, and follow cyber security directions.",
+      "Provides for information sharing and enforcement, including consequences for non-compliance."
+    ],
+    "who_it_affects": [
+      "Telecommunications service providers",
+      "Operators of federally regulated cyber systems",
+      "Federally regulated businesses",
+      "Federal regulators"
+    ],
+    "background": "Bill C-26 was introduced in the House of Commons on 14 June 2022. It has two parts, one amending the Telecommunications Act and one enacting the Critical Cyber Systems Protection Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "defence-security",
+      "government-operations"
+    ]
+  }
+}

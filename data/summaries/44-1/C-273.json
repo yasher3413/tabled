@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-273",
+  "sourceHash": "4c4a20726a900d8726dc8c49ccd7b41c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:18.706Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13079568",
+  "summary": {
+    "tldr": "Repeals a Criminal Code rule that lets a child be corrected by force in some cases.",
+    "what_it_does": [
+      "Repeals section 43 of the Criminal Code, which allows the correction of a child by force if certain criteria are met.",
+      "Sets the bill to come into force 30 days after royal assent."
+    ],
+    "who_it_affects": [
+      "Children",
+      "Parents and guardians",
+      "Caregivers",
+      "Courts"
+    ],
+    "background": "The bill amends the Criminal Code by repealing section 43.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "families-children"
+    ]
+  }
+}

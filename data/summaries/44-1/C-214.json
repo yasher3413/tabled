@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-214",
+  "sourceHash": "2c0a556cc66d263402320b84a74f86d2",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:48:04.815Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11499441",
+  "summary": {
+    "tldr": "Adds listed lakes and rivers in British Columbia to the Canadian Navigable Waters Act schedule.",
+    "what_it_does": [
+      "Adds Skaha Lake, Tugulnuit Lake, Vaseux Lake, and Osoyoos Lake to the schedule of navigable waters, with each lake boundary including the mouths of connecting waterways.",
+      "Adds Christina Lake, Box Lake, Summit Lake, and Slocan Lake to the schedule, with each lake boundary including the mouths of connecting waterways.",
+      "Adds the Okanagan River, Granby River, Christina Creek, Kettle River, Pend d’Oreille River, and Slocan River to the schedule, with the listed start and end points.",
+      "Changes the Columbia River entry so it runs from Columbia Lake to the Canada-U.S. border."
+    ],
+    "who_it_affects": [
+      "People using the listed lakes and rivers",
+      "Boaters and other water users",
+      "Communities in British Columbia",
+      "Projects on the listed waterways"
+    ],
+    "background": "The bill amends the schedule to the Canadian Navigable Waters Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "transport-infrastructure"
+    ]
+  }
+}

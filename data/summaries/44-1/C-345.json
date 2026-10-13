@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/C-345",
+  "sourceHash": "070ba538ecdb0941881ff2eec8cbb5f9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:35.179Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12547231",
+  "summary": {
+    "tldr": "Amends the Criminal Code to define first responders, make their murder first degree murder, raise aggravated assault penalties, and add a specific assault offence.",
+    "what_it_does": [
+      "Creates a Criminal Code definition of first responder, including emergency medical technicians, paramedics, firefighters, and some volunteers.",
+      "Makes the murder of a first responder acting in the course of duties automatically first degree murder.",
+      "Raises the maximum prison term for aggravated assault to 20 years when the complainant is covered by the first responder rule, instead of 14 years in other cases.",
+      "Creates an offence for assaulting a first responder and updates related federal offence lists used for other criminal law rules."
+    ],
+    "who_it_affects": [
+      "First responders",
+      "Volunteer first responders",
+      "Paramedics",
+      "Firefighters",
+      "People accused of assault",
+      "People accused of murder",
+      "Courts and prosecutors",
+      "Corrections and parole authorities"
+    ],
+    "background": "The bill adds a definition of first responder to the Criminal Code. It includes a person employed or formally engaged on a volunteer basis to be among the first on the scene of an accident, fire or other emergency.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-13",
+  "sourceHash": "69ee967316bf5dc18182ff06d6b96334",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:43.938Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-13",
+  "summary": {
+    "tldr": "Updates the Official Languages Act, creates French-language rights for federally regulated private businesses, and adds new enforcement tools and duties.",
+    "what_it_does": [
+      "Specifies that official language duties apply at all times, including during emergencies, and adds interpretive rules for language rights.",
+      "Extends part of the Official Languages Act to the Supreme Court of Canada, and requires certain federal court decisions with precedential value to be issued in both official languages at the same time.",
+      "Sets out federal commitments to protect and promote French, support minority-language education, advance English and French in external affairs, and require a francophone immigration policy with objectives, targets and indicators.",
+      "Gives the Treasury Board new duties to set policies, monitor and audit federal institutions, evaluate official languages programs, and share information with the public and employees.",
+      "Lets the Commissioner of Official Languages enter compliance agreements, make orders in some cases, and impose administrative monetary penalties for some non-compliance.",
+      "Creates rights and duties for the use of French as a language of service and work in federally regulated private businesses in Quebec, and later in regions with a strong francophone presence, and lets workers complain to the Commissioner in some cases."
+    ],
+    "who_it_affects": [
+      "Federal institutions",
+      "Official Languages Commissioner",
+      "Federally regulated private businesses",
+      "Employees of federally regulated private businesses",
+      "Francophone immigrants",
+      "English and French minority communities",
+      "Supreme Court of Canada"
+    ],
+    "background": "The bill amends the Official Languages Act and the Department of Canadian Heritage Act. It also enacts the Use of French in Federally Regulated Private Businesses Act and makes related amendments to the Canada Labour Code.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "labour-employment",
+      "immigration-citizenship"
+    ]
+  }
+}

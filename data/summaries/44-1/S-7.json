@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/S-7",
+  "sourceHash": "f973f928cd997b4db07a0162344f1a70",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:40.658Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/S-7",
+  "summary": {
+    "tldr": "Clarifies when border and preclearance officers can examine documents on personal digital devices, and updates related rules, offences and French wording.",
+    "what_it_does": [
+      "Clarifies when border services officers may examine documents stored on personal digital devices under the Customs Act.",
+      "Allows regulations to be made about those device examinations.",
+      "Updates enforcement, offences and punishment rules in the Customs Act.",
+      "Clarifies when preclearance officers may examine, search and detain documents stored on personal digital devices under the Preclearance Act, 2016, and allows regulations and ministerial directions for those actions.",
+      "Updates the French version of the Preclearance Act, 2016 about a traveller’s duty to identify themselves."
+    ],
+    "who_it_affects": [
+      "Travellers",
+      "Border services officers",
+      "Preclearance officers",
+      "People crossing the border"
+    ],
+    "background": "It amends the Customs Act and the Preclearance Act, 2016.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "transport-infrastructure"
+    ]
+  }
+}

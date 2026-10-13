@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/S-15",
+  "sourceHash": "3e0f29eb7914f1d44cdc30f841f85884",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:04.117Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/S-15",
+  "summary": {
+    "tldr": "Creates Criminal Code offences for keeping elephants and great apes in captivity, and sets rules for when live animals can be imported, exported, or kept.",
+    "what_it_does": [
+      "Creates offences under the Criminal Code for keeping elephants and great apes in captivity, subject to certain exceptions.",
+      "Sets out when the importation or exportation of living elephants and great apes may be allowed under the Wild Animal and Plant Protection and Regulation of International and Interprovincial Trade Act.",
+      "Specifies when keeping these animals in captivity may be authorized under that same Act."
+    ],
+    "who_it_affects": [
+      "People who keep elephants and apes",
+      "Importers and exporters",
+      "Wildlife regulators"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "trade-foreign-affairs"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-391",
+  "sourceHash": "bbc8783144bee44c50f8b5101af1d65d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:49.695Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13125919",
+  "summary": {
+    "tldr": "Adds sentencing rules for weapons offences near hospitals and blocks drug exemptions that would allow illicit use in hospitals.",
+    "what_it_does": [
+      "Requires courts to treat it as an aggravating circumstance when a person convicted under Criminal Code section 88 had a weapon in or near a hospital, on or near hospital grounds, or in or near another public health care facility.",
+      "Prevents the Minister from granting a Controlled Drugs and Substances Act exemption that would result in the illicit or unprescribed use of a controlled substance in a hospital.",
+      "Confirms that this ban does not apply to prescribed use of a controlled substance in a hospital by a patient, if a practitioner authorizes and supervises it."
+    ],
+    "who_it_affects": [
+      "People convicted of weapons offences",
+      "Hospitals and health care facilities",
+      "Patients using prescribed controlled substances",
+      "Practitioners",
+      "Federal health minister"
+    ],
+    "background": "The bill amends section 88 of the Criminal Code and section 56 of the Controlled Drugs and Substances Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health"
+    ]
+  }
+}

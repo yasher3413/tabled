@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/S-251",
+  "sourceHash": "36c47bde2b27f44822c289adfad2dafa",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:38.770Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14240229",
+  "summary": {
+    "tldr": "Requires the Environment Minister to develop a national strategy to end energy poverty, report to Parliament, and create an advisory council.",
+    "what_it_does": [
+      "Requires the Minister of the Environment, with other federal ministers, to develop a national strategy to eliminate energy poverty in Canada.",
+      "Sets out what the strategy must cover, including national metrics, targets, household supports, housing energy performance, coordination with other governments, research, and regular evaluation.",
+      "Requires the Minister to consult provinces, territories, municipalities, Indigenous governing bodies, utilities, housing providers, advocates, experts, and people experiencing energy poverty when developing the strategy.",
+      "Requires the Minister to table the strategy within two years of royal assent and publish it on a Government of Canada website.",
+      "Requires follow-up reports within two years after the strategy is tabled, and every five years after that, on how the strategy is being implemented and whether it is effective.",
+      "Creates an advisory council of up to 15 members to advise the Minister, and requires an annual public summary of the council’s advice."
+    ],
+    "who_it_affects": [
+      "Households experiencing energy poverty",
+      "Tenants",
+      "Rural and urban communities",
+      "Indigenous communities",
+      "Northern and remote communities",
+      "Provincial, territorial and municipal governments",
+      "Utilities and housing providers",
+      "Consumer and tenant advocates"
+    ],
+    "background": "The bill defines energy poverty as a household being unable, or at significant risk of being unable, to access the energy services needed for health, comfort, safety and participation in society.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "energy-resources",
+      "housing",
+      "government-operations"
+    ]
+  }
+}

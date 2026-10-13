@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/C-216",
+  "sourceHash": "6fd34ef2ad089aa9e78857ba6d2d631a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:34.559Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13571478",
+  "summary": {
+    "tldr": "Sets new online safety rules for platforms used by minors and changes child sexual abuse reporting and online harassment laws.",
+    "what_it_does": [
+      "Creates a duty of care for online platform operators to take reasonable steps to protect users they know or should know are minors from several kinds of online harm, including sexual violence, harmful content, addiction-like use and predatory marketing.",
+      "Requires platforms to offer safety settings, parental controls, reporting tools, clear disclosures about data and ads, and regular independent reviews and public reports on risks to minors.",
+      "Prohibits using design features or personal data to market unlawful products to minors, manipulating interfaces to weaken safety settings, or requiring a digital identifier to access online services.",
+      "Lets minors or their parents sue operators for serious harm caused by a failure to meet the duty of care, and sets fines for breaking the new rules.",
+      "Amends the mandatory reporting law for Internet child pornography to clarify covered services, send notices to a designated law enforcement body, require transmission data in some cases, and extend data preservation and prosecution periods.",
+      "Amends the Criminal Code to ban publishing altered nude sexual images of a person, create a separate online criminal harassment offence, and allow recognizance and production orders in some online harassment cases."
+    ],
+    "who_it_affects": [
+      "Online platform operators",
+      "Social media services",
+      "Video gaming services",
+      "Parents of minors",
+      "Children and teens",
+      "Internet service providers",
+      "Law enforcement",
+      "Courts"
+    ],
+    "background": "The bill would enact a new Protection of Minors in the Digital Age Act and amend two existing laws: the mandatory reporting law for Internet child pornography and the Criminal Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "crime-justice",
+      "families-children"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-239",
+  "sourceHash": "3f7ce688739a1400434f4762e3a7261e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:26.103Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11550224",
+  "summary": {
+    "tldr": "Lets provinces collect federal personal and corporation income taxes for Canada, and requires talks with Quebec about doing so.",
+    "what_it_does": [
+      "Allows the Minister of Finance, with Governor in Council approval, to sign agreements with a province for that province to collect federal personal and corporation income taxes and send the money to Canada.",
+      "Allows the minister, with the same approval, to amend the terms of any tax collection agreement already made.",
+      "Requires each agreement to include measures to lessen job impacts on affected workers.",
+      "Requires the minister to negotiate changes to income tax treaties, tax agreements, and tax information exchange agreements so the province can get the tax information it needs directly.",
+      "Requires the minister to begin talks with Quebec within 90 days and try to reach the agreement within one year."
+    ],
+    "who_it_affects": [
+      "Government of Quebec",
+      "Provincial governments",
+      "Federal Finance Minister",
+      "Tax administration workers",
+      "People and businesses that pay federal income tax"
+    ],
+    "background": "The bill amends an existing federal law that lets Canada make fiscal payments to provinces and enter tax collection agreements with provinces.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations"
+    ]
+  }
+}

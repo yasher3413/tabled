@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/C-294",
+  "sourceHash": "dbece968bb9d295262e4d85aecf919e8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:38.040Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13409606",
+  "summary": {
+    "tldr": "Lets people bypass certain technological protection measures on lawfully obtained software to make it work with other programs, devices or components.",
+    "what_it_does": [
+      "Allows people to bypass a technological protection measure on a lawfully obtained computer program to learn how to make it interoperable with other software, devices or components.",
+      "Allows people to bypass that measure to make the program, or a device that contains it, interoperable with other software, devices or components.",
+      "Allows a person who got that information to share it with someone else for the same interoperability purpose.",
+      "Limits the use of the technology, device, component or information to interoperability work only.",
+      "Denies the exception if the person also does an act that infringes copyright, and in one case if they break another federal or provincial law."
+    ],
+    "who_it_affects": [
+      "People with lawfully obtained software",
+      "Software developers",
+      "Device makers",
+      "People working on compatibility",
+      "Copyright owners"
+    ],
+    "background": "The bill changes subsection 41.12 of the Copyright Act. That section deals with when someone may circumvent a technological protection measure.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "economy-business"
+    ]
+  }
+}

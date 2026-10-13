@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-289",
+  "sourceHash": "ce67880327174dd3f902d77f2f6644e1",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:09.634Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14202930",
+  "summary": {
+    "tldr": "Raises penalties for certain synthetic opioid offences and makes some offenders wait 25 years before parole.",
+    "what_it_does": [
+      "Raises sentences for trafficking, possession for the purpose of trafficking, import, export and production of certain synthetic opioids. More than 40 mg leads to life in prison. 20 mg to 40 mg leads to life and a 15-year minimum.",
+      "Raises sentences for some other Schedule I or II drug offences when the amount is 20 mg or more, or more than 40 mg for import, export or production offences.",
+      "Requires courts to treat it as an aggravating factor when a synthetic opioid offence happens within 300 metres of a substance use treatment centre, school, child care facility, or another designated vulnerable-persons location.",
+      "Requires courts to treat it as an aggravating factor when the amount involved is 2 mg or more for item 16 substances, or at least the amount that could reasonably be expected to cause death for other synthetic opioids.",
+      "Allows regulations to name locations that count as vulnerable-persons locations for these sentencing rules.",
+      "Makes people convicted of certain synthetic opioid offences wait 25 years before parole on a life sentence."
+    ],
+    "who_it_affects": [
+      "People convicted of synthetic opioid offences",
+      "Drug traffickers",
+      "Courts",
+      "Parole boards",
+      "Schools and child care facilities",
+      "Substance use treatment centres"
+    ],
+    "background": "The bill amends the Controlled Drugs and Substances Act and makes a related change to the Criminal Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health"
+    ]
+  }
+}

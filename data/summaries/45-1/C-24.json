@@ -1,0 +1,27 @@
+{
+  "billId": "45-1/C-24",
+  "sourceHash": "2d2caf45b08fa573450bd93e6568c01e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:44.286Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-24",
+  "summary": {
+    "tldr": "Authorizes $86.4 billion in federal spending for public service expenses for the fiscal year ending March 31, 2027.",
+    "what_it_does": [
+      "Authorizes $86,422,679,148 from the Consolidated Revenue Fund to pay for certain federal public service expenses not otherwise provided for.",
+      "Came into force on Royal Assent and received Royal Assent on 26 March 2026."
+    ],
+    "who_it_affects": [
+      "Federal public service",
+      "Government of Canada departments",
+      "Federal public administration"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "billId": "44-1/S-215",
+  "sourceHash": "c4feb683a207ba7a0ea012caae662f58",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:05.896Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11474503",
+  "summary": {
+    "tldr": "Requires a federal proposal on post-secondary financial stability and excludes some post-secondary schools from federal bankruptcy laws.",
+    "what_it_does": [
+      "Requires the Minister to develop a proposal for federal initiatives to reduce the risk that a post-secondary institution becomes bankrupt or insolvent, protect students, faculty and staff, and support affected communities.",
+      "Requires the proposal to be developed with institutions, provincial and municipal governments, and groups that represent students, faculty and staff, then tabled in both Houses of Parliament and made public.",
+      "Excludes certain post-secondary educational institutions that receive government or municipal funding for ongoing public education from the definitions of \"corporation\" and \"company\" under the Bankruptcy and Insolvency Act and the Companies’ Creditors Arrangement Act.",
+      "Sets the new bankruptcy-law exclusions to come into force on a day fixed by the Governor in Council, on the Minister’s recommendation, if it matches the proposal."
+    ],
+    "who_it_affects": [
+      "Post-secondary institutions",
+      "Students",
+      "Faculty and staff",
+      "Provincial governments",
+      "Municipal governments",
+      "Communities near post-secondary institutions"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "education",
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

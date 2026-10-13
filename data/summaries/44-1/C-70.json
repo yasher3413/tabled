@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-70",
+  "sourceHash": "bc76b8af595ab66e4439c2a4de4e4960",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:44.418Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-70",
+  "summary": {
+    "tldr": "Creates new foreign interference offences, sets up a transparency commissioner and registry, and changes rules for security, evidence and intelligence law.",
+    "what_it_does": [
+      "Updates the Canadian Security Intelligence Act rules for collecting, keeping, querying and using datasets, and changes how CSIS can disclose information and get certain warrants and orders.",
+      "Requires a parliamentary review of the Canadian Security Intelligence Act every five years.",
+      "Creates new offences in the Security of Information Act for acting for a foreign entity, including some indictable offences and deceptive conduct tied to Canadian interests or democratic rights.",
+      "Broadens the Criminal Code sabotage offence to cover certain acts involving essential infrastructure, and applies some private communications interception rules to certain foreign interference offences.",
+      "Creates a new scheme under the Canada Evidence Act for sensitive information in Federal Court and Federal Court of Appeal cases, and limits some appeals until after conviction unless there are exceptional circumstances.",
+      "Creates the Foreign Influence Transparency and Accountability Act, including a Foreign Influence Transparency Commissioner and a public registry for certain arrangements with foreign principals."
+    ],
+    "who_it_affects": [
+      "Canadian Security Intelligence Service",
+      "People and groups with foreign principals",
+      "People accused of foreign interference offences",
+      "Federal court parties",
+      "Federal boards and tribunals",
+      "Parliamentary oversight bodies",
+      "Immigration and national security officials"
+    ],
+    "background": "The bill was introduced in the House of Commons on 6 May 2024 and is split into four parts. It amends the Canadian Security Intelligence Act, the Security of Information Act, the Criminal Code, the Canada Evidence Act and other laws.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections",
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

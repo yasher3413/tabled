@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/S-2",
+  "sourceHash": "55ebf1503a3559724659ad1074adb5e4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:26.590Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/S-2",
+  "summary": {
+    "tldr": "Changes Senate pay rules, consultation rules, and committee membership rules for Senate leaders and recognized groups.",
+    "what_it_does": [
+      "Changes extra annual allowances for senators in certain positions, so the government’s representatives and the Opposition in the Senate can each get allowances for five positions, and the three other recognized groups with the most members can each get allowances for four positions.",
+      "Requires the Leader of the Government in the Senate or Government Representative, the Leader of the Opposition, and the leader or facilitator of every other recognized party or parliamentary group to be consulted before certain officers and agents of Parliament are appointed.",
+      "Lets those Senate leaders and facilitators change the membership of the Standing Senate Committee on Internal Economy, Budgets and Administration.",
+      "Makes related changes to other Acts."
+    ],
+    "who_it_affects": [
+      "Senators in certain roles",
+      "Senate leaders",
+      "Recognized Senate parties and groups",
+      "Officers and agents of Parliament",
+      "Senate internal economy committee"
+    ],
+    "background": "The bill amends the Parliament of Canada Act and makes consequential and related amendments to other Acts.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "government-operations"
+    ]
+  }
+}

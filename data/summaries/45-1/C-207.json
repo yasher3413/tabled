@@ -1,0 +1,28 @@
+{
+  "billId": "45-1/C-207",
+  "sourceHash": "d634d3a68b6962ef6d546e3f08a64654",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:44.374Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13553852",
+  "summary": {
+    "tldr": "Requires consent from at least two thirds of provinces without comprehensive pension plans before a province can adopt one.",
+    "what_it_does": [
+      "Requires provincial consent before regulations can be made for a province to adopt a comprehensive pension plan under the Canada Pension Plan.",
+      "Requires consent from at least two thirds of the provinces without comprehensive pension plans, and those provinces must have at least two thirds of that group’s population.",
+      "Delays the law’s start until 180 days after royal assent."
+    ],
+    "who_it_affects": [
+      "Provincial governments",
+      "Provinces without comprehensive pension plans",
+      "Canada Pension Plan"
+    ],
+    "background": "It amends section 3 of the Canada Pension Plan. The bill comes into force 180 days after royal assent.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "budget-taxes"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "billId": "44-1/C-77",
+  "sourceHash": "62fb3392c7fca0fb89ff52e80b4101d3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:33:19.308Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-77",
+  "summary": {
+    "tldr": "Creates a Commissioner for Modern Treaty Implementation to review and audit government work on modern treaties, and sets up an office to support that role.",
+    "what_it_does": [
+      "Creates a Commissioner for Modern Treaty Implementation.",
+      "Gives the commissioner power to conduct reviews and performance audits of government institutions related to implementing modern treaties.",
+      "Creates an Office of the Commissioner for Modern Treaty Implementation to support the commissioner’s mandate, powers, duties and functions.",
+      "Makes consequential amendments to other Acts."
+    ],
+    "who_it_affects": [
+      "Government institutions",
+      "Modern treaty partners",
+      "Indigenous peoples",
+      "Commissioner’s office"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "government-operations"
+    ]
+  }
+}

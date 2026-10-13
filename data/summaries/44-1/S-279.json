@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/S-279",
+  "sourceHash": "80b007b7bfe3b732c26e7c21e658f43e",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:33.185Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12602900",
+  "summary": {
+    "tldr": "Requires registered charities to report counts of their officials in designated groups and creates a yearly public summary report.",
+    "what_it_does": [
+      "Requires registered charities to say, in their annual information return, how many directors, trustees, officers or similar officials belong to each designated group under the Employment Equity Act.",
+      "Allows the Minister of National Revenue to use that information only to prepare the annual report or for deregistration procedures.",
+      "Requires the minister to prepare an annual report by June 1 showing totals for registered charities and their officials in each designated group, using aggregate data only.",
+      "Prohibits the report from naming any charity or any individual official, but allows extra information or analysis.",
+      "Requires the report to be tabled in both Houses of Parliament within 10 sitting days and posted online as soon as practical after tabling.",
+      "Allows a charity’s registration to be revoked if it does not provide the required information."
+    ],
+    "who_it_affects": [
+      "Registered charities",
+      "Charity directors and trustees",
+      "Charity officers",
+      "Minister of National Revenue",
+      "People in designated groups"
+    ],
+    "background": "The bill amends the Income Tax Act. It uses the Employment Equity Act definition of “designated groups.”",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "government-operations",
+      "rights-equality",
+      "budget-taxes"
+    ]
+  }
+}

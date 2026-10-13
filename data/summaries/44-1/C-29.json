@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-29",
+  "sourceHash": "591de6dffbac44aa2fc5b8f22e5f2d43",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:07.888Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-29",
+  "summary": {
+    "tldr": "Creates a national council for reconciliation as an independent, permanent, Indigenous-led body.",
+    "what_it_does": [
+      "Creates a national council for reconciliation.",
+      "Sets the council up as independent, non-political and permanent.",
+      "Gives the council a purpose of advancing reconciliation with Indigenous peoples."
+    ],
+    "who_it_affects": [
+      "Indigenous peoples",
+      "Reconciliation organisations",
+      "Federal government"
+    ],
+    "background": "The minister introduced the bill in the House of Commons on 22 June 2022, and it received first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "government-operations"
+    ]
+  }
+}

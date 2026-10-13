@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/C-265",
+  "sourceHash": "ce58a63a12c7b8e206eea5e3f7dcc5a9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:19.401Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13962523",
+  "summary": {
+    "tldr": "Creates a pre-approved special access list for certain therapeutic products and sets new rules for emergency access to new drugs.",
+    "what_it_does": [
+      "Creates a Health Canada list of pre-approved, non-marketed therapeutic products for serious or life-threatening conditions, including rare diseases, and for cases where no comparable product is on the Canadian market.",
+      "Lets the Minister add, limit, or remove products from the list, publish the list and removal reasons, and consult an expert advisory committee before changing it.",
+      "Allows practitioners, pharmacists, hospitals, and medical non-profit groups to submit products for listing, and requires the Minister to decide within 120 days.",
+      "Lets practitioners request listed products from manufacturers, and lets licensed importers bring them in and distribute them under set reporting and oversight rules.",
+      "Sets rules for letters of authorization for emergency treatment with new drugs, including how the Minister must weigh evidence, give reasons for refusals, and keep emergency help available.",
+      "Allows temporary emergency use of a new drug or listed product based on clinical judgment, with later notice to the Minister."
+    ],
+    "who_it_affects": [
+      "Patients with serious conditions",
+      "Practitioners",
+      "Pharmacists",
+      "Hospitals",
+      "Medical non-profit organisations",
+      "Drug manufacturers",
+      "Licensed importers",
+      "Minister of Health"
+    ],
+    "background": "The bill builds on the Food and Drugs Act and the Food and Drug Regulations, which already provide special access and letters of authorization. It adds a statutory list and new rules for those processes.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-337",
+  "sourceHash": "117f5fd45635c6620d1eb0d744be6841",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:55.529Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12500626",
+  "summary": {
+    "tldr": "Requires the environment minister to develop a national strategy to reduce textile waste and report on it to Parliament.",
+    "what_it_does": [
+      "Requires the Minister of the Environment to work with provinces, Indigenous governing bodies and other stakeholders to develop a national strategy to reduce textile waste in Canada.",
+      "Requires the strategy to cover reuse, repair, repurposing, recycling, textile recycling technology and infrastructure, longer product life, consumer education and industry collaboration.",
+      "Requires the strategy to look at polluter-pays rules, financial incentives for manufacturers, removing sales tax from repair services, and labelling rules for recycled content and chemicals.",
+      "Requires the strategy to consider bans on harmful fabrics and dyes, lower supply chain emissions and water use, controls on microplastic emissions, and stopping exports of unusable textile waste to developing countries.",
+      "Requires the minister to table the strategy in Parliament within two years of the Act coming into force, then report on its effectiveness five years later, and publish both reports online."
+    ],
+    "who_it_affects": [
+      "Textile manufacturers",
+      "Retailers",
+      "Designers",
+      "Consumers",
+      "Repair businesses",
+      "Provincial governments",
+      "Indigenous governing bodies"
+    ],
+    "background": "The bill defines Indigenous governing body as a council, government or other entity that can act for an Indigenous group, community or people with section 35 rights. It says the Minister means the Minister of the Environment.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

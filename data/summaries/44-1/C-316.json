@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-316",
+  "sourceHash": "d866359dcd0880e5d802b90c2fa106cf",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:01.332Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13194549",
+  "summary": {
+    "tldr": "The bill would require the Minister of Canadian Heritage to maintain the Court Challenges Program and set reporting rules for it.",
+    "what_it_does": [
+      "Requires the Minister of Canadian Heritage to establish and run the Court Challenges Program, through an independent organisation that funds test cases of national importance.",
+      "Limits the program’s purpose to cases that seek to clarify and assert constitutional and quasi-constitutional official language rights and Charter human rights.",
+      "Requires the program’s administrator to file a yearly report on its work, funding, outreach, goals, and financial performance, plus the number of funding requests denied for each of the program’s two parts.",
+      "Requires the minister to table that annual report in each House of Parliament within the first 15 sitting days after receiving it."
+    ],
+    "who_it_affects": [
+      "Minister of Canadian Heritage",
+      "Court Challenges Program administrator",
+      "People bringing rights test cases",
+      "Official language minority communities",
+      "People asserting Charter rights"
+    ],
+    "background": "The bill amends the Department of Canadian Heritage Act. It refers to a program administered by an organisation independent of the Government of Canada and linked to the Official Languages Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

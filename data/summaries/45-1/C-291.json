@@ -1,0 +1,30 @@
+{
+  "billId": "45-1/C-291",
+  "sourceHash": "65fe302653d6d3b79e20754ee3faa1e4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:01.766Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14202535",
+  "summary": {
+    "tldr": "Requires a small business impact assessment for federal bills and regulations that could significantly affect Canadian small businesses.",
+    "what_it_does": [
+      "Adds protecting and promoting small businesses within the Canadian economy as a duty of the Department of Industry.",
+      "Requires the Minister to examine government bills and tabled regulations to see whether they could significantly affect Canadian small businesses.",
+      "Requires the Minister to table a small business impact assessment, and to publish it with a proposed regulation in the Canada Gazette.",
+      "Lets the Governor in Council make regulations about how assessments are done, what they must cover, and how to apply the idea of net positive impact."
+    ],
+    "who_it_affects": [
+      "Canadian small businesses",
+      "Ministers of the Crown",
+      "Federal regulators",
+      "Businesses with fewer than 50 employees"
+    ],
+    "background": "It amends the Department of Industry Act. The bill adds a new requirement to review certain legislative initiatives for their effect on small businesses.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

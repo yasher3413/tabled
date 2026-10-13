@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-35",
+  "sourceHash": "dfe101ed731c3ebc0187a9cdb3ed1e4c",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:12.399Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-35",
+  "summary": {
+    "tldr": "Sets out a federal vision for a Canada-wide early learning and child care system, commits to long-term funding, and creates an advisory council.",
+    "what_it_does": [
+      "Sets out the Government of Canada’s vision for a Canada-wide early learning and child care system.",
+      "Commits to maintaining long-term federal funding for early learning and child care for provinces and Indigenous peoples.",
+      "Creates the National Advisory Council on Early Learning and Child Care."
+    ],
+    "who_it_affects": [
+      "Families with young children",
+      "Early learning and child care providers",
+      "Provincial governments",
+      "Indigenous peoples",
+      "Federal government"
+    ],
+    "background": "The bill was introduced in the House of Commons on 8 December 2022 and given first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "families-children",
+      "education",
+      "indigenous-peoples"
+    ]
+  }
+}

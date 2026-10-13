@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-310",
+  "sourceHash": "f099e0f846a5408bf5012e8d14e5945b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:53.246Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12146597",
+  "summary": {
+    "tldr": "Raises the volunteer firefighter and search and rescue volunteer tax credits from $3,000 to $10,000 and changes the definition of eligible volunteer firefighting services.",
+    "what_it_does": [
+      "Raises the volunteer firefighter tax credit under the Income Tax Act from $3,000 to $10,000 for an eligible year.",
+      "Raises the search and rescue volunteer tax credit from $3,000 to $10,000 for an eligible year.",
+      "Changes the definition of eligible volunteer firefighting services to include being available or on call for firefighting, emergency, and non-emergency duties.",
+      "Allows a volunteer firefighter to receive nominal pay that does not count as a liveable wage."
+    ],
+    "who_it_affects": [
+      "Volunteer firefighters",
+      "Search and rescue volunteers",
+      "Fire departments",
+      "People claiming the tax credits"
+    ],
+    "background": "The bill says the new rules apply to the 2022 and later taxation years.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes"
+    ]
+  }
+}

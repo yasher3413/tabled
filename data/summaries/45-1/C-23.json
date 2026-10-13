@@ -1,0 +1,28 @@
+{
+  "billId": "45-1/C-23",
+  "sourceHash": "0a3b014c9be6e8f69b8b0578564f56ac",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:41.258Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-23",
+  "summary": {
+    "tldr": "Appropriates $5.41 billion for federal public service spending in 2025-26.",
+    "what_it_does": [
+      "Appropriates $5,408,955,628 from the Consolidated Revenue Fund for the public service of Canada for the year ending 31 March 2026.",
+      "Provides money for public service expenses that were not otherwise provided for in that fiscal year.",
+      "Came into force on Royal Assent, which was given on 26 March 2026."
+    ],
+    "who_it_affects": [
+      "Federal public service",
+      "Federal departments and agencies",
+      "Treasury Board"
+    ],
+    "background": "The President of the Treasury Board introduced the bill in the House of Commons on 24 March 2026. It received Royal Assent on 26 March 2026.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations"
+    ]
+  }
+}

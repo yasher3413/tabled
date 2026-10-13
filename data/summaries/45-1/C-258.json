@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-258",
+  "sourceHash": "446c88db2dcca2ed7c3080fd9f33677d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:59.750Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13803089",
+  "summary": {
+    "tldr": "Sets Criminal Code trial-time limits for superior and provincial court cases, with exceptions for defence-caused delay and some offences.",
+    "what_it_does": [
+      "Creates a rule that a superior court judge must stay proceedings, or stop the case, if the time from charge to the end of trial goes over 30 months, unless the prosecutor proves exceptional circumstances.",
+      "Creates a rule that a provincial court judge must stay proceedings if the time from charge to the end of trial goes over 18 months, unless the prosecutor proves exceptional circumstances.",
+      "Excludes delay caused only by the defence, or delay the defence waives, when counting whether either time limit has been reached.",
+      "Exempts primary designated offences under section 487.04 from these time limits, and says that exemption applies despite paragraph 11(b) of the Charter."
+    ],
+    "who_it_affects": [
+      "Accused people awaiting trial",
+      "Crown prosecutors",
+      "Superior court judges",
+      "Provincial court judges",
+      "Criminal defence lawyers"
+    ],
+    "background": "The bill says it codifies the Supreme Court of Canada framework from R. v. Jordan on the right to be tried within a reasonable time, and adds exceptions.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

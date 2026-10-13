@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-211",
+  "sourceHash": "e049aeff0e17e08a647291416bb76273",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:08.297Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12424338",
+  "summary": {
+    "tldr": "Requires certain government bodies and businesses to report on forced labour and child labour risks in their supply chains, and updates customs rules for affected goods.",
+    "what_it_does": [
+      "Requires certain government institutions to file annual public reports on the steps they took to prevent and reduce forced labour or child labour in goods they produce, buy, or distribute.",
+      "Requires covered businesses and importers to file annual reports, approved by their governing bodies, on steps taken to prevent and reduce the risk of forced labour or child labour in their goods and supply chains.",
+      "Gives the Minister of Public Safety power to set report forms, require information, designate inspectors, and order corrective measures when reporting rules are not met.",
+      "Allows inspectors to enter places, review documents and data, take copies and photos, and seek a warrant before entering a dwelling-house for inspection purposes.",
+      "Creates offences for failing to report, blocking an inspection, or making false statements, with fines of up to $250,000, and requires a public registry and annual report to Parliament.",
+      "Amends the Customs Tariff to allow goods mined, made, or produced wholly or partly by forced labour or child labour to be excluded from certain tariff items."
+    ],
+    "who_it_affects": [
+      "Government institutions",
+      "Covered businesses",
+      "Importers",
+      "Federal corporations",
+      "Customs officials",
+      "Members of corporate boards"
+    ],
+    "background": "The bill says it is meant to help Canada meet an international commitment to fight forced labour and child labour. It also changes the Customs Tariff to deal with goods covered by the new definitions.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "trade-foreign-affairs",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/S-267",
+  "sourceHash": "883375d56490e10785d142d0998d7b05",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:39.215Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12525521",
+  "summary": {
+    "tldr": "Adds a sentencing factor when someone commits an offence while a place is under evacuation or facing a natural disaster or emergency.",
+    "what_it_does": [
+      "Adds a new aggravating circumstance under the Criminal Code for sentencing when an offender takes advantage of a lawful evacuation order, natural disaster, or other emergency where the offence happened."
+    ],
+    "who_it_affects": [
+      "People sentenced for criminal offences",
+      "Victims in evacuation areas",
+      "Courts"
+    ],
+    "background": "The bill changes section 718.2 of the Criminal Code, which lists factors courts must consider when deciding a sentence.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

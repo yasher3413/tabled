@@ -1,0 +1,29 @@
+{
+  "billId": "45-1/C-211",
+  "sourceHash": "48f22d0019ed2a5e499c9b5e2ac0f662",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:38.360Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13565143",
+  "summary": {
+    "tldr": "Changes tax and pension rules so some people who qualify for provincial disability benefits are deemed to qualify federally, unless the minister decides otherwise.",
+    "what_it_does": [
+      "Adds a rule under the Income Tax Act that a person who can deduct a provincial mental or physical impairment amount is deemed to meet the federal medical expense credit requirements, unless the minister decides otherwise.",
+      "Applies that tax change to the 2026 tax year and later.",
+      "Changes the Canada Pension Plan so a person is considered disabled, unless the minister decides otherwise, if they meet the current disability test and receive a provincial disability pension or benefit."
+    ],
+    "who_it_affects": [
+      "People with mental or physical impairments",
+      "People receiving provincial disability benefits",
+      "People claiming the disability tax credit",
+      "Canada Pension Plan disability benefit applicants"
+    ],
+    "background": "The bill amends section 118.3 of the Income Tax Act and paragraph 42(2)(a) of the Canada Pension Plan.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "seniors-veterans"
+    ]
+  }
+}

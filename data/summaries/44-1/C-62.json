@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-62",
+  "sourceHash": "41a330ca68e952c85f5abd76c537987d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:16.130Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12937734",
+  "summary": {
+    "tldr": "Delays until March 17, 2027 the MAID rule for people whose only condition is a mental illness, and sets up a parliamentary review.",
+    "what_it_does": [
+      "Delays the coming into force of the MAID rule for people whose sole underlying medical condition is a mental illness until March 17, 2027.",
+      "Requires a joint committee of both Houses of Parliament to review this MAID eligibility question within two years after royal assent.",
+      "Lets the committee table a report with any recommended changes to the Criminal Code rules on medical assistance in dying.",
+      "Adds coordinating rules so, if the related 2021 provision comes into force first, mental illness is treated as not being an illness, disease or disability for that purpose until March 17, 2027."
+    ],
+    "who_it_affects": [
+      "People seeking medical assistance in dying",
+      "People whose only condition is a mental illness",
+      "Health care providers",
+      "Parliamentary committees"
+    ],
+    "background": "The bill amends An Act to amend the Criminal Code (medical assistance in dying), the 2021 law that set out the related Criminal Code rule.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

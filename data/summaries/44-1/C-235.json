@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-235",
+  "sourceHash": "a0bc33e4708a3dc2eae4b29c3ca9ddb4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:50.675Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12169863",
+  "summary": {
+    "tldr": "Requires a federal framework to help build a green economy in the Prairie provinces, with consultations and regular reports to Parliament.",
+    "what_it_does": [
+      "Requires the minister responsible for economic development in the Prairie provinces to work with six other federal ministers to develop a framework for local cooperation and engagement on federal programs.",
+      "Requires consultation with provincial officials for transportation, environment and employment, plus municipalities, Indigenous governing bodies, the private sector, employers and employees, unless another law already provides for that consultation.",
+      "Says the framework must improve transport options in small Prairie cities and communities, including new public transit solutions.",
+      "Says the framework must support job creation and skills transfer in areas that rely on traditional energy industries, to help build a net-zero emissions green economy and reduce climate impacts.",
+      "Says the framework must promote clean energy, natural infrastructure, climate adaptation projects and local projects involving businesses, governments and civil society.",
+      "Requires the minister to table the first framework report within 12 months, publish it online within 10 days after tabling in both Houses, and table progress reports every five years after the first follow-up report."
+    ],
+    "who_it_affects": [
+      "Prairie provinces",
+      "Municipalities",
+      "Indigenous governing bodies",
+      "Businesses in the Prairies",
+      "Employers and employees",
+      "Traditional energy regions",
+      "Federal ministers and departments"
+    ],
+    "background": "The bill creates a new framework for the Prairie provinces and requires later reports on its progress and effectiveness.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "environment-climate",
+      "transport-infrastructure"
+    ]
+  }
+}

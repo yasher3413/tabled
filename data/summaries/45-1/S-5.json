@@ -1,0 +1,33 @@
+{
+  "billId": "45-1/S-5",
+  "sourceHash": "df5ab9ff6c0b1550da0a5a7b9612ca53",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:22.107Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14118482",
+  "summary": {
+    "tldr": "Requires health information technology vendors to make their systems interoperable and bans data blocking, through federal rules that can apply province by province.",
+    "what_it_does": [
+      "Requires health information technology vendors to make the systems they license, sell, or provide as a service interoperable, so users can access, use, and exchange electronic health information.",
+      "Prohibits data blocking by vendors, unless the regulations allow a specific practice or act.",
+      "Lets the Governor in Council make the Act apply in a province or territory only if that government does not have requirements that are substantially similar to, or stronger than, the federal rules.",
+      "Allows regulations to set standards, define data blocking practices, create complaint and review processes, and establish administrative monetary penalties for non-compliance.",
+      "Removes the usual Statutory Instruments Act limit on incorporating documents by reference for certain technical standards.",
+      "Says section 126 of the Criminal Code does not apply to contraventions of this Act or its regulations."
+    ],
+    "who_it_affects": [
+      "Health information technology vendors",
+      "Patients",
+      "Health care providers",
+      "Provincial and territorial governments"
+    ],
+    "background": "The drafters say the bill is meant to make electronic health information easier to access, use, and exchange, and to keep it secure.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "technology-privacy",
+      "government-operations"
+    ]
+  }
+}

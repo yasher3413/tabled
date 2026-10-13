@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/S-238",
+  "sourceHash": "1c80dd585b146aa8f3399bb17295a3d2",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:08.491Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11603026",
+  "summary": {
+    "tldr": "Adds Criminal Code orders that can bar people from posting victim information online and gives victims a right to seek that protection.",
+    "what_it_does": [
+      "Adds internet publication bans to several Criminal Code orders made at bail, detention and release stages, when the information concerns a victim.",
+      "Lets sentencing, probation and conditional sentence orders include the same ban on publishing victim information online.",
+      "Lets peace bonds include a ban on publishing, distributing, transmitting or making accessible online information about the protected person, and in some cases that person's intimate partner or child.",
+      "Updates a court form of conditions to include the online publication ban.",
+      "Adds a Canadian Victims Bill of Rights right to reasonable and necessary measures to stop offenders from posting victim information online."
+    ],
+    "who_it_affects": [
+      "Victims",
+      "Accused people",
+      "Offenders",
+      "People on probation",
+      "People under peace bonds",
+      "Criminal courts"
+    ],
+    "background": "The bill changes the Criminal Code and the Canadian Victims Bill of Rights. It also amends a standard court form for conditions orders.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "technology-privacy"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-221",
+  "sourceHash": "a5a62feaf5d423d5ef51c7d275245d31",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:44.473Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14236857",
+  "summary": {
+    "tldr": "Requires explanations of how offender release and review dates are determined when those dates are disclosed to victims.",
+    "what_it_does": [
+      "Requires victim notices under the Corrections and Conditional Release Act to include an explanation of how eligibility dates and review dates for temporary absences or parole were determined.",
+      "Requires victim notices to include an explanation of how any release date was determined for temporary absence, work release, parole, or statutory release.",
+      "Requires similar explanations for unescorted temporary absences and parole under the part of the Act that deals with the Parole Board.",
+      "Delays the start of some sections of the Protecting Victims Act, and makes these bill changes start when those provisions come into force."
+    ],
+    "who_it_affects": [
+      "Victims of offences",
+      "Federal offenders",
+      "Correctional Service of Canada",
+      "Parole Board of Canada"
+    ],
+    "background": "The bill changes the Corrections and Conditional Release Act rules that let victims receive certain information about an offender's eligibility dates, review dates, and release dates. It also changes when some provisions of the Protecting Victims Act begin to apply.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

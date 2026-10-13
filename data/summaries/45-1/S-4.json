@@ -1,0 +1,36 @@
+{
+  "billId": "45-1/S-4",
+  "sourceHash": "ec8de837a48813099b55fc418fce55fe",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:14.031Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14143043",
+  "summary": {
+    "tldr": "Updates the Energy Efficiency Act to add exemptions, stronger enforcement tools, broader labelling and testing rules, and new penalties for energy-using products.",
+    "what_it_does": [
+      "Expands the Act’s purpose to include responsible energy use, a low-carbon economy, innovation, collaboration with Indigenous and provincial governments, and trade in energy-using products.",
+      "Broadens the Act to cover modern products and actors, including digital labels, commercial entities, new kinds of energy efficiency standards, and false or misleading claims about energy efficiency.",
+      "Lets the Minister exempt people or products from the Act or regulations for up to six months, or up to three years for testing or pilot projects, with conditions, extensions, publication and cost recovery.",
+      "Lets the Minister order corrective measures, such as stopping importation, shipping, labelling, sale, advertising or testing, and review those orders on request.",
+      "Strengthens inspection and evidence powers, including remote access by telecommunication, seizure of products, record keeping, information sharing and designated enforcement officers.",
+      "Creates administrative monetary penalties and raises offence fines for violations, false statements and other breaches of the Act or its regulations."
+    ],
+    "who_it_affects": [
+      "Dealers of energy-using products",
+      "Commercial importers and shippers",
+      "Manufacturers and suppliers",
+      "Inspectors and enforcement officers",
+      "Natural Resources Minister",
+      "Provincial regulators",
+      "Foreign regulators and agencies"
+    ],
+    "background": "It amends the Energy Efficiency Act, which sets rules for energy efficiency standards, labelling, testing and information for energy-using products.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "energy-resources",
+      "economy-business",
+      "technology-privacy"
+    ]
+  }
+}

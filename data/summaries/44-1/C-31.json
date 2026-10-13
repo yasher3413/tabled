@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-31",
+  "sourceHash": "fdad2c7aa9b786406e99baae3aaf3179",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:35:37.482Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-31",
+  "summary": {
+    "tldr": "Creates an interim dental benefit for children under 12 and a one-time rental housing benefit, and makes related tax changes.",
+    "what_it_does": [
+      "Creates an application-based interim dental benefit that gives direct financial support to parents for dental care for children under 12 from October 2022 to June 2024.",
+      "Creates a one-time rental housing benefit for eligible people who paid rent in 2022 for their principal residence and apply for the benefit.",
+      "Makes related amendments to the Income Tax Act, the Excise Tax Act, and the Excise Act, 2001."
+    ],
+    "who_it_affects": [
+      "Parents of children under 12",
+      "People who paid rent in 2022",
+      "Benefit applicants"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "housing",
+      "budget-taxes"
+    ]
+  }
+}

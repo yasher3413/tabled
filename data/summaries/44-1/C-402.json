@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-402",
+  "sourceHash": "500a24e6d33244f9572bfbe7eacb7b25",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:05.237Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13195974",
+  "summary": {
+    "tldr": "Creates a national strategy under the Marine Liability Act to deal with pollution caused by shipping container spills.",
+    "what_it_does": [
+      "Requires the transport minister to develop and implement a national strategy on pollution caused by shipping container spills.",
+      "Requires the minister to give Indigenous organizations a meaningful chance to help develop the strategy.",
+      "Requires an independent study of current gaps, salvage capacity, spill prevention and cleanup measures, ship manifests, container tracking, and a possible cleanup fund, then a report to Parliament.",
+      "Requires the strategy to include measures to prevent spills, improve communication, create a joint spill response task force, monitor and remove debris, fix gaps in the current regime, and fund research on plastics and removal methods.",
+      "Requires the minister to table a report with the strategy and implementation schedule within one year, then file annual progress reports starting in the year of the second anniversary."
+    ],
+    "who_it_affects": [
+      "Indigenous organizations",
+      "Coastal communities",
+      "Shipping companies",
+      "Commercial fishing organizations",
+      "Federal and provincial governments",
+      "Local authorities",
+      "Environmental groups"
+    ],
+    "background": "Adds a new Part 7.1 to the Marine Liability Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "transport-infrastructure",
+      "indigenous-peoples"
+    ]
+  }
+}

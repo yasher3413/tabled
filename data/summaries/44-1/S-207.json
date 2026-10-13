@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/S-207",
+  "sourceHash": "ac187ecabb72bde8e8cc3bc7d0873fb4",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:07.965Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11554907",
+  "summary": {
+    "tldr": "Renames the federal riding of Châteauguay Lacolle to Châteauguay Les Jardins de Napierville.",
+    "what_it_does": [
+      "Changes the name in the Quebec part of the 2013 federal representation order from Châteauguay Lacolle to Châteauguay Les Jardins de Napierville.",
+      "Sets the change to take effect six months after royal assent, unless the Chief Electoral Officer gives notice in the Canada Gazette that it is ready sooner."
+    ],
+    "who_it_affects": [
+      "Residents of the riding",
+      "Election candidates",
+      "Elections Canada"
+    ],
+    "background": "The bill amends the 2013 representation order made under the Electoral Boundaries Readjustment Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "democracy-elections"
+    ]
+  }
+}

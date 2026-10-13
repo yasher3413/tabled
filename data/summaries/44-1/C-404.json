@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/C-404",
+  "sourceHash": "15c7cf3f5feaac16dd3d34a30ba8cacc",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:07.840Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13196147",
+  "summary": {
+    "tldr": "Creates January 7 each year as National Conversion Therapy Awareness Day across Canada.",
+    "what_it_does": [
+      "Designates January 7 each year as National Conversion Therapy Awareness Day throughout Canada."
+    ],
+    "who_it_affects": [
+      "Canadians",
+      "Schools",
+      "Community groups"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/C-73",
+  "sourceHash": "49a7b322533e62e5b8c9620d91363a0a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:03.295Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-73",
+  "summary": {
+    "tldr": "Requires the environment minister to promote transparency and accountability for certain Canadian commitments under the Convention on Biological Diversity.",
+    "what_it_does": [
+      "Requires the Minister of the Environment to promote transparency and accountability in relation to certain commitments Canada has made under the Convention on Biological Diversity."
+    ],
+    "who_it_affects": [
+      "Minister of the Environment",
+      "Federal government"
+    ],
+    "background": "The bill was introduced in the House of Commons on 13 June 2024 and received first reading. It is called the Nature Accountability Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "government-operations"
+    ]
+  }
+}

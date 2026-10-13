@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/C-361",
+  "sourceHash": "b07769b383b21287a2dbfc8d0323df94",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:04.619Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12673038",
+  "summary": {
+    "tldr": "Designates November as Albanian Heritage Month across Canada.",
+    "what_it_does": [
+      "Designates the month of November as “Albanian Heritage Month” throughout Canada each year."
+    ],
+    "who_it_affects": [
+      "Albanian Canadians",
+      "Cultural groups",
+      "Public institutions"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

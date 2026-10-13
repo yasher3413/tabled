@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-400",
+  "sourceHash": "310ce5a972a233336a4bb995f140caed",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:00.571Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13195898",
+  "summary": {
+    "tldr": "Creates a federal framework to keep cash available in Canada and bans the Bank of Canada from issuing a digital dollar.",
+    "what_it_does": [
+      "Requires the Minister of Finance to review laws, regulations and policies on cash access within 90 days of the bill coming into force.",
+      "Requires the minister to develop and implement a framework that keeps cash available across Canada, including access to withdrawals, deposits, cash acceptance, and cash donations.",
+      "Requires the framework to address the long-term viability of Canada’s cash infrastructure, including sorting, storing and distributing cash.",
+      "Requires the minister to table a report on the framework in Parliament within 18 months, then later review its implementation, effectiveness, and social and economic impacts.",
+      "Repeals the Governor in Council’s power to call in coins and notes under the Currency Act and bars the Bank of Canada from issuing a digital form of the dollar."
+    ],
+    "who_it_affects": [
+      "Cash users",
+      "Financial institutions",
+      "Businesses and creditors",
+      "Non-profit organisations",
+      "Community organisations",
+      "Bank of Canada",
+      "Federal government"
+    ],
+    "background": "The bill amends the Currency Act and the Bank of Canada Act. It also removes the Governor in Council’s power to call in coins and notes.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business",
+      "technology-privacy",
+      "government-operations"
+    ]
+  }
+}

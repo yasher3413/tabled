@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-55",
+  "sourceHash": "1e69b3189a54e2f64a120fdc749ae41a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:40.006Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-55",
+  "summary": {
+    "tldr": "Authorizes $20.48 billion in federal spending for the public service for 2023-24.",
+    "what_it_does": [
+      "Authorizes payments to cover public service expenses for the fiscal year ending 31 March 2024.",
+      "Appropriates $20,478,605,110 from the Consolidated Revenue Fund for the public service of Canada.",
+      "Takes effect on royal assent."
+    ],
+    "who_it_affects": [
+      "Public service of Canada",
+      "Federal departments and agencies",
+      "Treasury Board"
+    ],
+    "background": "This is an appropriation act for the federal public administration for the 2023-24 fiscal year.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "government-operations"
+    ]
+  }
+}

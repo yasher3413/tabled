@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-324",
+  "sourceHash": "8d837383dfb6142c5cbee3ba9832c681",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:42.517Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12274823",
+  "summary": {
+    "tldr": "Renames the Special Economic Measures Act and updates related federal laws and regulations to use the new name.",
+    "what_it_does": [
+      "Changes the long title of the Special Economic Measures Act to say it allows economic measures against a person, an entity, or a foreign state for grave breaches of international peace and security, gross and systematic human rights violations, or significant corruption.",
+      "Renames the Act the Sergei Magnitsky Global Sanctions Act.",
+      "Replaces references to the old Act name in several other federal laws and regulations with the new name."
+    ],
+    "who_it_affects": [
+      "Federal departments",
+      "Sanctions administrators",
+      "People or entities named in sanctions",
+      "Businesses covered by sanctions rules"
+    ],
+    "background": "It amends the Special Economic Measures Act. It also changes references to that Act in other federal laws and regulations.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "government-operations"
+    ]
+  }
+}

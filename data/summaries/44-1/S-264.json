@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/S-264",
+  "sourceHash": "d97d108030ffda80738d4217b99fb8a7",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:53.475Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12440725",
+  "summary": {
+    "tldr": "Designates June 4 as International Tax Justice and Cooperation Day and says it is not a legal holiday.",
+    "what_it_does": [
+      "Designates June 4 each year, throughout Canada, as \"International Tax Justice and Cooperation Day\".",
+      "States that the day is not a legal holiday or a non-juridical day."
+    ],
+    "who_it_affects": [
+      "Canadians",
+      "Schools",
+      "Community groups"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

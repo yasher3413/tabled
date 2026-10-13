@@ -1,0 +1,34 @@
+{
+  "billId": "44-1/C-334",
+  "sourceHash": "2e9e627f10a1f63daa98eaf852886571",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:45:03.729Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12474880",
+  "summary": {
+    "tldr": "Changes when courts can order publication bans to protect victims’ identities, adds a process to change or cancel them, and requires training for judges and federal prosecutors.",
+    "what_it_does": [
+      "Requires judges or justices to ask whether prosecutors took reasonable steps to consult the victim before applying for a publication ban.",
+      "Bars a publication ban for an adult victim who was consulted, unless that victim consents.",
+      "Requires prosecutors to notify protected victims and witnesses of the order and explain how to ask for it to be revoked or varied.",
+      "Creates a process for a court to revoke or vary a publication ban, including on an adult victim’s application, with notice to affected victims and witnesses.",
+      "Allows a court, after a guilty finding and before sentencing, to ask whether the victim was told they could request a change to the order through their victim impact statement.",
+      "Requires training for federally appointed judges and continuing education for federal prosecutors on sexual assault proceedings, consent, publication bans, and their impact on victims."
+    ],
+    "who_it_affects": [
+      "Victims of sexual offences",
+      "Witnesses whose identity is protected",
+      "Adult victims",
+      "Federally appointed judges",
+      "Federal prosecutors"
+    ],
+    "background": "The Criminal Code already lets courts order that identifying information about a victim or witness not be published in certain proceedings. This bill changes how those orders are made, changed, and explained to victims.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

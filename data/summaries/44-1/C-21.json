@@ -1,0 +1,36 @@
+{
+  "billId": "44-1/C-21",
+  "sourceHash": "834e3b86854f48ad5929a32adfdd34e8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:20.309Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-21",
+  "summary": {
+    "tldr": "Changes federal firearms, nuclear security and immigration rules, including new offences, licence limits and new powers for security officers.",
+    "what_it_does": [
+      "Raises the maximum prison sentence from 10 to 14 years for certain indictable weapons offences under the Criminal Code.",
+      "Creates a process for emergency prohibition orders and emergency limits on access, and lets a judge protect the security of the person or anyone known to them.",
+      "Changes Firearms Act rules on licences and handgun transfers, including blocking some people with protection orders, domestic violence or stalking from holding a licence, and limiting handgun transfers to businesses and exempted individuals.",
+      "Creates new offences for altering a cartridge magazine beyond its lawful capacity and for advertising a firearm in a way that depicts, counsels or promotes violence against a person.",
+      "Lets certain federal security employees be treated as public officers for a Criminal Code weapons provision, and gives nuclear security officers and on-site nuclear response force members peace officer duties at high-security nuclear sites.",
+      "Changes immigration rules so certain offences on entering Canada can make a foreign national inadmissible, and requires the annual firearms report to include certain law enforcement disclosures and be filed by May 31."
+    ],
+    "who_it_affects": [
+      "Gun owners and licence holders",
+      "People subject to protection orders",
+      "Businesses that sell firearms",
+      "Law enforcement agencies",
+      "Federal security staff",
+      "High-security nuclear sites",
+      "Foreign nationals entering Canada"
+    ],
+    "background": "The bill was introduced in the House of Commons on 30 May 2022. It amends the Criminal Code, the Firearms Act, the Nuclear Safety and Control Act and the Immigration and Refugee Protection Act.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations",
+      "immigration-citizenship"
+    ]
+  }
+}

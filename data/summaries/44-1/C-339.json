@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-339",
+  "sourceHash": "c50e4111c5bfb63fadf8f7f0bf715a8b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:44:03.087Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12509648",
+  "summary": {
+    "tldr": "Repeals the Competition Act’s efficiencies defence for mergers and proposed mergers.",
+    "what_it_does": [
+      "Repeals section 96 of the Competition Act, which is the efficiencies defence in merger cases.",
+      "Removes the rule that can stop the Competition Tribunal from making a merger order when efficiency gains outweigh the merger’s anti-competitive effects.",
+      "Updates subsection 92(1) so the Tribunal may act, subject to sections 94 and 95."
+    ],
+    "who_it_affects": [
+      "Companies planning mergers",
+      "Businesses in merger reviews",
+      "Competition Tribunal"
+    ],
+    "background": "Section 96 of the Competition Act is the “efficiencies defence.” It lets the Competition Tribunal avoid making an order in some merger cases if efficiency gains outweigh the harm to competition.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "economy-business"
+    ]
+  }
+}

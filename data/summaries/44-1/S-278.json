@@ -1,0 +1,32 @@
+{
+  "billId": "44-1/S-278",
+  "sourceHash": "a971bceca69fedfcaad77afc01a5a8f2",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:58.378Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12602797",
+  "summary": {
+    "tldr": "Allows the Governor in Council to forfeit foreign state assets seized under the Special Economic Measures Act and updates related cost, proceeds and RCMP rules.",
+    "what_it_does": [
+      "Creates a new power for the Governor in Council to order property owned, held or controlled by a foreign state to be forfeited to Canada when it is subject to a seizure order under paragraph 4(1)(b).",
+      "Excludes foreign state property from the existing forfeiture rule in section 5.4, so those assets are dealt with under the new section 5.41 instead.",
+      "Updates the cost rule so expenses tied to seizure, restraint or disposal of forfeited property can be recovered from the owner as a debt owed to Canada.",
+      "Updates the proceeds rule so net proceeds from property forfeited under section 5.4 or 5.41 can be paid out of the Proceeds Account after consultations with the Minister of Finance and the Minister of Foreign Affairs.",
+      "Expands RCMP assistance powers to cover forfeiture orders under section 5.41 and related information gathering and sharing."
+    ],
+    "who_it_affects": [
+      "Foreign states",
+      "Owners of seized property",
+      "Governor in Council",
+      "RCMP",
+      "Ministers of Finance and Foreign Affairs"
+    ],
+    "background": "The Special Economic Measures Act already allows Canada to seize or restrain property under an order made under paragraph 4(1)(b), and to forfeit some property under section 5.4. This bill adds a separate forfeiture process for property owned, held or controlled by a foreign state.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "trade-foreign-affairs",
+      "government-operations"
+    ]
+  }
+}

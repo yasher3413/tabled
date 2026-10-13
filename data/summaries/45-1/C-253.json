@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/C-253",
+  "sourceHash": "02ad903ed72a065b09829f863577cf3b",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:19.919Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13703685",
+  "summary": {
+    "tldr": "Requires the Finance Minister to develop a national framework for a guaranteed livable basic income for people over 17 and report to Parliament on it.",
+    "what_it_does": [
+      "Requires the Minister of Finance to develop a national framework for a guaranteed livable basic income program across Canada for people over 17, including temporary workers, permanent residents and refugee claimants.",
+      "Requires consultation with federal and provincial ministers, Indigenous elders, Indigenous governing bodies, and other stakeholders when developing the framework.",
+      "Requires the framework to set regional standards for what counts as a livable basic income and to include health and social supports that fit each province.",
+      "Requires the framework to say that people do not have to join education, training or the labour market to qualify.",
+      "Requires the framework to protect existing health and disability supports so they are not reduced because of the program.",
+      "Requires the Minister to table a report within one year, then review the framework and table follow-up reports every year starting two years later."
+    ],
+    "who_it_affects": [
+      "People over 17 in Canada",
+      "Temporary workers",
+      "Permanent residents",
+      "Refugee claimants",
+      "Provincial governments",
+      "Indigenous governing bodies",
+      "Health and social service ministers",
+      "People with health or disability needs"
+    ],
+    "background": "The bill defines the Minister as the Minister of Finance. It would also require the Minister to publish the report on the Department of Finance website after it is tabled in both Houses of Parliament.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "health",
+      "labour-employment"
+    ]
+  }
+}

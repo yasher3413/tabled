@@ -1,0 +1,34 @@
+{
+  "billId": "45-1/C-249",
+  "sourceHash": "4ee0f10406db351d31c8a779699bf75f",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:39:26.458Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13677818",
+  "summary": {
+    "tldr": "Changes Employment Insurance rules for pregnancy, parental and critically ill adult care benefits, including a 26-week limit for critically ill adult care.",
+    "what_it_does": [
+      "Exempts benefits paid because of pregnancy, or because a claimant is caring for a newborn or an adopted child, from the combined weeks of benefits rule.",
+      "Extends the benefit period for claimants who receive pregnancy or parental benefits.",
+      "Raises the maximum weeks of benefits for caring for or supporting a critically ill adult from 15 to 26, for Employment Insurance claimants and self-employed claimants.",
+      "Allows two claimants caring for the same critically ill adult to divide up to 26 weeks of benefits between them, under the Employment Insurance and self-employed rules.",
+      "Repeals subsection 12(7) and Schedule IV of the Employment Insurance Act."
+    ],
+    "who_it_affects": [
+      "Pregnant workers",
+      "New parents",
+      "Adoptive parents",
+      "People caring for a critically ill adult",
+      "Self-employed workers",
+      "Employment Insurance claimants"
+    ],
+    "background": "The bill amends the Employment Insurance Act. It changes rules for combining weeks of benefits and for benefit periods linked to pregnancy, parental leave and care for critically ill adults.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment",
+      "families-children",
+      "health"
+    ]
+  }
+}

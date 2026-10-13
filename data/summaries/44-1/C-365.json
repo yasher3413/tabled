@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-365",
+  "sourceHash": "fc81f74b513a424e07d7379ccb75f6ce",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:09.777Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12701984",
+  "summary": {
+    "tldr": "Requires the Finance Minister to table an open banking implementation plan and, if needed, explain delays in introducing a related bill.",
+    "what_it_does": [
+      "Requires the Minister of Finance to table a plan for implementing open banking in Canada within 30 days after the Act comes into force, or within the first 10 sitting days of the next House sitting if needed.",
+      "Requires the Minister of Finance to table a report if no open banking bill has been introduced within six months, setting out the reasons for the delay and the expected timeline."
+    ],
+    "who_it_affects": [
+      "Minister of Finance",
+      "Parliament",
+      "Canadians who use banking services",
+      "Banks and other financial institutions"
+    ],
+    "background": "The bill concerns the implementation of open banking in Canada and sets deadlines for ministerial reporting.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "technology-privacy",
+      "economy-business",
+      "government-operations"
+    ]
+  }
+}

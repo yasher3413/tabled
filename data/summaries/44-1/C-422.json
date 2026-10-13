@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-422",
+  "sourceHash": "42718aba4f4c4c4705d068e7b8450c37",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:40:14.892Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13472315",
+  "summary": {
+    "tldr": "Stops provincial disability benefits, marital status, and household income from affecting Canada Disability Benefit eligibility or payment amounts.",
+    "what_it_does": [
+      "Renumbers section 4 of the Canada Disability Benefit Act and adds a rule that a person's provincial disability benefit, marital status, or household income cannot be used to decide eligibility or reduce the benefit.",
+      "Requires regulations under the Act to use the applicant's own income, not household income, when setting criteria, conditions, or amounts."
+    ],
+    "who_it_affects": [
+      "People with disabilities",
+      "Canada Disability Benefit applicants",
+      "Provincial disability benefit recipients",
+      "Married applicants"
+    ],
+    "background": "The bill amends the Canada Disability Benefit Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "rights-equality"
+    ]
+  }
+}

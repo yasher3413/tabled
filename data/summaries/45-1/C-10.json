@@ -1,0 +1,28 @@
+{
+  "billId": "45-1/C-10",
+  "sourceHash": "1c807cdd615149f6290c1c29b5fc5085",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:10.538Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-10",
+  "summary": {
+    "tldr": "Creates a Commissioner for Modern Treaty Implementation and an office to review federal activities tied to modern treaties.",
+    "what_it_does": [
+      "Creates a Commissioner for Modern Treaty Implementation to conduct reviews and performance audits of government activities related to implementing modern treaties.",
+      "Establishes an Office of the Commissioner for Modern Treaty Implementation to support the Commissioner’s work.",
+      "Makes consequential changes to other Acts."
+    ],
+    "who_it_affects": [
+      "Federal government institutions",
+      "Modern treaty partners",
+      "Indigenous peoples with modern treaties"
+    ],
+    "background": null,
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "government-operations"
+    ]
+  }
+}

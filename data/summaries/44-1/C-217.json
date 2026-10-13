@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-217",
+  "sourceHash": "73f5c7dceac1a4dcf5fc0c45a36e61c3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:57.399Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11506961",
+  "summary": {
+    "tldr": "Requires the Environment Minister to develop a national strategy for fresh water, report to Parliament within two years, and trigger a later review.",
+    "what_it_does": [
+      "Requires the Minister of the Environment to develop a national strategy for the conservation, protection and use of fresh water with provinces, municipalities, Indigenous groups, scientists, researchers and civil society groups.",
+      "Sets topics for the strategy, including drinking water standards, freshwater issues in international agreements, water and wastewater infrastructure, eutrophication in lakes, freshwater biodiversity and groundwater knowledge gaps.",
+      "Requires the minister to hold at least one conference with the people and groups involved in developing the strategy.",
+      "Requires the minister to table a report setting out the strategy in both Houses of Parliament within two years after royal assent, then post it on the Environment Department website within 10 days.",
+      "Requires a parliamentary committee to review the strategy within five years after the report is tabled and to report back with any recommended changes."
+    ],
+    "who_it_affects": [
+      "Federal Environment Minister",
+      "Provincial governments",
+      "Municipal governments",
+      "Indigenous groups",
+      "Freshwater scientists and researchers",
+      "Environmental organisations",
+      "Parliament"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "environment-climate",
+      "government-operations",
+      "indigenous-peoples"
+    ]
+  }
+}

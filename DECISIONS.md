@@ -51,3 +51,7 @@ One line each: decision, reason.
 - OpenAI summaries use medium reasoning effort: low effort left omnibus bills under-covered (5 bullets missing whole parts); medium is about 3 times the output tokens but still cents per bill.
 - The summary prompt now leads each bullet with the practical change and names at most one law per bullet; "who it affects" lists people or organizations only. The first OpenAI drafts listed Act names, which missed the grade 8 bar.
 - Added "broad", "far-reaching", "overhaul" and "reshape" to the ban list: they are evaluative in the same way as "sweeping".
+- Summaries generated with OpenAI gpt-5.4-mini for both sessions: 598 bills (one has no usable source and correctly gets none). About 2.2M input and 0.6M output tokens. All passed the validator; spot checks against sources found them accurate.
+- The validator's sentence counter now skips legal citations, initials and abbreviations (R.S.C. 1985, c. I-5; St. Lawrence; No. 2); it was rejecting valid single sentences.
+- "Dangerous offender", "dangerous driving", "dangerous goods" and "dangerous operation" are exempt from the ban list: they are statutory designations, and avoiding them produced unreadable summaries.
+- With topics present, the bills filter row gives search its own line on wide screens so all seven filters fit.

@@ -1,0 +1,30 @@
+{
+  "billId": "45-1/C-29",
+  "sourceHash": "8664302b39f21fcd850d769d601d62a3",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:31:27.043Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-29",
+  "summary": {
+    "tldr": "Creates a federal agency to investigate financial crimes and help recover crime proceeds, and makes related legal changes.",
+    "what_it_does": [
+      "Creates the Financial Crimes Agency as a specialised federal law enforcement agency.",
+      "Requires the agency to investigate financial crimes.",
+      "Gives the agency a role in helping recover proceeds of crime.",
+      "Makes consequential amendments to certain Acts and regulations."
+    ],
+    "who_it_affects": [
+      "Federal law enforcement",
+      "People and groups investigated for financial crimes",
+      "Victims of crime",
+      "Organizations covered by related federal laws"
+    ],
+    "background": "The bill was introduced in the House of Commons on 27 April 2026 and received first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/S-280",
+  "sourceHash": "aac0107adac2df77f48ccbbc094506d9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:42:23.057Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12693801",
+  "summary": {
+    "tldr": "Requires the health minister to develop a national framework on sickle cell disease, with standards, research, screening, awareness and reporting.",
+    "what_it_does": [
+      "Requires the Minister of Health to develop a national framework on sickle cell disease.",
+      "Includes measures for training, education, and diagnostic and treatment tools for health care professionals.",
+      "Creates a national research network, improves data collection, and establishes a national registry on sickle cell disease.",
+      "Sets evidence-based national standards for diagnosis and treatment, and measures for equitable access to newborn screening, diagnosis and results.",
+      "Includes measures to support public awareness campaigns and an analysis of a tax credit for people with sickle cell disease and their caregivers.",
+      "Requires the minister to consult other ministers, provincial and territorial governments, and stakeholders, then table the framework in Parliament within one year and report later on what was implemented."
+    ],
+    "who_it_affects": [
+      "People with sickle cell disease",
+      "Families and caregivers",
+      "Health care professionals",
+      "Researchers",
+      "Provincial and territorial governments",
+      "Patient and support groups"
+    ],
+    "background": "Sickle cell disease is also known as sickle cell anemia or drepanocytosis.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "government-operations",
+      "families-children"
+    ]
+  }
+}

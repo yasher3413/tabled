@@ -1,0 +1,25 @@
+{
+  "billId": "44-1/C-384",
+  "sourceHash": "c8fc59376b9c8d747897a7acc7d9141d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:43:29.188Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12955470",
+  "summary": {
+    "tldr": "Designates October as Turkish Heritage Month across Canada each year.",
+    "what_it_does": [
+      "Designates the month of October throughout Canada as “Turkish Heritage Month” each year."
+    ],
+    "who_it_affects": [
+      "Turkish Canadians",
+      "Cultural groups",
+      "Federal institutions"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "commemoration"
+    ]
+  }
+}

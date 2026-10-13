@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/S-208",
+  "sourceHash": "8a7ceaa065dae132333db2e27b1018e5",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:38:53.567Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13541949",
+  "summary": {
+    "tldr": "Changes Criminal Code sentencing rules, gives courts more discretion, and requires written reasons before imposing certain minimum punishments.",
+    "what_it_does": [
+      "Gives courts discretion to set the punishment when a law sets different kinds or levels of punishment for an offence, including declared minimum punishments.",
+      "Requires courts to consider all other options before imposing a minimum jail term or parole ineligibility period, and to give written reasons for that decision.",
+      "Allows courts to delay sentencing so a person found guilty can attend a treatment or counselling program under court supervision, without needing the Attorney General’s consent.",
+      "Requires judges in first and second degree murder cases to ask juries if they want to recommend parole ineligibility years, and to consider any recommendation when setting that period."
+    ],
+    "who_it_affects": [
+      "Sentencing judges",
+      "People convicted of offences",
+      "People facing minimum sentences",
+      "People convicted of murder",
+      "Victims",
+      "Criminal courts"
+    ],
+    "background": "The bill amends the Criminal Code. It changes rules about punishment, court-supervised treatment programs, and jury recommendations in murder cases.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

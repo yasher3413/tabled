@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/C-298",
+  "sourceHash": "7a493d4b4178f8bdbcb5ced4ddfab0a9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:33.001Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11935860",
+  "summary": {
+    "tldr": "Amends the Income Tax Act to treat some tax avoidance transactions as misuse when the tax benefit is bigger than the transaction’s real financial benefit.",
+    "what_it_does": [
+      "Adds a new rule under section 245 of the Income Tax Act for “economic substance”.",
+      "Deems an avoidance transaction to be a misuse of tax benefit rules if the tax benefit, directly or indirectly, is greater than the transaction’s actual or expected financial benefit, unless proven otherwise."
+    ],
+    "who_it_affects": [
+      "Taxpayers using avoidance transactions",
+      "Tax advisers",
+      "Businesses",
+      "Individuals claiming tax benefits"
+    ],
+    "background": "The bill changes section 245 of the Income Tax Act, which deals with misuse of tax benefit provisions.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes"
+    ]
+  }
+}

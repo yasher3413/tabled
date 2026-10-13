@@ -1,0 +1,35 @@
+{
+  "billId": "44-1/C-302",
+  "sourceHash": "a25ad5d0c703b2a50c9a90346798d918",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:46:13.159Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12019085",
+  "summary": {
+    "tldr": "Bans most replacement workers during lawful strikes or lockouts in federally regulated workplaces, and adds fines for breaking the rule.",
+    "what_it_does": [
+      "Adds a rule that lets the Canada Industrial Relations Board settle a new collective agreement after 90 days of a strike or lockout, if the parties have bargained in good faith for at least 30 days and still have no agreement.",
+      "Requires employers to reinstate employees in the bargaining unit when a strike or lockout ends, ahead of other people.",
+      "Bars employers from using people hired during the notice-to-bargain period, contractors, other employees, or other outside help to do strikers' or locked-out workers' duties, except in limited cases.",
+      "Allows replacement workers only when needed to prevent danger to life, health or safety, major damage to equipment or premises, or serious environmental damage, and only for conservation purposes.",
+      "Lets the Minister appoint an investigator to check compliance, require assistance at the workplace, and order a report to the Minister and the parties.",
+      "Makes a person who breaks the replacement-worker rule guilty of an offence and liable to a fine of up to $100,000 for each day the offence continues."
+    ],
+    "who_it_affects": [
+      "Federally regulated employers",
+      "Unionized workers",
+      "Unions and bargaining agents",
+      "Contractors",
+      "Other employees of the employer",
+      "Senior managers, directors and officers",
+      "Canada Industrial Relations Board",
+      "Labour investigators"
+    ],
+    "background": "The bill changes parts of the Canada Labour Code that deal with strikes, lockouts, and collective bargaining.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "labour-employment"
+    ]
+  }
+}

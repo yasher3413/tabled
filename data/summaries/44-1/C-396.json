@@ -1,0 +1,31 @@
+{
+  "billId": "44-1/C-396",
+  "sourceHash": "164536914f10d7f3eb0fcd745af68a58",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:58.338Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13192964",
+  "summary": {
+    "tldr": "Removes GST from carbon pollution pricing charges and adds emission allowances to the GST zero-rated list.",
+    "what_it_does": [
+      "Excludes taxes, duties and fees under the Greenhouse Gas Pollution Pricing Act from the amount used to calculate GST.",
+      "Excludes provincial levies imposed in respect of carbon from the GST base.",
+      "Repeals two GST rules that deal with carbon pricing.",
+      "Adds supplies of emission allowances to Schedule VI of the Excise Tax Act, which zero-rates them for GST.",
+      "Brings the bill into force 45 days after royal assent."
+    ],
+    "who_it_affects": [
+      "People and businesses paying carbon pricing",
+      "GST registrants",
+      "Businesses charging GST",
+      "Sellers of emission allowances"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "environment-climate"
+    ]
+  }
+}

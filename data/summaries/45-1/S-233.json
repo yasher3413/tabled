@@ -1,0 +1,28 @@
+{
+  "billId": "45-1/S-233",
+  "sourceHash": "7712c0241942d6f7ae3b57ba8b1cb6da",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:37:56.095Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13682077",
+  "summary": {
+    "tldr": "Requires courts to treat assaults on health service providers and first responders as an aggravating factor in sentencing.",
+    "what_it_does": [
+      "Adds a Criminal Code rule that courts must consider when sentencing for certain assault offences.",
+      "Requires judges to treat it as an aggravating circumstance if the victim was a person who provides health services, including personal care services, or a first responder doing their job."
+    ],
+    "who_it_affects": [
+      "Health service providers",
+      "Personal care workers",
+      "First responders",
+      "People sentenced for assault"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health"
+    ]
+  }
+}

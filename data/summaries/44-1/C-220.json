@@ -1,0 +1,29 @@
+{
+  "billId": "44-1/C-220",
+  "sourceHash": "d3826d67b6613c6800535bf03c3aa8ab",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:47:58.968Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/11507324",
+  "summary": {
+    "tldr": "Requires courts to treat assaults on health care workers as an aggravating factor when sentencing certain Criminal Code offences.",
+    "what_it_does": [
+      "Requires courts to consider it an aggravating circumstance when the victim of certain assault offences was a health care worker doing their job.",
+      "Defines health care worker to include people working in hospitals, residential facilities, treatment clinics, pharmacies, and homes where someone receives home care.",
+      "Applies to sentencing for offences under paragraph 264.1(1)(a) and sections 266 to 269 of the Criminal Code."
+    ],
+    "who_it_affects": [
+      "Health care workers",
+      "People convicted of assault",
+      "Judges and courts",
+      "Health care employers"
+    ],
+    "background": "The bill adds a new section to the Criminal Code on sentencing for assaults against health care workers.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "health"
+    ]
+  }
+}

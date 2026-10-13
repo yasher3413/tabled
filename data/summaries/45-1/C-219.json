@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/C-219",
+  "sourceHash": "fb56d64dabeb5041a7862d6cf469dcd9",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:35.919Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14258940",
+  "summary": {
+    "tldr": "Requires yearly human rights reports and broadens Canada’s sanctions laws to cover transnational repression, with new tabling, forfeiture and penalty rules.",
+    "what_it_does": [
+      "Requires the foreign affairs minister to publish, at least once each year, a report on measures Canada has taken to advance human rights and support prisoners of conscience and human rights defenders abroad. The first report is due within 12 months.",
+      "Adds transnational repression as conduct that can trigger sanctions under the Justice for Victims of Corrupt Foreign Officials Act, and lets sanctions apply to foreign nationals who undermine international peace, security or stability.",
+      "Adds transnational repression to the Special Economic Measures Act, and updates its purpose to cover gross human rights violations, significant corruption, and threats to international peace, security or stability.",
+      "Requires copies of orders or regulations under both sanctions laws to be tabled in Parliament, and raises the summary conviction penalties under both laws to fines up to $100,000, prison up to three years, or both.",
+      "Requires the minister to apply for forfeiture of private property seized or restrained under certain sanctions orders within 24 months, and to dispose of forfeited property within 30 days, unless related court cases are ongoing.",
+      "Renames the Special Economic Measures Act and updates related references in other Acts and regulations."
+    ],
+    "who_it_affects": [
+      "Minister of Foreign Affairs",
+      "Parliament",
+      "Human rights defenders",
+      "Prisoners of conscience",
+      "Foreign nationals subject to sanctions",
+      "People facing transnational repression"
+    ],
+    "background": "The bill amends the Department of Foreign Affairs, Trade and Development Act, the Justice for Victims of Corrupt Foreign Officials Act and the Special Economic Measures Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "government-operations",
+      "trade-foreign-affairs"
+    ]
+  }
+}

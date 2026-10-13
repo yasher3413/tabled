@@ -1,0 +1,27 @@
+{
+  "billId": "44-1/S-250",
+  "sourceHash": "e876c98cbf82d57c238730176ac01f7a",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:09.936Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13319618",
+  "summary": {
+    "tldr": "Clarifies in the Criminal Code that sterilization procedures count as wounding or maiming under the assault offence.",
+    "what_it_does": [
+      "Adds a rule to the Criminal Code saying a sterilization procedure is an act that wounds or maims a person for subsection 268(1).",
+      "Defines “sterilization procedure” as cutting, clipping, tying or cauterizing the Fallopian tubes, ovaries or uterus, or any other procedure that permanently prevents reproduction, even if surgery could later reverse it."
+    ],
+    "who_it_affects": [
+      "People undergoing sterilization procedures",
+      "Health care providers",
+      "Courts and prosecutors"
+    ],
+    "background": "The bill adds a new section after section 268 of the Criminal Code.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "rights-equality"
+    ]
+  }
+}

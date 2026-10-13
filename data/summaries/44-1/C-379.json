@@ -1,0 +1,28 @@
+{
+  "billId": "44-1/C-379",
+  "sourceHash": "58385803757ab065f4623981aa1322c0",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:41:21.990Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/12882636",
+  "summary": {
+    "tldr": "Raises the prison minimum for repeat motor vehicle theft and limits conditional sentences for those offences.",
+    "what_it_does": [
+      "Raises the minimum prison term to three years for a third or later motor vehicle theft conviction prosecuted by indictment, with a maximum of 10 years.",
+      "Requires courts to give primary consideration to whether the theft was committed for the benefit of, at the direction of, or in association with a criminal organization.",
+      "Bars conditional sentence orders for motor vehicle theft offences prosecuted by indictment under section 333.1 of the Criminal Code."
+    ],
+    "who_it_affects": [
+      "People convicted of motor vehicle theft",
+      "Repeat offenders",
+      "Judges",
+      "Criminal justice system"
+    ],
+    "background": "It changes section 333.1 of the Criminal Code, which deals with motor vehicle theft.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

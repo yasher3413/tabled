@@ -1,0 +1,25 @@
+{
+  "billId": "45-1/C-21",
+  "sourceHash": "2c29443ad9a7bf3cc9cae85b146c6142",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:32:29.258Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-21",
+  "summary": {
+    "tldr": "Gives effect to the Red River Métis Self-Government Recognition and Implementation Treaty and makes related changes to other laws.",
+    "what_it_does": [
+      "Gives effect to the Red River Métis Self-Government Recognition and Implementation Treaty.",
+      "Makes consequential amendments to other Acts."
+    ],
+    "who_it_affects": [
+      "Red River Métis",
+      "Federal government"
+    ],
+    "background": "The Minister of Crown-Indigenous Relations introduced the bill in the House of Commons on 12 February 2026, and it received first reading.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples"
+    ]
+  }
+}

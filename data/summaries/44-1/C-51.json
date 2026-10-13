@@ -1,0 +1,26 @@
+{
+  "billId": "44-1/C-51",
+  "sourceHash": "8c455dc37d7efead73c54471f52bb0cf",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:34:36.959Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/44-1/C-51",
+  "summary": {
+    "tldr": "Gives effect to a self-government treaty with the Whitecap Dakota Nation / Wapaha Ska Dakota Oyate and makes related changes to other laws.",
+    "what_it_does": [
+      "Gives effect to the treaty entitled “A Self-Government Treaty Recognizing the Whitecap Dakota Nation / Wapaha Ska Dakota Oyate”.",
+      "Makes consequential amendments to other Acts."
+    ],
+    "who_it_affects": [
+      "Whitecap Dakota Nation / Wapaha Ska Dakota Oyate",
+      "Federal government"
+    ],
+    "background": "The Minister of Crown-Indigenous Relations introduced the bill on 16 June 2023, and it received first reading in the House of Commons.",
+    "source_basis": "legislative_summary",
+    "coverage_note": null,
+    "topics": [
+      "indigenous-peoples",
+      "government-operations"
+    ]
+  }
+}

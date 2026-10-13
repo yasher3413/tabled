@@ -1,0 +1,29 @@
+{
+  "billId": "45-1/S-202",
+  "sourceHash": "383706b64e9a351728fe9d8255679651",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-13T02:36:29.837Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13541847",
+  "summary": {
+    "tldr": "Requires warning labels on alcoholic beverages and adds information about standard drinks, health risks, and cancer links.",
+    "what_it_does": [
+      "Requires any beverage with 1.1% alcohol by volume or more to be sold in a package with a warning label about the health risks of alcohol consumption.",
+      "Requires the label to show the volume that counts as a standard drink, the number of standard drinks in the package, and the number that should not be exceeded to avoid significant health risks, as set by the Department.",
+      "Requires the label to include a Department message stating the direct causal link between alcohol consumption and fatal cancers.",
+      "Brings the changes into force one year after royal assent."
+    ],
+    "who_it_affects": [
+      "Alcohol manufacturers",
+      "Alcohol importers",
+      "Alcohol retailers",
+      "Consumers of alcoholic beverages"
+    ],
+    "background": "The bill adds a new warning-label rule to the Food and Drugs Act. It would apply to beverages with 1.1% alcohol by volume or more.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health"
+    ]
+  }
+}

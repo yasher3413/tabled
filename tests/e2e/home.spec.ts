@@ -29,3 +29,13 @@ test("theme toggle switches to dark and persists", async ({ page }) => {
   await page.reload()
   await expect(page.locator("html")).toHaveClass(/dark/)
 })
+
+test("closing the command palette returns focus to the search button", async ({ page }) => {
+  await page.goto("/")
+  const button = page.locator("header").getByRole("button", { name: /search/i })
+  await button.click()
+  await expect(page.getByRole("dialog")).toBeVisible()
+  await page.keyboard.press("Escape")
+  await expect(page.getByRole("dialog")).toHaveCount(0)
+  await expect(button).toBeFocused()
+})

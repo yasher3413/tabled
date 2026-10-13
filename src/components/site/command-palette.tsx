@@ -5,7 +5,7 @@ import { Command } from "cmdk"
 import { Dialog } from "radix-ui"
 import { FileText, Search, User, Vote } from "lucide-react"
 import { useRouter } from "next/navigation"
-import { useEffect, useEffectEvent, useState } from "react"
+import { useEffect, useEffectEvent, useRef, useState } from "react"
 import type { SearchEntry } from "@/app/search-index/[locale]/route"
 import type { Locale } from "@/i18n/config"
 import { getMessages } from "@/i18n/messages"
@@ -49,8 +49,12 @@ export function CommandPalette({ locale }: { locale: Locale }) {
   const [index, setIndex] = useState<SearchEntry[] | null>(null)
   const [failed, setFailed] = useState(false)
   const router = useRouter()
+  // The palette has no Radix trigger, so remember what had focus and give it back on close.
+  const returnFocus = useRef<HTMLElement | null>(null)
 
   const show = useEffectEvent(() => {
+    const active = document.activeElement
+    if (!open && active instanceof HTMLElement && active !== document.body && !active.closest("[role=dialog]")) returnFocus.current = active
     setOpen(true)
     loadIndex(locale).then(setIndex, () => setFailed(true))
   })
@@ -87,6 +91,7 @@ export function CommandPalette({ locale }: { locale: Locale }) {
   const empty = index && results.every((g) => g.items.length === 0)
 
   function go(href: string) {
+    returnFocus.current = null // focus belongs to the new page, not the old trigger
     setOpen(false)
     setQuery("")
     router.push(href)
@@ -98,6 +103,14 @@ export function CommandPalette({ locale }: { locale: Locale }) {
         <Dialog.Overlay className="fixed inset-0 z-50 bg-ink/25 backdrop-blur-[1px] data-[state=open]:animate-fade-in dark:bg-black/50" />
         <Dialog.Content
           aria-describedby={undefined}
+          onCloseAutoFocus={(e) => {
+            const el = returnFocus.current
+            returnFocus.current = null
+            if (el?.isConnected) {
+              e.preventDefault()
+              el.focus()
+            }
+          }}
           className="fixed top-[12vh] left-1/2 z-50 w-[calc(100vw-2rem)] max-w-[40rem] -translate-x-1/2 overflow-hidden rounded-md border border-rule bg-paper-raised shadow-[0_24px_60px_-20px_oklch(0.2_0.02_60/0.35)] data-[state=open]:animate-fade-in"
         >
           <Dialog.Title className="sr-only">{t.title}</Dialog.Title>

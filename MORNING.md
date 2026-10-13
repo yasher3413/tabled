@@ -1,9 +1,8 @@
 # Good morning
 
 Tabled is built, pushed to `main` and live at **https://tabled-ca.vercel.app**. Every page in the brief works with live data from Parliament, every quality
-gate passes, and all nine stretch items are done (topic tags are built but wait on summaries). One thing needs you:
-the Anthropic key in `.env` is a placeholder, so no plain-English summaries were generated. Bill pages show
-Parliament's official summary instead.
+gate passes, and all nine stretch items are done. Plain-English summaries now exist for every bill in both sessions
+(598, written by OpenAI's gpt-5.4-mini), and topic tags and the topic filter are live with them.
 
 ## What works
 
@@ -23,8 +22,8 @@ Parliament's official summary instead.
    hreflang and a bilingual sitemap.
 2. **Weekly digest** at `/this-week` (plus `/this-week/YYYY-Www` for past weeks) with an RSS feed.
 3. **RSS per bill and per MP** (`/bills/.../rss.xml`, `/mps/.../rss.xml`).
-4. **Topic tags**: a fixed 22-topic taxonomy and a `/bills` topic filter. Dormant until summaries exist, because the
-   tags come from the summarizer. Nothing empty or invented shows in the meantime.
+4. **Topic tags**: a fixed 22-topic taxonomy, 1 to 3 per bill from the summarizer (validated), and a `/bills` topic
+   filter.
 5. **Compare two MPs** at `/compare`: agreement rate and every vote where they split.
 6. **Previous session (44-1)**: `/bills/44-1`, `/votes/44-1`, a session filter on `/mps`, per-session MP records.
 7. **"What MPs said"** on bill pages: one opening excerpt per party from Hansard, unedited, linked to the full speech.
@@ -48,8 +47,8 @@ dark: [`docs/screenshots/`](docs/screenshots/).
 
 ## Known issues
 
-- **Plain-English summaries are not generated**: `.env` holds a 16-character placeholder, not an `sk-ant-` key. The
-  summarizer is built and tested and skips cleanly. Topic tags stay dormant for the same reason.
+- **Summaries are English only**: they are written from English sources, so the French site shows Parliament's
+  official French summary instead. One bill has no usable source and has no summary.
 - **Library of Parliament summaries** sit behind a Cloudflare challenge. Tabled links to them when LEGISinfo says one
   exists and uses LEGISinfo's summary and the bill text instead.
 - **Unknown bill, vote or MP URLs** show the 404 page with `noindex` but return HTTP 200 (a Next 16 Cache Components
@@ -70,10 +69,9 @@ Full checks: `pnpm typecheck && pnpm lint && pnpm test && pnpm build && pnpm tes
 
 ## What needs your input
 
-1. **A summary key**: put a real key in `.env`, either `OPENAI_API_KEY=sk-...` (defaults to `gpt-5.4-mini`) or
-   `ANTHROPIC_API_KEY=sk-ant-...` (defaults to `claude-haiku-4-5`). Run `pnpm summarize`, then commit
-   `data/summaries/`. Add the same key as a GitHub secret (and in Vercel if you like) so the daily job keeps summaries
-   current. This also switches on topic tags.
+1. **GitHub secret for the daily refresh**: add your OpenAI key as the repo secret `OPENAI_API_KEY` (and the
+   variable `SUMMARY_PROVIDER=openai`) so new and changed bills get summaries automatically. Vercel does not need the
+   key: summaries are committed and loaded at build time.
 2. **Automatic deploys**: the Vercel project `tabled` is linked to the GitHub repo, but a push did not start a build,
    so the Vercel GitHub app probably lacks access to this repo. Grant it under GitHub, Settings, Applications, Vercel.
    Then create a Deploy Hook in Vercel (Settings, Git, Deploy Hooks) and save it as the GitHub secret
@@ -83,7 +81,8 @@ Full checks: `pnpm typecheck && pnpm lint && pnpm test && pnpm build && pnpm tes
 
 ## Suggested next steps
 
-1. Add a key and generate summaries; they are the heart of the product and the biggest missing piece.
+1. Read a dozen summaries against their bills yourself; they are the heart of the product. Use "Report an error" links
+   or edit `data/summaries/` and commit.
 2. Give the Vercel GitHub app access and add the deploy hook so the daily refresh goes live on its own.
 3. Have a French reader check a few bill and vote pages for phrasing that reads as translated.
 4. Report openparliament.ca's duplicate vote (45-1/148 repeats 140) and review the 17 bills where the Senate skipped

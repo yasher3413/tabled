@@ -1,7 +1,7 @@
 # Progress
 
 ## Current phase
-MVP done; stretch backlog done (item 4 dormant until summaries exist). Only the owner's actions remain: see MORNING.md.
+MVP done; stretch backlog done; summaries generated and deployed at https://tabled-ca.vercel.app. Owner actions: see MORNING.md.
 
 ## Done
 - Phase 0: brief read, logs, commit hook (verified), env check, live recon of all four sources with recorded fixtures, docs/DATA_SOURCES.md, scaffold (Next 16.4 Cache Components, Tailwind 4, shadcn radix-nova, Vitest, Playwright).
@@ -9,7 +9,7 @@ MVP done; stretch backlog done (item 4 dormant until summaries exist). Only the 
 - Phase 2: Impeccable context (PRODUCT.md, direction contract "the division list", seed 7c5ccbbc), tokens (OKLCH, paper/ink, Commons green accent), Brygada 1918 + Libre Franklin, shell, command palette, core components.
 - Phase 3: bills index (search, filters, URL state, paging), bill detail (readings ledger with stage explainers, votes, sources), home (this week, House composition).
 - Phase 4: votes index + vote detail (interactive hemicycle, dissenters, sortable ballot table), MPs directory + detail, Find your MP (cached Represent route, multi-riding), parties, about/methodology.
-- Phase 5: summarizer (grounding priority, chunking, Zod + ban-list validator, retries, hash cache, DB upsert). Not run: see Blocked.
+- Phase 5: summarizer (grounding priority, chunking, Zod + ban-list validator, retries, hash cache, DB upsert). Run with OpenAI gpt-5.4-mini on 2026-10-13: 598 summaries across 44-1 and 45-1.
 - Phase 6: Impeccable critique (27/40) and full fix batch; audit checks (no hard-coded colours, no 360px overflow); OG images, sitemap, robots, 404/error pages; screenshots of every route.
 - Phase 7: README, CI and daily refresh workflows, MIT licence, CONTRIBUTING.
 
@@ -24,16 +24,16 @@ MVP done; stretch backlog done (item 4 dormant until summaries exist). Only the 
 - [x] 7. Hansard excerpts on bill pages ("What MPs said"): one opening excerpt per party, anchored on the bill, linked to the full speech. 301 bills.
 - [x] 8. Embeddable vote card at /embed/votes/... with copyable iframe code on vote pages.
 - [x] 5. Compare two MPs at /compare (both languages): agreement rate, counts, every vote where they split; linked from MP pages.
-- [~] 4. Topic tags: fixed bilingual taxonomy (22 topics), summarizer emits 1 to 3 validated topic ids, topic filter on /bills and topic links on bill pages. Dormant until summaries exist (needs a real API key).
+- [x] 4. Topic tags: fixed bilingual taxonomy (22 topics), summarizer emits 1 to 3 validated topic ids, topic filter on /bills and topic links on bill pages. Live since summaries were generated.
 - [x] 2. Weekly digest at /this-week (and /this-week/YYYY-Www, both languages) with an RSS feed.
 - [x] 3. Per-bill and per-MP RSS feeds (/bills/.../rss.xml, /mps/.../rss.xml), advertised in page metadata.
 - [x] 1. French: /fr for every page, hand-translated UI and stage explainers, official French data, hreflang, bilingual sitemap, French e2e + axe.
 
 ## Next
-- Nothing left in the backlog. Owner actions: real ANTHROPIC_API_KEY then `pnpm summarize`, Vercel deploy, domain. See MORNING.md.
+- Nothing left in the backlog. Owner actions: GitHub secrets for the daily refresh, Vercel GitHub app access and deploy hook. See MORNING.md.
 
 ## Blocked
-- **Plain-English summaries not generated.** `.env` contains a 16-character placeholder for `ANTHROPIC_API_KEY`, not a real key (the API returns `invalid x-api-key`), and no `ant` CLI login exists. The summarizer is built and tested; it skips cleanly and the site shows "Plain-English summary coming soon" plus the official LEGISinfo summary where one exists. Owner action: put a real `sk-ant-...` key in `.env` and run `pnpm summarize` (about $2-4 with Haiku 4.5 for all 190 bills), then commit `data/summaries/`.
+- (Resolved 2026-10-13) Summaries were blocked on a placeholder Anthropic key; the summarizer now also supports OpenAI and was run with the owner's OpenAI key.
 - Impeccable and Magic: both available. Impeccable interview and decision steps answered from the brief (no questions allowed).
 
 ## Data counts (full ingest 2026-10-12)

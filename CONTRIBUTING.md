@@ -31,6 +31,7 @@ Optional: put `ANTHROPIC_API_KEY=sk-ant-...` or `OPENAI_API_KEY=sk-...` in `.env
 
 ```bash
 pnpm typecheck && pnpm lint && pnpm test
+pnpm exec playwright install chromium webkit   # once; WebKit runs the phone tap tests
 pnpm build && pnpm test:e2e
 ```
 

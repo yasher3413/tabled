@@ -11,7 +11,11 @@ export default defineConfig({
     baseURL: `http://localhost:${PORT}`,
     trace: "retain-on-failure",
   },
-  projects: [{ name: "chromium", use: { ...devices["Desktop Chrome"] } }],
+  projects: [
+    { name: "chromium", use: { ...devices["Desktop Chrome"] } },
+    // iOS Safari's engine, for tap behaviour that only WebKit gets wrong.
+    { name: "webkit-mobile", use: { ...devices["iPhone 13"] }, testMatch: /mobile\.spec\.ts/ },
+  ],
   webServer: {
     command: `pnpm start -p ${PORT}`,
     url: `http://localhost:${PORT}`,

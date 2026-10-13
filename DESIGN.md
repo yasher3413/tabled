@@ -322,7 +322,7 @@ SVG semicircle of the House's real seats, coloured by ballot (ink, sepia, hatche
 A record line: label (and optional note) left, figure right in the serif at 1.625rem, on a hairline.
 
 ### Bill row and vote row
-Ruled articles, whole row clickable through a stretched link, title underlining on hover. Bill row: serif number, title, plain-English line, stage glyph, bill type, small-caps sponsor with party tag, and a labelled date. Vote row: date and vote number, description and linked bill, tally.
+Ruled articles, whole row clickable through a stretched link, title underlining on hover. A stretched link needs a block or table-cell ancestor with `relative`, never a `<tr>`: older iOS WebKit ignores it on rows and the overlay covers the page. Whole-row table links put the overlay in each cell (the MPs table). Bill row: serif number, title, plain-English line, stage glyph, bill type, small-caps sponsor with party tag, and a labelled date. Vote row: date and vote number, description and linked bill, tally.
 
 ### Member avatar
 Initials in the serif (600, ink-2) on a sunk-paper disc at 32px, 40px or 80px. No photos; party sits in the tag beside it.

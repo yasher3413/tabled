@@ -119,35 +119,50 @@ export function MembersExplorer({ membersBySession, sessions, parties, locale, p
               </tr>
             </thead>
             <tbody>
-              {shown.slice(0, limit).map((m) => (
-                <tr key={m.id} className="group relative border-b border-rule hover:bg-paper-sunk/60">
-                  <th scope="row" className="py-2.5 pr-3 text-left font-normal">
-                    <span className="flex items-center gap-3">
-                      <MemberAvatar name={m.name} size="sm" />
-                      <span className="min-w-0">
-                        <Link href={localePath(locale, `/mps/${m.id}`)} className="name-sc block text-ink after:absolute after:inset-0 group-hover:underline">
-                          {m.name}
-                        </Link>
-                        <span className="flex items-center gap-1.5 text-[0.8125rem] text-ink-3">
-                          <PartySwatch partyId={m.partyId} />
-                          {partyName.get(m.partyId ?? "") ?? t.noParty}
-                          <span className="md:hidden">· {m.ridingName}</span>
-                          {!m.active && <span>· {t.left(m.endDate?.slice(0, 4) ?? "")}</span>}
+              {shown.slice(0, limit).map((m) => {
+                const href = localePath(locale, `/mps/${m.id}`)
+                return (
+                  // Never put `relative` on the <tr>: older iOS WebKit does not treat a table row as a containing
+                  // block, so every row's link overlay stretched over the top of the page and the last row won
+                  // every tap. Each cell holds its own overlay instead: the name link for keyboards and screen
+                  // readers, and hidden duplicates so the rest of the row is still a real link.
+                  <tr key={m.id} className="group border-b border-rule hover:bg-paper-sunk/60">
+                    <th scope="row" className="relative py-2.5 pr-3 text-left font-normal">
+                      <span className="flex items-center gap-3">
+                        <MemberAvatar name={m.name} size="sm" />
+                        <span className="min-w-0">
+                          <Link href={href} className="name-sc block text-ink after:absolute after:inset-0 group-hover:underline">
+                            {m.name}
+                          </Link>
+                          <span className="flex items-center gap-1.5 text-[0.8125rem] text-ink-3">
+                            <PartySwatch partyId={m.partyId} />
+                            {partyName.get(m.partyId ?? "") ?? t.noParty}
+                            <span className="md:hidden">· {m.ridingName}</span>
+                            {!m.active && <span>· {t.left(m.endDate?.slice(0, 4) ?? "")}</span>}
+                          </span>
                         </span>
                       </span>
-                    </span>
-                  </th>
-                  <td className="hidden py-2.5 pr-3 text-ink-2 md:table-cell">
-                    {m.ridingName}
-                    {m.province && <span className="text-ink-3">, {m.province}</span>}
-                  </td>
-                  <td className="py-2.5 pr-3 text-right tabular-nums">{formatPercent(m.partyLineRate, 1, locale)}</td>
-                  <td className="hidden py-2.5 pr-3 text-right text-ink-2 tabular-nums sm:table-cell">
-                    {m.votesHeld ? t.of(m.votesCast, m.votesHeld) : formatPercent(null, 1, locale)}
-                  </td>
-                  <td className="hidden py-2.5 text-right text-ink-2 tabular-nums lg:table-cell">{m.billsSponsored}</td>
-                </tr>
-              ))}
+                    </th>
+                    <td className="relative hidden py-2.5 pr-3 text-ink-2 md:table-cell">
+                      <RowLink href={href} />
+                      {m.ridingName}
+                      {m.province && <span className="text-ink-3">, {m.province}</span>}
+                    </td>
+                    <td className="relative py-2.5 pr-3 text-right tabular-nums">
+                      <RowLink href={href} />
+                      {formatPercent(m.partyLineRate, 1, locale)}
+                    </td>
+                    <td className="relative hidden py-2.5 pr-3 text-right text-ink-2 tabular-nums sm:table-cell">
+                      <RowLink href={href} />
+                      {m.votesHeld ? t.of(m.votesCast, m.votesHeld) : formatPercent(null, 1, locale)}
+                    </td>
+                    <td className="relative hidden py-2.5 text-right text-ink-2 tabular-nums lg:table-cell">
+                      <RowLink href={href} />
+                      {m.billsSponsored}
+                    </td>
+                  </tr>
+                )
+              })}
             </tbody>
           </table>
           {shown.length > limit && (
@@ -172,4 +187,9 @@ export function MembersExplorer({ membersBySession, sessions, parties, locale, p
       </p>
     </div>
   )
+}
+
+/** A cell-sized duplicate of the row's name link: hidden from assistive tech and the tab order, not prefetched. */
+function RowLink({ href }: { href: string }) {
+  return <Link href={href} aria-hidden tabIndex={-1} prefetch={false} className="absolute inset-0" />
 }

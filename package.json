@@ -15,6 +15,7 @@
     "format": "prettier --write .",
     "test": "vitest run",
     "test:e2e": "playwright test",
+    "qa": "playwright test -c playwright.qa.config.ts",
     "screenshots": "tsx scripts/screenshots.ts",
     "db:generate": "drizzle-kit generate"
   },

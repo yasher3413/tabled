@@ -8,3 +8,4 @@ data/tabled.db-*
 node_modules/
 test-results/
 playwright-report/
+qa-report/

@@ -27,3 +27,6 @@ coverage/
 .DS_Store
 *.log
 .vercel
+
+# QA harness output
+qa-report/

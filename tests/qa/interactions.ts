@@ -30,7 +30,10 @@ export async function languageSwitch(qa: Qa, tap: boolean) {
     const href = await page.locator("header a[hreflang]").first().getAttribute("href")
     const pathname = new URL(page.url()).pathname
     const unloc = pathname === "/fr" ? "/" : pathname.startsWith("/fr/") ? pathname.slice(3) : pathname
-    const expected = fr(qa) ? unloc : unloc === "/" ? "/fr" : `/fr${unloc}`
+    // The 404 page (English, for every unmatched URL) has no counterpart to translate: it offers French home.
+    const missing = qa.route.expectStatus?.includes(404)
+    const pageFr = (await page.evaluate(() => document.documentElement.lang)) === "fr-CA"
+    const expected = missing ? (pageFr ? "/" : "/fr") : fr(qa) ? unloc : unloc === "/" ? "/fr" : `/fr${unloc}`
     check(href === expected, `language link is ${href}, expected ${expected}`)
     if (!tap) return
     const lang = fr(qa) ? "en-CA" : "fr-CA"
@@ -143,7 +146,8 @@ export async function filters(qa: Qa) {
     const clear = page.locator("main p[aria-live] button")
     if (!(await clear.count())) return // the filter did not narrow the list, so there is nothing to clear
     await qa.tapLocator("main p[aria-live] button")
-    await page.waitForFunction((p) => location.search === p, new URL(qa.route.path, "http://x").search, { timeout: 5000 }).catch(() => {
+    // "Clear filters" resets every filter, including any the route started with.
+    await page.waitForFunction(() => location.search === "", null, { timeout: 5000 }).catch(() => {
       throw new Error(`clearing filters left ${new URL(page.url()).search}`)
     })
     await qa.load()

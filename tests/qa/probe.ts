@@ -70,6 +70,8 @@ export function enumerateTargets(): Target[] {
     const r = el.getBoundingClientRect()
     if (r.width <= 1 || r.height <= 1) return false
     if (el.closest("[inert], [aria-hidden=true], .sr-only")) return false
+    const details = el.closest("details")
+    if (details && !details.open && !el.closest("summary")) return false
     const s = getComputedStyle(el)
     return s.visibility !== "hidden" && s.display !== "none" && Number(s.opacity) > 0.05
   }
@@ -136,6 +138,8 @@ export function hitTestAll(): HitFailure[] {
   const prev = window.scrollY
   for (const el of Array.from(document.querySelectorAll("[data-qa]"))) {
     el.scrollIntoView({ block: "center", inline: "center", behavior: "instant" as ScrollBehavior })
+    const placed = el.getBoundingClientRect()
+    if (placed.bottom < 0 || placed.top > innerHeight) window.scrollBy(0, placed.top - innerHeight / 2) // WebKit and content-visibility
     // A link that wraps onto two lines has its box centre between the lines; aim at its first line instead.
     const r = el.getClientRects()[0] ?? el.getBoundingClientRect()
     const x = r.left + r.width / 2

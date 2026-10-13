@@ -41,7 +41,9 @@ export function severityOf(kind: FindingKind): Severity {
 export function allowReason(f: Pick<Finding, "kind" | "route" | "selector" | "actual">): string | null {
   for (const a of ALLOWLIST) {
     if (a.kind !== f.kind) continue
-    if (a.route !== "*" && a.route !== f.route && !(a.route.endsWith("*") && f.route.startsWith(a.route.slice(0, -1)))) continue
+    if (a.route instanceof RegExp) {
+      if (!a.route.test(f.route)) continue
+    } else if (a.route !== "*" && a.route !== f.route && !(a.route.endsWith("*") && f.route.startsWith(a.route.slice(0, -1)))) continue
     if (a.selector && !(typeof a.selector === "string" ? f.selector === a.selector : a.selector.test(f.selector))) continue
     if (a.actual && !a.actual.test(f.actual)) continue
     return a.reason

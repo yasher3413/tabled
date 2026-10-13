@@ -124,9 +124,20 @@ export class Qa {
     const loc = this.page.locator(selector).first()
     if (!(await loc.count())) return false
     await loc.scrollIntoViewIfNeeded({ timeout: 3000 }).catch(() => {})
-    const box = await loc.boundingBox()
-    if (!box) return false
-    await this.tapAt(box.x + box.width / 2, box.y + box.height / 2)
+    // WebKit's scrollIntoView does not reach elements inside content-visibility: auto (the ballot table);
+    // scroll the window by hand when the element is still off screen.
+    await loc.evaluate((el) => {
+      const r = el.getBoundingClientRect()
+      if (r.bottom < 0 || r.top > innerHeight) window.scrollBy(0, r.top - innerHeight / 2)
+    })
+    await this.page.waitForTimeout(120) // let the scroll settle: a tap during a scroll only stops the scroll
+    // Aim at the first line box: a link that wraps has its overall centre in the gap after the first line.
+    const r = await loc.evaluate((el) => {
+      const b = Array.from(el.getClientRects()).find((x) => x.width > 0 && x.height > 0) ?? el.getBoundingClientRect()
+      return { x: b.left + b.width / 2, y: b.top + b.height / 2, w: b.width }
+    })
+    if (!r.w) return false
+    await this.tapAt(r.x, r.y)
     return true
   }
 
@@ -235,10 +246,22 @@ export class Qa {
           this.add("tap-target-mismatch", { selector: t.selector, name: t.name, expected: url.hash, actual: this.page.url() })
         }
       } else {
-        const moved = await this.page.waitForURL((u) => u.href !== before, { timeout: 8000, waitUntil: "commit" }).then(
-          () => true,
-          () => false,
-        )
+        const waitMove = () =>
+          this.page.waitForURL((u) => u.href !== before, { timeout: 8000, waitUntil: "commit" }).then(
+            () => true,
+            () => false,
+          )
+        let moved = await waitMove()
+        if (!moved) {
+          // Tap once more to tell "needs two taps" (iOS treating the first tap as a hover) from a dead link.
+          // Both are errors: people tap once.
+          await this.tapLocator(sel)
+          moved = await waitMove()
+          if (moved) {
+            const screenshot = await this.shot("second-tap")
+            this.add("dead-link", { selector: t.selector, name: t.name, expected: `first tap navigates to ${url.pathname}`, actual: "only the second tap navigated", screenshot })
+          }
+        }
         if (!moved) {
           const screenshot = await this.shot("dead-link")
           this.add("dead-link", { selector: t.selector, name: t.name, expected: `navigate to ${url.pathname}${url.search}`, actual: "stayed put", screenshot })

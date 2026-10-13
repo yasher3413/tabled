@@ -9,10 +9,12 @@ import { cn } from "@/lib/utils"
 import { Hemicycle, type HemicycleSeat } from "./hemicycle"
 import { partyColor, PartySwatch } from "./party-tag"
 
-/** Seats by party. Hovering or focusing a legend entry isolates that party's seats. */
+/** Seats by party. Hovering, focusing or tapping a legend entry isolates that party's seats. */
 export function HouseComposition({ parties, vacant, seatsTotal, locale = "en" }: { parties: Party[]; vacant: number; seatsTotal: number; locale?: Locale }) {
   const t = getMessages(locale).home
-  const [focus, setFocus] = useState<string | null>(null)
+  const [hovered, setHovered] = useState<string | null>(null)
+  const [pinned, setPinned] = useState<string | null>(null)
+  const focus = hovered ?? pinned
   const seats: HemicycleSeat[] = []
   for (const p of parties) for (let i = 0; i < p.seatCount; i++) seats.push({ id: `${p.id}-${i}`, fill: partyColor(p.id), dim: focus !== null && focus !== p.id })
   for (let i = 0; i < vacant; i++) seats.push({ id: `vacant-${i}`, fill: "var(--ink-3)", variant: "hollow", dim: focus !== null && focus !== "vacant" })
@@ -22,10 +24,16 @@ export function HouseComposition({ parties, vacant, seatsTotal, locale = "en" }:
     <li key={key}>
       <button
         type="button"
-        onPointerEnter={() => setFocus(key)}
-        onPointerLeave={() => setFocus(null)}
-        onFocus={() => setFocus(key)}
-        onBlur={() => setFocus(null)}
+        aria-pressed={pinned === key}
+        onPointerEnter={(e) => e.pointerType !== "touch" && setHovered(key)}
+        onPointerLeave={(e) => e.pointerType !== "touch" && setHovered(null)}
+        onFocus={() => setHovered(key)}
+        onBlur={() => setHovered(null)}
+        // Touch has no hover: a tap pins the party's seats, a second tap releases them.
+        onClick={() => {
+          setPinned((p) => (p === key ? null : key))
+          setHovered(null) // a tap that also focused the button must not keep the party isolated after unpinning
+        }}
         aria-label={t.seatsLabel(name, n)}
         className={cn("inline-flex items-center gap-1.5 rounded-sm px-1 py-0.5 transition-opacity duration-150", focus && focus !== key && "opacity-45")}
       >

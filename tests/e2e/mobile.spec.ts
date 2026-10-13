@@ -22,7 +22,11 @@ async function gotoMps(page: Page) {
 }
 
 async function tapCentre(page: Page, selector: ReturnType<Page["locator"]>) {
-  await selector.scrollIntoViewIfNeeded()
+  // Scroll the window by hand: in WebKit, scrollIntoViewIfNeeded does not reach rows inside a
+  // content-visibility: auto table (the vote page's ballot table), although a person scrolling does.
+  const before = (await selector.boundingBox())!
+  await page.evaluate((y) => window.scrollBy(0, y - innerHeight / 2), before.y)
+  await page.waitForTimeout(300)
   const box = await selector.boundingBox()
   if (!box) throw new Error("no box")
   await page.touchscreen.tap(box.x + box.width / 2, box.y + box.height / 2)
@@ -79,5 +83,26 @@ test.describe("MPs list on a phone", () => {
     const href = (await link.getAttribute("href"))!
     await tapCentre(page, link)
     await expect(page).toHaveURL(new RegExp(`${href}$`))
+  })
+})
+
+test.describe("touch on interactive charts", () => {
+  test("a name in the ballot table opens the MP on the first tap", async ({ page }) => {
+    await page.goto("/votes/45-1/177")
+    const link = page.locator("tbody tr").nth(21).locator("th a")
+    const href = (await link.getAttribute("href"))!
+    await page.waitForLoadState("networkidle")
+    await tapCentre(page, link)
+    await expect(page).toHaveURL(new RegExp(`${href}$`))
+  })
+
+  test("tapping a party in the seat legend pins its seats", async ({ page }) => {
+    await page.goto("/")
+    await page.waitForLoadState("networkidle")
+    const legend = page.locator("figcaption button").first()
+    await tapCentre(page, legend)
+    await expect(legend).toHaveAttribute("aria-pressed", "true")
+    await tapCentre(page, legend)
+    await expect(legend).toHaveAttribute("aria-pressed", "false")
   })
 })

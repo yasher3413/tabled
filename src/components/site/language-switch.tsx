@@ -4,10 +4,12 @@ import { usePathname } from "next/navigation"
 import { localePath, unlocalizedPath, type Locale } from "@/i18n/config"
 import { getMessages } from "@/i18n/messages"
 
-/** Links to the same page in the other language. A plain anchor: the two languages use separate root layouts. */
-export function LanguageSwitch({ locale, className }: { locale: Locale; className?: string }) {
+/** Links to the same page in the other language (the home page from the 404). A plain anchor: the two languages use separate root layouts. */
+export function LanguageSwitch({ locale, className, home = false }: { locale: Locale; className?: string; home?: boolean }) {
   const other: Locale = locale === "en" ? "fr" : "en"
-  const path = localePath(other, unlocalizedPath(usePathname()))
+  const pathname = usePathname()
+  // `home` is set on the 404 page, which has no counterpart to translate.
+  const path = localePath(other, home ? "/" : unlocalizedPath(pathname))
   const t = getMessages(locale).site
   return (
     <a

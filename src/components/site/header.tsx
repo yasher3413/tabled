@@ -8,7 +8,7 @@ import { MobileNav } from "./mobile-nav"
 import { NavLinks } from "./nav-links"
 import { ThemeToggle } from "./theme-toggle"
 
-export function SiteHeader({ locale }: { locale: Locale }) {
+export function SiteHeader({ locale, notFound = false }: { locale: Locale; notFound?: boolean }) {
   const t = getMessages(locale)
   return (
     <header className="border-b border-rule bg-paper">
@@ -22,9 +22,9 @@ export function SiteHeader({ locale }: { locale: Locale }) {
         </nav>
         <div className="ml-auto flex items-center gap-1.5">
           <SearchButton locale={locale} />
-          <LanguageSwitch locale={locale} className="hidden h-9 items-center rounded-sm px-2 text-[0.875rem] text-ink-2 transition-colors duration-150 hover:bg-paper-sunk hover:text-ink sm:inline-flex" />
+          <LanguageSwitch locale={locale} home={notFound} className="hidden h-9 items-center rounded-sm px-2 text-[0.875rem] text-ink-2 transition-colors duration-150 hover:bg-paper-sunk hover:text-ink sm:inline-flex" />
           <ThemeToggle locale={locale} />
-          <MobileNav locale={locale} />
+          <MobileNav locale={locale} notFound={notFound} />
         </div>
       </div>
     </header>

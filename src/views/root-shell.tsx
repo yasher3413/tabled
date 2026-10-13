@@ -11,7 +11,7 @@ const display = Brygada_1918({ variable: "--font-brygada", subsets: ["latin", "l
 const sans = Libre_Franklin({ variable: "--font-franklin", subsets: ["latin", "latin-ext"], display: "swap" })
 
 /** The document for one language: both root layouts render this. */
-export function RootShell({ locale, children }: { locale: Locale; children: React.ReactNode }) {
+export function RootShell({ locale, children, notFound = false }: { locale: Locale; children: React.ReactNode; notFound?: boolean }) {
   const t = getMessages(locale)
   return (
     <html lang={INTL_LOCALE[locale]} suppressHydrationWarning className={`${display.variable} ${sans.variable}`}>
@@ -28,7 +28,7 @@ export function RootShell({ locale, children }: { locale: Locale; children: Reac
           {t.site.skip}
         </a>
         <TooltipProvider delayDuration={150}>
-          <SiteHeader locale={locale} />
+          <SiteHeader locale={locale} notFound={notFound} />
           <main id="main" className="flex-1">
             {children}
           </main>

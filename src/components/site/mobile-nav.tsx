@@ -8,7 +8,7 @@ import { getMessages } from "@/i18n/messages"
 import { LanguageSwitch } from "./language-switch"
 import { NavLinks } from "./nav-links"
 
-export function MobileNav({ locale }: { locale: Locale }) {
+export function MobileNav({ locale, notFound = false }: { locale: Locale; notFound?: boolean }) {
   const [open, setOpen] = useState(false)
   const t = getMessages(locale).site
   return (
@@ -39,7 +39,7 @@ export function MobileNav({ locale }: { locale: Locale }) {
             />
           </nav>
           <div className="mt-4">
-            <LanguageSwitch locale={locale} className="link text-[1rem]" />
+            <LanguageSwitch locale={locale} home={notFound} className="link text-[1rem]" />
           </div>
         </Dialog.Content>
       </Dialog.Portal>

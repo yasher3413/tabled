@@ -8,7 +8,7 @@ export const metadata: Metadata = { title: "Page not found · Tabled", robots: {
 
 export default function GlobalNotFound() {
   return (
-    <RootShell locale="en">
+    <RootShell locale="en" notFound>
       <NotFoundView locale="en" />
     </RootShell>
   )

@@ -39,3 +39,8 @@ test("closing the command palette returns focus to the search button", async ({ 
   await expect(page.getByRole("dialog")).toHaveCount(0)
   await expect(button).toBeFocused()
 })
+
+test("the 404 page offers the other language's home page", async ({ page }) => {
+  await page.goto("/this-page-does-not-exist")
+  await expect(page.locator("header a[hreflang]")).toHaveAttribute("href", "/fr")
+})

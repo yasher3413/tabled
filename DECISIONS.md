@@ -48,3 +48,6 @@ One line each: decision, reason.
 - Each summary's disclosure now names the model that wrote it, and the About page names both providers, so the attribution stays true whichever one is used.
 - Deployed to Vercel as project `tabled` (Hobby). Canonical URL is https://tabled-ca.vercel.app: `tabled.vercel.app` belongs to another account, and the auto-assigned `tabled-amber.vercel.app` reads worse. The site name stays Tabled; no custom domain was bought.
 - Vercel builds ingest fresh data from scratch (about 17 minutes in total, mostly prerendering 11,672 pages on one worker); the local source cache and database are never uploaded (.vercelignore).
+- OpenAI summaries use medium reasoning effort: low effort left omnibus bills under-covered (5 bullets missing whole parts); medium is about 3 times the output tokens but still cents per bill.
+- The summary prompt now leads each bullet with the practical change and names at most one law per bullet; "who it affects" lists people or organizations only. The first OpenAI drafts listed Act names, which missed the grade 8 bar.
+- Added "broad", "far-reaching", "overhaul" and "reshape" to the ban list: they are evaluative in the same way as "sweeping".

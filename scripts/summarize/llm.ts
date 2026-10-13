@@ -93,7 +93,7 @@ export function createLlm(provider: Provider, model: string): Llm {
         input: user,
         // GPT-5 models spend output tokens on reasoning before answering, so give them headroom.
         max_output_tokens: maxTokens * 4,
-        reasoning: { effort: "low" },
+        reasoning: { effort: "medium" },
         text: { format: zodTextFormat(schema, name) },
       })
       usage.calls++

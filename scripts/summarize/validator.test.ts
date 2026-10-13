@@ -45,6 +45,9 @@ describe("validateSummary", () => {
     expect(validateSummary({ ...good, what_it_does: [...good.what_it_does.slice(0, 3), "Adds common-sense rules."] }).ok).toBe(false)
     // "extremely" contains "extreme" but is a different word; "boldface" contains "bold".
     expect(validateSummary({ ...good, tldr: "Changes rules for extremely small boldface print on labels." }).ok).toBe(true)
+    // "broad" is evaluative; "broadband" and "broader" are different words.
+    expect(validateSummary({ ...good, tldr: "Makes broad changes to project reviews." }).errors.join()).toMatch(/broad/)
+    expect(validateSummary({ ...good, tldr: "Funds broadband and broader access to rural internet." }).ok).toBe(true)
   })
   it("accepts topics from the taxonomy and rejects invented ones", () => {
     expect(validateSummary({ ...good, topics: ["budget-taxes", "housing"] }).ok).toBe(true)

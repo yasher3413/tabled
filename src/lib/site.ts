@@ -4,11 +4,3 @@ export const REPO_SLUG = "yasher3413/tabled"
 export const REPO_URL = `https://github.com/${REPO_SLUG}`
 export const SITE_DESCRIPTION =
   "Every federal bill, recorded House vote and MP in the Parliament of Canada, explained in plain English."
-
-export function reportErrorUrl(subject: string, pageUrl: string) {
-  const params = new URLSearchParams({
-    title: `Error report: ${subject}`,
-    body: `Page: ${pageUrl}\n\nWhat is wrong:\n\nWhere the correct information can be found:\n`,
-  })
-  return `${REPO_URL}/issues/new?${params}`
-}

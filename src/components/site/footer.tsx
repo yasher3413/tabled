@@ -4,6 +4,7 @@ import { getMessages } from "@/i18n/messages"
 import { formatDate } from "@/lib/format"
 import { getMeta } from "@/lib/queries"
 import { REPO_URL } from "@/lib/site"
+import { ReportLink } from "./report-link"
 
 export function SiteFooter({ locale }: { locale: Locale }) {
   const meta = getMeta()
@@ -66,9 +67,7 @@ export function SiteFooter({ locale }: { locale: Locale }) {
               </Link>
             </li>
             <li>
-              <a className="link" href={`${REPO_URL}/issues/new`}>
-                {t.report}
-              </a>
+              <ReportLink locale={locale} />
             </li>
             <li>
               <a className="link" href={REPO_URL}>

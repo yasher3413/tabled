@@ -1,5 +1,5 @@
+import Link from "next/link"
 import { Sparkles } from "lucide-react"
-import { reportErrorUrl } from "@/lib/site"
 import type { Summary } from "@/lib/summary-schema"
 import { formatDate } from "@/lib/format"
 import type { Locale } from "@/i18n/config"
@@ -112,9 +112,9 @@ export function SummaryBlock({ billNumber, pageUrl, summary, officialSummary, so
             t.officialText
           )}{" "}
           {t.isAuthority}{" "}
-          <a className="link" href={reportErrorUrl(`Bill ${billNumber} summary`, pageUrl)}>
+          <Link className="link" href={reportHref(locale, billNumber, pageUrl)}>
             {t.report}
-          </a>
+          </Link>
           .
         </p>
       </aside>
@@ -155,4 +155,14 @@ function OfficialSummary({ text, locale }: { text: string; locale: Locale }) {
       )}
     </div>
   )
+}
+
+/** The report form, prefilled as a data error about this bill's summary. */
+function reportHref(locale: Locale, billNumber: string, pageUrl: string) {
+  let page = pageUrl
+  try {
+    page = new URL(pageUrl).pathname
+  } catch {}
+  const params = new URLSearchParams({ page, subject: locale === "fr" ? `Résumé du projet de loi ${billNumber}` : `Bill ${billNumber} summary`, kind: "data" })
+  return `${localePath(locale, "/report")}?${params}`
 }

@@ -262,12 +262,18 @@ export function AboutView({ locale }: { locale: Locale }) {
             <SectionHeading id="errors">{heading.errors}</SectionHeading>
             <p>
               {fr ? "Vous avez trouvé une erreur? " : "Found something wrong? "}
+              <Link className="link" href={localePath(locale, "/report")}>
+                {fr ? "Signalez un problème" : "Report a problem"}
+              </Link>
+              {fr
+                ? " en indiquant la page et l’information exacte; votre signalement devient un ticket public sur GitHub. Vous pouvez aussi "
+                : " with the page and what the correct information is; your report becomes a public GitHub issue. You can also "}
               <a className="link" href={`${REPO_URL}/issues/new`}>
-                {fr ? "Ouvrez un ticket sur GitHub" : "Open an issue on GitHub"}
+                {fr ? "ouvrir un ticket directement sur GitHub" : "open an issue on GitHub directly"}
               </a>
               {fr
-                ? " en indiquant la page et l’information exacte. Tabled est un logiciel libre sous licence MIT; le code se trouve à "
-                : " with the page and what the correct information is. Tabled is open source under the MIT licence; the code is at "}
+                ? ". Tabled est un logiciel libre sous licence MIT; le code se trouve à "
+                : ". Tabled is open source under the MIT licence; the code is at "}
               <a className="link" href={REPO_URL}>
                 {REPO_URL.replace("https://", "")}
               </a>

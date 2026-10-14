@@ -11,6 +11,15 @@ export const MIN_FILL_MS = 3000
 
 const siteHost = new URL(SITE_URL).host
 
+/** True when a path resolves to this site, whatever tricks it contains. */
+function isOnSite(path: string) {
+  try {
+    return new URL(path, SITE_URL).host === siteHost
+  } catch {
+    return false
+  }
+}
+
 /** A site path ("/bills/45-1/C-2?x=1"), or an absolute URL on this site reduced to its path and query. */
 const pageField = z
   .string()
@@ -18,7 +27,8 @@ const pageField = z
   .max(500)
   .transform((value, ctx) => {
     if (value === "") return "/"
-    if (value.startsWith("/") && !value.startsWith("//")) return value
+    // Backslashes count as slashes in URLs ("/\\evil.example" is another host), so refuse them outright.
+    if (value.startsWith("/") && !value.startsWith("//") && !value.includes("\\") && isOnSite(value)) return value
     try {
       const u = new URL(value)
       if (u.host === siteHost && (u.protocol === "https:" || u.protocol === "http:")) return `${u.pathname}${u.search}`
@@ -28,7 +38,11 @@ const pageField = z
   })
 
 export const reportSchema = z.object({
-  description: z.string().trim().min(10).max(4000),
+  // Browsers send textarea newlines as \r\n; count them as one character, as the textarea's maxLength does.
+  description: z
+    .string()
+    .transform((s) => s.replace(/\r\n?/g, "\n"))
+    .pipe(z.string().trim().min(10).max(4000)),
   page: pageField,
   kind: z.enum(REPORT_KINDS).default("bug"),
   email: z.union([z.literal(""), z.email().max(254)]).optional(),

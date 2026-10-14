@@ -59,6 +59,7 @@ export function qaRoutes(): QaRoute[] {
     { name: "find-postal", path: "/find?postal=K1A0A6", kind: "plain" },
     { name: "unknown-bill", path: "/bills/x/y", kind: "not-found" },
     { name: "unknown-mp", path: "/mps/nobody", kind: "not-found" },
+    { name: "report", path: "/report?page=/bills", kind: "report" },
   )
   const fr: QaRoute[] = en
     .filter((r) => r.kind !== "embed")

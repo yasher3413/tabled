@@ -22,6 +22,14 @@ describe("reportSchema", () => {
   })
   it("rejects a page on another host", () => expect(parse({ page: "https://evil.example/x" }).success).toBe(false))
   it("rejects protocol-relative pages", () => expect(parse({ page: "//evil.example/x" }).success).toBe(false))
+  it("rejects backslash tricks that point at another host", () => {
+    expect(parse({ page: "/\\evil.example/phish" }).success).toBe(false)
+    expect(parse({ page: "/\\/evil.example" }).success).toBe(false)
+  })
+  it("counts CRLF newlines once", () => {
+    const text = `${"a".repeat(3990)}${"\r\n".repeat(9)}b`
+    expect(parse({ description: text }).success).toBe(true)
+  })
   it("normalises an absolute URL on this site to its path", () => {
     expect(parse({ page: "https://tabled-ca.vercel.app/mps?party=green" }).data?.page).toBe("/mps?party=green")
   })
@@ -32,6 +40,9 @@ describe("reportSchema", () => {
 describe("sanitize", () => {
   it("strips tags and scripts", () => {
     expect(sanitize('Hello <script>alert(1)</script><b>there</b>')).toBe("Hello alert(1)there")
+  })
+  it("keeps comparisons", () => {
+    expect(sanitize("The yeas show < 50 but the record says > 100")).toBe("The yeas show < 50 but the record says > 100")
   })
   it("neutralises @mentions", () => {
     expect(sanitize("cc @octocat")).toBe("cc @​octocat")
@@ -105,6 +116,10 @@ describe("fallbackIssueUrl", () => {
     expect(url.searchParams.get("title")).toBe("Report: Wrong & odd #1")
     expect(url.searchParams.get("body")).toContain("Page: https://tabled-ca.vercel.app/bills?x=1")
     expect(url.searchParams.get("body")).toContain("Kind: data error")
+  })
+  it("ignores a backslash page that resolves elsewhere", () => {
+    const url = new URL(fallbackIssueUrl({ page: "/\\evil.example/x" }))
+    expect(url.searchParams.get("body")).toContain("Page: https://tabled-ca.vercel.app/\n")
   })
   it("ignores a foreign page", () => {
     const url = new URL(fallbackIssueUrl({ page: "https://evil.example" }))

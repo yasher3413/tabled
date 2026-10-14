@@ -21,6 +21,6 @@ export default defineConfig({
     url: `http://localhost:${PORT}`,
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,
-    env: { REPRESENT_FIXTURES: "1" },
+    env: { REPRESENT_FIXTURES: "1", REPORT_FIXTURES: "1" },
   },
 })

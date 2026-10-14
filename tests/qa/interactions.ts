@@ -134,14 +134,14 @@ export async function mobileNav(qa: Qa) {
 export async function filters(qa: Qa) {
   const { page } = qa
   await step(qa, "filters-clear", async () => {
-    const select = page.locator("main [role=search] select").first()
+    const select = page.locator("main [role=search] select:visible").first()
     if (!(await select.count())) return
     const value = await select.evaluate((el) => {
       const s = el as HTMLSelectElement
       return Array.from(s.options).find((o) => o.value && o.value !== s.value)?.value ?? null
     })
     if (!value) return
-    await select.selectOption(value)
+    await select.selectOption(value, { timeout: 5000 })
     await page.waitForFunction(() => location.search.length > 1, null, { timeout: 5000 })
     const clear = page.locator("main p[aria-live] button")
     if (!(await clear.count())) return // the filter did not narrow the list, so there is nothing to clear
@@ -215,6 +215,23 @@ export async function findMp(qa: Qa) {
   })
 }
 
+/** Fill and send the report form. Only against a local fixture server: never file real issues. */
+export async function reportForm(qa: Qa) {
+  const { page } = qa
+  if (!qa.local) return
+  await step(qa, "report-submit", async () => {
+    await page.locator("main form:not([inert])").waitFor({ timeout: 10_000 })
+    await page.locator("main textarea").fill(fr(qa) ? "Essai du formulaire par le contrôle qualité." : "Harness check of the report form.")
+    await page.waitForTimeout(3100)
+    const res = page.waitForResponse((r) => r.url().endsWith("/api/report"), { timeout: 15_000 })
+    await qa.tapLocator("main form button[type=submit]")
+    const json = await (await res).json()
+    check(json.ok === true && json.issueNumber === 0, `report endpoint answered ${JSON.stringify(json).slice(0, 120)}`)
+    await page.getByRole("status").waitFor({ timeout: 5000 })
+    await qa.load()
+  })
+}
+
 export async function runSpecial(qa: Qa) {
   const kind = qa.route.kind
   if (kind !== "embed") await languageSwitch(qa, kind === "home" || qa.route.name === "bill-detail" || qa.route.name === "fr-bill-detail")
@@ -226,4 +243,5 @@ export async function runSpecial(qa: Qa) {
   if (kind === "filters") await filters(qa)
   if (kind === "hemicycle") await hemicycle(qa)
   if (kind === "find") await findMp(qa)
+  if (kind === "report") await reportForm(qa)
 }

@@ -18,6 +18,7 @@ export default class QaReporter implements Reporter {
   onBegin(config: FullConfig, suite: Suite) {
     rmSync(path.join(OUT, "report.json"), { force: true })
     rmSync(path.join(OUT, "report.md"), { force: true })
+    rmSync(path.join(OUT, "shots"), { recursive: true, force: true })
     mkdirSync(path.join(OUT, "shots"), { recursive: true })
     this.baseURL = String(config.projects[0]?.use.baseURL ?? "")
     for (const t of suite.allTests()) this.projects.add(t.parent.project()?.name ?? "")

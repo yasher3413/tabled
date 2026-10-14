@@ -123,22 +123,31 @@ export class Qa {
   async tapLocator(selector: string) {
     const loc = this.page.locator(selector).first()
     if (!(await loc.count())) return false
-    await loc.scrollIntoViewIfNeeded({ timeout: 3000 }).catch(() => {})
-    // WebKit's scrollIntoView does not reach elements inside content-visibility: auto (the ballot table);
-    // scroll the window by hand when the element is still off screen.
-    await loc.evaluate((el) => {
-      const r = el.getBoundingClientRect()
-      if (r.bottom < 0 || r.top > innerHeight) window.scrollBy(0, r.top - innerHeight / 2)
-    })
+    // Scroll the way a person does, a screenful at a time, until the element sits on screen. Jumping straight
+    // there misses in WebKit: rows inside content-visibility: auto (the ballot table) report estimated
+    // positions until they render, so one big scroll overshoots.
+    const measure = () =>
+      loc.evaluate((el) => {
+        const b = Array.from(el.getClientRects()).find((x) => x.width > 0 && x.height > 0) ?? el.getBoundingClientRect()
+        return { x: b.left + b.width / 2, y: b.top + b.height / 2, w: b.width, h: b.height }
+      })
+    let r = await measure()
+    if (!r.w) return false
+    const vh = this.viewportHeight()
+    for (let i = 0; i < 80 && (r.y < 0 || r.y > vh); i++) {
+      await this.page.evaluate((d) => window.scrollBy(0, Math.sign(d) * Math.min(Math.abs(d), innerHeight * 0.7)), r.y - vh / 2)
+      await this.page.waitForTimeout(60)
+      r = await measure()
+    }
     await this.page.waitForTimeout(120) // let the scroll settle: a tap during a scroll only stops the scroll
-    // Aim at the first line box: a link that wraps has its overall centre in the gap after the first line.
-    const r = await loc.evaluate((el) => {
-      const b = Array.from(el.getClientRects()).find((x) => x.width > 0 && x.height > 0) ?? el.getBoundingClientRect()
-      return { x: b.left + b.width / 2, y: b.top + b.height / 2, w: b.width }
-    })
+    r = await measure()
     if (!r.w) return false
     await this.tapAt(r.x, r.y)
     return true
+  }
+
+  viewportHeight() {
+    return this.page.viewportSize()?.height ?? 800
   }
 
   async staticChecks() {
@@ -296,7 +305,11 @@ export class Qa {
       return Array.from(s.options).find((o) => o.value !== s.value && !o.disabled)?.value ?? null
     })
     if (value === null) return
-    await loc.selectOption(value)
+    const picked = await loc.selectOption(value, { timeout: 5000 }).then(
+      () => true,
+      () => false,
+    )
+    if (!picked) return this.reset(before, fp) // could not operate it; not evidence that it does nothing
     await this.page.waitForTimeout(700)
     const after = await this.fp()
     if (after.url === fp.url && after.textLength === fp.textLength && after.aria === fp.aria) {

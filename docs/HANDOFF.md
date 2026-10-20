@@ -72,6 +72,28 @@ Read this file first, then `docs/tabled-brief.md` (the owner's brief, the source
   `.name-sc` small caps for member names, double-rule totals in table footers, no eyebrows/kickers above headings,
   no cards-as-structure, sentence case, no em dashes in copy (official riding names keep theirs).
 
+- Click-through QA harness: `pkill -f "next start"; pnpm build; pnpm qa`, then read `qa-report/report.md` (errors,
+  warnings, allowlisted, screenshots in `qa-report/shots/`). About 15 minutes for 42 routes in 3 projects
+  (desktop Chromium 1440, phone Chromium 390, iPhone 13 WebKit); French routes run in two projects. Quick pass:
+  `pnpm qa --project=mobile-webkit`. Read-only production pass: `BASE_URL=https://tabled-ca.vercel.app pnpm qa`
+  (never submits the report form there). Knobs: `QA_MAX_TAPS` (default 8), `QA_WORKERS` (5), `QA_EXTERNAL=1`
+  (HEAD-check external links), `QA_INJECT_CSS` (simulate an engine quirk, e.g.
+  `"tbody tr{position:static!important}"` reproduces the old iOS MPs tap bug). Accepted findings go in
+  `tests/qa/allowlist.ts`, each with a reason.
+- `pnpm test:e2e` now includes a `webkit-mobile` project (iPhone 13) for `tests/e2e/mobile.spec.ts`; install WebKit
+  once with `pnpm exec playwright install chromium webkit`. Playwright's WebKit cannot scrollIntoView rows inside a
+  `content-visibility: auto` table; scroll the window by hand in tests.
+- Report form (`/report`, `/api/report`): env vars `GITHUB_ISSUES_TOKEN` (fine-grained PAT, Issues read and write on
+  yasher3413/tabled only; production only; owner-managed), `BLOB_READ_WRITE_TOKEN` (set in production by the
+  `tabled-reports` Blob store) and `REPORT_FIXTURES=1` (local and e2e only: formats the issue, files nothing; ignored
+  when `VERCEL` is set). Without the token the endpoint returns 503 `unconfigured` and the form links to a
+  prefilled GitHub issue. Reports and screenshots are public. Labels `user-report`, `data-error` and `bug` exist.
+- Owner steps for the report token: github.com/settings/personal-access-tokens/new, name "tabled issue reporter",
+  resource owner yasher3413, only `yasher3413/tabled`, Repository permissions: Issues read and write (Metadata
+  read-only is automatic), expiry 1 year (note the date here). Then `vercel env add GITHUB_ISSUES_TOKEN production`
+  (mark it sensitive) and redeploy (`vercel deploy --prod --yes --archive=tgz` or push a commit). When the token
+  expires the form silently falls back to the GitHub link.
+
 ## Known issues to mention in MORNING.md
 
 - Summaries not generated (placeholder key). Topic tags dormant for the same reason.

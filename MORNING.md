@@ -4,6 +4,30 @@ Tabled is built, pushed to `main` and live at **https://tabled-ca.vercel.app**. 
 gate passes, and all nine stretch items are done. Plain-English summaries now exist for every bill in both sessions
 (598, written by OpenAI's gpt-5.4-mini), and topic tags and the topic filter are live with them.
 
+## New since the last update (2026-10-20)
+
+- **Fixed the iPhone bug on the MPs page**: every tap opened Madeleine Chenette's page. Each row's link overlay
+  escaped its table row on iOS Safari, so all 60 overlays covered the top of the page and the last row won. The
+  overlay now lives in the cells. New WebKit (iPhone 13) tests guard it.
+- **Click-through QA harness**: `pnpm qa` taps through 42 routes on desktop, a Chromium phone and an iPhone WebKit
+  emulation and writes `qa-report/report.md`. It also found and fixed: search palette focus, the 404 page's language
+  link, and the seat legend doing nothing on a tap.
+- **Report a problem** (`/report`, `/fr/report`, linked from the footer, every bill summary and About): files a
+  public GitHub issue with an optional screenshot. **Needs one thing from you** (below); until then it shows a
+  prefilled GitHub issue link instead, so nothing is lost.
+
+### Your steps to switch on the report form
+
+1. Create a fine-grained token at github.com/settings/personal-access-tokens/new: name "tabled issue reporter",
+   resource owner yasher3413, only the `yasher3413/tabled` repository, Repository permissions: Issues read and write
+   (nothing else), expiry 1 year.
+2. Run `vercel env add GITHUB_ISSUES_TOKEN production` in the repo and paste it (mark it sensitive).
+3. Redeploy: `vercel deploy --prod --yes --archive=tgz`, or push any commit.
+
+Reports, screenshots and any email people add are public on GitHub (the form says so). Screenshots live in a new
+free Vercel Blob store, `tabled-reports`. Spam guards: a hidden honeypot field, a minimum fill time, an origin
+check, 3 reports per visitor per 10 minutes and at most 10 reports an hour overall.
+
 ## What works
 
 - **Core pages**: home (this week in Parliament, House composition), bills index (search, filters in the URL, paging),
@@ -37,7 +61,7 @@ gate passes, and all nine stretch items are done. Plain-English summaries now ex
   bills, 928 votes, 311,735 ballots. 472 members across both. Hansard excerpts for 301 bills. Seat counts match the
   House of Commons exactly; 6 current-session votes disagreed with openparliament.ca and use the official record.
 - **Timing**: cold ingest of both sessions about 6 minutes (about 15 seconds with the cache); build about 5 minutes.
-- **Tests**: 106 unit tests on real recorded responses; 95 end-to-end tests including axe on every route in both
+- **Tests**: 140 unit tests on real recorded responses; 122 end-to-end tests (Chromium plus iPhone WebKit) including axe on every route in both
   themes (zero serious or critical violations). Typecheck and lint clean.
 - **Lighthouse** (local production build, performance/accessibility/best practices/SEO): home 96/100/100/100, bill
   96/100/100/100, MP 95/100/100/100, vote 95/100/100/100, French bill 96/100/100/100.

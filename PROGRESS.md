@@ -14,7 +14,8 @@ MVP done; stretch backlog done; summaries generated and deployed at https://tabl
 - Phase 7: README, CI and daily refresh workflows, MIT licence, CONTRIBUTING.
 
 ## Quality gates (latest run)
-- typecheck, lint: clean. Unit: 106 tests passing. E2E + axe: 95 passing (every route incl. French, light and dark, zero serious/critical violations). Build passes.
+- typecheck, lint: clean. Unit: 140 tests passing. E2E + axe: 122 passing (Chromium plus the new webkit-mobile project; every route incl. French and /report, light and dark, zero serious/critical violations). Build passes.
+- Click-through QA harness (`pnpm qa`, 42 routes, desktop Chromium, phone Chromium, iPhone WebKit): iteration 0 found 48 errors, iteration 1 8, iteration 2 7, iteration 3 1. The last one (a /fr/bills title link in WebKit "stayed put") did not reproduce in three manual WebKit runs and is treated as harness flakiness; 10 warnings remain (see Known issues).
 - Lighthouse (local prod build, perf/a11y/best practices/SEO): home 96/100/100/100, bill 96/100/100/100, MP 95/100/100/100, vote 95/100/100/100, French bill 96/100/100/100.
 - Screenshots: 72 images (18 routes, 1440px and 390px, light and dark) in docs/screenshots/.
 
@@ -28,6 +29,16 @@ MVP done; stretch backlog done; summaries generated and deployed at https://tabl
 - [x] 2. Weekly digest at /this-week (and /this-week/YYYY-Www, both languages) with an RSS feed.
 - [x] 3. Per-bill and per-MP RSS feeds (/bills/.../rss.xml, /mps/.../rss.xml), advertised in page metadata.
 - [x] 1. French: /fr for every page, hand-translated UI and stage explainers, official French data, hreflang, bilingual sitemap, French e2e + axe.
+
+## Batch 2026-10-13 to 10-20: phone tap bug, QA harness, report form
+- [x] Fixed: on iPhone every tap on /mps opened Madeleine Chenette (row link overlays escaped their <tr> on older iOS WebKit). Regression tests in a new webkit-mobile project.
+- [x] Click-through QA harness (`pnpm qa`), run for 3 fix iterations. Fixes from it: command palette returns focus on close, the 404 page's language link, tap to pin a party in the seat legend.
+- [x] "Report a problem" form at /report (both languages) filing public GitHub issues, screenshots on Vercel Blob, linked from the footer, bill summaries and About. Waits on the owner's GITHUB_ISSUES_TOKEN; until then it offers a prefilled GitHub issue.
+
+## Known issues (QA warnings left as is)
+- No-op warning on the vote page's "By ballot" toggle: it is already the active option, so tapping it changes nothing (correct behaviour).
+- Small-target warnings on footer links (about 17px tall, stacked 8px apart) and a few inline links: below the 24px WCAG 2.5.8 size and within the spacing exception's reach. Cheap to fix with more line height if wanted.
+- One flaky WebKit tap finding on /fr/bills (see Quality gates).
 
 ## Next
 - Nothing left in the backlog. Owner actions: GitHub secrets for the daily refresh, Vercel GitHub app access and deploy hook. See MORNING.md.

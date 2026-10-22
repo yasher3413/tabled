@@ -1,0 +1,32 @@
+{
+  "billId": "45-1/S-252",
+  "sourceHash": "1167416f014cae1077ef2d2a5eb2af85",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-22T14:37:45.430Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14268783",
+  "summary": {
+    "tldr": "Creates Criminal Code offences for making, sharing, or advertising commercial pornographic material without confirming age and consent, and for not removing it from websites after a request.",
+    "what_it_does": [
+      "Defines pornographic material as a visual representation of explicit sexual activity, or of a sexual organ or anal region shown for a sexual purpose.",
+      "Makes it an offence to make pornographic material for commercial purposes without first checking that each person shown is 18 or older and gave express consent.",
+      "Makes it an offence to distribute or advertise this material unless the maker gives written confirmation of age, express consent, and no later written withdrawal of consent.",
+      "Makes website operators remove pornographic material after a written request from the maker or a person shown, and makes knowingly failing to do so an offence.",
+      "Sets penalties of up to $500,000 or 10 years in prison, allows courts to order removal or Internet limits after conviction, and lets regulations set rules for age checks, records, and removal requests."
+    ],
+    "who_it_affects": [
+      "People who make pornographic material",
+      "Website operators",
+      "Distributors and advertisers",
+      "People depicted in pornographic material",
+      "Courts and prosecutors"
+    ],
+    "background": "The bill adds new sections 172.11 to 172.14 to the Criminal Code. It also updates seizure, forfeiture, sentencing, and compensation rules to cover this material.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "technology-privacy"
+    ]
+  }
+}

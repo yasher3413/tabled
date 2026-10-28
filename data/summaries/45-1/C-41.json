@@ -1,0 +1,37 @@
+{
+  "billId": "45-1/C-41",
+  "sourceHash": "e16751618fcea975d5d1eef7d48351a8",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-28T16:15:38.054Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14286736",
+  "summary": {
+    "tldr": "Amends the Criminal Code to bar medical assistance in dying based on mental illness and to allow advance requests in limited cases after loss of capacity.",
+    "what_it_does": [
+      "Clarifies that a person cannot receive medical assistance in dying on the basis of a mental illness, and keeps that exclusion in related MAID law.",
+      "Creates a legal exemption so a medical practitioner or nurse practitioner can provide medical assistance in dying after a person loses capacity to consent, if the person made a valid advance request and provincial rules are in place.",
+      "Requires advance requests to meet set conditions, including a prior diagnosis of a serious, incurable illness expected to lead to loss of capacity, informed consent, and storage in a provincial repository.",
+      "Sets safeguards for advance requests, including a second written opinion, conflict of interest limits, and rules that stop the procedure if the person shows refusal or resistance.",
+      "Makes it an offence, punishable by up to five years in prison or by summary conviction, to knowingly break certain advance-request safeguards or pharmacist notice rules.",
+      "Updates reporting rules for MAID and makes related changes to the Pension Act, the Corrections and Conditional Release Act, and the Veterans Well-being Act."
+    ],
+    "who_it_affects": [
+      "People seeking MAID",
+      "People making advance requests",
+      "People with mental illness",
+      "Medical practitioners",
+      "Nurse practitioners",
+      "Pharmacists",
+      "Canadian Armed Forces members",
+      "Veterans"
+    ],
+    "background": "The bill amends the Criminal Code rules on medical assistance in dying and related provisions in other laws. It also amends the 2021 MAID bill so the mental illness exclusion stays in force.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "health",
+      "rights-equality",
+      "government-operations"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "billId": "45-1/S-253",
+  "sourceHash": "8f267974ad56842da8fafbeb5b6e7b44",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-10-30T16:07:12.220Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14297204",
+  "summary": {
+    "tldr": "Raises child care expense deduction limits for 2027 and later, and ties the 2027 amounts to inflation.",
+    "what_it_does": [
+      "Sets child care expense deduction amounts for taxation years before 2027 at $11,000, $8,000, or $5,000, depending on the child.",
+      "Sets higher child care expense deduction amounts for 2027 and later at $16,345, $12,855, or $7,529, depending on the child.",
+      "Adds the 2027 dollar amounts to the Income Tax Act's inflation indexation rule, so they are adjusted using the Consumer Price Index in later years."
+    ],
+    "who_it_affects": [
+      "Parents and caregivers",
+      "Families with children",
+      "Taxpayers claiming child care expenses"
+    ],
+    "background": "The bill amends the Income Tax Act's child care expense deduction rules. It uses the 2027 amounts as the base for later inflation indexing.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "budget-taxes",
+      "families-children"
+    ]
+  }
+}

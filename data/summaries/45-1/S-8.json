@@ -1,0 +1,35 @@
+{
+  "billId": "45-1/S-8",
+  "sourceHash": "2a1aab2e374b566a932ae1b18da52732",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-11-04T17:26:49.325Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14310374",
+  "summary": {
+    "tldr": "Creates new anti-money laundering rules for virtual currency ATMs, large cash transactions and FINTRAC registrations, and lets authorities seize some drug-related mail.",
+    "what_it_does": [
+      "Requires virtual currency ATM operators to keep records, verify users, report each transaction to FINTRAC within 15 days and cap a user’s transactions at $1,000 in 24 hours.",
+      "Bans certain financial entities from accepting third-party cash deposits, and bars businesses, professions and public fundraisers from taking cash payments, donations or deposits of $10,000 or more in one transaction or related series.",
+      "Adds new FINTRAC registration rules, including new grounds to refuse or revoke registration, required activity reports after registration, and new powers for the Minister of Finance to review, delay, limit or block registrations on national security or financial system grounds.",
+      "Lets some FINTRAC-regulated entities collect and use personal information without a person’s knowledge or consent when it is disclosed by police or a government body for detecting or deterring money laundering, terrorist financing or sanctions evasion.",
+      "Lets authorities demand, seize, detain or retain items in the mail under the Criminal Code, the Controlled Drugs and Substances Act or the Cannabis Act."
+    ],
+    "who_it_affects": [
+      "Virtual currency ATM operators",
+      "Financial institutions",
+      "Businesses and professionals",
+      "Charities and fundraisers",
+      "FINTRAC registrants",
+      "Canada Post",
+      "Law enforcement"
+    ],
+    "background": "The bill amends the Proceeds of Crime (Money Laundering) and Terrorist Financing Act and the Canada Post Corporation Act.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice",
+      "technology-privacy",
+      "government-operations"
+    ]
+  }
+}

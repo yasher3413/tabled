@@ -1,31 +1,30 @@
 {
   "billId": "45-1/C-226",
-  "sourceHash": "a3a0e7c841f3ba0e34e908fe4868f7eb",
+  "sourceHash": "f32cea8cf0807ff33a378736ea565087",
   "model": "gpt-5.4-mini",
-  "generatedAt": "2026-10-13T02:38:12.522Z",
+  "generatedAt": "2026-11-05T17:32:07.505Z",
   "sourceBasis": "full_text",
-  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13592715",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14315371",
   "summary": {
-    "tldr": "Requires the Industry Minister to develop and report on a national framework for grocery pricing and unit price display practices.",
+    "tldr": "Creates a national framework on grocery pricing and unit price displays, and requires a report on the consultations used to build it.",
     "what_it_does": [
-      "Requires the Minister of Industry, with provincial consumer affairs officials, to develop a national framework on grocery pricing and unit price display practices.",
-      "Sets out national standards for the grocery retail sector on unit pricing, including the accuracy, usability and accessibility of unit price displays.",
-      "Requires the framework to include measures on transparency about price increases, adjustments and fluctuations.",
-      "Promotes consumer education across Canada on what unit prices are and how they are used.",
-      "Requires a report within 18 months, then a review and second report within five years, with both reports tabled in Parliament and posted online."
+      "Requires the Minister of Industry to work with provincial governments to develop a national framework on grocery pricing and unit price display practices.",
+      "Requires the framework to include national standards for unit pricing on food and other household goods, including the accuracy, usability and accessibility of unit price displays.",
+      "Requires the framework to include ways to teach consumers across Canada about unit pricing and how it is used.",
+      "Requires the Minister to report to Parliament on the consultation results within 18 months after the act comes into force, and to publish the report online."
     ],
     "who_it_affects": [
       "Consumers",
       "Grocery retailers",
-      "Provincial consumer affairs officials",
-      "Minister of Industry"
+      "Provincial governments",
+      "Department of Industry"
     ],
     "background": null,
     "source_basis": "full_text",
     "coverage_note": null,
     "topics": [
-      "economy-business",
-      "government-operations"
+      "agriculture-food",
+      "economy-business"
     ]
   }
 }

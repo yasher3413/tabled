@@ -1,30 +1,28 @@
 {
   "billId": "45-1/C-267",
-  "sourceHash": "74a2c827c1ce54dcb647e9479ca4f96c",
+  "sourceHash": "c2169c4694a019a4ab779dbb8e9b7f11",
   "model": "gpt-5.4-mini",
-  "generatedAt": "2026-10-13T02:36:54.906Z",
+  "generatedAt": "2026-11-05T17:32:07.657Z",
   "sourceBasis": "full_text",
-  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/13962621",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14315232",
   "summary": {
-    "tldr": "Requires the Minister of Industry to develop a national framework on the durability and repairability of electronic products and essential home appliances, with reports to Parliament.",
+    "tldr": "Requires the Minister of Industry to develop a national framework on product durability and repairability, then report to Parliament and review it later.",
     "what_it_does": [
-      "Requires the Minister of Industry to develop the framework after consulting provincial consumer protection representatives and, if appropriate, consumer advocacy groups, for products sold in Canada, whether made here or imported.",
-      "Requires the framework to promote durability, explain useful life and repair options, and set national standards for minimum useful life, labelling, maintenance, repair, replacement parts, technical documents, and software support.",
-      "Requires the framework to set out consumer responsibilities for manufacturers, importers, and distributors, and to consider legislative measures such as inspection rules and penalties for non-compliance.",
-      "Requires the minister to prepare a report setting out the framework within 18 months after the Act comes into force, table it in both Houses, and publish it on the Department of Industry website.",
-      "Requires the minister, within five years after the first report is tabled, to review how the framework is working and to table and publish a second report with findings and recommendations."
+      "Requires the Minister of Industry to develop a national framework on the durability and repairability of electronic products and essential home appliances, after consulting provincial consumer protection officials and other stakeholders.",
+      "Requires the framework to promote durability, explain useful life and repair options, and set national standards for maintenance, repair, replacement parts, technical documents and software support.",
+      "Requires the framework to tell consumers about those standards, set out the responsibilities of manufacturers, importers and distributors, and support fair access to repair services.",
+      "Requires the minister to consider possible laws on duties, inspections and penalties during consultations with provincial officials.",
+      "Requires the minister to table a report on the framework within 18 months, then review how it works within five years and table and publish a second report."
     ],
     "who_it_affects": [
       "Consumers",
       "Manufacturers",
       "Importers",
       "Distributors",
-      "Provincial consumer protection officials",
-      "Consumer advocacy groups",
-      "Minister of Industry",
-      "Parliament"
+      "Repair businesses",
+      "Provincial consumer protection authorities"
     ],
-    "background": null,
+    "background": "The bill covers electronic products and essential home appliances sold in Canada, whether they are made in Canada or imported. It defines useful life as the period a product can be used safely and functionally under normal use.",
     "source_basis": "full_text",
     "coverage_note": null,
     "topics": [

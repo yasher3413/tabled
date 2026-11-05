@@ -1,30 +1,28 @@
 {
   "billId": "45-1/C-40",
-  "sourceHash": "fedfdcba458b52aca2eb2a6fe98d2797",
+  "sourceHash": "7212b3362228e64dd1fb66d7208c7b05",
   "model": "gpt-5.4-mini",
-  "generatedAt": "2026-10-13T02:31:15.475Z",
-  "sourceBasis": "full_text",
-  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14246079",
+  "generatedAt": "2026-11-05T17:31:27.707Z",
+  "sourceBasis": "legislative_summary",
+  "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/C-40",
   "summary": {
-    "tldr": "Creates a new defence investment corporation and expands federal powers over defence and national security procurement, stockpiling and financing.",
+    "tldr": "Creates a new defence investment corporation and expands federal powers over defence and national security procurement, stockpiling, and investment.",
     "what_it_does": [
-      "Creates the Canadian Corporation for Defence Investment, also called the Defence Investment Agency, to handle defence production, procurement and investment for the Canadian Forces, the Department of National Defence and some associated governments.",
-      "Lets the minister direct the corporation’s work, including stopping activities, setting how it carries them out and requiring ministerial approval at set points.",
-      "Gives the corporation financial tools, including loans, advance payments, loan guarantees, loan insurance, credit insurance and, with approvals, investments in shares or other financial instruments.",
-      "Expands the Defence Production Act to cover national security supplies, projects and services, and lets the Minister of Public Works and Government Services acquire and stockpile items for defence, national security and economic security.",
-      "Sets procurement rules for defence and national security, adds related changes to the Access to Information Act and requires a review of the new corporation and the Defence Production Act changes."
+      "Creates the Canadian Corporation for Defence Investment, a federal corporation that would carry out activities tied to production, procurement and investment for national defence, for the Canadian Forces, the Department of National Defence, or associated governments.",
+      "Expands the Defence Production Act to cover supplies, projects and services linked to national security, and to give the Minister of Public Works and Government Services authority to buy those supplies and services for federal departments, boards and agencies, with some exceptions.",
+      "Lets that minister stockpile goods for national defence and national security, including economic security, and for the defence and security of associated governments or other states.",
+      "Gives that minister new financial powers for investment in national defence and national security sectors, and sets procurement rules for those areas.",
+      "Requires a review of the new corporation act and the Defence Production Act changes, and makes related changes to the Access to Information Act and other laws."
     ],
     "who_it_affects": [
       "Canadian Forces",
       "Department of National Defence",
-      "Defence suppliers",
-      "Federal departments",
-      "Associated governments",
-      "Defence investors",
-      "Procurement officials"
+      "Federal departments, boards and agencies",
+      "Defence and security suppliers",
+      "Associated governments"
     ],
-    "background": "The bill would enact the Canadian Corporation for Defence Investment Act and amend the Defence Production Act. It also requires a review of those changes after the law takes effect.",
-    "source_basis": "full_text",
+    "background": null,
+    "source_basis": "legislative_summary",
     "coverage_note": null,
     "topics": [
       "defence-security",

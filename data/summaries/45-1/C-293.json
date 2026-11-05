@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-293",
+  "sourceHash": "471bd6e6a7c4d07e3c4342f89742779d",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-11-05T17:31:58.073Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14267062",
+  "summary": {
+    "tldr": "Creates a new Criminal Code offence for violent home invasion and adds it to sentencing, bail and related rules.",
+    "what_it_does": [
+      "Creates a new offence of violent home invasion for anyone who enters or is in an occupied dwelling-house without lawful excuse and uses intimidation, violence, threats, bodily harm, confinement, or a weapon.",
+      "Sets the penalty for violent home invasion at up to life in prison, with a minimum sentence of five years.",
+      "Requires courts to treat violent home invasion as an aggravating circumstance when sentencing for certain other offences tied to a dwelling-house.",
+      "Adds violent home invasion to the list of primary designated offences under the Criminal Code.",
+      "Adds violent home invasion to the bail rules that apply to certain listed offences."
+    ],
+    "who_it_affects": [
+      "People accused of home invasion",
+      "People convicted of break-ins",
+      "Courts",
+      "Police and prosecutors",
+      "People living in occupied homes"
+    ],
+    "background": null,
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "crime-justice"
+    ]
+  }
+}

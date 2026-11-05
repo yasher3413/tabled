@@ -1,0 +1,16 @@
+{
+  "name": "tabled-launch-film",
+  "private": true,
+  "type": "module",
+  "description": "Tabled launch film, written as code. See README.md.",
+  "scripts": {
+    "prep": "python3 scripts/prep-data.py",
+    "audio": "python3 audio/score.py",
+    "stills": "node render/stills.mjs",
+    "render": "node render/render.mjs"
+  },
+  "dependencies": {
+    "@fontsource/brygada-1918": "5.2.5",
+    "@fontsource/libre-franklin": "5.2.5"
+  }
+}

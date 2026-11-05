@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // The launch film is a separate, self-contained project (see video/README.md).
+    "video/**",
   ]),
 ]);
 

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tabled launch film</title>
+<link rel="stylesheet" href="/node_modules/@fontsource/brygada-1918/500.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/brygada-1918/600.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/libre-franklin/400.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/libre-franklin/500.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/libre-franklin/600.css">
+<style>html,body{margin:0;background:#171310}canvas{display:block;width:100vw;height:auto}</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+import { setup, draw, W, H } from "/src/film.js"
+const canvas = document.getElementById("c")
+const ctx = canvas.getContext("2d", { willReadFrequently: true })
+const sample = "Tabled — Québec Sénat ’ … ⌘ 0123456789"
+const faces = ["500 40px 'Brygada 1918'", "600 40px 'Brygada 1918'", "400 40px 'Libre Franklin'", "500 40px 'Libre Franklin'", "600 40px 'Libre Franklin'"]
+await Promise.all(faces.map((f) => document.fonts.load(f, sample)))
+await document.fonts.ready
+const D = await (await fetch("/data/film.json")).json()
+const F = setup(ctx, D)
+
+// Render frame `f` at 60 fps with `n` subframes over a 180 degree shutter, averaged in float.
+let acc = null
+window.renderFrame = (f, n = 4) => {
+  const t = f / 60
+  if (n <= 1) {
+    draw(ctx, F, t)
+    return
+  }
+  if (!acc) acc = new Float32Array(W * H * 4)
+  acc.fill(0)
+  for (let k = 0; k < n; k++) {
+    draw(ctx, F, t + ((k + 0.5) / n - 0.5) * (0.5 / 60))
+    const d = ctx.getImageData(0, 0, W, H).data
+    for (let i = 0; i < d.length; i++) acc[i] += d[i]
+  }
+  const img = ctx.createImageData(W, H)
+  const o = img.data
+  for (let i = 0; i < o.length; i++) o[i] = acc[i] / n + 0.5
+  ctx.putImageData(img, 0, 0)
+}
+// Raw RGBA of the canvas, as base64, for piping to ffmpeg.
+window.grab = () => {
+  const d = ctx.getImageData(0, 0, W, H).data
+  let s = ""
+  const CH = 0x8000
+  for (let i = 0; i < d.length; i += CH) s += String.fromCharCode.apply(null, d.subarray(i, i + CH))
+  return btoa(s)
+}
+window.preview = (t) => draw(ctx, F, t)
+window.ready = true
+</script>
+</body>
+</html>

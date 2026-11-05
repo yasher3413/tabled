@@ -93,13 +93,10 @@ Full checks: `pnpm typecheck && pnpm lint && pnpm test && pnpm build && pnpm tes
 
 ## What needs your input
 
-1. **GitHub secret for the daily refresh**: add your OpenAI key as the repo secret `OPENAI_API_KEY` (and the
-   variable `SUMMARY_PROVIDER=openai`) so new and changed bills get summaries automatically. Vercel does not need the
-   key: summaries are committed and loaded at build time.
-2. **Automatic deploys**: the Vercel project `tabled` is linked to the GitHub repo, but a push did not start a build,
-   so the Vercel GitHub app probably lacks access to this repo. Grant it under GitHub, Settings, Applications, Vercel.
-   Then create a Deploy Hook in Vercel (Settings, Git, Deploy Hooks) and save it as the GitHub secret
-   `VERCEL_DEPLOY_HOOK` so the daily refresh redeploys. Until then, deploy with `vercel deploy --prod --archive=tgz`.
+1. **The report form token**: the steps above. Everything else for the report form is live.
+2. **Daily refresh redeploys** (optional): the OpenAI secret is set and pushes to `main` deploy on their own. The
+   scheduled refresh only redeploys if you create a Deploy Hook in Vercel (Settings, Git, Deploy Hooks) and save it as
+   the GitHub secret `VERCEL_DEPLOY_HOOK`.
 3. **A custom domain** (optional): the site uses the free `tabled-ca.vercel.app`, because `tabled.vercel.app` belongs
    to someone else. If you buy a domain, add it in Vercel and set `NEXT_PUBLIC_SITE_URL` to it.
 

@@ -1,0 +1,31 @@
+{
+  "billId": "45-1/C-295",
+  "sourceHash": "ce331f9b78f9807db9558cca16d0fc01",
+  "model": "gpt-5.4-mini",
+  "generatedAt": "2026-11-05T02:42:57.409Z",
+  "sourceBasis": "full_text",
+  "sourceUrl": "https://www.parl.ca/DocumentViewer/en/14315879",
+  "summary": {
+    "tldr": "Requires CPP Investment Board policies to bar investments in entities linked to rights violations, prohibited weapons production, or corruption.",
+    "what_it_does": [
+      "Requires the board’s investment policies to say it must not make or keep investments in an entity if there are reasons to believe the entity has committed human, labour or environmental rights violations.",
+      "Requires the policies to exclude entities it has reason to believe produced arms, ammunition, implements or munitions of war that are prohibited under international law.",
+      "Requires the policies to exclude entities it has reason to believe ordered, controlled or directed corruption offences under the Criminal Code or the Corruption of Foreign Public Officials Act.",
+      "Sets the coming into force date by order of the Governor in Council."
+    ],
+    "who_it_affects": [
+      "Canada Pension Plan Investment Board",
+      "Board of directors",
+      "CPP contributors and beneficiaries",
+      "Companies the fund might invest in"
+    ],
+    "background": "The bill amends section 35 of the Canada Pension Plan Investment Board Act. The change takes effect on a day fixed by the Governor in Council.",
+    "source_basis": "full_text",
+    "coverage_note": null,
+    "topics": [
+      "rights-equality",
+      "crime-justice",
+      "government-operations"
+    ]
+  }
+}

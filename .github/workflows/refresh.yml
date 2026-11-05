@@ -42,6 +42,7 @@ jobs:
         run: pnpm summarize
 
       - name: Commit the summary cache
+        id: commit
         run: |
           if [ -n "$(git status --porcelain data/summaries)" ]; then
             git config user.name "github-actions[bot]"
@@ -49,11 +50,15 @@ jobs:
             git add data/summaries
             git commit -m "chore(data): refresh plain-English summaries"
             git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
           else
             echo "No summary changes."
           fi
 
+      # A push already starts a Vercel build, so the hook only covers days with no new summaries. The build
+      # re-ingests Parliament's data, so this keeps votes and bill stages fresh either way.
       - name: Trigger a deploy
+        if: steps.commit.outputs.pushed != 'true'
         env:
           VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         run: |
